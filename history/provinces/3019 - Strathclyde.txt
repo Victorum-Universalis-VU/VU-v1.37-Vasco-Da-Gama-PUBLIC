@@ -1,0 +1,38 @@
+#3019 - Strathclyde
+
+latent_trade_goods = {
+	coal 
+}
+
+#Default
+owner = STC
+controller = STC
+add_core = STC
+culture = celtic_lowland_scottish #Was scottish
+religion = catholic
+hre = no
+base_tax = 6
+base_production = 3
+trade_goods = naval_supplies #Glasgow's position as a national leader and later world leader in shipbuilding and naval industries
+base_manpower = 3
+capital = "Glasgow" #Glasgow was already an established settlement from this time onwards. So, I don't know what Driocht was smoking when he named this place Lanark? By San Felipe.
+is_city = yes
+
+#Claimants
+add_core = STC
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+	name = clyde_estuary_modifier
+	duration = -1
+}
+
+#History by SF
+1444.11.11 = { owner = SCO controller = SCO add_core = SCO } #By San Felipe

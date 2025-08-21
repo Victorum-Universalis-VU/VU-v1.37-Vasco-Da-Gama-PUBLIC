@@ -1,0 +1,19 @@
+#5147 - Alanya
+
+#Default
+owner = ALI
+controller = ALI
+add_core = ALI
+culture = turkish
+religion = sunni
+capital = "Alaiye"
+trade_goods = olive_oil
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = RUM controller = RUM add_core = RUM } #Rum territorial lands - By San Felipe
+1444.11.11 = { owner = ALI controller = ALI add_core = ALI } #Karaman territorial lands - By San Felipe

@@ -1,0 +1,18 @@
+#132 - Steiermark
+
+#Default
+owner = STY
+controller = STY
+add_core = STY
+culture = austrian
+religion = catholic
+base_tax = 3
+base_production = 2
+base_manpower = 1
+trade_goods = iron			#The town grew to an important commercial center for iron ore mined at nearby Eisenerz, but also for valeriana celtica used in perfumes during the 13th and 14th century.
+capital = "Judenburg" 
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes

@@ -1,0 +1,25 @@
+#7093 - Brixental
+
+#Default
+owner = BRX
+controller = BRX
+add_core = BRX
+culture = austrian
+religion = catholic
+capital = "Brixen im Thale"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = glass			#crystal chandeliers, also elite furniture
+is_city = yes
+hre = yes
+
+#Claimants
+add_claim = TIR
+
+#History by SF
+1312.1.1 = {
+	add_core = SLZ
+	controller = SLZ
+	owner = SLZ
+}

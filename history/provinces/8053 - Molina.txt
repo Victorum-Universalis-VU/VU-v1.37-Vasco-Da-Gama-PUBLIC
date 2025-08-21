@@ -1,0 +1,20 @@
+#8053 - Molina
+
+#Default
+owner = MLN
+controller = MLN
+add_core = MLN
+culture = castillian
+religion = catholic
+capital = "Molina"
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = saffron
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}

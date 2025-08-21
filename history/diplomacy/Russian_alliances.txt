@@ -1,0 +1,179 @@
+################################################################
+###################### Golden Horde (VU) #####################
+################################################################
+
+################
+# Dependencies #
+################
+
+dependency = {
+	subject_type = tributary_state
+	first = GOL
+	second = KBD
+	start_date = 1444.1.1
+	end_date = 1483.1.1
+}
+
+################################################################
+######################### Kazan (VU) #########################
+################################################################
+
+################
+# Dependencies #
+################
+
+dependency = {
+	subject_type = tributary_state
+	first = KAZ
+	second = UMA
+	start_date = 1444.1.1
+	end_date = 1489.1.1
+}
+
+################################################################
+######################## Muscovy (VU) ########################
+################################################################
+
+###########
+# Vassals #
+###########
+
+# Muscovy and Pskov
+dependency = {
+	subject_type = russian_principality
+	first = MOS
+	second = PSK
+	start_date = 1444.1.1
+	end_date = 1503.4.1
+}
+
+# Muscovy and Yaroslavl
+dependency = {
+	subject_type = russian_principality
+	first = MOS
+	second = YAR
+	start_date = 1444.1.1
+	end_date = 1463.1.1
+}
+
+# Muscovy and Beloozero
+dependency = {
+	subject_type = russian_principality
+	first = MOS
+	second = BLO
+	start_date = 1444.1.1
+	end_date = 1486.1.1
+}
+
+# Muscovy and Serpukhov
+dependency = {
+	subject_type = russian_principality
+	first = MOS
+	second = SPK
+	start_date = 1444.1.1
+	end_date = 1486.1.1
+}
+
+# Muscovy and Rostov
+dependency = {
+	subject_type = russian_principality
+	first = MOS
+	second = RSO
+	start_date = 1444.1.1
+	end_date = 1474.1.1
+}
+
+# Muscovite vassal - Great Perm
+dependency = {
+	subject_type = russian_principality
+	first = MOS
+	second = PRM
+	start_date = 1444.11.11
+	end_date = 1503.4.1
+}
+
+################################################################
+########################## Tver (VU) #########################
+################################################################
+
+###########
+# Vassals #
+###########
+
+dependency = {
+    subject_type = russian_principality
+	first = TVE
+	second = ZBT
+	start_date = 1444.1.1
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
+}	#Tver's autonomous vassal principality
+
+dependency = {
+    subject_type = russian_principality
+	first = TVE
+	second = ZBT
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1460.1.1
+}	#Tver's autonomous vassal principality
+
+################################################################
+######################## Ryazan (VU) #########################
+################################################################
+
+###########
+# Vassals #
+###########
+
+#Ryazan's autonomous vassal principality and bitter rival for most of its existance. Weakened greatly by this point.
+dependency = {
+	subject_type = russian_principality
+	first = RYA
+	second = PRS
+	start_date = 1444.1.1
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
+}
+
+#Ryazan's autonomous vassal principality and bitter rival for most of its existance. Weakened greatly by this point.
+dependency = {
+    subject_type = russian_principality
+	first = RYA
+	second = PRS
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1483.1.1
+}
+
+################################################################
+##################### RussianGalich (VU) #####################
+################################################################
+
+#############
+# Alliances #
+#############
+
+alliance = {
+	first = GLC
+	second = VYA
+	start_date = 1444.1.1
+	end_date = 1446.2.13	#Shemyaka takes Moscow
+}
+
+alliance = {
+	first = GLC
+	second = VYA
+	start_date = 1447.6.1
+	end_date = 1452.1.1	#Shemyaka fully defeated
+}
+
+alliance = {
+	first = GLC
+	second = MOZ
+	start_date = 1444.1.1
+	end_date = 1446.2.13	#Shemyaka takes Moscow
+}
+
+alliance = {
+	first = GLC
+	second = MOZ
+	start_date = 1447.6.1
+	end_date = 1452.1.1	#Shemyaka fully defeated
+}

@@ -1,0 +1,22 @@
+#4744 - Kadan
+
+latent_trade_goods = {
+    coal
+}
+
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+culture = czech
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 6
+base_manpower = 4
+trade_goods = cheese
+capital = "Kadan"
+is_city = yes
+
+#Commerce
+center_of_trade = 1

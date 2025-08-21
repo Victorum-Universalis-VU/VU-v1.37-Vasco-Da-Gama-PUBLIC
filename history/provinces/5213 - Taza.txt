@@ -1,0 +1,19 @@
+#5213 - Taza
+
+#Default
+owner = MOR
+controller = MOR
+add_core = MOR
+culture = ait_atta
+religion = sunni
+capital = "Taza"
+trade_goods = wool
+hre = no
+base_tax = 3 
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = MOR controller = MOR add_core = MOR remove_core = AMD } # Moroccan territorial lands - By San Felipe

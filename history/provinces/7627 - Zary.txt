@@ -1,0 +1,32 @@
+#7627 - Zary
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = SOR
+controller = SOR
+add_core = SOR
+capital = "Zary"
+culture = sorbian
+religion = catholic
+trade_goods = fruit
+hre = yes
+base_tax = 2
+base_production = 2
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = POL
+add_core = SIL
+add_core = MEI
+
+#History by SF
+1400.1.1 = {
+	remove_core = SIL
+	remove_core = POL
+}
+1419.12.1 = { unrest = 5 } # Hussite Wars, Battle of Nekmir
+1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava

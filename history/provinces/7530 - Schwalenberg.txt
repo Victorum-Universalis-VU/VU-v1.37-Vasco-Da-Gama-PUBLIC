@@ -1,0 +1,17 @@
+#7530 - Dorsten
+#Region - Germany
+#Area - Lower Saxony
+
+owner = KOL
+controller = KOL
+add_core = KOL
+add_core = SCW
+culture = hessian
+religion = catholic
+capital = "Dorsten"
+trade_goods = vegetables
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 2 
+is_city = yes

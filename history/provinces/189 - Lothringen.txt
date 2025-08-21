@@ -1,0 +1,22 @@
+#189 - Lothringen
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = LOR
+controller = LOR
+add_core = LOR
+culture = lorraine_culture
+capital = "Nancy"
+is_city = yes
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 6
+trade_goods = beer
+base_manpower = 4
+
+#Commerce
+center_of_trade = 2

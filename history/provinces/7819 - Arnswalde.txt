@@ -1,0 +1,27 @@
+#7819 - Arnswalde
+
+#Default
+owner = TEU
+controller = TEU
+add_core = TEU
+culture = polish
+religion = catholic
+capital = "Driesen"		# Castle in Driesen was much more important in early history of the region than Arnswalde
+base_tax = 2 
+base_production = 2 
+base_manpower = 1 
+trade_goods = grain
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = POL
+
+#History by SF
+1444.1.1 = {
+	owner = TEU
+	controller = TEU
+	add_core = TEU
+	remove_core = POL
+	culture = pommeranian
+}

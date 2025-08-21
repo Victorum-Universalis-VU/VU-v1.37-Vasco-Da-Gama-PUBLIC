@@ -1,0 +1,31 @@
+#4548 - Huelva
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = andalucian
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 3 
+trade_goods = seafood 
+base_manpower = 2
+capital = "Huelva" 
+is_city = yes
+
+#Buildings
+hall = yes
+temple = yes
+road_system = yes
+
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}
+1444.11.11 = {
+    owner = SVL
+    controller = SVL
+    add_core = SVL
+    remove_core = AMD
+} # Castilian territorial lands - By San Felipe

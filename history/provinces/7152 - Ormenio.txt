@@ -1,0 +1,42 @@
+#7152 - Ormenio
+
+#Default
+owner = BYZ
+controller = BYZ
+add_core = BYZ
+culture = greek
+religion = orthodox
+capital = "Chernomen"
+base_tax = 6
+base_production = 5
+base_manpower = 4
+trade_goods = cloth			#Major provincial center under the Ottomans, so a generic rich city good.
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1215.6.15 = { owner = PLS controller = PLS add_core = PLS } # Philippopolis territorial lands - By San Felipe
+1311.1.1 = {
+	owner = BUL
+	controller = BUL
+	add_core = BUL
+}#taken sometime during the rule of Theodore, putting it at half point
+1371.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = BYZ
+	capital = " irmen"
+	culture = turkish
+	religion = sunni
+} #falls to Turkey, but doesn't seem to have been devastated
+1444.11.11 = { add_core = BYZ }
+
+#Special Modifiers
+add_local_autonomy = 10

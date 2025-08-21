@@ -1,0 +1,15 @@
+#7633 - Mansfeld
+
+#Default
+owner = MNF
+controller = MNF
+add_core = MNF
+culture = saxon
+religion = catholic
+capital = "Mansfeld"
+trade_goods = pottery #Why was there salt? I can't find no records of that, changing to pottery -Don
+hre = yes
+base_tax = 2 
+base_production = 4 
+base_manpower = 2 
+is_city = yes

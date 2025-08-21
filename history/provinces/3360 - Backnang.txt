@@ -1,0 +1,15 @@
+#3360 - Backnang
+
+#Default
+owner = STU
+controller = STU
+add_core = STU
+capital = "Backnang"
+is_city = yes
+culture = swabian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 3
+trade_goods = lumber

@@ -1,0 +1,24 @@
+#1203 - Malindi
+
+#Default
+owner = MLI
+controller = MLI
+add_core = MLI
+culture = swahili
+religion = sunni
+capital = "Malindi"
+is_city = yes
+base_manpower = 4
+trade_goods = iron
+hre = no
+base_tax = 8
+base_production = 8
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

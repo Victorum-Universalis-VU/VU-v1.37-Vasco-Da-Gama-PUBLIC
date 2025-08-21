@@ -1,0 +1,24 @@
+#BPI - Biapas
+government = monarchy
+add_government_reform = iqta
+government_rank = 6 #Duchy
+mercantilism = 25
+primary_culture = mazandarani
+add_accepted_culture = talysh
+religion = sunni
+#technology_group = muslim
+technology_group = persian_tech_group
+unit_type = muslim
+capital = 4339 # Rasht
+religious_school = hanafi_school
+
+#History by SF
+1430.1.1 = {
+	monarch = {
+		name = "Ala al-Din"
+		dynasty = "Eshaqvand"
+		adm = 2
+		dip = 5
+		mil = 2
+	}
+}

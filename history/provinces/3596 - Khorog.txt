@@ -1,0 +1,14 @@
+#3596 - Khorog
+
+owner = BDK
+controller = BDK
+add_core = BDK
+culture = pamiri
+religion = shiite
+capital = "Khorog"
+trade_goods = pottery		#poor region. Could be livestock or wool too
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 2
+is_city = yes

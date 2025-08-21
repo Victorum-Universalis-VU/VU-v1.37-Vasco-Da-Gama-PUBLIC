@@ -1,0 +1,29 @@
+#7969 - Boulogne
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = FLA
+controller = FLA
+add_core = FLA
+culture = picard_culture
+religion = catholic
+capital = "Boulogne"
+base_tax = 4
+base_production = 4
+base_manpower = 3
+trade_goods = seafood
+is_city = yes
+hre = no
+
+#Claimants
+add_core = FRA
+
+#History by SF
+1444.11.11 = { 
+	owner = PIC 
+	controller = PIC 
+	add_core = PIC  
+} # Duchy of Picardy - By San Felipe

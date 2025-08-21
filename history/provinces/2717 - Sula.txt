@@ -1,0 +1,23 @@
+#2717 - Sula
+
+#Default
+culture = moluccan
+religion = animism
+capital = "Sula"
+trade_goods = unknown
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+native_size = 30
+native_ferocity = 2
+native_hostileness = 2
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

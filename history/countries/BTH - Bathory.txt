@@ -1,0 +1,12 @@
+#BTH - Bathory
+government = monarchy
+add_government_reform = eue_barony_reform
+government_rank = 2 #Barony
+#technology_group = eastern
+technology_group = hungarian_tech_group
+primary_culture = romanian	#switched from transylvanian
+add_accepted_culture = hungarian
+add_accepted_culture = szekely
+religion = orthodox
+unit_type = eastern
+capital = 3101	#Kolozs

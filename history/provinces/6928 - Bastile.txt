@@ -1,0 +1,25 @@
+#6928 - Arsenal
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+capital = "Bastile"
+is_city = yes
+culture = cosmopolitan_french
+religion = catholic
+hre = no
+base_tax = 7
+base_production = 6
+trade_goods = gunpowder	#was naval_supplies
+base_manpower = 5
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = PRI
+
+#History by SF
+1420.1.1 = { controller = ENG } # Captured by the English
+1437.1.1 = { controller = FRA } # Retaken by Charles VII

@@ -1,0 +1,23 @@
+#4393 - Arbil
+
+#Default
+owner = QAR
+controller = QAR
+add_core = QAR
+culture = assyrian	#last areas where Eastern-Aramaic communities were still plentiful
+religion = sunni
+capital = "Arbil"
+trade_goods = cloth
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = BHT
+add_core = ASR
+add_core = ASY 
+
+#Commerce
+center_of_trade = 1

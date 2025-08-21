@@ -1,0 +1,29 @@
+#4429 - Rajapur
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = marathi
+religion = hinduism
+capital = "Rajapur"
+trade_goods = saffron
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6 
+is_city = yes
+
+#Claimants
+add_core = BIJ
+add_core = MAR
+add_core = VIJ
+
+#History by SF
+1380.1.1 = {
+	controller = VIJ
+	owner = VIJ
+} # Taken by Harihara II
+
+#Special Modifiers
+add_rajputs_or_marathas_or_nobles_effect = yes

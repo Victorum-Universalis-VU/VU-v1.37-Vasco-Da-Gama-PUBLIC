@@ -1,0 +1,22 @@
+#3117 - Oppland
+
+#Default
+owner = BGR
+controller = BGR
+add_core = BGR
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 1  
+base_production = 1 
+trade_goods = fur
+base_manpower = 1 
+capital = "Lillehammer"
+is_city = yes
+
+#Claimants
+add_core = AKE
+add_core = NOR
+
+#History by SF
+1440.1.1 = { owner = NOR controller = NOR add_core = NOR } # Norwegian territorial lands - By San Felipe

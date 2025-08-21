@@ -1,0 +1,19 @@
+#1769 - Görz
+
+#Default
+owner = GRZ
+controller = GRZ
+add_core = GRZ
+culture = friulian_culture
+religion = catholic
+base_tax = 5
+base_production = 5
+trade_goods = lead
+base_manpower = 4
+capital = "Gorizia"
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = AQU
+add_core = CNL

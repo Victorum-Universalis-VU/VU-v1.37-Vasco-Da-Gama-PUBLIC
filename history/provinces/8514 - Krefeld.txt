@@ -1,0 +1,16 @@
+#8514 - Krefeld
+
+#Default
+owner = KOL
+controller = KOL
+add_core = KOL
+culture = hessian
+religion = catholic
+trade_goods = wool
+capital = "Krefeld"
+base_tax = 3
+base_production = 4
+base_manpower = 2
+is_city = yes
+fort_15th = yes #Godesberg
+hre = yes

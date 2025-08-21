@@ -1,0 +1,18 @@
+#3224 - Insterburg
+
+#Default
+owner = TEU
+controller = TEU
+add_core = TEU
+capital = "Stallupönen"
+culture = yotvingian_culture
+religion = catholic
+trade_goods = naval_supplies
+hre = no
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+
+#Commerce
+center_of_trade = 1

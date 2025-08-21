@@ -1,0 +1,28 @@
+#4130 - Somerset
+
+latent_trade_goods = { #Somerset Coalfields from 15th to 19th centuries
+	coal 
+} 
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = west_country
+religion = lollardy
+hre = no
+base_tax = 3  
+base_production = 3 
+trade_goods = cider #Large number of fruits grown including Strawberries at Cheddar and Apples across the county for Cider. Generally an agricultural shire
+base_manpower = 2 
+capital = "Taunton"
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#History by SF
+1444.11.11 = { owner = SM1 controller = SM1 add_core = SM1 } # The Dukedom of Somerset territory - By San Felipe

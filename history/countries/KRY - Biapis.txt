@@ -1,0 +1,24 @@
+#KRY - Biapis (Gilan)
+government = monarchy
+add_government_reform = unlocked_islamic_taifa_reform
+government_rank = 7
+mercantilism = 25
+primary_culture = mazandarani
+religion = shiite #Zaidiyyah
+#technology_group = muslim
+technology_group = persian_tech_group
+unit_type = muslim
+capital = 417 # Lahijan
+religious_school = zaidi_school
+
+#History by SF
+1430.1.1 = {
+	monarch = {
+		name = "Sayyed Naser"
+		dynasty = "Kiya"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_piety = 0.25
+}

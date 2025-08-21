@@ -1,0 +1,15 @@
+#8771 - Mitterfels
+
+#Default
+owner = UBV
+controller = UBV
+add_core = UBV
+culture = bavarian
+religion = catholic
+base_tax = 1
+base_production = 3
+trade_goods = beer
+base_manpower = 2 
+capital	= "Mitterfels" 
+is_city = yes
+hre = yes

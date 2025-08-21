@@ -1,0 +1,36 @@
+#2314 - Rahba
+
+#Default
+owner = MAM
+controller = MAM
+add_core = MAM
+culture = al_suryah_arabic	#Arabic Syrian
+religion = sunni
+capital = "Deir ez-Zor"
+trade_goods = camel		#Mostly poor nomadic inhabitants since at least the destruction caused by the Mongols, if not earlier than that
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1 
+is_city = yes
+
+#Claimants
+add_core = SYR
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1411.1.1 = {
+	owner = AKK
+	controller = AKK
+	add_core = AKK
+	remove_core = MAM
+	add_claim = MAM
+} # The Aq-Qoyunlu extends its borders to roughly this area
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

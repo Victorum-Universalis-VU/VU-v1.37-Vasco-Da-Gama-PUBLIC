@@ -1,0 +1,18 @@
+#527 - Khandesh
+
+#Default
+owner = KHD
+controller = KHD
+add_core = KHD
+culture = marathi
+religion = hinduism
+capital = "Thalner"
+trade_goods = cotton
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8 
+is_city = yes
+
+#Claimants
+add_core = MAR

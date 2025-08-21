@@ -1,0 +1,18 @@
+#730 - Girin
+
+#Default
+owner = MHX
+controller = MHX
+add_core = MHX
+culture = manchu
+religion = confucianism
+capital = "Girin"
+trade_goods = grain
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 10
+is_city = yes
+
+#Commerce
+center_of_trade = 3

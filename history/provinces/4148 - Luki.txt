@@ -1,0 +1,18 @@
+#4148 - Velikiye Luki
+
+#Default
+owner = NOV
+controller = NOV
+add_core = NOV
+culture = novgorodian
+religion = orthodox
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = cloth			#generic developed trade good. Rich trading area with potential for growth 
+base_manpower = 3 
+capital = "Velikiye Luki"
+is_city = yes
+
+#Special Modifiers
+add_local_autonomy = 50			#Appears to be co-owned between Novgorod and Lithuania from 1406, but was mostly ethnically and culturaly tied to Novgorod. Calling it Novgorod ownership with high autonomy.

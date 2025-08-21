@@ -1,0 +1,36 @@
+#7080 - Ossola
+
+#Default
+owner = MLO
+controller = MLO
+add_core = MLO
+culture = lombard
+religion = catholic
+capital = "Ossola"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = apiculture
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
+	owner = NVA
+	controller = NVA
+	add_core = NVA
+	remove_core = MLO
+} #Return to proper mod added owners and cuts vanilla core, typically.
+1339.2.21 = {
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+} # Giovanni Visconti defeats Calcino Tornielli and apparantly claims the region for Milan.

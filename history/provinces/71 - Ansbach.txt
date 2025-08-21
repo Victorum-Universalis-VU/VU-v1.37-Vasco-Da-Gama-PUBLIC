@@ -1,0 +1,18 @@
+#71 - Ansbach
+
+#Default
+owner = ANS
+controller = ANS
+add_core = ANS
+culture = franconian
+religion = catholic
+hre = yes
+trade_goods = grain #Where the fuck did the salt here come from? Changing to grain as it's one of the more fertile areas of Franconia -Don
+capital = "Hall"
+is_city = yes
+base_manpower = 4
+base_tax = 6			#Old power base of the Hohenzollern, nowhere near as influencial as it once was, like the family, though. Moderately average
+base_production = 5
+
+#buildings
+fort_15th = yes

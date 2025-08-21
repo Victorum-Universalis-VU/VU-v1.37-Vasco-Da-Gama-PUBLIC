@@ -1,0 +1,21 @@
+#1948 - Bidar
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = kannada
+religion = hinduism
+capital = "Bidar"
+trade_goods = silk
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 10
+is_city = yes
+
+#Buildings
+fort_15th = yes #Bidar Fort
+
+#Commerce
+center_of_trade = 2

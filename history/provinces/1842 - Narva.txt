@@ -1,0 +1,27 @@
+#1842 - Narva
+
+#Default
+owner = LIV
+controller = LIV
+add_core = LIV
+culture = estonian
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 1 
+trade_goods = grain
+base_manpower = 1 
+capital = "Narva"
+is_city = yes
+
+#Claimants
+add_core = EST
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

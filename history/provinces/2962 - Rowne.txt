@@ -1,0 +1,33 @@
+#2962 - Rowne
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR
+culture = volhynian
+religion = orthodox
+hre = no
+base_tax = 3 
+base_production = 3 
+trade_goods = iron
+base_manpower = 1 
+capital = "Rowne"
+is_city = yes
+
+#Claimants
+add_core = VOL
+
+#Commerce
+center_of_trade = 1
+
+#Special Modifiers
+add_local_autonomy = 15
+
+#History by SF
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	add_core = VOL
+	remove_core = KIR
+}

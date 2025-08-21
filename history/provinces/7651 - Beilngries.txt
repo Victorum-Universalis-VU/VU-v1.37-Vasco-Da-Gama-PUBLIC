@@ -1,0 +1,18 @@
+#7651 - Conradsgrün
+#Region - Bohemia
+#Area - Ore Mountains
+
+owner = BOH
+controller = BOH
+add_core = BOH
+culture = franconian
+religion = catholic
+base_tax = 4
+base_production = 4
+base_manpower = 3
+trade_goods = silver
+capital	= "Conradsgrün" 
+is_city = yes
+hre = yes
+
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

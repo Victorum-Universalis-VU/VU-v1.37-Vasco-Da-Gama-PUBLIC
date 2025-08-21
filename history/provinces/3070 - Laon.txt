@@ -1,0 +1,22 @@
+#3070 - Laon
+
+#Default
+owner = LAO
+controller = LAO
+add_core = LAO
+capital = "Laon"
+is_city = yes
+culture = cosmopolitan_french
+religion = catholic
+hre = no
+base_tax = 4 
+base_production = 4
+trade_goods = books
+base_manpower = 2 
+
+#History by SF
+1429.1.1 = { 
+	owner = FRA 
+	controller = FRA 
+	add_core = FRA
+} # Retaken by the French

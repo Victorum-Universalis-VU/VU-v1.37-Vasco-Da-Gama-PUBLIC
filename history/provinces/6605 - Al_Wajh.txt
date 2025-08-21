@@ -1,0 +1,26 @@
+#6605 - Al_Wajh
+
+#Default
+owner = MDA
+controller = MDA
+add_core = MDA
+culture = bedouin_arabic
+religion = sunni
+capital = "al-Wajh"
+trade_goods = fish
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = NAB
+
+#History by SF
+1215.6.15 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
+1444.11.11 = { 
+	owner = MDA 
+	controller = MDA 
+	add_core = MDA
+} # Medina territorial lands - By San Felipe

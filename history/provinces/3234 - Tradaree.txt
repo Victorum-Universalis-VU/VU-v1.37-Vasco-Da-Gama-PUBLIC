@@ -1,0 +1,19 @@
+#3234 - Tradaree
+
+#Default
+owner = THO
+controller = THO
+add_core = THO
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = lumber
+capital = "Tradaree"
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = UIB controller = UIB add_core = UIB } # Ui Briain clan territory - By San Felipe
+1444.11.11 = { owner = THO controller = THO add_core = THO } # Thomond clan territory - By San Felipe

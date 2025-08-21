@@ -1,0 +1,15 @@
+#7167 - Misamis Oriental
+
+#Default
+owner = BTU
+controller = BTU
+add_core = BTU
+culture = visayan
+religion = animism
+capital = "Himologan"
+trade_goods = diamonds
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 2
+is_city = yes

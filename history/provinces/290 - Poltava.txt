@@ -1,0 +1,29 @@
+#290 - Poltava
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR 
+culture = ruthenian
+religion = orthodox
+hre = no
+base_tax = 1 
+base_production = 1 
+trade_goods = grain
+base_manpower = 1 
+capital = "Poltava"
+is_city = yes
+
+#Claimants
+add_core = CHR
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.11 = {
+	owner = ZAZ
+	controller = ZAZ
+	add_core = ZAZ
+	remove_core = KIR
+}

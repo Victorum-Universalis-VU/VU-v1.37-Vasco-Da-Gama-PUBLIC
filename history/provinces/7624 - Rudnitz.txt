@@ -1,0 +1,17 @@
+#7624 - Rudnitz
+#Region - Germany
+#Area - Vorpommern
+
+owner = BRA
+controller = BRA
+add_core = BRA
+culture = pommeranian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = lumber
+capital = "Rudnitz"
+is_city = yes
+

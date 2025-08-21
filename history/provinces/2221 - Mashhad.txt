@@ -1,0 +1,24 @@
+#2221 - Mashhad
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = khorasani
+religion = shiite
+capital = "Mashhad"
+trade_goods = copper
+hre = no
+base_tax = 6
+base_production = 8
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = KHO
+
+#Commerce
+center_of_trade = 2
+
+#Triggered Modifiers
+add_province_triggered_modifier = religious_center

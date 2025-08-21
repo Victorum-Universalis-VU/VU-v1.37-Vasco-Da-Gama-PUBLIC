@@ -1,0 +1,5 @@
+1212.12.9 = { emperor = SIC } #Frederick II
+1355.4.5 = { emperor = BOH } #Charles IV
+1399.1.1 = { emperor = BOH }
+1419.8.16 = { emperor = HUN }
+1437.12.9 = { emperor = STY } #Was HAB

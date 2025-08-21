@@ -1,0 +1,21 @@
+#433 - Yadz
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = persian
+religion = zoroastrian
+capital = "Yazd"
+trade_goods = camel
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = YZD
+
+#Commerce
+center_of_trade = 1

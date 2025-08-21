@@ -1,0 +1,21 @@
+#8445 - Neuchatel
+
+#Biel
+owner = B1E
+controller = B1E
+add_core = B1E 
+culture = swiss
+religion = catholic
+capital = "Neuchâtel"
+trade_goods = cheese
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

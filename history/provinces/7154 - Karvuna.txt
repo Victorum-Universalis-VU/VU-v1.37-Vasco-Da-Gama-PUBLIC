@@ -1,0 +1,34 @@
+#7154 - Karvuna
+
+owner = BUL
+controller = BUL
+add_core = BUL
+add_core = DRJ
+culture = bulgarian			#Niki placed turkish, noting Sari Saltak, but I'm opting for a poorer province for this representation. And that is assuming it is even true, and not just folklore
+religion = orthodox
+capital = "Karvuna"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = wine			#was grain - major center of the Bulgarian empire, and a major center of commerce in the early Ottoman period, so could be many things, but become famous in the Ottoman period as a Christain port exporting grain, so going with that.
+is_city = yes
+hre = no
+add_local_autonomy = 10
+
+#Special Modifiers
+
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#Claimants
+add_core = WAL
+add_core = DRJ
+add_core = BDJ
+
+1417.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+} #falls to Turkey

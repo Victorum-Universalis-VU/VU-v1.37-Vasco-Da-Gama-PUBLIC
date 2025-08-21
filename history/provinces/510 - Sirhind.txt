@@ -1,0 +1,26 @@
+#510 - Sirhind
+
+#Default
+owner = SRH
+controller = SRH
+add_core = SRH
+culture = panjabi
+religion = hinduism
+capital = "Sirhind"
+trade_goods = cotton
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 10
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = DLH
+add_core = PUN
+add_core = PTA
+
+#Commerce
+center_of_trade = 2

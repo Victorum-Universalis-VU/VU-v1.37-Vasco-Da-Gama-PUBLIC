@@ -1,0 +1,11 @@
+#ROH - Rohan
+government = monarchy
+add_government_reform = unlocked_eue_kingdom_reform
+government_rank = 8 #Kingdom
+primary_culture = celtic_breton_culture #Was breton
+add_accepted_culture = breton
+religion = catholic
+technology_group = western
+unit_type = western
+capital = 7997
+

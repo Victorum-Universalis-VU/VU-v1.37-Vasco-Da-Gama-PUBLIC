@@ -1,0 +1,21 @@
+#4430 - Daman
+
+#Default
+owner = GUJ
+controller = GUJ
+add_core = GUJ
+culture = marathi
+religion = hinduism
+capital = "Daman"
+trade_goods = cloth
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = MAR
+
+#Special Modifiers
+add_jains_or_burghers_effect = yes

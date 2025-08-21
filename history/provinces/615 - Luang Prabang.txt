@@ -1,0 +1,21 @@
+#615 - Luang Prabang
+
+#Default
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = lao
+religion = buddhism
+capital = "Xieng Tong"
+trade_goods = jade
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = LUA
+
+#Commerce
+center_of_trade = 2

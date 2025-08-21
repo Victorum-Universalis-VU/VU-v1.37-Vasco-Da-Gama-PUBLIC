@@ -1,0 +1,15 @@
+#8202 - Csanád
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Csanád"
+is_city = yes
+culture = hungarian
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = beer
+hre = no

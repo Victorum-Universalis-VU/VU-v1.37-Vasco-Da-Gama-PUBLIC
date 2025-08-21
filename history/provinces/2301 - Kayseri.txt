@@ -1,0 +1,26 @@
+#2301 - Kayseri
+
+#Default
+owner = KAR
+controller = KAR
+add_core = KAR
+culture = cappadocian_greek
+religion = orthodox
+capital = "Kayseri"
+trade_goods = copper
+hre = no
+base_tax = 4
+base_production = 3 #4
+base_manpower = 6 #3
+is_city = yes
+
+#Claimants
+add_core = ERE
+add_core = DUL
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1215.6.15 = { owner = RUM controller = RUM add_core = RUM } #Rum territorial lands - By San Felipe
+1444.11.11 = { owner = KAR controller = KAR add_core = KAR } # Karaman territorial lands - By San Felipe

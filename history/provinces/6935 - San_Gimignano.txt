@@ -1,0 +1,20 @@
+#6935 - San Gimignano
+
+#Default
+owner = SGM
+controller = SGM
+add_core = SGM
+culture = tuscan
+religion = catholic
+capital = "San Gimignano"
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = wine
+is_city = yes
+hre = yes
+
+#History by SF
+1215.6.15 = { owner = LAN controller = LAN add_core = LAN } # Florentine territorial lands - By San Felipe
+#1300 - San Gimignano becomes a vassal of Florence
+1444.1.1 = { owner = LAN controller = LAN add_core = LAN } # San Gimignano territorial lands - By San Felipe

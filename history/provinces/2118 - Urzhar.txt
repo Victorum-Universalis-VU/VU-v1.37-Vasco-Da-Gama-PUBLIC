@@ -1,0 +1,21 @@
+#2118 - Urzhar
+
+#Default
+owner = OIR
+controller = OIR
+add_core = OIR
+culture = dzungar
+religion = sunni
+capital = "Urzhar"
+trade_goods = salt
+hre = no
+base_tax = 2  
+base_production = 2 
+base_manpower = 2 
+is_city = yes
+
+#Claims
+add_core = ZUN
+
+#Commerce
+center_of_trade = 1

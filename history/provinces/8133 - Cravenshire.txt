@@ -1,0 +1,22 @@
+#8133 - Cravenshire
+
+latent_trade_goods = { 
+	coal 
+}
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+capital = "Skipton"
+is_city = yes
+culture = yorkshire
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = salt #VU - Was wool but changed to salt. By San Felipe
+hre = no
+
+#Claimants
+add_core = YRK

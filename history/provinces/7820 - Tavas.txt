@@ -1,0 +1,28 @@
+#7820 - Tavas
+
+#Default
+owner = RUM
+controller = RUM
+add_core = RUM
+culture = turkish
+religion = sunni
+capital = "Tavas"
+trade_goods = lumber		#Mountainous region, may be wool or olive oil too
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = MEN
+add_core = TKK
+
+#History by SF
+1444.11.11 = { 
+	owner = TUR 
+	controller = TUR 
+	add_core = TUR
+	#Claimants
+	add_core = BYZ 
+} # Turkish territorial lands - By San Felipe

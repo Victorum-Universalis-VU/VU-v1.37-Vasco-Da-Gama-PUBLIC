@@ -1,0 +1,40 @@
+#7083 - ValCamonica
+
+#Default
+owner = BSC
+controller = BSC
+add_core = BSC
+add_core = MLO
+culture = lombard
+religion = catholic
+capital = "Breno"			#modern capital is Darfo, but Breno served that purpouse during Eu4 times - Nikicaga
+base_tax = 3
+base_production = 5
+base_manpower = 2
+trade_goods = iron			#best known for iron mining
+is_city = yes
+hre = yes
+
+#Special Modifiers
+add_local_autonomy = 50
+
+#History by SF
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
+	owner = MLO
+	controller = MLO
+} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
+	owner = BSC
+	controller = BSC
+} #Return to proper mod added owners and cuts vanilla core, typically.
+1337.10.8 = {
+	owner = MLO
+	controller = MLO
+} #Visconti establish control over the region.
+1428.1.10 = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+	add_local_autonomy = -50
+}	#Venice finally decided to occupy the area, de jured granted some years before by Brescia.
+1433.1.1 = { hre = no } # Treaty between Doge Francesco Foscari and Emperor Sigismund of the HRE

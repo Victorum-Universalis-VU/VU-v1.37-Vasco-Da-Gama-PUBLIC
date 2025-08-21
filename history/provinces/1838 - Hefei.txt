@@ -1,0 +1,24 @@
+#1838 - Hefei
+
+#Default
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = jianghuai
+religion = confucianism
+capital = "Hefei"
+trade_goods = books
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 10
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

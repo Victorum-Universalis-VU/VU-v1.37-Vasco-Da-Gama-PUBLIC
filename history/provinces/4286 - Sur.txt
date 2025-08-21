@@ -1,0 +1,20 @@
+#4286 - Sur
+
+#Default
+owner = ORM
+controller = ORM
+add_core = ORM
+capital = "Al Fugaira"
+culture = gulf_arabic
+religion = shiite
+trade_goods = dates
+hre = no
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+
+#Claimants
+add_core = ALH
+add_core = OMA
+add_core = SHR

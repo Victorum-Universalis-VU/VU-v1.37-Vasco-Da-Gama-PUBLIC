@@ -1,0 +1,17 @@
+#2356 - Shymkent
+
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = uzbehk
+religion = sunni
+capital = "Shymkent"
+trade_goods = tea
+hre = no
+base_tax = 2  
+base_production = 2 
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = TRS

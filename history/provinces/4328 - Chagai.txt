@@ -1,0 +1,15 @@
+#4328 - Turnhout
+
+#Default
+owner = BRB
+controller = BRB
+add_core = BRB
+is_city = yes
+capital = "Turnhout"
+culture = ger_brabantian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 1
+trade_goods = wool

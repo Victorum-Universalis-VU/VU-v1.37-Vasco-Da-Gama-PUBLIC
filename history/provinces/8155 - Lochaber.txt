@@ -1,0 +1,24 @@
+#8155 - Lochaber
+
+#Default
+owner = SCO
+controller = SCO
+add_core = SCO
+capital = "Inverlochy"
+is_city = yes
+culture = celtic_highland_scottish_culture #Was highland_scottish
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = lumber
+hre = no
+
+#History by SF
+1444.11.11 = { owner = CM1 controller = CM1 add_core = CM1 } # The Isles clan territory - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = loch_linnhe_estuary_modifier
+    duration = -1
+}

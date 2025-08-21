@@ -1,0 +1,30 @@
+#2745 - Gyeongju
+
+#Default
+owner = KOR
+controller = KOR
+add_core = KOR
+culture = korean
+religion = confucianism
+capital = "Gyeongju"
+trade_goods = tea
+hre = no
+base_tax = 12
+base_production = 12
+base_manpower = 12
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = SLL
+
+#Commerce
+center_of_trade = 4
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_4
+    duration = -1
+}

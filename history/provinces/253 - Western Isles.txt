@@ -1,0 +1,19 @@
+#253 - Western Isles
+
+#Default
+owner = MCN
+controller = MCN
+add_core = MCN
+culture = gallgaidheil			#The distinction between Gallgael and Gael was minimal by the 15th century, if not much sooner, but Ive already recieved multiple requests for this subculture, so give the people that for which they clamour...
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 2
+trade_goods = whiskey	#Whisky
+base_manpower = 2
+capital = "Steòrnabhagh"
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = KOI controller = KOI add_core = KOI } # Kingdom of Mann territory - By San Felipe
+1444.11.11 = { owner = MCN controller = MCN add_core = MCN } # The MacNeil territory - By San Felipe

@@ -1,0 +1,31 @@
+#133 - Linz
+
+#Default
+owner = AUT
+controller = AUT
+add_core = AUT
+culture = austrian
+religion = catholic
+base_tax = 5
+base_production = 3
+base_manpower = 4
+trade_goods = books
+capital = "Linz" 
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = navalbase_modifier_3
+    duration = -1
+}

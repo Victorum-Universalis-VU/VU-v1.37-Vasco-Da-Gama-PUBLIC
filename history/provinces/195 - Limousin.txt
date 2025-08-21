@@ -1,0 +1,22 @@
+#195 - Limousin
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+capital = "Limoges"
+is_city = yes
+culture = auvergnat_culture	#aquitaine vanilla
+religion = catholic
+hre = no
+base_tax = 5 
+base_production = 5 
+trade_goods = glass
+base_manpower = 3 
+
+#Claimants
+add_core = GUY
+add_core = LMG #Prussia
+
+#Commerce
+center_of_trade = 1

@@ -1,0 +1,99 @@
+#MNG - Ming
+government = monarchy
+add_government_reform = celestial_empire
+government_rank = 9 #Empire
+technology_group = chinese
+religion = confucianism
+add_harmonized_religion = mahayana
+add_harmonized_religion = taoism
+primary_culture = jianghuai
+capital = 1821	# Nanjing
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Dharma"
+			has_dlc = "Emperor"
+		}
+	}
+	change_estate_land_share = {
+		estate = estate_burghers
+		share = 10
+	}
+	change_estate_land_share = {
+		estate = estate_church
+		share = 10
+	}
+	change_estate_land_share = {
+		estate = estate_nobles
+		share = -20
+	}
+}
+
+add_prestige = 45
+
+if = { 
+	limit = { has_dlc = "Domination" }
+	every_owned_province = { 
+		limit = { region = south_china_region } 
+		add_local_autonomy = 25 
+	}
+
+	every_owned_province = { 
+		limit = { region = north_china_region } 
+		add_local_autonomy = 10
+	}
+
+	every_owned_province = { 
+		limit = { region = xinan_region } 
+		add_local_autonomy = 50
+	}
+}
+
+if = { 
+	limit = { has_dlc = "Domination" }
+	set_estate_privilege = estate_eunuchs_delegate_subject_diplomacy_privilege
+}
+
+#History by SF
+1435.1.31 = {
+	monarch = {
+		name = "Qizhen" #Zhengtong Emperor
+		dynasty = "Zhu"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = craven_personality
+	add_ruler_personality = naive_personality
+	heir = {
+        name = "Qiyu" #Jingtai Emperor
+        monarch_name = "Qiyu"
+        dynasty = "Zhu"
+        birth_date = 1428.9.21
+        claim = 95
+        adm = 3
+        dip = 3
+        mil = 4
+    }
+}
+
+1444.11.10 = {
+	change_estate_land_share = {
+		estate = all
+		share = 25
+	}
+	change_estate_land_share = {
+		estate = estate_eunuchs
+		share = -10
+	}
+	change_estate_land_share = {
+		estate = estate_eunuchs
+		share = -10
+	}
+	change_estate_land_share = {
+		estate = all
+		share = 5
+	}
+}

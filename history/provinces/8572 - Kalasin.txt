@@ -1,0 +1,19 @@
+#8572 - Kalasin
+
+#Default
+owner = LXA
+controller = LXA
+culture = lao
+religion = buddhism
+capital = "Kalasin"
+trade_goods = livestock
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = LXA
+add_core = CHK
+add_core = VIE

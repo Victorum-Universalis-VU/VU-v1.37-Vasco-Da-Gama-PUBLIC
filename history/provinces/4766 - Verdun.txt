@@ -1,0 +1,21 @@
+#4766 - Verdun
+
+#Default
+owner = VDN
+controller = VDN
+add_core = VDN
+capital = "Verdun"
+is_city = yes
+culture = lorraine_culture
+religion = catholic
+hre = yes
+base_tax = 7
+base_production = 7
+trade_goods = fruit			#Dragées, famous for them since the 1200s... calling it fruit due to nuts
+base_manpower = 4
+
+#Buildings
+fort_15th = yes #La Notre-Dame de Verdun
+
+#Commerce
+center_of_trade = 2

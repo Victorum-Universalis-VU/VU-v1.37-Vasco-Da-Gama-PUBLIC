@@ -1,0 +1,15 @@
+#3583 - Gleisdorf
+
+#Default
+owner = STY
+controller = STY
+add_core = STY
+culture = austrian
+religion = catholic
+base_tax = 3
+base_production = 4
+base_manpower = 3
+trade_goods = iron 
+capital = "Gleisdorf"
+is_city = yes
+hre = yes

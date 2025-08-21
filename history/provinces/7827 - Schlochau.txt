@@ -1,0 +1,26 @@
+#7827 - Schlochau
+
+#Default
+owner = POL
+controller = POL
+add_core = POL
+culture = kashubian_culture
+religion = catholic
+capital = "Schlochau"
+base_tax = 4
+base_production = 4
+base_manpower = 4			#Massive fort
+trade_goods = glass
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1444.1.11 = {
+    owner = TEU
+	controller = TEU
+	add_core = TEU
+	remove_core = POL
+}

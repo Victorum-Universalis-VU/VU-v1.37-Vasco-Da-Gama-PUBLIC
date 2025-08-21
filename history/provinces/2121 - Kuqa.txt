@@ -1,0 +1,14 @@
+# 2121 - Kuqa
+
+owner = KAS
+controller = KAS
+add_core = KAS
+culture = uyghur
+religion = sunni
+capital = "Kuqa"
+trade_goods = gold
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes

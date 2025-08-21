@@ -1,0 +1,18 @@
+#4777 - Forez
+
+#Default
+owner = FOR
+controller = FOR
+add_core = FOR
+capital = "Feurs"
+is_city = yes
+culture = arpitan
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 2 
+trade_goods = iron
+base_manpower = 2 
+
+#Claimants
+add_core = FRA

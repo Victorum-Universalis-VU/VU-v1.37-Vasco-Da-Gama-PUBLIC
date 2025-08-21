@@ -1,0 +1,25 @@
+#6580 - Al_Goled
+
+#Default
+owner = ABB
+controller = ABB
+add_core = ABB
+culture = nubian
+religion = shiite
+capital = "al-Goled"
+is_city = yes
+trade_goods = dates
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+#Claimants
+add_core = MAK
+add_core = HWW
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = vu_nile_river_in_arid_desert_province
+	duration = -1
+}

@@ -1,0 +1,23 @@
+#8081 - Antequera
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = andalusi_arabic
+religion = sunni
+capital = "Antequera"
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = olive_oil		#Main production was agriculture, local olive oil was fameous since Roman Era
+is_city = yes
+hre = no
+
+#History by SF
+1444.11.11 = {
+    owner = GRA
+    controller = GRA
+    add_core = GRA
+    remove_core = AMD
+} # Granadan territorial lands - By San Felipe

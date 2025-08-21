@@ -1,0 +1,29 @@
+#530 - South Konkan (Dabhol, Rajapur, up to and including Bankot)
+
+#Default
+owner = VIJ
+controller = VIJ
+add_core = VIJ
+culture = marathi
+religion = hinduism
+capital = "Dabhol"
+trade_goods = spices
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Special Modifiers
+add_local_autonomy = 75
+
+#Claimants
+add_core = BIJ
+add_core = MAR
+
+#History by SF
+1444.1.1 = { 
+	owner = BAH
+	controller = BAH
+	add_core = BAH
+}

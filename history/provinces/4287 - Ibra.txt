@@ -1,0 +1,18 @@
+#4287 - Ibra
+
+#Default
+owner = MUS
+controller = MUS
+add_core = MUS
+capital = "Ibra"
+culture = omani_culture
+religion = ibadi
+trade_goods = wool
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = OMA

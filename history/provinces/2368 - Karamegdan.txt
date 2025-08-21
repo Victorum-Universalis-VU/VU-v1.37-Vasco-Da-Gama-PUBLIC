@@ -1,0 +1,17 @@
+#2368 - Karamegdan
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = khazak
+religion = sunni
+capital = "Karamegdan"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = KZH

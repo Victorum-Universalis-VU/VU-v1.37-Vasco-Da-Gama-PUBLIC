@@ -1,0 +1,23 @@
+#7626 - Luckau
+
+#Default
+owner = SOR
+controller = SOR
+add_core = SOR
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 3
+trade_goods = lumber
+capital = "Luckenwalde"
+is_city = yes
+
+#History by SF
+1444.1.1 = {
+	owner = MAG
+	controller = MAG
+	add_core = MAG
+	remove_core = SOR
+}

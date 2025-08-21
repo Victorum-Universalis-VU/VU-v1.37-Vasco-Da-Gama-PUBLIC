@@ -1,0 +1,30 @@
+#8250 - Zibice
+
+#Default
+owner = SIL
+controller = SIL
+add_core = SIL
+add_core = POL
+capital = "Ziebice"
+is_city = yes
+culture = polish
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = livestock
+hre = yes
+
+#Claimants
+add_core = MST
+
+#History by SF
+1444.1.1 = {
+	culture = silesian_german
+	owner = TRO
+	controller = TRO
+	remove_core = SIL
+	remove_core = POL
+	add_core = TRO
+	add_core = MST
+}

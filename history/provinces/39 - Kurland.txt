@@ -1,0 +1,15 @@
+#39 - Kurland
+
+#Default
+owner = LIV
+controller = LIV
+add_core = LIV
+culture = curonian          #Was latvian but changed by San Felipe on advice of Morsmessor
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 2 
+trade_goods = grain
+base_manpower = 1 
+capital = "Kuldiga"			#DE Goldingen
+is_city = yes

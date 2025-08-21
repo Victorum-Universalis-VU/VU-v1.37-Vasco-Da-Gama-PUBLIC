@@ -1,0 +1,21 @@
+#8189 - Baja
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Baja"
+is_city = yes
+culture = hungarian
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = vegetables
+hre = no
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

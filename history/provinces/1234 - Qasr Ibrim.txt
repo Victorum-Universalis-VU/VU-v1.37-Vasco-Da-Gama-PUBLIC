@@ -1,0 +1,31 @@
+#1234 - Qasr Ibrim
+
+#Default
+owner = MAK
+controller = MAK
+add_core = MAK
+culture = nubian
+religion = coptic			#From vanilla - sunni #To represent tenous hold over the province.   -Note-  I think Coptics already have it hard enough here, don't you?
+capital = "Ibrim"
+is_city = yes
+base_manpower = 3
+trade_goods = livestock			#Evidence of extensive sorghum remains, as well as undyed coton and wool
+hre = no
+base_tax = 5
+base_production = 4
+
+#Claimants
+add_core = NBA
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifier
+add_permanent_province_modifier = {
+	name = vu_nile_river_in_arid_desert_province
+	duration = -1
+}
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

@@ -1,0 +1,18 @@
+#3136 - Southwold
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = east_anglian
+religion = lollardy
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = vegetables
+base_manpower = 1 
+capital = "Southwold"
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = NFL controller = NFL add_core = NFL } # The Dukedom of Norfolk territory - By San Felipe

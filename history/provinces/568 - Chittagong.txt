@@ -1,0 +1,27 @@
+#568 - Chittagong
+
+#Default
+owner = BNG
+controller = BNG
+add_core = BNG
+culture = bengali
+religion = hinduism #A good case could be made that this province was atleast 50% buddhist
+capital = "Chittagong"
+trade_goods = paper
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = ARK
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_3
+    duration = -1
+}

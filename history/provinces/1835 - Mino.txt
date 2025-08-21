@@ -1,0 +1,18 @@
+#1835 - Mino
+
+#Default
+owner = TKI
+controller = TKI
+add_core = TKI
+culture = tokai 
+religion = shinto
+capital = "Inabayama"
+trade_goods = paper #Mino washi
+hre = no
+base_tax = 2
+base_manpower = 2
+base_production = 1
+is_city = yes
+
+#Buildings
+fort_15th = yes #Inabayama Castle

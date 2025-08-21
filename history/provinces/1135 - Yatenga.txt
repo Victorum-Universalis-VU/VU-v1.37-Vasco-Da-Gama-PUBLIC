@@ -1,0 +1,14 @@
+#1135 - Yatenga
+
+owner = YAT
+controller = YAT
+add_core = YAT
+is_city = yes
+culture = mossi
+religion = shamanism #Fetishism
+capital = "Gursi"
+trade_goods = livestock
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 4

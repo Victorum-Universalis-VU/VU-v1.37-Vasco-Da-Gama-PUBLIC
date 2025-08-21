@@ -1,0 +1,15 @@
+#3050 - Maribor
+
+#Default
+owner = CNL
+controller = CNL
+add_core = CNL
+culture = slovene
+religion = catholic
+base_tax = 4
+base_production = 4
+trade_goods = beer
+base_manpower = 2 
+capital = "Marburg"
+is_city = yes
+hre = yes

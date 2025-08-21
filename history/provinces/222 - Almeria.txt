@@ -1,0 +1,32 @@
+#222 - Almería
+
+#Default
+owner = GRA		#Mustapha Sa'd King of Granada
+controller = GRA
+add_core = GRA
+culture = andalusi_arabic
+religion = sunni
+hre = no
+base_tax = 6  
+base_production = 6 
+trade_goods = copper	#"Almeria imported indigo dye and wool from the Maghreb and linen from Egypt, while it exported copper to Fez and Tlemcen as well as its highly sought textiles." - so could also be dyes or textiles
+base_manpower = 4 
+capital = "Almería"
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#Buildings
+marketplace = yes
+road_system = yes
+dock = yes
+town_hall = yes
+cathedral = yes
+metalworking_workshop = yes
+cinema = yes
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = GRA controller = GRA add_core = GRA remove_core = AMD } # Granadan territorial lands - By San Felipe

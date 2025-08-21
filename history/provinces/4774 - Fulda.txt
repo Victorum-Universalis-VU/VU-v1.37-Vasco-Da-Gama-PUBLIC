@@ -1,0 +1,15 @@
+#4774 - Fulda
+
+#Default
+owner = FLD
+controller = FLD
+add_core = FLD
+capital = "Fulda"
+trade_goods = wool
+culture = franconian
+religion = catholic
+base_tax = 6 
+base_production = 6
+base_manpower = 2 
+is_city = yes
+hre = yes

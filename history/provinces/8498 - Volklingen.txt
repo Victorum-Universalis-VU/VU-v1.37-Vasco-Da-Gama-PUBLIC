@@ -1,0 +1,18 @@
+#8498 - Völklingen 
+
+#Default
+owner = LIE
+controller = LIE
+add_core = LIE
+culture = ger_limburgish
+religion = catholic
+trade_goods = wool
+capital = "Eupen"
+base_tax = 3
+base_production = 3
+is_city = yes
+base_manpower = 2
+hre = yes
+
+#Claimants
+add_core = ABG

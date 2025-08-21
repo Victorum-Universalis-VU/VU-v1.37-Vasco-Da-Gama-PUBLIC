@@ -1,0 +1,19 @@
+#476 - Kypshak
+
+owner = SHY
+controller = SHY
+add_core = SHY
+culture = khazak
+religion = sunni
+capital = "Orda-Bazar"
+trade_goods = horses
+hre = no
+base_tax = 3
+base_production = 2
+base_manpower = 4
+is_city = yes
+
+center_of_trade = 4
+
+#Claims
+add_core = KZH

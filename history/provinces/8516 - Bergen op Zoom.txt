@@ -1,0 +1,19 @@
+#8516 - Bergen op Zoom
+
+#Default
+owner = BRB
+controller = BRB
+add_core = BRB
+is_city = yes
+capital = "Bergen op Zoom"
+culture = ger_brabantian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = apiculture
+
+#Claimants
+add_core = BUR
+add_claim = HOL

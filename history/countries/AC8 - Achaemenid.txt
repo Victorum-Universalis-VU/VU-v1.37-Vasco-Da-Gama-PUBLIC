@@ -1,0 +1,20 @@
+#AC8 - Achaemenid
+government = monarchy
+add_government_reform = persian_shahenshahdom_reform
+government_rank = 9 #Empire
+primary_culture = persian
+religion = zoroastrian
+technology_group = persian_tech_group
+unit_type = muslim
+capital = 2219 # Bandar Langeh
+add_army_professionalism = 0.05
+
+#1441.11.01 = {
+#	monarch = {
+#		name = "Regency"
+#		adm = 0
+#		dip = 0
+#		mil = 0
+#		regent = yes
+#	}
+#}

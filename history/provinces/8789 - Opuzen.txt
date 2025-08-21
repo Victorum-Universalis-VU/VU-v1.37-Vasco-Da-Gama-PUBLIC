@@ -1,0 +1,30 @@
+#136 - Split
+
+#Default
+owner = SER
+controller = SER
+add_core = SER
+culture = serbian
+religion = orthodox
+capital = "Opuzen"
+trade_goods = lumber
+hre = no
+base_tax = 1
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#Buildings
+fort_15th = yes # Klis Fortress
+
+#Claimants
+add_core = DAL
+
+#History by SF
+1444.11.11 = { owner = HRZ controller = HRZ add_core = HRZ } # Ragusan territorial lands - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = neretva_estuary_modifier
+    duration = -1
+}

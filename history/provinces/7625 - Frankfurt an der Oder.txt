@@ -1,0 +1,35 @@
+#7625 - Frankfurt an der Oder
+
+#Default
+owner = SOR
+controller = SOR
+add_core = SOR
+culture = sorbian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 4
+base_manpower = 3
+trade_goods = beer
+capital = "Frankfurt an der Oder"
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#Buildings
+town_hall = yes
+workshop = yes
+marketplace = yes
+road_system = yes
+cesspit = yes
+well = yes
+
+#History by SF
+1444.1.1 = {
+	owner = BRA
+	controller = BRA
+	add_core = BRA
+	remove_core = SOR
+	culture = saxon
+}

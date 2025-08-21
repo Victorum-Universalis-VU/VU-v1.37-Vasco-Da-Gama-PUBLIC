@@ -1,0 +1,26 @@
+#Default
+owner = ATH
+controller = ATH
+add_core = ATH
+culture = greek
+religion = orthodox
+capital = "Almiros"
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+is_city = yes
+hre = no
+
+#Claimants
+add_core = BYZ
+
+#History by SF
+1215.6.15 = { owner = ATH controller = ATH add_core = ATH } # Athenian territorial lands - By San Felipe
+1444.11.11 = { 
+	owner = TUR 
+	controller = TUR 
+	add_core = TUR
+	#Claimants
+	remove_core = ATH 
+} # Turkish territorial lands - By San Felipe

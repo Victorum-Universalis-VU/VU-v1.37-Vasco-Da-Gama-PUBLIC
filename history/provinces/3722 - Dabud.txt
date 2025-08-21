@@ -1,0 +1,27 @@
+#3722 - Dabud
+
+#Default
+owner = MAM
+controller = MAM
+add_core = MAM
+capital = "Dabud"
+culture = nubian
+religion = coptic
+trade_goods = sugar
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = NBA
+
+#History by SF
+1444.11.11 = { owner = MKR controller = MKR add_core = MKR remove_core = MAM } # Makurian territorial lands - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = vu_nile_river_in_arid_desert_province
+    duration = -1
+}

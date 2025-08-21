@@ -1,0 +1,15 @@
+#4185 - Tango
+
+#Default
+owner = ISK
+controller = ISK
+add_core = ISK
+culture = kinki 
+religion = shinto
+capital = "Miyazu"
+trade_goods = cloth
+hre = no
+base_tax = 2
+base_manpower = 2
+base_production = 2
+is_city = yes

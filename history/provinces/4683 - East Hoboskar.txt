@@ -1,0 +1,17 @@
+#4683 - Altay
+owner = OIR
+controller = OIR
+add_core = OIR
+culture = oirats
+religion = tengri_pagan_reformed
+capital = "Altay"
+trade_goods = horses
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 4
+is_city = yes
+
+#Claims
+add_core = ZUN
+add_core = CHG

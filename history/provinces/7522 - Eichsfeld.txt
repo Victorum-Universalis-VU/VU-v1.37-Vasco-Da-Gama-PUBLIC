@@ -1,0 +1,15 @@
+#7522 - Eichsfeld
+
+#Default
+owner = MAI
+controller = MAI
+add_core = MAI
+culture = eastphalian
+religion = catholic
+capital = "Eichsfeld"
+trade_goods = fruit
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 2
+is_city = yes

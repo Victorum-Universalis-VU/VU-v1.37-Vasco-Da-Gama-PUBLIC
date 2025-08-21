@@ -1,0 +1,19 @@
+#7421 - Stoke-on-Trent
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = midlander
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = pottery            #Internationally well known for the production of pottery and ceramics for centuries (by San Felipe).
+base_manpower = 2
+capital = "Stoke-on-Trent"
+is_city = yes

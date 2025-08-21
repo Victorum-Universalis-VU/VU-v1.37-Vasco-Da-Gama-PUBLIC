@@ -1,0 +1,29 @@
+#5092 - Bastia
+
+#Default
+owner = PIS
+controller = PIS
+add_core = PIS
+culture = corsican_culture
+religion = catholic
+capital = "Calvi"	#switches to Bastia later
+hre = yes
+base_tax = 3
+base_production = 2
+trade_goods = cloth
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = GEN
+add_claim = ARA
+
+#History by SF
+1401.1.1 = {
+	capital = "Bastia"
+}
+1441.1.1 = {
+    owner = COR
+    controller = COR
+    add_core = COR
+}

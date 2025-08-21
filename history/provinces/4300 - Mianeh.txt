@@ -1,0 +1,25 @@
+#4300 - Mianeh
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = azerbaijani
+religion = shiite
+capital = "Mianeh"
+trade_goods = books
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = ARL
+
+#History by SF
+1442.1.1 = { #Death of Yusuf Khwaja, governor of Rayy. Appointment of Sultan Muhammad b. Baysunghur as governor of northern Iran.
+	owner = QOM
+	controller = QOM
+	add_core = QOM
+}

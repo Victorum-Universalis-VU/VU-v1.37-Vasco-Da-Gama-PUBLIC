@@ -1,0 +1,22 @@
+#680 - Chongqing
+
+#Default
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = sichuanese
+religion = confucianism
+capital = "Chongqing"
+trade_goods = spices
+hre = no
+base_tax = 12
+base_production = 12
+base_manpower = 12
+is_city = yes
+
+#Claimants
+add_core = CXI
+add_core = SHU
+
+#Commerce
+center_of_trade = 4

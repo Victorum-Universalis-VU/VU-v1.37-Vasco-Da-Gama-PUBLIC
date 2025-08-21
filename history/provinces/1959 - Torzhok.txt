@@ -1,0 +1,21 @@
+#1959 - Torzhok
+
+#Default
+owner = NOV
+controller = NOV
+add_core = NOV
+culture = muscovite
+religion = orthodox
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = grain			#Well known as the only route by which grain was imported into the north, to the extent that famines in Novgorod often followed its conquest or raiding.
+base_manpower = 5 
+capital = "Torzhok"
+is_city = yes
+
+#Commerce
+center_of_trade = 1         #A key trade route between Moscow and Novgorod and an important (if often destroyed and rebuilt) town in its own right.
+
+#Special Modifiers
+add_local_autonomy = 25	    #The important trade town so far from Novgorod had a small amount of autonomy 

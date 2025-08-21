@@ -1,0 +1,31 @@
+#4279 - Zabid & Hudaydah
+
+#Default
+owner = MAM
+controller = MAM
+add_core = MAM
+capital = "Zabid"
+culture = yemeni_culture
+religion = sunni
+trade_goods = coffee			#one of the main exporters of coffee produced further inland. Also known for producing rough cotton cloth and ship building.
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.11.11 = { 
+	owner = YEM 
+	controller = YEM 
+	add_core = YEM 
+} # Ghamd territorial lands - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

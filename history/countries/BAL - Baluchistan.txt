@@ -1,0 +1,22 @@
+#BAL - Baluchistan
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 8 #Khanate
+primary_culture = baluchi
+religion = sunni
+#technology_group = muslim
+technology_group = persian_tech_group
+unit_type = muslim
+capital = 577	# Quetta
+religious_school = shafii_school
+
+#Mirwaris, ancestors of later Kambarani dynasty:
+1444.1.1 = {
+	monarch = {
+	name = "Kumbar"
+		dynasty = "Mirwari"
+		dip = 1
+		adm = 1 
+		mil = 1
+	}
+}

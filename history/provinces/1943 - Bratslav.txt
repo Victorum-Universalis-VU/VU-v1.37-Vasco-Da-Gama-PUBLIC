@@ -1,0 +1,30 @@
+#1943 - Bratslav/East Podolia
+
+#Default
+owner = BSV
+controller = BSV
+add_core = BSV
+culture = ruthenian
+religion = orthodox
+hre = no
+base_tax = 2
+base_production = 1 
+trade_goods = grain 
+base_manpower = 1 
+capital = "Bratslav"
+is_city = yes
+
+#Buildings
+fort_15th = yes #Bratslav Castle
+
+#Claimants
+add_core = BCL
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

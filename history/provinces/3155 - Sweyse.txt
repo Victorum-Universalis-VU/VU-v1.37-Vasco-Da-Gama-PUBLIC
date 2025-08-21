@@ -1,0 +1,34 @@
+#3155 - Sweyse
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = BR0
+controller = BR0
+add_core = BR0
+culture = celtic_welsh_culture #Was welsh
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = copper
+capital = "Sweyse" #Later Swansea
+is_city = yes
+
+#Claimants
+add_core = MRG
+
+#Special Modifiers
+add_local_autonomy = 75
+
+#History by SF
+1444.11.11 = { 
+	owner = WMC 
+	controller = WMC 
+	add_core = WMC 
+	remove_core = BR0
+	add_core = ENG
+} # Welsh Marches territory - By San Felipe

@@ -1,0 +1,18 @@
+#311 - Kholm
+
+#Default
+owner = NOV
+controller = NOV
+add_core = NOV
+culture = novgorodian
+religion = orthodox
+hre = no
+base_tax = 4
+base_production = 3 
+trade_goods = glass 
+base_manpower = 3
+capital = "Kholm"
+is_city = yes
+
+#Commerce
+center_of_trade = 1

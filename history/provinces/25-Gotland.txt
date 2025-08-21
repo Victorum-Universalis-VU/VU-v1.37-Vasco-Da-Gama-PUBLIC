@@ -1,0 +1,27 @@
+#25 - Gotland
+
+#Default
+owner = GOT 
+controller = GOT
+add_core = GOT
+culture = gotlander
+religion = catholic
+hre = no
+base_tax = 8
+base_production = 8			#In the early 14th century this was likely the richest part of the whole Baltics outside Prussia.
+trade_goods = naval_supplies
+base_manpower = 4
+capital = "Visby"
+is_city = yes
+
+#Buildings
+fort_15th = yes             # Visborg Castle
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

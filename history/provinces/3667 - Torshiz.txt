@@ -1,0 +1,21 @@
+#3667 - Torshiz
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = khorasani
+religion = shiite
+capital = "Bardaskan"
+trade_goods = wine		#Kashmar carpet AND massive raisin production, going for raisins since carpet was placed nearby
+hre = no				#Among other goods are - saffron, dried fruits, grapes, dyes, cloth
+base_tax = 4 
+base_production = 7
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = KHO
+
+#Commerce
+center_of_trade = 1

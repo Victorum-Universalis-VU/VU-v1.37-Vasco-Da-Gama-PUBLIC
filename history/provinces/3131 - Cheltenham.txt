@@ -1,0 +1,15 @@
+#3131 - Cheltenham
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+capital = "Cheltenham"
+is_city = yes
+culture = cotswoldian
+religion = lollardy
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = livestock #A rich farming region known as the 'Cottswolds' (by San Felipe).
+hre = no

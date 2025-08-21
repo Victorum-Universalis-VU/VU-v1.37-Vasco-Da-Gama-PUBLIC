@@ -1,0 +1,26 @@
+#7054 - Oneglia
+
+#Default
+owner = FNL
+controller = FNL
+add_core = FNL
+culture = ligurian
+religion = catholic
+capital = "Oneglia"
+base_tax = 6
+base_production = 6
+base_manpower = 4
+trade_goods = citrus
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes
+
+#History by Sf
+1444.11.11 = {
+    owner = GEN
+    controller = GEN
+    add_core = GEN
+}
+

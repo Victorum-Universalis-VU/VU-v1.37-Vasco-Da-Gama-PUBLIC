@@ -1,0 +1,23 @@
+#492 - Puerto Rico
+
+#Default
+culture = arawak
+religion = animism
+capital = "Borikén"
+trade_goods = sugar 
+hre = no
+base_tax = 4
+base_production = 6
+base_manpower = 5
+native_size = 50			#approx. 40k
+native_ferocity = 1
+native_hostileness = 1
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

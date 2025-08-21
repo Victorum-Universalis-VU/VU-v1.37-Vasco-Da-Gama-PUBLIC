@@ -1,0 +1,21 @@
+#7529 - Dinslaken
+
+#Default
+owner = KOL 
+controller = KOL
+add_core = KOL
+culture = hessian
+religion = catholic
+trade_goods = grain
+capital = "Dinslaken"
+base_tax = 3 
+base_production = 4 
+base_manpower = 2 
+is_city = yes
+hre = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

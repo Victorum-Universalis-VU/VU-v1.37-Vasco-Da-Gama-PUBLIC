@@ -1,0 +1,15 @@
+#1743 - Cambray
+
+#Default
+owner = CMB
+controller = CMB
+add_core = CMB
+capital = "Cambray"
+is_city = yes
+culture = picard_culture
+religion = catholic
+hre = yes
+base_tax = 7
+base_production = 7
+trade_goods = cheese
+base_manpower = 4 

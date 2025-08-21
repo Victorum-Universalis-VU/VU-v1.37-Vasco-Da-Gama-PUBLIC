@@ -1,0 +1,22 @@
+#2304 - Canik
+
+#Default
+owner = CIK
+controller = CIK			#The Ottomans permanently conquered the town in 1420, and it became part of the Sanjak of Canik, but the Beyliks of Canik (local power in the region) held out until 1460 in Bafra. Giving this prov to Canik partially for gameplay reasons, partially to represent this holdout area
+add_core = CIK
+culture = turkish
+religion = sunni
+capital = "Samsoon"			#Contemporary spelling, according to wiki! =p
+trade_goods = fruit			#leaving from vanilla, it works
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = CND			#Candar got control when Seljuk Empire broke up, lost it shortly thereafter
+
+#History by SF
+1215.6.15 = { owner = RUM controller = RUM add_core = RUM }  # Sultanate of Rum territorial lands - By San Felipe
+1444.11.11 = { owner = CIK controller = CIK add_core = CIK } # Bafran territorial lands - By San Felipe

@@ -1,0 +1,29 @@
+#7150 - Kran
+
+#Default
+owner = TUR			#KRN when I have time to add tags
+controller = TUR
+add_core = TUR
+culture = bulgarian
+religion = orthodox
+capital = "Kran"
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = incense			#rose oil, worldwide famous Rose Valley
+is_city = yes
+hre = no
+
+#History by SF
+1215.6.15 = { owner = BUL controller = BUL add_core = BUL } # Bulgarian territorial lands - By San Felipe
+1305.1.1 = { owner = BUL controller = BUL add_core = BUL }	#Aldimir dies, Kran reintegrated into Bulgaria. It is seemingly restored later, but not as an independent state
+1393.1.1 = {
+	base_tax = 1
+	base_production = 1
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}	#taken by Turkey, devastated
+
+#Special Modifiers
+add_local_autonomy = 10

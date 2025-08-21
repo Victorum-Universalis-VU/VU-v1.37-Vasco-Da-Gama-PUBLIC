@@ -1,0 +1,20 @@
+#8421 - Chennai
+
+#Default
+owner = VIJ
+controller = VIJ
+culture = tamil
+religion = hinduism
+capital = "Chennai"
+trade_goods = dyes 	#or cloth... or silk
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = VIJ
+
+#Special Modifier
+add_local_autonomy = 50

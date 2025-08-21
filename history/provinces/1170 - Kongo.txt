@@ -1,0 +1,15 @@
+#1170 - Kongo
+
+#Default
+owner = KON
+controller = KON
+add_core = KON 
+culture = kongolese
+religion = shamanism #Fetishism
+capital = "M'banza Kongo"
+trade_goods = iron
+hre = no
+base_tax = 8 
+base_production = 8
+base_manpower = 4
+is_city = yes

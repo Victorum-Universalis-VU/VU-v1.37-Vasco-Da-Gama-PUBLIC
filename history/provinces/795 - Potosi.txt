@@ -1,0 +1,24 @@
+#795 - Potosi
+
+#Default
+owner = CRA
+controller = CRA
+add_core = CRA
+culture = aimara
+religion = inti
+capital = "Potosí"
+trade_goods = silver
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 6
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = cerro_rico_modifier
+	duration = -1
+}

@@ -1,0 +1,14 @@
+#6430 - Rikuchu
+
+owner = SBA
+controller = SBA
+add_core = SBA
+culture = togoku
+religion = shinto
+capital = "Kosuiji Castle"
+trade_goods = iron #Known for its iron ore deposits, particularly in Kamaishi, which became a major center for iron and steel production in the 19th century. - SF
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 2
+is_city = yes

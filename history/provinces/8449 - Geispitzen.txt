@@ -1,0 +1,19 @@
+#8449 - Geispitzen
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = RPL
+controller = RPL
+add_core = RPL 
+capital = "Geispitzen"
+is_city = yes
+culture = alsatian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 1
+trade_goods = copper
+base_manpower = 1

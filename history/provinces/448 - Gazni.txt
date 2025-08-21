@@ -1,0 +1,24 @@
+#448 - Gazni
+
+#Default
+owner = AFG
+controller = AFG
+add_core = AFG
+culture = afghani		#Mix of Khalaj, Dari and pashto cultures
+religion = sunni
+capital = "Gazni"
+trade_goods = opium
+hre = no
+base_tax = 4  
+base_production = 4
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = TIM
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}

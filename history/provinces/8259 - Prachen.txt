@@ -1,0 +1,15 @@
+#8259 - Prachen
+
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Pisek"
+is_city = yes
+culture = czech
+religion = hussite
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = iron
+hre = yes

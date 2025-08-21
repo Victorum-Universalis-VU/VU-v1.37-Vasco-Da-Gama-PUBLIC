@@ -1,0 +1,19 @@
+#8098 - Leiria
+
+owner = POR
+controller = POR
+add_core = POR
+culture = portugese
+religion = catholic
+capital = "Leiria"
+base_tax = 2
+base_production = 3
+base_manpower = 3
+trade_goods = lumber #was paper
+is_city = yes
+hre = no
+
+#Buildings - SF
+hall = yes
+cathedral = yes
+road_system = yes

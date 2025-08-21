@@ -1,0 +1,22 @@
+#7109 - Karystos
+
+#Default
+owner = VEN
+controller = VEN
+add_core = VEN
+culture = arvanite			#Exact timeline unclear, but this would become a center of the Arvanites in later years
+religion = orthodox
+capital = "Karystos"
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = livestock
+is_city = yes
+hre = no
+
+#History by SF
+1215.6.15 = { owner = NRP controller = NRP add_core = NRP } # Negroponte Tetrarchy territorial lands - By San Felipe
+1444.11.11 = { owner = VEN controller = VEN add_core = VEN } # Venetian territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 50		#Negroponte vassaladd_local_autonomy = 50		#Negroponte vassal

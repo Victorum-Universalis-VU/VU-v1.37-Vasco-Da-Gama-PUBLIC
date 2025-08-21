@@ -1,0 +1,26 @@
+#7991 - Saumur
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+culture = angevin_culture
+religion = catholic
+capital = "Saumur"
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = iron			#Apparently production of small metal objects, including rosaries and medals.
+is_city = yes
+hre = no
+
+#Claimants
+add_core = ENG
+
+#History by SF
+1444.11.11 = {
+    owner = ANJ
+    controller = ANJ
+    add_core = ANJ
+    add_core = PRO
+} # Anjou is appanage of the French Kingdom - By San Felipe

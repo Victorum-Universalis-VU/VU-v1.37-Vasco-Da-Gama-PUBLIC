@@ -1,0 +1,18 @@
+#7067 - ReggioEmilia
+
+#Default
+owner = RGO #Taken by the Este in 1289
+controller = RGO
+add_core = RGO
+culture = romagnan
+religion = catholic
+capital = "Reggio"	#Emilia. Often not included in the earlier periods, I understand, as the other Reggio was always in a different country.
+base_tax = 6
+base_production = 6
+base_manpower = 4
+trade_goods = cheese #Home to Parmegianno Reggiano, one of the most famous cheeses in the world (by San Felipe).
+is_city = yes
+hre = yes
+
+#History by SF
+1444.11.11 = { owner = MOD controller = MOD add_core = MOD } # Modena territorial lands - By San Felipe

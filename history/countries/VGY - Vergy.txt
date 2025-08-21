@@ -1,0 +1,50 @@
+#VGY - Vergy
+government = monarchy
+add_government_reform = eue_lordship_reform
+government_rank = 1 #Lordship
+primary_culture = burgundian
+religion = catholic
+technology_group = french_tech_group
+unit_type = western
+historical_friend = BUR
+capital = 3407	# Vergy
+add_army_professionalism = 0.1
+
+#History of the Lordship of Vergy by Prussia
+1215.6.15 = {
+    monarch = {
+        name = "Hughes I"
+        dynasty = "de Vergy"
+        birth_date = 1168.1.1
+        adm = 3
+        dip = 3
+        mil = 3
+    }
+}
+
+1215.6.15 = {
+	heir = {
+		name = "Guy"
+		monarch_name = "Guy I"
+		dynasty = "de Vergy" #"Where do you think they get virgin olive oil from?" - Italy
+		birth_date = 1184.1.1 #We have burger all - Prussia
+		death_date = 1245.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+#History of the Lordship of Vergy by Prussia
+1444.1.1 = { #He was literally a child at this time - Prussia
+    monarch = {
+        name = "Jean IV"
+        dynasty = "de Vergy"
+        birth_date = 1439.1.1
+        adm = 2
+        dip = 2 #His father was a Chamberlain by Prussia ;)
+        mil = 2
+    }
+}
+

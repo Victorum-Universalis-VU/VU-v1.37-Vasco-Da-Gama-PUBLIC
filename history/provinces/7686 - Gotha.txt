@@ -1,0 +1,23 @@
+#7686 - Gotha
+
+#Defaults
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = saxon
+religion = catholic
+capital = "Gotha"
+trade_goods = cloth
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 2
+is_city = yes
+center_of_trade = 1
+
+#Claimants
+1444.1.1 = {
+	owner = THU
+	controller =THU
+	add_core = THU
+}

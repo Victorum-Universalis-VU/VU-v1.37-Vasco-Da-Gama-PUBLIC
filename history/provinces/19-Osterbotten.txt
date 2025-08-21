@@ -1,0 +1,30 @@
+#19 - Österbotten
+
+#Default
+owner = SWE
+controller = SWE
+add_core = SWE
+culture = finnish
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 1 
+trade_goods = fur
+base_manpower = 1 
+capital = "Mustasaari"
+is_city = yes
+
+#Claimants
+add_core = FIN
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+#Special Modifiers
+add_local_autonomy = 50

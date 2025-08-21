@@ -1,0 +1,28 @@
+#8161 - Connemara
+
+#Default
+owner = WCO
+controller = WCO
+add_core = WCO
+capital = "Annaghdown"
+is_city = yes
+culture = celtic_irish_culture #Was irish
+religion = catholic
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = whaling
+hre = no
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = warm_coast_ire
+    duration = -1
+}
+
+#History by SF
+1215.6.15 = { owner = ECO controller = ECO add_core = ECO } # Connacht territory - By San Felipe
+1291.1.1 = {
+	capital = "Eanach Dhúin"
+}
+1444.11.11 = { owner = WCO controller = WCO add_core = WCO } # Clanricarde clan territory - By San Felipe

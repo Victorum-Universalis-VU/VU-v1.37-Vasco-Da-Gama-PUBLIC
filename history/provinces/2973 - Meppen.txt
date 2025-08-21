@@ -1,0 +1,15 @@
+#2973 - Meppen
+
+#Default
+owner = MUN
+controller = MUN
+add_core = MUN
+culture = hannoverian
+religion = catholic
+trade_goods = amber
+capital = "Meppen"
+base_tax = 8
+base_production = 8
+base_manpower = 4 
+is_city = yes
+hre = yes

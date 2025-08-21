@@ -1,0 +1,24 @@
+#6608 - Al_Wafrah
+
+#Default
+owner = ALH
+controller = ALH
+add_core = ALH
+culture = gulf_arabic
+religion = shiite
+capital = "al-Wafrah"
+trade_goods = pearls
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = KUW
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = gulf_of_persia_estuary_modifier
+    duration = -1
+}

@@ -1,0 +1,26 @@
+#315 - Finnmark
+
+#Default
+owner = NOR
+controller = NOR
+add_core = NOR
+culture = sapmi
+religion = finnish_pagan_reformed
+hre = no
+base_tax = 1  
+base_production = 1 
+base_manpower = 1 
+trade_goods = whaling
+capital = "Vardø"
+add_local_autonomy = 55 #This stacks with culture and religious starting autonomy, it seems. Reducing from 90.
+is_city = yes
+
+#Claimants
+add_core = NRR
+add_core = SMI
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = northern_lights_modifier
+	duration = -1
+}

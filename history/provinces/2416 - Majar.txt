@@ -1,0 +1,27 @@
+#2416 - Majar
+
+#Default
+owner = GOL
+controller = GOL
+add_core = GOL
+culture = astrakhani
+religion = sunni
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = grain
+base_manpower = 2 
+capital = "Majar"
+is_city = yes
+
+#Claimants
+add_core = AST
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

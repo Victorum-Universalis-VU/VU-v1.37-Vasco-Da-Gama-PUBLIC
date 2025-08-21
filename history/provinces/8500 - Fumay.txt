@@ -1,0 +1,18 @@
+#8500 - Oberstein
+
+#Default
+owner = LIE
+controller = LIE
+add_core = LIE
+culture = wallonian
+religion = catholic
+trade_goods = lumber
+capital = "Fumay"
+base_tax = 3
+base_production = 3
+is_city = yes
+base_manpower = 2
+hre = yes
+
+#Claimants
+add_core = BUR

@@ -1,0 +1,37 @@
+#4748 - Brandenburg
+
+#Default
+owner = SOR
+controller = SOR
+add_core = SOR
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 6
+base_production = 7
+base_manpower = 6
+trade_goods = woodworking
+capital = "Brandenburg an der Havel"
+is_city = yes
+
+#Buildings
+fort_15th = yes
+city_hall = yes
+marketplace = yes
+cathedral = yes
+wood_workshop = yes
+road_system = yes
+cesspit = yes
+barracks = yes
+well = yes
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1444.1.1 = {
+    owner = BRA
+	controller = BRA
+	add_core = BRA
+	remove_core = SOR
+}

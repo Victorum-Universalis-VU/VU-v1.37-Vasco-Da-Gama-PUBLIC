@@ -1,0 +1,22 @@
+#MON - Montenegro
+government = monarchy
+add_government_reform = eue_duchy_reform
+government_rank = 6 #Grand Duchy
+#technology_group = eastern
+technology_group = bulgarian_tech_group
+unit_type = eastern
+primary_culture = serbian
+religion = orthodox
+capital = 138	# Zabljak
+fixed_capital = 138 # Cannot move capital away from this province & no power cost to move to it
+
+#Grand Dukes of Duklija/Zeta
+1421.1.1 = {
+	monarch = {
+		name = "Stepan I"
+		dynasty = "Crnojevic"
+		dip = 2
+		adm = 2
+		mil = 2
+	}
+}

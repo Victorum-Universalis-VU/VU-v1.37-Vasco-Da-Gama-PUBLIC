@@ -1,0 +1,22 @@
+#8499 - Epinal
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = LIE
+controller = LIE
+add_core = LIE
+capital = "Epinal"
+is_city = yes
+culture = wallonian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 1
+trade_goods = glass
+base_manpower = 1
+
+#Claimants
+add_core = BUR

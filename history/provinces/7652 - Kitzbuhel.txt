@@ -1,0 +1,18 @@
+#7652 - Kitzbühel
+
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+culture = franconian
+religion = catholic
+capital = "Kitzbühel"
+trade_goods = salt
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#Buildings
+bath_house = yes

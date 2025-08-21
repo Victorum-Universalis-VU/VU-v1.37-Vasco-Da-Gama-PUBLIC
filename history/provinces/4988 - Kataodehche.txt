@@ -1,0 +1,14 @@
+#4988 - Kataodehche
+
+#Default
+culture = dakelh
+religion = totemism 
+capital = "Dzilke" 			#Legendary village abondoned due to an impending disaster. Nak'azdli also nearby
+trade_goods = unknown
+hre = no 
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+native_size = 5
+native_ferocity = 1 
+native_hostileness = 3 

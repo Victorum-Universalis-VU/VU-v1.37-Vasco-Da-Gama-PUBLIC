@@ -1,0 +1,27 @@
+#7919 - Comminges
+
+#Default
+owner = C0C
+controller = C0C
+add_core = C0C
+culture = gascon
+religion = catholic
+capital = "Muret"
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = livestock
+is_city = yes
+hre = no
+
+#Claimants
+add_core = FRA
+add_core = GUY
+
+#History by SF
+1444.11.11 = { 
+	owner = CMG 
+	controller = CMG 
+	add_core = CMG 
+	remove_core = C0C
+} # Duchy of Armagnac territorial lands - By San Felipe

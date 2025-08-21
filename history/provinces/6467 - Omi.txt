@@ -1,0 +1,21 @@
+#6467 - Omi
+
+#Default
+owner = KYO
+controller = KYO
+add_core = KYO
+culture = kinki 
+religion = shinto
+capital = "Sekigahara"
+trade_goods = cloth
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 7
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = HJO

@@ -1,0 +1,25 @@
+#7099 - Ogliastra
+
+#Default
+owner = PIS
+controller = PIS
+add_core = PIS
+culture = sardinian
+religion = catholic
+capital = "Jerzu"		#Or Lanusei? Tortoli also relavent perhaps.
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = fish
+is_city = yes
+hre = no
+
+#History by SF
+1406.1.1 = {
+	remove_core = PIS
+}	#Proper fall of Pisa, loses overseas cores
+1409.6.10 = {
+	owner = SAR
+	controller = SAR
+	add_core = SAR
+}	#Aragon wins the battle Sanluri, and claims most of southern and western Sardinia

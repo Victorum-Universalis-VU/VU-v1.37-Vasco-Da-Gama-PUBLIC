@@ -1,0 +1,24 @@
+#7812 - Parchim
+
+owner = MKL
+controller = MKL
+add_core = MKL
+culture = pommeranian
+religion = catholic
+capital = "Parchim"
+base_tax = 3 
+base_production = 3 
+base_manpower = 2 
+trade_goods = amber
+is_city = yes
+hre = yes
+
+1444.1.1 = { owner = M5H controller = M5H add_core = M5H remove_core = MKL}
+
+
+
+
+
+
+
+

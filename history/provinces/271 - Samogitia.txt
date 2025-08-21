@@ -1,0 +1,15 @@
+#271 - Samogitia
+
+#Default
+owner = SMG
+controller = SMG
+add_core = SMG
+culture = lithuanian
+religion = baltic_pagan_reformed
+capital = "Raseiniai"
+trade_goods = beer
+hre = no
+base_tax = 3 
+base_production = 3 
+base_manpower = 2 
+is_city = yes

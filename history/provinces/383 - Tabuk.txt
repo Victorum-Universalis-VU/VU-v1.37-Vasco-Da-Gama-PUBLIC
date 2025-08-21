@@ -1,0 +1,38 @@
+#383 - Tabouk
+
+#Default
+capital = "Tabuk"
+culture = bedouin_arabic
+religion = sunni
+trade_goods = unknown
+hre = no
+base_tax = 1 			#More dev might be ideal, but I want to keep Arabia generally low dev, and represent all the historical divisions, so a few regions (mostly NW and SE corners) get slightly lower dev than maybe thry should at this point
+base_production = 1 
+base_manpower = 1
+native_size = 50
+native_ferocity = 10
+native_hostileness = 10
+
+#Claimants
+add_core = NAB
+
+#History by SF
+1215.6.15 = {
+    owner = MDA
+	controller = MDA
+	add_core = MDA
+} #Medina territorial lands - By San Felipe
+1444.11.11 = {
+	owner = MDA
+	controller = MDA
+	add_core = MDA
+	trade_goods = camel		#Served as desert fortress with small oasis for most of the history
+	base_tax = 3 			#More dev might be ideal, but I want to keep Arabia generally low dev, and represent all the historical divisions, so a few regions (mostly NW and SE corners) get slightly lower dev than maybe thry should at this point
+	base_production = 3
+	base_manpower = 2 
+	is_city = yes
+	
+	#Buildings
+	fort_15th = yes
+
+} #Mamluk territorial lands - By San Felipe

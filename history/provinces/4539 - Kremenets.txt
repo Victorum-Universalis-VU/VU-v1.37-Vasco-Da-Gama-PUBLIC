@@ -1,0 +1,30 @@
+#4539 - Kremenets
+
+#Default
+owner = KIR		# Land of Kremenets was conquered by Casimir the Great in 1352 as vassal state. Incorporated to Poland in 1366.
+controller = KIR
+add_core = KIR
+culture = volhynian
+religion = orthodox
+hre = no
+base_tax = 3
+base_production = 2
+trade_goods = beer 
+base_manpower = 2
+capital = "Kremenets"
+is_city = yes
+add_core = VOL
+
+#Claimants
+add_claim = LIT			# Going for just claim, to reduce big opinion penalties
+
+#History by SF
+1444.1.11 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+	remove_core = KIR
+}
+
+#Special Modifiers
+add_local_autonomy = 15

@@ -1,0 +1,15 @@
+#7535 - Montabaur
+
+#Default
+owner = KOL
+controller = KOL
+add_core = KOL
+culture = hessian
+religion = catholic
+trade_goods = fruit
+capital = "Montabaur"
+base_tax = 4
+base_production = 3
+is_city = yes
+base_manpower = 3
+hre = yes

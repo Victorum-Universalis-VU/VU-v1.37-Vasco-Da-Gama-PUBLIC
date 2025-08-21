@@ -1,0 +1,25 @@
+#607 - Vijaya
+
+#Default
+owner = CHA
+controller = CHA
+add_core = CHA
+culture = cham
+religion = mahayana
+capital = "Vijaya"
+trade_goods = tropical_wood
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+fort_15th = yes
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

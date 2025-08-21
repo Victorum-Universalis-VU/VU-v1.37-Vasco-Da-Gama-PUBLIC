@@ -1,0 +1,24 @@
+#543 - Velanadu
+
+#Default
+owner = YOR
+controller = YOR
+add_core = YOR
+culture = telegu
+religion = hinduism
+capital = "Velanadu"
+trade_goods = cloth
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = GOC
+
+#Commerce
+center_of_trade = 2
+
+#Special Modifiers
+add_rajputs_or_marathas_or_nobles_effect = yes

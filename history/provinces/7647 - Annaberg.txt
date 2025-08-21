@@ -1,0 +1,25 @@
+#7647 - Annaberg
+
+#Default
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = saxon
+religion = catholic
+capital = "Annaberg"
+trade_goods = lace #Changed to lace from cloth as it was well-known for making it in 1561 after lace-making techniques were introduced (by San Felipe).
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.1 = {
+	owner = THU
+	controller =THU
+	add_core = THU
+}

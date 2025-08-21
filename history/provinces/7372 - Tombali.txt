@@ -1,0 +1,21 @@
+#7372 - Tombali
+
+#Default
+owner = MAL
+controller = MAL
+add_core = MAL
+culture = balante
+is_city = yes
+base_manpower = 2
+religion = shamanism #Fetishism
+capital = "Tombali"
+trade_goods = ivory
+hre = no
+base_tax = 3
+base_production = 3
+
+#Claimants
+add_core = KBU #Subject province within the empire
+
+#Special Modifiers
+add_local_autonomy = 50

@@ -1,0 +1,18 @@
+#3405 - Archdiocese_of_Prague
+
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Hradcanske"
+is_city = yes
+culture = czech
+religion = catholic
+trade_goods = books
+hre = no
+base_tax = 3
+base_production = 2 
+base_manpower = 1
+
+#Buildings
+grand_cathedral = yes #Archbishopric of Prague

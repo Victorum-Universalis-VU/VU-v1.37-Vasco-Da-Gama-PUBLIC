@@ -1,0 +1,21 @@
+#1964 - Ust-Sysolsk
+
+#Default
+owner = PRM
+controller = PRM
+add_core = PRM
+culture = vu_komi
+religion = orthodox
+hre = no
+base_tax = 2 
+base_production = 2 
+trade_goods = fur
+base_manpower = 2 
+capital = "Ust-Sysola"
+is_city = yes
+
+#Claimants
+add_core = KOM
+
+#Commerce
+center_of_trade = 1

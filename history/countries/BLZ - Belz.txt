@@ -1,0 +1,23 @@
+#BLZ - Belz
+government = monarchy
+add_government_reform = unlocked_eue_duchy_reform
+government_rank = 6 #Duchy
+#technology_group = eastern
+technology_group = polish_tech_group
+unit_type = eastern
+religion = catholic
+primary_culture = volhynian
+capital = 1940 #Belz
+
+1429.12.8 = {
+	monarch = {
+		name = "Boleslaw II"
+		dynasty = "Piast"
+		birth_date = 1426.1.1
+		dip = 4
+		adm = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}

@@ -1,0 +1,35 @@
+#263 - Ratibor
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = OPL
+controller = OPL
+add_core = OPL
+culture = polish
+religion = catholic
+hre = yes
+base_tax = 4 
+base_production = 3
+capital = "Ratibor"
+is_city = yes
+trade_goods = cloth #Was wine
+base_manpower = 3
+
+#Claimants
+add_core = POL
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.1 = {
+	owner = RAC
+	controller = RAC
+	remove_core = OPL
+	remove_core = POL
+	add_core = RAC
+	culture = silesian_german
+}

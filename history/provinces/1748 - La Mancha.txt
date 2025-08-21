@@ -1,0 +1,40 @@
+#1748 - La Mancha
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = andalucian
+religion = catholic
+hre = no
+base_tax = 5 
+base_production = 5 
+trade_goods = cloth
+base_manpower = 3 
+capital = "Jaén"
+is_city = yes
+
+#Buildings - SF
+marketplace = yes
+cathedral = yes
+town_hall = yes
+road_system = yes
+training_fields = yes
+barracks = yes
+workshop = yes
+fort_16th = yes
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}
+1444.11.11 = {
+    owner = JAE
+    controller = JAE
+    add_core = JAE
+    #Claimants
+    remove_core = AMD
+} # Castilian territorial lands - By San Felipe

@@ -1,0 +1,10 @@
+#EMR - EmiliaRomagna
+government = monarchy
+add_government_reform = unlocked_eue_duchy_reform
+government_rank = 6 #Duchy
+primary_culture = romagnan
+religion = catholic
+#technology_group = western
+technology_group = italian_tech_group
+unit_type = western
+capital = 4730 # Bologna

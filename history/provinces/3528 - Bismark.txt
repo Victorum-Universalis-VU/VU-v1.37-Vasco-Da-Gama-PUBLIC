@@ -1,0 +1,22 @@
+#3528 - Bismark
+
+#Default
+owner = BRA
+controller = BRA
+add_core = BRA
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 4
+base_manpower = 3
+trade_goods = beer
+capital = "Bismark"
+is_city = yes
+
+#Claimants
+
+#Buildings
+fort_15th = yes
+
+#Special Modifiers

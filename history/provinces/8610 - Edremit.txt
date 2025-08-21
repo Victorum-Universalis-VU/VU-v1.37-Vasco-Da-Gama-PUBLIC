@@ -1,0 +1,19 @@
+#8610 - Edremit
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = greek				#Greeks were still dominating the coast around that time
+religion = orthodox
+capital = "Edremit"
+trade_goods = olive_oil 		#Edremit's economy largely relies on olives
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = LAE controller = LAE add_core = LAE } # Latin territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe

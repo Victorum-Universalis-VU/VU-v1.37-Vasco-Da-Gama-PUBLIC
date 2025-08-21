@@ -1,0 +1,25 @@
+#2967 - Eger
+
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Eger"
+culture = czech
+religion = catholic
+trade_goods = gold #Joachimstal mines
+hre = yes
+base_tax = 3
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = EGR
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+1419.12.1 = { unrest = 5 } # Hussite Wars, Battle of Nekmir
+1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava

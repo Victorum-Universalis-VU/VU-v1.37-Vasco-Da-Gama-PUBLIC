@@ -1,0 +1,29 @@
+#7071 - Pinerolo
+
+#Default
+owner = SAV
+controller = SAV
+add_core = SAV
+culture = piedmontese
+religion = catholic
+capital = "Pinerolo"
+base_tax = 5			#Capital of Savoy-Achaia branch of Savoy from 1295, and apparently quite a flourishing city in the early period
+base_production = 5
+base_manpower = 3
+trade_goods = paper		#cloth of livestock could also work
+is_city = yes
+hre = yes
+
+#Special Modifiers
+add_local_autonomy = 35
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1418.12.6 = {
+	add_local_autonomy = -35
+	base_tax = 3
+	base_production = 3
+	base_manpower = 2
+}	#Extinction of Savoy-Achaia, the autonomous principality merges with Savoy, and the city loses some importance.

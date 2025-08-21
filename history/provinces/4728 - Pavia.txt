@@ -1,0 +1,30 @@
+#4728 - Pavia
+
+#Default
+owner = MLO
+controller = MLO
+add_core = MLO
+culture = lombard
+religion = catholic
+hre = yes
+base_tax = 9
+base_production = 9
+trade_goods = books
+base_manpower = 7
+capital = "Pavia"
+is_city = yes	# Estimated
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1215.1.1 = {
+	owner = PAV
+	controller = PAV
+	add_core = PAV
+}
+1359.1.1 = {
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+} # Falls to Milan in 1359 after resisting fiercely for a long time.

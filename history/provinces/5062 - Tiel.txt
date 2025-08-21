@@ -1,0 +1,15 @@
+#5062 - Tiel
+
+#Default
+owner = GEL
+controller = GEL
+add_core = GEL
+capital = "Tiel"
+is_city = yes
+culture = ger_guelders
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 1 
+trade_goods = fish
+base_manpower = 1

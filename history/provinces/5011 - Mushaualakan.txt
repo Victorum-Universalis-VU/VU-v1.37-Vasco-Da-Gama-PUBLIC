@@ -1,0 +1,14 @@
+#5011 - Mushaualakan
+
+#Default
+culture = innu
+religion = totemism 
+capital = "Menukuanistuk Shipi" 
+trade_goods = unknown
+hre = no 
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+native_size = 5
+native_ferocity = 1 
+native_hostileness = 3 

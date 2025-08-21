@@ -1,0 +1,21 @@
+#237 - Oxfordshire
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = oxonian
+religion = catholic
+hre = no
+base_tax = 4 
+base_production = 3
+base_manpower = 2 
+trade_goods = books # Includes Reading (Well, not any more)
+capital = "Oxford"
+is_city = yes 
+
+#Government
+seat_in_parliament = yes
+
+#History by SF
+1444.11.11 = { owner = OXF controller = OXF add_core = OXF } # The Earldom of Oxford territory - By San Felipe

@@ -1,0 +1,31 @@
+#293 - Vitebsk
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR 
+culture = byelorussian
+religion = orthodox
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = gems 
+base_manpower = 2 
+add_local_autonomy = 25
+capital = "Vitebsk"
+is_city = yes	 
+
+#Claimants
+add_core = PLT
+add_core = VTB
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = KIR
+}

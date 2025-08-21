@@ -1,0 +1,25 @@
+#5291 - Karpathos
+
+#Default
+owner = CDA
+controller = CDA
+add_core = CDA
+culture = greek
+religion = orthodox
+capital = "Karpathos"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = cheese
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = CRT
+
+#History by SF
+1215.6.15 = { owner = RHO controller = RHO add_core = RHO } # Rhodian (Leo Gabalas) territorial lands - By San Felipe
+1444.11.11 = { owner = VEN controller = VEN add_core = VEN } # Venetian territorial lands - By San Felipe

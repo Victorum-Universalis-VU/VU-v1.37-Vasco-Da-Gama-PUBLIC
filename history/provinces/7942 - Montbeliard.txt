@@ -1,0 +1,22 @@
+#7942 - Montbéliard
+
+#Default
+owner = FCM
+controller = FCM
+add_core = FCM
+culture = burgundian
+religion = catholic
+capital = "Montbéliard"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = horses
+is_city = yes
+hre = yes
+
+#History by SF
+1444.11.11 = {
+    owner = BUR
+    controller = BUR
+    add_core = BUR
+}

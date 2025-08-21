@@ -1,0 +1,21 @@
+#7133 - Metsovo
+
+#Default
+owner = EPI
+controller = EPI
+add_core = EPI
+culture = aromanian_culture			#Major Aromanian center
+religion = orthodox
+capital = "Metsovo"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = wool			#very rough terrain
+is_city = yes
+hre = no
+
+#Special Modifiers
+add_local_autonomy = 10
+
+#History by SF
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe

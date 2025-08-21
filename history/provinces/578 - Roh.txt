@@ -1,0 +1,21 @@
+#578 - Roh
+
+#Default
+owner = AFG
+controller = AFG
+add_core = AFG
+culture = pashtun
+religion = sunni
+capital = "Peshawar"
+trade_goods = saffron
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Buildings
+fort_15th = yes # Bala Hissar
+
+#Claims
+add_core = TIM

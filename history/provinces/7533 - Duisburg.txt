@@ -1,0 +1,18 @@
+#7533 - Duisburg
+
+#Default
+owner = KOL 
+controller = KOL
+add_core = KOL
+culture = hessian
+religion = catholic
+trade_goods = cloth
+capital = "Duisburg"
+base_tax = 3 
+base_production = 4 
+base_manpower = 2 
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = BRG

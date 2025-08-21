@@ -1,0 +1,26 @@
+#4425 - Kondavidu
+
+#Default
+owner = VIJ #In custody of Rajamahendri Reddys after the Reddys of Kondavidu were overthrown by Vijayanagar in 1428.
+controller = VIJ
+add_core = VIJ
+culture = telegu
+religion = hinduism
+capital = "Kondavidu"
+trade_goods = gems
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = GOC
+add_core = YOR
+
+#Special Modifiers
+add_brahmins_or_church_effect = yes
+add_local_autonomy = 50

@@ -1,0 +1,27 @@
+#261 - Halicz
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital= "Halych"
+culture = volhynian
+religion = orthodox
+trade_goods = beer
+hre = no
+base_tax = 4
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = VOL
+add_core = HLY
+
+#History by SF
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+	remove_core = HUN
+}

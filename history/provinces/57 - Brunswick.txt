@@ -1,0 +1,21 @@
+#57 - Brunswick
+
+#Default
+owner = BRU
+controller = BRU
+add_core = BRU
+culture = eastphalian
+religion = catholic
+capital = "Braunschweig"
+trade_goods = iron
+hre = yes
+base_tax = 8
+base_production = 8
+base_manpower = 4 
+is_city = yes
+
+#Buildings
+fort_15th = yes #Strong City Fortifications
+
+#Commerce
+center_of_trade = 2

@@ -1,0 +1,18 @@
+#8537 - Thurgau
+
+#Default
+owner = TIR
+controller = TIR
+add_core = TIR
+culture = swiss
+religion = catholic
+capital = "Thurgau" #Was Kreuzlingen
+trade_goods = grain
+hre = yes
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = TGA

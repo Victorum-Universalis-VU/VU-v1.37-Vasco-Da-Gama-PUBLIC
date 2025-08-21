@@ -1,0 +1,26 @@
+#1945 - Severia
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR
+culture = ruthenian
+religion = orthodox
+hre = no
+base_tax = 1 
+base_production = 2 
+trade_goods = iron 
+base_manpower = 1 
+capital = "Novgorod-Seversky"
+is_city = yes
+
+#Claimants
+add_core = SVK
+
+#History by SF
+1444.1.11 = {
+    owner = CHR
+    controller = CHR
+    add_core = CHR
+	remove_core = KIR
+}

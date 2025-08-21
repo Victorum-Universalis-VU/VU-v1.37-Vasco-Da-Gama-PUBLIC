@@ -1,0 +1,14 @@
+#6442 - Colmar
+owner = LOR
+controller = LOR
+add_core = LOR 
+capital = "Colmar"
+is_city = yes
+culture = alsatian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 1
+
+base_manpower = 1
+trade_goods = tin #One of the only places in the German Empire to natively produce tin, it's one of the reasons why loosing Alsase-Lorraine was so devastating to Germany

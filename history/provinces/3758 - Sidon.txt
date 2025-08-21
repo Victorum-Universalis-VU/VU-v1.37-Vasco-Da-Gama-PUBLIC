@@ -1,0 +1,18 @@
+#3758 - Sidon
+
+#Default
+owner = MAM
+controller = MAM
+add_core = MAM
+culture = druze_culture
+religion = druze_new	#City itself was monothelite (Maronite) but province covers almost only Druze land
+capital = "Sidon"
+trade_goods = cotton
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+#Claimants
+add_core = LEB
+add_core = SYR

@@ -1,0 +1,23 @@
+#3976 - Kadirli
+
+#Default
+owner = DUL
+controller = DUL
+add_core = DUL
+culture = cilician
+religion = miaphysite
+capital = "Kadirli"
+trade_goods = vegetables	#Nowdays produces 75% of Turkey's radishes, also rich soil but no big industry
+hre = no
+base_tax = 3
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = CIL
+add_core = RAM			#Disputed borderlands
+
+#History by SF
+1215.6.15 = { owner = CIL controller = CIL add_core = CIL } # Cilicia territorial lands - By San Felipe
+1444.11.11 = { owner = DUL controller = DUL add_core = DUL } # Dulkadir territorial lands - By San Felipe

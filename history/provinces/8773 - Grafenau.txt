@@ -1,0 +1,16 @@
+#8773 - Grafenau
+
+owner = LBV
+controller = LBV
+add_core = LBV
+culture = bavarian
+religion = catholic
+base_tax = 3 
+base_production = 2
+trade_goods = tin
+base_manpower = 1 
+capital	= "Grafenau" 
+is_city = yes
+hre = yes
+
+center_of_trade = 2 #A major stop on the Golden trail, one of the only passages through Bohemian forest into BOH -Don

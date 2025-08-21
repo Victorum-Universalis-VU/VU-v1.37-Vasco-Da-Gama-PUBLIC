@@ -1,0 +1,20 @@
+#7064 - Tende
+
+#Default
+owner = TND
+controller = TND
+add_core = TND
+culture = ligurian
+religion = catholic
+capital = "Tende"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = apiculture
+is_city = yes
+hre = yes
+
+#Claimants
+
+#Buildings
+fort_15th = yes

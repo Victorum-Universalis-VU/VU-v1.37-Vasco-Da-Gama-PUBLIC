@@ -1,0 +1,18 @@
+#3042 - Massa
+
+#Default
+owner = MSS
+controller = MSS
+add_core = MSS
+culture = romagnan
+religion = catholic
+hre = yes
+base_tax = 8
+base_production = 7
+trade_goods = wine #placeholder, famous Apuan Marble, should be Stone
+base_manpower = 3
+capital = "Massa"
+is_city = yes # Estimated
+
+#Buildings
+fort_15th = yes

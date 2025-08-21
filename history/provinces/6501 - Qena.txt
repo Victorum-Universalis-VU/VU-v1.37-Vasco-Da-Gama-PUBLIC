@@ -1,0 +1,25 @@
+#6501 - Qena
+
+#Default
+owner = MAM
+controller = MAM
+add_core = MAM
+capital = "Qena"
+culture = coptic_culture
+religion = coptic
+trade_goods = cloth
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = EGY
+add_core = KEM
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = vu_nile_river_in_arid_desert_province
+	duration = -1
+}

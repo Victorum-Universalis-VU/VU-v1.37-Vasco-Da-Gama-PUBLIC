@@ -1,0 +1,26 @@
+#162 - Zemplén
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+culture = rusyn
+religion = orthodox
+capital = "Zemplén"
+trade_goods = cheese #Changed this to cheese since I'm moving the leather to Munster and cheese can be a byproduct of livestock.
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1 
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = UHU
+add_core = SLO
+add_core = BAS
+
+#Commerce
+center_of_trade = 1

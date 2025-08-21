@@ -1,0 +1,15 @@
+#8502 - Chimay
+
+#Default
+owner = HAI
+controller = HAI
+add_core = HAI
+is_city = yes
+capital = "Chimay"
+culture = wallonian
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 2
+trade_goods = iron
+base_manpower = 3

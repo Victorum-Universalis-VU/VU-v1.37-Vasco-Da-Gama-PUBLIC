@@ -1,0 +1,18 @@
+#5334 - Rustaq
+
+#Default
+owner = MUS
+controller = MUS
+add_core = MUS
+culture = omani_culture
+religion = ibadi
+capital = "Rustaq"
+trade_goods = grain		#Fruit
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = OMA

@@ -1,0 +1,23 @@
+#5154 - Sis
+
+#Default
+owner = RAM
+controller = RAM
+add_core = RAM
+culture = cilician
+religion = miaphysite		#was orthodox
+capital = "Kozan"			#Technically still called Sis until around the 18th century, but Kozan is the Islamic/Turkish name by which it is best known
+trade_goods = wine			#wine still grown even after islamic conquest
+hre = no
+base_tax = 3
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = CIL
+add_core = CYP			#King Leo V of Cilicia was a Lusignan, and this title of Cilicia went to Cyprus, as would have the land if not for Mamluk influence. Giving a core.
+
+#History by SF
+1215.6.15 = { owner = CIL controller = CIL add_core = CIL } # Cilicia territorial lands - By San Felipe
+1444.11.11 = { owner = RAM controller = RAM add_core = RAM } # Ramazan territorial lands - By San Felipe

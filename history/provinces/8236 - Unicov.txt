@@ -1,0 +1,31 @@
+#8236 - Unicov
+
+owner = MVA
+controller = MVA
+add_core = MVA
+capital = "Unicov"
+is_city = yes
+culture = moravian #Was czech but changed by San Felipe on the advice of Morsmessor
+religion = hussite
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = tin
+hre = yes
+
+#Claimants
+
+#History
+1444.1.1 = { #Moravia was integrated into the Crown of Bohemia in 1431
+	owner = BOH
+	add_core = BOH
+}
+
+
+
+
+
+
+
+
+

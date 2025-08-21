@@ -1,0 +1,15 @@
+#7520 - Wolfsburg
+
+#Default
+owner = HSH
+controller = HSH
+add_core = HSH
+culture = eastphalian
+religion = catholic
+capital = "Wolfsburg"
+trade_goods = iron
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 2 
+is_city = yes

@@ -1,0 +1,20 @@
+#8064 - Alcaraz
+
+#Default
+owner = TLD
+controller = TLD
+add_core = TLD
+culture = castillian
+religion = catholic
+capital = "Alcaraz"
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = wine
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}

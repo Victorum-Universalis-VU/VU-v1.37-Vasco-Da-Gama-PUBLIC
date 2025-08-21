@@ -1,0 +1,19 @@
+#5206 - Trebizond
+
+#Default
+owner = TRE
+controller = TRE
+add_core = TRE
+culture = pontic_greek
+religion = orthodox
+capital = "Kerasous"
+trade_goods = lead	#Had lead mines PREVIOUS VERSION lumber Trebizond forests providing quality wood for the region
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = TRE controller = TRE add_core = TRE } # Trebizond territorial lands - By San Felipe
+1444.11.11 = { owner = TRE controller = TRE add_core = TRE } # Trebizond territorial lands - By San Felipe

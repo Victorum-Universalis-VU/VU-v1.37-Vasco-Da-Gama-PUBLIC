@@ -1,0 +1,19 @@
+#4438 - Nander
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = marathi
+religion = hinduism
+capital = "Nander"
+trade_goods = silk
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = MAR
+add_core = TLG

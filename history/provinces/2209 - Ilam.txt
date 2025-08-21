@@ -1,0 +1,33 @@
+#2209 - Ilam
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = kurdish
+religion = shiite
+capital = "Ilam"
+trade_goods = wool
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = LRI
+add_core = M3D
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1411.1.1 = {
+	owner = QAR
+	controller = QAR
+	add_core = QAR		
+} # Qara Koyunlu
+1444.1.1 = { add_core = QOM } #Disputed with Ajam. I couldn't find clear sources how far their rule extended. Seems like half of province was Ajam and half was QAR

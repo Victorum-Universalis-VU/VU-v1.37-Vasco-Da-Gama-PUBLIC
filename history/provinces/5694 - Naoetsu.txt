@@ -1,0 +1,19 @@
+#5694 - Naoetsu
+
+latent_trade_goods = {
+	oil
+}
+
+#Default
+owner = UES
+controller = UES
+add_core = UES
+culture = hokuriku 
+religion = shinto
+capital = "Naoetsu"
+trade_goods = medicaments
+hre = no
+base_tax = 5
+base_manpower = 5
+base_production = 5
+is_city = yes

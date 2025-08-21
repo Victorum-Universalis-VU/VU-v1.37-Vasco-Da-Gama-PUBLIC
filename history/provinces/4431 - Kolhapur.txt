@@ -1,0 +1,23 @@
+#4431 - Kolhapur
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = marathi
+religion = hinduism
+capital = "Kolhapur"
+trade_goods = elephants
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 10
+is_city = yes
+
+#Claimants
+add_core = BIJ
+add_core = MAR
+add_core = KHP
+
+#Special Modifiers
+add_rajputs_or_marathas_or_nobles_effect = yes

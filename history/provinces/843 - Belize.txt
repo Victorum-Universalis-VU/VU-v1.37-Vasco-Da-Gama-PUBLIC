@@ -1,0 +1,27 @@
+#843 - Belize
+
+#Default
+owner = CTM
+controller = CTM
+add_core = CTM
+culture = yucatec
+religion = mesoamerican_religion
+capital = "Chactemal" 
+trade_goods = rum
+hre = no 
+base_tax = 8 
+base_production = 8 
+base_manpower = 2 
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#Special Modifiers
+add_local_autonomy = 25
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

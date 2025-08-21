@@ -1,0 +1,25 @@
+#7058 - Alessandria
+
+#Default
+owner = ASD
+controller = ASD
+add_core = ASD
+culture = piedmontese #Eastern Piedmontese. It has influence from neighboring Emilian, Lombard, and Ligurian, but is not classified as Lombard despite Darth Modus putting it that way in the history files.
+religion = catholic
+capital = "Alessandria"
+base_tax = 8
+base_production = 8
+base_manpower = 4
+trade_goods = gunpowder #was grain, gunpowder introduced from east and brought by genosese traders
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1396.1.1 = {
+	base_tax = 15 
+	base_production = 15
+	base_manpower = 9
+} # Visconti relationship with the HRE emperor elevates Milan to a duchy, which we'll call a kingdom in HRE game terms. Also calling this good for the city's wealth, though this is probably a bit reversed. Strongly Ghibelline at this point.

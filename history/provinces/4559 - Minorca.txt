@@ -1,0 +1,30 @@
+#4559 - Menorca
+
+#Default
+owner = AMD		#Martin I of Aragon
+controller = AMD
+add_core = AMD
+culture = catalan
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 1 
+trade_goods = seafood
+base_manpower = 1  
+capital = "Ciutadella" 
+is_city = yes
+
+#History by SF
+1444.11.11 = {
+    owner = MJO
+    controller = MJO
+    add_core = MJO
+    add_core = ARA
+    remove_core = AMD
+} # Aragonese territorial lands - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = gulf_of_lion_estuary_modifier
+    duration = -1
+}

@@ -1,0 +1,19 @@
+#8130 - Stafford
+
+latent_trade_goods = { 
+    coal 
+}
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+capital = "Stafford"
+is_city = yes
+culture = midlander
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = glass #there was both glass production but also clay production, so this kinda covers both
+hre = no

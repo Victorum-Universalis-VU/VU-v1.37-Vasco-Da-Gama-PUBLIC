@@ -1,0 +1,18 @@
+#4040 - Kalonga
+
+#Default
+owner = MRA
+controller = MRA
+add_core = MRA
+culture = nyasa
+religion = shamanism #Fetishism
+capital = "Manthimba"
+is_city = yes
+base_manpower = 8
+trade_goods = tin
+hre = no
+base_tax = 6
+base_production = 6
+
+#Commerce
+center_of_trade = 2

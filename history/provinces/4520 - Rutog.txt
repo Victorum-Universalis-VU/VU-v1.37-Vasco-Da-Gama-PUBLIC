@@ -1,0 +1,14 @@
+#4520 - Rutog
+
+owner = GUG
+controller = GUG
+add_core = GUG
+culture = tibetan
+religion = vajrayana
+capital = "Rutog"
+trade_goods = wool
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4 
+is_city = yes

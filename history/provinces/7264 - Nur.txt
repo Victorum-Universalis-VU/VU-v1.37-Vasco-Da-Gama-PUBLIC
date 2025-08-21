@@ -1,0 +1,15 @@
+#7264 - Nur
+
+#Default
+owner = MAZ
+controller = MAZ
+add_core = MAZ
+culture = polish
+religion = catholic
+capital = "Nur"
+base_tax = 3
+base_production = 2
+base_manpower = 2
+trade_goods = beer
+is_city = yes
+hre = no

@@ -1,0 +1,18 @@
+#7145 - Inebolu
+
+#Default
+owner = NIC
+controller = NIC
+add_core = NIC
+culture = turkish
+religion = sunni
+capital = "Inebolu"
+trade_goods = lumber		# Black Sea coast is a forest region PREVIOUS VERSION wool, town was fameous for textile production (wools) but also lumber and beekeeping
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = CND controller = CND add_core = CND add_core = BYZ } # Candar territorial lands - By San Felipe

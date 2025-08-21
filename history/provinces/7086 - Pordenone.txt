@@ -1,0 +1,30 @@
+#7086 - Pordenone
+
+#Default
+owner = AQU
+controller = AQU
+add_core = AQU
+culture = friulian_culture
+religion = catholic
+capital = "Pordenone"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = pottery	#Changed to pottery and it was nicknamed the 'Manchester' of Italy (by San Felipe).
+is_city = yes
+hre = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#History by SF
+1314.1.1 = {
+	# Habsburgs turn this into a flourishing enclave
+	base_tax = 5
+	base_production = 5
+	base_manpower = 3
+	add_core = STY
+} 

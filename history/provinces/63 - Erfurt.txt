@@ -1,0 +1,27 @@
+#63 - Erfurt
+
+#Default
+owner = MAI
+controller = MAI
+add_core = MAI
+culture = saxon
+religion = catholic
+capital = "Erfurt"
+trade_goods = dyes  #Woad
+hre = yes
+base_tax = 4
+base_production = 6
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = SWZ
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = jewish_population
+	duration = -1
+}

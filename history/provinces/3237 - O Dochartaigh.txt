@@ -1,0 +1,15 @@
+#3237 - O' Dochartaigh
+
+#Default
+owner = TRY
+controller = TRY
+add_core = TRY
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = naval_supplies
+capital = "O' Dochartaigh"
+is_city = yes

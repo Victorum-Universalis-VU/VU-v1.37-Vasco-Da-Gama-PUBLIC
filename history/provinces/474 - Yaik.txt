@@ -1,0 +1,18 @@
+#474 - Yaik
+
+#Default
+owner = NOG
+controller = NOG
+add_core = NOG
+culture = nogaybak
+religion = sunni
+capital = "Yaik"
+trade_goods = iron
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+#Commerce
+center_of_trade = 1

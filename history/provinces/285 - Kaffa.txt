@@ -1,0 +1,30 @@
+#285 - Kaffa
+
+#Default
+owner = GZR
+controller = GZR 
+add_core = GZR
+culture = ligurian
+religion = catholic
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 2
+trade_goods = slaves
+capital = "Kaffa"
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1444.1.1 = { add_core = GEN add_core = BYZ } #Making it Genoese core due to being only prov with genoese culture out there, probably more loyal to its roots
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

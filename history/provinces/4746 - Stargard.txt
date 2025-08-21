@@ -1,0 +1,24 @@
+#4746 - Stargard
+
+#Default
+owner = DYM
+controller = DYM 
+add_core = DYM
+culture = kashubian_culture
+religion = catholic
+capital = "Stargard"
+base_tax = 3 
+base_production = 3 
+base_manpower = 2 
+trade_goods = naval_supplies
+is_city = yes
+hre = yes
+
+#History by SF
+1295.1.1 = {
+	owner = STP
+	controller = STP
+	add_core = STP
+	remove_core = DYM
+}	#Barnim II of Pomerania dies, killed by the husband of a woman he seduced. Pomerania fractures.
+1300.1.1 = { culture = pommeranian }

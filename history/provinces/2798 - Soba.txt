@@ -1,0 +1,15 @@
+#2798 - Soba
+
+#Default
+owner = ALO
+controller = ALO
+add_core = ALO
+culture = berta_culture
+religion = coptic
+capital = "Soba"
+is_city = yes
+trade_goods = slaves
+base_manpower = 2 
+base_tax = 3 
+base_production = 3 
+hre = no

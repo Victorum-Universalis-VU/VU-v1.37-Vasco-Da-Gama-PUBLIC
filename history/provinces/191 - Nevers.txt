@@ -1,0 +1,25 @@
+#191 - Nevers
+
+#Default
+owner = NEV
+controller = NEV
+add_core = NEV
+capital = "Nevers"
+is_city = yes
+culture = burgundian
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = naval_supplies
+base_manpower = 2
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = FDB
+add_core = FRA
+
+#Commerce
+center_of_trade = 1

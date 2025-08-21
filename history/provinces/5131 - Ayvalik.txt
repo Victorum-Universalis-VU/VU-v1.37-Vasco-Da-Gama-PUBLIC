@@ -1,0 +1,19 @@
+#5131 - Ayvalik
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = greek			#Greeks were still dominant in coastline around that time
+religion = orthodox
+capital = "Ayvalik"
+trade_goods = olive_oil
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2 #1 
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = NIC controller = NIC add_core = NIC } # Nicean territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe

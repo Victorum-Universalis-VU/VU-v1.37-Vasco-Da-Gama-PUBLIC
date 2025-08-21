@@ -1,0 +1,18 @@
+#5296 - Nusaybin
+
+#Default
+owner = QAR
+controller = QAR
+add_core = QAR
+capital = "Nusaybin"
+culture = aramaic		#last lands of strong aramaic culture
+religion = nestorian
+trade_goods = gunpowder			#Turks brought gunpowder and cannons
+hre = no
+base_tax = 4
+base_production = 3 
+base_manpower = 1 
+is_city = yes
+
+#Claimants
+add_core = Z3N

@@ -1,0 +1,14 @@
+#4517 - Nedong
+
+owner = PHA
+controller = PHA
+add_core = PHA
+culture = tibetan
+religion = bon
+capital = "Nedong"
+trade_goods = grain
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+is_city = yes

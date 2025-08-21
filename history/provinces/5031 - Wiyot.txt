@@ -1,0 +1,31 @@
+#5031 - Wiyot
+
+#Default
+culture = wiyot
+religion = totemism
+capital = "Jaroujiji" 			#Or Chuerew, Da'guchwayawik for Trinidad Bay
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = vu_redwood_forests 
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = ekron_bay_modifier
+    duration = -1
+}

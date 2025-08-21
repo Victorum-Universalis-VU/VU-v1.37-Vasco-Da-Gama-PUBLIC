@@ -1,0 +1,15 @@
+#7010 - Bucegi
+
+#Default
+owner = WAL
+controller = WAL 
+add_core = WAL
+culture = romanian
+religion = catholic
+capital = "Sinaia"
+trade_goods = vodka
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes

@@ -1,0 +1,15 @@
+#8252 - Kladsko
+
+#Default
+capital = "Kladsko"
+is_city = yes
+owner = BOH
+add_core = BOH
+controller = BOH
+culture = silesian_german
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = vegetables
+hre = yes

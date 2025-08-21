@@ -1,0 +1,35 @@
+#7079 - Biella
+
+#Default
+owner = VCL			#Not really clear, but the Biella region appears defacto under Vercelli in the early period.
+controller = VCL
+add_core = VCL
+culture = piedmontese
+religion = catholic
+capital = "Biella"
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = gold	#Intentional. Apparently gold was and still is an industry in the region. Also note wool is a major industry, and the obviously second choice.
+is_city = yes
+hre = yes
+
+#History by SF
+1335.1.1 = {
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+} # History not really perfectly clear here, so following Vercelli for the early period.
+1377.1.1 = {
+	owner = SAV
+	controller = SAV
+	add_core = SAV
+} # Biella taken by Savoy
+#Switching to Masserano, rather than Biella, in 1394 for interest & drama.
+1394.1.1 = {
+	capital = "Masserano"
+	owner = MNO
+	controller = MNO
+	add_core = MNO
+	remove_core = SAV
+} # Fieschi family obtains Masserano in 1394 and hold it effectively as a highly autonomous Papal vassal for nearly 4 centuries, made a county in 1506, a marquisate in 1547, and a principality in 1598.

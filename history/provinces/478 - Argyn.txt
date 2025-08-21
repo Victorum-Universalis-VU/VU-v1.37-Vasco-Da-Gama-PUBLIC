@@ -1,0 +1,17 @@
+#478 - Argyn
+
+owner = SHY
+controller = SHY
+add_core = SHY
+culture = khazak
+religion = sunni
+capital = "Argyn"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+#Claims
+add_core = KZH

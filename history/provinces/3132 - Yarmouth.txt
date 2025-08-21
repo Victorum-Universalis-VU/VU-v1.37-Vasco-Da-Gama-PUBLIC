@@ -1,0 +1,18 @@
+#3132 - Yarmouth
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = east_anglian
+religion = lollardy
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = livestock
+capital = "Yarmouth"
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = NFL controller = NFL add_core = NFL } # The Dukedom of Norfolk territory - By San Felipe

@@ -1,0 +1,25 @@
+#2978 - Arezzo
+
+#Default
+owner = ARE
+controller = ARE
+add_core = ARE
+culture = tuscan 
+religion = catholic 
+hre = yes 
+base_tax = 8
+base_production = 8
+trade_goods = livestock #chianina cattle, could also be glass for Pottery
+base_manpower = 5
+capital = "Arezzo" 
+is_city = yes # Estimated 
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1384.1.1 = {
+	controller = ARE
+	owner = ARE
+	add_core = ARE
+}

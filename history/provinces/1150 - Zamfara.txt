@@ -1,0 +1,14 @@
+#1150 - Zamfara
+
+owner = ZZZ
+controller = ZZZ
+add_core = ZZZ
+culture = hausa
+is_city = yes
+religion = shamanism #Fetishism
+capital = "Dutsi"
+trade_goods = palm_oil
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 2 

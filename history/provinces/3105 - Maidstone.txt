@@ -1,0 +1,15 @@
+#3105 - Maidstone
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = estuary_english
+religion = catholic
+hre = no
+base_tax = 1
+base_manpower = 1
+base_production = 1
+trade_goods = lumber 
+capital = "Maidstone"
+is_city = yes

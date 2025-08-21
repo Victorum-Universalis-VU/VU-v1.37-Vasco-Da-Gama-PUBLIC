@@ -1,0 +1,18 @@
+#5569 - Milos
+
+#Default
+owner = NAX
+controller = NAX
+add_core = NAX
+culture = greek
+religion = orthodox
+capital = "Milos"
+trade_goods = livestock
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Buildings
+fort_15th = yes

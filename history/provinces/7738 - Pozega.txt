@@ -1,0 +1,21 @@
+#7738 - Pozega
+
+#Default
+owner = CRO
+controller = CRO
+add_core = CRO
+culture = croatian
+religion = catholic
+capital = "Požega"
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = lumber
+is_city = yes
+hre = no
+
+#Claimants
+add_core = SLA
+
+#History by SF
+1444.11.11 = { owner = HUN controller = HUN add_core = HUN } # Hungarian territorial lands - By San Felipe

@@ -1,0 +1,30 @@
+#4752 - Rijeka
+
+#Default
+owner = CRO
+controller = CRO
+add_core = CRO
+culture = croatian
+religion = catholic
+capital = "Rijeka"
+trade_goods = cloth
+hre = yes
+base_tax = 7
+base_production = 7
+base_manpower = 4
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = RIJ
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

@@ -1,0 +1,15 @@
+#802 - Chuquiabo
+
+#Default
+owner = CLA
+controller = CLA
+add_core = CLA
+is_city = yes
+culture = aimara
+religion = inti
+capital = "Chuquiabo"
+trade_goods = tin
+hre = no
+base_tax = 8 
+base_production = 8
+base_manpower = 2 

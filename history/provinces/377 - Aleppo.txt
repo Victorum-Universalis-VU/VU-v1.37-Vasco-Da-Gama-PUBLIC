@@ -1,0 +1,35 @@
+#377 - Aleppo
+
+#Default
+owner = MAM
+controller = MAM
+add_core = MAM
+culture = al_suryah_arabic	#Arabic Syrian, possibly sizeable minority of aramaic culture within province' borders
+religion = sunni
+capital = "Halab"
+trade_goods = organic_soap
+hre = no
+base_tax = 14
+base_production = 14
+base_manpower = 12
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = A1P
+add_core = SYR
+
+#Commerce
+center_of_trade = 5
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}
+add_permanent_province_modifier = {
+	name = vu_potential_archaeological_dig
+	duration = -1
+}

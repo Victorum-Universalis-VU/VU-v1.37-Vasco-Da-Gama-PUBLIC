@@ -1,0 +1,27 @@
+#940 - Kentucky
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+culture = shawnee
+religion = totemism
+capital = "Kentucky"
+trade_goods = unknown
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 2
+native_size = 5
+native_ferocity = 5
+native_hostileness = 1
+
+#Claimants
+tribal_owner = KSP
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.1 = { tribal_owner = KSP }

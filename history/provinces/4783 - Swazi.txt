@@ -1,0 +1,17 @@
+#4783 - Mtetwa
+
+#Default
+culture = nguni
+religion = shamanism #Fetishism
+capital = "Eswatini"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_ferocity = 10
+native_hostileness = 10
+native_size = 100
+
+#Commerce
+center_of_trade = 1

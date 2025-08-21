@@ -1,0 +1,16 @@
+#8507 - Wavre
+
+#Default
+owner = LIE
+controller = LIE
+add_core = LIE
+add_core = BUR
+is_city = yes
+capital = "Wavre"
+culture = ger_brabantian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 2
+trade_goods = vegetables
+base_manpower = 1

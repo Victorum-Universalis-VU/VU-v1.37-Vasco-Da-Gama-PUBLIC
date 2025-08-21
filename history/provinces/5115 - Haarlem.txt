@@ -1,0 +1,15 @@
+#5115 - Haarlem
+
+#Default
+owner = HOL
+controller = HOL
+add_core = HOL
+capital = "Haarlem"
+is_city = yes
+culture = ger_dutch
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = wool
+base_manpower = 1

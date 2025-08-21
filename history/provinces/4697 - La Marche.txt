@@ -1,0 +1,21 @@
+#4697 - La Marche
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+capital = "Guéret"
+is_city = yes
+culture = auvergnat_culture	#aquitaine vanilla
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 2 
+trade_goods = lumber
+base_manpower = 1 
+
+#Claimants
+add_core = GUY
+
+#History by SF
+1444.11.11 = { owner = AMG controller = AMG add_core = AMG } # Duchy of Armagnac territorial lands - By San Felipe

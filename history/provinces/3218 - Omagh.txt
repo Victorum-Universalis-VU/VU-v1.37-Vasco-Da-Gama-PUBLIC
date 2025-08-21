@@ -1,0 +1,15 @@
+#3218 - Omagh
+
+#Default
+owner = TYR
+controller = TYR
+add_core = TYR
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = lead
+capital = "Omagh"
+is_city = yes

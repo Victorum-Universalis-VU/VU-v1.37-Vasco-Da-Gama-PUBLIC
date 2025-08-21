@@ -1,0 +1,24 @@
+#3156 - Suceava
+
+#Default
+owner = MOL
+controller = MOL
+add_core = MOL
+culture = romanian
+religion = orthodox
+hre = no
+base_tax = 3 
+base_production = 3 
+capital = "Suceava"
+is_city = yes
+trade_goods = wool
+base_manpower = 2
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = SCV
+
+#Commerce
+center_of_trade = 1

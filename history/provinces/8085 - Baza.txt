@@ -1,0 +1,23 @@
+#8085 - Baza
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = andalusi_arabic
+religion = sunni
+capital = "Baza"
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = vegetables
+is_city = yes
+hre = no
+
+#History by SF
+1444.11.11 = {
+    owner = GRA
+    controller = GRA
+    add_core = GRA
+    remove_core = AMD
+} # Granadan territorial lands - By San Felipe

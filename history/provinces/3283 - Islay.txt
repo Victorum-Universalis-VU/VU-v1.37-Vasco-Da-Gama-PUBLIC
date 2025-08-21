@@ -1,0 +1,18 @@
+#3283 - Islay
+
+#Default
+owner = MDD
+controller = MDD
+add_core = MDD
+culture = gallgaidheil
+religion = catholic
+hre = no
+base_tax = 2  
+base_production = 1
+trade_goods = whiskey
+base_manpower = 1
+capital = "Kilarrow"
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = MDD controller = MDD add_core = MDD } # The MacDonald territory - By San Felipe

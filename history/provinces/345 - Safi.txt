@@ -1,0 +1,32 @@
+#345 - Safi
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = shilha
+religion = sunni
+capital = "Asfi"
+trade_goods = fish
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 4
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1444.11.11 = { 
+	owner = MRK 
+	controller = MRK 
+	add_core = MRK
+	remove_core = AMD 
+} # Marrakesh territorial lands - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

@@ -1,0 +1,18 @@
+#8183 - Nógrád
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Balassagyarmat"
+is_city = yes
+culture = hungarian
+religion = catholic
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = livestock
+hre = no
+
+#Claimants
+add_core = LHU

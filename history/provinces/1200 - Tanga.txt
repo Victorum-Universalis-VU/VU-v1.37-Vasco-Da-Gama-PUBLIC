@@ -1,0 +1,18 @@
+#1200 - Tanga
+
+#Default
+owner = MBA
+controller = MBA
+add_core = MBA
+culture = swahili
+religion = shamanism #Fetishism
+capital = "Vumba Kuu"
+is_city = yes
+base_manpower = 4
+trade_goods = ivory
+hre = no
+base_tax = 4 
+base_production = 4
+
+#Special Modifiers
+add_local_autonomy = 35

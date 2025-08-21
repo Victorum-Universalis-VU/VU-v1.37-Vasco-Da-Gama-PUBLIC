@@ -1,0 +1,24 @@
+#299 - Voronezh
+
+#Default
+owner = GOL
+controller = GOL
+add_core = GOL
+culture = ryazanian
+religion = orthodox
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = grain  
+base_manpower = 2
+capital = "Khazar"
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

@@ -1,0 +1,15 @@
+#3048 - Bolzano
+
+#Default
+owner = TIR
+controller = TIR
+add_core = TIR
+culture = austrian
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = fruit
+capital = "Bozen"
+is_city = yes

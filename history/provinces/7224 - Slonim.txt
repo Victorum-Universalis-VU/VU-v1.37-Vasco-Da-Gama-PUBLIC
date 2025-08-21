@@ -1,0 +1,26 @@
+#7224 - Slonim
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR 
+culture = byelorussian
+religion = orthodox
+capital = "Slonim"
+base_tax = 3
+base_production = 3
+base_manpower = 1
+trade_goods = grain
+is_city = yes
+hre = no
+
+#History by SF
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = KIR
+}
+
+#Special Modifiers
+add_local_autonomy = 25

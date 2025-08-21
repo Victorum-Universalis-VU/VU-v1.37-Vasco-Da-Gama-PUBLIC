@@ -1,0 +1,22 @@
+#3988 - Resafa
+
+#Default
+owner = FAD
+controller = FAD
+add_core = FAD
+culture = al_suryah_arabic
+religion = sunni
+capital = "Resafa"
+trade_goods = wool
+hre = no
+base_tax = 1			#Resafa was destroyed and abandoned after Mongol invasions
+base_production = 1
+base_manpower = 1			
+is_city = yes
+
+#Claimants
+add_core = SYR
+
+#History by SF
+1215.6.15 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
+1444.11.11 = { owner = FAD controller = FAD add_core = FAD } # Fadl territorial lands - By San Felipe

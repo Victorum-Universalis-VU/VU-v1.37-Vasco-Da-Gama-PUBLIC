@@ -1,0 +1,28 @@
+#8251 - Nysa
+
+#Default
+owner = SIL
+controller = SIL
+add_core = SIL
+capital = "Nysa"
+is_city = yes
+culture = polish
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = cloth
+hre = yes
+
+#Claimants
+add_core = POL
+
+#History by SF
+1444.1.1 = {
+	culture = silesian_german
+	owner = NIE
+	controller = NIE
+	remove_core = SIL
+	remove_core = POL
+	add_core = NIE
+}

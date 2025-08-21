@@ -1,0 +1,24 @@
+#3932 - El Ganbi
+
+#Default
+owner = MAM
+controller = MAM
+add_core = MAM
+capital = "El Ganbi"
+culture = siwa_culture
+religion = sunni
+trade_goods = livestock
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1 
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = vu_oasis
+	duration = -1
+}
+
+#Special Modifiers
+add_local_autonomy = 50

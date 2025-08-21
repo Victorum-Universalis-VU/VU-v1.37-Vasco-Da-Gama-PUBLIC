@@ -1,0 +1,11 @@
+#DAL - Dalmatia
+government = monarchy
+add_government_reform = unlocked_eue_duchy_reform
+government_rank = 6 #Duchy
+primary_culture = dalmatian
+add_accepted_culture = croatian
+religion = orthodox
+technology_group = italian_tech_group
+unit_type = western
+capital = 136 # Split
+add_army_professionalism = 0.05

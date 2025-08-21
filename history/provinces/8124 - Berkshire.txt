@@ -1,0 +1,24 @@
+#8124 - Berkshire
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+capital = "Abingdon"
+is_city = yes
+culture = berkshirite
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = cider
+hre = no
+
+#Buildings
+fort_15th = yes #Windsor Castle
+
+#Government
+seat_in_parliament = yes
+
+#History by SF
+1444.11.11 = { owner = OXF controller = OXF add_core = OXF } # The Earldom of Oxford territory - By San Felipe

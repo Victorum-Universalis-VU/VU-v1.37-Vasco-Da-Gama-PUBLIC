@@ -1,0 +1,31 @@
+#2992 - Albenga
+
+#Default
+owner = FNL
+controller = FNL
+add_core = FNL
+culture = ligurian
+religion = catholic
+hre = yes
+base_tax = 6
+base_production = 6
+trade_goods = pottery #Known for producing pottery and ceramics (by San Felipe).
+base_manpower = 4
+capital = "Albenga"
+is_city = yes # Estimated
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
+
+#History by Sf
+1444.11.11 = {
+    owner = GEN
+    controller = GEN
+    add_core = GEN
+}

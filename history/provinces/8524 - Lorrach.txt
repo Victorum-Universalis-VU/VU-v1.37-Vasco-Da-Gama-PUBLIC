@@ -1,0 +1,15 @@
+#6354 - Lorrach
+
+#Default
+owner = SSN
+controller = SSN
+add_core = SSN
+culture = swabian
+religion = catholic
+base_tax = 3
+base_production = 2
+base_manpower = 2
+trade_goods = glass
+capital = "Lorrach" 
+is_city = yes
+hre = yes

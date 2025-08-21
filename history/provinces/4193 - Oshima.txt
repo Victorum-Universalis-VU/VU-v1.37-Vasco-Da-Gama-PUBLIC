@@ -1,0 +1,15 @@
+#4193 - Oshima
+
+#Default
+owner = AKT
+controller = AKT
+add_core = AKT
+culture = hokkaido 
+religion = shinto
+capital = "Katsuyama"
+trade_goods = ivory #Whaling
+hre = no
+base_tax = 2
+base_production = 4 
+base_manpower = 6
+is_city = yes

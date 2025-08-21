@@ -1,0 +1,18 @@
+#5702 - Sakishima
+
+#Default
+owner = RYU
+controller = RYU
+add_core = RYU
+culture = vu_ryukyuan
+religion = animism
+capital = "Sakishima"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#Buildings
+archaeological_dig = yes

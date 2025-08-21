@@ -1,0 +1,28 @@
+#190 - Bourbon
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+capital = "Moulins"
+is_city = yes
+culture = auvergnat_culture
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = salt
+base_manpower = 2 
+
+#Claimants
+add_core = AUV
+
+#Commerce
+center_of_trade = 1
+
+#History
+1444.11.11 = { 
+	owner = BOU 
+	controller = BOU 
+	add_core = BOU 
+} # Duchy of Bourbonnais - By San Felipe

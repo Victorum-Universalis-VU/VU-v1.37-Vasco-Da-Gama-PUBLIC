@@ -1,0 +1,25 @@
+#194 - Périgord
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+capital = "Périgord"
+is_city = yes
+culture = auvergnat_culture
+religion = catholic
+hre = no
+base_tax = 2  
+base_production = 3 
+base_manpower = 2
+trade_goods = herbs
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = GUY
+
+#History by SF
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # Part of English Duchy of Aquitaine - By San Felipe
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe

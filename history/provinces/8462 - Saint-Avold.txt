@@ -1,0 +1,19 @@
+#8462 - Saint-Avold
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = LOR
+controller = LOR
+add_core = LOR
+capital = "Saint-Avold"
+is_city = yes
+culture = alsatian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 1
+trade_goods = vegetables
+base_manpower = 2

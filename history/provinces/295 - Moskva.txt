@@ -1,0 +1,21 @@
+#295 - Moskva
+
+#Default
+owner = MOS 
+controller = MOS
+add_core = MOS
+culture = muscovite
+religion = orthodox
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = cloth 
+base_manpower = 4 
+capital = "Moskva"
+is_city = yes
+
+#Commerce
+center_of_trade = 5
+
+#History by SF
+1439.1.1 = { base_tax = 12 base_production = 12 base_manpower = 12 } # In 1439, the Moscow villages were burned by the Tatars of Ulu-Muhammad

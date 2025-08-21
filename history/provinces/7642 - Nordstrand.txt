@@ -1,0 +1,23 @@
+#7642 - Nordstrand
+
+#Default
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2 
+trade_goods = grain
+base_manpower = 2
+capital = "Grimma"
+is_city = yes
+
+#History by SF
+1444.1.1 = {
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+	remove_core = MEI
+}

@@ -1,0 +1,23 @@
+#2035 - Urmia
+
+#Default
+owner = QAR
+controller = QAR
+add_core = QAR
+culture = assyrian	#last areas where Eastern-Aramaic communities were still plentiful
+religion = nestorian	#Eastern Aramaics followed nestorian faith around that time
+capital = "Urmiyeh"
+trade_goods = fruit
+hre = no
+base_tax = 4 
+base_production = 4 
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = ASR
+add_core = ASY 
+add_core = ILK
+
+#Commerce
+center_of_trade = 1

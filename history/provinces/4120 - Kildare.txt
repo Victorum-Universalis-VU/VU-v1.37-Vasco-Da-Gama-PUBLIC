@@ -1,0 +1,23 @@
+#4120 - Kildare
+
+#Default
+owner = KID
+controller = KID
+add_core = KID
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 2
+base_manpower = 3
+trade_goods = zinc	# Google says rich lead+zinc mines
+capital = "Cill Dara"
+#capital = "Nás na Ríogh"
+is_city = yes
+
+#Claimants
+add_core = ANI
+
+#History by SF
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # English Lordship of Ireland territory - By San Felipe
+1444.11.11 = { owner = KID controller = KID add_core = KID } # Kildare clan territory - By San Felipe

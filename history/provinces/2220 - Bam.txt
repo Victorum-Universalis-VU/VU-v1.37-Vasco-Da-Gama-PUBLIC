@@ -1,0 +1,25 @@
+#2220 - Bam
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = baluchi
+religion = shiite
+capital = "Bam"
+trade_goods = opium
+hre = no
+base_tax = 2  
+base_production = 2 
+base_manpower = 2 
+is_city = yes
+
+#Buildings
+fort_15th = yes #Bam Citadel
+
+#Claimants
+add_core = BAL
+add_core = SIS
+
+#Commerce
+center_of_trade = 1

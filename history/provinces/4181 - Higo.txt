@@ -1,0 +1,21 @@
+#4181 - Higo
+
+#Default
+owner = KKC
+controller = KKC
+add_core = KKC
+culture = kyushuan
+religion = shinto
+capital = "Kumamoto"
+trade_goods = naval_supplies
+hre = no
+base_tax = 7
+base_manpower = 7
+base_production = 7
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_3
+    duration = -1
+}

@@ -1,0 +1,23 @@
+#3359 - Schömberg
+
+#Default
+owner = HHB
+controller = HHB
+add_core = HHB
+capital = "Schömberg"
+is_city = yes
+culture = swabian
+religion = catholic
+hre = yes
+base_tax = 6
+base_production = 6
+base_manpower = 4
+center_of_trade = 2
+trade_goods = vegetables
+
+#History by SF
+1444.1.1 = {
+	owner = FC5
+	controller = FC5
+	add_core = FC5
+}

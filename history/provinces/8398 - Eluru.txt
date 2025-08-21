@@ -1,0 +1,21 @@
+#8398 - Eluru
+
+#Default
+owner = YOR
+controller = YOR
+add_core = YOR
+culture = telegu
+religion = hinduism
+capital = "Eluru"
+trade_goods = amber	#could be also gems
+hre = no
+base_tax = 6
+base_production = 5
+base_manpower = 5
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = godavari_estuary_modifier
+	duration = -1
+}

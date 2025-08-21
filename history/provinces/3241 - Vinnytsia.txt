@@ -1,0 +1,20 @@
+#3241 - Vinnytsia
+#Region - Ruthenia
+#Area - Podolia Volhynia
+
+owner = BSV
+controller = BSV
+add_core = BSV
+culture = ruthenian
+religion = orthodox
+hre = no
+base_tax = 1 
+base_production = 1 
+trade_goods = herbs
+base_manpower = 1 
+capital = "Kalnik"
+is_city = yes
+
+
+#Claimants
+add_core = BCL

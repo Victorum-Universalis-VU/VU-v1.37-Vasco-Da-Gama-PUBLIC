@@ -1,0 +1,29 @@
+#7076 - Chioggia
+
+#Default
+owner = VRN
+controller = VRN
+add_core = VRN
+culture = venetian
+religion = catholic
+capital = "Chioggia"
+base_tax = 6
+base_production = 6
+base_manpower = 3
+trade_goods = salt			#major salt trade post
+is_city = yes
+hre = yes
+
+#History by SF
+1381.1.1 = {
+	#Retaken by Venice
+	owner = VEN
+	controller = VEN
+	hre = no
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = po_estuary_modifier
+    duration = -1
+}

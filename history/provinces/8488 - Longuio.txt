@@ -1,0 +1,15 @@
+#8488 - Longuio
+
+#Default
+owner = BAR
+controller = BAR
+add_core = BAR 
+capital = "Longuio"
+is_city = yes
+culture = lorraine_culture
+religion = catholic 
+hre = yes
+base_tax = 3
+base_production = 2
+trade_goods = iron
+base_manpower = 1 

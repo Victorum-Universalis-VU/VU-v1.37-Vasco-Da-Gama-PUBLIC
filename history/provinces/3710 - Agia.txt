@@ -1,0 +1,25 @@
+#3710 - Agia
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = greek
+religion = orthodox
+capital = "Agia"
+base_tax = 3
+base_production = 1
+base_manpower = 3
+trade_goods = fish			#No real reason
+is_city = yes
+hre = no
+
+#Claimants
+add_core = BYZ
+
+#History by SF
+1215.6.15 = { owner = THE controller = THE add_core = THE } # Thessalonica territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 10

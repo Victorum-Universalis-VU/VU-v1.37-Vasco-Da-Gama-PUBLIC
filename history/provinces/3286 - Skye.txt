@@ -1,0 +1,19 @@
+#3286 - Skye
+
+#Default
+owner = MCD
+controller = MCD
+add_core = MCD
+culture = gallgaidheil
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 2
+trade_goods = grain
+base_manpower = 1
+capital = "Port Rìgh"
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = KOI controller = KOI add_core = KOI } # Kingdom of Mann territory - By San Felipe
+1444.11.11 = { owner = MCD controller = MCD add_core = MCD } # The MacLeod territory - By San Felipe

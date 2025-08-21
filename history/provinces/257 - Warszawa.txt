@@ -1,0 +1,27 @@
+#257 - Mazovia
+
+#Default
+owner = MAZ
+controller = MAZ
+add_core = MAZ
+capital = "Warszawa"
+culture = polish
+religion = catholic
+trade_goods = cloth
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 4 
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}

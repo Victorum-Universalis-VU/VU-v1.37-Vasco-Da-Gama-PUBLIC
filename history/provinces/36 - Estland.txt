@@ -1,0 +1,30 @@
+#36 - Estland
+
+#Default
+owner = LIV
+controller = LIV
+add_core = LIV
+culture = estonian
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 4			#Population recorded at 8,000 in 1346, compare with Copenhagen - 6k, Stockholm - 6k, Ribe - 5k, Malmo - 5k, Oslo - 2k, Bergen - 9k. This was quite a center. Would give even more dev if region wasn't so undervalued in vanilla
+trade_goods = naval_supplies
+base_manpower = 2 
+capital = "Reval"
+is_city = yes
+
+#Buildings
+fort_15th = yes #Fortifications of Reval, Wesenberg, Toompea Castle
+
+#Claimants
+add_core = EST
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

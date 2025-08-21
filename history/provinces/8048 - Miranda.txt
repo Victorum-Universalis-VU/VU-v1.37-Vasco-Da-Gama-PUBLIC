@@ -1,0 +1,29 @@
+#8048 - Miranda
+
+#Default
+owner = CAS
+controller = CAS
+add_core = CAS
+culture = castillian
+religion = catholic
+capital = "Miranda de Ebro"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = wine
+is_city = yes
+hre = no
+
+#Buildings - SF
+road_system = yes
+temple = yes
+hall = yes
+workshop = yes
+marketplace = yes
+sculpture_workshop = yes #Known for its artists - SF
+
+#Commerce
+center_of_trade = 2
+
+#Claimants
+add_core = BGS

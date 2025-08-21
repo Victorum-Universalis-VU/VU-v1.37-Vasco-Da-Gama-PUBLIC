@@ -1,0 +1,18 @@
+#296 - Kaluga
+
+#Default
+owner = MOZ			#As far as I can tell, the majority of this province including the capital was under the de facto control of the Mozhayskiy princes
+controller = MOZ
+add_core = MOZ 
+culture = ryazanian
+religion = orthodox
+hre = no
+base_tax = 4 
+base_production = 4 
+trade_goods = grain  
+base_manpower = 2 
+capital = "Kaluga"
+is_city = yes
+
+#Commerce
+center_of_trade = 1

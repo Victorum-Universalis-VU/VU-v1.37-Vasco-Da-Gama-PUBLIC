@@ -1,0 +1,35 @@
+#3368 - Ad_Dujayl
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = al_iraqiya_arabic
+religion = sunni
+capital = "Ad Dujayl"
+trade_goods = olive_oil
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = AKD
+add_core = IRQ
+
+#History by SF
+1405.1.1 = {
+	owner = QAR
+	controller = QAR
+	add_core = QAR
+	remove_core = TIM
+} # The Qara Koyunlu
+1440.1.1 = {
+	revolt = {
+		type = noble_rebels
+		size = 0
+	}
+	unrest = 5
+	controller = REB
+}

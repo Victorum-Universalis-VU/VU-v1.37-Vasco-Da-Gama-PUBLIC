@@ -1,0 +1,29 @@
+#297 - Bryansk
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR 
+culture = ryazanian
+religion = orthodox 
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = fur
+base_manpower = 2 
+capital = "Bryansk"
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.11 = {
+    owner = CHR
+    controller = CHR
+    add_core = CHR
+	remove_core = KIR
+}
+
+#Special Modifiers
+add_local_autonomy = 25

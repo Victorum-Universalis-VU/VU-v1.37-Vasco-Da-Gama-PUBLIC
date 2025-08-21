@@ -1,0 +1,14 @@
+# 2122 - Hami
+
+owner = HMI
+controller = HMI
+add_core = HMI
+culture = oirats
+religion = vajrayana
+capital = "Hami"
+trade_goods = grain
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 6
+is_city = yes

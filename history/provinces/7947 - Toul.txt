@@ -1,0 +1,21 @@
+#7947 - Toul
+
+#Default
+owner = TOL
+controller = TOL
+add_core = TOL
+culture = lorraine_culture
+religion = catholic
+capital = "Toul"
+base_tax = 7
+base_production = 7
+base_manpower = 4
+trade_goods = cloth			#one of the first major cloth centers, and also one of the first truly industrialised areas in the world
+is_city = yes
+hre = yes
+
+#Commerce
+center_of_trade = 2
+
+#Claimants
+add_core = FRA

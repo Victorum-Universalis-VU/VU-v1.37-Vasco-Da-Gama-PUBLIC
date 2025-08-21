@@ -1,0 +1,26 @@
+#8159 - Coleraine
+
+#Default
+owner = TYR
+controller = TYR
+add_core = TYR
+capital = "Coleraine"
+is_city = yes
+culture = celtic_irish_culture #Was irish
+religion = catholic
+base_tax = 3
+base_production = 1
+base_manpower = 2
+trade_goods = lumber
+hre = no
+
+#Province Modifier
+add_permanent_province_modifier = {
+	name = foyle_estuary_modifier
+	duration = -1
+}
+
+#History by SF
+1291.1.1 = {
+	capital = "Cúil Rathain"
+}

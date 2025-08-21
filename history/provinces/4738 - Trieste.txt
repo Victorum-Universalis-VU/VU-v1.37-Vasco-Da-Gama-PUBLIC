@@ -1,0 +1,66 @@
+#4738 - Trieste
+
+#Default
+owner = AQU
+controller = AQU
+add_core = AQU
+culture = friulian_culture
+religion = catholic
+capital = "Trieste"
+trade_goods = naval_supplies #Major Shipbuilding center
+hre = yes
+base_tax = 7
+base_production = 7			#In the 1200s, Trieste was a center to rival Venice, Ancona, Pisa, or Genoa, but wasn't able to maintain this influence, and was already on the decline after the Venetian occupation in 1283-1287.
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = TST
+add_core = VEN			#heavily coveted by Venice
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+#History by SF
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
+	owner = AQU
+	controller = AQU
+	remove_core = VEN
+} #Return to proper mod added owners and cuts vanilla core, typically.
+
+1368.7.1 = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN	
+}	#taken by Venice
+1372.1.1 = {
+	owner = AQU
+	controller = AQU
+}	#Venice forced to leave it
+1381.1.1 = { remove_core = VEN }	#Venice renounces its claims in the peace of Turin
+1382.9.30 = {
+	owner = TST
+	controller = TST
+	add_core = TST
+	base_tax = 5
+	base_production = 5
+	base_manpower = 2
+}	#Faced with inevitable conflict with the much more powerful Venice and little other recourse, Triest voluntarily submits to the Habsburgs, and is in return given great autonomy as an imperial free city. Unusually, this greater autonomy and freedom didn't actually promote growth, however, and the city began a slow but steady decline.
+1440.1.1 = {
+	base_tax = 4
+	base_production = 4
+}	#Late 1400s sees many close calls where the city was within a hair's breadth of being completely annihilated, but managed to avoid disaster each time, though the city continued to slowly decline as Venice and Ragusa diverted more and more trade away.

@@ -1,0 +1,17 @@
+#720 - Tshiyet Noyan
+
+owner = KHA
+controller = KHA
+add_core = KHA
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Dornogovi"
+trade_goods = copper
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = OIR

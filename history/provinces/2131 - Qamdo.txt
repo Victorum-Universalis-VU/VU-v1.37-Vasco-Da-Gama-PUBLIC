@@ -1,0 +1,14 @@
+#2131 - Qamdo
+
+owner = KAM
+controller = KAM
+add_core = KAM
+culture = tibetan
+religion = tantra
+capital = "Qamdo"
+trade_goods = spices
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes

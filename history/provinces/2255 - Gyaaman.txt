@@ -1,0 +1,14 @@
+#2255 - Gyaaman
+
+owner = BON
+controller = BON
+add_core = BON
+is_city = yes
+culture = aka 
+religion = shamanism #Fetishism
+capital = "Amanvi"
+trade_goods = gold #Akan gold field -Don
+hre = no
+base_tax = 4  
+base_production = 4
+base_manpower = 2 

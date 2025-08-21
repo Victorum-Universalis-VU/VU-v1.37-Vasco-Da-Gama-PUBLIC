@@ -1,0 +1,27 @@
+#4281 - Dhamar
+
+#Default
+owner = RAS
+controller = RAS
+add_core = RAS
+capital = "Dhamar"
+culture = yemeni_culture
+religion = shiite
+trade_goods = horses			#famous for horse breeding, also decent agriculture in the area
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#History by SF
+1215.6.15 = { 
+	owner = MAM 
+	controller = MAM 
+	add_core = MAM 
+} # Mamluk territorial lands - By San Felipe
+1444.11.11 = { 
+	owner = RAS 
+	controller = RAS 
+	add_core = RAS 
+} # Rassids territorial lands - By San Felipe

@@ -1,0 +1,15 @@
+#3202 - Minden
+
+#Default
+owner = MND
+controller = MND
+add_core = MND
+culture = lower_saxon
+religion = catholic
+trade_goods = beer
+capital = "Minden"
+base_tax = 4 
+base_production = 4 
+base_manpower = 2 
+hre = yes
+is_city = yes

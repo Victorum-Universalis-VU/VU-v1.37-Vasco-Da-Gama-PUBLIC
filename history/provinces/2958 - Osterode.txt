@@ -1,0 +1,20 @@
+#2958 - Osterode
+
+#Default
+owner = TEU
+controller = TEU
+capital = "Osterode"
+culture = prussian
+religion = catholic
+trade_goods = livestock
+hre = no
+base_tax = 5 
+base_production = 5 
+base_manpower = 3
+is_city = yes
+
+#Buildings
+#fort_15th = yes
+
+#Claimants
+add_core = TEU

@@ -1,0 +1,26 @@
+# 4741 - Halle
+
+#Default
+owner = SOR
+controller = SOR
+add_core = SOR
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 6
+base_production = 6
+trade_goods = salt #The name "Halle" apparently might even derive from the Indo-Germanic word for salt
+base_manpower = 3
+capital = "Halle"
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1444.1.1 = {
+	owner = BHS
+	controller = BHS
+	add_core = BHS
+	remove_core = SOR
+}

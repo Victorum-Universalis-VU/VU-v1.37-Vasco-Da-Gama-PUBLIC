@@ -1,0 +1,15 @@
+#8469 - Landau
+
+#Default
+owner = ZWE
+controller = ZWE
+add_core = ZWE
+capital = "Landau"
+culture = franconian
+religion = catholic
+trade_goods = livestock
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+hre = yes

@@ -1,0 +1,15 @@
+#1120 - Bambuk
+
+owner = MAL
+controller = MAL
+culture = mali
+is_city = yes
+base_manpower = 4
+religion = shamanism #Fetishism
+capital = "Bambuk"
+trade_goods = gold
+hre = no
+base_tax = 12 
+base_production = 12
+add_core = MAL
+center_of_trade = 2

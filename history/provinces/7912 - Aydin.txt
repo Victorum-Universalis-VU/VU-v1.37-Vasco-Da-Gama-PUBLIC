@@ -1,0 +1,22 @@
+#7912 - Aydin
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = turkish
+religion = sunni
+capital = "Güzelhisar"			#Former name of Aydin
+trade_goods = fur
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = AYD
+
+#History by SF
+1215.6.15 = { owner = NIC controller = NIC add_core = NIC } # Nicean territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe

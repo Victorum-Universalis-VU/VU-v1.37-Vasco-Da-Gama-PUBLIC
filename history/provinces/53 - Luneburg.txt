@@ -1,0 +1,25 @@
+#53 - Lüneburg
+
+#Default
+owner = LUN
+controller = LUN
+add_core = LUN
+culture = lower_saxon
+religion = catholic
+capital = "Lüneburg"
+trade_goods = salt #-Don
+hre = yes
+base_tax = 10
+base_production = 10			#Probably over 10k in 1444, rather large for the region.
+base_manpower = 6
+is_city = yes
+
+#Commerce
+center_of_trade = 3
+
+#Buildings
+marketplace = yes
+city_hall = yes
+road_system = yes
+cesspit = yes
+well = yes

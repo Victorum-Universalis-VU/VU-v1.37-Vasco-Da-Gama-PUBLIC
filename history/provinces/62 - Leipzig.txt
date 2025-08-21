@@ -1,0 +1,35 @@
+#62 - Leipzig
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = saxon
+religion = catholic
+capital = "Leipzig"
+trade_goods = books
+hre = yes
+base_tax = 8
+base_production = 6
+base_manpower = 2 
+is_city = yes
+
+#Commerce
+center_of_trade = 3
+
+#History by SF
+1444.1.1 = {
+	owner = THU
+	controller = THU
+	add_core = THU
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population
+    duration = -1
+}

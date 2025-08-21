@@ -1,0 +1,15 @@
+#7540 - Wiesbaden
+
+#Default
+owner = MAI
+controller = MAI
+add_core = MAI
+capital = "Wiesbaden"
+culture = hessian
+religion = catholic
+trade_goods = champagne_bottle
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+hre = yes

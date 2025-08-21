@@ -1,0 +1,15 @@
+#1870 - St Gallen
+
+#Default
+owner = ST6
+controller = ST6
+add_core = ST6
+culture = swiss
+religion = catholic
+capital = "St Gallen"
+trade_goods = wool
+hre = yes
+base_tax = 6
+base_production = 6
+base_manpower = 4
+is_city = yes

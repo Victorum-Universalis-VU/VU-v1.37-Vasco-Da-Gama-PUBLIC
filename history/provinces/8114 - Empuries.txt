@@ -1,0 +1,23 @@
+#8114 - Empuries
+
+#Default
+owner = CAT
+controller = CAT
+add_core = CAT
+culture = catalan
+religion = catholic
+capital = "Castelló"
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = olive_oil
+is_city = yes
+hre = no
+
+#History by SF
+1385.1.1 = {
+	capital = "Figueres"
+}
+1444.11.11 = {
+    add_core = ARA
+}

@@ -1,0 +1,23 @@
+#3014 - Mayo
+
+#Default
+owner = MYO
+controller = MYO
+add_core = MYO
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 2  
+base_production = 2 
+base_manpower = 1 
+trade_goods = wool
+capital = "Cill Mheáin" #Removing Castlebar for now.
+is_city = yes
+
+#Claimants
+add_core = ANI
+add_core = ENG
+
+#History by SF
+1215.6.15 = { owner = ECO controller = ECO add_core = ECO } # Connacht territory - By San Felipe
+1444.11.11 = { owner = MYO controller = MYO add_core = MYO } # Mayo clan territory - By San Felipe

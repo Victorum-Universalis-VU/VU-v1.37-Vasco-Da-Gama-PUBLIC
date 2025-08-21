@@ -1,0 +1,19 @@
+#7126 - Zakynthos
+
+#Default
+owner = EPI
+controller = EPI
+add_core = EPI
+culture = greek
+religion = orthodox
+capital = "Zakynthos"	
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = pottery		#The gold in this province was easter egg from VU... duh
+is_city = yes
+hre = no
+
+#History by SF
+1215.6.15 = { owner = CCN controller = CCN add_core = CCN } # Cephalonian territorial lands - By San Felipe
+1444.11.11 = { owner = EPI controller = EPI add_core = EPI } # Epirus territorial lands - By San Felipe

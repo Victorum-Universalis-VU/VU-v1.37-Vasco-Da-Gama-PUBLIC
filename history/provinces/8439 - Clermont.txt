@@ -1,0 +1,24 @@
+#8439 - Clermont
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+capital = "Clermont"
+is_city = yes
+culture = cosmopolitan_french
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = livestock
+base_manpower = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#History by SF
+1268.1.1 = { add_core = BOU } # The Dukes of Bourbon rule as Counts of Clermont until the death of Charles III in 1527

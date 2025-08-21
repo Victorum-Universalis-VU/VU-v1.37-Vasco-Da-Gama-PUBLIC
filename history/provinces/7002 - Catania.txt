@@ -1,0 +1,21 @@
+#7002 - Catania
+
+#Default
+owner = SIC
+controller = SIC
+add_core = SIC
+culture = lombard
+religion = catholic
+capital = "Catania"
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = wool
+is_city = yes
+hre = no
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

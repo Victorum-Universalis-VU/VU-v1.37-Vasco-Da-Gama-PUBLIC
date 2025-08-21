@@ -1,0 +1,26 @@
+#430 - Bushehr
+
+#Default
+owner = FRS
+controller = FRS
+add_core = FRS
+culture = luri
+religion = shiite
+capital = "Bushehr"
+trade_goods = silk
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = AC8
+add_core = MSY
+add_core = TIM
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = gulf_of_persia_estuary_modifier
+    duration = -1
+}

@@ -1,0 +1,15 @@
+#6437 - Tanba
+
+#Default
+owner = HSK
+controller = HSK
+add_core = HSK
+culture = kinki 
+religion = shinto
+capital = "Itai"
+trade_goods = pottery
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes

@@ -1,0 +1,34 @@
+#7837 - Ragnit
+
+owner = TEU
+controller = TEU
+add_core = TEU
+culture = sklavian
+religion = catholic
+capital = "Ragnit"			#Now known of Neman. The neighbouring Tilsit, now known as Sovetsk (growing around 1288 Teutonic castle Schalauer Haus) grew to be fairly larger and more important in later periods, though it seems like for both 1291 and 1444 strart Ragnit was still more important.
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = lumber
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = SMG
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifier
+add_permanent_province_modifier = {
+	name = neman_estuary_modifier
+	duration = -1
+}
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

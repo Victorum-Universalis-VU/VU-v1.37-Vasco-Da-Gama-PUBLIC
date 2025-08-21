@@ -1,0 +1,21 @@
+#8187 - Daruvar
+
+#Default
+owner = CRO
+controller = CRO
+add_core = CRO
+capital = "Daruvar"
+is_city = yes
+culture = croatian
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = livestock
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = SLA

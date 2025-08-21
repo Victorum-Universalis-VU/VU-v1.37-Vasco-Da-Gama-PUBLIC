@@ -1,0 +1,23 @@
+#7424 - Winchester
+
+#Default
+owner = WNR
+controller = WNR
+add_core = WNR
+culture = wessexian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = cheese
+base_manpower = 3
+capital = "Winchester"
+is_city = yes
+
+#History by SF
+1444.11.11 = {
+	owner = ENG
+	controller= ENG
+	add_core = ENG
+	remove_core = WNR
+}

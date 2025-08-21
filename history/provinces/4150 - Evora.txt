@@ -1,0 +1,44 @@
+#4150 - Évora
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = portugese
+religion = catholic
+capital = "Évora"
+trade_goods = fruit
+hre = no
+base_tax = 5 
+base_production = 4 
+base_manpower = 2 
+is_city = yes
+
+#Buildings
+town_hall = yes
+marketplace = yes
+road_system = yes
+grand_cathedral = yes
+
+#Claimants
+add_core = EVR
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1350.1.1 = {
+    add_core = POR
+}
+1444.11.11 = { 
+    owner = AB3 
+    controller = AB3 
+    add_core = AB3 
+    remove_core = AMD 
+} #Owned by Archbishopric of Evora - SF
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

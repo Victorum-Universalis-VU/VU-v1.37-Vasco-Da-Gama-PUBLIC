@@ -1,0 +1,18 @@
+#712 - Uighuristan
+
+#Default
+owner = KAS
+controller = KAS
+add_core = KAS
+culture = uyghur
+religion = sunni
+capital = "Aksu"
+trade_goods = cotton
+hre = no
+base_tax = 4  
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Commerce
+center_of_trade = 1

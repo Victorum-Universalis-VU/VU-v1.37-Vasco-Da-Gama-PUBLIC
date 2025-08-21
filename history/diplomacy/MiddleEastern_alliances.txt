@@ -1,0 +1,98 @@
+dependency = {
+	subject_type = islamic_emirate
+	first = SRV
+	second = DER
+	start_date = 1444.1.1
+	end_date = 1447.3.13 #Death of Shah Rokh
+}
+
+#Atabegs of Samtskhe under Georgia
+alliance = {
+	first = GEO
+	second = SME
+	start_date = 1444.1.1
+	end_date = 1446.12.1
+}
+
+#Biapis
+alliance = {
+	first = ARL
+	second = KRY
+	start_date = 1440.1.1
+	end_date = 1504.1.1
+}
+
+#Avar Khanate under the Shamkals
+vassal = {
+	first = GAZ
+	second = AVR
+	start_date = 1435.1.1
+	end_date = 1770.1.1
+}
+
+#Ardalan
+dependency = {
+	subject_type = islamic_taifa
+	first = QOM
+	second = ARD
+	start_date = 1444.1.1
+	end_date = 1446.1.1
+}
+
+#Luristan
+dependency = {
+	subject_type = islamic_taifa
+	first = QOM
+	second = LRI
+	start_date = 1444.1.1
+	end_date = 1446.1.1
+}
+
+# Cyprus, a Mamluk tributary
+guarantee = {
+	first = MAM
+	second = CYP
+	start_date = 1444.1.1
+	end_date = 1489.1.1
+}
+
+dependency = {
+	subject_type = islamic_sharifate
+	first = MAM
+	second = HED
+	start_date = 1444.1.1
+	end_date = 1517.1.1
+}
+
+#Hejaz protected by the Mamluks
+guarantee = {
+	first = MAM
+	second = MDA
+	start_date = 1444.1.1
+	end_date = 1482.6.1
+}
+
+#Amir al Arab
+dependency = {
+	subject_type = islamic_emirate
+	first = MAM
+	second = FAD
+	start_date = 1444.11.10
+	end_date = 1516.8.24
+}
+
+#Mukriyan
+vassal = {
+	first = QAR
+	second = MUK
+	start_date = 1400.1.1
+	end_date = 1469.2.4
+}
+
+#Egil
+alliance = {	#"Egil has maintained friendly relations with AKK"
+	first = EGI
+	second = AKK
+	start_date = 1425.1.1
+	end_date = 1507.1.1
+}

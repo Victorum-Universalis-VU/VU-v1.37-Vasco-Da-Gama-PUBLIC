@@ -1,0 +1,23 @@
+#8174 - Nyitra
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Nyitra"
+is_city = yes
+culture = slovak
+religion = catholic
+base_tax = 3
+base_production = 1
+base_manpower = 2
+trade_goods = fruit
+hre = no
+
+#Claimants
+add_core = LHU
+add_core = SLO
+add_core = CVS
+
+#Commerce
+center_of_trade = 1

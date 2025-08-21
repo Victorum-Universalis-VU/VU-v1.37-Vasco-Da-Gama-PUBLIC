@@ -1,0 +1,44 @@
+#264 - Breslau
+
+#Default
+owner = SIL
+controller = SIL
+add_core = SIL	
+culture = polish			#With the influx of settlers the town expanded and adopted in 1242 German town law. The city council used Latin and German, and "Breslau", the Germanized name of the city, appeared for the first time in written records.
+religion = catholic
+capital = "Breslau"
+trade_goods = beer
+hre = yes
+base_tax = 7				#According to Wiki (I know, lofty source!) Breslau was the 7th largest city in Central Europe around this time, about 25% larger than Vienna and nearly double the size of Hamburg, the only cities significantly larger than it in CE being Prague, Koeln, and Nuremberg
+base_production = 7
+is_city = yes 
+base_manpower = 4
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 2
+
+#Claimants
+add_core = POL
+
+#History by SF
+1444.1.1 = {
+    owner = BOH
+    controller = BOH
+    add_core = BOH
+    remove_core = SIL
+    remove_core = POL
+    add_core = BAU
+    culture = silesian_german
+}
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = jewish_population
+    duration = -1
+}
+
+#Special Modifiers
+add_local_autonomy = 25

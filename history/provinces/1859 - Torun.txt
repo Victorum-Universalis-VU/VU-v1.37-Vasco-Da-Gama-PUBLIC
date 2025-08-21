@@ -1,0 +1,36 @@
+#1859 - Torun
+
+#Default
+owner = MAZ
+controller = MAZ
+add_core = MAZ
+capital = "Thorn"
+is_city = yes
+culture = polish
+religion = catholic
+trade_goods = grain
+hre = no
+base_tax = 6 
+base_production = 6 
+base_manpower = 4
+center_of_trade = 2
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = CLO
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
+
+#History by SF
+1444.1.1 = {
+	owner = TEU
+	controller = TEU
+	add_core = TEU
+	remove_core = MAZ
+}

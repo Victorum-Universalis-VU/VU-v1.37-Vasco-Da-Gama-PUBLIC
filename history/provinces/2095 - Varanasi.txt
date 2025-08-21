@@ -1,0 +1,25 @@
+#2095 - Varanasi
+
+#Default
+owner = JNP
+controller = JNP
+add_core = JNP
+culture = bihari
+religion = "hinduism"
+capital = "Varanasi"
+trade_goods = silk
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 7
+is_city = yes
+
+#Effects
+add_brahmins_or_church_effect = yes
+
+#Commerce
+center_of_trade = 2
+
+#Triggered Modifiers
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = hindu_varanasi

@@ -1,0 +1,9 @@
+#RML - Rumelia
+government = republic
+add_government_reform = oligarchy_reform
+#technology_group = eastern
+technology_group = hungarian_tech_group
+unit_type = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 2750 #Plodiv

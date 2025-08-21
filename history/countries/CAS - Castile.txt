@@ -1,0 +1,77 @@
+#CAS - Castile
+government = monarchy
+add_government_reform = kingdom_of_castile_and_leon
+government_rank = 8 #Kingdom
+primary_culture = castillian
+#add_accepted_culture = andalusi_culture
+add_accepted_culture = andalucian
+add_accepted_culture = galician
+religion = catholic
+#technology_group = western
+technology_group = spanish_tech_group
+unit_type = western
+historical_rival = GRA
+historical_friend = POR
+#Added historical friendship with Austria to try and nudge an alliance between the two.
+historical_friend = HAB
+capital = 215 #Valladolid
+national_focus = MIL
+
+add_army_professionalism = 0.1
+
+change_estate_land_share = {
+    estate = estate_nobles
+    share = 20
+}
+change_estate_land_share = {
+    estate = estate_church
+    share = -10
+}
+
+#History of the Kingdom of Castile by SF
+1171.8.15 = {
+    monarch = {
+        name = "Enrique I"
+        dynasty = "de Ivrea"
+		birth_date = 1171.8.15
+		death_date = 1217.1.1 #Died at the age of 13 where upon his death, his siter Berengaria became regent to the heir apparent Ferdinand III.
+        adm = 3
+        dip = 2
+        mil = 2
+    }
+}
+
+1422.1.1 = { leader = {	name = "Álvaro de Luna"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1453.6.2 } }
+
+1425.1.5 = {
+    heir = {
+        name = "Enrique"
+        monarch_name = "Enrique IV"
+        dynasty = "de Trastámara"
+        birth_date = 1425.1.5
+        death_date = 1474.12.11
+        claim = 95
+        adm = 0
+        dip = 0
+        mil = 0
+    }
+    clear_scripted_personalities = yes
+    add_heir_personality = infertile_personality
+    add_ruler_personality = naive_personality
+    add_ruler_personality = zealot_personality
+    add_ruler_personality = well_advised_personality
+    set_estate_privilege = estate_nobles_factionalist_nobility
+}
+
+1444.1.1 = {
+    add_truce_with = GRA
+    leader = {
+        name = "Fadrique Enríquez"
+        type = admiral
+        fire = 2       #Cannons missed a lot
+        shock = 3
+        manuever = 3
+        siege = 1
+        death_date = 1473.12.23
+    }
+}

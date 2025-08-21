@@ -1,0 +1,15 @@
+#2080 - Srikakulam
+
+#Default
+owner = ORI
+controller = ORI
+add_core = ORI
+culture = oriya
+religion = hinduism
+capital = "Srikakulam"
+trade_goods = sugar
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes

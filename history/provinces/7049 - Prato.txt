@@ -1,0 +1,30 @@
+#7049 - Prato
+
+#Default
+owner = PRA
+controller = PRA
+add_core = PRA
+culture = tuscan
+religion = catholic
+capital = "Prato"
+base_tax = 7
+base_production = 7
+base_manpower = 3
+trade_goods = fruit # Prato is famous for Cantucci which contains the almond nut.
+is_city = yes
+hre = yes
+
+#History by SF
+1215.6.15 = { owner = LAN controller = LAN add_core = LAN } # Florentine territorial lands - By San Felipe
+1326.1.1 = {
+	owner = NAP
+	controller = NAP
+	add_core = NAP
+} # Prato fully submits to Naples
+1354.1.1 = {
+  owner = LAN
+  controller = LAN
+  add_core = LAN
+  remove_core = NAP
+} # Naples sells Prato to Florence
+1444.11.11 = { owner = LAN controller = LAN add_core = LAN } # Prato territorial lands - By San Felipe

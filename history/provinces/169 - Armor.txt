@@ -1,0 +1,15 @@
+#169 - Saint-Brieuc
+
+#Default
+owner = BRI
+controller = BRI
+add_core = BRI
+capital = "St.Brieuc"
+is_city = yes
+culture = celtic_breton_culture #Was breton
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 4 
+trade_goods = tin		#Tin mines in Brittany were major source of tin for Europe since Roman Empire. Precious tin was far more important than seafood.
+base_manpower = 2 

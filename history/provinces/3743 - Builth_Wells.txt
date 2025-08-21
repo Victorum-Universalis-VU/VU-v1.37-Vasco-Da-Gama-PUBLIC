@@ -1,0 +1,24 @@
+#3743 - Builth Wells
+
+#Default
+owner = PWY
+controller = PWY
+add_core = PWY
+capital = "Radnor"
+is_city = yes
+culture = celtic_welsh_culture #Was welsh
+religion = catholic
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = livestock #lots of quarries as well so that could work
+hre = no
+
+#History by SF
+1444.11.11 = { 
+	owner = WMC 
+	controller = WMC 
+	add_core = WMC 
+	add_core = ENG
+	add_core = WLS
+} # Welsh Marches territory - By San Felipe

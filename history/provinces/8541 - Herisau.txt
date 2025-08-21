@@ -1,0 +1,15 @@
+#8541 - Herisau
+
+#Default
+owner = TIR
+controller = TIR
+add_core = TIR
+culture = austrian
+religion = catholic
+capital = "Herisau"
+trade_goods = wool
+hre = yes
+base_tax = 2
+base_production = 3
+base_manpower = 1
+is_city = yes

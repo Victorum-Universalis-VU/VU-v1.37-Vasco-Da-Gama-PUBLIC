@@ -1,0 +1,19 @@
+#4497 - Qannauj
+
+#Default
+owner = JNP
+controller = JNP
+add_core = JNP
+culture = avadhi
+religion = hinduism
+capital = "Qannauj"
+trade_goods = grain
+hre = no
+base_tax = 9
+base_production = 9
+base_manpower = 9
+is_city = yes
+
+#Claimants
+add_core = DLH
+add_core = ODH

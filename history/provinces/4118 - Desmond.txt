@@ -1,0 +1,30 @@
+#4118 - Desmond
+
+#Default
+owner = MNS
+controller = MNS
+add_core = MNS
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 2
+base_manpower = 3
+trade_goods = cloth
+capital = "Corcaigh"
+is_city = yes
+
+#Claimants
+add_core = ANI
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # English Lordship of Ireland territory - By San Felipe
+1444.11.11 = { 
+    owner = MNS 
+    controller = MNS 
+    add_core = MNS 
+    well = yes
+} # Desmond clan territory - By San Felipe

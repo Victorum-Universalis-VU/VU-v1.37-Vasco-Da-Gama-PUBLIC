@@ -1,0 +1,25 @@
+#1028 - Musashi
+
+#Default
+owner = OUE
+controller = OUE
+add_core = OUE
+culture = kanto 
+religion = shinto
+capital = "Kawagoe"
+trade_goods = livestock
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 7
+is_city = yes
+
+#Buildings
+temple = yes
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = navalbase_modifier_4
+    duration = -1
+}
+

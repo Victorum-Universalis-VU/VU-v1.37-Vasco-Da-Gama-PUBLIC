@@ -1,0 +1,18 @@
+# 2357 - Aksary
+
+owner = SHY
+controller = SHY
+add_core = SHY
+culture = khazak
+religion = sunni
+capital = "Aksary"
+trade_goods = jade
+hre = no
+base_tax = 1
+base_production = 1 
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = KZH
+

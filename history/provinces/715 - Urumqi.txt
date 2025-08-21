@@ -1,0 +1,20 @@
+#715 - Urumqi
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = dzungar
+religion = tengri_pagan_reformed
+capital = "Urumqi"
+trade_goods = grain
+hre = no
+base_tax = 4  
+base_production = 5
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = ZUN
+
+#Commerce
+center_of_trade = 2

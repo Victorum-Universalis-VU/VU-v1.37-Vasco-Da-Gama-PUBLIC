@@ -1,0 +1,18 @@
+#583 - Hsenwi
+
+#Default
+owner = HSE
+controller = HSE
+add_core = HSE
+culture = shan
+religion = buddhism
+capital = "Hsenwi"
+trade_goods = opium
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Commerce
+center_of_trade = 1

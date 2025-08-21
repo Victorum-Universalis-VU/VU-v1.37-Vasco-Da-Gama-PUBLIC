@@ -1,0 +1,24 @@
+#4550 - Castellón
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = catalan
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = citrus
+base_manpower = 2 
+capital = "Castellón" 
+is_city = yes
+
+#History by SF
+1444.11.11 = {
+    owner = VAL
+    controller = VAL
+    add_core = VAL
+    add_core = ARA
+    remove_core = AMD
+} # Aragonese territorial lands - By San Felipe

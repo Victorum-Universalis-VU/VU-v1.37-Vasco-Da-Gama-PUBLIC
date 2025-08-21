@@ -1,0 +1,24 @@
+#7943 - Bergama
+
+#Default
+owner = NIC
+controller = NIC
+add_core = NIC
+culture = greek			#Greeks were still dominant in coastline around that time
+religion = orthodox
+capital = "Bergama"
+trade_goods = cloth		#developed leather and cotton industry
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#History by SF
+1444.11.11 = { 
+	owner = TUR 
+	controller = TUR 
+	add_core = TUR
+	#Claimants
+	add_core = BYZ 
+} # Turkish territorial lands - By San Felipe

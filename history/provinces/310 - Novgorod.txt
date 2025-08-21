@@ -1,0 +1,21 @@
+#310 - Novgorod
+
+#Default
+owner = NOV
+controller = NOV
+add_core = NOV
+culture = novgorodian
+religion = orthodox
+hre = no
+base_tax = 11
+base_production = 11
+trade_goods = glass			#vanilla fur, but there wasn't all that much fur in Novogorod itself, it was just the trade hub for it, which would later change.
+base_manpower = 8
+capital = "Novgorod"
+is_city = yes
+
+#Buildings
+fort_15th = yes #Novgorod Kremlin
+
+#Commerce
+center_of_trade = 3

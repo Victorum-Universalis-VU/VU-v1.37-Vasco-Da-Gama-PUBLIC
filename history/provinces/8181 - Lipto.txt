@@ -1,0 +1,22 @@
+#8181 - Liptó
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Liptovský Mikuláš"
+is_city = yes
+culture = slovak
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = naval_supplies
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = LHU
+add_core = SLO

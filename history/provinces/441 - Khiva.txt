@@ -1,0 +1,32 @@
+#441 - Khiva
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = uzbehk
+religion = sunni
+capital = "Khiva"
+trade_goods = chinaware #Prussia
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Buildings - SF
+marketplace = yes
+
+#Claimants
+add_core = K4W
+add_core = KHI
+
+#Commerce
+center_of_trade = 2
+
+#Special Modifiers
+1409.5.13 = { #Ulugh Beg is made Governor of Samarkand
+	owner = TRS
+	controller = TRS
+	add_core = TRS
+}

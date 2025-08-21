@@ -1,0 +1,35 @@
+#276 - Minsk
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR
+culture = byelorussian
+religion = orthodox
+hre = no
+base_tax = 3 
+base_production = 3 
+trade_goods = apiculture #Was naval supplies for some reason, changed to apiculture due to Poland/Lithuania being a major exporters -Don
+base_manpower = 1 
+capital = "Minsk"
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = MNK
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = KIR
+}
+
+#Special Modifiers
+add_local_autonomy = 25

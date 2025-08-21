@@ -1,0 +1,25 @@
+#5321 - Jijel
+
+#Default
+owner = TUN
+controller = TUN			#ownership ambiguous here. Most hints suggest Genoa was de facto in control, else it was an autonomous/indepedent city state, but I'm just lumping it in with Africa for now.
+add_core = TUN
+culture = kabylian
+religion = sunni
+capital = "Jijel"
+trade_goods = fish
+hre = no
+base_tax = 4
+base_production = 4 
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = KBA
+
+#Special Modifiers
+add_local_autonomy = 75			#Kabylians highly autonomous under Hafsids
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = TUN controller = TUN add_core = TUN remove_core = AMD } # Tunisian territorial lands - By San Felipe

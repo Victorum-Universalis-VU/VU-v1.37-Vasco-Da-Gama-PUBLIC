@@ -1,0 +1,23 @@
+#SWI - Switzerland
+government = republic
+add_government_reform = vu_canton_administration
+government_rank = 8 #Confederation
+#technology_group = western
+technology_group = swiss_tech_group
+unit_type = western
+primary_culture = swiss
+add_accepted_culture = swabian #changed from high_swiss
+religion = catholic
+historical_friend = TTL			#Victorum Universalis only
+capital = 165 # Bern
+add_army_professionalism = 0.1
+
+1399.1.1 = {
+	monarch = {
+		name = "Die Tagsatzung"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

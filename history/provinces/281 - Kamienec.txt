@@ -1,0 +1,39 @@
+#281 - Podolia
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR
+culture = volhynian
+religion = orthodox
+hre = no
+base_tax = 3 
+base_production = 3 
+trade_goods = horses		#farmlands and rich soil, since Podole was stronghold for long time, horses fit perfectly
+base_manpower = 1 
+capital = "Kamianets"
+is_city = yes
+
+#Buildings
+fort_15th = yes #Kamianets-Podilskyi Castle, Khotyn Fortress
+
+#Claimants
+add_core = PDL
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.11 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+	remove_core = KIR
+	add_core = VOL
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

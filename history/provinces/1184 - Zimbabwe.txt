@@ -1,0 +1,18 @@
+#1184 - Zimbabwe
+
+#Default
+owner = ZIM
+controller = ZIM
+add_core = ZIM
+culture = shona
+religion = shamanism
+capital = "Zimbabwe"
+is_city = yes
+base_manpower = 5
+trade_goods = gold
+hre = no
+base_tax = 5
+base_production = 4
+
+#Commerce
+center_of_trade = 1

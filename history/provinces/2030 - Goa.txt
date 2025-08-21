@@ -1,0 +1,38 @@
+#2030 - Goa
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = marathi
+religion = hinduism
+capital = "Goa"
+trade_goods = spices
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = BIJ
+add_core = MAR
+add_core = VIJ
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1380.1.1 = {
+	controller = VIJ
+	owner = VIJ
+} # Taken by Harihara II
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
+
+#Special Modifiers
+add_local_autonomy = 25

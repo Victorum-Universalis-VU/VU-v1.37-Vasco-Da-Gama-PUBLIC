@@ -1,0 +1,13 @@
+#4677 - East Govi
+owner = OIR
+controller = OIR
+add_core = OIR
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Noyon"
+trade_goods = livestock
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes

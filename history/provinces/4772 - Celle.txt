@@ -1,0 +1,23 @@
+#4772 - Celle
+
+owner = LUN
+controller = LUN
+add_core = LUN
+culture = lower_saxon
+religion = catholic
+capital = "Celle"
+trade_goods = lumber
+hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#Buildings
+hall = yes
+road_system = yes
+well = yes
+cesspit = yes

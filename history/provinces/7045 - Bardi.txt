@@ -1,0 +1,26 @@
+#7045 - Bardi
+
+#Default
+owner = PCZ
+controller = PCZ
+add_core = PCZ
+culture = romagnan
+religion = catholic
+capital = "Bardi"
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = apiculture
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = BRD
+
+#History by SF
+1215.6.15 = { owner = BRD controller = BRD add_core = BRD } # Bardi territorial lands - By San Felipe
+1336.1.1 = {
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+} # Visconti take Piacenza

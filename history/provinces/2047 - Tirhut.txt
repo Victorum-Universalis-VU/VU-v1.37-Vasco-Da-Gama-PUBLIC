@@ -1,0 +1,15 @@
+#2047 - Tirhut
+
+#Default
+owner = TRT
+controller = TRT
+add_core = TRT
+culture = bihari
+religion = hinduism
+capital = "Sugauna"
+trade_goods = dyes
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+is_city = yes

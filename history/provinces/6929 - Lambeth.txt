@@ -1,0 +1,21 @@
+#6929 - Lambeth
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = cockney
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 4
+trade_goods = cloth
+capital = "London"
+is_city = yes
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = thames_estuary_modifier
+    duration = -1
+}

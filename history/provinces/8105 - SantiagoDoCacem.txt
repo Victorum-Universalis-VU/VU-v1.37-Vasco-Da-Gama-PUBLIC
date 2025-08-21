@@ -1,0 +1,27 @@
+#8105 - SantiagoDoCacem
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = portugese
+religion = catholic
+capital = "Sines"
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = naval_supplies
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    add_core = POR
+}
+1444.11.11 = { 
+	owner = AGV 
+	controller = AGV
+	add_core = AGV
+	#Remove Claimants
+	remove_core = AMD 
+} # Portuguese territorial lands - By San Felipe

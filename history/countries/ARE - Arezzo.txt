@@ -1,0 +1,12 @@
+#ARE - Arezzo
+government = republic
+add_government_reform = signoria_reform #Was oligarchy_reform
+government_rank = 6 #Republic
+mercantilism = 25
+primary_culture = tuscan
+religion = catholic
+#technology_group = western
+technology_group = italian_tech_group
+unit_type = western
+capital = 2978 # Arezzo
+fixed_capital = 2978 # Arezzo

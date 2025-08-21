@@ -1,0 +1,24 @@
+#998 - Ungava
+
+#Default
+owner = NVT			#Inuit 3
+controller = NVT
+add_core = NVT
+is_city = yes
+culture = inuit
+religion = totemism
+capital = "Inurjuat"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 1
+native_ferocity = 1
+native_hostileness = 3
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = aurora_borealis
+    duration = -1
+}

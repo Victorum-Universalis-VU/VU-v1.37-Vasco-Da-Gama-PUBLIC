@@ -1,0 +1,18 @@
+#4620 - Ciguayo
+
+#Default
+owner = MGU
+controller = MGU
+add_core = MGU
+culture = ciguayo
+is_city = yes
+religion = animism
+capital = "Magua"
+trade_goods = gold 
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 2
+native_size = 40			#Approx. 750k over 12 provinces
+native_ferocity = 3
+native_hostileness = 7

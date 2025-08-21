@@ -1,0 +1,17 @@
+#758 - Goias
+
+#Default
+culture = ge
+religion = animism
+capital = "Goias"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+native_size = 15
+native_ferocity = 1
+native_hostileness = 7
+
+#Commerce
+center_of_trade = 1

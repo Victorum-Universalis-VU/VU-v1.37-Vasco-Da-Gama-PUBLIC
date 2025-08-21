@@ -1,0 +1,20 @@
+#4786 - Prignitz
+#Region - Germany
+#Area - Mittelmark
+
+owner = BRA
+controller = BRA
+add_core = BRA
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 3			#Okay, Brandenburg's population was minute and the little wealth it did have at the time was overflow from the Novgorod-Brugge route... giving dev based on later importance. Historic rise to power from nothing, like the Low Countries, needs events which I'm too lazy for atm
+base_production = 4			#Population estimated at 3.5k in early 17th century, so pretty small hamlet
+base_manpower = 2 
+trade_goods = apiculture
+capital = "Perleberg"
+is_city = yes
+
+
+
+

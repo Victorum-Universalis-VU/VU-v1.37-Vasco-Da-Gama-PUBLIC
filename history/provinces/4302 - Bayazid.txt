@@ -1,0 +1,18 @@
+#4302 - Bayazid
+
+#Default
+owner = QAR
+controller = QAR
+add_core = QAR
+capital = "Alashkert"
+culture = armenian
+religion = miaphysite
+trade_goods = wool
+hre = no
+base_tax = 2 
+base_production = 2 
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = ARM

@@ -1,0 +1,24 @@
+#8162 - Roscommon
+
+#Default
+owner = ECO
+controller = ECO
+add_core = ECO
+capital = "Castlerea"
+is_city = yes
+culture = celtic_irish_culture #Was irish
+religion = catholic
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = fur
+hre = no
+
+#Claimants
+add_core = ANI
+add_core = ENG
+
+#History by SF
+1291.1.1 = {
+	capital = "An Caisleán Riabhach"
+}

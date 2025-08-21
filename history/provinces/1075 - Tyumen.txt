@@ -1,0 +1,27 @@
+#1075 - Tyumen
+
+#Default
+owner = SHY
+controller = SHY
+add_core = SHY
+capital = "Chimgi-Tura"
+culture = siberian
+religion = sunni
+trade_goods = fur
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = SIB
+
+#Commerce
+center_of_trade = 1
+
+#State of Province
+unrest = 15
+
+#Triggered Modifier
+add_province_triggered_modifier = vu_uzbek_eco

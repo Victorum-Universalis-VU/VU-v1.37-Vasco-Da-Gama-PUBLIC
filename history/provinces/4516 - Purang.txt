@@ -1,0 +1,14 @@
+#4516 - Purang
+
+owner = GUG
+controller = GUG
+add_core = GUG
+culture = tibetan
+religion = bon
+capital = "Purang"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes

@@ -1,0 +1,18 @@
+#4306 - Lakia
+
+#Default
+owner = GAZ
+controller = GAZ
+add_core = GAZ
+culture = lak
+religion = sunni	
+capital = "Kumukh"
+trade_goods = wool
+hre = no
+base_tax = 6
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = DAG

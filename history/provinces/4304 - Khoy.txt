@@ -1,0 +1,18 @@
+#4304 - Khoy
+
+#Default
+owner = QAR
+controller = QAR
+add_core = QAR
+culture = armenian
+religion = miaphysite	#Actually not fully miaphysite in reality. Should be a mix of Nestorian and other Oriental Orthodoxy. Going for miaphysite for now.
+capital = "Khoy"
+trade_goods = salt
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = ILK

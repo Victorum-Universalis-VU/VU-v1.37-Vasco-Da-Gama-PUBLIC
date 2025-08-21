@@ -1,0 +1,149 @@
+#Dutch states
+#############
+# LORDSHIPS #
+#############
+dependency = {
+	subject_type = christian_abbacy
+	first = BUR
+	second = LXL
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1477.1.5
+}
+
+# Burgundy-Vergy
+dependency = {
+    subject_type = burgundian_lordship
+    first = BUR
+    second = VGY
+    start_date = 1383.1.1
+    end_date = 1477.1.1
+}
+
+############
+# COUNTIES #
+############
+dependency = {
+	subject_type = burgundian_county
+	first = BUR
+	second = NEV
+	start_date = 1384.1.1 #Marriage of Margaret III Countess of Flanders to John the "Fearless" Duke of Burgundy - Prussia
+	end_date = 1477.1.1 #Charles the "Bold" dies at the battle of Nancy and is re-incorporated into the Kingdom of France - Prussia
+}
+
+#############
+# GUARANTEE #
+#############
+guarantee = {
+	first = BUR
+	second = CMB
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1477.1.5
+}
+
+guarantee = {
+	first = BUR
+	second = SPO
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1477.1.5
+}
+
+guarantee = {
+	first = BUR
+	second = TOA
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1477.1.5
+}
+
+guarantee = {
+	first = BUR
+	second = UTR
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1477.1.5
+}
+
+# Hainaut and Holland
+alliance = {
+	first = HAI
+	second = HOL
+	start_date = 1299.1.1
+	end_date = 1436.10.8
+}
+
+# Burgundy - Brittany alliance
+alliance = {
+	first = BUR
+	second = BRI
+	start_date = 1435.9.21
+	end_date = 1441.1.2
+}
+
+#Burgundy
+#####################
+# BURGUNDIAN UNIONS #
+#####################
+dependency = {
+	subject_type = burgundian_crown_PU 
+	first = BUR
+	second = LUX
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1477.1.5
+}
+
+dependency = {
+	subject_type = burgundian_crown_PU
+	first = BUR
+	second = HAI
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1477.1.5
+}
+
+dependency = {
+	subject_type = burgundian_crown_PU
+	first = BUR
+	second = PIC
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1477.1.5
+}
+
+dependency = {
+	subject_type = burgundian_crown_PU
+	first = BUR
+	second = ATS
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1477.1.5
+}
+
+dependency = {
+	subject_type = burgundian_crown_PU
+	first = BUR
+	second = FLA
+	start_date = 1444.1.1 #Was 1384.1.1
+	end_date = 1506.1.5
+}
+
+dependency = {
+	subject_type = burgundian_crown_PU
+	first = BUR
+	second = BRB
+	start_date = 1444.1.1
+	end_date = 1477.1.5
+}
+
+dependency = {
+	subject_type = burgundian_crown_PU
+	first = BUR
+	second = HOL
+	start_date = 1444.1.1
+	end_date = 1477.1.5
+}
+
+#############
+# Republics #
+#############
+dependency = {
+	subject_type = feudal_republic
+	first = BUR
+	second = BSA
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1477.1.5
+}

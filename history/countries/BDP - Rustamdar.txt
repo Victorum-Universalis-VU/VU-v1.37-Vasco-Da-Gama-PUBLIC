@@ -1,0 +1,22 @@
+#BDP - Rustamdar
+government = monarchy
+add_government_reform = unlocked_islamic_malikate_reform
+government_rank = 8 #Malikate
+primary_culture = mazandarani
+religion = shiite
+#technology_group = muslim
+technology_group = persian_tech_group
+capital = 3687
+religious_school = jafari_school
+
+#History by SF
+1399.1.1 = {
+	monarch = {
+		name = "Kaymarth I"
+		dynasty = "Baduspanid"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+	add_piety = 0.05
+}

@@ -1,0 +1,34 @@
+#1940 - Belz
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR
+capital= "Belz"
+culture = volhynian
+religion = orthodox
+trade_goods = vodka		#from all the grain around, besides very poor region. Coal will be briefly discovered here in 1949
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = VOL
+
+#Buildings
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#History by SF
+1444.1.11 = {
+	owner = BLZ
+	controller = BLZ
+	add_core = BLZ
+	remove_core = KIR
+}

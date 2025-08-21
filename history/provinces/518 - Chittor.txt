@@ -1,0 +1,18 @@
+#518 - Chittor
+
+#Default
+owner = MER
+controller = MER
+add_core = MER
+culture = rajput
+religion = hinduism
+capital = "Chittor"
+trade_goods = grain
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 7
+is_city = yes
+
+#Buildings
+fort_15th = yes

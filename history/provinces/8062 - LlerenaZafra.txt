@@ -1,0 +1,27 @@
+#8062 - LlerenaZafra
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = castillian
+religion = catholic
+capital = "Llerena"			#Also Zafra
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = wine
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}
+1444.11.11 = { 
+	owner = BDH 
+	controller = BDH 
+	add_core = BDH
+	#Claimants
+	remove_core = AMD 
+} # Castilian territorial lands - By San Felipe

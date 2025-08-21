@@ -1,0 +1,25 @@
+#2034 - Pune (Northern Desh)
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = marathi
+religion = hinduism
+capital = "Pune"
+trade_goods = grain	#Millet
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = AHM
+add_core = MAR
+
+#Commerce
+center_of_trade = 2
+
+#Special Modifiers
+add_rajputs_or_marathas_or_nobles_effect = yes

@@ -1,0 +1,15 @@
+#7835 - Angerburg
+
+#Default
+owner = TEU
+controller = TEU
+add_core = TEU
+culture = pruthenian #Was latvian but changed due to morsmessor's advice.
+religion = catholic
+capital = "Angerburg"
+base_tax = 2 
+base_production = 2 
+base_manpower = 1 
+trade_goods = horses #Trakehner horses, major horse breeders of Prussia
+is_city = yes
+hre = no

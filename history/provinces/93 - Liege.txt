@@ -1,0 +1,31 @@
+#93 Liège
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = LIE
+controller = LIE
+add_core = LIE
+capital = "Liège"
+is_city = yes
+culture = wallonian
+religion = catholic
+hre = yes
+base_tax = 7 
+base_production = 7
+trade_goods = iron			#Major steel-producing center. One of the, if not the single, largest in the world by our end date. Large metal deposits of various types in the area.
+base_manpower = 4
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = vu_potential_archaeological_dig
+	duration = -1
+}

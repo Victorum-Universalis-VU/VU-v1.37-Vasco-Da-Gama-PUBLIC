@@ -1,0 +1,35 @@
+#7826 - Bütow
+
+#Default
+owner = POL
+controller = POL
+add_core = POL
+culture = kashubian_culture # at 1444 was major population of the town and remained center of polish resistance against germanization
+religion = catholic
+capital = "Bütow"
+base_tax = 2 
+base_production = 2 
+base_manpower = 1 
+trade_goods = lumber
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = POM
+
+#History by SF
+1295.1.1 = {
+	owner = STP
+	controller = STP
+	add_core = STP
+	remove_core = POL
+}	#Barnim II of Pomerania dies, killed by the husband of a woman he seduced. Pomerania fractures.
+1329.1.1 = {
+	owner = TEU
+	controller = TEU
+	add_core = TEU
+	remove_core = STP
+	remove_core = POM
+	hre = no
+	base_manpower = 2 
+}	#Teutonic Order purchases the region

@@ -1,0 +1,15 @@
+#402 - Mahra
+
+#Default
+owner = MHR
+controller = MHR
+add_core = MHR
+culture = mahri_culture
+religion = sunni
+capital = "Qishn"			#Al Ghaydah
+trade_goods = incense
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3 
+is_city = yes

@@ -1,0 +1,31 @@
+#3 - Kalmar
+
+#Default
+add_core = SWE
+owner = SWE
+controller = SWE
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 3 
+base_production = 3 
+trade_goods = lumber
+base_manpower = 2 
+capital = "Kalmar"
+is_city = yes
+
+#Buildings
+fort_15th = yes # Kalmar Slott
+
+#Claimants
+add_core = KLR
+add_core = OTG
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

@@ -1,0 +1,15 @@
+#4250 - Rybnaya
+
+#Default
+owner = MLL
+controller = MLL
+add_core = MLL
+culture = muscovite
+religion = orthodox
+hre = no
+base_tax = 8
+base_production = 8
+trade_goods = cloth			#locally important trading center between Volga and Baltics, choosing cloth as a generic well developed trade good
+base_manpower = 4
+capital = "Rybnaya"
+is_city = yes

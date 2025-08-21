@@ -1,0 +1,35 @@
+#7011 - San Severo
+
+#Default
+owner = KNT			#Knights Templar
+controller = KNT
+add_core = KNT
+culture = neapolitan 
+religion = catholic 
+hre = no 
+base_tax = 2
+base_production = 3
+trade_goods = olive_oil
+base_manpower = 2
+capital = "San Severo"
+is_city = yes 
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = SIC controller = SIC add_core = SIC } # Sicilian territorial lands - By San Felipe
+1300.1.1 = {
+	base_tax = 3
+	base_production = 4
+} # Moving some dev around as cities become richer & poorer in the early period.
+1312.3.22 = {
+	owner = NAP
+	controller = NAP
+	add_core = NAP
+	remove_core = KNT
+} # Naples reannexes the city after the Knights Templar are 'disbanded'.
+1318.1.1 = {
+	add_local_autonomy = 25
+	base_tax = 5
+} # City sold to a noble in Naples (noble estate), but the city revolts and demands autonomy & rights. King gives in and the city becomes a royal city in perpetuity with effective self government while at the same time becoming the capital of the whole region all the way to Molise

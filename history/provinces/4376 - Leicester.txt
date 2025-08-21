@@ -1,0 +1,19 @@
+#4376 - Leicester
+
+latent_trade_goods = {
+	coal 
+}
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = midlander
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = iron
+base_manpower = 2
+capital = "Leicester"
+is_city = yes

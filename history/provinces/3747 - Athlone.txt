@@ -1,0 +1,26 @@
+#3747 - Athlone
+
+#Default
+owner = FLY
+controller = FLY
+add_core = FLY
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = fruit
+capital = "Athlone"
+is_city = yes
+
+#Claimants
+add_core = ANI
+add_core = ENG
+
+#History by SF
+1215.6.15 = { owner = ECO controller = ECO add_core = ECO } # Connacht territory - By San Felipe
+1291.1.1 = {
+	capital = "Trim"
+}
+1444.11.11 = { owner = FLY controller = FLY add_core = FLY } # Offaly clan territory - By San Felipe

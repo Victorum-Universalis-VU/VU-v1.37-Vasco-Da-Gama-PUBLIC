@@ -1,0 +1,30 @@
+#7102 - Arcadia
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = BYZ
+controller = BYZ
+add_core = BYZ
+culture = greek
+religion = orthodox
+capital = "Drobolitsa"
+base_tax = 4
+base_production = 3
+base_manpower = 2
+trade_goods = livestock			#The classical pastoral paradise, traditionally.
+is_city = yes
+hre = no
+
+#Claimants
+add_core = ACH
+add_core = MOE
+
+#History by SF
+1215.6.15 = { owner = ACH controller = ACH add_core = ACH } # Achaean territorial lands - By San Felipe
+1444.11.11 = { owner = BYZ controller = BYZ add_core = BYZ } # # Byzantine territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 25

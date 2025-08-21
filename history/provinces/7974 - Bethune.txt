@@ -1,0 +1,18 @@
+#7974 - Béthune
+
+#Default
+owner = FLA
+controller = FLA
+add_core = FLA
+culture = picard_culture
+religion = catholic
+capital = "Béthune"
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = apiculture
+is_city = yes
+hre = no
+
+#History by SF
+1444.11.11 = { owner = ATS controller = ATS add_core = ATS } # Duchy of artois territorial lands - By San Felipe

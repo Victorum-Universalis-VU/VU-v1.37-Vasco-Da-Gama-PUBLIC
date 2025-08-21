@@ -1,0 +1,16 @@
+#8492 - Stolberg
+
+#Default
+owner = LUX
+controller = LUX
+add_core = LUX
+add_core = BUR
+culture = hessian
+religion = catholic
+trade_goods = wine
+capital = "Stolberg"
+base_tax = 3
+base_production = 4
+base_manpower = 2
+is_city = yes
+hre = yes

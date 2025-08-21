@@ -1,0 +1,722 @@
+################################################################
+################ Ancona & March of Ancona (VU) #################
+################################################################
+
+###########`
+# Vassals #
+###########
+
+dependency = {
+    subject_type = merchantlist_republic
+	first = MRC
+	second = ANC
+	start_date = 1435.1.1
+	end_date = 1436.1.1
+}
+
+dependency = {
+    subject_type = merchantlist_republic
+	first = MLO
+	second = ASD
+	start_date = 1435.1.1
+	end_date = 1446.1.1
+} 
+
+dependency = {
+	subject_type = italian_viscounty
+	first = MLO
+	second = ATI
+	start_date = 1435.1.1
+	end_date = 1446.1.1
+} 
+
+dependency = {
+    subject_type = feudal_republic
+	first = LAN
+	second = ARE
+	start_date = 1435.1.1
+	end_date = 1446.1.1
+} 
+
+dependency = {
+    subject_type = italian_duchy
+	first = LAN
+	second = CTN
+	start_date = 1435.1.1
+	end_date = 1446.1.1
+} 
+
+################################################################
+####################### Ferrara (VU) ########################
+################################################################
+
+#########
+# Union #
+#########
+
+dependency = {
+	subject_type = italian_crown_PU
+	first = FER
+	second = MOD
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+    subject_type = italian_crown_PU
+	first = FER
+	second = MOD
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1308.1.1 #An independent commune gains control of Modena
+}
+
+dependency = {
+    subject_type = italian_crown_PU
+	first = FER
+	second = MOD
+	start_date = 1336.1.1	#Este family back in control 
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+}
+
+dependency = {
+    subject_type = italian_crown_PU
+	first = FER
+	second = MOD
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1516.1.1 #Papal rule interrupts Este
+}
+
+###########
+# Vassals #
+###########
+
+dependency = {
+    subject_type = christian_bishopric
+	first = LAN
+	second = VLR
+	start_date = 1361.1.1			#Florence forces Volterra to submit
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+}
+
+dependency = {
+    subject_type = christian_bishopric
+	first = LAN
+	second = VLR
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1472.1.1 #Annexed to Florence directly
+}
+
+################################################################
+######################### Genoa (VU) #########################
+################################################################
+
+###########
+# Vassals #
+###########
+
+dependency = {
+    subject_type = genoese_commercial_republic
+	first = GEN
+	second = GZR
+	start_date = 1444.1.1
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+}	#Gazaria
+
+dependency = {
+    subject_type = genoese_commercial_republic
+	first = GEN
+	second = GZR
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1475.1.1 #Ottoman conquest
+}	#Gazaria
+
+################################################################
+######################## Naples (VU) ##########################
+################################################################
+
+#########
+# Union #
+#########
+
+# Naples and Provence
+dependency = {
+    subject_type = italian_crown_PU
+	first = NAP
+	second = PRO
+	start_date = 1389.11.1
+	end_date = 1399.11.1
+}
+
+#############
+# Alliances #
+#############
+
+# Naples and Provence
+alliance = {
+	first = NAP
+	second = PRO
+	start_date = 1389.11.1
+	end_date = 1399.11.1
+}
+
+#################################################################
+###################### Papal States (VU) ######################
+#################################################################
+
+################
+# Dependencies #
+################
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FER
+	start_date = 1215.1.1 
+	end_date = 1291.5.21
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = BLG
+	start_date = 1215.1.1 
+	end_date = 1291.5.21 
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FNZ
+	start_date = 1215.1.1
+	end_date = 1291.5.21 
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = RAV
+	start_date = 1215.1.1 
+	end_date = 1291.5.21 
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = PGA
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = PGA
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1408.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = CMR
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = CMR
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1408.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = ANC
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = ANC
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1408.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FMO
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FMO
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1408.1.1
+}
+
+#Pre-vanilla start subject info for Urbino, finished in vanilla files as it is a vanilla tag
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = URB
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1442.12.31
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = ALR
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = ALR
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1434.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = TIV
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = TIV
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1440.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = TNI
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = TNI
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = NRC
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = NRC
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1354.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = SPL
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = SPL
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1354.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FAB
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FAB
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1435.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = MRT
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+#######
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = MRT
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1435.1.1
+}
+#######
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = GUB
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = GUB
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1384.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FLG
+	start_date = 1305.1.1
+	end_date = 1408.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = CMR
+	start_date = 1414.8.6 
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+}
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FLG
+	start_date = 1414.8.6
+	end_date = 1439.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = ANC
+	start_date = 1414.8.6 
+	end_date = 1435.1.1			#To Sforza's Marche
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FMO
+	start_date = 1414.8.6 
+	end_date = 1485.1.1			#To Sforza's Marche
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = PGA
+	start_date = 1414.8.6 
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+}
+#Francesco Sforza's Marche
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = MRC
+	start_date = 1436.1.1
+	end_date = 1442.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = AVI
+	start_date = 1436.1.1
+	end_date = 1445.1.1
+}
+
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = ANC
+	start_date = 1436.1.1 
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = ANC
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1532.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = CMR
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1502.1.1			#Cesare Borgia's short lived duchy
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = PGA
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1450.1.1
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = MTS
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1444.11.13
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FRL
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1444.11.13
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = FNZ
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1444.11.13
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = BLG
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1444.11.13
+}
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = BLG
+	start_date = 1444.11.16 #VictorumUniversalis batch edit shortcut 2nd performance start
+	end_date = 1444.11.18
+}
+
+dependency = {
+	subject_type = papal_subject_vu
+	first = PAP
+	second = MNO
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1444.11.13
+}
+
+##########
+# Vassal #
+##########
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = VLT
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = VLT
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1408.1.1
+}
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = VLT
+	start_date = 1414.8.6 
+	end_date = 1440.1.1 #VictorumUniversalis batch edit shortcut the second shattering begins
+}
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = ORV
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
+}
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = ORV
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1408.1.1
+}
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = ORV
+	start_date = 1414.8.6 
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+}
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = URB
+	start_date = 1444.11.16
+	end_date = 1444.11.18
+}
+
+# Pope and Perugia
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = PGA
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = VLT
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1591.1.1
+}
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = ORV
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1450.1.1
+}
+
+dependency = {
+    subject_type = papal_subject_vu
+	first = PAP
+	second = PGA
+	start_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start
+	end_date = 1444.11.17
+}
+
+###########
+# Vassals #
+###########
+
+# Montferrat and Savoy
+dependency = {
+	subject_type = italian_duchy
+	first = SAV
+	second = MFA
+	start_date = 1444.1.1
+	end_date = 1445.3.12
+}
+
+# Savoy and Geneva
+dependency = {
+    subject_type = feudal_republic
+    first = SAV
+    second = GNV
+    start_date = 1444.1.1
+    end_date = 1526.1.1
+}
+
+dependency = {
+    subject_type = feudal_republic
+    first = SAV
+    second = VUD
+    start_date = 1444.1.1
+    end_date = 1526.1.1
+}
+
+#################################################################
+######################### Venice (VU) #########################
+#################################################################
+
+##############
+# Guarantees #
+##############
+
+#Albania guaranteed by Venice
+guarantee = {
+	first = VEN
+	second = ALB
+	start_date = 1444.1.1
+	end_date = 1468.1.1
+}
+
+###########
+# Vassals #
+###########
+
+dependency = {
+    subject_type = christian_archbishopric
+	first = VEN
+	second = AQU
+	start_date = 1420.1.1
+	end_date = 1433.1.1
+}	#Patriarchate of Aquileia
+
+dependency = {
+    subject_type = venetian_republic
+	first = VEN
+	second = CDA
+	start_date = 1444.1.1
+	end_date = 1669.1.1 #Ottoman conquest
+}	#Candia
+
+dependency = {
+    subject_type = christian_bishopric
+	first = VEN
+	second = CEN
+	start_date = 1389.12.19
+	end_date = 1442.1.1 #annexed
+}	#Ceneda
+
+###################
+# Sister Republic #
+###################
+
+dependency = {
+	subject_type = banking_family_subject
+	first = GEN
+	second = COR
+	start_date = 1441.1.1
+	end_date = 1445.1.1
+}

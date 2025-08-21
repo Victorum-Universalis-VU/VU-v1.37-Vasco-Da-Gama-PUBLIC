@@ -1,0 +1,21 @@
+#95 - Breda
+
+#Default
+owner = BRB
+controller = BRB
+add_core = BRB
+is_city = yes
+capital = "Breda"
+culture = ger_brabantian
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = beer			#Major brewing center, including largest brewery in Netherlands, as well as both historically and currently a center of non-staple foods and drinks.
+base_manpower = 3
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = meuse_estuary_modifier
+	duration = -1
+}

@@ -1,0 +1,28 @@
+#7673 - Sankt Veit an der Glan
+
+#Default
+owner = CR1
+controller = CR1
+add_core = CR1
+culture = austrian
+religion = catholic
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = vegetables
+capital = "Sankt Veit"
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = AUT
+add_core = FRG
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

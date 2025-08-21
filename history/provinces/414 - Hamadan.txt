@@ -1,0 +1,33 @@
+#414 - Hamadan
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = luri
+religion = shiite
+capital = "Hamedan"
+trade_goods = cloth
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = LRI
+add_core = M3D
+add_core = MSY
+
+#History by SF
+1442.1.1 = { #Death of Yusuf Khwaja, governor of Rayy. Appointment of Sultan Muhammad b. Baysunghur as governor of northern Iran.
+	owner = QOM
+	controller = QOM
+	add_core = QOM
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population
+    duration = -1
+}

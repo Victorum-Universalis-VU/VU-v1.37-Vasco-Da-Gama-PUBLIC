@@ -1,0 +1,18 @@
+#7917 - Montluçon
+
+#Default
+owner = BOU
+controller = BOU
+add_core = BOU
+culture = auvergnat_culture
+religion = catholic
+capital = "Montluçon"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = fruit
+is_city = yes
+hre = no
+
+#Claimants
+add_core = FRA

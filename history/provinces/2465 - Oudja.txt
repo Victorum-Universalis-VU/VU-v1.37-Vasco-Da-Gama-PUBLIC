@@ -1,0 +1,22 @@
+#2465 - Oujda
+
+#Default
+owner = TLC
+controller = TLC
+add_core = TLC
+culture = riffian
+religion = sunni
+capital = "Oujda"
+trade_goods = horses
+hre = no
+base_tax = 3
+base_production = 3 
+base_manpower = 3 
+is_city = yes
+
+#Claimants
+add_core = RIF
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = TLC controller = TLC add_core = TLC remove_core = AMD } # Tlemcen territorial lands - By San Felipe

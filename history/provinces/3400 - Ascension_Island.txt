@@ -1,0 +1,9 @@
+#3400 - Ascension_Island
+
+#Default
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+

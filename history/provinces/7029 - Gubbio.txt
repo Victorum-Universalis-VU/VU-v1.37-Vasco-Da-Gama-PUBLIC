@@ -1,0 +1,24 @@
+#7029 - Gubbio
+
+#Default
+owner = GUB
+controller = GUB
+add_core = GUB
+culture = umbrian
+religion = catholic
+capital = "Gubbio"
+base_tax = 5
+base_production = 4
+base_manpower = 3
+trade_goods = glass # majolica
+is_city = yes
+hre = no
+
+#History by SF
+1215.6.15 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe
+1384.1.1 = {
+	owner = URB
+	controller = URB
+	add_core = URB
+} 
+1444.11.11 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe

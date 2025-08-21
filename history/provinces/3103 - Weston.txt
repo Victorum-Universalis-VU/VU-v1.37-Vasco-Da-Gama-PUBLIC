@@ -1,0 +1,28 @@
+#3103 - Weston
+
+latent_trade_goods = {
+	coal 
+} 
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = wessexian
+religion = lollardy
+hre = no
+base_tax = 1  
+base_production = 1
+trade_goods = vegetables
+base_manpower = 1
+capital = "Weston"
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#History by SF
+1444.11.11 = { owner = SM1 controller = SM1 add_core = SM1 } # The Dukedom of Somerset territory - By San Felipe

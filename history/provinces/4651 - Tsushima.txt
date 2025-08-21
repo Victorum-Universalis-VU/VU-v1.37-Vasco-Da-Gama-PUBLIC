@@ -1,0 +1,15 @@
+#4651 - Tsushima
+
+#Default
+owner = SOO
+controller = SOO
+add_core = SOO
+culture = kyushuan
+religion = shinto
+capital = "Tsushima"
+trade_goods = naval_supplies
+hre = no
+base_tax = 6
+base_manpower = 6
+base_production = 6
+is_city = yes

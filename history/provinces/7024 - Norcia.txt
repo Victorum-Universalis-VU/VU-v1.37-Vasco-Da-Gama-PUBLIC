@@ -1,0 +1,27 @@
+#7024 - Norica
+
+#Default
+owner = NRC
+controller = NRC
+add_core = NRC
+culture = umbrian
+religion = catholic
+capital = "Norcia"
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = livestock # famous for it's swine
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe
+1354.1.1 = { 
+	owner = PAP
+	controller = PAP
+	add_core = PAP
+}
+1444.11.11 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe

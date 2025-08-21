@@ -1,0 +1,23 @@
+#8261 - Can
+
+latent_trade_goods = {
+	coal
+}			#Google shows large mining area, coal present in the hills
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = turkish
+religion = sunni
+capital = "Çan"
+trade_goods = lumber #or naval supplies 
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = LAE controller = LAE add_core = LAE } # Latin territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe

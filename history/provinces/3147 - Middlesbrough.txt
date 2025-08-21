@@ -1,0 +1,18 @@
+#3147 - Middlesbrough
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+capital = "Middlesbrough"
+is_city = yes
+culture = yorkshire
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = livestock
+hre = no
+
+#History by SF
+1444.11.11 = { owner = RCH controller = RCH add_core = RCH } # The Earldom of Richmond territory - By San Felipe

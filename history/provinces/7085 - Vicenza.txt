@@ -1,0 +1,28 @@
+#7085 - Vicenza
+
+#Default
+owner = VRN
+controller = VRN
+add_core = VRN
+culture = venetian
+religion = catholic
+capital = "Vicenza"
+base_tax = 6
+base_production = 7
+base_manpower = 4
+trade_goods = gold	
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = PDV
+add_core = MLO
+
+#History by SF
+1405.6.24 = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+	remove_core = MLO
+	hre = no
+}

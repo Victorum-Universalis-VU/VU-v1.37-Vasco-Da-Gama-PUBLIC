@@ -1,0 +1,26 @@
+#7142 - Korce
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = albanian
+religion = orthodox
+capital = "Korce"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = beer			#Anachronistic, but a beer province looks good in the region and the area is known today for its beer
+is_city = yes
+hre = no
+
+#Claimants
+add_core = ALB
+add_core = EPI
+
+#History by SF
+1215.6.15 = { owner = EPI controller = EPI add_core = EPI } # Epirus territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 10

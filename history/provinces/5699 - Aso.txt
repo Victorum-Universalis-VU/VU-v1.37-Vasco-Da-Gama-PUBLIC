@@ -1,0 +1,15 @@
+#5699 - Aso
+
+#Default
+owner = ASO
+controller = ASO
+add_core = ASO
+culture = kyushuan
+religion = shinto
+capital = "Aso"
+trade_goods = vegetables
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 3
+is_city = yes

@@ -1,0 +1,24 @@
+#7832 - Rhein
+
+#Default
+owner = TEU
+controller = TEU
+add_core = TEU
+culture = yotvingian_culture
+religion = catholic
+capital = "Rhein"
+base_tax = 2 
+base_production = 2 
+base_manpower = 1 
+trade_goods = lumber
+is_city = yes
+hre = no
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = masurian_lakes
+    duration = -1
+}

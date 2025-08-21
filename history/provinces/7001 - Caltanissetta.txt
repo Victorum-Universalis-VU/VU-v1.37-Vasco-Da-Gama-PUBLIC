@@ -1,0 +1,15 @@
+#7001 - Caltanissetta
+
+#Default
+owner = SIC
+controller = SIC
+add_core = SIC
+culture = sicilian
+religion = catholic
+capital = "Caltanissetta"
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = sulfur	# Sicily rich is sulfur, had to place it somewhere
+is_city = yes
+hre = no

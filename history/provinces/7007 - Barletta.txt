@@ -1,0 +1,47 @@
+#7007 - Barletta
+
+#Default
+owner = NAP
+controller = NAP
+add_core = NAP
+culture = neapolitan
+religion = catholic
+capital = "Barletta"		#also Trani, another one of the larger cities of the time in southern Italy.
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = vegetables
+is_city = yes
+hre = no
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+	name = ofanto_estuary_modifier
+	duration = -1
+}
+
+#History by SF
+1215.6.15 = { owner = SIC controller = SIC add_core = SIC } # Sicilian territorial lands - By San Felipe
+1349.1.1 = {
+	controller = ADR
+	owner = ADR
+	add_core = ADR
+#	remove_core = NAP
+	capital = "Andria"
+} # Francesco Del Balzo becomes Duke of Andria on his marriage to someone who was siblings who was married to the king. Don't ask
+1444.11.11 = { owner = NAP controller = NAP add_core = NAP } # Napolitan territorial lands - By San Felipe

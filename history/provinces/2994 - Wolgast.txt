@@ -1,0 +1,38 @@
+#2994 - Wolgast
+
+#Default
+owner = DYM
+controller = DYM
+add_core = DYM
+culture = polabian_culture
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 3
+trade_goods = glass
+capital = "Wolgast"
+is_city = yes
+
+#Claimants
+add_core = POM
+
+#Commerce
+center_of_trade = 1
+
+#History by DonBrom & SF
+1295.1.1 = {
+	owner = WOL
+	controller = WOL
+	add_core = WOL
+	remove_core = POM
+}	#Barnim II of Pomerania dies, killed by the husband of a woman he seduced. Pomerania fractures.
+1300.1.1 = {
+	culture = pommeranian #Added by SF in VU v1.37 on advice of Don Brom since according to his sources, Polabian Slavs had already been fully assimilated by the Germans.
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = peene_estuary_modifier
+    duration = -1
+}

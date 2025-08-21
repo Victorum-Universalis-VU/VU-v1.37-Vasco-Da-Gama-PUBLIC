@@ -1,0 +1,26 @@
+#7990 - Cholet
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+culture = angevin_culture
+religion = catholic
+capital = "Cholet"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = horses
+is_city = yes
+hre = no
+
+#Claimants
+add_core = ENG
+
+#History by SF
+1444.11.11 = { 
+	owner = ANJ 
+	controller = ANJ 
+	add_core = ANJ
+	add_core = PRO 
+} # Anjou is appanage of the French Kingdom - By San Felipe

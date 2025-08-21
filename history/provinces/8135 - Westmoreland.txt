@@ -1,0 +1,24 @@
+#8135 - Westmoreland
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+capital = "Appleby"
+is_city = yes
+culture = lancastrian
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = tin
+hre = no
+
+#Claimants
+add_core = LCA
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = leven_estuary_modifier
+	duration = -1
+}

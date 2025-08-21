@@ -1,0 +1,19 @@
+#8182 - Zólyom
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Besztercebányán"
+is_city = yes
+culture = slovak
+religion = hussite
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = naval_supplies
+hre = no
+
+#Claimants
+add_core = LHU
+add_core = SLO

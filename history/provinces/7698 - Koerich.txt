@@ -1,0 +1,25 @@
+#7698 - Koerich
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = LUX
+controller = LUX
+add_core = LUX
+capital = "Koerich"
+is_city = yes
+culture = luxembourgish
+religion = catholic 
+hre = yes
+base_tax = 8
+base_production = 4
+trade_goods = livestock #I've changed this to livestock because of the latent buildings requirement and since you need this to make leather (By San Felipe).
+base_manpower = 2
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = BUR

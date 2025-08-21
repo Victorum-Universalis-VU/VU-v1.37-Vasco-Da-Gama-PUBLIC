@@ -1,0 +1,21 @@
+#8231 - Czersk
+
+#Default
+capital = "Czersk"
+is_city = yes
+owner = MAZ
+controller = MAZ
+add_core = MAZ
+culture = polish
+religion = catholic
+base_tax = 3
+base_production = 1
+base_manpower = 2
+trade_goods = fruit	      #Fruit farming region south of Warsaw
+hre = no
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

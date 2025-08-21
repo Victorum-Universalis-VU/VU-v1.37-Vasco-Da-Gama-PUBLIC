@@ -1,0 +1,18 @@
+#3541 - Bacjawan
+
+#Default
+add_core = MAS
+owner = MAS
+controller = MAS
+culture = illongo
+religion = animism
+capital = "Bacjawan"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+#Commerce
+center_of_trade = 1

@@ -1,0 +1,10 @@
+#KEM - Keme
+government = monarchy
+add_government_reform = unlocked_eue_kingdom_reform
+government_rank = 8 #Kingdom
+primary_culture = coptic_culture
+religion = coptic
+technology_group = muslim
+capital = 361
+
+

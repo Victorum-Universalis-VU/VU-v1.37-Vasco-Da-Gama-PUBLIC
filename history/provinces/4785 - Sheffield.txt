@@ -1,0 +1,25 @@
+#4785 - Yorkshire
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = yorkshire
+religion = catholic
+hre = no
+base_tax = 2  
+base_production = 2 
+base_manpower = 1
+trade_goods = steel
+capital = "Sheffield"
+is_city = yes
+
+#Buildings
+steel_foundry = yes
+marketplace = yes
+grand_cathedral = yes
+city_hall = yes
+road_system = yes
+
+#History by SF
+1444.11.11 = { owner = YRK controller = YRK add_core = YRK } # The Duchy of York territory - By San Felipe

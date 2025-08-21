@@ -1,0 +1,22 @@
+#4694 - Foix
+
+#Default
+owner = FOI
+controller = FOI
+add_core = FOI
+capital = "Foix"
+is_city = yes
+culture = occitain	#aquitaine vanilla
+religion = catholic
+hre = no
+base_tax = 2  
+base_production = 2 
+trade_goods = wool
+base_manpower = 2 
+
+#Claimants
+add_core = FRA
+
+#Special Modifiers
+#add_local_autonomy = 25
+

@@ -1,0 +1,33 @@
+#198 - Rouergue
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = N4R
+controller = N4R
+add_core = N4R
+capital = "Rodez"
+is_city = yes
+culture = occitain
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2 
+trade_goods = livestock
+base_manpower = 1 
+
+#Claimants
+add_core = FRA
+add_core = TOU
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.11.11 = { 
+	owner = AMG 
+	controller = AMG 
+	add_core = AMG 
+} # Part of the duchy of Armagnac - By San Felipe

@@ -1,0 +1,23 @@
+#413 - Lorestan
+
+#Default
+owner = LRI
+controller = LRI
+add_core = LRI
+culture = luri
+religion = shiite
+capital = "Khorramabad"
+trade_goods = grain
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 4
+is_city = yes
+
+#Buildings
+fort_15th = yes #Falak-ol-Aflak
+
+#Claimants
+add_core = M3D
+add_core = MSY
+add_core = TIM

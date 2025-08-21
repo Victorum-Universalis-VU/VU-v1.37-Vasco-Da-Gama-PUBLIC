@@ -1,0 +1,24 @@
+#3968 - Niksar
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = armenian			#Armenians and greeks should inhabit the highlands in 1444
+religion = miaphysite
+capital = "Niksar"
+trade_goods = fruit			# PREVIOUS VERSION paper woodworking + Niksar is an ancient city that was once important bishopric
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 3 
+is_city = yes
+
+#Claimants
+add_core = TRE
+add_core = CIK
+add_core = ERE
+
+#History by SF
+1215.6.15 = { owner = RUM controller = RUM add_core = RUM }  # Sultanate of Rum territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe

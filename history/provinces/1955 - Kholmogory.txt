@@ -1,0 +1,18 @@
+#1955 - Kholmogory
+
+#Default
+owner = NOV 
+controller = NOV 
+add_core = NOV
+culture = novgorodian
+religion = orthodox
+hre = no
+base_tax = 3 
+base_production = 2 
+trade_goods = fur 
+base_manpower = 2 
+capital = "Kholmogory"
+is_city = yes
+
+#Special Modifiers
+add_local_autonomy = 25

@@ -1,0 +1,19 @@
+#620 - Siak
+
+#Default
+owner = MLC
+controller = MLC
+add_core = MLC
+culture = malayan
+religion = sunni
+capital = "Siak"
+trade_goods = chinaware
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = JOH
+add_core = SAK

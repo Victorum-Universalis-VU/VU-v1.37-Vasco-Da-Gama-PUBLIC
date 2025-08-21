@@ -1,0 +1,17 @@
+#2355 - Narym
+
+owner = SHY
+controller = SHY
+add_core = SHY
+culture = khazak
+religion = sunni
+capital = "Narym"
+trade_goods = fish
+hre = no
+base_tax = 2  
+base_production = 1
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = KZH

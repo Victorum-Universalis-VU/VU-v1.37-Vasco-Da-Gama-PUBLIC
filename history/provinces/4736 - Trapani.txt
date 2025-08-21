@@ -1,0 +1,31 @@
+#4736 - Trapani
+
+#Default
+owner = SIC
+controller = SIC
+add_core = SIC
+culture = sicilian
+religion = catholic
+capital = "Trapani"
+base_tax = 7
+base_production = 7
+base_manpower = 3
+trade_goods = salt
+is_city = yes
+hre = no
+
+#History by SF
+1295.6.20 = {
+	owner = SIC
+	controller = SIC
+	add_core = NAP
+} # Treaty of Anagni gives Sicily to the Pope, who promptly gives it to Charles II of Naples, but the local regent Frederick III of Sicily and populous refuse to acknowledge this and rebel, naming Frederick III of Sicily king and sparking the war again.
+1302.6.20 = {
+	remove_core = NAP
+} # Peace of Caltabellotta ends the War of the Sicilian Vespers (1282-1302), confirming Frederick III of Sicily's de facto status and granting him the title of King of Trinacria (alternate name of Sicily), while giving the peninsula (Naples) to Charles II of Naples. Sicily held as a kingdom under Aragon (calling it a PU for now)
+1442.3.3 = {
+	owner = NAP
+	controller = NAP
+	add_core = NAP
+} # Alfonso V of Aragon conquers Naples and temporarily unites Sicily & Naples again into the Kingdom of Naples. Going with Paradox's 3-3 date instead of 6-2 in order to avoid changes to the diplomacy files
+1444.1.1 = { add_core = SIC owner = SIC controller = SIC } 

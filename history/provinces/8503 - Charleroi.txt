@@ -1,0 +1,16 @@
+#8503 - Charleroi
+
+#Default
+owner = HAI
+controller = HAI
+add_core = HAI
+add_core = BUR
+capital = "Charleroi"
+is_city = yes
+culture = wallonian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = grain

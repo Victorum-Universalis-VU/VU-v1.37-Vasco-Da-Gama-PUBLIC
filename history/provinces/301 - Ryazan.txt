@@ -1,0 +1,22 @@
+ 
+#301 - Ryazan
+
+#Default
+owner = RYA
+controller = RYA 
+add_core = RYA  
+culture = ryazanian
+religion = orthodox
+hre = no
+base_tax = 8
+base_production = 7
+trade_goods = cloth
+base_manpower = 5
+capital = "Ryazan"				#Old Pereyaslavl-Ryazansky is actually correct, but the capital moved to 'new' Ryazan in 1237, so I think just Ryazan is fine
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 2

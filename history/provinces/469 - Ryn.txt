@@ -1,0 +1,18 @@
+#469 - Ryn
+
+#Default
+owner = NOG
+controller = NOG
+add_core = NOG
+culture = nogaybak
+religion = sunni
+capital = "Ryn"
+trade_goods = fish
+hre = no
+base_tax = 2
+base_production = 1  
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = SCY

@@ -1,0 +1,18 @@
+#6473 - Yeongheung
+
+#Default
+owner = KOR
+controller = KOR
+add_core = KOR
+culture = korean
+religion = confucianism
+capital = "Yeongheung"
+trade_goods = fish
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = GOG

@@ -1,0 +1,23 @@
+#6456 - Noto
+
+#Default
+owner = HTK
+controller = HTK
+culture = hokuriku 
+religion = shinto
+capital = "Nanao"
+trade_goods = seafood
+hre = no
+base_tax = 4
+base_manpower = 4
+base_production = 4
+is_city = yes
+
+#Buildings
+fort_15th = yes #Nanao Castle
+
+#Claimants
+add_core = SBA
+
+#History by SF
+1380.1.1 = { owner = HTK controller = HTK add_core = HTK remove_core = SBA }

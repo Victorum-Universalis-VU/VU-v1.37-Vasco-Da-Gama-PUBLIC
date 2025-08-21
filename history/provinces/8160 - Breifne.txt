@@ -1,0 +1,22 @@
+#8160 - Breifne
+
+#Default
+owner = BIF
+controller = BIF
+add_core = BIF
+capital = "Dromahair"
+is_city = yes
+culture = celtic_irish_culture #Was irish
+religion = catholic
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = iron
+hre = no
+
+#History by SF
+1215.6.15 = { owner = ECO controller = ECO add_core = ECO } # Connacht territory - By San Felipe
+1291.1.1 = {
+	capital = "Droim Dhá Thiar"
+}
+1444.11.11 = { owner = BIF controller = BIF add_core = BIF } # Breffny clan territory - By San Felipe

@@ -1,0 +1,15 @@
+#7591 - Rain
+
+#Default
+owner = OET
+controller = OET
+add_core = OET 
+culture = bavarian
+religion = catholic
+capital = "Rain"
+trade_goods = lumber
+hre = yes
+base_tax = 2 
+base_production = 4 
+base_manpower = 2 
+is_city = yes

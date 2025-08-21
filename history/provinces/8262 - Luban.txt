@@ -1,0 +1,18 @@
+#8262 - Luban
+
+#Default
+owner = SOR
+controller = SOR
+add_core = SOR
+capital = "Lauban"
+is_city = yes
+culture = sorbian
+religion = catholic
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = apiculture
+hre = yes
+
+#Claimants
+add_core = MEI #owned by Meissen until 1370

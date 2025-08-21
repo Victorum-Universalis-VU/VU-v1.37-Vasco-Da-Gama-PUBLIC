@@ -1,0 +1,19 @@
+#7092 - Visk
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Visk"
+is_city = yes
+culture = rusyn
+religion = orthodox
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = fur
+hre = no
+
+#Claimants
+add_core = UHU
+add_core = BCZ

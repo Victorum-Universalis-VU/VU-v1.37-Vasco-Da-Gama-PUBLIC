@@ -1,0 +1,26 @@
+#4536 - Lida
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR
+religion = catholic
+culture = lithuanian
+capital = "Lida"
+trade_goods = livestock
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1 
+is_city = yes
+
+#Buildings
+#fort_15th = yes #Trakai Castles "Little Marienburg"
+
+#History by SF
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = KIR
+}

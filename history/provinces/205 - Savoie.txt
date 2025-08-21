@@ -1,0 +1,18 @@
+#205 - Savoie
+
+#Default
+owner = SAV
+controller = SAV
+add_core = SAV
+culture = piedmontese
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = lead
+base_manpower = 3
+capital = "Chambéry"
+is_city = yes	
+
+#Buildings
+fort_15th = yes

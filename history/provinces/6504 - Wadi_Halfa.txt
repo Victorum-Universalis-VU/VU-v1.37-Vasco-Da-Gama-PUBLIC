@@ -1,0 +1,25 @@
+#6504 - Wadi_Halfa
+
+#Default
+owner = ABD
+controller = ABD
+add_core = ABD
+capital = "Wadi Halfa"
+culture = nubian
+religion = sunni
+trade_goods = dates
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = MAK
+add_core = NBA
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = vu_nile_river_in_arid_desert_province
+	duration = -1
+}

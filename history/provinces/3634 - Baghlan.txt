@@ -1,0 +1,15 @@
+#3634 - Baghlan
+
+owner = TIM
+controller = TIM
+culture = hazara
+religion = sunni
+capital = "Puli Khumri"
+trade_goods = tin   #Major tin mine since antiquity
+hre = no					#going with citrus but also big fan of putting rice here
+base_tax = 3
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = TIM
+add_core = AFG

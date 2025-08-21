@@ -1,0 +1,18 @@
+#6612 - Al_Bussayyah
+
+#Default
+owner = MSY
+controller = MSY
+add_core = MSY
+culture = al_iraqiya_arabic
+religion = shiite
+capital = "al-Bussayyah"
+trade_goods = salt
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = BSR

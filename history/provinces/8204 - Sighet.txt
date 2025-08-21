@@ -1,0 +1,18 @@
+#8204 - Sighet
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Máramarossziget"
+is_city = yes
+culture = rusyn
+religion = orthodox
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = salt
+hre = no
+
+#Claimants
+add_core = TRA

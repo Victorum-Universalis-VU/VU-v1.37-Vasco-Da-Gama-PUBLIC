@@ -1,0 +1,17 @@
+#2120 - Ili
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = uyghur
+religion = sunni
+capital = "Ili"
+trade_goods = zinc
+hre = no
+base_tax = 4  
+base_production = 4
+base_manpower = 6
+is_city = yes
+
+#Claims
+add_core = ZUN

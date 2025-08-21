@@ -1,0 +1,27 @@
+#6512 - Wad_Hamid
+
+#Default
+owner = ALO
+controller = ALO
+add_core = ALO
+culture = nubian
+religion = coptic
+capital = "Wad Hamid"
+is_city = yes
+trade_goods = ivory
+base_tax = 2
+base_production = 3
+base_manpower = 1
+hre = no
+
+#Claimants
+add_core = MAK
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = vu_nile_river_in_arid_desert_province
+	duration = -1
+}
+
+#Special Modifiers
+add_local_autonomy = 95

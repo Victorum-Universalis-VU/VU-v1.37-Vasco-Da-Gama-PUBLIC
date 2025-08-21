@@ -1,0 +1,18 @@
+#4200 - Hulan
+
+#Default
+owner = MHX
+controller = MHX
+add_core = MHX
+culture = manchu
+religion = tengri_pagan_reformed
+capital = "Hulan"
+trade_goods = horses
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Commerce
+center_of_trade = 1

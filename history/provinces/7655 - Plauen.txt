@@ -1,0 +1,15 @@
+#7655 - Plauen
+
+#Default
+owner = VGT
+controller = VGT
+add_core = VGT
+culture = franconian
+religion = catholic
+capital = "Plauen"
+trade_goods = grain
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 3
+is_city = yes

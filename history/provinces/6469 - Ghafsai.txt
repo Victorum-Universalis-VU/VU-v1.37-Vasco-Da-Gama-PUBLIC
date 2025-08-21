@@ -1,0 +1,22 @@
+#6469 - Ghafsai
+
+#Default
+owner = MOR
+controller = MOR
+add_core = MOR
+culture = moroccan
+religion = sunni
+capital = "Ghafsai"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = FEZ
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = MOR controller = MOR add_core = MOR remove_core = AMD } # Moroccan territorial lands - By San Felipe

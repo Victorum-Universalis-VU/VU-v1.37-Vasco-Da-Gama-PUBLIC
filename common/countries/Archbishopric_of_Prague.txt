@@ -1,0 +1,159 @@
+#PGE - Archbishopric_of_Prague
+
+graphical_culture = westerngfx
+
+color = { 198  67  19 } #Changed for Don because he did not understand why BOH is piss yellow coloured - SF
+revolutionary_colors = { 0  4  15 }
+
+preferred_religion = protestant
+
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	influence_ideas
+	religious_ideas
+	quantity_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"V�clav #4" = 50
+	"Jir� #0" = 25
+	"Karel #5" = 40
+	"Premysl #0" = 10
+	"Premysl Otakar #3" = 25
+	"Zikmund #0" = 0
+	"Frantisek #0" = 0
+	"Jindrich #0" = 5
+	"Josef #0" = 5
+	"Frantisek Josef #0" = 0
+	"Bocek #0" = 0
+	"Jan Jir� #0" = 5
+	"Ludv�k #0" = 0
+	"Vladislav #0" = 20
+	"Vladim�r #0" = 10
+	"Petr #0" = 5
+	"Jan Petr #0" = 5
+	"Viktor�n #0" = 0
+	"Jan V�clav #0" = 0
+	"Josef V�clav #0" = 0
+	"Karel Josef #0" = 0
+	"Maty� #0" = 0
+	"Ferdinand #0" = 5
+	"Otakar #0" = 10
+	"Vratislav #3" = 5
+	"Boleslav #4" = 10
+	"Vil�m #0" = 5
+	"Viktor #0" = 0
+	"Jarom�r #0" = 5
+	"Jaroslav #0" = 1
+	"Anezka #0" = -1
+	"Eliska #0" = -1
+	"Katerina #0" = -1
+	"Marie #0" = -1
+	"Ludmila #0" = -1
+	"Alzbeta #0" = -1
+}
+
+leader_names = {
+	Zaj�c
+	Jiskra
+	Zelezn�
+	Capek
+	Thurn
+	Kolowrat
+	Schwarzenberg
+	"z Rozmberka"
+	Velen
+	Sokol
+	"ze Zerot�na"
+	"z Husi"
+	"z Polzic"
+	Harant
+	"z Brand�sa"
+	Purkyne
+	"z Veleslav�na"
+	"z Rozmit�lu"
+	Berka
+	"z Pardubic"
+	"ze Lvovic"
+	Kaspar
+	Reiner
+	"ze Svamberka"
+	"z Vartemberka"
+	"z Mitrovic"
+	P�ka
+	Mansfeld
+	Velik�
+	Syrov�
+	"z Otradovic"
+	"z Falkensteina"
+}
+
+ship_names = {
+	"Svat� Vaclav"
+	"Svat� Ludmila"
+	"Svat� Jan Nepomuck�"
+	"Svat� Mikul�s"
+	"Svat� Jir�"
+	"Svat� Anezk�"
+	"Nejsvetejs� Trojice"
+	"Kr�l Karel"
+	"Kr�l Boleslav"
+	"Kr�l Premysl"
+	"Panna Maria Vitezn�"
+	"Jan Hus"
+	"Jan Zizka"
+	"Prokop Hol�"
+	"Kn�ze Bretislav"
+	"Premysl Orac"
+	Ctirad
+	Cechy
+	Morava
+	Libuse
+	Odv�zn�
+	Neporaziteln�
+	Rychl�
+	Bystr�
+	Orel
+	Sokol
+	Slezsko
+	Sipka
+	Hvezda
+}
+
+army_names = {
+	"Kr�lovsk� arm�da" "Dom�c� arm�da" "Skotsk� arm�da" "Arm�da Irska" "Severn� arm�da" "Rakousk� arm�da" "Cesk� arm�da" "Arm�da Moravy" "Arm�da Madarska" "Arm�da It�lie" "Arm�da Slezska" "Arm�da Transylv�nie" "Arm�da Alb�nie" 
+	"Arm�da Recka" "Arm�da Chorvatska" "Arm�da Polska" "Arm�da dalmatsk�ho pobre��" "Arm�da Bavorska" "Arm�da Durynska" "Arm�da Franka" "Arm�da �v�bsko" "Arm�da R�na" "Vestf�lsk� arm�da" "Sask� arm�da" "Arm�da Braniborska" 
+	"Arm�da Pomoranska" "Arm�da �lesvicka-Hol�t�nska" "Dolnosask� arm�da" "Arm�da D�nska" "Arm�da �v�dska" "Arm�da Baltsk�ho more" "Finsk� arm�da" "Slovensk� arm�da" "Norsk� arm�da" "Nizozemsk� arm�da" "�v�carsk� arm�da" 
+	"Arm�da Tyrolska" "Arm�da �t�rska" "Arm�da Alp" "Arm�da Lotrinsko" "Arm�da Francie" "Arm�da Burgundska" "Arm�da Bretane" "Arm�da Provence" "Arm�da Neapole" "Arm�da Bulharska" "Arm�da Iberie" "Arm�da Katal�nska" "Arm�da Pyrenej�" 
+	"Arm�da Portugalsk�" "Arm�da Makedonie" "Arm�da V�chodn�ho Pruska" "Arm�da Anatolie" "Arm�da Mezopot�mie" "Arm�da S�rie" "Arm�da Palestiny" "Arm�da Ar�bie" "Arm�da Persie" "Arm�da Kavkazu" "Arm�da severn� Indie" "Arm�da stredn� Indie" 
+	"Arm�da z�padn� Indie" "Arm�da v�chodn� Indie" "Arm�da Barmy" "Arm�da Indoc�ny" "Arm�da C�ny" "Arm�da Egypta" "Arm�da Libye" "Arm�da severn� Afriky" "Arm�da v�chodn� Afriky" "Arm�da z�padn� Afriky" "Arm�da Ji�n� Afriky" "Arm�da Austr�lie" 
+	"Arm�da V�chodn� Indie" "Pacifick� pos�dka" "Arm�da Japonska" "Arm�da Sibire" "Arm�da Stredn� Asie" "Arm�da Him�laje" "Arm�da Kamerunu" "Arm�da Tanganika" "Arm�da Gr�nska" "Arm�da Islandu" "Arm�da Severn� Ameriky" "Arm�da Karibiku" 
+	"Arm�da Venezuely" "Arm�da Stredn� Ameriky" "Arm�da Braz�lie" "Arm�da Peru" "Arm�da Kolumbie" "Arm�da Papuy-Nov� Guineje" "Arm�da Bol�vie" "Arm�da Chile" "Arm�da Argentiny" "Arm�da Afgh�nist�nu" "Arm�da Kuby" "Arm�da Indu" "Arm�da Malajska" 
+	"Arm�da Filip�n" "Arm�da Nov�ho Z�landu" "Arm�da Bosny" "Arm�da Balk�nu" "Arm�da Ukrajiny" "$PROVINCE$ Regiment"
+}
+
+fleet_names = {
+	"Kr�lovsk� n�mornictvo" "Modr� letka" "Cerven� letka" "B�l� letka" "Eskadra v prulivu" "Severomorsk� eskadra" "Severomorsk� flotila" "Flotila pod Laman�sk�m prulivem" "Atlantick� flotila" "Pobaltsk� flotila" "Tichomorsk� flotila" 
+	"V�chodn� indick� flotila" "Dom�c� flotila" "Stredomorsk� flotila" "Z�lo�n� flotila" "V�chodn� flotila" "Velk� flotila" "Flotila D�ln�ho v�chodu" "Prvn� flotila" "Druh� flotila" "Tret� flotila" "Z�padn� flotila"
+}

@@ -1,0 +1,30 @@
+#119 - Ancona
+
+#Default
+owner = PAP
+controller = PAP
+add_core = PAP
+culture = umbrian 
+religion = catholic 
+hre = no 
+base_tax = 10
+base_production = 10
+trade_goods = fish # second biggest fishery on the Adriatic
+base_manpower = 6
+capital = "Ancona" 
+is_city = yes 
+
+#Claimants
+center_of_trade = 2
+
+#Buildings
+fort_15th = yes
+
+#Procvince Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
+
+#History by SF
+1444.11.11 = { owner = ANC controller = ANC add_core = ANC } # Ancona territorial lands - By San Felipe

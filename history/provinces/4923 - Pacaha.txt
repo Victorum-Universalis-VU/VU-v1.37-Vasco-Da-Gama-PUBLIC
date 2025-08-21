@@ -1,0 +1,18 @@
+#4923 - Pacaha
+
+#Default
+owner = PCH
+controller = PCH
+add_core = PCH
+is_city = yes
+culture = yoron
+religion = totemism
+capital = "Satsukhdin"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

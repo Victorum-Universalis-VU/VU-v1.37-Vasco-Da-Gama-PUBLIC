@@ -1,0 +1,25 @@
+#584 - Ava
+
+#Default
+owner = AVA
+controller = AVA
+add_core = AVA
+culture = burmese
+religion = buddhism
+capital = "Ava"
+trade_goods = gems #Burmese Emerald/Myanmar Jade
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+fort_15th = yes
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

@@ -1,0 +1,14 @@
+#4210 - Yangi Hissar
+
+owner = KAS
+controller = KAS
+add_core = KAS
+culture = uyghur
+religion = sunni
+capital = "Yangi Hissar"
+trade_goods = saffron
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 4 
+is_city = yes

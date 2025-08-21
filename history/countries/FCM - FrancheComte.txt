@@ -1,0 +1,32 @@
+#FCM - FrancheCompte
+government = monarchy
+add_government_reform = unlocked_eue_county_reform
+government_rank = 4 #County
+primary_culture = burgundian
+religion = catholic
+#technology_group = western
+technology_group = dutch_tech_group
+unit_type = western
+capital = 4764
+
+#History by Prussia
+1215.1.1 = {
+    monarch = {
+        name = "Otto II"
+		dynasty = "von Andechs"
+        adm = 2
+        dip = 2
+        mil = 4 #Was a crusader - Prussia
+    }
+	queen = {
+		country_of_origin = FCM
+		name = "Beatrice"
+		dynasty = "von Hohenstaufen"
+		birth_date = 1193.1.1
+		death_date = 1231.05.7
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

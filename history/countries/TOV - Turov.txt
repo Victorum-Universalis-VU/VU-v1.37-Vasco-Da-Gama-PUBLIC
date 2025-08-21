@@ -1,0 +1,10 @@
+#TOV - Turov
+government = monarchy
+add_government_reform = unlocked_eue_principality_reform
+government_rank = 7
+primary_culture = polesian
+#technology_group = eastern
+technology_group = russian_tech_group
+religion = orthodox
+unit_type = eastern
+capital = 1941 #Turov

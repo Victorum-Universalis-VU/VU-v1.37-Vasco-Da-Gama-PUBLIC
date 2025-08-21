@@ -1,0 +1,19 @@
+#8473 - Neustadt
+#Region - Germany
+#Area - Palatinate
+
+capital = "Kusel"
+culture = franconian
+religion = catholic
+trade_goods = vegetables
+owner = PAL
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+controller = PAL
+add_core = PAL
+hre = yes
+
+#Buildings
+fort_15th = yes

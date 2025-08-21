@@ -1,0 +1,18 @@
+#8214 - Küküllo
+
+#Default
+owner = TRA
+controller = TRA
+add_core = TRA
+capital = "Dicsoszentmárton"
+is_city = yes
+culture = romanian
+religion = orthodox
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = wine #big vineyard territories
+hre = no
+
+#Claimants
+add_core = HUN

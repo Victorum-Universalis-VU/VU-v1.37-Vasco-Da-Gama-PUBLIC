@@ -1,0 +1,47 @@
+#43 - Danzig
+
+#Default
+owner = POL
+controller = POL
+add_core = POL
+capital = "Danzig"
+culture = kashubian_culture
+religion = catholic
+trade_goods = cloth		#was grain. Grain could be reasonable as end point of grain trade flowing down Vistula but Danzig was trade powerhouse of the Baltic so cloth is more important
+hre = no
+base_tax = 9			#Trading powerhouse, but also one of the largest 5 cities in Christian Europe outside of France and Italy for much of the period
+base_production = 10
+base_manpower = 8
+is_city = yes
+
+#Commerce
+center_of_trade = 4
+
+#Claimants
+add_core = PML
+
+#History by SF
+1444.1.1 = {
+	owner = TEU
+	controller = TEU
+	add_core = TEU
+	
+	#Claimants
+	add_core = DNZ
+	remove_core = POL
+	culture = prussian
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_4
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = vistula_estuary_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = vu_kornhaus_der_hansa
+    duration = -1
+}

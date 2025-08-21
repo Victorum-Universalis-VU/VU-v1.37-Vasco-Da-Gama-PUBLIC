@@ -1,0 +1,15 @@
+#7593 - Schwangau
+
+#Default
+owner = WLB
+controller = WLB
+add_core = WLB
+culture = bavarian
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = beer
+capital = "Schwangau"
+is_city = yes
+hre = yes

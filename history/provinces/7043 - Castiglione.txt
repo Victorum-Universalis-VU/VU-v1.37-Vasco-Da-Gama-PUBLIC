@@ -1,0 +1,54 @@
+#7043 - Castiglione
+
+#Default
+owner = SIE
+controller = SIE
+add_core = SIE
+culture = tuscan
+religion = catholic
+capital = "Castiglione della Pescaia"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = naval_supplies # major port, and has rich pine woods around it, so Lumber once introduced
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = CTG
+
+#Buildings
+fort_15th = yes
+
+#Special Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#History by SF
+1370.1.1 = {
+	owner = CTG
+	controller = CTG
+	remove_core = SIE
+}
+1404.1.1 = {
+	controller = LAN
+	owner = LAN
+	add_core = LAN
+}
+1432.1.1 = {
+	owner = SIE
+	controller = SIE
+	add_core = SIE
+	remove_core = LAN
+}
+1433.1.1 = {
+	owner = CTG
+	controller = CTG
+}
+1440.1.1 = {
+	owner = ARA
+	controller = ARA
+	add_core = ARA
+}

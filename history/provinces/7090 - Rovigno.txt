@@ -1,0 +1,21 @@
+#7090 - Rovigno
+
+#Default
+owner = VEN
+controller = VEN
+add_core = VEN
+culture = friulian_culture
+religion = catholic
+capital = "Rovigno"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = seafood # many small fishing towns, Istria is famous for fish delicacies. Could also be Naval Supplies
+is_city = yes
+hre = no
+
+#Claimants
+add_core = AQU	# owned by Aquilea before 1283
+
+#History by SF
+1420.1.1 = { remove_core = AQU } # Aquileia conquered by Venice, so removing Aquilea cores in non-core lands to give Istria a better chance to revolt

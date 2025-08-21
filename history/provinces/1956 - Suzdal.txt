@@ -1,0 +1,21 @@
+#1956 - Suzdal
+
+#Default
+owner = MOS
+controller = MOS
+add_core = MOS
+culture = muscovite
+religion = orthodox
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = vodka	#was grain
+base_manpower = 6
+capital = "Suzdal"
+is_city = yes
+
+#Claimants
+add_core = NZH
+
+#Commerce
+center_of_trade = 1

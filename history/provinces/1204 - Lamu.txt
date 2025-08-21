@@ -1,0 +1,18 @@
+#1204 - Lamu
+
+#Default
+owner = MLI
+controller = MLI
+add_core = MLI
+culture = swahili
+religion = sunni
+capital = "Lamu"
+is_city = yes
+base_manpower = 2 
+trade_goods = ivory
+hre = no
+base_tax = 6 
+base_production = 6
+
+#Special Modifiers
+add_local_autonomy = 35

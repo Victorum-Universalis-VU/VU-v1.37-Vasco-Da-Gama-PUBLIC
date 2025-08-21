@@ -1,0 +1,21 @@
+#1755 - Ustyug
+
+#Default
+owner = RSO			# Appears to have been its own principality, subordinate to Rostov until 1474 (also the date Rostov was annexed)
+controller = RSO
+add_core = RSO
+culture = muscovite 
+religion = orthodox
+hre = no
+base_tax = 2 
+base_production = 3
+trade_goods = fur
+base_manpower = 2 
+capital = "Ustyug"
+is_city = yes
+
+#Claimants
+add_core = NOV # Novgorodian claims
+
+#Commerce
+center_of_trade = 1

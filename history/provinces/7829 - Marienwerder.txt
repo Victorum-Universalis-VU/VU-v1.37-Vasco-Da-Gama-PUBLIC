@@ -1,0 +1,24 @@
+#7829 - Marienwerder
+
+#Default
+owner = PMS
+controller = PMS
+add_core = PMS
+culture = prussian
+religion = catholic
+capital = "Marienwerder"
+base_tax = 4
+base_production = 4
+base_manpower = 3
+trade_goods = vodka	#All that wheat has to go somewhere...
+is_city = yes
+hre = no
+
+#Claimants
+add_core = PR5
+
+#Province Modifier
+add_permanent_province_modifier = {
+	name = vu_kornhaus_der_hansa
+	duration = -1
+}

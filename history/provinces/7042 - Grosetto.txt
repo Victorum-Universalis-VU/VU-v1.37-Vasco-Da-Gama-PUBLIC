@@ -1,0 +1,32 @@
+#7042 - Grosetto
+
+#Default
+owner = SIE
+controller = SIE
+add_core = SIE
+culture = tuscan
+religion = catholic
+capital = "Grosetto"
+base_tax = 5
+base_production = 6
+base_manpower = 3
+trade_goods = cheese
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = GRO
+
+#History by SF
+1310.1.1 = {
+ owner = GRO
+ controller = GRO
+ remove_core = SIE
+}
+1336.1.1 = {
+owner = SIE
+controller = SIE
+add_core = SIE
+}
+1399.1.1 = { unrest = 3 owner = MLO controller = MLO } # The city's seigniory given to Gian Galeazzo, Visconti of Milan
+1404.1.1 = { unrest = 0 owner = SIE controller = SIE } # Visconti is driven out

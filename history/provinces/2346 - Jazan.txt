@@ -1,0 +1,27 @@
+#2346 - Jazan
+
+#Default
+owner = YEM
+controller = YEM
+add_core = YEM
+culture = yemeni_culture
+religion = sunni
+capital = "Jazan"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#History by SF
+1215.6.15 = { 
+	owner = MAM 
+	controller = MAM 
+	add_core = MAM 
+} # Mamluk territorial lands - By San Felipe
+1444.11.11 = { 
+	owner = YEM 
+	controller = YEM 
+	add_core = YEM 
+} # Ghamd territorial lands - By San Felipe

@@ -1,0 +1,34 @@
+#536 - Madurai
+
+#Default
+owner = MAD
+controller = MAD
+add_core = MAD
+culture = tamil
+religion = hinduism
+capital = "Madurai"
+trade_goods = silk
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = PDK
+
+#Commerce
+center_of_trade = 2
+
+#Effects
+add_brahmins_or_church_effect = yes
+
+#History by SF
+1378.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1428.1.1 = { add_core = VIJ  }
+
+#Special Modifiers
+add_local_autonomy = 25

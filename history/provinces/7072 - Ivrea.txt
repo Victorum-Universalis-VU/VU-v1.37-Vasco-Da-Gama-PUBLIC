@@ -1,0 +1,30 @@
+#7072 - Ivrea
+
+#Default
+owner = IVR			#The HRE bishopric
+controller = IVR
+add_core = IVR
+culture = piedmontese
+religion = catholic
+capital = "Ivrea"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = livestock			#Generic Northern Italy stock option for milk, cheese, & meat. Could also do cloth or even grain.
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = MFA			#ambiguously claimed and fought for since 1266, though most sources I found indicate it was de facto independent under the Bishop of Ivrea.
+
+#History by SF
+1313.1.1 = {
+	owner = SAV
+	controller = SAV
+	add_core = SAV
+} #Swears loyalty to Savoy
+1357.1.1 = {
+	fort_15th = yes
+} #Savoy fortifies the area
+1395.1.1 = { revolt = { type = anti_tax_rebels size = 1 } controller = REB } # Violent peasant revolt against heavy taxation
+1397.1.1 = { revolt = {} controller = SAV } # Unclear date

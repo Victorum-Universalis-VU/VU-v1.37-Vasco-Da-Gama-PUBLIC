@@ -1,0 +1,26 @@
+#3965 - Little Spis - Starostwo Spiskie
+
+#Default
+owner = HUN
+controller = HUN  
+add_core = HUN
+culture = slovak	#60% slovak and polish, 35% german, 5% rusyn and other
+religion = catholic
+capital = "Stara Lubovna"
+trade_goods = wool	#Literally few mountainous villages
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1 
+is_city = yes
+
+#Claimants
+add_core = UHU
+add_core = SLO
+
+#History by SF
+1412.11.8 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+} #Pact of Zagreb - province becomes part of Poland as part of loan agreement

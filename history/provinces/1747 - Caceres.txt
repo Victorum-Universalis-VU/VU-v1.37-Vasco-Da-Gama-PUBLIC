@@ -1,0 +1,35 @@
+#1747 - Caceres
+
+#Default
+owner = CAS		#Enrique III of Castile
+controller = CAS
+add_core = CAS
+culture = andalusi_arabic
+religion = catholic
+hre = no
+base_tax = 3  
+base_production = 3 
+trade_goods = glass
+base_manpower = 2 
+capital = "Caceres"
+is_city = yes
+
+#Buildings
+marketplace = yes
+temple = yes
+hall = yes
+road_system = yes
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1350.1.1 = { culture = castillian }
+1444.11.11 = { owner = BDH controller = BDH add_core = BDH remove_core = AMD } # Castilian territorial lands - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

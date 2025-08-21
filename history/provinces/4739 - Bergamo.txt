@@ -1,0 +1,50 @@
+#4739 - Bergamo
+
+#Default
+owner = BGM
+controller = BGM
+add_core = BGM
+culture = lombard 
+religion = catholic 
+hre = yes 
+base_tax = 5
+base_production = 5
+trade_goods = livestock
+base_manpower = 3
+capital = "Bergamo" 
+is_city = yes
+
+#History by SF
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
+	owner = BGM
+	controller = BGM
+	remove_core = MLO
+} #Return to proper mod added owners and cuts vanilla core, typically.
+#proclaims John of Bohemia it's lord - Nikicaga.       Yeah, I know, but he was essentially the de facto emperor, both his father and son would be emperor, as well, so this was more support for the Ghibelline cause than Bohemia as such. - Darth Modus
+1332.9.27 = {
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+	fort_15th = yes
+}	#taken by Milan, soon builds a fort
+1407.1.1 = {
+	owner = BSC
+	controller = BSC
+	add_core = BSC
+}	#taken by Pandolfo Malatesta
+1419.1.1 = {
+	owner = MLO
+	controller = MLO
+	remove_core = BSC
+}	#retaken by Milan
+1428.5.6 = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+}	#to Venice
+1433.1.1 = { hre = no } # Treaty between Doge Francesco Foscari and Emperor Sigismund of the HRE

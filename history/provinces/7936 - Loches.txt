@@ -1,0 +1,15 @@
+#7936 - Loches
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+culture = cosmopolitan_french
+religion = catholic
+capital = "Loches"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = wool
+is_city = yes
+hre = no

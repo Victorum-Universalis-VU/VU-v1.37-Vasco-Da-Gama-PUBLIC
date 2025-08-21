@@ -1,0 +1,15 @@
+#1024 - Echigo
+
+#Default
+owner = UES
+controller = UES
+add_core = UES
+culture = hokuriku 
+religion = shinto
+capital = "Naoetsu"
+trade_goods = lumber
+hre = no
+base_tax = 4
+base_manpower = 4
+base_production = 4
+is_city = yes

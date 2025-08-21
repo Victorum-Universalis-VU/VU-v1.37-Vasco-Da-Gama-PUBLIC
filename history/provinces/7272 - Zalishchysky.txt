@@ -1,0 +1,35 @@
+#7272 - Zalishchysky
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR 
+culture = volhynian
+religion = orthodox
+capital = "Zalishchyky"
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = beer
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = VOL
+
+#History by SF
+1444.1.11 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+	remove_core = KIR
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

@@ -1,0 +1,15 @@
+#4751 - Cilli
+
+#Default
+owner = CLI
+controller = CLI
+add_core = CLI
+culture = slovene
+religion = catholic
+capital = "Celje"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = marble
+is_city = yes
+hre = yes

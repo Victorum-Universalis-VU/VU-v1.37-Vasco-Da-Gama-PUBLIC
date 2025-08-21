@@ -1,0 +1,23 @@
+#8618 - Xayabuli
+
+latent_trade_goods = {
+	rubber
+}
+
+#Default
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = lao
+religion = buddhism
+capital = "Xayabuli"
+trade_goods = tropical_wood
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = LUA
+add_core = VIE

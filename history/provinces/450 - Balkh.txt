@@ -1,0 +1,22 @@
+#450 - Balkh
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = afghani			#northern pashto
+religion = sunni
+capital = "Balkh"
+trade_goods = carpet		#was opium, add opium somewhere nearby if this place recieves more provinces
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = AFG
+add_core = BAK
+
+#Commerce
+center_of_trade = 1

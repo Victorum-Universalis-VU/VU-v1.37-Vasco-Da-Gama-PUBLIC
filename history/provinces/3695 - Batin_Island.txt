@@ -1,0 +1,19 @@
+#3695 - Batin_Island
+
+#Default
+owner = BUL
+controller = BUL
+add_core = BUL
+culture = bulgarian
+religion = orthodox
+capital = "Batin"
+trade_goods = vegetables			#Change this to vegetables Rich Danube basin
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#History by SF
+1404.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB }
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe

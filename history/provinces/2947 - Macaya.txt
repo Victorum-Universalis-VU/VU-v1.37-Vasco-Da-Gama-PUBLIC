@@ -1,0 +1,18 @@
+#2947 - Macaya
+
+#Default
+owner = CLA
+controller = CLA
+add_core = CLA
+is_city = yes
+culture = aimara
+religion = inti
+capital = "Macaya"
+trade_goods = maize
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2 
+
+#Commerce
+center_of_trade = 1

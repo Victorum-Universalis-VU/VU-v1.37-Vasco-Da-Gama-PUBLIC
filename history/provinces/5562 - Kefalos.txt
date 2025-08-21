@@ -1,0 +1,26 @@
+#5562 - Kefalos
+
+#Default
+owner = GEN
+controller = GEN
+add_core = GEN
+culture = greek
+religion = orthodox
+capital = "Kefalos"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = AYD
+
+#History by SF
+1215.6.15 = { owner = RHO controller = RHO add_core = RHO } # Rhodian (Leo Gabalas) territorial lands - By San Felipe
+1444.11.11 = { owner = GEN controller = GEN add_core = GEN add_core = BYZ } # Genoan territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 75		#Island likely in the hands of Turkish corsairs
+

@@ -1,0 +1,27 @@
+#8072 - Lucena
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = andalucian
+religion = catholic
+capital = "Lucena"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = wine	#Main production is pottery, wine, furniture, especially large storage jars - going for wine since pottery is province nearby
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}
+1444.11.11 = {
+    owner = CDB
+    controller = CDB
+    add_core = CDB
+    #Claimants
+    remove_core = AMD
+} # Castilian territorial lands - By San Felipe

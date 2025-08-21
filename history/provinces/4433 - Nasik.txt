@@ -1,0 +1,25 @@
+#4433 - Nasik
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = marathi
+religion = hinduism
+capital = "Nasik"
+trade_goods = books
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = AHM
+add_core = MAR
+
+#Commerce
+center_of_trade = 1
+
+#Religious
+add_brahmins_or_church_effect = yes

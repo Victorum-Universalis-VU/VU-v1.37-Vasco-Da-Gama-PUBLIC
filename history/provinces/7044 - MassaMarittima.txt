@@ -1,0 +1,20 @@
+#7044 - MassaMarittima
+
+#Default
+owner = MSM
+controller = MSM
+add_core = MSM
+culture = tuscan
+religion = catholic
+capital = "Massa Marittima"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = copper # copper mines, along with iron, mercury and liginite/copper. Also olives, so due to poorness it's the prime target for Olives in Italy
+is_city = yes
+hre = yes
+
+#History by SF
+1215.6.15 = { owner = SIE controller = SIE add_core = SIE } # Sienan territorial lands - By San Felipe
+1399.1.1 = { unrest = 3 owner = MLO controller = MLO } # The city's seigniory given to Gian Galeazzo, Visconti of Milan
+1444.1.1 = { owner = SIE controller = SIE add_core = SIE } # Massa Marittiman territorial lands - By San Felipe

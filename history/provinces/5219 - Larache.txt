@@ -1,0 +1,19 @@
+#5219 - Larache
+
+#Default
+owner = MOR
+controller = MOR
+add_core = MOR
+culture = moroccan
+religion = sunni
+capital = "El Araich"
+trade_goods = gunpowder		# was grain
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 2
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = MOR controller = MOR add_core = MOR remove_core = AMD } # Moroccan territorial lands - By San Felipe

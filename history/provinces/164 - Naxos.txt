@@ -1,0 +1,15 @@
+#164 - Naxos
+
+#Default
+owner = NAX
+controller = NAX
+add_core = NAX
+culture = greek
+religion = orthodox
+capital = "Naxos"
+trade_goods = pottery
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 2
+is_city = yes

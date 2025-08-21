@@ -1,0 +1,15 @@
+#51 - Ruppin
+
+#Default
+owner = RUP
+controller = RUP
+add_core = RUP
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 6
+base_production = 6
+trade_goods = amber
+base_manpower = 4 
+capital = "Neuruppin"
+is_city = yes

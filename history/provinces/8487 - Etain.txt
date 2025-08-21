@@ -1,0 +1,19 @@
+#8487 - Etain
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = BAR
+controller = BAR 
+add_core = BAR
+capital = "Etain"
+is_city = yes
+culture = lorraine_culture
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 2
+trade_goods = livestock
+base_manpower = 1

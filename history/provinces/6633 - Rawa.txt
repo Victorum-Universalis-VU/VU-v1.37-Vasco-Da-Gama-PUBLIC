@@ -1,0 +1,28 @@
+#6633 - Rawa
+
+#Default
+owner = QAR
+controller = QAR
+add_core = QAR
+culture = al_iraqiya_arabic
+religion = sunni
+capital = "Rawa"
+trade_goods = olive_oil
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = IRQ
+
+#History by SF
+1440.1.1 = {
+	revolt = {
+		type = noble_rebels
+		size = 0
+	}
+	unrest = 5
+	controller = REB
+}

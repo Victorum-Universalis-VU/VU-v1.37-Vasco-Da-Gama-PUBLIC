@@ -1,0 +1,29 @@
+#3964 - Azraq
+
+#Default
+culture = bedouin_arabic
+religion = sunni
+capital = "Al-Azraq"			
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 50
+native_ferocity = 10
+native_hostileness = 10
+
+#History by SF
+1444.11.11 = {
+    owner = MAM
+	controller = MAM
+	add_core = MAM
+	trade_goods = camel		#Served as desert fortress with small oasis for most of the history
+	base_manpower = 2 
+	is_city = yes
+
+	#Claimants
+	add_core = J0R
+	add_core = PLE
+	
+}

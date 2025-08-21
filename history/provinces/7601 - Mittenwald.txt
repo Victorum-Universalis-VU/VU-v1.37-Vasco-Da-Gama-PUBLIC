@@ -1,0 +1,19 @@
+#7601 - Mittenwald
+
+latent_trade_goods = {
+    coal
+}
+
+#Default
+owner = TIR
+controller = TIR
+add_core = TIR
+capital = "Mittenwald"
+is_city = yes
+culture = austrian
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = grain

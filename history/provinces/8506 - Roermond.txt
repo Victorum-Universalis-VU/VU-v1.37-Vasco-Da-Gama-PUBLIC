@@ -1,0 +1,22 @@
+#8506 - Roermond
+
+#Default
+owner = HAI
+controller = HAI
+add_core = HAI
+is_city = yes
+capital = "Enghein"
+culture = ger_brabantian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = fruit
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = EGH
+add_core = BUR

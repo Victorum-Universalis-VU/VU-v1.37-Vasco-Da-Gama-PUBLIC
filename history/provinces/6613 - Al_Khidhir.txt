@@ -1,0 +1,18 @@
+#6613 - Al_Khidhir
+
+#Default
+owner = MSY
+controller = MSY
+add_core = MSY
+culture = al_iraqiya_arabic
+religion = sunni
+capital = "al-Khidhir"
+trade_goods = spices
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = BSR

@@ -1,0 +1,25 @@
+#390 - Sana'a
+
+#Default
+owner = RAS
+controller = RAS
+add_core = RAS
+culture = yemeni_culture
+religion = shiite
+capital = "Sana'a"
+trade_goods = marble
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 4
+is_city = yes
+
+#Buildings
+fort_15th = yes #Thula Fortress
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1215.6.15 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
+1444.11.11 = { owner = RAS controller = RAS add_core = RAS } # Rassids territorial lands - By San Felipe

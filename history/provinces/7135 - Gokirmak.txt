@@ -1,0 +1,27 @@
+#7135 - Gokirmak
+
+#Default
+owner = CHB
+controller = CHB
+add_core = CHB
+culture = turkish
+religion = sunni
+capital = "Boyabat"
+trade_goods = vegetables		#PREVIOUS VERSION livestock Today is fameous for massive rice production but guess in 1444 it wasn't a thing. Also focused on livestock and agriculture.
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 3
+is_city = yes
+
+#Buildings
+fort_15th = yes			#Fortified mountain pass, VERY old castle in Boyabat town
+
+#History by SF
+1444.11.11 = { owner = CND controller = CND add_core = CND } # Candar territorial lands - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = kizilirmak_estuary_modifier
+    duration = -1
+}

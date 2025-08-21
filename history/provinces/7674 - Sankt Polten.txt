@@ -1,0 +1,29 @@
+#7674 - Sankt Pölten
+
+#Default
+owner = BSN
+controller = BSN
+add_core = BSN
+culture = austrian
+religion = catholic
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = grain 
+capital = "Sankt Pölten" 
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = FRG
+add_core = PSS
+
+#Buildings
+fort_15th = yes
+bath_house = yes
+
+#Special Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

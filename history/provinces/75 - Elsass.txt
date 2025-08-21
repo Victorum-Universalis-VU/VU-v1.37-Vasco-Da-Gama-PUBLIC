@@ -1,0 +1,35 @@
+#75 - Elsass
+
+#Default
+owner = ALS
+controller = ALS
+add_core = ALS
+capital = "Straﬂburg"
+is_city = yes
+culture = alsatian
+religion = catholic
+hre = yes
+base_tax = 11
+base_production = 11			#Swabian population center, and one of the largest cities in the HRE consistantly hovering around 20k, not disimilar to Vienna, Magdeburg, Regensburg, or any of the other major German cities 
+trade_goods = books
+base_manpower = 8
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 3
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_4
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}
+add_permanent_province_modifier = {
+	name = vu_potential_archaeological_dig
+	duration = -1
+}

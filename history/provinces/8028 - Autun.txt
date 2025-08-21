@@ -1,0 +1,23 @@
+#8028 - Autun
+
+#Default
+owner = FDB
+controller = FDB
+add_core = FDB
+culture = burgundian
+religion = catholic
+capital = "Autun"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = mercury
+is_city = yes
+hre = no
+
+#History by SF
+1444.11.11 = {
+    owner = BUR
+    controller = BUR
+    add_core = BUR
+    remove_core = FDB
+}

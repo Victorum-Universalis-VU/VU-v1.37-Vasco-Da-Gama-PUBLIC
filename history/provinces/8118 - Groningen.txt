@@ -1,0 +1,34 @@
+#8118 - Groningen
+
+#Default
+owner = GRN
+controller = GRN
+capital = "Groningen"
+is_city = yes
+culture = ger_dutch_saxon
+religion = catholic
+hre = yes
+base_tax = 5			#Population/economic center of the Northern Netherlands (probably around 10k people) and one of the more important settlements until the formation of the united Netherlands
+base_production = 5
+trade_goods = beer 
+base_manpower = 2 
+add_core = GRN
+
+#Commerce
+center_of_trade = 1	
+
+#History by SF
+1350.1.1 = {
+	base_tax = 6
+	base_production = 6
+	base_manpower = 3
+	#Commerce
+	add_center_of_trade_level = 1
+
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = vu_super_cows
+    duration = -1
+}

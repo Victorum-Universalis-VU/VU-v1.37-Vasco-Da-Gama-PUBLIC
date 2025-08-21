@@ -1,0 +1,15 @@
+#3126 - Basingstoke
+
+#Default
+add_core = ENG
+owner = ENG
+controller = ENG
+culture = wessexian
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = lumber
+base_manpower = 1
+capital = "Basingstoke"
+is_city = yes

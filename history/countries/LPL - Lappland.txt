@@ -1,0 +1,8 @@
+#LPL - Lappland
+government = monarchy
+add_government_reform = eue_duchy_reform
+government_rank = 6 #Petty_Kingdom
+technology_group = scandinavian_tech_group
+religion = finnish_pagan_reformed
+primary_culture = sapmi
+capital = 4151 #Lappmark

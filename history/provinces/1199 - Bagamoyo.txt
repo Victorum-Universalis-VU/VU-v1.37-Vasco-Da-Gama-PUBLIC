@@ -1,0 +1,15 @@
+#1199 - Bagamoyo
+
+#Default
+owner = ZAN
+controller = ZAN
+add_core = ZAN
+culture = swahili
+religion = shamanism #Fetishism
+capital = "Bagamayo"
+is_city = yes
+base_manpower = 2 
+trade_goods = amber
+hre = no
+base_tax = 2  
+base_production = 2

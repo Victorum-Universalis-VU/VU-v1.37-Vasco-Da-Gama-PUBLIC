@@ -1,0 +1,21 @@
+#808 - Cuzco
+
+#Default
+owner = CSU
+controller = CSU
+add_core = CSU
+culture = inca
+religion = inti
+capital = "Cuzco"
+trade_goods = gold
+hre = no
+base_tax = 12 
+base_production = 12
+base_manpower = 6
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 3

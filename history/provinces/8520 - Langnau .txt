@@ -1,0 +1,22 @@
+#8520 - Langnau
+#Region - Germany
+#Area - Romandie
+
+owner = NEU
+controller = NEU
+add_core = NEU
+culture = burgundian
+religion = catholic
+capital = "Neuenburg"
+trade_goods = gunpowder
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 4
+is_city = yes
+center_of_trade = 1
+
+#Claimants
+add_core = BUR
+
+#Mentioned in 1246 AD under the name "Langenowe"

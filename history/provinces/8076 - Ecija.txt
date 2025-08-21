@@ -1,0 +1,27 @@
+#8076 - Écija
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = andalucian
+religion = catholic
+capital = "Écija"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = cotton
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}
+1444.11.11 = {
+    owner = SVL
+    controller = SVL
+    add_core = SVL
+    #Remove Claimants
+    remove_core = AMD
+} # Castilian territorial lands - By San Felipe

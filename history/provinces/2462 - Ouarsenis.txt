@@ -1,0 +1,22 @@
+#2462 - Ouarsenis
+
+#Default
+owner = TLC
+controller = TLC
+add_core = TLC
+culture = algerian
+religion = sunni
+capital = "Tiaret"
+trade_goods = naval_supplies
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = TLC controller = TLC add_core = TLC remove_core = AMD } # Tlemcen territorial lands - By San Felipe

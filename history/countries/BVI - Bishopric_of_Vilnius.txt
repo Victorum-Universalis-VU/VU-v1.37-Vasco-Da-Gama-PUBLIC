@@ -1,0 +1,11 @@
+#BVI - Bishopric_of_Vilnius
+government = theocracy
+add_government_reform = church_of_poland_archbishopric_reform
+government_rank = 5 #Archbishopric
+primary_culture = lithuanian
+religion = catholic
+#technology_group = eastern
+technology_group = polish_tech_group
+unit_type = eastern
+capital = 272 # Vilnius
+

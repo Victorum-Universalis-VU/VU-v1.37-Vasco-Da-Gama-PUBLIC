@@ -1,0 +1,19 @@
+#3236 - Snamh-Rathainn
+
+#Default
+capital = "Snamh-Rathainn"
+is_city = yes
+owner = ECO
+controller = ECO
+culture = celtic_irish_culture #Was irish
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = lumber
+add_core = ECO
+hre = no
+
+#Claimants
+add_core = ANI
+add_core = ENG

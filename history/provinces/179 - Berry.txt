@@ -1,0 +1,18 @@
+#179 - Berry
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+capital = "Bourges"
+is_city = yes
+culture = cosmopolitan_french
+religion = catholic
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = lumber
+base_manpower = 3
+
+#Claimants
+add_core = BER

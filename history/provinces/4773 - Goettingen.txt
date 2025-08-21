@@ -1,0 +1,18 @@
+#4773 - Göttingen
+
+#Default
+owner = BRU
+controller = BRU
+add_core = BRU
+culture = eastphalian
+religion = catholic
+capital = "Göttingen"
+trade_goods = cloth
+hre = yes
+base_tax = 6
+base_production = 6
+base_manpower = 4 
+is_city = yes
+
+#Commerce
+center_of_trade = 2

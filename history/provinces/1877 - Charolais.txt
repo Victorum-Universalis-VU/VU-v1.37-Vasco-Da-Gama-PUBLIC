@@ -1,0 +1,22 @@
+#1877 - Charolais
+
+#Default
+owner = BUR
+controller = BUR
+add_core = BUR
+capital = "Charolles"
+is_city = yes
+culture = burgundian
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = lead
+base_manpower = 2
+
+#Claimants
+add_core = FDB
+
+#History by SF
+1215.6.15 = { owner = BOU controller = BOU add_core = BOU } # Duchy of Bourbonnais - By San Felipe
+1444.11.11 = { owner = BUR controller = BUR add_core = BUR } # Duchy of Burgundy - By San Felipe

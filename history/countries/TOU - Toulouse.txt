@@ -1,0 +1,25 @@
+#TOU - Toulouse
+government = monarchy
+add_government_reform = eue_county_reform
+government_rank = 4 #County
+primary_culture = occitain
+add_accepted_culture = occitain
+religion = catholic
+#technology_group = western
+technology_group = french_tech_group
+unit_type = western
+capital = 196	# Toulouse
+fixed_capital = 196 # Cannot move capital away from this province & no power cost to move to it
+
+#History of the County of Toulouse by SF
+1194.1.1 = {
+    monarch = {
+        name = "Raymond VI"
+        dynasty = "de Rouergue"
+        birth_date = 1156.10.27
+        death_date = 1222.1.1
+        adm = 4
+        dip = 5
+        mil = 3
+    }
+}

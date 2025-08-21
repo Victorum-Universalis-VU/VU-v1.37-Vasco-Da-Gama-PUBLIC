@@ -1,0 +1,21 @@
+#558 - Patna
+
+#Default
+owner = JNP
+controller = JNP
+add_core = JNP
+culture = bihari
+religion = hinduism
+capital = "Patna"
+trade_goods = books #And Silk and Saltpetre
+hre = no
+base_tax = 9
+base_production = 9
+base_manpower = 9
+is_city = yes
+
+#Effects
+add_brahmins_or_church_effect = yes
+
+#Triggered Modifiers
+add_province_triggered_modifier = buddhist_bodh_gaya

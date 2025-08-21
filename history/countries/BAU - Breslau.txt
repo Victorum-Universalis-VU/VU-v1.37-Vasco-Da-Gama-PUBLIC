@@ -1,0 +1,11 @@
+#BAU - Breslau
+government = theocracy
+add_government_reform = church_of_germany_bishopric_reform
+government_rank = 4 #Prince-Bishopric
+#technology_group = eastern
+technology_group = german_tech_group
+unit_type = western
+primary_culture = silesian_german
+add_accepted_culture = schlesian
+religion = catholic
+capital = 264 #Breslau

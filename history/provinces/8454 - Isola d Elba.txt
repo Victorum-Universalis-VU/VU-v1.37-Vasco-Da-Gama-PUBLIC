@@ -1,0 +1,26 @@
+#8454 - Isola d'Elba
+
+#Default
+owner = PIS
+controller = PIS
+add_core = PIS
+add_core = PIO
+capital = "Portoferraio"
+is_city = yes
+culture = tuscan
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 3
+trade_goods = iron	# Iron depostits on Elba
+base_manpower = 2
+
+#Claimants
+add_core = ELB
+
+#History by SF
+1399.1.1 = {
+   owner = PIO
+   controller = PIO
+   remove_core = PIS
+}

@@ -1,0 +1,15 @@
+#6482 - Sohung
+
+#Default
+owner = KOR
+controller = KOR
+add_core = KOR
+culture = korean
+religion = confucianism
+capital = "Sohung"
+trade_goods = iron
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 3
+is_city = yes

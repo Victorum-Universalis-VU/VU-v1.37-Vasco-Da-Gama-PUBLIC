@@ -1,0 +1,21 @@
+#7432 - Birmingham
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = brummie
+religion = lollardy
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = iron
+base_manpower = 2
+capital = "Birmingham"
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.11.11 = { owner = WRK controller = WRK add_core = WRK } # The Duchy of York territory - By San Felipe

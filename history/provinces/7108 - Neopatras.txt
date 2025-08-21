@@ -1,0 +1,22 @@
+#7108 - Neopatras
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = greek
+religion = orthodox
+capital = "Neopatras"
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = wool			#For no reason in particular. Just seems hilly and a decent choice.
+is_city = yes
+hre = no
+
+#History by SF
+1215.6.15 = { owner = EPI controller = EPI add_core = EPI } # Epirian territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = ATH } # Turkish territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 10

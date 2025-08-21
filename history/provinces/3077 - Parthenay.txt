@@ -1,0 +1,29 @@
+#3077 - Parthenay
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+capital = "Thouars"
+is_city = yes
+culture = poitevin_culture
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = fruit
+base_manpower = 2 
+
+#Claimants
+add_core = POI
+
+#Special Modifiers
+add_local_autonomy = 10
+
+#History by SF
+1444.11.11 = { 
+	owner = ANJ 
+	controller = ANJ 
+	add_core = ANJ 
+	add_core = PRO
+} # Anjou is appanage of the French Kingdom - By San Felipe

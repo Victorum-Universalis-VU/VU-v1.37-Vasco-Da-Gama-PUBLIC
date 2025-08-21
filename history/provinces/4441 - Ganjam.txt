@@ -1,0 +1,22 @@
+#4441 - Ganjam
+
+#Default
+owner = ORI
+controller = ORI
+add_core = ORI
+culture = oriya
+religion = hinduism
+capital = "Ganjam"
+trade_goods = salt
+hre = no
+add_brahmins_or_church_effect = yes
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#History by SF
+1443.1.1 = {
+	owner = ORI
+	controller = ORI
+} # Conquered by Gajapatis

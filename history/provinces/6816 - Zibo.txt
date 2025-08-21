@@ -1,0 +1,15 @@
+#6816 - Haizhou
+
+#Default
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = jianghuai
+religion = confucianism
+capital = "Haizhou"
+trade_goods = apiculture
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 10
+is_city = yes

@@ -1,0 +1,19 @@
+#7527 - Emmerich
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = KLE
+controller = KLE
+add_core = KLE
+culture = hessian
+religion = catholic
+trade_goods = iron
+capital = "Emmerich"
+base_tax = 3
+base_production = 2
+base_manpower = 2 
+is_city = yes
+hre = yes

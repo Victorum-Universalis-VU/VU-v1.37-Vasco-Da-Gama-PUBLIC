@@ -1,0 +1,15 @@
+#4183 - Iwami
+
+#Default
+owner = YMN
+controller = YMN
+add_core = YMN
+culture = chugoku 
+religion = shinto
+capital = "Hamada"
+trade_goods = silver
+hre = no
+base_tax = 1
+base_manpower = 2
+base_production = 2
+is_city = yes

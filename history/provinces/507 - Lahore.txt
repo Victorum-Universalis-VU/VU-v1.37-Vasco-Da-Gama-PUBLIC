@@ -1,0 +1,26 @@
+#507 - Lahore
+
+#Default
+owner = SRH
+controller = SRH
+add_core = SRH
+culture = panjabi
+religion = hinduism
+capital = "Lahore"
+trade_goods = silk
+hre = no
+base_tax = 12
+base_production = 12
+base_manpower = 12
+is_city = yes
+
+#Claimants
+add_core = MUL
+add_core = DLH
+add_core = PUN
+
+#Buildings
+fort_15th = yes #Lahore Fort
+
+#Commerce
+center_of_trade = 5

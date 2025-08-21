@@ -1,0 +1,35 @@
+#1860 - Norfolk
+
+#Default
+owner = ENL
+controller = ENL
+add_core = ENL
+culture = east_anglian
+religion = lollardy
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+trade_goods = beer
+capital = "King's Lynn"
+is_city = yes
+
+#Claimants
+add_core = ENG
+
+#Government
+seat_in_parliament = yes
+
+#History by SF
+1444.11.11 = { 
+	owner = NFL 
+	controller = NFL 
+	add_core = NFL
+	remove_core = ENL 
+} # The Dukedom of Norfolk territory - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = ouse_estuary_modifier
+    duration = -1
+}

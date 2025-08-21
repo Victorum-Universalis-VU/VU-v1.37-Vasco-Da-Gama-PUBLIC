@@ -1,0 +1,18 @@
+#1935 - Semigallia
+
+#Default
+owner = LIV
+controller = LIV
+add_core = LIV
+culture = zemgalian #Was latvian but changed by San Felipe on advice of Morsmessor
+religion = baltic_pagan_reformed	# Semigalian tribes were still present
+hre = no
+base_tax = 1 
+base_production = 2 
+trade_goods = naval_supplies
+base_manpower = 1 
+capital = "Jelgava"			#DE Mitau
+is_city = yes # Estimated
+
+#Commerce
+center_of_trade = 1

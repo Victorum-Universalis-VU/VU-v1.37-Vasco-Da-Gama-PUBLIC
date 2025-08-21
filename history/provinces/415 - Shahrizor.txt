@@ -1,0 +1,37 @@
+#415 - Sharazor
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = kurdish
+religion = sunni
+capital = "Kirkuk"
+trade_goods = grain
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = ARD
+add_core = ASR
+add_core = BHT
+add_core = IRQ
+
+#History by SF
+1405.1.1 = {
+	owner = QAR
+	controller = QAR
+	add_core = QAR
+	remove_core = TIM
+} # The Qara Koyunlu
+1440.1.1 = {
+	revolt = {
+		type = noble_rebels
+		size = 0.5
+	}
+	unrest = 5
+	controller = REB
+}

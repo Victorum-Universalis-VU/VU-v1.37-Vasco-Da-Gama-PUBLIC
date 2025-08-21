@@ -1,0 +1,18 @@
+#4289 - Shushtar
+
+#Default
+owner = MSY
+controller = MSY
+add_core = MSY
+culture = persian
+religion = shiite
+capital = "Shushtar"
+trade_goods = silk
+hre = no
+base_tax = 4  
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#History by SF
+1444.1.1 = { add_core = LRI }

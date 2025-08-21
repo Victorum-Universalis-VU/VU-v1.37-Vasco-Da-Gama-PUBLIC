@@ -1,0 +1,27 @@
+#8056 - Moya
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = castillian
+religion = catholic
+capital = "Moya"
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = wool
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}
+1444.11.11 = { 
+	owner = TLD 
+	controller = TLD 
+	add_core = TLD 
+	#Claimants
+	remove_core = AMD 
+} # Castilian territorial lands - By San Felipe

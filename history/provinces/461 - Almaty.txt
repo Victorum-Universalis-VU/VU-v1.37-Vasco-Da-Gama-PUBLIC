@@ -1,0 +1,21 @@
+#461 - Zhetysu
+
+#Default
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = khazak
+religion = sunni
+capital = "Almaty"
+trade_goods = cloth
+hre = no
+base_tax = 4  
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = KZH
+
+#Commerce
+center_of_trade = 1

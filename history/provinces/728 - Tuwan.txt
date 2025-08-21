@@ -1,0 +1,18 @@
+#728 - Tuwan
+
+#Default
+owner = NHX
+controller = NHX
+add_core = NHX
+culture = manchu
+religion = tengri_pagan_reformed
+capital = "Tuwan"
+trade_goods = livestock
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Commerce
+center_of_trade = 1

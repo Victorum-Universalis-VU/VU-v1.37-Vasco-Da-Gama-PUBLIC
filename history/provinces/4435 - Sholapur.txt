@@ -1,0 +1,19 @@
+#4435 - Sholhapur
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = marathi
+religion = hinduism
+capital = "Sholhapur"
+trade_goods = tea
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = BIJ
+add_core = MAR

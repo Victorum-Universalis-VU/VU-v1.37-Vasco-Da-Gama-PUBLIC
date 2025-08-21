@@ -1,0 +1,15 @@
+#2133 - Dege
+
+#Default
+owner = KAM
+controller = KAM
+add_core = KAM
+culture = tibetan
+religion = tantra
+capital = "Dege"
+trade_goods = wool
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes

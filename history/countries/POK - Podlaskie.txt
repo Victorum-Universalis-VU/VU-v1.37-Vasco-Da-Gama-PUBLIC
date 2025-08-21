@@ -1,0 +1,10 @@
+#POK - Podlaskie
+government = monarchy
+add_government_reform = unlocked_eue_duchy_reform
+government_rank = 6
+primary_culture = lithuanian
+#technology_group = eastern
+technology_group = russian_tech_group
+religion = catholic
+unit_type = eastern
+capital = 1936 #Kaunas

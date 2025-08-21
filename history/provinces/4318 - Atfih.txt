@@ -1,0 +1,25 @@
+#4318 - Atfih
+
+#Default
+owner = MAM
+controller = MAM
+add_core = MAM
+capital = "Atfih"
+culture = al_misr_arabic
+religion = sunni
+trade_goods = sugar
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4 
+is_city = yes
+
+#Claimants
+add_core = EGY
+add_core = KEM
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = vu_nile_river_in_arid_desert_province
+	duration = -1
+}

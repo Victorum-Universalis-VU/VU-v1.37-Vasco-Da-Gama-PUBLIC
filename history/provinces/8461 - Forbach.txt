@@ -1,0 +1,15 @@
+#8461 - Forbach
+
+#Default
+owner = LOR
+controller = LOR
+add_core = LOR
+capital = "Forbach"
+is_city = yes
+culture = alsatian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = grain

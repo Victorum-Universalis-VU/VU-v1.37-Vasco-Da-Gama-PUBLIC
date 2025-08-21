@@ -1,0 +1,37 @@
+#7060 - Bobbio
+
+#Default
+owner = BOB
+controller = BOB
+add_core = BOB
+culture = romagnan
+religion = catholic
+capital = "Bobbio"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = beer
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1304.1.1 = {
+	owner = MSS
+	controller = MSS
+	add_core = MSS
+} # Malaspina take Bobbio with the help of Pavia.
+1341.1.1 = {
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+	remove_core = MSS
+} # Visconti establish control in 1341
+1387.1.1 = {			#Or 1395?
+	owner = BOB
+	controller = BOB
+	add_core = BOB
+	remove_core = MLO
+} # Bobbio appears to have broken away from Milan under the Dal Verme

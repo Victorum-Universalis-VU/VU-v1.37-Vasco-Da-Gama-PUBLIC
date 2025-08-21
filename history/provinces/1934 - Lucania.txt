@@ -1,0 +1,19 @@
+#1934 - Lucania
+
+#Default
+owner = NAP
+controller = NAP
+add_core = NAP
+culture = neapolitan 
+religion = catholic 
+hre = no 
+base_tax = 2 
+base_production = 2
+trade_goods = iron
+base_manpower = 1
+capital = "Potenza"
+is_city = yes 
+
+#History by SF
+1215.6.15 = { owner = SIC controller = SIC add_core = SIC } # Sicilian territorial lands - By San Felipe
+1444.11.11 = { owner = NAP controller = NAP add_core = NAP } # Napolitan territorial lands - By San Felipe

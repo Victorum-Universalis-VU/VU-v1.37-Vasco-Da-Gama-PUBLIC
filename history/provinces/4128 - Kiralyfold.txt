@@ -1,0 +1,25 @@
+#4128 - Brassó
+
+#Default
+capital = "Brassó"
+is_city = yes
+owner = TRA #VU - Changed from SZE by San Felipe on Yani's advice.
+controller = TRA #VU - Changed from SZE by San Felipe on Yani's advice.
+add_core = TRA
+culture = szekely #VU - Changed from transylvanian_saxons by San Felipe on Yani's advice.
+religion = catholic
+base_tax = 3
+base_production = 2
+base_manpower = 2
+trade_goods = iron #Was cloth
+hre = no
+
+#Claimants
+add_core = HUN
+add_core = SZE
+
+#Commerce
+center_of_trade = 1
+
+#Special Modifiers
+add_local_autonomy = 50

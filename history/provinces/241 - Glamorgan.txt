@@ -1,0 +1,46 @@
+#241 - Glamorgan
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = CL4
+controller = CL4
+add_core = CL4
+culture = celtic_welsh_culture #Was welsh
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = iron
+capital = "Cardiff"
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = MRG
+
+#Commerce
+center_of_trade = 1
+
+#Special Modifiers
+add_local_autonomy = 75
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+#History by SF
+1444.11.11 = { 
+    owner = ENG 
+    controller = ENG 
+    add_core = ENG 
+    add_core = WLS
+    remove_core = CL4
+} # Welsh Marches territory - By San Felipe

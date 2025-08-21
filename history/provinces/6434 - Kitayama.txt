@@ -1,0 +1,16 @@
+#5148 - Kitayama
+
+#Default
+owner = HTK
+controller = HTK
+add_core = HTK
+culture = kinki 
+religion = shinto
+capital = "Kitayama"
+trade_goods = citrus #Known for its jabara
+hre = no
+base_tax = 2
+base_manpower = 2
+base_production = 3
+is_city = yes
+

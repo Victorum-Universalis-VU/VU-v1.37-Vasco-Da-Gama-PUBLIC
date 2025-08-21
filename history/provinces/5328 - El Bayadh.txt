@@ -1,0 +1,22 @@
+#5328 - El Bayadh
+
+#Default
+owner = TLC
+controller = TLC
+add_core = TLC
+culture = algerian
+religion = sunni
+capital = "El Bayadh"			#Unclear just how far back this city dates, possible not to 15th century, but it is the best alternative I could find for the moment
+trade_goods = wool
+hre = no
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+
+#Claimants
+add_core = WNS
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = TLC controller = TLC add_core = TLC remove_core = AMD } # Tlemcen territorial lands - By San Felipe

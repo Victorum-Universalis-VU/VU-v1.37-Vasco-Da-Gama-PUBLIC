@@ -1,0 +1,29 @@
+#181 - Rethel
+
+#Default
+owner = RET
+controller = RET
+add_core = RET
+capital = "Rethel"
+is_city = yes
+culture = wallonian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 2 
+
+#Claimants
+add_core = CHP
+add_core = FRA
+add_core = NEV
+
+#Buildings
+fort_15th = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

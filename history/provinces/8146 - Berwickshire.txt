@@ -1,0 +1,18 @@
+#8156 - The Merse
+
+#Default
+owner = SCO
+controller = SCO
+add_core = SCO
+capital = "Greenlaw"
+is_city = yes
+culture = celtic_lowland_scottish #Was scottish
+religion = catholic
+base_tax = 3
+base_production = 2
+base_manpower = 2
+trade_goods = fish
+hre = no
+
+#Special Modifiers
+add_local_autonomy = 25

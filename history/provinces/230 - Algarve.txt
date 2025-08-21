@@ -1,0 +1,27 @@
+#230 - Algarve
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = portugese
+religion = catholic
+capital = "Lagos"
+trade_goods = lumber
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#History by SF
+1350.1.1 = {
+    add_core = POR
+}
+1444.11.11 = {
+    owner = AGV
+    controller = AGV
+    add_core = AGV
+    #Remove Claimants
+    remove_core = AMD
+} # Portuguese territorial lands - By San Felipe

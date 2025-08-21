@@ -1,0 +1,22 @@
+#7910 - Vienne
+
+#Default
+owner = VNE
+controller = VNE
+add_core = VNE
+culture = arpitan
+religion = catholic
+capital = "Vienne"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = books
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = DAU
+
+#History by SF
+1215.6.15 = { owner = DAU controller = DAU add_core = DAU } # Part of English Duchy of Aquitaine - By San Felipe
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe

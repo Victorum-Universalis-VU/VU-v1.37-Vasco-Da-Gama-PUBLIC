@@ -1,0 +1,35 @@
+#7094 - Belluno
+
+#Default
+owner = VRN
+controller = VRN
+add_core = VRN
+culture = ladin_culture
+religion = catholic
+capital = "Belluno"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = cheese			#notable salami and cheese production. Also a famous bean type is from the area
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = BLL
+
+#History by SF
+1404.1.1 = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+	hre = no
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = vu_forests_of_cadore
+    duration = -1
+}

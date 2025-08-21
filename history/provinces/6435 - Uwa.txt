@@ -1,0 +1,15 @@
+#6435 - Iyo
+
+#Default
+owner = KNO
+controller = KNO
+add_core = KNO
+culture = shikoku
+religion = shinto
+capital = "Itajima"
+trade_goods = fish
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 5
+is_city = yes

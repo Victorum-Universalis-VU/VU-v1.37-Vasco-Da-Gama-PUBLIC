@@ -1,0 +1,15 @@
+#7534 - Wuppertal
+
+#Default
+owner = KOL
+controller = KOL
+add_core = KOL
+culture = hessian
+religion = catholic
+capital = "Wuppertal"
+trade_goods = zinc
+hre = yes
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes

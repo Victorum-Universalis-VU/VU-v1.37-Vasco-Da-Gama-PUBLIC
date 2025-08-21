@@ -1,0 +1,29 @@
+#240 - Shropshire
+
+latent_trade_goods = { 
+	coal 
+}
+
+#Default
+owner = WMC
+controller = WMC
+add_core = WMC
+culture = midlander
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+trade_goods = lead
+capital = "Shrewsbury"
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = ENG
+
+#History by SF
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # English territory - By San Felipe
+1444.11.11 = { owner = WMC controller = WMC add_core = WMC } # Welsh Marches territory - By San Felipe

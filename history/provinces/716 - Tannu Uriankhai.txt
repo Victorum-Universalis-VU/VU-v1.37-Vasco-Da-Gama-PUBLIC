@@ -1,0 +1,17 @@
+#716 - Tannu Tuva
+
+owner = OIR		# The Oirads united much of Mongolia
+controller = OIR
+add_core = OIR
+culture = tuvan
+religion = tengri_pagan_reformed
+capital = "Tannu Uriankhai"
+trade_goods = fur
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4 
+is_city = yes
+
+#Claimants
+add_core = TUV

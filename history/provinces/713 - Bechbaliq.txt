@@ -1,0 +1,18 @@
+#713 - Kuruk Tag
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = uyghur
+religion = tengri_pagan_reformed
+capital = "Bechbaliq"
+trade_goods = salt
+hre = no
+base_tax = 4  
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = OIR
+add_core = ZUN

@@ -1,0 +1,22 @@
+#2458 - Hodna
+
+#Default
+owner = TUN
+controller = TUN
+add_core = TUN
+culture = algerian
+religion = sunni
+capital = "Msila"
+trade_goods = cotton			#vanilla salt, which would also work
+hre = no
+base_tax = 1  
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = TUN controller = TUN add_core = TUN remove_core = AMD } # Tunisian territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 75			#frontier desert area very autonomous

@@ -1,0 +1,20 @@
+#3407 - Vergy
+
+#Default
+owner = VGY
+controller = VGY
+add_core = VGY
+capital = "Vergy"
+is_city = yes
+culture = burgundian
+religion = catholic
+base_tax = 3
+base_production = 5
+base_manpower = 3
+trade_goods = wine
+
+#Buildings
+fort_16th = yes #Considered Impregnable at the time - Prussia
+
+#Claimants
+add_core = FDB

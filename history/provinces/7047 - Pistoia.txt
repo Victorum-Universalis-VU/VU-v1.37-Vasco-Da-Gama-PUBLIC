@@ -1,0 +1,37 @@
+#7047 - Pistoia
+
+#Default
+owner = PST
+controller = PST
+add_core = PST
+culture = tuscan
+religion = catholic
+capital = "Pistoia"
+base_tax = 8
+base_production = 8
+base_manpower = 4
+trade_goods = iron # pistols are even named after Pistoia, and apparently weapons is iron
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = LAN # Pistoia was under de jure Florentine rule since 1254, I'm keeping them a vassal in 1291 through, due to high autonomy
+
+#Buildings
+bath_house = yes
+
+#History by SF
+1325.1.1 = {
+	owner = LUC
+	controller = LUC
+	add_core = LUC
+} # Castruccio Castracini in power
+1328.1.1 = {
+	owner = PST
+	controller = PST
+	remove_core = LUC
+} # Castracini dies
+1401.1.1 = {
+	owner = LAN
+	controller = LAN
+}

@@ -1,0 +1,15 @@
+#8260 - Caslav
+
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Caslav"
+is_city = yes
+culture = czech
+religion = hussite
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = silver #Was fur
+hre = yes

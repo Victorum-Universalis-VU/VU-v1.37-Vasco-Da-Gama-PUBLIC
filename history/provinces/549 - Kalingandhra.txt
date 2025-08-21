@@ -1,0 +1,30 @@
+#549 - Kalingandhra
+
+#Default
+owner = ORI
+controller = ORI
+add_core = ORI
+culture = telegu
+religion = hinduism
+capital = "Vizianagaram"
+trade_goods = cotton
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = YOR
+
+#Commerce
+center_of_trade = 2
+
+#Special Modifiers
+add_brahmins_or_church_effect = yes
+
+#History by SF
+1443.1.1 = {
+	owner = ORI
+	controller = ORI
+} # Conquered by Gajapatis

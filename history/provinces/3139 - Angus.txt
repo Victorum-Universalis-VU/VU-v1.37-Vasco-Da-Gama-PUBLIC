@@ -1,0 +1,19 @@
+
+#3139 - Angus
+
+#Default
+owner = SCO
+controller = SCO
+add_core = SCO
+culture = highland_scottish
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 3 
+trade_goods = livestock			#Angus cattle.
+base_manpower = 2 
+capital = "Forfar" #"Dundee"
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = DUG controller = DUG add_core = DUG } # The Isles clan territory - By San Felipe

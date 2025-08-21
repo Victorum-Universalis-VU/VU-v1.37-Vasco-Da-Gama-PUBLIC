@@ -1,0 +1,18 @@
+#611 - Sikhottabong
+
+#Default
+owner = LXA
+controller = LXA
+culture = lao
+religion = animism
+capital = "Sikhottabong"
+trade_goods = elephants
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = LXA
+add_core = VIE

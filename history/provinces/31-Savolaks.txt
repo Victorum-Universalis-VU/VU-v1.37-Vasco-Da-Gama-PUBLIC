@@ -1,0 +1,19 @@
+#31 - Savolaks
+
+#Default
+owner = SWE
+controller = SWE
+add_core = SWE
+culture = finnish
+religion = catholic
+hre = no
+base_tax = 1  
+base_production = 1 
+trade_goods = tar
+base_manpower = 1 
+add_local_autonomy = 50
+capital = "Olavinlinna"
+is_city = yes
+
+#Claimants
+add_core = FIN

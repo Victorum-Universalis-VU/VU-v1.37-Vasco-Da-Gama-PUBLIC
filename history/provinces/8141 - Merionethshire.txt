@@ -1,0 +1,21 @@
+#8141 - Merioneth
+
+capital = "Dolgelley" #Archaic English Name
+is_city = yes
+owner = GND
+controller = GND
+add_core = GND
+culture = celtic_welsh_culture #Was welsh
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = gold
+hre = no
+
+#History by SF
+1444.11.11 = {
+    owner = WLS
+    controller = WLS
+    add_core = WLS
+}

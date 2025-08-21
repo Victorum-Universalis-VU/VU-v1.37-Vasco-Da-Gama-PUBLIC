@@ -1,0 +1,18 @@
+#2036 - Baglana
+
+#Default
+owner = BGA
+controller = BGA
+add_core = BGA
+culture = marathi
+religion = hinduism
+capital = "Mayuragiri"
+trade_goods = grain	#Millet
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = MAR

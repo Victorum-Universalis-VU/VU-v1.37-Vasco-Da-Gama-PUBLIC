@@ -1,0 +1,21 @@
+#7732 - Sibenik
+
+#Default
+owner = CRO
+controller = CRO
+add_core = CRO
+culture = croatian
+religion = catholic
+capital = "Šibenik"
+base_tax = 2
+base_production = 3
+base_manpower = 1
+trade_goods = salt			#Salt monopoly. In 1412 it became the main customs ofive and seat of the salt consumer office with a stong monopoly on the whole Adriatic.
+is_city = yes
+hre = no
+
+#Claimants
+add_core = DAL
+
+#History by SF
+1444.11.11 = { owner = VEN controller = VEN add_core = VEN } # Venetian territorial lands - By San Felipe

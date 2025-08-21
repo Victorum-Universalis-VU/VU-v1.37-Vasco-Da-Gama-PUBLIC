@@ -1,0 +1,21 @@
+#506 - Multan
+
+#Default
+owner = MUL
+controller = MUL
+add_core = MUL
+culture = panjabi
+religion = sunni
+capital = "Multan"
+trade_goods = paper			#formerly cloth #Chintz
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = DLH
+
+#Commerce
+center_of_trade = 2

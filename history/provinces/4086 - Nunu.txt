@@ -1,0 +1,12 @@
+owner = KUB
+controller = KUB
+add_core = KUB
+culture = kuba
+religion = shamanism #Fetishism
+capital = "Nunu"
+trade_goods = ebony
+hre = no
+base_tax = 2 
+base_production = 2 
+base_manpower = 4
+is_city = yes

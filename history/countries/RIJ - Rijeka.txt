@@ -1,0 +1,14 @@
+#RIJ - Rijeka
+government = monarchy
+add_government_reform = eue_viscounty_reform
+government_rank = 3 #Viscounty
+primary_culture = croatian
+add_accepted_culture = austrian
+religion = catholic
+#technology_group = western
+technology_group = bulgarian_tech_group
+unit_type = eastern
+capital = 4752
+
+
+#Incomplete

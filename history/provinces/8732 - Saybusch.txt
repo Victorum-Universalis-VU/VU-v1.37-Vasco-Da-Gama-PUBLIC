@@ -1,0 +1,28 @@
+#8732 - Saybusch
+
+#Default
+owner = OPL
+controller = OPL
+add_core = OPL
+culture = polish
+religion = catholic
+base_tax = 2
+base_production = 2
+capital = "Zywiec"
+is_city = yes
+trade_goods = beer	#town mostly known for its Beer of the same name, first brewery opened in 1448
+base_manpower = 1 
+hre = yes
+
+#Claimants
+add_core = POL
+add_core = SWR
+
+#History by SF
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	remove_core = OPL
+	add_core = POL
+	add_core = ASC
+}

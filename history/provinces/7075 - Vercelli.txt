@@ -1,0 +1,36 @@
+#7075 - Vercelli
+
+#Default
+owner = VCL
+controller = VCL
+add_core = VCL
+culture = piedmontese
+religion = catholic
+capital = "Vercelli"
+base_tax = 6
+base_production = 6
+base_manpower = 3
+trade_goods = grain			#Major rice producer
+is_city = yes
+hre = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#History by SF
+1335.1.1 = {
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+} # Every increasing Visconti influence cumilated in the independent polity falling to Milan in 1335
+1427.1.1 = {
+	owner = SAV
+	controller = SAV
+	add_core = SAV
+	base_tax = 4
+	base_production = 4
+	base_manpower = 2
+} # Goes to Savoy, which turned out to be not good at all for the area, becoming impoverished quite quickly.

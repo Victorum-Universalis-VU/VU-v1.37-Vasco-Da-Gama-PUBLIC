@@ -1,0 +1,18 @@
+#7763 - Inegöl
+
+#Default
+owner = NIC
+controller = NIC
+add_core = NIC
+culture = turkish
+religion = sunni
+capital = "Inegöl"
+trade_goods = lumber		# PREVIOUS VERSION books Furniture sector, fameous for woodworking. Going for books since lumber felt too cheap
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe

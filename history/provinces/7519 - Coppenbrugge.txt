@@ -1,0 +1,15 @@
+#7519 - Coppenbrügge
+
+#Default
+owner = COP
+controller = COP
+add_core = COP
+culture = eastphalian
+religion = catholic
+capital = "Coppenbrügge"
+trade_goods = beer
+hre = yes
+base_tax = 1
+base_production = 2
+base_manpower = 1 
+is_city = yes

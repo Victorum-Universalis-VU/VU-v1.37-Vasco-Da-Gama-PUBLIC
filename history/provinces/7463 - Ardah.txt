@@ -1,0 +1,18 @@
+#7463 - Ardah
+
+#Default
+owner = OMA
+controller = OMA
+add_core = OMA
+culture = omani_culture
+religion = ibadi
+capital = "Ardah"			
+trade_goods = copper			
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Buildings
+fort_15th = yes

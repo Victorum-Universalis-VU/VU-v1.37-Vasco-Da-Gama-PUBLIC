@@ -1,0 +1,22 @@
+#5130 - Karasi
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = turkish
+religion = sunni
+capital = "Karasi"			#Later known as Balikesir
+trade_goods = wool			
+hre = no
+base_tax = 5 #3
+base_production = 5 #3
+base_manpower = 3 #2
+is_city = yes
+
+#Buildings
+fort_15th = yes			#the capital of the region, known for a strong fort, as well. Also strategic, nice when it just works out.....
+
+#History by SF
+1215.6.15 = { owner = LAE controller = LAE add_core = LAE } # Latin territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe

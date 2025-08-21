@@ -1,0 +1,29 @@
+#8226 - Kozmin
+
+#Default
+owner = KPL
+controller = KPL
+add_core = KPL
+capital = "Kozmin"
+is_city = yes
+culture = polish
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = cloth
+hre = no
+
+#Claimants
+add_core = POL
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+	add_core = PZN
+}

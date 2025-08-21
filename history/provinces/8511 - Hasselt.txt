@@ -1,0 +1,16 @@
+#8511 - Liège
+
+#Default
+owner = LIE
+controller = LIE
+add_core = LIE
+add_core = BUR
+capital = "Hasselt"
+is_city = yes
+culture = ger_limburgish
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 1
+trade_goods = fur
+base_manpower = 1

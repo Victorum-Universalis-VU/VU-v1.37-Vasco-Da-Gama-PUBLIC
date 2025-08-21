@@ -1,0 +1,22 @@
+#3298 - Dingwall
+
+#Default
+owner = GOR
+controller = GOR
+add_core = GOR
+culture = celtic_highland_scottish_culture #Was highland_scottish
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 1 
+trade_goods = pottery #Clay deposits (by San Felipe).
+base_manpower = 1
+capital = "Dingwall"
+is_city = yes
+
+#Claimants
+add_core = SCO
+
+#History by SF
+1215.6.15 = { owner = SCO controller = SCO add_core = SCO } # Kingdom of Mann territory - By San Felipe
+1444.11.11 = { owner = GOR controller = GOR add_core = GOR } # The Isles territory - By San Felipe

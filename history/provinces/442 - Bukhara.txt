@@ -1,0 +1,34 @@
+#442 - Bukhara
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = uzbehk
+religion = sunni
+capital = "Bukhara"
+trade_goods = metalworking #Was iron
+hre = no
+base_tax = 10 
+base_production = 10
+base_manpower = 10
+is_city = yes
+
+#Buildings
+metalworking_workshop = yes
+city_hall = yes
+road_system = yes
+cathedral = yes
+fort_15th = yes
+
+#Claimants
+add_core = TRS
+
+#Commerce
+center_of_trade = 3
+
+#History by SF
+1409.5.13 = { #Ulugh Beg is made Governor of Samarkand
+	owner = TRS
+	controller = TRS
+}

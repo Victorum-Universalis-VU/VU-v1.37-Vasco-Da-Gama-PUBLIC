@@ -1,0 +1,13 @@
+#4668 - West Ih Huree
+owner = KHA
+controller = KHA
+add_core = KHA
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Orkhon"
+trade_goods = fur
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes

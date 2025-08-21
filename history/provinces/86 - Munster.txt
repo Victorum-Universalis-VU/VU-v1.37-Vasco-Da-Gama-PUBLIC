@@ -1,0 +1,18 @@
+# 86 - Munster
+
+#Default
+owner = MUN
+controller = MUN
+add_core = MUN
+culture = hannoverian
+religion = catholic
+trade_goods = horses #Annual horse shows and competitions, also racing
+capital = "Münster"
+base_tax = 12
+base_production = 12
+base_manpower = 6
+is_city = yes
+hre = yes
+
+#Commerce
+center_of_trade = 3

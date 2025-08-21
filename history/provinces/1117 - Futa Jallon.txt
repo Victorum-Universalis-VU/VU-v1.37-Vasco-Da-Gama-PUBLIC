@@ -1,0 +1,15 @@
+#1117 - Futa Jallon
+
+owner = MAL
+controller = MAL
+culture = mali
+is_city = yes
+base_manpower = 4
+religion = shamanism #Fetishism
+capital = "Timbo"
+trade_goods = ivory
+hre = no
+base_tax = 4
+base_production = 4
+add_core = MAL
+add_core = KBU #Subject province within the empire

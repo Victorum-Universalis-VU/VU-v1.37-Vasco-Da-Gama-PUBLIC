@@ -1,0 +1,18 @@
+#8497 - Seraing
+
+#Default
+owner = LIE
+controller = LIE
+add_core = LIE
+capital = "Seraing"
+is_city = yes
+culture = wallonian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 1
+trade_goods = lumber
+base_manpower = 1
+
+#Claimants
+add_core = BUR

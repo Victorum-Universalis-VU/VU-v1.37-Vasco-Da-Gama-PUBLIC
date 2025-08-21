@@ -1,0 +1,30 @@
+#7065 - Chivasso
+
+#Default
+owner = MFA
+controller = MFA
+add_core = MFA
+culture = piedmontese
+religion = catholic
+capital = "Chivasso"
+base_tax = 7
+base_production = 7
+base_manpower = 5
+trade_goods = wine
+is_city = yes
+hre = yes
+
+#History by SF
+1404.1.1 = {
+	base_tax = 5
+	base_production = 5
+	base_manpower = 3
+} # Capital of the March moves from Chivasso to Casale, marking a downturn for the region's economy.
+1431.1.1 = {
+	owner = SAV
+	controller = SAV
+	add_core = SAV
+	base_tax = 4
+	base_production = 4
+	base_manpower = 2
+} # Chiavasso annexed to Savoy, which further reduces its importance, also serves the game-y purpose of less dev to the slightly OPed Savoy

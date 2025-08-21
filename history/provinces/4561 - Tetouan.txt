@@ -1,0 +1,22 @@
+#4561 - Tetouan
+
+#Default
+owner = MOR
+controller = MOR
+add_core = MOR
+culture = riffian
+religion = sunni
+capital = "Tetouan"
+trade_goods = saffron
+hre = no
+base_tax = 4 
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = TET
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = MOR controller = MOR add_core = MOR remove_core = AMD } # Moroccan territorial lands - By San Felipe

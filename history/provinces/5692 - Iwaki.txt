@@ -1,0 +1,19 @@
+#5692 - Iwaki
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = DTE
+controller = DTE
+add_core = DTE
+culture = togoku
+religion = shinto
+capital = "Iwaki"
+trade_goods = salt
+hre = no
+base_tax = 5
+base_manpower = 5
+base_production = 5
+is_city = yes

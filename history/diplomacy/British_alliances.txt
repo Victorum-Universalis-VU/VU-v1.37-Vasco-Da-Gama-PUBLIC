@@ -1,0 +1,652 @@
+#################################################################
+#################################################################
+##################### BRITISH ISLES (VU) ######################
+#################################################################
+#################################################################
+
+#################################################################
+######################## England (VU) #########################
+#################################################################
+
+##################
+# Archbishoprics #
+##################
+
+dependency = {
+	subject_type = "christian_archbishopric"
+	first = ENG
+	second = ARC
+	start_date = 1215.06.15 #Was 597.1.1 
+	end_date = 1836.6.5
+}
+
+dependency = {
+    subject_type = "christian_archbishopric"
+    first = ENG
+    second = A8Y
+    start_date = 1215.06.15 #Was 597.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_archbishopric"
+    first = ENG
+    second = A8D
+    start_date = 1215.06.15 #Was 597.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_archbishopric"
+    first = ENG
+    second = ABX
+    start_date = 1215.06.15 #Was 597.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "christian_bishopric"
+	first = ENG
+	second = DUR
+	start_date = 1215.06.15 #Was 1291.1.1 
+	end_date = 1836.6.5
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = B0B
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = B0E
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = BOE
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = B0R
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = B0S
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = B0N
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = B0L
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = B03
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = BOC
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = B0W
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = "christian_bishopric"
+    first = ENG
+    second = BOC
+    start_date = 1215.06.15 #Was 1291.1.1
+    end_date = 1444.1.1
+}
+
+#################################################################
+##################### Great Britain (VU) ######################
+#################################################################
+
+###################
+# Royal Marriages #
+###################
+
+# Henry V and Catherine of Valois
+royal_marriage = {
+	first = ENG
+	second = FRA
+	start_date = 1420.6.2
+	end_date = 1422.8.31
+}
+
+#############
+# Alliances #
+#############
+
+# The Anglo-Portuguese alliance
+alliance = {
+	first = ENG
+	second = POR
+	start_date = 1373.1.1
+	end_date = 1701.9.1
+}
+
+################
+# Dependencies #
+################
+
+#Peerages
+#English Duchy of Buckingham
+dependency = {
+	subject_type = english_duchy
+	first = ENG
+	second = BCK
+	start_date = 1444.1.1
+	end_date = 1735.1.1
+}
+
+#English Duchy of Bedford
+dependency = {
+	subject_type = english_duchy
+	first = ENG
+	second = BED
+	start_date = 1435.1.1
+	end_date = 1694.1.1
+}
+
+# England-Braose
+dependency = {
+    subject_type = english_lordship
+    first = ENG
+    second = BR0
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Chester (Earldom of Chester)
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = CST
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Clare
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = CL4
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# Duchy of Cornwall
+dependency = {
+    subject_type = english_duchy
+    first = ENG
+    second = CRN
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Bohun
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = B0H
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Mortimer
+dependency = {
+    subject_type = english_lordship
+    first = ENG
+    second = M0R
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Marshall
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = MR5
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Devon
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = EDV
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Kent
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = EKT
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Monmouth
+dependency = {
+    subject_type = english_lordship
+    first = ENG
+    second = M0T
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Norfolk
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = ENL
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Norfolk
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = E5Y
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Derby
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = DR8
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Arundel
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = AR9
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Bohun
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = B0H
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Clare
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = CL4
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Winchester
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = WNR
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+# England-Winchester
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = EWK
+    start_date = 1215.06.15 #Was 1067.1.1
+    end_date = 1444.1.1
+}
+
+#English Duchy of Exeter
+dependency = {
+	subject_type = english_duchy
+	first = ENG
+	second = EXE
+	start_date = 1443.1.6
+	end_date = 1461.1.1
+}
+
+#English Duchy of Gloucester
+dependency = {
+	subject_type = english_duchy
+	first = ENG
+	second = GLR
+	start_date = 1444.1.1 #Was 1414.5.16
+	end_date = 1726.1.1
+}
+
+#English Duchy of Norfolk
+dependency = {
+	subject_type = english_duchy
+	first = ENG
+	second = NFL
+	start_date = 1444.11.11
+	end_date = 1660.1.1
+}
+
+#English Duchy of Somerset
+dependency = {
+	subject_type = english_duchy
+	first = ENG
+	second = SM1
+	start_date = 1444.1.1
+	end_date = 1552.1.1
+}
+
+#English Duchy of York
+dependency = {
+	subject_type = english_duchy
+	first = ENG
+	second = YRK
+	start_date = 1444.1.1 #Was 1415.1.1
+	end_date = 1903.12.31
+}
+
+#English Duchy of Northumberland
+dependency = {
+	subject_type = english_duchy
+	first = ENG
+	second = NOL
+	start_date = 1444.1.1 #Was 1414.5.11
+	end_date = 2024.2.28
+}
+
+#English Earldom of Warwick
+dependency = {
+	subject_type = english_earldom
+	first = ENG
+	second = WRK
+	start_date = 1444.7.23
+	end_date = 1759.1.1
+}
+
+#English Earldom of Richmond
+dependency = {
+	subject_type = english_earldom
+	first = ENG
+	second = RCH
+	start_date = 1444.11.11
+	end_date = 1487.8.22
+}
+
+#English Earldom of Rutland
+dependency = {
+	subject_type = english_earldom
+	first = ENG
+	second = RT1
+	start_date = 1443.5.17
+	end_date = 1476.1.1
+}
+
+#English Earldom of Lincoln
+dependency = {
+	subject_type = english_earldom
+	first = ENG
+	second = LNN
+	start_date = 1444.1.1 #Was 1415.10.25
+	end_date = 1487.1.1
+}
+
+#English Earldom of Oxford
+dependency = {
+	subject_type = english_earldom
+	first = ENG
+	second = OXF
+	start_date = 1444.1.1 #Was 1429.1.1
+	end_date = 1703.1.1
+}
+
+#English County of Ponthieu
+dependency = {
+    subject_type = english_earldom
+    first = ENG
+    second = PTH
+    start_date = 1215.1.1 #Officially 1279 when Eleanor of Castile wife of Edward I inherited it. However, due to it being a Norman vassal since William the I "the Conqueror", it is only right that it remains under English suzerainity in 1215. - SF
+    end_date = 1369.1.1
+}
+
+#English Duchy of Alencon
+dependency = {
+	subject_type = english_duchy
+	first = ENG
+	second = ALE
+	start_date = 1424.8.17
+	end_date = 1449.1.1
+}
+
+#English Dukes of Maine
+dependency = {
+	subject_type = english_duchy
+	first = ENG
+	second = MNE
+	start_date = 1424.8.17
+	end_date = 1449.1.1
+}
+
+#English Peerage of Mann
+dependency = {
+	subject_type = english_earldom
+	first = ENG
+	second = KOI
+	start_date = 1444.1.1
+	end_date = 1707.5.12
+}
+
+dependency = {
+	subject_type = english_marquisate
+	first = ENG
+	second = WMC
+	start_date = 1444.1.1
+	end_date = 1536.1.1 #Dissolved - Prussia
+}
+
+dependency = {
+	subject_type = english_earldom
+	first = ENG
+	second = JER
+	start_date = 1215.1.1
+	end_date = 1707.1.1 #Reduced to a crown dependency - Prussia
+}
+
+########################
+# British Crown Unions #
+########################
+
+dependency = {
+	subject_type = english_crown_PU
+	first = ENG
+	second = WLS
+	start_date = 1444.1.1
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
+}
+
+dependency = {
+	subject_type = english_crown_PU
+	first = ENG
+	second = WLS
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1542.1.22
+}
+
+# England-Chester (Earldom of Chester)
+dependency = {
+	subject_type = english_crown_PU
+	first = ENG
+	second = CST
+	start_date = 1444.1.1 #Was 1067.1.1
+	end_date = 1536.1.1
+}
+
+# Duchy of Cornwall
+dependency = {
+	subject_type = english_crown_PU
+	first = ENG
+	second = CRN
+	start_date = 1444.1.1
+	end_date = 1542.1.22
+}
+
+# Lordship of Ireland
+dependency = {
+	subject_type = english_crown_PU
+	first = ENG
+	second = ANI
+	start_date = 1444.1.1 #Was 1177.1.1
+	end_date = 1542.1.22
+}
+
+#################################################################
+####################### Scotland (VU) #########################
+#################################################################
+
+###################
+# Royal Marriages #
+###################
+
+royal_marriage = {
+	first = SCO
+	second = BRI
+	start_date = 1442.10.30
+	end_date = 1450.7.19
+}
+
+# Mary I of Scotland and Francis II of France
+royal_marriage = {
+	first = SCO
+	second = FRA
+	start_date = 1558.4.24
+	end_date = 1560.12.5 
+}
+
+###########
+# Vassals #
+###########
+
+#Scotland-Isles
+dependency = {
+	subject_type = scottish_clan
+	first = SCO
+	second = MDD
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+dependency = {
+	subject_type = scottish_clan
+	first = SCO
+	second = MCD
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+dependency = {
+	subject_type = scottish_clan
+	first = SCO
+	second = MCN
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+dependency = {
+	subject_type = scottish_clan
+	first = SCO
+	second = CBE
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+dependency = {
+	subject_type = scottish_clan
+	first = SCO
+	second = CM1
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+dependency = {
+	subject_type = scottish_clan
+	first = SCO
+	second = DUG
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+dependency = {
+	subject_type = scottish_clan
+	first = SCO
+	second = GOR
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+dependency = {
+	subject_type = scottish_clan
+	first = SCO
+	second = RLL
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+dependency = {
+	subject_type = scottish_clan
+	first = SCO
+	second = SNC
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}

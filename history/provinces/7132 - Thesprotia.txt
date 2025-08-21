@@ -1,0 +1,22 @@
+#7132 - Thesprotia
+
+#Default
+owner = VEN
+controller = VEN
+add_core = VEN
+culture = greek
+religion = orthodox
+capital = "Parga"
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = fruit
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = EPI controller = EPI add_core = EPI } # Epirian territorial lands - By San Felipe
+1444.11.11 = { owner = VEN controller = VEN add_core = VEN } # Venetian territorial lands - By San Felipe

@@ -1,0 +1,33 @@
+government = republic
+add_government_reform = merchants_reform
+government_rank = 6
+mercantilism = 25
+#technology_group = western
+technology_group = german_tech_group
+unit_type = western
+religion = catholic
+primary_culture = holsatian
+capital = 45#Lübeck
+historical_friend = HAM#Hamburg
+historical_friend = BRE#Bremen
+historical_friend = RIG#Riga
+1444.01.01 = {
+	monarch = {
+		name = "Stadtrat"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+	create_alliance = HAM
+	create_alliance = BRE
+	join_trade_league = GOS
+	join_trade_league = DRT
+	join_trade_league = PAD
+	join_trade_league = MND
+	join_trade_league = FCR
+}
+
+1529.1.1 = {
+	religion = protestant
+}

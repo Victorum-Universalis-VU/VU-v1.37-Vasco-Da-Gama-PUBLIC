@@ -1,0 +1,37 @@
+#7828 - Putzig
+
+#Default
+owner = POL
+controller = POL
+add_core = POL
+culture = kashubian_culture
+religion = catholic
+capital = "Putzig"
+base_tax = 3 
+base_production = 3 
+base_manpower = 2 
+trade_goods = seafood		#Before WWI this area was poor backstage of Danzig, mostly small fishing buisness
+is_city = yes
+hre = no
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+add_permanent_province_modifier = {
+	name = vu_kornhaus_der_hansa
+	duration = -1
+}
+
+#History by SF
+1444.1.1 = {
+	owner = TEU
+	controller = TEU
+	add_core = TEU
+	remove_core = POL
+}

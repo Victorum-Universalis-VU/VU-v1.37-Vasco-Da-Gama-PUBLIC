@@ -1,0 +1,11 @@
+#BDJ - Budjak
+government = monarchy
+add_government_reform = unlocked_eue_duchy_reform
+government_rank = 6 #Duchy
+#technology_group = eastern
+technology_group = russian_tech_group
+unit_type = eastern
+religion = catholic
+primary_culture = bulgarian
+add_accepted_culture = romanian
+capital = 7154 #Budjak

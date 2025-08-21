@@ -1,0 +1,21 @@
+#1957 - Galich
+
+#Default
+owner = GLC
+controller = GLC
+add_core = GLC
+capital = "Galich"
+culture = muscovite
+religion = orthodox
+trade_goods = salt
+hre = no
+base_tax = 4 
+base_production = 8 #Huge Salt Mine
+base_manpower = 6
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 1

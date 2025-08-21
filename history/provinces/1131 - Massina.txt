@@ -1,0 +1,17 @@
+#1131 - Massina
+
+#Default
+owner = ZAF
+controller = ZAF
+add_core = ZAF
+culture = bambara
+is_city = yes
+base_manpower = 2 
+religion = shamanism #Fetishism
+capital = "Macina"
+trade_goods = grain
+hre = no
+base_tax = 8 
+base_production = 8
+native_ferocity = 4
+native_hostileness = 9

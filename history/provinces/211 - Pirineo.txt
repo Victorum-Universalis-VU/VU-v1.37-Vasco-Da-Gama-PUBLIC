@@ -1,0 +1,18 @@
+#211 - Pirineo
+
+#Default
+owner = ARA		#Alfons V of Aragon
+controller = ARA
+add_core = ARA
+culture = aragonese
+religion = catholic
+hre = no
+base_tax = 2  
+base_production = 2 
+trade_goods = cheese
+base_manpower = 2 
+capital = "Huesca" 
+is_city = yes
+
+#Building
+#fort_15th = yes #Castiello de Lobarre

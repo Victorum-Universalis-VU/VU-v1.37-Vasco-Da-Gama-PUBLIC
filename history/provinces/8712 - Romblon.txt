@@ -1,0 +1,15 @@
+#8712 - Romblon
+
+#Default
+owner = RMB
+controller = RMB
+add_core = RMB
+culture = romblomanon
+religion = animism
+capital = "Romblon"
+trade_goods = citrus
+hre = no
+base_tax = 2  
+base_production = 2
+base_manpower = 2
+is_city = yes

@@ -1,0 +1,21 @@
+#64 - Landshut
+
+#Default
+owner = LBV
+controller = LBV
+add_core = LBV
+culture = bavarian
+religion = catholic
+base_tax = 4
+base_production = 5		#Not nearly so rich at this period. Total BAV dev lowered from 58 to 39, which is already much to high. Most of the extremely high population densities and wealth which were in the region were not under Bavaria, like Regensburg and Nuremberg
+trade_goods = apiculture
+base_manpower = 3
+capital	= "Landshut" 
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes #Trausnitz Castle
+
+#Commerce
+center_of_trade = 2

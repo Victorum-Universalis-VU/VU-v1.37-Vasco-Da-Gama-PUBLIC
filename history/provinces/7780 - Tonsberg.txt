@@ -1,0 +1,21 @@
+#7780 - Tonsberg
+
+#Default
+owner = BGR
+controller = BGR
+add_core = BGR
+culture = norwegian
+religion = catholic
+capital = "Tønsberg"
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = fish
+is_city = yes
+hre = no
+
+#Claimants
+add_core = AKE
+
+#History by SF
+1440.1.1 = { owner = NOR controller = NOR add_core = NOR } # Norwegian territorial lands - By San Felipe

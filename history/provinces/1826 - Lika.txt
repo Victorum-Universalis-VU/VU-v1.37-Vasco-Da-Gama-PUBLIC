@@ -1,0 +1,21 @@
+#1826 - Lika
+
+#Default
+owner = CRO
+controller = CRO
+add_core = CRO
+culture = croatian
+religion = catholic
+capital = "Kaseg"
+trade_goods = horses
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = plitvice
+    duration = -1
+}

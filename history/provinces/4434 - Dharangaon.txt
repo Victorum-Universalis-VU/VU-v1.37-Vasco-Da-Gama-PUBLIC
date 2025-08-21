@@ -1,0 +1,18 @@
+#4434 - Dharangaon
+
+#Default
+owner = KHD
+controller = KHD
+add_core = KHD
+culture = marathi
+religion = hinduism
+capital = "Dharangaon"
+trade_goods = tea
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = MAR

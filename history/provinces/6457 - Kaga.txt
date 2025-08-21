@@ -1,0 +1,27 @@
+#6457 - Kaga
+
+#Default
+owner = TGS
+controller = TGS
+add_core = TGS
+culture = hokuriku 
+religion = shinto
+capital = "Kanazawa"
+trade_goods = chinaware
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Buildings
+temple = yes
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

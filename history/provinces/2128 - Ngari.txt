@@ -1,0 +1,18 @@
+#2128 - Ngari
+
+#Default
+owner = GUG
+controller = GUG
+add_core = GUG
+culture = tibetan
+religion = bon
+capital = "Ngari"
+trade_goods = wool
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Commerce
+center_of_trade = 1

@@ -1,0 +1,23 @@
+#5560 - Phocaea
+
+#Default
+owner = GEN
+controller = GEN
+add_core = GEN
+culture = greek
+religion = orthodox
+capital = "Phocaea"
+trade_goods = citrus			#City was valuable for its allum mines... but we don't have that. Going for citrus
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = SRU
+add_core = TUR
+
+#History by SF
+1215.6.15 = { owner = NIC controller = NIC add_core = NIC } # Nicean territorial lands - By San Felipe
+1444.11.11 = { owner = GEN controller = GEN add_core = GEN add_core = BYZ } # Genoan territorial lands - By San Felipe

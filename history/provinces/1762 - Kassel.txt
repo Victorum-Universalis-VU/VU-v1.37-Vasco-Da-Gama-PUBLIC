@@ -1,0 +1,17 @@
+#1762 - Kassel
+
+owner = HES
+controller = HES
+add_core = HES
+capital = "Kassel"
+trade_goods = glass
+culture = eastphalian
+religion = catholic
+base_tax = 6
+base_production = 6
+base_manpower = 2 
+is_city = yes
+hre = yes
+
+#Claimants
+add_claim = KOL #Koln sucessfully invaded Hesse in 1449 as an on-top double whammy with Paderborn - Don

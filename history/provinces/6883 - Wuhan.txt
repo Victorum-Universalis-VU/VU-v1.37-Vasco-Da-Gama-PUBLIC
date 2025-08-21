@@ -1,0 +1,27 @@
+#6883 - Wuhan
+
+#Default
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = gan
+religion = confucianism
+capital = "Wuhan"
+trade_goods = rice
+hre = no
+base_tax = 12
+base_production = 12
+base_manpower = 12
+is_city = yes
+
+#Claimants
+add_core = NNG
+
+#Commerce
+center_of_trade = 4
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_4
+    duration = -1
+}

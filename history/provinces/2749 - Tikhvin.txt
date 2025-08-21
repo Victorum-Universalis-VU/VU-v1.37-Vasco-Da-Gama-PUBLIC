@@ -1,0 +1,23 @@
+#2749 - Tikhvin
+
+#Default
+owner = NOV
+controller = NOV
+add_core = NOV
+culture = novgorodian
+religion = orthodox
+hre = no
+base_tax = 2 
+base_production = 2 
+trade_goods = cloth			#Trading crossroads and grew into a well developed center
+base_manpower = 1 
+capital = "Tikhvin"
+is_city = yes
+
+#Buildings
+
+#Commerce
+center_of_trade = 1
+
+#Special Modifiers
+add_local_autonomy = 10

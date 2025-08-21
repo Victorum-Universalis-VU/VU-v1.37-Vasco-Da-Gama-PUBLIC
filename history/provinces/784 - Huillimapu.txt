@@ -1,0 +1,24 @@
+#784 - Huillimapu
+
+#Default
+owner = MPC
+controller = MPC
+add_core = MPC
+culture = mapuche
+religion = animism
+capital = "Huillimapu"
+is_city = yes
+trade_goods = fish
+hre = no
+base_tax = 1  
+base_production = 1 
+base_manpower = 1 
+native_size = 10
+native_ferocity = 2
+native_hostileness = 9
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = vu_patagonian_rainforest
+    duration = -1
+}

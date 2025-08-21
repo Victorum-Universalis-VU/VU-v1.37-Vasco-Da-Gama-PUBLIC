@@ -1,0 +1,102 @@
+#A few small additions by Don
+#A second (bigger) version of the free company for the small tags (below 300 dev), to encourage mercenary play in the early game
+vu_merc_local_large_free_company = {
+	regiments_per_development = 0.025
+	cavalry_weight = 0.1
+	artillery_weight = 0.1
+	cavalry_cap = 2
+	cost_modifier = 0.5
+	trigger = {
+		NOT = {
+			total_development = 300
+		}
+		is_allowed_to_recruit_mercenaries = yes
+	}
+	modifier = {
+		#I guess the smaller cheaper Free companies should have a downside
+		reinforce_speed = -0.15
+		recover_army_morale_speed = -0.05
+	}
+	# No home province means local mercenary company
+	min_size = 8	#So that it's always twice as big as the normal free company
+}
+
+#An early cavalry company
+vu_merc_local_cavalry_free_company = {
+	regiments_per_development = 0.025
+	cavalry_weight = 1
+	artillery_weight = 0
+	cost_modifier = 0.25
+	trigger = {
+		NOT = {
+			total_development = 300
+		}
+		is_allowed_to_recruit_mercenaries = yes
+	}
+	modifier = {
+		#I guess the smaller cheaper Free companies should have a downside
+		reinforce_speed = -0.15
+		recover_army_morale_speed = -0.05
+	}
+	# No home province means local mercenary company
+}
+
+#A late cavalry commpany
+vu_merc_local_large_cavalry_free_company = {
+	regiments_per_development = 0.025
+	cavalry_weight = 1
+	artillery_weight = 0
+	cost_modifier = 0.5
+	trigger = {
+		total_development = 300
+		is_allowed_to_recruit_mercenaries = yes
+	}
+	# No home province means local mercenary company
+	min_size = 8	#So that it's always twice as big as the the small variant
+}
+
+#An early Siege company
+vu_merc_local_small_siege_company = {
+	regiments_per_development = 0.025
+	cavalry_weight = 0
+	artillery_weight = 0.5
+	cost_modifier = 0.25
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+	}
+	modifier = {
+		#Siege company specific (Same for both versions)
+		#Debuffs for battles so they won't be used to cheese in early battle artillery
+		artillery_power = -1
+		#Siege specific buffs (that's their entire bloody job)
+		siege_ability = 0.2
+		artillery_levels_available_vs_fort = 1
+		artillery_barrage_cost = -0.25
+	}
+	counts_towards_force_limit = no	#Siege companies are only for sieging, this should help break stalemates when small AI tags fight and neither of them have enough men to besiege eachothers castles
+	# No home province means local mercenary company
+}
+
+#A late Siege company
+vu_merc_local_large_siege_company = {
+	regiments_per_development = 0.025
+	cavalry_weight = 1
+	artillery_weight = 0
+	cost_modifier = 0.25
+	trigger = {
+		total_development = 300
+		is_allowed_to_recruit_mercenaries = yes
+	}
+	modifier = {
+		#Siege company specific (Same for both versions)
+		#Debuffs for battles so they won't be used to cheese in early battle artillery
+		artillery_power = -1
+		#Siege specific buffs (that's their entire bloody job)
+		siege_ability = 0.2
+		artillery_levels_available_vs_fort = 1
+		artillery_barrage_cost = -0.25
+	}
+	counts_towards_force_limit = no	#Siege companies are only for sieging, this should help break stalemates when small AI tags fight and neither of them have enough men to besiege eachothers castles
+	# No home province means local mercenary company
+	min_size = 8	#So that it's always twice as big as the small variant
+}

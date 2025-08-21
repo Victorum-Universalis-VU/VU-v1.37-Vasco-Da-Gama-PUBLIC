@@ -1,0 +1,21 @@
+#463 - Circassia
+
+#Default
+owner = CIR
+controller = CIR
+add_core = CIR
+culture = kabardian
+religion = orthodox
+capital = "Adyghe"
+trade_goods = grain
+hre = no
+base_tax = 4 
+base_production = 4 
+base_manpower = 4 
+is_city = yes
+
+#Claimants
+add_core = KBD
+
+#Commerce
+center_of_trade = 1

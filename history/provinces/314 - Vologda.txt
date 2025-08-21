@@ -1,0 +1,21 @@
+#314 - Vologda
+
+#Default
+owner = MOS
+controller = MOS
+add_core = MOS
+culture = novgorodian
+religion = orthodox
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = fur			#don't think there was really a tonne of fur, here, but it was a major trading hub for the north and a great many furs passed south and west this way
+base_manpower = 3 
+capital = "Vologda"
+is_city = yes
+
+#Claimants
+add_core = NOV # Novgorodian claims
+
+#Commerce
+center_of_trade = 2

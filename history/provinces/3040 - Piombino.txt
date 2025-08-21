@@ -1,0 +1,35 @@
+#3040 - Piombino
+
+#Default
+owner = PIS
+controller = PIS
+add_core = PIS
+culture = tuscan
+religion = catholic
+hre = yes
+base_tax = 6
+base_production = 6
+trade_goods = seafood
+base_manpower = 4
+capital = "Piombino"
+is_city = yes # Estimated
+center_of_trade = 2
+
+#Claimants
+add_core = PIO
+
+#Buildings
+fort_15th = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
+
+#History by SF
+1399.1.1 = {
+   owner = PIO
+   controller = PIO
+   remove_core = PIS
+}

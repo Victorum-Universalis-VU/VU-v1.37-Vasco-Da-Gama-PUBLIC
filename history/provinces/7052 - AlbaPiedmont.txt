@@ -1,0 +1,16 @@
+#7052 - AlbaPiedmont
+
+#Default
+owner = MFA
+controller = MFA
+add_core = MFA
+add_core = ALP
+culture = piedmontese
+religion = catholic
+capital = "Alba"	#and Bra
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = cheese
+is_city = yes
+hre = yes

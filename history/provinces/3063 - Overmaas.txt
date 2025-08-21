@@ -1,0 +1,25 @@
+#3063 - Roermond
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = GEL
+controller = GEL
+add_core = GEL
+is_city = yes
+capital = "Roermond"
+culture = ger_limburgish
+religion = catholic
+hre = yes
+base_tax = 4 		#On the banks of the Meuse. Recently joined the Hansa and was an important economic center.
+base_production = 4
+trade_goods = fruit
+base_manpower = 2 
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = LBG

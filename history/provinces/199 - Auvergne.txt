@@ -1,0 +1,21 @@
+#199 - Auvergne
+
+#Default
+owner = AUV
+controller = AUV
+add_core = AUV
+capital = "Clermont"
+is_city = yes
+culture = auvergnat_culture
+religion = catholic
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = silver
+base_manpower = 3
+
+#Buildings
+bath_house = yes
+
+#Claimants
+add_core = FRA

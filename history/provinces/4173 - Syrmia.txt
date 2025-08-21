@@ -1,0 +1,28 @@
+#4173 - Syrmia
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+culture = hungarian
+religion = catholic
+capital = "Subotica"
+trade_goods = wine
+hre = no
+base_tax = 2
+base_production = 2 
+base_manpower = 1 
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

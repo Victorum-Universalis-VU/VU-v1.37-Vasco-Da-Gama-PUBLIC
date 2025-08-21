@@ -1,0 +1,27 @@
+#67 - Franken
+
+#Default
+owner = NUM
+controller = NUM
+add_core = NUM
+culture = franconian
+religion = catholic
+base_tax = 13
+base_production = 14			#Consistantly one of the richest, most populous, and politically important polities in Central Europe. Around our start date, almost certainly the largest city in Germany outside of Prague and Koeln. Before Habsburg dominance, even considered one of the primary HRE capital contenders.
+trade_goods = books
+base_manpower = 6
+capital = "Nürnberg"
+is_city = yes
+hre = yes
+
+#Commerce
+center_of_trade = 5
+
+#Buildings
+courthouse = yes
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}

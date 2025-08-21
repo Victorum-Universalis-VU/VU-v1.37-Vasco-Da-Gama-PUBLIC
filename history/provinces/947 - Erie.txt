@@ -1,0 +1,30 @@
+#947 - Erie
+
+latent_trade_goods = {
+    oil
+}
+
+#Default
+culture = tionontate
+religion = totemism
+capital = "Erie"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+native_size = 5
+native_ferocity = 1
+native_hostileness = 4
+
+#Claimants
+tribal_owner = ERI
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

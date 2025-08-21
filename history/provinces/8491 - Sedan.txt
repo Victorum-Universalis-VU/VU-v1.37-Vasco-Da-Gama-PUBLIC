@@ -1,0 +1,16 @@
+#8491 - Nancy
+
+#Default
+owner = LUX
+controller = LUX
+add_core = LUX
+add_core = BUR
+capital = "Sedan"
+is_city = yes
+culture = wallonian
+religion = catholic
+hre = yes
+base_tax = 2 
+base_production = 3
+trade_goods = wine
+base_manpower = 1

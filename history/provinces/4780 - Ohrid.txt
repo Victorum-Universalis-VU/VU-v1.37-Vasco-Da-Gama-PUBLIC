@@ -1,0 +1,27 @@
+#4780 - Ohrid
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = bulgarian
+religion = orthodox
+capital = "Ohrid"
+base_tax = 3
+base_production = 3
+base_manpower = 1
+trade_goods = cloth
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+
+#History by SF
+1215.6.15 = { owner = EPI controller = EPI add_core = EPI } # Epirus territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 10

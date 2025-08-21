@@ -1,0 +1,22 @@
+#26 - Halland
+
+#Default
+owner = HLL
+controller = HLL
+add_core = HLL
+culture = danish
+religion = catholic
+hre = no
+base_tax = 3 
+base_production = 3 
+trade_goods = grain
+base_manpower = 2 
+capital = "Halmstad"
+is_city = yes
+
+#Claimants
+add_core = DAN
+add_core = SKN
+
+#History by SF
+1440.1.1 = { owner = DAN controller = DAN add_core = DAN } # Danish territorial lands - By San Felipe

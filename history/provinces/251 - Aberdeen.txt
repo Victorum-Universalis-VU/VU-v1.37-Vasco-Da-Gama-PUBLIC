@@ -1,0 +1,34 @@
+#251 - Aberdeen
+
+#Default
+owner = SCO
+controller = SCO
+add_core = SCO
+culture = scottish
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = books
+base_manpower = 1
+capital = "Aberdeen"
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+	name = vu_potential_archaeological_dig
+	duration = -1
+}
+
+#History by SF
+1375.1.1 = { 
+    culture = celtic_lowland_scottish #Was scottish
+}
+1444.11.11 = { owner = RLL controller = RLL add_core = RLL } # The Isles clan territory - By San Felipe

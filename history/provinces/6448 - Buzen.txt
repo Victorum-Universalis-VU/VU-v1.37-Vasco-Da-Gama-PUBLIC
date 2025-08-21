@@ -1,0 +1,15 @@
+#6448 - Buzen
+
+#Default
+owner = OUC
+controller = OUC
+add_core = OUC
+culture = honichi 
+religion = shinto
+capital = "Kokura"
+trade_goods = rice
+hre = no
+base_tax = 8
+base_manpower = 8
+base_production = 8
+is_city = yes

@@ -1,0 +1,24 @@
+#527 - Khandesh
+
+#Default
+owner = KHD
+controller = KHD
+add_core = KHD
+culture = marathi
+religion = hinduism
+capital = "Burhanpur"
+trade_goods = cloth
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 10
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 2
+
+#Claimants
+add_core = MAR

@@ -1,0 +1,19 @@
+#7523 - Peine
+
+owner = BRU
+controller = BRU
+add_core = BRU
+culture = eastphalian
+religion = catholic
+capital = "Peine"
+trade_goods = fruit
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#1444 start date
+1444.1.1 = {
+	add_core = CLB
+}

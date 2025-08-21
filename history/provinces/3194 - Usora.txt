@@ -1,0 +1,18 @@
+#3194 - Usora
+
+#Default
+owner = BOS
+controller = BOS
+add_core = BOS
+culture = bosnian
+religion = catholic
+capital = "Bijeljina"
+trade_goods = salt
+hre = no
+base_tax = 3 
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+
+#Commerce
+center_of_trade = 1

@@ -1,0 +1,32 @@
+#Brest-Litovsk
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR 
+culture = polesian
+religion = orthodox
+hre = no
+base_tax = 3 
+base_production = 3 
+trade_goods = wool
+base_manpower = 1 
+capital = "Brest"
+is_city = yes 
+
+#Commerce
+center_of_trade = 1
+
+#Claimants
+add_core = BZL
+
+#Special Modifiers
+add_local_autonomy = 25
+
+#History by SF
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = KIR
+}

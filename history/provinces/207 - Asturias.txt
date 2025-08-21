@@ -1,0 +1,39 @@
+#207 - Asturias
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = AB0
+controller = AB0
+add_core = AB0
+culture = leonese
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 3
+trade_goods = livestock 
+base_manpower = 2
+capital = "Oviedo" 
+is_city = yes
+
+#Buildings
+town_hall = yes
+cathedral = yes
+marketplace = yes
+road_system = yes
+barracks = yes
+training_fields = yes
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1215.06.15 = {
+    add_core = LON
+}
+1350.1.1 = {
+    culture = castillian
+    add_core = CAS
+}

@@ -1,0 +1,16 @@
+#Lichtenberg
+#8466 - Dagsburg
+owner = LIC
+controller = LIC
+add_core = LIC
+capital = "Lichtenberg"
+is_city = yes
+culture = alsatian
+religion = catholic
+hre = yes
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = vegetables

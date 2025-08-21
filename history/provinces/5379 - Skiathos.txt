@@ -1,0 +1,25 @@
+#5379 - Skiathos
+
+#Default
+owner = BYZ
+controller = BYZ
+add_core = BYZ
+culture = greek
+religion = orthodox
+capital = "Skiathos"
+trade_goods = livestock			#Lemnos became a crucial source of food and very important holding in the later days of the Byzantine empire, apparently, supplying grain and livestock to the capital. Going with livestock because of the famous cheese.
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = LAE controller = LAE add_core = LAE } # Latin territorial lands - By San Felipe
+1444.11.11 = { owner = BYZ controller = BYZ add_core = BYZ } # Byzantine territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 50

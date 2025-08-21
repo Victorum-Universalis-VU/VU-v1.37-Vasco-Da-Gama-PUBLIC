@@ -1,0 +1,15 @@
+#4296 - Bitlis and Hakkari
+
+#Default
+owner = BTL
+controller = BTL
+add_core = BTL
+culture = kurdish
+religion = sunni
+capital = "Bitlis"
+trade_goods = livestock
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2 
+is_city = yes

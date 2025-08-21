@@ -1,0 +1,21 @@
+#274 - Pskov
+
+#Default
+owner = PSK
+controller = PSK
+add_core = PSK
+culture = novgorodian
+religion = orthodox
+hre = no
+base_tax = 8
+base_production = 8
+trade_goods = cloth
+base_manpower = 6
+capital = "Pskov"
+is_city = yes
+
+#Buildings
+fort_15th = yes			# The Pskov Krom (or Kremlin) withstood twenty-six sieges in the 15th century alone. At one point, five stone walls ringed it, making the city practically impregnable.   -Darth Modus taking fort down to level 1, because I didn't want an unbuildable fort in 1444, however strong it may have been
+
+#Commerce
+center_of_trade = 2

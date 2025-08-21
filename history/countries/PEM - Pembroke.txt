@@ -1,0 +1,13 @@
+#PEM - Pembroke #Re-added because Actually Prussia remembered Jasper Tudor.
+government = monarchy
+add_government_reform = unlocked_eng_earldom_reform
+government_rank = 4 #Earldom
+#technology_group = western
+technology_group = english_tech_group
+unit_type = western
+religion = catholic
+primary_culture = english
+add_accepted_culture = celtic_welsh_culture #Was welsh
+add_accepted_culture = welsh
+add_accepted_culture = anglo_irish	#Old English
+capital = 4369 #Pembrokeshire, Pembroke

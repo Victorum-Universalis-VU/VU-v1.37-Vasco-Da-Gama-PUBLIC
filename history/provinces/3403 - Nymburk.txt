@@ -1,0 +1,15 @@
+#3403 - Nymburk
+
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Nymburk"
+is_city = yes
+culture = czech
+religion = hussite
+base_tax = 3
+base_production = 2
+base_manpower = 2
+trade_goods = livestock
+hre = yes

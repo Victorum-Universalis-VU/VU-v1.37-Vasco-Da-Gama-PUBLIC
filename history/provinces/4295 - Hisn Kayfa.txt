@@ -1,0 +1,15 @@
+#4295 - Hisn Kayfa
+
+#Default
+owner = HSN
+controller = HSN
+add_core = HSN
+capital = "Hesn Kayfa"			#Syriac version
+culture = aramaic
+religion = nestorian			#A mix of Nestorian and other Oriental Orthodoxy
+trade_goods = cloth			#No particular reason, but rich-ish area
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 4
+is_city = yes

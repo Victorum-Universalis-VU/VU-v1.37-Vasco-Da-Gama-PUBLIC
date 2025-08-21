@@ -1,0 +1,21 @@
+#4685 - Karagandy
+
+#Default
+owner = SHY
+controller = SHY
+add_core = SHY
+culture = khazak
+religion = sunni
+capital = "Karagandy"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = KZH
+
+#Commerce
+center_of_trade = 1

@@ -1,0 +1,27 @@
+#1862 - Cremona
+
+#Default
+owner = MLO
+controller = MLO
+add_core = MLO
+culture = lombard
+religion = catholic
+hre = yes
+base_tax = 12
+base_production = 12
+trade_goods = vegetables
+base_manpower = 7
+capital = "Cremona"
+is_city = yes	# Estimated
+
+#History by SF
+1215.1.1 = {
+	owner = MAN
+	controller = MAN
+	add_core = MAN
+}
+1315.1.1 = {
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+}

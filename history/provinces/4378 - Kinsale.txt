@@ -1,0 +1,29 @@
+#4378 - Killarney
+
+latent_trade_goods = { 
+    coal 
+}
+
+#Default
+owner = MCM
+controller = MCM
+add_core = MCM
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 1  
+base_production = 2 
+base_manpower = 2 
+trade_goods = iron
+capital = "Cill Airne" #"Tráigh Lí"
+is_city = yes
+
+#Province Modifier
+add_permanent_province_modifier = {
+	name = roughty_estuary_modifier
+	duration = -1
+}
+add_permanent_province_modifier = {
+    name = warm_coast_ire
+    duration = -1
+}

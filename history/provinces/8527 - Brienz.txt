@@ -1,0 +1,16 @@
+#8527 - Brienz
+#Default
+owner = BRN
+controller = BRN
+add_core = BRN
+culture = swiss
+religion = catholic
+capital = "Brienz"
+trade_goods = wool
+hre = yes
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+#Buildings
+fort_15th = yes

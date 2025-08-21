@@ -1,0 +1,18 @@
+#1938 - Wizna
+
+#Default
+owner = MAZ
+controller = MAZ
+add_core = MAZ
+capital = "Wizna"
+culture = polish
+religion = catholic
+trade_goods = apiculture #Was naval supplies for some reason, changed to apiculture due to Poland/Lithuania being a major exporters -Don
+hre = no
+base_tax = 3  
+base_production = 1
+base_manpower = 2 
+is_city = yes
+
+#Buildings
+fort_15th = yes

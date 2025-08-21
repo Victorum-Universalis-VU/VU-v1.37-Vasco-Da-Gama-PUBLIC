@@ -1,0 +1,18 @@
+#2384 - Nong Khai
+
+#Default
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = lao
+religion = buddhism
+capital = "Nong Khai"
+trade_goods = silk
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = VIE

@@ -1,0 +1,8 @@
+#ZUN - Dzungaria
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 6 #Steppe_Horde
+primary_culture = dzungar
+religion = vajrayana
+technology_group = nomad_group
+capital = 715	# Kobdo

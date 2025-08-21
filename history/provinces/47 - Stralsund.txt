@@ -1,0 +1,28 @@
+#47 - Stralsund
+
+#Default
+owner = RUG
+controller = RUG			#Danish vassal until 1325
+add_core = RUG
+add_core = POM
+culture = pommeranian
+religion = catholic
+hre = no
+base_tax = 5
+base_production = 6
+trade_goods = pottery
+base_manpower = 4
+capital = "Stralsund"
+is_city = yes
+
+#Commerce
+center_of_trade = 3
+
+#History
+1325.1.1 = {
+	owner = WOL
+	controller = WOL
+	add_core = WOL
+	remove_core = POM
+	hre = yes
+}	#House of Wizlaw dies out. Rugen inherited by the Griffins and goes with them to Pomerania. Specifically Wartislaw IV of Wolgast.

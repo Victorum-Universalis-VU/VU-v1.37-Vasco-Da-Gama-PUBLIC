@@ -1,0 +1,19 @@
+#7033 - TuscanRomagna
+
+#Default
+owner = DOV
+controller = DOV
+add_core = DOV
+culture = romagnan
+religion = catholic
+capital = "Portico" # Dovadola too
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = copper #pewter production in Dovadola
+is_city = yes
+hre = yes
+
+#History by SF
+1215.6.15 = { owner = ARE controller = ARE add_core = ARE } # Arezzo territorial lands - By San Felipe
+1444.1.1 = { owner = ARE controller = ARE add_core = ARE } # Dovadola territorial lands - By San Felipe

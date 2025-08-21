@@ -1,0 +1,21 @@
+#7779 - Varberg
+
+#Default
+owner = HLL
+controller = HLL
+add_core = HLL
+culture = danish
+religion = catholic
+capital = "Varberg"
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = grain
+is_city = yes
+hre = no
+
+#Claimants
+add_core = SKN
+
+#History by SF
+1440.1.1 = { owner = DAN controller = DAN add_core = DAN } # Danish territorial lands - By San Felipe

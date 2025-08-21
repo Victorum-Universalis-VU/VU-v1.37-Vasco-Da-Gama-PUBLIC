@@ -1,0 +1,18 @@
+#4288 - Shatt
+
+#Default
+owner = MSY
+controller = MSY
+add_core = MSY
+culture = al_iraqiya_arabic
+religion = sunni
+capital = "Shatt"
+trade_goods = dates
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = BSR

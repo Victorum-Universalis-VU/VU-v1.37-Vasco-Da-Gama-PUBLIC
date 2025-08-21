@@ -1,0 +1,15 @@
+#1031 - Kamikawa
+
+#Default
+owner = ANU
+controller = ANU
+add_core = ANU
+culture = ainu
+religion = animism
+capital = "Kamikawa"
+trade_goods = grain
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+is_city = yes

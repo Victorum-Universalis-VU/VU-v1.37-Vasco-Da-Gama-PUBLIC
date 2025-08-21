@@ -1,0 +1,9 @@
+#ANF - Anfa
+government = republic
+add_government_reform = oligarchy_reform
+technology_group = muslim
+primary_culture = moroccan
+religion = sunni
+capital = 2469			#Anfa
+fixed_capital = 2469
+religious_school = maliki_school

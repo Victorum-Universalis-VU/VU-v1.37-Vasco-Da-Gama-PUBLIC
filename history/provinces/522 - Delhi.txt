@@ -1,0 +1,32 @@
+#522 - Delhi
+
+#Default
+owner = DLH
+controller = DLH
+add_core = DLH
+culture = kanauji
+religion = hinduism
+capital = "Delhi"
+trade_goods = silk
+hre = no
+base_tax = 13
+base_production = 13
+base_manpower = 13
+is_city = yes	#Still Recovering after sack by Timur
+
+#Claimants
+add_core = BHA
+add_core = MUL
+add_core = SRH
+
+#Commerce
+center_of_trade = 5
+
+#History by SF
+1414.1.1 = { remove_core = MUL }
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = vu_potential_archaeological_dig
+    duration = -1
+}

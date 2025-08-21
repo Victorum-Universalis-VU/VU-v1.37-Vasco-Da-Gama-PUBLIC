@@ -1,0 +1,34 @@
+#3571 - Most
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+culture = czech
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = wine
+capital = "Most"
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1444.1.1 = {
+    #Buildings
+    cinema = yes #Added by SF xD
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

@@ -1,0 +1,19 @@
+#4710 - Wangen im Allgäu
+#Region - Germany
+#Area - Tirol
+
+owner = RW7
+controller = RW7
+add_core = RW7
+culture = swabian
+religion = catholic
+base_tax = 6
+base_production = 6
+trade_goods = iron
+base_manpower = 2 
+capital = "Wangen im Allgäu" 
+is_city = yes	
+hre = yes
+
+#Claimants
+

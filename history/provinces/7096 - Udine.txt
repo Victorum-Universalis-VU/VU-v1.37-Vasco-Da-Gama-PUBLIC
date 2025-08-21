@@ -1,0 +1,32 @@
+#7096 - Udine
+
+#Default
+owner = AQU
+controller = AQU
+add_core = AQU
+culture = friulian_culture	#Appears borderline, but I think this is probably accurate enough
+religion = catholic
+capital = "Udine"
+base_tax = 8
+base_production = 8
+base_manpower = 5
+trade_goods = wine # Friuli wine region
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+	hre = no
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

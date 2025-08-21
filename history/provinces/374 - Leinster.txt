@@ -1,0 +1,31 @@
+#374 - Leinster
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = celtic_irish_culture #Was irish
+religion = catholic
+capital = "Fearna Mór Maedhóg"
+is_city = yes
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = copper
+
+#Claimants
+add_core = ANI
+
+#History by SF
+1444.11.11 = {
+    owner = LGN
+    controller = LGN
+    add_core = LGN
+} # Laighin clan territory - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

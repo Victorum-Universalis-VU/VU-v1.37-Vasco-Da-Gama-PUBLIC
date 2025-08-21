@@ -1,0 +1,22 @@
+#4443 - Karanja
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = marathi
+religion = hinduism
+capital = "Karanja"
+trade_goods = tea
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = BRR
+add_core = MAR
+
+#Commerce
+center_of_trade = 2

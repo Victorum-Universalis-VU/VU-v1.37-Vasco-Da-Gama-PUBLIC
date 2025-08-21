@@ -1,0 +1,31 @@
+#524 - Central Doab
+
+#Default
+owner = DLH
+controller = DLH
+add_core = DLH
+culture = kanauji
+religion = hinduism
+capital = "Mathura"
+trade_goods = silk
+hre = no
+base_tax = 13
+base_production = 13
+base_manpower = 13
+add_brahmins_or_church_effect = yes
+is_city = yes
+
+#Buildings
+fort_15th = yes # Badalgarh
+
+#Claimants
+add_core = JNP
+
+#Commerce
+center_of_trade = 5
+
+#History by SF
+1437.1.1 = {
+	owner = JNP
+	controller = JNP
+}

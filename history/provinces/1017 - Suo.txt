@@ -1,0 +1,15 @@
+#1017 - Suo
+
+#Default
+owner = OUC
+controller = OUC
+add_core = OUC
+culture = chugoku 
+religion = shinto
+capital = "Yamaguchi"
+trade_goods = salt
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 3
+is_city = yes

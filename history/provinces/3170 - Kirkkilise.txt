@@ -1,0 +1,22 @@
+#3170 - Kirkkilise
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = greek
+religion = orthodox
+capital = "Kirkkilise"
+trade_goods = fruit
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Special Modifiers
+add_local_autonomy = 10
+
+#History by SF
+1215.6.15 = { owner = LAE controller = LAE add_core = LAE } # Latin territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe

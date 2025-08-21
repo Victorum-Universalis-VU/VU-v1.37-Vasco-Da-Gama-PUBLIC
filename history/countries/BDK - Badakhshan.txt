@@ -1,0 +1,24 @@
+#BDK - Badakhshan
+government = monarchy
+add_government_reform = islamic_emirate_reform
+government_rank = 5 #Emirate
+primary_culture = pamiri
+add_accepted_culture = tajik
+religion = sunni
+technology_group = persian_tech_group
+unit_type = muslim
+capital = 452
+religious_school = hanafi_school
+
+#History by SF
+1444.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "of Badakhshan"
+		birth_date = 1395.1.1
+		adm = 3	
+		dip = 3	
+		mil = 3
+	}
+	add_piety = 0.5
+}

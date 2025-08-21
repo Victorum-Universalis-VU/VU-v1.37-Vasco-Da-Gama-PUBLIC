@@ -1,0 +1,24 @@
+#302 - Tambow
+
+#Default
+owner = GOL
+controller = GOL
+add_core = GOL
+culture = vu_mordvinic			#Mordvins
+religion = sunni
+hre = no
+base_tax = 2
+base_production = 1
+trade_goods = iron   
+base_manpower = 3 
+capital = "Tomba"
+is_city = yes
+
+#Claimants
+add_core = MOK
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

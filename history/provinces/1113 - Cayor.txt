@@ -1,0 +1,18 @@
+#1113 - Cayor
+
+#Default
+owner = JOL
+controller = JOL
+add_core = JOL
+culture = fulani
+is_city = yes
+base_manpower = 4
+religion = shamanism #Fetishism
+capital = "Mboul"
+trade_goods = ivory
+hre = no
+base_tax = 4
+base_production = 3
+
+#Commerce
+center_of_trade = 1

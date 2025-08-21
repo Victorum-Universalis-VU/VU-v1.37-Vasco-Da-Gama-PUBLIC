@@ -1,0 +1,35 @@
+#2985 - Capitanata
+
+#Default
+owner = NAP
+controller = NAP
+add_core = NAP
+culture = tunisian	#After the conquest of Sicily in the early 1200s, there was a massive (comparitively friendly) relocation of all Arabs and Muslims to Lucera, turning the medium sized town into a bustling city of several 10s of thousands, one of the largest in Italy, with a strong Arab Muslim majority.
+religion = sunni
+capital = "Lucera"
+base_tax = 7
+base_production = 7
+base_manpower = 5
+trade_goods = grain
+is_city = yes
+hre = no
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#History by SF
+1215.6.15 = { owner = SIC controller = SIC add_core = SIC } # Sicilian territorial lands - By San Felipe
+1300.1.1 = {
+	culture = neapolitan
+	religion = catholic
+	base_tax = 4
+	base_production = 3
+	base_manpower = 2
+} # Sacked by Charles II and killed/enslaved Arabic population.
+1318.1.1 = {
+	base_tax = 3
+}	#Effective capital of the region moves to the accendant San Severo
+1444.11.11 = { owner = NAP controller = NAP add_core = NAP } # Napolitan territorial lands - By San Felipe

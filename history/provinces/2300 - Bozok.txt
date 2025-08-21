@@ -1,0 +1,23 @@
+#2300 - Bozok
+
+#Default
+owner = RUM
+controller = RUM
+add_core = RUM
+culture = armenian				#area been directly under or a dependant of Turks for over 200 year at this point, but a couple maps I found suggest Armenian settlement was still in the majority, in the rural parts if not in the cities.
+religion = miaphysite			#Found quote, 'The town was predominantly Muslim in the mid 17th century'. -Darth Modus what about before??? going with Turkish after this, but Armenian before this
+capital = "Zara"				#Making it Zara after Niksar is independent province
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = TRE
+add_core = CIK
+add_core = ERE
+
+#History by SF
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe

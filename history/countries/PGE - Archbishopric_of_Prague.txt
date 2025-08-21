@@ -1,0 +1,11 @@
+#PGE - Archbishopric_of_Prague
+government = theocracy
+add_government_reform = church_of_bohemia_archbishopric_reform
+government_rank = 5 #Archbishopric
+primary_culture = czech
+religion = catholic
+elector = yes
+capital = 266 # Praha
+#technology_group = eastern
+technology_group = bohemian_tech_group
+unit_type = western

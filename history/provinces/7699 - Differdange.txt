@@ -1,0 +1,25 @@
+#7699 - Differdange
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = LUX
+controller = LUX
+add_core = LUX
+capital = "Differdange"
+is_city = yes
+culture = luxembourgish
+religion = catholic 
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = cheese #Changed this to cheese since I'm moving the leather to Munster and cheese can be a byproduct of livestock.
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = BUR

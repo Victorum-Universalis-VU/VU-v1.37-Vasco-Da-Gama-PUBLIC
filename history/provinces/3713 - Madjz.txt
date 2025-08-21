@@ -1,0 +1,19 @@
+#3713 - Madjz
+
+#Default
+owner = RAS
+controller = RAS
+add_core = RAS
+culture = yemeni_culture
+religion = shiite
+capital = "Madjz"
+trade_goods = dates
+hre = no
+base_tax = 1  
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
+1444.11.11 = { owner = RAS controller = RAS add_core = RAS } # Rassids territorial lands - By San Felipe

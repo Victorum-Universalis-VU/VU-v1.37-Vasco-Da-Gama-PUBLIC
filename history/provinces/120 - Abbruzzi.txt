@@ -1,0 +1,19 @@
+#120 - Abbruzzi
+
+#Default
+owner = NAP
+controller = NAP
+add_core = NAP
+culture = neapolitan 
+religion = catholic 
+hre = no 
+base_tax = 5
+base_production = 5
+trade_goods = lead
+base_manpower = 4
+capital = "L'Aquila" 
+is_city = yes 
+
+#History by SF
+1215.6.15 = { owner = SIC controller = SIC add_core = SIC } # Sicilian territorial lands - By San Felipe
+1444.11.11 = { owner = NAP controller = NAP add_core = NAP } # Napolitan territorial lands - By San Felipe

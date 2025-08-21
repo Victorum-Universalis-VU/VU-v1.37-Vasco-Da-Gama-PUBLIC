@@ -1,0 +1,14 @@
+#8535 - Jestetten
+
+owner = LKU
+controller = LKU
+add_core = LKU 
+culture = swiss
+religion = catholic
+capital = "Jestetten"
+trade_goods = wool
+hre = yes
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes

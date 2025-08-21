@@ -1,0 +1,18 @@
+#6618 - Al_Qurnah
+
+#Default
+owner = MSY
+controller = MSY
+add_core = MSY
+culture = al_iraqiya_arabic
+religion = sunni
+capital = "al-Qurna"
+trade_goods = dyes
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = BSR

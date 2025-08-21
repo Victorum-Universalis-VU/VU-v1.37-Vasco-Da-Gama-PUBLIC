@@ -1,0 +1,31 @@
+#215 - Valladolid
+
+#Default
+owner = LON
+controller = LON
+add_core = LON
+culture = leonese
+religion = catholic
+hre = no
+base_tax = 7
+base_production = 7
+trade_goods = herbs
+base_manpower = 4
+capital = "Valladolid"
+is_city = yes
+
+#Buildings - SF
+road_system = yes
+town_hall = yes
+workshop = yes
+marketplace = yes
+cathedral = yes
+
+#Commerce
+center_of_trade = 3
+
+#History by SF
+1350.1.1 = {
+    culture = castillian
+    add_core = CAS
+}

@@ -1,0 +1,18 @@
+#814 - Huanuco
+
+#Default
+owner = HJA
+controller = HJA
+add_core = HJA
+culture = inca
+religion = inti
+capital = "Huanuco"
+trade_goods = llama
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Commerce
+center_of_trade = 1

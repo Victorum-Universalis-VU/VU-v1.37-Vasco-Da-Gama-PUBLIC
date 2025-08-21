@@ -1,0 +1,15 @@
+#5119 - Gouda
+
+#Default
+owner = HOL
+controller = HOL
+add_core = HOL
+capital = "Gouda"
+is_city = yes
+culture = ger_dutch
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 3
+trade_goods = cheese #Famous for Gouda cheese (by San Felipe).
+base_manpower = 1

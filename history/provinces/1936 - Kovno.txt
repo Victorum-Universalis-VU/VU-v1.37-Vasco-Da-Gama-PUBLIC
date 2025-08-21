@@ -1,0 +1,27 @@
+#1936 - Kovno
+
+#Default
+owner = LIT
+controller = LIT
+add_core = LIT
+culture = lithuanian
+religion = catholic
+capital = "Kaunas"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1 
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#Claimanta
+add_core = POK
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}

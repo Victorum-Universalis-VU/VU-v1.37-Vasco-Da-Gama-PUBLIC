@@ -1,0 +1,29 @@
+#7088 - Cadore
+
+#Default
+owner = AQU
+controller = AQU
+add_core = AQU
+culture = ladin_culture
+religion = catholic
+capital = "Pieve"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = lumber		#it's rich timber was the primary material of the Venetian navy
+is_city = yes
+hre = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = vu_forests_of_cadore
+	duration = -1
+} 
+
+#History by SF
+1433.1.1 = {
+	hre = no
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+} 

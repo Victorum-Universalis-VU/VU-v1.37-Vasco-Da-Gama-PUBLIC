@@ -1,0 +1,22 @@
+#7909 - Saint-Étienne
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = FOR
+controller = FOR
+add_core = FOR
+culture = arpitan
+religion = catholic
+capital = "Saint-Étienne"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = cloth
+is_city = yes
+hre = no
+
+#Claimants
+add_core = FRA

@@ -1,0 +1,14 @@
+#2335 - Tamara
+
+#Default
+capital = "Wadi Ad Dawasir"
+culture = bedouin_arabic
+religion = sunni
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+native_size = 10
+native_ferocity = 9
+native_hostileness = 5

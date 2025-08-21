@@ -1,0 +1,15 @@
+#3053 - Schwabisch_Hall
+
+#Default
+owner = URA
+controller = URA
+add_core = URA
+capital = "Schwäbisch Hall"
+religion = catholic
+culture = swabian
+trade_goods = salt
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+hre = yes

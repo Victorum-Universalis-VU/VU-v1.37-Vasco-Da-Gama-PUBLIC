@@ -1,0 +1,19 @@
+#2456 - Touggourt
+
+#Default
+owner = TGT
+controller = TGT
+add_core = TGT
+culture = mozabite
+religion = sunni
+capital = "Touggourt"
+trade_goods = dates
+hre = no
+base_tax = 2
+base_production = 1 
+base_manpower = 2
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = TGT controller = TGT add_core = TGT remove_core = AMD } # Touggourt territorial lands - By San Felipe

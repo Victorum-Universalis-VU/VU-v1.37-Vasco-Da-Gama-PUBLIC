@@ -1,0 +1,18 @@
+#5272 - Marsa Matrouh
+
+#Default
+owner = MAM
+controller = MAM
+add_core = MAM
+capital = "Marsa"
+culture = al_misr_arabic
+religion = sunni
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+
+#Special Modifiers
+add_local_autonomy = 50

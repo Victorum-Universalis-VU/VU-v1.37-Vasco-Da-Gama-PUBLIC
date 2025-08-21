@@ -1,0 +1,23 @@
+#1758 - Hannover
+#Region - Germany
+#Area - Lower Saxony
+
+owner = BRU
+controller = BRU
+add_core = BRU
+culture = eastphalian
+religion = catholic
+capital = "Hannover"
+trade_goods = cloth
+hre = yes
+base_tax = 8
+base_production = 8
+base_manpower = 4 
+is_city = yes
+add_core = BRU
+center_of_trade = 2
+
+#1444 start date
+1444.1.1 = {
+	add_core = CLB
+}

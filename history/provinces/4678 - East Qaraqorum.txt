@@ -1,0 +1,24 @@
+#4678 - East Qaraqorum
+
+#Default
+owner = OIR
+controller = OIR
+add_core = OIR
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Sain Noyon"
+trade_goods = horses
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = KHA
+
+#Commerce
+center_of_trade = 2
+
+#Triggered Modifiers
+add_province_triggered_modifier = mongol_kurultai

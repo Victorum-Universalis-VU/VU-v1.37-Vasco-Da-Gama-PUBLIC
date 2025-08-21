@@ -1,0 +1,15 @@
+#7512 - Ahaus
+
+#Default
+owner = AHS
+controller = AHS
+add_core = AHS
+culture = hannoverian
+religion = catholic
+capital = "Ahaus"
+trade_goods = dyes #Woad
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 2
+is_city = yes

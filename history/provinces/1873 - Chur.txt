@@ -1,0 +1,19 @@
+#1873 - Bregenz
+#Region - Germany
+#Area - Switzerland
+
+owner = TIR
+controller = TIR
+add_core = TIR
+culture = austrian
+religion = catholic
+capital = "Chur"
+trade_goods = livestock
+hre = yes
+base_tax = 6 
+base_production = 6
+base_manpower = 4 
+is_city = yes
+
+#Claimants
+add_core = MBZ

@@ -1,0 +1,21 @@
+#1968 - Kulob
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = tajik
+religion = sunni
+capital = "Kulob"
+trade_goods = carpet
+hre = no
+base_tax = 4  
+base_production = 4
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = TRS
+
+#Commerce
+center_of_trade = 1

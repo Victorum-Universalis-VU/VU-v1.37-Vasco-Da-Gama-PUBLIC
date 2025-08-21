@@ -1,0 +1,18 @@
+#2447 - Matrega
+
+#Default
+owner = GZR
+controller = GZR
+add_core = GZR
+culture = pontic_greek
+religion = orthodox
+hre = no
+base_tax = 3 
+base_production = 3
+trade_goods = slaves
+base_manpower = 1
+capital = "Matrega"
+is_city = yes
+
+#Claimants
+add_core = CIR

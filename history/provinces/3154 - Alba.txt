@@ -1,0 +1,17 @@
+#3154 - Alba
+
+owner = TRA
+controller = TRA
+add_core = TRA
+culture = romanian
+religion = orthodox
+capital = "Aiud" #"Alba Iulia"
+trade_goods = gold
+hre = no
+base_tax = 2
+base_production = 2 
+base_manpower = 1 
+is_city = yes
+
+#Claimants
+add_core = HUN

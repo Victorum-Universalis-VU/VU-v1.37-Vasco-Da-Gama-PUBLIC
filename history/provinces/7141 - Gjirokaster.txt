@@ -1,0 +1,24 @@
+#7141 - Gjirokaster
+
+#Default
+owner = EPI
+controller = EPI
+add_core = EPI
+culture = albanian
+religion = orthodox
+capital = "Gjirokastër"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = vegetables			#Somewhat large center of agriculture under the Ottomans, it seems.
+is_city = yes
+hre = no
+
+#Claimants
+add_core = ALB
+
+#Special Modifiers
+add_local_autonomy = 10
+
+#History by SF
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe

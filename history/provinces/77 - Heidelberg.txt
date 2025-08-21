@@ -1,0 +1,17 @@
+#77 - Heidelberg
+
+capital = "Heidelberg"
+culture = franconian
+religion = catholic
+trade_goods = champagne_bottle
+owner = PAL
+base_tax = 10
+base_production = 10
+base_manpower = 8
+is_city = yes
+controller = PAL
+add_core = PAL
+hre = yes
+
+#Buildings
+fort_15th = yes

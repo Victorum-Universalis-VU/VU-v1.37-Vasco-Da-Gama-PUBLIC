@@ -1,0 +1,23 @@
+#3998 - Burdur (Province, not the lake)
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = turkish
+religion = sunni
+capital = "Burdur"
+trade_goods = carpet			#Trade from Egypt flew through town but no specification of production
+hre = no
+base_tax = 2  
+base_production = 2 
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = GRM
+add_core = TKK
+
+#History by SF
+1215.6.15 = { owner = RUM controller = RUM add_core = RUM } #Rum territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe

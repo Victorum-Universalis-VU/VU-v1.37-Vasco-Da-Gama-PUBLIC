@@ -1,0 +1,32 @@
+#3223 - Biala
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR
+culture = yotvingian_culture
+religion = catholic
+capital = "Bialystok"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = pottery		#Biaystok was mostly artisan-oriented settlement, focused on small industry and food processing. Pottery looks fine
+is_city = yes
+hre = no
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = KIR
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population
+    duration = -1
+}

@@ -1,0 +1,14 @@
+#7589 - Dischingen
+#Default
+owner = HLF
+controller = HLF
+add_core = HLF
+culture = bavarian
+religion = catholic
+base_tax = 4
+base_production = 3
+trade_goods = herbs
+base_manpower = 2
+capital = "Dischingen"
+is_city = yes
+hre = yes

@@ -1,0 +1,14 @@
+#6541 - Mayo_Kebbi_Est
+
+owner = SAO
+controller = SAO
+add_core = SAO
+culture = bilala 
+religion = sunni
+capital = "Bongor"
+trade_goods = palm_oil
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1 
+is_city = yes

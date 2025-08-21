@@ -1,0 +1,15 @@
+#1768 - Lienz
+
+#Default
+owner = GRZ
+controller = GRZ
+add_core = GRZ
+culture = austrian
+religion = catholic
+base_tax = 8 
+base_production = 8
+trade_goods = iron
+base_manpower = 4 
+capital = "Lienz" 
+is_city = yes	
+hre = yes

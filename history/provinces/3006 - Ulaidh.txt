@@ -1,0 +1,35 @@
+#3006 - Ulaidh
+
+#Default
+owner = CLN
+controller = CLN
+add_core = CLN
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 4  
+base_production = 4 
+base_manpower = 2 
+trade_goods = naval_supplies
+capital = "Béal Feirste" #"Dún Pádraig"
+is_city = yes
+
+#Claimants
+add_core = ANI
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = lagan_estuary_modifier
+	duration = -1
+}
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+#History by SF
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # English Lordship of Ireland territory - By San Felipe
+1444.11.11 = { owner = CLN controller = CLN add_core = CLN } # Offaly clan territory - By San Felipe

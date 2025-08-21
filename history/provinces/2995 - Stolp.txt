@@ -1,0 +1,42 @@
+#2995 - Stolp
+
+#Default
+owner = POL
+controller = POL
+add_core = POL
+culture = kashubian_culture
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = amber
+base_manpower = 2 
+capital = "Stolp"
+is_city = yes
+
+#Claimants
+add_core = POM
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1295.1.1 = {
+	owner = STP
+	controller = STP
+	add_core = STP
+	remove_core = POM
+	remove_core = POL
+}#Barnim II of Pomerania dies, killed by the husband of a woman he seduced. Pomerania fractures.
+1420.1.1 = { culture = pommeranian }
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+add_permanent_province_modifier = {
+    name = baltic_amber_small
+    duration = -1
+}

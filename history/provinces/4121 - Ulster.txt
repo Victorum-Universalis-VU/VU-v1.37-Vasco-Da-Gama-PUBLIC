@@ -1,0 +1,23 @@
+#4121 - Ulster
+
+#Default
+owner = ANR
+add_core = ANR
+controller = ANR
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 4 
+base_production = 4 
+base_manpower = 2 
+trade_goods = whiskey #Irish Whiskey (by San Felipe).
+capital = "Cois Abhann Dalla"
+#capital = "Carraig Fhearghais"
+is_city = yes
+
+#Claimants
+add_core = ANI
+
+#History by SF
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # English Lordship of Ireland territory - By San Felipe
+1444.11.11 = { owner = ANR controller = ANR add_core = ANR } # Offaly clan territory - By San Felipe

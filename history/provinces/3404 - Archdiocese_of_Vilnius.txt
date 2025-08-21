@@ -1,0 +1,18 @@
+#3404 - Archdiocese_of_Vilnius
+
+#Default
+owner = LIT
+controller = LIT
+add_core = LIT
+capital = "Tilto"
+is_city = yes
+culture = lithuanian
+religion = catholic
+trade_goods = books
+hre = no
+base_tax = 3
+base_production = 2 
+base_manpower = 1
+
+#Buildings
+grand_cathedral = yes #Archbishopric of Vilnius

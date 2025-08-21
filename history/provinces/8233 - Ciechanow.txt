@@ -1,0 +1,15 @@
+#8233 - Ciechanow
+
+#Default
+capital = "Ciechanów"
+is_city = yes
+owner = MAZ
+controller = MAZ
+add_core = MAZ
+culture = polish
+religion = catholic
+base_tax = 3
+base_production = 1
+base_manpower = 2
+trade_goods = lumber
+hre = no

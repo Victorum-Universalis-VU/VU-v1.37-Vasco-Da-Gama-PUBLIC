@@ -1,0 +1,28 @@
+#7008 - Melfi
+
+#Default
+owner = NAP
+controller = NAP
+add_core = NAP
+culture = neapolitan
+religion = catholic
+capital = "Melfi"
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = wine
+is_city = yes
+hre = no
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}
+
+#History by SF
+1215.6.15 = { owner = SIC controller = SIC add_core = SIC } # Sicilian territorial lands - By San Felipe
+1300.1.1 = {
+	fort_15th = yes
+} # Official residence of the Queen, renovated and enlarged during Charles II's reigh (1285-1309)
+1444.11.11 = { owner = NAP controller = NAP add_core = NAP } # Napolitan territorial lands - By San Felipe

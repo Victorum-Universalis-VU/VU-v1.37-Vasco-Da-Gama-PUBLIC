@@ -1,0 +1,21 @@
+#661 - Dali
+
+#Default
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = bai
+religion = buddhism
+capital = "Dali"
+trade_goods = marble
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 10
+is_city = yes
+
+#Claimants
+add_core = CDL
+
+#Commerce
+center_of_trade = 2

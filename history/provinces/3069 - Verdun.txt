@@ -1,0 +1,21 @@
+#3069 - Verdun
+
+#Default
+owner = BAR
+controller = BAR
+add_core = BAR
+capital = "Verdun"
+is_city = yes
+culture = lorraine_culture
+religion = catholic
+hre = yes
+base_tax = 8
+base_production = 8
+trade_goods = cheese #Changed this to cheese since I'm moving the leather to Munster and cheese can be a byproduct of livestock.
+base_manpower = 6
+
+#Buildings
+fort_15th = yes # La Notre-Dame de Verdun
+
+#Commerce
+center_of_trade = 2

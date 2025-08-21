@@ -1,0 +1,21 @@
+#304 - Pensa
+
+#Default
+owner = KAZ
+controller = KAZ
+add_core = KAZ
+culture = vu_mordvinic
+religion = sunni
+hre = no
+base_tax = 2
+base_production = 1
+trade_goods = wool  
+base_manpower = 3 
+capital = "Atemar"
+is_city = yes
+
+#Claimants
+add_core = MOK
+
+#Commerce
+center_of_trade = 1

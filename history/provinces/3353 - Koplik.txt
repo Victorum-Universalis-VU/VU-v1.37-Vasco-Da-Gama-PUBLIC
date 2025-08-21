@@ -1,0 +1,22 @@
+#3353 - Koplik
+
+#Default
+owner = MON
+controller = MON
+add_core = MON
+culture = albanian
+religion = orthodox
+capital = "Koplik"
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = wool
+is_city = yes
+hre = no
+
+#History by SF
+1215.6.15 = { owner = EPI controller = EPI add_core = EPI } # Epirian territorial lands - By San Felipe
+1444.1.1 = { owner = MON controller = MON add_core = MON add_claim = TUR } # Albanian territorial lands - By Quonton
+
+#Special Modifiers
+add_local_autonomy = 10

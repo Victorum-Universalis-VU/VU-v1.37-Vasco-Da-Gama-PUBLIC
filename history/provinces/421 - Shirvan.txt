@@ -1,0 +1,35 @@
+#421 - Shirvan
+
+#Default
+owner = SRV
+controller = SRV
+add_core = SRV
+culture = azerbaijani
+religion = shiite
+capital = "Baku"
+trade_goods = silk
+hre = no
+base_tax = 5  
+base_production = 5 
+base_manpower = 3 
+is_city = yes
+
+#Claimants
+add_core = TAT
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+	name = vu_potential_archaeological_dig
+	duration = -1
+}
+add_permanent_province_modifier = {
+	name = kura_estuary_modifier
+	duration = -1
+}

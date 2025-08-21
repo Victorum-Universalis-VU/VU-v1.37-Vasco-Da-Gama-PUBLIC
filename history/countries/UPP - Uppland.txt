@@ -1,0 +1,12 @@
+#UPP - Uppland
+government = monarchy
+add_government_reform = unlocked_eue_county_reform
+government_rank = 4 #County
+primary_culture = danish
+religion = catholic
+#technology_group = western
+technology_group = scandinavian_tech_group
+unit_type = western
+historical_friend = DAN
+historical_rival = SHL
+capital = 3123 #Uppsala

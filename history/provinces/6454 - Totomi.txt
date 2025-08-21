@@ -1,0 +1,15 @@
+#6454 - Totomi
+
+#Default
+owner = SBA
+controller = SBA
+add_core = SBA
+culture = tokai 
+religion = shinto
+capital = "Kakegawa"
+trade_goods = lumber
+hre = no
+base_tax = 7
+base_manpower = 7
+base_production = 7
+is_city = yes

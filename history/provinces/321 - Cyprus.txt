@@ -1,0 +1,17 @@
+#321 - Cyprus
+
+owner = CYP
+controller = CYP
+add_core = CYP
+culture = cypriot
+religion = orthodox
+capital = "Limassol"
+trade_goods = copper   #The word Cypres comes from Cuprum meaning copper, hence it's name as one of the biggest mining areas since antiquity
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = ROC

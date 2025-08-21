@@ -1,0 +1,78 @@
+#PRO - Provence
+government = monarchy
+add_government_reform = unlocked_eue_duchy_reform
+government_rank = 6 #Duchy
+primary_culture = occitain
+add_accepted_culture = angevin_culture
+add_accepted_culture = angevin_UKS #Anglowaaaaa! - DM :)
+add_accepted_culture = lorraine_culture
+religion = catholic
+technology_group = french_tech_group
+unit_type = western
+capital = 7893 #Aix-en-Provence
+
+#History by Prussia
+1215.6.15 = {
+    add_government_reform = unlocked_eue_county_reform
+	government_rank = 5 #County_Reform
+	monarch = {
+		name = "Ramon Berenguer V"
+		dynasty = "de Barcelona"
+		birth_date = 1198.1.1
+		death_date = 1245.8.19
+		adm = 4
+		dip = 4
+		mil = 4 #Took part in Albagensian Crusade, made a lot of friends and was a competent ruler - Prussia
+	}
+}
+
+#Married Beatrice of Savoy in 1220s - Prussia
+
+1434.11.16 = {
+	monarch = {
+		name = "René I"
+		dynasty = "de Valois-Anjou"
+		birth_date = 1409.1.16
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+	queen = {
+		country_of_origin = LOR
+		name = "Isabella"
+		dynasty = "de Metz"
+		birth_date = 1400.1.1
+		death_date = 1453.2.28
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1435.2.2 = { add_accepted_culture = sicilian }
+
+1436.1.1 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles III"
+		dynasty = "de Valois-Anjou"
+		birth_date = 1436.1.1
+		death_date = 1481.1.1
+		claim = 95
+		adm = 0
+		dip = 2
+		mil = 1
+	}
+}
+
+1442.6.2 = { remove_accepted_culture = sicilian }
+
+1444.1.1 = {
+	capital = 178 #Anjou
+}
+
+1444.11.11 = {
+    add_government_reform = unlocked_eue_duchy_reform
+	government_rank = 6 #Duchy
+}

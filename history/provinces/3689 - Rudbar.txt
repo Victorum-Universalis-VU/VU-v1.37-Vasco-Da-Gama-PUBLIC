@@ -1,0 +1,25 @@
+#3689 - Rudbar
+
+#Default
+owner = KRY
+controller = KRY
+add_core = KRY
+culture = mazandarani
+religion = shiite
+capital = "Rudbar"
+trade_goods = carpet
+hre = no
+base_tax = 6
+base_production = 5
+base_manpower = 3
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = HAH		#Assassins Order' old lands
+add_core = QOM		#Contested border region
+
+#Commerce
+center_of_trade = 1

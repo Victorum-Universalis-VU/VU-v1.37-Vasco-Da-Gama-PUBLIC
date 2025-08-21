@@ -1,0 +1,19 @@
+#8433 - Île de Ré
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+capital = "Saint-Martin-de-Ré"
+is_city = yes
+culture = poitevin_culture
+religion = catholic 
+hre = no
+base_tax = 1
+base_production = 2
+trade_goods = seafood
+base_manpower = 1
+
+#Claimants
+add_core = POI
+add_core = GUY

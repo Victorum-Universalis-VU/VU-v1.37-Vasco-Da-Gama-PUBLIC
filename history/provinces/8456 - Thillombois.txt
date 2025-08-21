@@ -1,0 +1,19 @@
+#8456 - Thillombois
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = LOR
+controller = LOR
+add_core = LOR
+capital = "Thillombois"
+is_city = yes
+culture = lorraine_culture
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = livestock
+base_manpower = 1

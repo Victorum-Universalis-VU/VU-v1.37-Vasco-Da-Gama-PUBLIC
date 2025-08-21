@@ -1,0 +1,18 @@
+#8542 - Meran
+
+#Default
+owner = TIR
+controller = TIR
+add_core = TIR
+culture = austrian
+religion = catholic
+capital = "Meran"
+base_tax = 1
+base_production = 3
+base_manpower = 2
+trade_goods = apiculture
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = FRG

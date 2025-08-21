@@ -1,0 +1,28 @@
+#3358 - Porto Palermo
+
+#Default
+owner = ZHR
+controller = ZHR
+add_core = ZHR
+culture = albanian
+religion = orthodox
+capital = "Berat"
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = cheese
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = ALB
+
+#History by SF
+1215.6.15 = { owner = EPI controller = EPI add_core = EPI } # Epirian territorial lands - By San Felipe
+1444.1.1 = { owner = ZHR controller = ZHR add_core = ZHR add_claim = TUR } # Albanian territorial lands - By Quonton
+
+#Special Modifiers
+add_local_autonomy = 10

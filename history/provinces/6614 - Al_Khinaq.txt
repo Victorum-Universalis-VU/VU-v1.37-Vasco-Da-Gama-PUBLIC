@@ -1,0 +1,19 @@
+#6614 - Al_Khinaq
+
+#Default
+owner = QAR
+controller = QAR
+add_core = QAR
+culture = al_iraqiya_arabic
+religion = shiite
+capital = "al-Khinaq"
+trade_goods = dates
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = JAL
+add_core = MSY

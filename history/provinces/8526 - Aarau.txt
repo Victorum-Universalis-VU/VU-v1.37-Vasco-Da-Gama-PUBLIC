@@ -1,0 +1,17 @@
+#8526 - Aargau
+
+owner = BD9
+controller = BD9 
+add_core = BD9
+culture = swiss
+religion = catholic
+capital = "Aargau"
+trade_goods = livestock
+hre = yes
+base_tax = 2
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = ARU

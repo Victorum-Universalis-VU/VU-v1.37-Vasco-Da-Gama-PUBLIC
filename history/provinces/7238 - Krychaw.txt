@@ -1,0 +1,26 @@
+#7238 - Krychaw
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR
+culture = byelorussian
+religion = orthodox
+capital = "Krychaw"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = lumber
+is_city = yes
+hre = no
+
+#History by SF
+1444.1.11 = {
+    owner = CHR
+    controller = CHR
+    add_core = CHR
+	remove_core = KIR
+}
+
+#Special Modifiers
+add_local_autonomy = 25

@@ -1,0 +1,24 @@
+#692 - Handan
+
+#Default
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = jin
+religion = confucianism
+capital = "Huaiqing"
+trade_goods = millet
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = JIN
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = grand_canal_modifier
+	duration = -1
+}

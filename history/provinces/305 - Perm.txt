@@ -1,0 +1,21 @@
+#305 - Perm
+
+#Default
+owner = PRM
+controller = PRM
+add_core = PRM
+culture = vu_komi
+religion = tengri_pagan_reformed
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = copper
+base_manpower = 2 
+capital = "Yagoshikha"
+is_city = yes
+
+#Claimants
+add_core = KOM
+
+#Commerce
+center_of_trade = 1

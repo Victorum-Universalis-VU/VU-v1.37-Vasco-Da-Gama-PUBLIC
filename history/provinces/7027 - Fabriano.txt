@@ -1,0 +1,22 @@
+#7027 - Fabriano
+
+#Default
+owner = FAB
+controller = FAB
+add_core = FAB
+culture = umbrian
+religion = catholic
+capital = "Fabriano"
+base_tax = 4
+base_production = 4
+base_manpower = 3
+trade_goods = paper # famous paper mills
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe
+1444.11.11 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe

@@ -1,0 +1,30 @@
+#4277 - Taif
+
+#Default
+owner = HED
+controller = HED
+add_core = HED
+capital = "Ta'if"
+culture = hejazi_culture
+religion = sunni
+trade_goods = dates			#agriculture and fruit-growing in addition to their trade activities
+hre = no
+base_tax = 3
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = MCC
+
+#History by SF
+1215.6.15 = { 
+	owner = MAM 
+	controller = MAM 
+	add_core = MAM 
+} # Mamluk territorial lands - By San Felipe
+1444.11.11 = { 
+	owner = HED 
+	controller = HED 
+	add_core = HED 
+} # Hedjaz territorial lands - By San Felipe

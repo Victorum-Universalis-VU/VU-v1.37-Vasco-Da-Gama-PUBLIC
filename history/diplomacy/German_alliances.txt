@@ -1,0 +1,65 @@
+###############################################################
+##########################   GERMANY   ########################
+###############################################################
+
+# Brandenburg and Ansbach
+dependency = {
+	subject_type = cadet_branch
+	first = BRA
+	second = ANS
+	start_date = 1440.9.20
+	end_date = 1791.12.2
+}
+
+# Brandenburg and Kulmbach
+dependency = {
+	subject_type = cadet_branch
+	first = BRA
+	second = KMB
+	start_date = 1440.9.20
+	end_date = 1791.12.2
+}
+
+# Mecklenburg-Stargard
+dependency = {
+    subject_type = cadet_branch
+    first = M5H
+    second = STR
+    start_date = 1444.1.1 #Was 1352.11.25
+    end_date = 1471.1.1
+}
+
+# Saxony and Thuringia until the Leipziger Teilung
+dependency = {
+    subject_type = german_crown_PU
+    first = SAX
+	second = THU
+	start_date = 1444.10.29
+	end_date = 1485.8.26
+}
+
+# Wurzburg and Bamberg
+vassal = {
+	first = WBG
+	second = BAM
+	start_date = 1444.1.1
+	end_date = 1803.1.1
+}
+
+# Munich and Passau
+vassal = {
+	first = UBV
+	second = PSS
+	start_date = 1444.1.1
+	end_date = 1503.11.30
+}
+
+# Bremen and Verden
+dependency = {
+	subject_type = christian_bishopric
+    first = A8B
+    second = VER
+    start_date = 1444.1.1
+    end_date = 1679.6.29
+}
+

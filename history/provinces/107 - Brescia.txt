@@ -1,0 +1,29 @@
+#107 - Brescia
+
+#Default
+owner = BSC
+controller = BSC
+add_core = BSC
+culture = lombard 
+religion = catholic 
+hre = yes 
+base_tax = 8
+base_production = 8
+trade_goods = wine			#cloth in vanilla, but I found no evidence? Anyways, Wine, Olives and Caviar/Fish are the most important, with Wine leading
+base_manpower = 5
+capital = "Brescia" 
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#History by SF
+1426.10.6 = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+}	#Brescia swears loyalty to Venice
+1433.1.1 = { hre = no } # Treaty between Doge Francesco Foscari and Emperor Sigismund of the HRE

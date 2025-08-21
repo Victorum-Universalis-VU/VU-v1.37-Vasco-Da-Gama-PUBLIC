@@ -1,0 +1,18 @@
+#7963 - Beauvais
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+culture = cosmopolitan_french
+religion = catholic
+capital = "Beauvais"
+base_tax = 5
+base_production = 4
+base_manpower = 2
+trade_goods = pottery #Known for producing pottery and ceramics (by San Felipe).
+is_city = yes
+hre = no
+
+#Claimants
+add_core = VRD

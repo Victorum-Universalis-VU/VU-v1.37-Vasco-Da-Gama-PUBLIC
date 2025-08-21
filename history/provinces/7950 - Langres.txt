@@ -1,0 +1,19 @@
+#7950 - Langres
+
+#Default
+owner = LGR
+controller = LGR
+add_core = LGR
+culture = burgundian
+religion = catholic
+capital = "Langres"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = livestock
+is_city = yes
+hre = no
+
+#Claimants
+add_core = CHP
+add_core = FRA

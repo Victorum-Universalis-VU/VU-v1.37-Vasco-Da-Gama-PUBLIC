@@ -1,0 +1,22 @@
+#7629 - Ziesar
+
+#Default
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 2
+trade_goods = vegetables
+capital = "Ziesar"
+is_city = yes
+
+#History by SF
+1444.1.1 = {
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+}

@@ -1,0 +1,18 @@
+#4283 - Shihr
+
+#Default
+owner = MUS
+controller = MUS
+add_core = MUS
+capital = "Mirbat"
+culture = mahri_culture
+religion = sunni
+trade_goods = camel
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3 
+is_city = yes
+
+#Claimants
+add_core = OMA

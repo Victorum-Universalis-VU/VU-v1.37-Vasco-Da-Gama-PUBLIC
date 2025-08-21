@@ -1,0 +1,15 @@
+#7764 - Prekmurje
+
+#Default
+owner = CNL
+controller = CNL
+add_core = CNL
+culture = slovene
+religion = catholic
+capital = "Novo Mesto"
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = grain
+is_city = yes
+hre = yes

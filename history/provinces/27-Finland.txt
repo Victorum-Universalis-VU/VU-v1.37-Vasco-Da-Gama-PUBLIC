@@ -1,0 +1,33 @@
+#27 - Finland
+
+#Default
+owner = SWE
+controller = SWE
+add_core = SWE
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 2 
+trade_goods = beer
+base_manpower = 1 
+capital = "Turku"
+is_city = yes
+
+#Buildings
+fort_15th = yes			#removing, Sweden was going broke
+
+#Claimants
+add_core = FIN
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+#Special Modifiers
+add_local_autonomy = 25

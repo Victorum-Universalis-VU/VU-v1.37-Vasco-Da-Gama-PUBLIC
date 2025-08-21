@@ -1,0 +1,15 @@
+#7830 - Lubawa
+
+#Default
+owner = KLL
+controller = KLL
+add_core = KLL
+culture = prussian
+religion = catholic
+capital = "Löbau"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = grain
+is_city = yes
+hre = no

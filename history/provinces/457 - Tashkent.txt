@@ -1,0 +1,28 @@
+#457 - Tashkent
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = uzbehk
+religion = sunni
+capital = "Tashkent"
+trade_goods = tea
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#Claimants
+add_core = S3L
+add_core = TRS
+
+#History by SF
+1409.5.13 = { #Ulugh Beg is made Governor of Samarkand
+	owner = TRS
+	controller = TRS
+}

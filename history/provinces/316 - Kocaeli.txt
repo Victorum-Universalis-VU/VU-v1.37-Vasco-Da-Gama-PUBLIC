@@ -1,0 +1,28 @@
+#316 - Izmit
+
+#Default
+owner = LAE
+controller = LAE
+add_core = LAE
+culture = turkish
+religion = sunni
+capital = "Izmit"
+trade_goods = glass
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+	name = vu_potential_archaeological_dig
+	duration = -1
+}
+
+#History by SF
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe

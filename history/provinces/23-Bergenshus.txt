@@ -1,0 +1,27 @@
+#23 - Bergenshus
+
+#Default
+owner = NOR
+controller = NOR
+add_core = NOR
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 7
+base_production = 7
+trade_goods = naval_supplies
+base_manpower = 4 
+is_city = yes
+capital = "Bergen"
+
+#Claimants
+add_core = HOR
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

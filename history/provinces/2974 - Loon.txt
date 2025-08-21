@@ -1,0 +1,15 @@
+#2974 - Loon
+
+#Default
+owner = LBG
+controller = LBG
+add_core = LBG
+is_city = yes
+capital = "Loon"
+culture = ger_limburgish
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = fur
+base_manpower = 2

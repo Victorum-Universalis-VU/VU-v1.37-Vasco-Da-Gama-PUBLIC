@@ -1,0 +1,15 @@
+#7063 - Mondovi
+
+#Default
+owner = SAV
+controller = SAV
+add_core = SAV
+culture = piedmontese
+religion = catholic
+capital = "Mondovi"
+base_tax = 6
+base_production = 6
+base_manpower = 3
+trade_goods = beer
+is_city = yes
+hre = yes

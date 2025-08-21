@@ -1,0 +1,39 @@
+#328 - Sinop
+
+#Default
+owner = CHB
+controller = CHB
+add_core = CHB
+culture = pontic_greek			#Still major greek center in 1444
+religion = orthodox
+capital = "Sinop"
+trade_goods = naval_supplies #Famous for Shipbuilding PREVIOUS VERSION horses
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1444.11.11 = { 
+	owner = CND 
+	controller = CND 
+	add_core = CND 
+} # Candar territorial lands - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = vu_potential_archaeological_dig
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = kizilirmak_estuary_modifier
+    duration = -1
+}

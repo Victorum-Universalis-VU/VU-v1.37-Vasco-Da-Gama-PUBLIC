@@ -1,0 +1,29 @@
+#2350 - Konjikala
+
+#Default
+owner = TIM
+controller = TIM
+add_core = TIM
+culture = khorasani		#Ahal area populated by persian-speaking people until 1800's
+religion = sunni
+capital = "Konjikala"
+trade_goods = copper
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = KHI
+add_core = PRT
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1409.5.13 = { #Ulugh Beg is made Governor of Samarkand
+	owner = TRS
+	controller = TRS
+	add_core = TRS
+}

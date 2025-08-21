@@ -1,0 +1,14 @@
+#4760 - Innbaiern
+
+owner = LBV
+controller = LBV
+add_core = LBV
+culture = bavarian
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = horses #Rottaler
+capital	= "Braunau am Inn" 
+is_city = yes
+hre = yes

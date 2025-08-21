@@ -1,0 +1,21 @@
+#7783 - Buskerud
+
+#Default
+owner = BGR
+controller = BGR
+add_core = BGR
+culture = norwegian
+religion = catholic
+capital = "Drammen"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = naval_supplies			#changed to gold (silver) through mission
+is_city = yes
+hre = no
+
+#Claimants
+add_core = AKE
+
+#History by SF
+1440.1.1 = { owner = NOR controller = NOR add_core = NOR } # Norwegian territorial lands - By San Felipe

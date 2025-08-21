@@ -1,0 +1,21 @@
+#2971 - Hoya
+
+#Default
+owner = HOY
+controller = HOY
+add_core = HOY
+culture = lower_saxon
+religion = catholic
+capital = "Hoya"
+trade_goods = grain
+hre = yes
+base_tax = 4 
+base_production = 4 
+base_manpower = 2 
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

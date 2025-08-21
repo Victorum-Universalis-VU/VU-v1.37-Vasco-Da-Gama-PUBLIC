@@ -1,0 +1,19 @@
+#4303 - Oltu
+
+#Default
+owner = GEO
+controller = GEO
+add_core = GEO
+culture = armenian			#Though only an island of Arab power within Christian Armenian-populated territory, the native population was generally a reliable client of the Caliph's governors
+religion = miaphysite
+capital = "Oltu"
+trade_goods = wool
+hre = no
+base_tax = 2  
+base_production = 2 
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = ARM
+add_core = ERE

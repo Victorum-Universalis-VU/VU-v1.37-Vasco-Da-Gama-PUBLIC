@@ -1,0 +1,14 @@
+#7653 - Kraslice
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+culture = franconian
+religion = catholic
+base_tax = 3
+base_production = 2
+base_manpower = 2
+trade_goods = tin #This area of Bohemia is the richest and one of the only areas in Central Europe with significant tin deposits
+capital = "Kraslice"
+is_city = yes
+hre = yes

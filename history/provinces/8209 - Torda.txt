@@ -1,0 +1,18 @@
+#8209 - Torda
+
+#Default
+owner = TRA
+controller = TRA
+add_core = TRA
+capital = "Torda"
+is_city = yes
+culture = romanian
+religion = orthodox
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = salt
+hre = no
+
+#Claimants
+add_core = HUN

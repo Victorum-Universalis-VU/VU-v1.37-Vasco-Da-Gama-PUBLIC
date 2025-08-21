@@ -1,0 +1,18 @@
+#4392 - Mardin
+
+#Default
+owner = AKK
+controller = AKK
+add_core = AKK
+culture = aramaic
+religion = nestorian
+trade_goods = spices			#according to wiki - 'Historically, Mardin produced sesame.'
+capital = "Mardin"
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3 
+is_city = yes
+
+#History by SF
+1435.1.1 = { unrest = 10 } #Ak Koyunlu Civil War

@@ -1,0 +1,21 @@
+#2307 - Van
+
+#Default
+owner = HAK
+controller = HAK
+add_core = HAK
+culture = armenian
+religion = nestorian
+capital = "Van"
+trade_goods = cloth
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = ARM
+
+#Commerce
+center_of_trade = 1

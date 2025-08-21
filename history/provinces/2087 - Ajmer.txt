@@ -1,0 +1,21 @@
+#2087 - Ajmer
+
+#Default
+owner = MER
+controller = MER
+add_core = MER
+culture = rajput
+religion = hinduism
+capital = "Ajmer"
+trade_goods = zinc
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 7
+is_city = yes
+
+#Effects
+add_brahmins_or_church_effect = yes
+
+#Claimants
+add_core = MAW

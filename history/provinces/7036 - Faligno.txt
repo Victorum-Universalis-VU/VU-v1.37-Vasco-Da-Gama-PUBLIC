@@ -1,0 +1,39 @@
+#7036 - Faligno
+
+#Default
+owner = PGA
+controller = PGA
+add_core = PGA
+culture = umbrian
+religion = catholic
+capital = "Foligno"	#and Assisi #should really be called Assisi when owned by the Pope
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = books
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = FLG
+
+#Province Modifiers
+#add_permanent_province_modifier = {
+#	name = assisi_modifier
+#	duration = -1
+#}
+
+#History by SF
+1215.6.15 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe
+1305.1.1 = {
+	owner = FLG
+	controller = FLG
+	remove_core = PGA
+    base_tax = 6
+    base_production = 6
+    base_manpower = 4
+} # Faligno breaks free from Perugia, and establishing a flourishing Guelph polity under the Trinci
+1444.11.11 = { owner = PGA controller = PGA add_core = PGA } # Perugia territorial lands - By San Felipe

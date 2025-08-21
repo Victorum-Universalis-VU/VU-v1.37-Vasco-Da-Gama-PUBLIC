@@ -1,0 +1,21 @@
+#7899 - Vivaraisii
+
+#Default
+owner = N4R
+controller = N4R
+add_core = N4R
+culture = occitain
+religion = catholic
+capital = "Viviers"
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = olive_oil
+is_city = yes
+hre = no
+
+#Claimants
+add_core = TOU
+
+#History by SF
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe

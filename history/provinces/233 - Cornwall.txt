@@ -1,0 +1,27 @@
+#233 - Cornwall
+
+#Default
+owner = CRN
+controller = CRN
+add_core = CRN
+culture = celtic_cornish_culture #Was cornish_br
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = tin
+base_manpower = 2 
+capital = "Truro"
+is_city = yes
+
+#Claimants
+add_core = ENG
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = stannery_law_modifier
+	duration = -1
+}
+
+#Special Modifiers
+add_local_autonomy = 25

@@ -1,0 +1,15 @@
+#2380 - Phnom Penh
+
+#Default
+owner = KHM
+controller = KHM
+add_core = KHM
+culture = khmer
+religion = buddhism
+capital = "Phnom Penh"
+trade_goods = iron
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes

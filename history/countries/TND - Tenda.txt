@@ -1,0 +1,23 @@
+#TND - Tenda
+government = monarchy
+add_government_reform = unlocked_eue_county_reform
+government_rank = 4 #County
+#technology_group = western
+technology_group = italian_tech_group
+unit_type = western
+primary_culture = ligurian
+religion = catholic
+capital = 7064
+fixed_capital = 7064
+
+1440.1.1 = { #Made up date & month
+	monarch = {
+		name = "Gorbio III"
+		dynasty = "Laskaris" #Leaving out Ventimiglia to allow for Laskaris restoration.
+		birth_date = 1418.1.1 #According Slovak wikipedia
+		adm = 4
+		dip = 5 #Shrewd politician? Apparently married a Byzantine Emperor growing Tende considerably under this dude.
+		mil = 3
+	}
+} 
+	

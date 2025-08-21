@@ -1,0 +1,14 @@
+#1160 - Mandara
+
+owner = KBO
+controller = KBO
+add_core = KBO
+culture = kanuri
+religion = shamanism #Fetishism
+capital = "Wandala"
+is_city = yes
+base_manpower = 2 
+trade_goods = tin
+hre = no
+base_tax = 2  
+base_production = 2 

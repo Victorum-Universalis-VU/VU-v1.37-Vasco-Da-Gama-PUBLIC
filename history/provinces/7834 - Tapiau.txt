@@ -1,0 +1,15 @@
+#7834 - Tapiau
+
+#Default
+owner = SGA
+controller = SGA
+add_core = SGA
+culture = pruthenian #Was latvian but changed due to morsmessor's advice.
+religion = catholic
+capital = "Neuhausen"
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = grain
+is_city = yes
+hre = no

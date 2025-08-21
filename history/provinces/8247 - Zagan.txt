@@ -1,0 +1,29 @@
+#8247 - aga
+
+#Default
+capital = "Zagan"
+is_city = yes
+owner = SIL
+controller = SIL
+add_core = SIL
+culture = polish
+religion = catholic
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = iron
+hre = yes
+
+#Claimants
+add_core = POL
+
+#History by SF
+1444.1.1 = {
+	culture = silesian_german
+	owner = GLG
+	controller = GLG
+	remove_core = SIL
+	remove_core = POL
+	add_core = GLG
+	add_core = SAG
+}

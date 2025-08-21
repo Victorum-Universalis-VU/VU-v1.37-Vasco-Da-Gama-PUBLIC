@@ -1,0 +1,28 @@
+#7685 - Ostrava
+
+latent_trade_goods = {
+    coal
+}
+
+#Default
+owner = TRO
+controller = TRO
+add_core = TRO
+capital = "Ostrava"
+culture = schlesian
+religion = catholic
+trade_goods = iron
+hre = yes
+base_tax = 3
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.1 = { #Moravia was integrated into the Crown of Bohemia in 1431
+	owner = BOH
+	add_core = BOH
+}

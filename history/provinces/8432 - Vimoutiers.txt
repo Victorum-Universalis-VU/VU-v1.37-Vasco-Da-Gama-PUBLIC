@@ -1,0 +1,27 @@
+#8432 - Vimoutiers
+
+#Default
+owner = ALE
+controller = ALE
+add_core = ALE
+capital = "Vimoutiers"
+is_city = yes
+culture = normand
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = cloth
+base_manpower = 1
+
+#Claimants
+add_core = ENG
+add_core = FRA
+add_core = NRM
+
+#Special Modifiers
+add_local_autonomy = 80
+
+#History by SF
+1215.6.15 = { owner = FRA controller = FRA add_core = FRA } # Part of French Royal Domain - By San Felipe
+1444.11.11 = { owner = ALE controller = ALE add_core = ALE } # House of Alencon rule as part of the English alliance - By San Felipe

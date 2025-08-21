@@ -1,0 +1,19 @@
+#8197 - Sáros
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Eperjes"
+is_city = yes
+culture = slovak
+religion = hussite
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = salt
+hre = no
+
+#Claimants
+add_core = UHU
+add_core = SLO

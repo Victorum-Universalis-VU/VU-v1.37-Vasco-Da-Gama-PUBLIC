@@ -1,0 +1,25 @@
+#6575 - Akhmim
+
+#Default
+owner = MAM
+controller = MAM
+add_core = MAM
+capital = "Akhmim"
+culture = coptic_culture
+religion = coptic
+trade_goods = cloth
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = EGY
+add_core = KEM
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = vu_nile_river_in_arid_desert_province
+	duration = -1
+}

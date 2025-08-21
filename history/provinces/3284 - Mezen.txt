@@ -1,0 +1,24 @@
+#3284 - Mezen
+
+#Default
+owner = NOV 
+controller = NOV
+add_core = NOV
+culture = vu_komi
+religion = orthodox
+hre = no
+base_tax = 1 
+base_production = 1 
+trade_goods = fur 
+base_manpower = 1 
+capital = "Ust-Vashka"
+is_city = yes
+
+#Claimants
+add_core = KOM
+
+#Commerce
+center_of_trade = 1
+
+#Special Modifiers
+add_local_autonomy = 75

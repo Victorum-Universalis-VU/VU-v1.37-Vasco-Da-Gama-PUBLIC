@@ -1,0 +1,15 @@
+#8171 - Güssing
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Güssing"
+is_city = yes
+culture = hungarian
+religion = catholic
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = copper
+hre = no

@@ -1,0 +1,27 @@
+#8068 - Lorca
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = andalusi_arabic
+religion = catholic
+capital = "Lorca"
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = marble
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}
+1444.11.11 = {
+    owner = MUR
+    controller = MUR
+    add_core = MUR
+    #Claimants
+    remove_core = AMD
+} # Castilian territorial lands - By San Felipe

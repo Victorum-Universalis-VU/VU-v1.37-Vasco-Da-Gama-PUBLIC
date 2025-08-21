@@ -1,0 +1,20 @@
+#8522 - Payerne
+#Region - Germany
+#Area - Romandie
+
+owner = SAV
+controller = SAV
+add_core = SAV
+culture = swiss
+religion = catholic
+capital = "Payerne"
+trade_goods = vegetables
+hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+
+#History by SF
+#First documented in 858 AD
+

@@ -1,0 +1,18 @@
+#3054 - Ticino
+
+owner = UR1
+controller = UR1
+add_core = UR1
+culture = lombard
+religion = catholic
+capital = "Ticino" #Was Lugano
+trade_goods = livestock
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = MLO
+add_core = TCN

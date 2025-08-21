@@ -1,0 +1,15 @@
+#4515 - Gyirong
+
+owner = UTS
+controller = UTS
+add_core = UTS
+add_core = PHA
+culture = tibetan
+religion = bon
+capital = "Gyirong"
+trade_goods = livestock
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes

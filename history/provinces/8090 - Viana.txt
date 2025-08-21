@@ -1,0 +1,20 @@
+#8090 - Viana
+
+#Default
+owner = BZA
+controller = BZA
+add_core = BZA
+culture = portugese
+religion = catholic
+capital = "Viana"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = glass #was lumber
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    add_core = POR
+}

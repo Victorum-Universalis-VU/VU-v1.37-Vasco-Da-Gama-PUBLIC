@@ -1,0 +1,25 @@
+#Manchester
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = mancunian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = horses
+base_manpower = 2
+capital = "Manchester"
+is_city = yes
+
+#Claimants
+add_core = LCA
+
+#Commerce
+center_of_trade = 1

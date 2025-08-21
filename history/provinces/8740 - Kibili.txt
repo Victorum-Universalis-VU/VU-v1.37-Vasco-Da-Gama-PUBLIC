@@ -1,0 +1,18 @@
+#8740 - Kibili
+
+#Default
+owner = GHD
+controller = GHD
+add_core = GHD
+culture = libyan_berber_culture
+religion = sunni
+capital = "Kibili"
+trade_goods = dates
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1 
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = TUN controller = TUN add_core = TUN } # Tunisian territorial lands - By San Felipe

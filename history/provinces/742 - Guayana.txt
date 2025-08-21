@@ -1,0 +1,19 @@
+#742 - Guayana
+
+#Default
+culture = carib
+religion = animism
+capital = "Angostura"
+trade_goods = unknown
+hre = no
+base_tax = 2  
+base_production = 1 
+base_manpower = 1 
+native_size = 15
+native_ferocity = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = vu_amazon_rainforest
+    duration = -1
+}

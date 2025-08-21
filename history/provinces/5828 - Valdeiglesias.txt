@@ -1,0 +1,18 @@
+#5828 - Valdeiglesias
+
+#Default
+owner = CAS		#Juan II of Castile
+controller = CAS
+add_core = CAS
+culture = castillian
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 2
+trade_goods = vegetables 
+base_manpower = 2
+capital = "San Martín"
+is_city = yes
+
+#Claimants
+add_core = TLD

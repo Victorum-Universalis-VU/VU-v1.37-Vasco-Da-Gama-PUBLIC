@@ -1,0 +1,21 @@
+#8647 - Muang Song (Now Vang Vieng)
+
+#Default
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = lao
+religion = buddhism
+capital = "Muang Song"
+trade_goods = rice
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = VIE

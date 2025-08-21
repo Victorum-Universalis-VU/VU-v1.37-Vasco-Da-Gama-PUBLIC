@@ -1,0 +1,22 @@
+#ARD - Ardalan
+government = monarchy
+add_government_reform = islamic_taifa_reform
+government_rank = 7 #Taifa
+primary_culture = kurdish
+religion = sunni
+technology_group = persian_tech_group
+unit_type = muslim
+capital = 2211 # Ardalan
+fixed_capital = 2211 # Cannot move capital away from this province & no power cost to move to it
+religious_school = shafii_school
+
+1399.1.1 = {
+	monarch = {
+		name = "Bawa"
+		dynasty = "Ardalan"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+	add_piety = 0.1
+}

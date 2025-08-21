@@ -1,0 +1,21 @@
+#HAK - Hakkari
+government = tribal
+add_government_reform = islamic_sheikdom_reform
+government_rank = 3 #Sheikdom
+primary_culture = kurdish
+religion = sunni
+technology_group = persian_tech_group
+capital = 8413 # Hakkari
+fixed_capital = 8413
+religious_school = shafii_school
+
+#History by SF
+1444.1.1 = {
+	monarch = {
+		name = "Shir"
+		dynasty = "Sanbo"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}

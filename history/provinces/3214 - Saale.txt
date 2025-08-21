@@ -1,0 +1,28 @@
+#3214 - Saale
+
+#Default
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = saxon
+religion = catholic
+capital = "Naumburg"
+trade_goods = salt
+hre = yes
+base_tax = 2 
+base_production = 4 
+base_manpower = 2 
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#History by SF
+1444.1.1 = {
+	owner = MAG
+	controller = MAG
+	add_core = MAG
+}

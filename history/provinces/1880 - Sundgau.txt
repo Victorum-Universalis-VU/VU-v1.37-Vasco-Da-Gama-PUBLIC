@@ -1,0 +1,30 @@
+#1880 - Sundgau
+
+#Default
+owner = TIR
+controller = TIR
+add_core = TIR
+capital = "Altkirch"
+is_city = yes
+culture = alsatian
+religion = catholic
+hre = yes
+base_tax = 8
+base_production = 8
+trade_goods = grain
+base_manpower = 4 
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = STY
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

@@ -1,0 +1,14 @@
+#X2 - Turpan
+
+owner = CHG		# ruled by a Chagataiid 
+controller = CHG
+add_core = CHG
+culture = uyghur
+religion = nestorian	#Turpan and Balikul were sites where nestorian followers concentrated. Result of early christian missions to far East
+capital = "Balikul"
+trade_goods = fruit
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 6
+is_city = yes

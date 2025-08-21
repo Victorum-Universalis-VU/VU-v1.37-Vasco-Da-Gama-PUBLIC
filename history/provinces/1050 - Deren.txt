@@ -1,0 +1,24 @@
+#1050 - Deren
+
+#Default
+owner = NVK
+controller = NVK
+add_core = NVK
+culture = evenk
+religion = tengri_pagan_reformed
+capital = "Deren"
+trade_goods = fur
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

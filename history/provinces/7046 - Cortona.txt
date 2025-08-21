@@ -1,0 +1,31 @@
+#7046 - Cortona
+
+#Default
+owner = CTN
+controller = CTN
+add_core = CTN
+culture = tuscan
+religion = catholic
+capital = "Cortona"
+base_tax = 5
+base_production = 5
+base_manpower = 4
+trade_goods = wine #famous for its wines.
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1409.1.1 = {
+	owner = NAP
+	controller = NAP
+	add_core = NAP
+} # taken by Ladislaus
+1411.1.1 = {
+  owner = CTN
+  controller = CTN
+  add_core = CTN
+  remove_core= NAP
+} # sold to the Medici

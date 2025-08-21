@@ -1,0 +1,18 @@
+#2342 - Wusta
+
+#Default
+owner = MUS
+controller = MUS
+add_core = MUS
+culture = omani_culture
+religion = ibadi
+capital = "Duqm"			#Not good, but I couldn't find anything better
+trade_goods = fish
+hre = no
+base_tax = 1  
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+
+#Claimants
+add_core = OMA

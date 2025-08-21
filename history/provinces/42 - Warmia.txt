@@ -1,0 +1,21 @@
+#42 - Warmia
+
+#Default
+owner = WRM
+controller = WRM
+add_core = WRM
+capital = "Heilsberg"			#Later Allenstein became bigger, renamed Olsztyn under the Poles
+culture = prussian
+religion = catholic
+trade_goods = amber
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = baltic_amber_small
+    duration = -1
+}

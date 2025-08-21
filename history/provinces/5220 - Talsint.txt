@@ -1,0 +1,19 @@
+#5220 - Talsint
+
+#Default
+owner = TFL
+controller = TFL
+add_core = TFL
+culture = zayane
+religion = sunni
+capital = "Talsint"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = dates
+is_city = yes
+hre = no
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = TFL controller = TFL add_core = TFL remove_core = AMD } # Tafilalt territorial lands - By San Felipe

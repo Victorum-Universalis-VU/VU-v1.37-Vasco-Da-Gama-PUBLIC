@@ -1,0 +1,15 @@
+#5294 - Kithnos
+
+#Default
+owner = NAX
+controller = NAX
+add_core = NAX
+culture = greek
+religion = orthodox
+capital = "Kithnos"
+trade_goods = seafood
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes

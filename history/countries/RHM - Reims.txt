@@ -1,0 +1,34 @@
+#RHM - Reims
+government = theocracy
+add_government_reform = church_of_france_archbishopric_reform
+government_rank = 5 #Archbishopric
+primary_culture = cosmopolitan_french
+religion = catholic
+#technology_group = western
+technology_group = french_tech_group
+unit_type = western
+capital = 186
+fixed_capital = 186
+
+#Archbishops of Reims by San Felipe
+1207.1.1 = {
+	monarch = {
+        name = "Aubry of Reims"
+        dynasty = "de Humbert"
+        birth_date = 1187.1.1 
+        adm = 4 #He oversaw the construction of Reims Cathedral in 1211, laying the first stone on May 6 after the previous cathedral was destroyed by the fire of 1210.
+        dip = 4 #He attended the Fourth Lateran Council in 1215 which was a major ecclesiastical gathering making him somewhat important. 
+        mil = 5 #He was a warrior prelate and took part in both the Albigensian and the Fifth Crusades.
+    }
+}
+
+1444.6.25 = {
+	monarch = {
+		name = "Jacques of Reims"
+		dynasty = "Juvénal de Ursins"
+		birth_date = 1410.10.14
+		adm = 3			#He has been a treasurer of the Sainte-Chapelle in Paris as well as being an archdeacon of the city.
+		dip = 4			#A qualified diplomat and one of the protagonist who put an end to the Western Schism.
+		mil = 1			#Nothing particular, though as he was a religious I would just put 1. 
+	}
+}

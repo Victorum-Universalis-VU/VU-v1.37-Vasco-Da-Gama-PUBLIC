@@ -1,0 +1,23 @@
+#154 - Szepes
+
+latent_trade_goods = {
+    coal
+}
+
+#Default
+owner = HUN
+controller = HUN 
+add_core = HUN
+culture = slovak
+religion = catholic
+capital = "Ipolyság"
+trade_goods = gold
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = LHU
+add_core = SLO

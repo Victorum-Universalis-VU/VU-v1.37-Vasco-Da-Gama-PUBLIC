@@ -1,0 +1,162 @@
+################################################################
+####################### Byzantium (VU) #########################
+################################################################
+
+###########
+# Vassals #
+###########
+
+# Athens, a Byzantine vassal
+dependency = {
+	subject_type = byzantine_duchy
+	first = BYZ
+	second = ATH
+	start_date = 1444.1.1
+	end_date = 1453.5.29
+}
+
+dependency = {
+	subject_type = byzantine_duchy
+	first = BYZ
+	second = LES
+	start_date = 1444.1.1
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
+}
+
+################################################################
+######################## Georgia (VU) ########################
+################################################################
+
+##############
+# Guarantees #
+##############
+
+#Trebizond guaranteed by Georgia
+guarantee = {
+	first = GEO
+	second = TRE
+	start_date = 1398.1.1
+	end_date = 1461.1.1
+}
+
+##########
+# Unions #
+##########
+
+dependency = {
+    subject_type = hungarian_crown_PU
+	first = HUN
+	second = CRO
+	start_date = 1444.1.1
+	end_date = 1526.1.1
+}
+
+#Principality of Transylvania
+dependency = {
+    subject_type = hungarian_crown_PU
+    first = HUN
+    second = TRA
+    start_date = 1444.1.1
+    end_date = 1526.8.30
+}
+
+################################################################
+###################### Trebizond (VU) ########################
+################################################################
+
+###########
+# Vassals #
+###########
+
+dependency = {
+	subject_type = byzantine_principality
+	first = TRE
+	second = FEO
+	start_date = 1444.1.1
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
+}
+
+################################################################
+######################## Turkey (VU) #########################
+################################################################
+
+#####################################
+# Turkish Tributaries Beylik Vassal #
+#####################################
+
+#Byzantines forced to pay tribute since 1424
+dependency = {
+	subject_type = turkish_tributary_beylik_vassal
+	first = TUR
+	second = BYZ
+	start_date = 1444.1.1 #Was 1403.2.1
+	end_date = 1453.1.1
+}
+
+#Ten year truce between Ottobros and Serbia wherin both sides agreed not to attack eachother or support eachother's enemies
+dependency = {
+    subject_type = turkish_tributary_beylik_vassal
+    first = TUR
+    second = SER
+    start_date = 1444.1.1
+    end_date = 1454.1.1
+}
+
+#Since 1417 to the late 19th century
+dependency = {
+    subject_type = turkish_tributary_beylik_vassal
+    first = TUR
+    second = WAL
+    start_date = 1444.1.1 #Was 1417.1.1
+    end_date = 1856.1.1
+}
+
+#Since 1444 to 1461
+dependency = {
+    subject_type = turkish_tributary_beylik_vassal
+    first = TUR
+    second = CND
+    start_date = 1444.1.1
+    end_date = 1461.1.1
+}
+
+#Since 1444 to 1461
+dependency = {
+    subject_type = turkish_tributary_beylik_vassal
+    first = TUR
+    second = EPI
+    start_date = 1417.1.1
+    end_date = 1479.1.1
+}
+
+##############
+# Guarantees #
+##############
+
+# Ottoman guarantee
+guarantee = {
+	first = TUR
+	second = RAG
+	start_date = 1444.1.1
+	end_date = 1528.1.1
+}
+
+###################
+# Royal Marriages #
+###################
+
+# Ottoman Royal Marriage 
+royal_marriage = {
+	first = TUR
+	second = DUL
+	start_date = 1403.1.1
+	end_date = 1421.1.1
+}
+
+# Ottoman Royal Marriage 
+royal_marriage = {
+	first = TUR
+	second = CND
+	start_date = 1423.1.1
+	end_date = 1444.1.1
+}

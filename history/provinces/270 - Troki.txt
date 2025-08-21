@@ -1,0 +1,21 @@
+#270 Troki
+
+#Default
+owner = LIT
+controller = LIT
+add_core = LIT
+religion = "catholic"
+culture = lithuanian
+capital = "Trakai"
+trade_goods = beer
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+#Buildings
+#fort_15th = yes #Trakai Castles "Little Marienburg"
+
+#Claimants
+add_core = TKA

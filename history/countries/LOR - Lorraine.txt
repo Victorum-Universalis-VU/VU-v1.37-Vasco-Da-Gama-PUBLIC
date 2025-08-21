@@ -1,0 +1,73 @@
+#LOR - Lorraine
+government = monarchy
+add_government_reform = eue_duchy_reform #Was feudalism_reform
+government_rank = 6 #Duchy
+primary_culture = lorraine_culture
+add_accepted_culture = alsatian
+religion = catholic
+technology_group = french_tech_group
+unit_type = western
+capital = 189 #Nancy
+
+#History by Prussia
+1191.1.1 = {
+	monarch = {
+		name = "Theobald I"
+		dynasty = "de Lorraine"
+		birth_date = 1191.1.1
+		death_date = 1220.2.17 #Died in Champagne wars of succession (popping) and killed his uncle the Bishop of Toul - Prussia
+		adm = 1
+		dip = 1
+		mil = 0 #Had a lot of vassals at the start of his rule but proceeded to lose control of them later on - Prussia
+	}
+}
+
+1191.1.1 = {
+	heir = {
+		name = "Matthias"
+		monarch_name = "Matthias II"
+		dynasty = "de Lorraine"
+		birth_date = 1192.1.1
+		death_date = 1251.2.9
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3 #More competent than his brother but not by much - Prussia
+	}
+}
+
+1434.11.16 = {
+	monarch = {
+		name = "René I"
+		dynasty = "de Valois-Anjou"
+		birth_date = 1409.1.16
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+	queen = {
+		country_of_origin = LOR
+		name = "Isabella"
+		dynasty = "de Metz"
+		birth_date = 1400.1.1
+		death_date = 1453.2.28
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1444.11.11 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean II" #Also claimed the title "Duke of Calabria" but didn't have the title in practice - Prussia
+		dynasty = "de Valois-Anjou"
+		birth_date = 1426.08.2
+		death_date = 1470.12.16 #Died in Barcelona...OLA! Prussia
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4 #Succeeded in beating the King of Naples in the field of battle - Prussia
+	}
+}

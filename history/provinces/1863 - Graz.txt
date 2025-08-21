@@ -1,0 +1,22 @@
+#1863 - Graz
+
+latent_trade_goods = {
+    coal
+}
+
+#Default
+owner = STY
+controller = STY
+add_core = STY
+culture = austrian
+religion = catholic
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = livestock
+capital = "Graz" 
+is_city = yes
+hre = yes
+
+#Commerce
+center_of_trade = 2

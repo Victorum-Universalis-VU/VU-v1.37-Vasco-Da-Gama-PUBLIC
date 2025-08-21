@@ -1,0 +1,19 @@
+#8179 - Túrócz
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Turócszentmárton"
+is_city = yes
+culture = slovak
+religion = hussite
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = gold
+hre = no
+
+#Claimants
+add_core = LHU
+add_core = SLO

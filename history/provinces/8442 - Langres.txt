@@ -1,0 +1,29 @@
+#8442 - Langres
+
+#Default
+owner = FDB
+controller = FDB
+add_core = FDB
+capital = "Langres"
+is_city = yes
+culture = burgundian
+religion = catholic
+hre = yes
+base_tax = 2 
+base_production = 3
+trade_goods = grain
+base_manpower = 2
+
+#History by SF
+1444.11.11 = {
+    owner = BUR
+    controller = BUR
+    add_core = BUR
+    remove_core = FDB
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

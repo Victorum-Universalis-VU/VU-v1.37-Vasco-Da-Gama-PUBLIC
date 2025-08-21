@@ -1,0 +1,18 @@
+# 4742 - Goslar
+
+#Default
+owner = GOS
+controller = GOS
+add_core = GOS
+culture = eastphalian
+religion = catholic
+hre = yes
+base_tax = 10
+base_production = 10
+trade_goods = iron #Rammelsberg
+base_manpower = 2
+capital = "Goslar"
+is_city = yes
+
+#Commerce
+center_of_trade = 2

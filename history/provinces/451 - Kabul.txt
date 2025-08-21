@@ -1,0 +1,21 @@
+#451 - Kabulistan
+
+#Default
+owner = AFG
+controller = AFG
+add_core = AFG
+culture = afghani
+religion = sunni
+capital = "Kabul"
+trade_goods = carpet
+hre = no
+base_tax = 8 
+base_production = 8
+base_manpower = 8
+is_city = yes
+
+#Claimants
+add_core = TIM
+
+#Commerce
+center_of_trade = 2

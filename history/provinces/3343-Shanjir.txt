@@ -1,0 +1,21 @@
+#3343 - Abaza
+
+#Default
+owner = CIR
+controller = CIR
+add_core = CIR
+culture = circassian
+religion = orthodox
+capital = "Shanjir"	#Uncertain
+trade_goods = cloth
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4 
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.1 = { add_local_autonomy = 60 } #Semi-independent tribes

@@ -1,0 +1,15 @@
+#7211 - Wizajny
+
+#Default
+owner = LIT
+controller = LIT
+add_core = LIT
+culture = yotvingian_culture
+religion = catholic
+capital = "Wizajny"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = grain
+is_city = yes
+hre = no

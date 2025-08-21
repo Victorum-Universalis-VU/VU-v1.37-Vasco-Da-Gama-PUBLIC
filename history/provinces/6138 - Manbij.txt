@@ -1,0 +1,22 @@
+#6138 - Manbij
+
+#Default
+owner = FAD
+controller = FAD
+add_core = FAD
+culture = al_suryah_arabic
+religion = sunni
+capital = "Manbij"
+trade_goods = wine
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2			
+is_city = yes
+
+#Claimants
+add_core = SYR
+
+#History by SF
+1215.6.15 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
+1444.11.11 = { owner = FAD controller = FAD add_core = FAD } # Fadl territorial lands - By San Felipe

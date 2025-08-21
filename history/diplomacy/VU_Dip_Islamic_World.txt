@@ -1,0 +1,91 @@
+############################################################
+############################################################
+####################		1 - Anatolia 		####################
+############################################################
+############################################################
+vassal = {
+	first = KAR
+	second = ALI
+	start_date = 1400.1.1
+	end_date = 1490.11.11 #VictorumUniversalis batch edit shortcut second performance start begins
+}	#From start date to date Karaman takes over fully, followed by Ottomans
+
+############################################################
+############################################################
+####################		2 - North Africa 		####################
+############################################################
+############################################################
+
+vassal = {
+	first = MAM
+	second = HWW
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1517.1.1
+}
+
+dependency = {
+	subject_type = islamic_sheikdom
+	first = MAM
+	second = BEJ
+	start_date = 1444.1.1
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+}
+
+vassal = {
+	first = MAM
+	second = BEJ
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1517.1.1
+}
+
+vassal = {
+	first = MOR
+	second = DBD
+	start_date = 1444.1.1
+	end_date = 1444.11.1 #VictorumUniversalis batch edit shortcut the second shattering begins
+}	#Semi-independent Principality of Debdou
+
+vassal = {
+	first = MOR
+	second = DBD
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1563.12.31
+}	#Semi-independent Principality of Debdou
+
+############################################################
+############################################################
+####################		4 - Arabia 		####################
+############################################################
+############################################################
+
+dependency = {
+	subject_type = islamic_nikkah_PU
+	first = OMA
+	second = MUS
+	start_date = 1444.1.1
+	end_date = 1903.1.1
+} #Not ideal, but going with a personal union for now. Sounds like Paradox is working on the region, so I might go with what they do, depending.
+
+dependency = {
+    subject_type = islamic_sultanate
+	first = QAR
+	second = BHT
+	start_date = 1435.1.1
+	end_date = 1444.11.16   #VictorumUniversalis batch edit shortcut no vassal start date begin
+}
+
+dependency = {
+    subject_type = islamic_emirate
+	first = QAR
+	second = SRN
+	start_date = 1444.1.1
+	end_date = 1469.2.4
+}
+
+dependency = {
+    subject_type = islamic_sheikdom
+	first = QAR
+	second = HAK
+	start_date = 1444.1.1
+	end_date = 1469.2.4
+}

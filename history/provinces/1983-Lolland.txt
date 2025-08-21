@@ -1,0 +1,27 @@
+#1983 - Lolland
+
+#Default
+add_core = DAN
+owner = DAN
+controller = DAN
+culture = danish
+religion = catholic
+hre = no
+base_tax = 3  
+base_production = 3 
+trade_goods = naval_supplies
+base_manpower = 2 
+capital = "Nykøbing"
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

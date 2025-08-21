@@ -1,0 +1,18 @@
+#7937 - Chateauroux
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+culture = cosmopolitan_french
+religion = catholic
+capital = "Châteauroux"
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = tin #Central Fr*nce is rather rich in Tin
+is_city = yes
+hre = no
+
+#Claimants
+add_core = BER

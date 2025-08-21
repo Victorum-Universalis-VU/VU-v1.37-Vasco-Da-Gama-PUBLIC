@@ -1,0 +1,18 @@
+#4107 - Kanongesha
+
+#Default
+owner = KIK
+controller = KIK
+add_core = KIK
+culture = luba
+religion = shamanism #Fetishism
+capital = "Kanongesha"
+trade_goods = copper
+hre = no
+base_tax = 2 
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Commerce
+center_of_trade = 1

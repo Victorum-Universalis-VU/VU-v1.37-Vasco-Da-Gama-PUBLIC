@@ -1,0 +1,20 @@
+#2555 - Honniasont
+
+#Default
+culture = tionontate
+religion = totemism
+capital = "Honniasont"
+trade_goods = unknown
+hre = no
+base_tax = 4
+base_production = 6
+base_manpower = 3
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1444.1.1 = { tribal_owner = ERI }

@@ -1,0 +1,14 @@
+#4204 - Anding
+
+owner = SYG
+controller = SYG
+add_core = SYG
+culture = oirats
+religion = vajrayana
+capital = "Anding"
+trade_goods = livestock
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes

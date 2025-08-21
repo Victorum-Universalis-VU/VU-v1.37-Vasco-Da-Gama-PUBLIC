@@ -1,0 +1,28 @@
+#540 - Coromandel 
+
+#Default
+owner = VIJ
+controller = VIJ
+add_core = VIJ
+culture = tamil
+religion = hinduism
+capital = "Kuddaluru"
+trade_goods = carpet		#was cloth, once more provinces are in india, add cloth around
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = MAD
+add_core = GNG
+
+#Commerce
+center_of_trade = 1
+
+#Government Attributes
+add_vaisyas_or_burghers_effect = yes
+
+#Special Modifier
+add_local_autonomy = 25

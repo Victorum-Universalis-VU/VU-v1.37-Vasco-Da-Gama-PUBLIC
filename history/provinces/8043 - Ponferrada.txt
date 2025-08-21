@@ -1,0 +1,21 @@
+#8043 - Ponferrada
+
+#Default
+owner = LON
+controller = LON
+add_core = LON
+culture = leonese
+religion = catholic
+capital = "Ponferrada"
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = mercury
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    culture = castillian
+    add_core = CAS
+}

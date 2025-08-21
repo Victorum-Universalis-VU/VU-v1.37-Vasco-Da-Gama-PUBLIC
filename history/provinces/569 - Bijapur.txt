@@ -1,0 +1,18 @@
+#569 - Bijapur
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = kannada
+religion = hinduism
+capital = "Bijapur"
+trade_goods = cotton
+hre = no
+base_tax = 10
+base_production = 10
+base_manpower = 10
+is_city = yes
+
+#Claimants
+add_core = BIJ

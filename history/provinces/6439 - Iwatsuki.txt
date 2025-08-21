@@ -1,0 +1,15 @@
+#6439 - Iwatsuki
+
+#Default
+owner = OUE
+controller = OUE
+add_core = OUE
+culture = kanto 
+religion = shinto
+capital = "Iwatsuki"
+trade_goods = livestock
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+is_city = yes

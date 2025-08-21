@@ -1,0 +1,27 @@
+#8066 - Caravaca
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = andalucian
+religion = catholic
+capital = "Caravaca"
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = iron	#"The hills which extend to the north are rich in marble and iron." - going with iron since merble exists province nearby
+is_city = yes
+hre = no
+
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}
+1444.11.11 = {
+    owner = MUR
+    controller = MUR
+    add_core = MUR
+    #Claimants
+    remove_core = AMD
+} # Castilian territorial lands - By San Felipe

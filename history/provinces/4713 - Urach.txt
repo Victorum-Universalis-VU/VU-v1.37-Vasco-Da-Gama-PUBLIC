@@ -1,0 +1,22 @@
+#4713 - Urach
+
+#Default
+owner = URA
+controller = URA
+add_core = URA
+capital = "Bad Urach"
+is_city = yes
+culture = swabian
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+base_manpower = 4
+trade_goods = salt
+
+#Buildings
+cinema = yes
+bath_house = yes
+
+#Commerce
+center_of_trade = 1

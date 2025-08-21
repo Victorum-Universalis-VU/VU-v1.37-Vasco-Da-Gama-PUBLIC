@@ -1,0 +1,25 @@
+#138 - Zeta
+
+#Default
+owner = MON
+controller = MON
+add_core = MON
+culture = serbian
+religion = orthodox
+capital = "Podgorica"
+trade_goods = livestock
+hre = no
+base_tax = 3 
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1215.6.15 = { owner = SER controller = SER add_core = SER } # Serbian territorial lands - By San Felipe
+1444.11.11 = { owner = MON controller = MON add_core = MON } # Montenegran territorial lands - By San Felipe

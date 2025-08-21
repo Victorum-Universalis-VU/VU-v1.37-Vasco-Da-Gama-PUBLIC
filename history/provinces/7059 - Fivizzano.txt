@@ -1,0 +1,40 @@
+#7059 - Fivizzano
+
+owner = MSS
+controller = MSS
+add_core = MSS
+culture = romagnan
+religion = catholic
+capital = "Fivizzano"	#and Pontremoli # and Fosdinovo too !
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = marble # replaced with marble because near lucca
+is_city = yes
+hre = yes
+
+#History by SF
+1331.1.1 = {
+    owner = VRN
+    controller = VRN
+    add_core = VRN
+} # sold to Verona
+1339.1.1 = {
+    owner = MLO
+    controller = MLO
+    add_core = MLO
+    remove_core = VRN
+} # taken by Milan
+1406.1.1 = {
+    owner = GEN
+    controller = GEN
+    add_core = GEN
+    remove_core = MLO
+} # to Fieschi family
+1433.1.1 = {
+    owner = MSS
+    controller = MSS
+    add_core = MSS
+    add_core = LAN
+    remove_core = GEN
+} # to Milan again (NOTE: GIVING IT TO MASSA TO REPRESENT THE HINTERLANDS AND Fosdinovo)

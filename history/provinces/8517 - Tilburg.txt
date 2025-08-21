@@ -1,0 +1,18 @@
+#8517 - Tilburg
+
+#Default
+owner = BRB
+controller = BRB
+add_core = BRB
+is_city = yes
+capital = "Tilburg"
+culture = ger_brabantian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = lumber 
+
+#Claimants
+add_core = BUR

@@ -1,0 +1,20 @@
+#2987 - Urgell
+
+#Default
+owner = UGL		#Alfons V of Aragon
+controller = UGL
+add_core = UGL
+culture = catalan
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 1 
+trade_goods = horses
+base_manpower = 2
+capital = "Urgell" #Tàrrega is way down south in Lleida. Hence it has to be Seu d'Urgell.
+is_city = yes
+
+#History by SF
+1412.6.29 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Jaime de Urgell Uprising
+1413.1.1 = { revolt = { type = pretender_rebels size = 1 leader = "Jaume d'Urgell" } controller = REB }
+1444.11.11 = { owner = ARA add_core = ARA }

@@ -1,0 +1,18 @@
+#5258 - Yoshino
+
+#Default
+owner = OTI
+controller = OTI
+add_core = OTI
+culture = kinki 
+religion = shinto
+capital = "Yoshino"
+trade_goods = lacquerware
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#Triggered Modifiers
+add_province_triggered_modifier = religious_center

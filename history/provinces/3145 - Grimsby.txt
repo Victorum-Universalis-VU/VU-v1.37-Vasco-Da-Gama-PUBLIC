@@ -1,0 +1,15 @@
+#3145 - Grimsby
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = midlander
+religion = lollardy
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = cider
+capital = "Grimsby"
+is_city = yes

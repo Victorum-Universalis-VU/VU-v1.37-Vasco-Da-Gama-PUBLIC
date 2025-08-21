@@ -1,0 +1,24 @@
+#566 - Assam
+
+#Default
+owner = ASS
+controller = ASS
+add_core = ASS
+culture = assamese
+religion = hinduism
+capital = "Charaideo"
+trade_goods = rice
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

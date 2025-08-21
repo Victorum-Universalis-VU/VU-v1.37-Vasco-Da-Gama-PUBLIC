@@ -1,0 +1,18 @@
+#2341 - Sharqiyah
+
+#Default
+owner = MUS
+controller = MUS
+add_core = MUS
+culture = omani_culture
+religion = ibadi
+capital = "Sur"
+trade_goods = dates
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = OMA

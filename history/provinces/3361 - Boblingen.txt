@@ -1,0 +1,15 @@
+#3361 - Böblingen
+
+#Default
+owner = URA
+controller = URA
+add_core = URA
+capital = "Böblingen" #Married a Cheese wench, mother of Eberhard the beard. 
+is_city = yes
+culture = swabian
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+base_manpower = 2          #In 18th century town had 3665 protestants, 9 catholics and 7 Jews. xD 
+trade_goods = lumber #To produce bricks just for the sheetz - SF

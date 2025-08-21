@@ -1,0 +1,47 @@
+#AKK - Ak Koyunlu
+government = tribal
+add_government_reform = persianate_tribal_confederation
+government_rank = 6 #Confederation
+primary_culture = turkmeni
+add_accepted_culture = kurdish
+add_accepted_culture = armenian
+religion = sunni
+technology_group = persian_tech_group
+unit_type = muslim
+capital = 418
+religious_school = hanafi_school
+
+historical_rival = TUR
+historical_rival = QAR
+
+#History by SF
+1444.1.1 = {
+	monarch = {
+		name = "Cihangir"
+		dynasty = "Aq Qoyunlu"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+	add_piety = -0.6
+	heir = {
+        name = "Uzun Hasan"
+        monarch_name = "Uzun Hasan"
+        dynasty = "Aq Qoyunlu"
+        birth_date = 1423.1.6
+        claim = 95
+        adm = 4
+        dip = 5
+        mil = 6
+        leader = {
+            name = "Uzun Hasan"
+            type = general
+            fire = 4
+            shock = 5
+            manuever = 5
+            siege = 0
+        }
+    }
+    clear_scripted_personalities = yes
+    add_heir_personality = bold_fighter_personality
+}

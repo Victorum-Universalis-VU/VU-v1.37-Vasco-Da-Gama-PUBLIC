@@ -1,0 +1,22 @@
+#8143 - Carmarthen
+
+#Default
+owner = DEH
+controller = DEH
+add_core = DEH
+capital = "Carmarthen"
+is_city = yes
+culture = celtic_welsh_culture #Was welsh
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = seafood
+hre = no
+
+#History by SF
+1444.11.11 = { 
+	owner = WLS 
+	controller = WLS 
+	add_core = WLS 
+}

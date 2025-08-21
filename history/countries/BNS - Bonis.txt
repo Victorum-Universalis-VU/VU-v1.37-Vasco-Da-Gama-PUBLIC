@@ -1,0 +1,26 @@
+#BNS - Bonis
+government = monarchy
+add_government_reform = eue_barony_reform
+government_rank = 2 #Barony
+primary_culture = hungarian
+religion = catholic
+#technology_group = eastern
+technology_group = hungarian_tech_group
+unit_type = eastern
+capital = 153 # Pest
+
+#History by Prussia
+
+#1444.6.25 = {
+#	monarch = {
+#		name = "Wincenty II"
+#		dynasty = "Kot"
+#		birth_date = 1395.01.01
+#		adm = 5
+#		dip = 5
+#		mil = 3
+#	}
+#	clear_scripted_personalities = yes
+#	add_ruler_personality = scholar_personality
+#	add_ruler_personality = incorruptible_personality
+#}

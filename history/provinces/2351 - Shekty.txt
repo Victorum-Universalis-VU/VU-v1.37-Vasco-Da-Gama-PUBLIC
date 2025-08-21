@@ -1,0 +1,17 @@
+#2351 - Shekty
+
+owner = NOG
+controller = NOG
+add_core = NOG
+culture = khazak
+religion = sunni
+capital = "Shekty"
+trade_goods = livestock
+hre = no
+base_tax = 2  
+base_production = 1
+base_manpower = 3 
+is_city = yes
+
+#Claimants
+add_core = KZH

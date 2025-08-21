@@ -1,0 +1,19 @@
+#2463 - Maaskar
+
+#Default
+owner = TLC
+controller = TLC
+add_core = TLC
+culture = algerian
+religion = sunni
+capital = "Naâma"			#Kasdir in vanilla, which is probably a better option objectively, but information is sparse and Naama is more important later.
+trade_goods = silver
+hre = no
+base_tax = 1  
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1444.11.11 = { owner = TLC controller = TLC add_core = TLC remove_core = AMD } # Tlemcen territorial lands - By San Felipe

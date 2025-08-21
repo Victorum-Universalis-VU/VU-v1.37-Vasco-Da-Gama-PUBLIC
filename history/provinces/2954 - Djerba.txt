@@ -1,0 +1,31 @@
+#2954 - Djerba
+
+#Default
+owner = TUN
+controller = TUN 
+add_core = TUN
+culture = libyan_berber_culture
+religion = ibadi
+capital = "Djerba"			#Good enough.
+trade_goods = dyes			#I get the feeling the old murex dye trade wasn't what it used to be, but I'm not feeling too creative right now
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = TRP
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+	name = gulf_of_gabes_estuary_modifier
+	duration = -1
+}

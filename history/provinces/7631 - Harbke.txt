@@ -1,0 +1,14 @@
+#7631 - Harbke
+
+owner = BRU
+controller = BRU
+add_core = BRU
+culture = saxon
+religion = catholic
+capital = "Harbke"
+trade_goods = livestock
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 2
+is_city = yes

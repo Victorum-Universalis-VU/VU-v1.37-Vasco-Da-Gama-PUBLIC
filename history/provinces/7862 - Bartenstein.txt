@@ -1,0 +1,15 @@
+#7862 - Bartenstein
+
+#Default
+owner = TEU
+controller = TEU
+add_core = TEU
+culture = pruthenian #Was latvian but changed due to morsmessor's advice.
+religion = catholic
+capital = "Bartenstein"
+base_tax = 3 
+base_production = 3 
+base_manpower = 2 
+trade_goods = grain
+is_city = yes
+hre = no

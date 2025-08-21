@@ -1,0 +1,18 @@
+#2386 - Chaiyaphum
+
+#Default
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = lao
+religion = buddhism
+capital = "Chaiyaphum"
+trade_goods = silk
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = VIE

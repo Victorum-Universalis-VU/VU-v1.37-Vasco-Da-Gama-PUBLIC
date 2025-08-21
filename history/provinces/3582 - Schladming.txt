@@ -1,0 +1,15 @@
+#3582 - Schladming
+
+#Default
+owner = STY
+controller = STY
+add_core = STY
+culture = austrian
+religion = catholic
+base_tax = 2
+base_production = 5 #Because it was a prominent mining town - DonBrom
+base_manpower = 2
+trade_goods = silver
+capital = "Schladming" 
+is_city = yes
+hre = yes

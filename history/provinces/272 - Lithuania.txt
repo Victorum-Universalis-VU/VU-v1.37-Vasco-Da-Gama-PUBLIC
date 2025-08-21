@@ -1,0 +1,31 @@
+#272 Lithuania
+
+#Default
+owner = LIT
+controller = LIT
+add_core = LIT
+capital = "Vilnius"
+is_city = yes
+culture = lithuanian
+religion = catholic
+trade_goods = lumber
+hre = no
+base_tax = 4 
+base_production = 4 
+base_manpower = 3
+
+#Buildings
+fort_15th = yes #Vilnius Castle Complex
+
+#Commerce
+center_of_trade = 1
+
+#Claimants
+add_core = BVI
+add_core = VNS
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}

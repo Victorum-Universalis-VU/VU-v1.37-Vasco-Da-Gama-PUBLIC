@@ -1,0 +1,14 @@
+#4029 - Antanosy
+
+#Default
+owner = ANT
+controller = ANT
+add_core = ANT
+culture = madagasque
+religion = sunni
+capital = "Antanosy"
+trade_goods = sea_turtle
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2 

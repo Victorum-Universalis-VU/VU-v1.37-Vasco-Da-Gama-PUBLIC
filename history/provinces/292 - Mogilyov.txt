@@ -1,0 +1,32 @@
+#292 - Mogilyov
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR
+culture = byelorussian
+religion = orthodox 
+hre = no
+base_tax = 2 
+base_production = 2
+trade_goods = wool 
+base_manpower = 2 
+capital = "Mogilev"
+is_city = yes
+
+#Claimants
+add_core = DTK
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = KIR
+}
+
+#Special Modifier
+add_local_autonomy = 25

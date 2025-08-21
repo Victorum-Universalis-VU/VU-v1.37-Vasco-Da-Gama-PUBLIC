@@ -1,0 +1,39 @@
+#4369 - Camarthen/Pembroke
+
+#Default
+owner = MR5
+controller = MR5
+add_core = MR5
+culture = anglo_irish #Not welsh?
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 1
+trade_goods = fish
+base_manpower = 2
+capital = "Pembroke"
+is_city = yes
+
+#Claimants
+add_core = DEH
+add_core = PEM
+
+#History by SF
+1444.11.11 = {
+    remove_core = MR5
+    owner = GLR
+    controller = GLR
+    add_core = GLR
+    add_core = ENG
+    add_core = WLS
+} # The Dukedom of Gloucester territory - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+#Special Modifiers
+add_local_autonomy = 75
+

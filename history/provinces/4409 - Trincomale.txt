@@ -1,0 +1,19 @@
+#4409 - Trincomale
+
+#Default
+owner = CEY
+controller = CEY
+add_core = CEY
+culture = tamil
+religion = hinduism
+capital = "Trincomale"
+trade_goods = cinnamon #Cinnamon
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Claimants
+add_core = KND
+add_core = JFN

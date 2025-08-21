@@ -1,0 +1,37 @@
+#3177 - Thebes
+
+#Default
+owner = VEN
+controller = VEN
+add_core = VEN
+culture = greek
+religion = orthodox
+capital = "Thebes"
+trade_goods = silk			#Perhaps the single greatest hub of the silk trade in Europe. Possibly worth a province modifier.
+hre = no
+base_tax = 5
+base_production = 6
+base_manpower = 4
+is_city = yes
+center_of_trade = 2
+
+#Claimants
+add_core = ATH
+
+#History by SF
+1215.6.15 = { owner = ATH controller = ATH add_core = ATH } # Athenian territorial lands - By San Felipe
+1402.1.1 = { owner = ATH controller = ATH remove_core = VEN }
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = jewish_population
+    duration = -1
+}
+add_permanent_province_modifier = {
+    name = vu_potential_archaeological_dig
+    duration = -1
+}

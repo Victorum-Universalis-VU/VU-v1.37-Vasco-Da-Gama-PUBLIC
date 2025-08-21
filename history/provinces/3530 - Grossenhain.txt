@@ -1,0 +1,25 @@
+#3530 - Grossenhain
+
+#Default
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = saxon
+religion = catholic
+capital = "Groﬂenhain"
+trade_goods = cloth
+hre = yes
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1444.1.1 = {
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+}

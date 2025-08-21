@@ -1,0 +1,18 @@
+#1023 - Echizen
+
+#Default
+owner = SBA
+controller = SBA
+add_core = SBA
+culture = hokuriku 
+religion = shinto
+capital = "Takefu"
+trade_goods = sake
+hre = no
+base_tax = 8
+base_manpower = 8
+base_production = 8
+is_city = yes
+
+#Claimants
+add_core = ASA

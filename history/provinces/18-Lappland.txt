@@ -1,0 +1,31 @@
+#18 - Lapland
+
+#Default
+capital = "Sorsele"
+culture = sapmi
+religion = finnish_pagan_reformed
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_hostileness = 1
+native_size = 3
+native_ferocity = 2
+
+#Claimants
+add_core = NRB
+add_core = SMI
+
+#History by SF
+1440.1.1 = {
+	owner = SWE
+	controller = SWE
+	add_core = SWE
+	is_city = yes
+	add_local_autonomy = 55 #This stacks with culture and religious starting autonomy, it seems. Reducing from 90.
+	trade_goods = fur
+}
+
+#Province Modifiers
+add_province_triggered_modifier = vu_birkarls

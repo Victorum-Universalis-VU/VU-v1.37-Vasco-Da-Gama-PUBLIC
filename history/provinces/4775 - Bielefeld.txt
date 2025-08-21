@@ -1,0 +1,15 @@
+#4775 - Bielefeld
+
+#Default
+owner = BRG
+controller = BRG
+add_core = BRG
+culture = hannoverian
+religion = catholic
+trade_goods = cloth #linen
+capital = "Bielefeld"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+hre = yes

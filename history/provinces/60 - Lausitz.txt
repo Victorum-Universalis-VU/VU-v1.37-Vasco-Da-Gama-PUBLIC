@@ -1,0 +1,28 @@
+#60 - Bautzen
+
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Bautzen"
+culture = saxon
+religion = catholic
+trade_goods = vegetables #Was glass
+hre = yes
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = MEI
+
+#History by SF
+1444.1.1 = {
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+	#Claimants
+	remove_core = MEI
+	remove_core = BOH
+}

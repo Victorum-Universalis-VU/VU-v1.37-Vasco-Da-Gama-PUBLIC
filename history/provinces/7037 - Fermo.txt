@@ -1,0 +1,22 @@
+#7037 - Fermo
+
+#Default
+owner = FMO
+controller = FMO
+add_core = FMO
+culture = umbrian
+religion = catholic
+capital = "Fermo"
+base_tax = 7
+base_production = 7
+base_manpower = 4
+trade_goods = lace #Changed to lace from cloth (by San Felipe).
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe
+1444.11.11 = { owner = FMO controller = FMO add_core = FMO } # Fermo territorial lands - By San Felipe

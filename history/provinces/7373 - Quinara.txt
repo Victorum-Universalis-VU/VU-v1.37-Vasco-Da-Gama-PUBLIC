@@ -1,0 +1,21 @@
+#7373 - Quinara
+
+#Default
+owner = MAL
+controller = MAL
+add_core = MAL
+culture = balante
+is_city = yes
+base_manpower = 4
+religion = shamanism #Fetishism
+capital = "Quinara"
+trade_goods = palm_oil
+hre = no
+base_tax = 3
+base_production = 3
+
+#Claimants
+add_core = KBU #Subject province within the empire
+
+#Special Modifiers
+add_local_autonomy = 50

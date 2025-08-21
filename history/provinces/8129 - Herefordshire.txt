@@ -1,0 +1,32 @@
+#8129 - Hereford
+
+#Default
+owner = B0H
+controller = B0H
+add_core = B0H
+capital = "Hereford"
+is_city = yes
+culture = midlander
+religion = lollardy
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = cider
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = ENG
+
+#History by SF
+1444.11.11 = {
+    owner = WRK
+    controller = WRK
+    add_core = WRK
+	remove_core = B0H
+} # The Duchy of York territory - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 25

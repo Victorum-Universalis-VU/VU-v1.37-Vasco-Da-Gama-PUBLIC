@@ -1,0 +1,21 @@
+#RPL - Rappoltstein
+government = monarchy
+add_government_reform = unlocked_eue_county_reform
+government_rank = 4 #County
+primary_culture = alsatian
+religion = catholic
+#technology_group = western
+technology_group = dutch_tech_group
+unit_type = western
+capital = 8444 #Rappoltstein
+
+1444.1.1 = {
+	monarch = {
+		name = "Maximin"
+		dynasty = "von Rappoltstein"
+		birth_date = 1390.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

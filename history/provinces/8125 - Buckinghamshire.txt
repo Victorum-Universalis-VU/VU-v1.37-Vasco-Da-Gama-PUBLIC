@@ -1,0 +1,21 @@
+#8125 - Buckingham
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+capital = "Buckingham"
+is_city = yes
+culture = buckinghamite
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = horses
+hre = no
+
+#Government
+seat_in_parliament = yes
+
+#History by SF
+1444.11.11 = { owner = BCK controller = BCK add_core = BCK } # The Dukedom of Buckingham territory - By San Felipe

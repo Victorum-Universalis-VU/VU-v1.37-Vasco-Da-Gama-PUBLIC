@@ -1,0 +1,26 @@
+#3270 - Starodub
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR 
+culture = byelorussian
+religion = orthodox 
+hre = no
+base_tax = 1 
+base_production = 1 
+trade_goods = grain
+base_manpower = 1 
+capital = "Starodub"
+is_city = yes
+
+#Special Modifiers
+add_local_autonomy = 25
+
+#History by SF
+1444.1.11 = {
+    owner = CHR
+    controller = CHR
+    add_core = CHR
+	remove_core = KIR
+}

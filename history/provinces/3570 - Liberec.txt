@@ -1,0 +1,14 @@
+#3570 - Liberec
+
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Liberec"
+is_city = yes
+culture = czech
+religion = hussite
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = tin #This area of Bohemia is the richest and one of the only areas in Central Europe with significant tin deposits
+hre = yes

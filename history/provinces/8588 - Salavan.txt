@@ -1,0 +1,19 @@
+#8588 - Salavan
+
+#Default
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = lao
+religion = animism
+capital = "Salavan"
+trade_goods = tea
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = CHK
+add_core = VIE

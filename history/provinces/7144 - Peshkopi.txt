@@ -1,0 +1,31 @@
+#7144 - Peshkopi
+
+#Default
+owner = ABN
+controller = ABN
+add_core = ABN
+culture = albanian
+religion = orthodox
+capital = "Kasrioti"
+base_tax = 3
+base_production = 3
+base_manpower = 4
+trade_goods = marble
+is_city = yes
+hre = no
+
+#Buildings
+cinema = yes #Skander ho's
+fort_15th = yes
+
+#Claimants
+add_claim = TUR
+
+#History by SF
+1444.11.11 = { 
+	owner = ALB 
+	controller = ALB 
+	add_core = ALB 
+	#Claimants
+	add_core = BYZ 
+} # Albanian territorial lands - By San Felipe

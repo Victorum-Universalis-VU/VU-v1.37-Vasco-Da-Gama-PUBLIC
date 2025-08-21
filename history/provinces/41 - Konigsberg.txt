@@ -1,0 +1,27 @@
+#41 - Königsberg
+
+#Default
+owner = TEU
+controller = TEU
+add_core = TEU
+capital = "Königsberg"
+culture = prussian
+religion = catholic
+trade_goods = gems	#baltic amber, but town was also highly-developed trade hub so jewels fit better
+hre = no
+base_tax = 8
+base_production = 7
+base_manpower = 8
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 3
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = navalbase_modifier_4
+    duration = -1
+}

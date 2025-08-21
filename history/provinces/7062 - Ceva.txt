@@ -1,0 +1,28 @@
+#7062 - Ceva
+
+#Default
+owner = CEV
+controller = CEV
+add_core = CEV
+culture = piedmontese
+religion = catholic
+capital = "Ceva"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = grain
+is_city = yes
+hre = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = ATI
+
+#History by Sf
+1444.11.11 = {
+    owner = MFA
+    controller = MFA
+    add_core = MFA
+}

@@ -1,0 +1,25 @@
+#182 - Valois
+
+#Default
+owner = ORL
+controller = ORL
+add_core = ORL
+capital = "Crépy-en-Valois"
+is_city = yes
+culture = cosmopolitan_french
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = vegetables
+base_manpower = 2
+
+#Claimants
+add_core = FRA
+add_core = VLS
+
+#History by SF
+1215.6.15 = { owner = CHP controller = CHP add_core = CHP } # Countship of Champagne - By San Felipe
+1444.11.11 = { owner = ORL controller = ORL add_core = ORL } # House of Orleans rule as part of the French Royal Domain - By San Felipe
+1420.5.12 = { owner = ENG controller = ENG add_core = ENG } # Treaty of Troyes, ceded to the English
+1429.1.1 = { owner = ORL controller = ORL remove_core = ENG } # Retaken by the French

@@ -1,0 +1,15 @@
+#56 - Osnabrück
+
+#Default
+owner = OSN
+controller = OSN
+add_core = OSN
+culture = hannoverian
+religion = catholic
+capital = "Osnabrück"
+trade_goods = fruit
+hre = yes
+base_tax = 6
+base_production = 6			#Longtime member of the Hanseatic League and generally a bit richer than the surrounding area, but nothing spectacular
+base_manpower = 4 
+is_city = yes

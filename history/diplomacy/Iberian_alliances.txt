@@ -1,0 +1,407 @@
+################################################################
+########################## Aragon (VU) #########################
+################################################################
+
+########################
+# 1215.6.15 Start Date #
+########################
+
+# Royal Marriages
+#royal_marriage = {
+#    first = LON
+#    second = POR
+#    start_date = 1191.1.1
+#    end_date = 1198.1.1
+#}
+
+#royal_marriage = {
+#	first = LON
+#	second = CAS
+#	start_date = 1197.12.17
+#	end_date = 1204.1.1
+#}
+
+# Aragon-Urgell
+dependency = {
+	subject_type = aragonese_county
+	first = ARA
+	second = UGL
+	start_date = 1215.1.1 #1228.1.1
+	end_date = 1413.1.1
+}
+
+#############
+# Guarantee #
+#############
+
+guarantee = {
+	first = ARA
+	second = HRZ
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1483.1.1
+}
+
+guarantee = {
+	first = ARA
+	second = AOR
+	start_date = 1444.1.1
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+}
+
+guarantee = {
+	first = ARA
+	second = AOR
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1479.9.4
+}
+
+guarantee = {
+	first = ARA
+	second = ALB
+	start_date = 1443.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1479.9.4
+}
+
+#############
+# Alliances #
+#############
+
+# Sicily and Aragon - EU4 Vanilla
+alliance = {
+	first = ARA
+	second = SIC
+	start_date = 1392.2.1
+	end_date = 1409.7.25
+}
+
+######################
+# Spanish Crowns ARA #
+######################
+#VU additions by Prussia and integrated by SF
+dependency = {
+	subject_type = aragonese_crown_PU
+	first = ARA
+	second = SAR
+	start_date = 1444.1.1 #Was 1324.1.1
+	end_date = 1474.12.11
+}
+
+dependency = {
+	subject_type = aragonese_crown_PU
+	first = ARA
+	second = SIC
+	start_date = 1409.7.26
+	end_date = 1474.12.11
+}
+
+dependency = {
+	subject_type = aragonese_crown_PU
+	first = ARA
+	second = CAT
+	start_date = 1215.1.1 #Was 1137.1.1
+	end_date = 1474.12.11
+}
+
+dependency = {
+	subject_type = aragonese_crown_PU
+	first = ARA
+	second = MJO
+	start_date = 1215.1.1 #Was 1344.1.1
+	end_date = 1474.12.11
+}
+
+dependency = {
+	subject_type = aragonese_crown_PU
+	first = ARA
+	second = VAL
+	start_date = 1444.1.1 #Was 1238.1.1
+	end_date = 1474.12.11
+}
+
+##################
+# Archbishoprics #
+##################
+dependency = {
+    subject_type = christian_archbishopric
+    first = ARA
+    second = AB8
+    start_date = 1215.1.1 #Was 1137.1.1
+    end_date = 1474.12.11
+}
+
+#########
+# Union #
+#########
+
+#Aragon and Sicily, Alfons V/Alfonso I
+dependency = {
+	subject_type = aragonese_crown_PU
+	first = ARA
+	second = NAP
+	start_date = 1442.3.3
+	end_date = 1458.6.27
+}
+
+################################################################
+######################## Castile (VU) ########################
+################################################################
+
+#####################
+# Spanish Crown PU  #
+#####################
+
+#VU additions by Prussia and integrated by SF
+# Castile-Leon
+dependency = {
+	subject_type = spanish_crown_PU
+	first = CAS
+	second = LON
+	start_date = 1444.1.1 #Was 1230.12.10
+	end_date = 1903.12.31
+}
+
+# Castile-Asturias
+dependency = {
+	subject_type = spanish_crown_PU
+	first = CAS
+	second = ASU
+	start_date = 1444.1.1 #Was 1388.12.1
+	end_date = 1903.12.31
+}
+
+# Castile-Toledo
+dependency = {
+	subject_type = spanish_crown_PU
+	first = CAS
+	second = TLD
+	start_date = 1085.1.1
+	end_date = 1833.1.1
+}
+
+# Castile-Murcia
+dependency = {
+	subject_type = spanish_crown_PU
+	first = CAS
+	second = MUR
+	start_date = 1444.1.1 #Was 1266.12.1
+	end_date = 1833.1.1
+}
+
+# Castile-Cordoba
+dependency = {
+	subject_type = spanish_crown_PU
+	first = CAS
+	second = CDB
+	start_date = 1444.1.1 #Was 1236.1.1
+	end_date = 1833.1.1
+}
+
+# Castile-Jaen
+dependency = {
+	subject_type = spanish_crown_PU
+	first = CAS
+	second = JAE
+	start_date = 1444.1.1 #Was 1246.1.1
+	end_date = 1833.1.1
+}
+
+# Castile-Seville
+dependency = {
+	subject_type = spanish_crown_PU
+	first = CAS
+	second = SVL
+	start_date = 1444.1.1 #Was 1248.1.1
+	end_date = 1833.1.1 #Nueva Planta
+}
+
+# Castile-Badajoz
+dependency = {
+	subject_type = spanish_crown_PU
+	first = CAS
+	second = BDH
+	start_date = 1444.1.1 #Was 1248.1.1
+	end_date = 1833.1.1 #Nueva Planta
+}
+
+# Castile-Galicia
+dependency = {
+	subject_type = spanish_crown_PU
+	first = CAS
+	second = GAL
+	start_date = 1444.1.1 #Was 1248.1.1
+	end_date = 1833.1.1 #Nueva Planta
+}
+
+##################
+# Archbishoprics #
+##################
+dependency = {
+    subject_type = christian_archbishopric
+    first = CAS
+    second = AB0
+    start_date = 1444.1.1 #Was 1137.1.1
+    end_date = 1474.12.11
+}
+
+############
+# Senorios #
+############
+
+# Castile-Alava
+dependency = {
+	subject_type = castilian_lordship
+	first = CAS
+	second = ALV
+	start_date = 1206.1.1
+	end_date = 1833.1.1 #Nueva Planta
+}
+
+# Castile-Guizpucoa
+dependency = {
+	subject_type = castilian_lordship
+	first = CAS
+	second = GUP
+	start_date = 1206.1.1
+	end_date = 1833.1.1 #Nueva Planta
+}
+
+# Castile-Vizcaya
+dependency = {
+	subject_type = castilian_lordship
+	first = CAS
+	second = LBC
+	start_date = 1206.1.1
+	end_date = 1876.1.1
+}
+
+# Castile-Molina
+dependency = {
+	subject_type = castilian_lordship
+	first = CAS
+	second = MLN
+	start_date = 1215.06.15
+	end_date = 1833.1.1 #Nueva Planta
+}
+
+################################################################
+########################## Leon (VU) ###########################
+################################################################
+# Leon-Asturias
+dependency = {
+    subject_type = spanish_crown_PU
+    first = LON
+    second = ASU
+    start_date = 1215.1.1 #Was 1248.1.1
+    end_date = 1444.1.1
+}
+
+# Leon-Badajoz
+dependency = {
+    subject_type = spanish_crown_PU
+    first = LON
+    second = BDH
+    start_date = 1215.1.1 #Was 1248.1.1
+    end_date = 1444.1.1
+}
+
+# Leon-Galicia
+dependency = {
+    subject_type = spanish_crown_PU
+    first = LON
+    second = GAL
+    start_date = 1215.1.1 #Was 1248.1.1
+    end_date = 1444.1.1 #Nueva Planta
+}
+
+##################
+# Archbishoprics #
+##################
+dependency = {
+    subject_type = christian_archbishopric
+    first = LON
+    second = AB0
+    start_date = 1215.1.1 #Was 1137.1.1
+    end_date = 1444.1.1
+}
+
+################################################################
+######################## Sicily (VU) #########################
+################################################################
+
+###################
+# Royal Marriages #
+###################
+
+# Maria I and Martin of Aragon
+royal_marriage = {
+	first = SIC
+	second = ARA
+	start_date = 1392.2.1
+	end_date = 1401.5.26
+}
+
+################################################################
+####################### Portugal (VU) ########################
+################################################################
+
+###################
+# Royal Marriages #
+###################
+
+# Edward and Leonor of Aragon
+royal_marriage = {
+	first = POR
+	second = ARA
+	start_date = 1428.9.22
+	end_date = 1438.9.13
+}
+
+############
+# Counties #
+############
+dependency = {
+	subject_type = portuguese_duchy
+	first = POR
+	second = BZA
+	start_date = 1215.1.1 #Was 1242.3.1
+	end_date = 1910.10.5
+}
+
+dependency = {
+	subject_type = portuguese_duchy
+	first = POR
+	second = CIM
+	start_date = 1215.1.1 #Was 1242.3.1
+	end_date = 1910.10.5
+}
+
+dependency = {
+	subject_type = portuguese_duchy
+	first = POR
+	second = BJA
+	start_date = 1215.1.1 #Was 1242.3.1
+	end_date = 1910.10.5
+}
+
+###########################
+# Portuguese Crown PUs - POR #
+###########################
+
+dependency = {
+	subject_type = portuguese_crown_PU
+	first = POR
+	second = AGV
+	start_date = 1444.1.1 #Was 1242.3.1
+	end_date = 1910.10.5
+}
+
+##################
+# Archbishoprics #
+##################
+dependency = {
+    subject_type = christian_archbishopric
+    first = POR
+    second = AB3
+    start_date = 1444.1.1 #Was 1137.1.1
+    end_date = 1474.12.11
+}

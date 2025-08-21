@@ -1,0 +1,30 @@
+#306 - Nijni-Novgorod
+
+#Default
+owner = MOS
+controller = MOS
+add_core = MOS
+culture = muscovite
+religion = orthodox
+hre = no
+base_tax = 8
+base_production = 6
+trade_goods = cloth 
+base_manpower = 8
+capital = "Nizhny Novgorod"
+is_city = yes
+
+#Buildings
+fort_15th = yes			#Strongest fort in Moscow, appartently
+
+#Claimants
+add_core = NZH
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_3
+    duration = -1
+}

@@ -1,0 +1,19 @@
+#8490 - Oss
+
+#Default
+owner = BRB
+controller = BRB
+add_core = BRB
+culture = ger_guelders
+religion = catholic
+trade_goods = fruit
+capital = "Oss"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = BUR
+add_claim = HOL

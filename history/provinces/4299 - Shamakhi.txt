@@ -1,0 +1,22 @@
+#4299 - Shamakhi
+
+#Default
+owner = SRV
+controller = SRV
+add_core = SRV
+culture = tati
+religion = shiite
+capital = "Shemakha"
+trade_goods = silk
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 3 
+is_city = yes
+
+#Buildings
+fort_15th = yes #Derbent Citadel and fortress
+
+#Claimants
+add_core = SHE
+add_core = TAT

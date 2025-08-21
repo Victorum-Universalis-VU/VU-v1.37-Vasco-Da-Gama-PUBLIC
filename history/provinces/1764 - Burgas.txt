@@ -1,0 +1,36 @@
+#1764 - Burgas
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = BUL
+controller = BUL
+add_core = BUL
+culture = greek			#Hard to say for certain, right on the Bulgarian Greek line, but going Greek for now.
+religion = orthodox
+capital = "Messembria"			#Formerly Burgas, but I'm opting for the slightly more important seeming Messembria instead
+trade_goods = seafood
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+center_of_trade = 2
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1444.11.11 = { owner = BYZ controller = BYZ add_core = BYZ } # Byzantine territorial lands - By San Felipe
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+add_permanent_province_modifier = {
+	name = vu_potential_archaeological_dig
+	duration = -1
+}

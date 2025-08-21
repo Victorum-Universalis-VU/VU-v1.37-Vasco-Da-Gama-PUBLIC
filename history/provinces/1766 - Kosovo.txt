@@ -1,0 +1,22 @@
+#1766 - Kosovo
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = SER
+controller = SER
+add_core = SER
+culture = serbian
+religion = orthodox
+capital = "Novo Brdo"
+trade_goods = gold #Silver, Novo Brdo and other Silver mines in this area
+hre = no
+base_tax = 3 
+base_production = 4
+base_manpower = 2 
+is_city = yes
+
+#Commerce
+center_of_trade = 1

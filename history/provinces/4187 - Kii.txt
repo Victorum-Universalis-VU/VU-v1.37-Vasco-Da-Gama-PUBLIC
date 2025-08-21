@@ -1,0 +1,15 @@
+#4187 - Kii
+
+#Default
+owner = HTK
+controller = HTK
+add_core = HTK
+culture = kinki 
+religion = shinto
+capital = "Wakayama"
+trade_goods = lumber
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes

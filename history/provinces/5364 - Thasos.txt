@@ -1,0 +1,25 @@
+#5364 - Thasos
+
+#Default
+owner = BYZ
+controller = BYZ
+add_core = BYZ
+culture = greek
+religion = orthodox
+capital = "Thasos"
+trade_goods = fish
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = THE controller = THE add_core = THE } # Thessalonican territorial lands - By San Felipe
+1444.11.11 = { owner = BYZ controller = BYZ add_core = BYZ } # Byzantine territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 50

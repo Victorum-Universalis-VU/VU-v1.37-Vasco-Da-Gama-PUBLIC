@@ -1,0 +1,22 @@
+#7645 - Eibenstock
+
+#Default
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = saxon
+religion = catholic
+capital = "Eibenstock"
+trade_goods = wool
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2
+is_city = yes
+
+#History by SF
+1444.1.1 = {
+	owner = THU
+	controller = THU
+	add_core = THU
+}

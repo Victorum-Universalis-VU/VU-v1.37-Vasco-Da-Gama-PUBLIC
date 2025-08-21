@@ -1,0 +1,28 @@
+#5229 - Debdou
+
+#Default
+owner = TLC
+controller = TLC
+add_core = TLC
+culture = ait_atta
+religion = sunni
+capital = "Debdou"
+trade_goods = wool
+hre = no
+base_tax = 2 
+base_production = 2 
+base_manpower = 1 
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1430.1.1 = {
+	owner = DBD
+	controller = DBD
+	add_core = DBD
+	remove_core = TLC
+} #Debdou becomes an autonomous viceroyalty of Morocco
+1444.11.11 = { owner = TLC controller = TLC add_core = TLC remove_core = AMD } # Tlemcen territorial lands - By San Felipe

@@ -1,0 +1,15 @@
+#58 - Anhalt
+
+#Default
+owner = ANH
+controller = ANH
+add_core = ANH 
+culture = saxon
+religion = catholic
+capital = "Dessau"
+trade_goods = wool
+hre = yes
+base_tax = 6
+base_production = 6
+base_manpower = 4 
+is_city = yes

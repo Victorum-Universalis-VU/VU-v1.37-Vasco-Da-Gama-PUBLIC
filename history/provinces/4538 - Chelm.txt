@@ -1,0 +1,26 @@
+#4538 - Chelm
+
+#Default
+owner = KIR
+controller = KIR
+add_core = KIR
+culture = volhynian
+religion = orthodox
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 2
+capital = "Chelm"
+is_city = yes 
+
+#Claimants
+add_core = VOL
+
+#History by SF
+1444.1.11 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+	remove_core = KIR
+}

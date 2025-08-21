@@ -1,0 +1,29 @@
+#7638 - Meissen
+
+#Default
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = saxon
+religion = catholic
+capital = "Meissen"
+trade_goods = iron	#iron moved here from Dresden proper
+hre = yes
+base_tax = 6
+base_production = 5
+base_manpower = 2
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 2
+
+#History by SF
+1444.1.1 = {
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+}
+

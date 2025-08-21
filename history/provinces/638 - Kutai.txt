@@ -1,0 +1,15 @@
+#638 - Kutai
+
+#Default
+owner = KUT
+controller = KUT
+add_core = KUT
+culture = kutainese
+religion = hinduism
+capital = "Kutai"
+trade_goods = pearls
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+is_city = yes

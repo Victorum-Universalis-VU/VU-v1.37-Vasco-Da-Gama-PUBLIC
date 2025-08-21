@@ -1,0 +1,10 @@
+#HLY - Halych
+government = monarchy
+add_government_reform = unlocked_eue_marquisate_reform
+government_rank = 5
+#technology_group = eastern
+technology_group = polish_tech_group
+unit_type = eastern
+religion = catholic
+primary_culture = ruthenian
+capital = 261	# Halych

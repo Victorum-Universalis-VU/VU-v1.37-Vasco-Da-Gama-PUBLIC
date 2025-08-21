@@ -1,0 +1,11 @@
+#COR - Corsica
+government = republic
+add_government_reform = signoria_reform
+government_rank = 6 #Republic
+#technology_group = western
+technology_group = italian_tech_group
+unit_type = western
+religion = catholic
+primary_culture = corsican_culture
+add_accepted_culture = sardinian
+capital = 1247	# Bastia

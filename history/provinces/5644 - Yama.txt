@@ -1,0 +1,24 @@
+#5644 - Ingermanland, incl. Ivangorod, Jama, and Kopore.
+
+#Default
+owner = NOV
+controller = NOV
+add_core = NOV
+culture = ingrian	#was karelian
+religion = orthodox
+hre = no
+base_tax = 2 
+base_production = 3
+trade_goods = glass
+base_manpower = 3
+capital = "Yama"
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = IGR
+
+#Special Modifiers
+add_local_autonomy = 25

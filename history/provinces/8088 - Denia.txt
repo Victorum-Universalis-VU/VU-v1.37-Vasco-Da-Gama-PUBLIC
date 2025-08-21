@@ -1,0 +1,24 @@
+#8088 - Denia
+
+#Default
+owner = AMD
+controller = AMD
+add_core = AMD
+culture = catalan
+religion = catholic
+capital = "Dénia"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = pottery #Known for producing pottery and ceramics (by San Felipe).
+is_city = yes
+hre = no
+
+#History by SF
+1444.11.11 = {
+    owner = VAL
+    controller = VAL
+    add_core = VAL
+    add_core = ARA
+    remove_core = AMD
+} # Aragonese territorial lands - By San Felipe

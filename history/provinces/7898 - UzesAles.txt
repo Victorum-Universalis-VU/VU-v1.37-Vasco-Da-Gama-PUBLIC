@@ -1,0 +1,25 @@
+#7898 - Uzès-Ales
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = N4R
+controller = N4R
+add_core = N4R
+culture = occitain
+religion = catholic
+capital = "Uzès"
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = lumber
+is_city = yes
+hre = no
+
+#Claimants
+add_core = TOU
+
+#History by SF
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe

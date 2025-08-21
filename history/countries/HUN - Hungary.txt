@@ -1,0 +1,43 @@
+#HUN - Hungary
+government = monarchy
+add_government_reform = apostolic_kingdom
+government_rank = 8 #Kingdom
+primary_culture = hungarian
+add_accepted_culture = slovak
+add_accepted_culture = romanian
+add_accepted_culture = transylvanian_saxons
+add_accepted_culture = szekely
+add_accepted_culture = cuman
+religion = catholic
+#technology_group = eastern
+technology_group = hungarian_tech_group
+unit_type = eastern
+capital = 153 # Pest
+historical_friend = HAB
+historical_rival = TUR
+#Bugfixes added Poland as historical friend to try and make love, not war. Will go away upon forming Commonwealth.
+historical_friend = POL
+
+change_estate_land_share = {
+    estate = estate_church
+    share = -5
+}
+
+#History by SF
+1439.10.27 = {
+    historical_rival = BOH
+}
+
+1444.11.10 = {
+    monarch = {
+        name = "Kormányzósága"
+        adm = 0
+        mil = 0
+        dip = 0
+        regent = yes
+    }
+    set_defender_of_the_faith = {
+        who = ROOT
+        religion = ROOT
+    }
+}

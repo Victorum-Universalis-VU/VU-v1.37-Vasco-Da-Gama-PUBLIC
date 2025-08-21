@@ -1,0 +1,28 @@
+#3183 - Bitola
+
+#Default
+owner = TUR
+controller = TUR
+add_core = TUR
+culture = bulgarian
+religion = orthodox
+capital = "Vitolia"			#Monastir in Ottoman Turkish
+trade_goods = livestock
+hre = no
+base_tax = 4 #3
+base_production = 3
+base_manpower = 4 #2
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1215.6.15 = { owner = EPI controller = EPI add_core = EPI } # Epirus territorial lands - By San Felipe
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR add_core = BYZ } # Turkish territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 10

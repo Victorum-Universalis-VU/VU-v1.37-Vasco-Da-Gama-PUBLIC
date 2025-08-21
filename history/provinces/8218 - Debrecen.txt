@@ -1,0 +1,21 @@
+#8218 - Debrecen
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Debrecen"
+is_city = yes
+culture = hungarian
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = cheese #Changed this to cheese since I'm moving the leather to Munster and cheese can be a byproduct of livestock.
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 1

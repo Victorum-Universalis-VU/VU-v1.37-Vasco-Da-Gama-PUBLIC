@@ -1,0 +1,21 @@
+#519 - Dhundar
+
+#Default
+owner = DHU
+controller = DHU
+add_core = DHU
+culture = rajput
+religion = hinduism
+capital = "Amber"
+trade_goods = copper
+hre = no
+base_tax = 9
+base_production = 9
+base_manpower = 9
+is_city = yes
+
+#Claimants
+add_core = T0K
+
+#Commerce
+center_of_trade = 2

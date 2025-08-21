@@ -1,0 +1,22 @@
+#3091 - Mâcon
+
+#Default
+owner = FDB
+controller = FDB
+add_core = FDB
+capital = "Mâcon"
+is_city = yes
+culture = burgundian
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = lumber
+
+#History by SF
+1444.11.11 = {
+    owner = BUR
+    controller = BUR
+    add_core = BUR
+}

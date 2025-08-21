@@ -1,0 +1,18 @@
+#7635 - Naumberg
+
+#Default
+owner = BSB
+controller = BSB
+add_core = BSB
+culture = saxon
+religion = catholic
+capital = "Meresburg"
+trade_goods = apiculture
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = THU

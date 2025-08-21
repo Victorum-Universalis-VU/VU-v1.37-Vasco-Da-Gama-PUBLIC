@@ -1,0 +1,22 @@
+#7015 - Marsica
+
+#Default
+owner = NAP
+controller = NAP
+add_core = NAP
+culture = neapolitan
+religion = catholic
+capital = "Avezzano"
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = horses
+is_city = yes
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1215.6.15 = { owner = SIC controller = SIC add_core = SIC } # Sicilian territorial lands - By San Felipe
+1444.11.11 = { owner = NAP controller = NAP add_core = NAP } # Napolitan territorial lands - By San Felipe

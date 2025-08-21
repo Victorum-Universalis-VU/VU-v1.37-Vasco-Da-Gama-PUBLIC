@@ -1,0 +1,21 @@
+#1157 - Borno
+
+#Default
+owner = KBO
+controller = KBO
+add_core = KBO
+culture = kanuri
+religion = sunni
+capital = "Gatiga"
+is_city = yes
+base_manpower = 2 
+trade_goods = grain
+hre = no
+base_tax = 8 
+base_production = 8
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 2

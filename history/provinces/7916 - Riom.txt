@@ -1,0 +1,27 @@
+#7916 - Riom
+
+#Default
+owner = AUV
+controller = AUV
+add_core = AUV
+culture = auvergnat_culture
+religion = catholic
+capital = "Riom"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = horses
+is_city = yes
+hre = no
+
+#Claimants
+add_core = FRA
+
+#History by SF
+1444.11.11 = { 
+	owner = BOU 
+	controller = BOU 
+	add_core = BOU
+	#Remove Claimants
+	remove_core = AUV
+} # Duchy of Bourbonnais - By San Felipe

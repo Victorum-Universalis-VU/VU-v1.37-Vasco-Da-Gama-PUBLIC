@@ -1,0 +1,10 @@
+#PMY - Peremyshl
+government = monarchy
+add_government_reform = unlocked_eue_marquisate_reform
+government_rank = 5
+#technology_group = eastern
+technology_group = russian_tech_group
+unit_type = eastern
+religion = orthodox
+primary_culture = ruthenian
+capital = 7268	#Peremyshl

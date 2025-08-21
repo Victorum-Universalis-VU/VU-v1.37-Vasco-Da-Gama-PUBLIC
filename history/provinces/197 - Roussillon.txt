@@ -1,0 +1,36 @@
+# 197 Roussillon - Principal cities: Perpignan
+
+#Default
+owner = MJO
+controller = MJO
+add_core = MJO
+capital = "Perpignan"
+is_city = yes
+culture = catalan
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = citrus
+base_manpower = 2
+
+#Buildings
+fort_15th = yes
+
+#History by SF
+1412.6.29 = {
+	revolt = {
+		type = pretender_rebels
+		size = 1
+		leader = "Jaume d'Urgell"
+	}
+	controller = REB
+}
+# Jaime de Urgell Uprising
+1444.11.11 = {
+	owner = CAT
+	controller = CAT
+	add_core = CAT
+	add_core = ARA
+	remove_core = MJO
+}

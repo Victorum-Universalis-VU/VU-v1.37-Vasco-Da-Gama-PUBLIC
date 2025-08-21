@@ -1,0 +1,20 @@
+#8891 - Nuugaatmiit
+
+#Default
+culture = osage
+religion = totemism
+capital = "Nuugaatmiit"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = vu_the_ozarks 
+    duration = -1
+}

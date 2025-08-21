@@ -1,0 +1,32 @@
+# 4525 - Dobryzn
+
+#Default
+owner = MAZ
+controller = MAZ
+add_core = MAZ
+capital = "Dobryzn"
+is_city = yes
+culture = polish
+religion = catholic
+trade_goods = vegetables
+hre = no
+base_tax = 3
+base_production = 1
+base_manpower = 2
+
+#Claimants
+add_core = DBZ
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+#History by SF
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+	remove_core = MAZ
+}

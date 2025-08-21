@@ -1,0 +1,37 @@
+#61 - Saxony
+
+#Default
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = saxon
+religion = catholic
+capital = "Meissen"
+trade_goods = paper	#was iron but City of Dresden did not have any mines on itself. It was important city centre though.
+hre = yes
+base_tax = 8
+base_production = 8
+base_manpower = 2 
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 4
+
+#History by SF
+1423.1.6 = { 
+    owner = SAX 
+    controller = SAX 
+    add_core = SAX 
+    capital = "Dresden"
+    #Claimants
+    remove_core = MEI  
+} # Incorporated into Saxony
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = jewish_population
+    duration = -1
+}

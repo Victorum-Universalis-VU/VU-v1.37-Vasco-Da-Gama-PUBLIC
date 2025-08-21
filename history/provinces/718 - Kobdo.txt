@@ -1,0 +1,14 @@
+#718 - Govi Altay
+
+owner = OIR		# The Oirads united much of Mongolia
+controller = OIR
+add_core = OIR
+culture = oirats
+religion = tengri_pagan_reformed
+capital = "Kobdo"
+trade_goods = cloth
+hre = no
+base_tax = 4  
+base_production = 4
+base_manpower = 4
+is_city = yes

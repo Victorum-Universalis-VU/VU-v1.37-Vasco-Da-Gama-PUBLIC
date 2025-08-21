@@ -1,0 +1,28 @@
+#2968 - Budejovice
+
+#Default
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Budejovice"
+culture = czech
+religion = hussite
+trade_goods = beer
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 1
+
+#Special Modifiers
+add_local_autonomy = 25
+
+#History by SF
+1419.12.1 = { unrest = 5 } # Hussite Wars, Battle of Nekmir
+1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava

@@ -1,0 +1,26 @@
+#7905 - Millhau
+
+#Default
+owner = N4R
+controller = N4R
+add_core = N4R
+culture = occitain
+religion = catholic
+capital = "Millhau"
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = wool
+is_city = yes
+hre = no
+
+#Claimants
+add_core = FRA
+add_core = TOU
+
+#History by SF
+1444.11.11 = { 
+	owner = AMG 
+	controller = AMG 
+	add_core = AMG 
+} # Part of the duchy of Armagnac - By San Felipe

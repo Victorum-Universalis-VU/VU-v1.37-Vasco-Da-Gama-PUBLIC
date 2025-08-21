@@ -1,0 +1,17 @@
+#719 - Sayin Noyan
+
+owner = OIR		# The Oirads united much of Mongolia
+controller = OIR
+add_core = OIR
+culture = khalkha
+religion = tengri_pagan_reformed
+capital = "Uliastai"
+trade_goods = wool
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = KHA

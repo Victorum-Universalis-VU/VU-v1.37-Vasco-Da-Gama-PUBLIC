@@ -1,0 +1,15 @@
+#69 - Ravensberg
+
+#Default
+owner = BRG
+controller = BRG
+add_core = BRG
+culture = hannoverian
+capital = "Ravensberg"
+religion = catholic
+trade_goods = apiculture
+base_tax = 4
+base_production = 3			
+base_manpower = 3
+is_city = yes
+hre = yes

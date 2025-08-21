@@ -1,0 +1,15 @@
+#7161 - Batanes
+
+#Default
+owner = IVT
+controller = IVT
+add_core = IVT
+culture = ivata
+religion = animism
+capital = "Ivata"
+trade_goods = sea_turtle
+hre = no
+base_tax = 4  
+base_production = 4
+base_manpower = 4
+is_city = yes

@@ -1,0 +1,18 @@
+#3563 - Vevey
+
+#Default
+owner = SAV
+controller = SAV
+add_core = SAV
+culture = arpitan
+religion = catholic
+capital = "Vevey"
+trade_goods = wine
+hre = yes
+base_tax = 3
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+#History by SF
+1444.1.1 = { add_core = VUD }

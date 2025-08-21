@@ -1,0 +1,15 @@
+#4527 - Checiny
+
+#Default
+owner = POL
+controller = POL
+add_core = POL
+capital = "Checiny"
+culture = polish
+religion = catholic
+trade_goods = marble #Stone/Marble if added. Was cloth
+hre = no
+base_tax = 4
+base_production = 2
+base_manpower = 2
+is_city = yes

@@ -1,0 +1,23 @@
+#658 - Cagayan
+
+#Default
+culture = ibanag
+religion = animism
+capital = "Catagayan"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 50
+native_ferocity = 1
+native_hostileness = 3
+
+#History by SF
+1400.1.1 = {
+    #Province Modifiers
+	add_permanent_province_modifier = {
+        name = japanese_minorities
+        duration = -1
+    }
+}

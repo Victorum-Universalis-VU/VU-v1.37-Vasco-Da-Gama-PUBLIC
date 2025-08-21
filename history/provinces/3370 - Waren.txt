@@ -1,0 +1,15 @@
+#3370 - Waren
+
+#Default
+owner = M5H
+controller = M5H
+add_core = M5H
+culture = pommeranian
+religion = catholic
+capital = "Waren"
+base_tax = 2 
+base_production = 1 
+base_manpower = 1 
+trade_goods = fish
+is_city = yes
+hre = yes

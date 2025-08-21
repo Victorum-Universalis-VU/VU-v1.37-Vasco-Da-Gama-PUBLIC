@@ -1,0 +1,14 @@
+#2125 - Kochkor
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = kirgiz
+religion = nestorian	#Nestorian churches and communities were result of eraly christian missions along silk road. Maps show concentration of nestorian believers here that we still present until 1600's
+capital = "Kochkor"
+trade_goods = saffron
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 6
+is_city = yes

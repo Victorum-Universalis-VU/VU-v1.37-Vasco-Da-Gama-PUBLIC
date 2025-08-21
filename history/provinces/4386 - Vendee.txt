@@ -1,0 +1,26 @@
+#4386 - Fontenay
+
+#Default
+owner = AUV
+controller = AUV
+capital = "Fontenay"
+is_city = yes
+culture = poitevin_culture
+religion = catholic 
+hre = no
+base_tax = 2 
+base_production = 2
+trade_goods = lumber
+base_manpower = 1 
+
+#Buildings
+fort_15th = yes
+
+#Claimants
+add_core = POI
+add_core = FRA
+
+#History by SF
+1215.6.15 = { owner = FRA controller = FRA add_core = FRA } # Part of French Royal Domain - By San Felipe
+1398.1.1 = { add_core = AUV }
+1416.3.15 = { owner = FRA controller = FRA remove_core = AUV } # Death of Jean de Valois

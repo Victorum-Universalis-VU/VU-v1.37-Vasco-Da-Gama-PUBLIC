@@ -1,0 +1,22 @@
+#LRI - Luristan
+government = tribal
+add_government_reform = islamic_taifa_reform
+government_rank = 7 #Taifa
+primary_culture = luri
+religion = sunni
+technology_group = persian_tech_group
+unit_type = muslim
+#capital = 4342 # Malamir
+capital = 413 #Khorramabad
+religious_school = hanafi_school
+
+#History by SF
+1413.1.1 = {
+	monarch = {
+		name = "Hussein"
+		dynasty = "Khorshidi"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

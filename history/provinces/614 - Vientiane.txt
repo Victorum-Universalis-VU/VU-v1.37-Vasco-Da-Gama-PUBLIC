@@ -1,0 +1,28 @@
+#614 - Vientiane
+
+#Default
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = lao
+religion = buddhism
+capital = "Vientiane"
+trade_goods = ebony
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+fort_15th = yes
+is_city = yes
+
+#Claimants
+add_core = VIE
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

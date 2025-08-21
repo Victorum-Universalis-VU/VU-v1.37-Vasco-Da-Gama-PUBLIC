@@ -1,0 +1,15 @@
+#4589 - Moran
+
+#Default
+owner = CTM
+controller = CTM
+add_core = CTM
+culture = putun
+religion = mesoamerican_religion
+capital = "Moran"
+trade_goods = cocoa
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+is_city = yes

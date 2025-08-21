@@ -1,0 +1,14 @@
+#7459 - Sakaka
+
+#Default
+culture = bedouin_arabic
+religion = sunni
+capital = "Al-Kasrah"
+trade_goods = unknown
+hre = no
+base_tax = 1  
+base_production = 1 
+base_manpower = 1 
+native_size = 10
+native_ferocity = 9
+native_hostileness = 5

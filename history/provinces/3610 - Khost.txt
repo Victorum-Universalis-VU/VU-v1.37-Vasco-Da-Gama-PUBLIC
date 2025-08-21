@@ -1,0 +1,21 @@
+#3610 - Khost
+
+#Default
+owner = AFG
+controller = AFG
+add_core = AFG
+culture = pashtun
+religion = sunni
+capital = "Khost"
+trade_goods = lumber	#one of few forests of Afghanistan, used as firewood source
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = TIM
+
+#Commerce
+center_of_trade = 1

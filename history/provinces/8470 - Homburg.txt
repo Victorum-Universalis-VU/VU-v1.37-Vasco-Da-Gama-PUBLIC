@@ -1,0 +1,15 @@
+#8470 - Homburg
+
+#Default
+owner = HOM
+controller = HOM
+add_core = HOM 
+capital = "Homburg"
+is_city = yes
+culture = franconian
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 2
+trade_goods = livestock
+base_manpower = 2

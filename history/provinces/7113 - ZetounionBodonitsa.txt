@@ -1,0 +1,21 @@
+#7113 - ZetounionBodonitsa
+
+#Default
+owner = ATH
+controller = ATH
+add_core = ATH
+culture = greek
+religion = orthodox
+capital = "Zetounion"
+base_tax = 3
+base_production = 2
+base_manpower = 1
+trade_goods = cheese			#Was saffron - Semi generic, but seems like good land and Greece ought to have a fair number of grain provinces.
+is_city = yes
+hre = no
+
+#History by SF
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe
+
+#Special Modifiers
+add_local_autonomy = 10

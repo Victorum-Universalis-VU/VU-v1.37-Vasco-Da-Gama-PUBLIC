@@ -1,0 +1,17 @@
+# 2245 - Wagadu
+
+owner = ZAF
+controller = ZAF
+add_core = ZAF
+is_city = yes
+culture = soninke 
+religion = shamanism #Fetishism
+capital = "Dia"
+trade_goods = wool
+hre = no
+base_tax = 4  
+base_production = 4
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+base_manpower = 2

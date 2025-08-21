@@ -1,0 +1,32 @@
+#4370 - Cambridgeshire
+
+#Default
+owner = B0E
+controller = B0E
+add_core = B0E
+culture = east_anglian
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 3
+trade_goods = books #Was grain
+base_manpower = 2
+capital = "Cambridge"
+is_city = yes
+
+#Claimants
+add_core = ENG
+
+#Commerce
+center_of_trade = 1
+
+#Political
+seat_in_parliament = yes
+
+#History by SF
+1444.11.11 = { 
+	owner = YRK 
+	controller = YRK 
+	add_core = YRK
+	remove_core = B0E 
+} # The Duchy of York territory - By San Felipe

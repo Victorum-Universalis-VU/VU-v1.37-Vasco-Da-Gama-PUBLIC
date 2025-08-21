@@ -1,0 +1,15 @@
+#3151 - Zala
+
+#Default
+owner = HUN
+controller = HUN 
+add_core = HUN
+culture = hungarian
+religion = catholic
+capital = "Egerszeg"
+trade_goods = naval_supplies
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2 
+is_city = yes

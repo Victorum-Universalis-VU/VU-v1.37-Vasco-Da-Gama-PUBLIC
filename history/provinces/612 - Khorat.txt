@@ -1,0 +1,21 @@
+#612 - Khorat
+
+#Default
+owner = AYU
+controller = AYU
+add_core = AYU
+culture = khmer
+religion = buddhism
+capital = "Nakhon Ratchasima"
+trade_goods = silk
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = PHM
+
+#Commerce
+center_of_trade = 1

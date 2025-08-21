@@ -1,0 +1,27 @@
+#4963 - Taveewach
+
+latent_trade_goods = {
+    coal
+}
+
+#Default
+culture = ute_culture
+religion = totemism 
+capital = "Pahdteeahnooch" 
+trade_goods = unknown
+hre = no 
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+native_size = 1 
+native_ferocity = 1 
+native_hostileness = 3 
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = vu_colorado_plateau 
+    duration = -1
+}

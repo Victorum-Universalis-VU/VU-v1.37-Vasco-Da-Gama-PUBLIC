@@ -1,0 +1,23 @@
+#2997 - Pomorskie
+
+#Default
+owner = POL
+controller = POL
+add_core = POL
+capital = "Tuchel"
+culture = kashubian_culture
+religion = catholic
+trade_goods = naval_supplies
+hre = no
+base_tax = 3 
+base_production = 3 
+base_manpower = 3 
+is_city = yes
+
+#History by SF
+1444.1.1 = {
+	owner = TEU
+	controller = TEU
+	add_core = TEU
+	remove_core = POL
+}

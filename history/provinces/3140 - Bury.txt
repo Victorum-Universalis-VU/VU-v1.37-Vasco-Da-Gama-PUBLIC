@@ -1,0 +1,21 @@
+#3140 - Bury
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = east_anglian
+religion = lollardy
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = grain
+base_manpower = 1 
+capital = "Bury"
+is_city = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

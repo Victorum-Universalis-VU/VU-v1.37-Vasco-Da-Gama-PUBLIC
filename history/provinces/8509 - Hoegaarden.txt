@@ -1,0 +1,16 @@
+#8509 - Hoegaarden
+
+#Default
+owner = LIE
+controller = LIE
+add_core = LIE
+add_core = BUR
+capital = "Hoegaarden"
+is_city = yes
+culture = ger_brabantian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 1
+trade_goods = silver
+base_manpower = 1

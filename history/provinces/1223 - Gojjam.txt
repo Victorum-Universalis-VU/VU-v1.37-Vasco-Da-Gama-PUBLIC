@@ -1,0 +1,18 @@
+#1223 - Gojjam
+
+#Default
+owner = ETH
+controller = ETH
+add_core = ETH
+culture = amhara 
+religion = coptic
+capital = "Debre Asbo"
+is_city = yes
+base_manpower = 4
+trade_goods = coffee
+hre = no
+base_tax = 4  
+base_production = 4
+
+#Commerce
+center_of_trade = 1

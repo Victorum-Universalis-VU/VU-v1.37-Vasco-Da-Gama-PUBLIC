@@ -1,0 +1,21 @@
+#3064 - Westhoek
+
+#Default
+owner = FLA
+controller = FLA
+add_core = FLA
+is_city = yes
+capital = "Dunkirk"
+culture = ger_flemish
+religion = catholic
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = naval_supplies			#Today the 3rd largest habour in France, with a large ship-building industry and also a lot of heavy industry. In the EU4 period, however, this was part of Flanders so I think both cloth and naval supplies would work.
+base_manpower = 4
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

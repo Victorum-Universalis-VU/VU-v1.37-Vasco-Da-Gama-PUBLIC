@@ -1,0 +1,17 @@
+#4759 - Oberkaernten
+
+owner = CR1
+controller = CR1
+add_core = CR1
+culture	= austrian
+religion = catholic
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = gold #Was lead but changed in VU v1.37 - SF 
+capital = "Villach" 
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = CLI

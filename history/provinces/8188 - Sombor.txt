@@ -1,0 +1,24 @@
+#8188 - Zombor
+
+#Default
+owner = HUN
+controller = HUN
+add_core = HUN
+capital = "Zombor"
+is_city = yes
+culture = hungarian
+religion = catholic
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = livestock
+hre = no
+
+#Buildings
+fort_15th = yes
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}

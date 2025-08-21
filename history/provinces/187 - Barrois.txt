@@ -1,0 +1,25 @@
+#187 - Barrois
+
+#Default
+owner = PRO
+controller = PRO
+add_core = PRO
+capital = "Bar-le-Duc"
+is_city = yes
+culture = lorraine_culture
+religion = catholic
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = apiculture
+base_manpower = 3
+
+#Claimants
+add_core = FRA
+
+#History by SF
+1430.6.26 = { 
+	owner = BAR 
+	controller = BAR 
+	add_core = BAR 
+}

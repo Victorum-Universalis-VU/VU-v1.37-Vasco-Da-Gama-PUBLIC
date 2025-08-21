@@ -1,0 +1,55 @@
+#7087 - Ceneda
+
+owner = CEN
+controller = CEN
+add_core = CEN
+culture = friulian_culture	#Appears borderline, but I think this is probably accurate enough
+religion = catholic
+capital = "Ceneda"
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = salt #Venetian salt monopoly
+is_city = yes
+hre = yes
+
+#Special Modifiers
+
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+
+#Province history completed by - Nikicaga & Darth Modus
+#First shattering unused
+1215.1.1 = {
+owner = VRN
+controller = VRN
+add_core = VRN
+}
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
+	owner = CEN
+	controller = CEN
+	remove_core = VEN
+} #Return to proper mod added owners and cuts vanilla core, typically.
+
+#To Venice as vassal in 1389
+1433.1.1 = { hre = no } # Treaty between Doge Francesco Foscari and Emperor Sigismund of the HRE
+
+#Second shattering unused
+1444.1.1 = { #VictorumUniversalis batch edit shortcut second performance start begins
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
+	owner = CEN
+	controller = CEN
+	remove_core = VEN
+}

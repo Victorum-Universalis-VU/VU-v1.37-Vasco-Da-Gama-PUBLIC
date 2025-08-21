@@ -1,0 +1,25 @@
+#1759 - Potsdam
+
+owner = BRA
+controller = BRA
+add_core = BRA
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 3			#Okay, Brandenburg's population was minute and the little wealth it did have at the time was overflow from the Novgorod-Brugge route... giving dev based on later importance. Historic rise to power from nothing, like the Low Countries, needs events which I'm too lazy for atm
+base_production = 4			#By 1317, it was mentioned as a small town. In 1573, it was still a small market town of 2,000 inhabitants. Potsdam lost nearly half of its population due to the Thirty Years' War (1618-1648).
+base_manpower = 3			#Don't want dev too low in Brandenburg, so giving it 6, the surround countryside was rich enough to justify it
+trade_goods = iron
+capital = "Potsdam"
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#Buildings
+town_hall = yes
+workshop = yes
+marketplace = yes
+road_system = yes
+cesspit = yes
+well = yes

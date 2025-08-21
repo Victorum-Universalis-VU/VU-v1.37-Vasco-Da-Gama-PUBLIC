@@ -1,0 +1,27 @@
+#399 - Suhar
+
+#Default
+owner = MUS
+controller = MUS
+add_core = MUS
+culture = omani_culture
+religion = ibadi
+capital = "Suhar"
+trade_goods = spices
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+is_city = yes
+
+#Claimants
+add_core = OMA
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}

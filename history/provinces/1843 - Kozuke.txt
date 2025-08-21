@@ -1,0 +1,15 @@
+#1843 - Kozuke
+
+#Default
+owner = UES
+controller = UES
+add_core = UES
+culture = kanto 
+religion = shinto
+capital = "Mayabashi"
+trade_goods = books #Kzuke played a role in philosophy and scholarship. - SF
+hre = no
+base_tax = 3
+base_production = 1
+base_manpower = 2
+is_city = yes

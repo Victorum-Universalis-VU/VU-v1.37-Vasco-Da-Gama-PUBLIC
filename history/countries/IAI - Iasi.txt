@@ -1,0 +1,10 @@
+#IAI - Iasi
+government = monarchy
+add_government_reform = romanian_principality
+government_rank = 7 #Principality
+primary_culture = romanian
+religion = orthodox
+#technology_group = eastern
+technology_group = hungarian_tech_group
+unit_type = eastern
+capital = 4529 # Iasi

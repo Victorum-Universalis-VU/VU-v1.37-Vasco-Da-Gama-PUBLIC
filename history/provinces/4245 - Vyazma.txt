@@ -1,0 +1,23 @@
+#4245 - Vyazma
+
+#Default
+owner = SMO
+controller = SMO
+add_core = SMO
+culture = muscovite
+religion = orthodox
+hre = no
+base_tax = 2 
+base_production = 2 
+trade_goods = livestock 
+base_manpower = 2 
+capital = "Vyazma"
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1404.1.1 = { owner = LIT controller = LIT add_core = LIT } # Vytautas strikes back once more
+1440.1.1 = { unrest = 10 }			#Major rebellion lasting 1440-1442
+1442.1.1 = { unrest = 0 owner = SMO controller = SMO add_core = SMO remove_core = LIT }

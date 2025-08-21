@@ -1,0 +1,19 @@
+#7435 - Bedforshire
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = bedfordian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 2
+capital = "Bedford"
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = BED controller = BED add_core = BED } # The Dukedom of Bedford territory - By San Felipe
+

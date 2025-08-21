@@ -1,0 +1,11 @@
+#ABR - Abruzzo
+government = monarchy
+add_government_reform = unlocked_eue_county_reform
+government_rank = 6 #Duchy
+#technology_group = western
+technology_group = italian_tech_group
+unit_type = western
+primary_culture = neapolitan
+religion = catholic
+capital = 120
+fixed_capital = 120

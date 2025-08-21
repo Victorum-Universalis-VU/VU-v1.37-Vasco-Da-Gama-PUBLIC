@@ -1,0 +1,72 @@
+#BAR - Bar
+government = monarchy
+add_government_reform = eue_duchy_reform
+government_rank = 6 #Duchy
+primary_culture = lorraine_culture
+religion = catholic
+#technology_group = western
+technology_group = french_tech_group
+unit_type = western
+capital = 187	# Verdun
+
+#History by Prussia
+1215.6.15 = {
+	monarch = {
+		name = "Henri II"
+		dynasty = "de Montbéliard"
+		birth_date = 1190.1.11
+		death_date = 1239.1.1 #Died in Gaza - Prussia
+		adm = 1
+		dip = 1
+		mil = 0 #Did nothing of note for his territory and just rushed off to die with a handful of crusaders fighting an Ayyubid army - Prussia
+	}
+	queen = {
+		country_of_origin = BRI
+		name = "Philippa"
+		dynasty = "de Dreux"
+		birth_date = 1192.1.1
+		death_date = 1242.1.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	#Never had any hair - Prussia
+}
+
+1434.11.16 = {
+	monarch = {
+		name = "René I"
+		dynasty = "de Valois-Anjou"
+		birth_date = 1409.1.16
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+	queen = {
+		country_of_origin = LOR
+		name = "Isabella"
+		dynasty = "de Metz"
+		birth_date = 1400.1.1
+		death_date = 1453.2.28
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1444.11.11 = {
+	heir = {
+		name = "Yolanda"
+		monarch_name = "Yolanda I"
+		dynasty = "de Valois-Anjou"
+		birth_date = 1428.11.2
+		death_date = 1483.3.23
+		female = yes
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2 #She wasn't incompetent but was dominated by her husband - Prussia
+	}
+}

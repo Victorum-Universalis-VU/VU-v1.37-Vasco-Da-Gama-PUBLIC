@@ -1,0 +1,21 @@
+#5315 - El Kef
+
+#Default
+owner = TUN
+controller = TUN
+add_core = TUN
+culture = tunisian
+religion = sunni
+capital = "El Kef"
+trade_goods = olive_oil
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 2
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 1

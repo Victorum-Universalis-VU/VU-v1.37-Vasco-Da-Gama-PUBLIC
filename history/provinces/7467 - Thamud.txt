@@ -1,0 +1,18 @@
+#7467 - Thamud
+
+#Default
+owner = MHR
+controller = MHR
+add_core = MHR
+culture = yemeni_culture
+religion = sunni
+capital = "Thamud"
+trade_goods = dates
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = HDR controller = HDR add_core = HDR } # Hadramut territorial lands - By San Felipe

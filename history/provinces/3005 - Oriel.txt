@@ -1,0 +1,19 @@
+#3005 - Oriel
+
+#Default
+owner = TYR
+controller = TYR
+add_core = TYR
+culture = celtic_irish_culture #Was irish
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = lumber #For the shipyards in Belfast (by San Felipe).
+capital = "Ard Mhacha"
+is_city = yes
+
+#Claimants
+add_core = ANI
+add_core = ENG

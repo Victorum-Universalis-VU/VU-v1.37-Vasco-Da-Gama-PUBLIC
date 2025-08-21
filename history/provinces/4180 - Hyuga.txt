@@ -1,0 +1,19 @@
+#4180 - Hyuga
+
+#Default
+owner = ITO
+controller = ITO
+add_core = ITO
+culture = satsugu 
+religion = shinto
+capital = "Obi"
+trade_goods = chinaware
+hre = no
+base_tax = 7
+base_manpower = 7
+base_production = 7
+is_city = yes
+
+#Claimants
+add_core = SMZ
+add_core = KTK

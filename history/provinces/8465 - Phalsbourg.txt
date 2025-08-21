@@ -1,0 +1,19 @@
+#8465 - Phalsbourg
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = FEN
+controller = FEN
+add_core = FEN 
+capital = "Fenestrange"
+is_city = yes
+culture = alsatian
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 2
+trade_goods = apiculture
+base_manpower = 2

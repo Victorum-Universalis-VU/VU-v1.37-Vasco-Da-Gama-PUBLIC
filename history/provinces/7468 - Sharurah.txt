@@ -1,0 +1,24 @@
+#7468 - Sharurah
+
+#Default
+capital = "Sharurah"
+culture = yemeni_culture
+religion = shiite
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1 
+base_manpower = 1
+native_size = 10
+native_ferocity = 9
+native_hostileness = 5
+
+#History by SF
+1444.11.11 = {
+    owner = RAS
+	controller = RAS
+	add_core = RAS
+	trade_goods = coffee
+	base_tax = 2
+	is_city = yes
+}

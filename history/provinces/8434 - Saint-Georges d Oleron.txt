@@ -1,0 +1,19 @@
+#8434 - Saint-Georges d Oleron
+
+#Default
+owner = FRA
+controller = FRA
+add_core = FRA
+capital = "Saint-Georges-d'Oléron"
+is_city = yes
+culture = poitevin_culture
+religion = catholic
+hre = no
+base_tax = 1  
+base_production = 2 
+trade_goods = fish
+base_manpower = 1
+
+#Claimants
+add_core = POI
+add_core = GUY

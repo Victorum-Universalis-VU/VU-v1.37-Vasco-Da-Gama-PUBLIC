@@ -1,0 +1,34 @@
+#254 - Poznan
+
+#Default
+owner = PZN
+controller = PZN
+add_core = PZN
+capital = "Poznan"
+culture = polish
+religion = catholic
+trade_goods = cloth	#major city in Greater Poland
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}
+
+#History by SF
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+}

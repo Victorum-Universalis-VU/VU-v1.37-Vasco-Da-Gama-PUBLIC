@@ -1,0 +1,19 @@
+#544 - Ahmednagar
+
+#Default
+owner = BAH
+controller = BAH
+add_core = BAH
+culture = marathi
+religion = hinduism
+capital = "Junir"
+trade_goods = tea
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+is_city = yes
+
+#Claimants
+add_core = AHM
+add_core = MAR

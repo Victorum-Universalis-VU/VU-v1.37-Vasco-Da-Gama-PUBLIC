@@ -1,0 +1,18 @@
+#7737 - Osmaneli
+
+#Default
+owner = NIC
+controller = NIC
+add_core = NIC
+culture = turkish
+religion = sunni
+capital = "Osmaneli"
+trade_goods = wool		#or livestock, or olive_oil, or wine, overall poor area
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe

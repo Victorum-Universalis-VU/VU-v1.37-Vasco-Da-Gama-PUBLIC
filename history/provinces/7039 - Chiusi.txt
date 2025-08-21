@@ -1,0 +1,19 @@
+#7039 - Chiusi
+
+#Default
+owner = CUI
+controller = CUI
+add_core = CUI
+culture = tuscan
+religion = catholic
+capital = "Chiusi"	#and Montepulciano
+base_tax = 5
+base_production = 5
+base_manpower = 2
+trade_goods = pottery #Changed to pottery as it was famous for such craftsmanship (by San Felipe).
+is_city = yes
+hre = yes
+
+#History by SF
+1215.6.15 = { owner = SIE controller = SIE add_core = SIE } # Sienan territorial lands - By San Felipe
+1444.1.1 = { add_core = CUI } # Chiusi territorial lands - By San Felipe

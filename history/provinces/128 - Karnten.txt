@@ -1,0 +1,15 @@
+#128 - Karnten
+
+#Default
+owner = CR1
+controller = CR1
+add_core = CR1
+culture = slovene #Was austrian but changed by San Felipe on the advice of Morsmessor
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 3
+trade_goods = copper
+capital = "Klagenfurt" 
+is_city = yes
+hre = yes

@@ -1,0 +1,18 @@
+#6619 - Al_Halfayah
+
+#Default
+owner = MSY
+controller = MSY
+add_core = MSY
+culture = al_iraqiya_arabic
+religion = sunni
+capital = "al-Halfayah"
+trade_goods = dates
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = BSR

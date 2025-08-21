@@ -1,0 +1,15 @@
+#5256 - Summan
+
+#Default
+owner = ALH
+controller = ALH
+add_core = ALH
+capital = "Qaryat al-Ulya"
+culture = bedouin_arabic
+religion = shiite
+trade_goods = grain
+hre = no
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+is_city = yes

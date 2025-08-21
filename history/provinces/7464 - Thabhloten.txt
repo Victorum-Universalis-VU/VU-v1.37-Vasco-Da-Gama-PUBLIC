@@ -1,0 +1,18 @@
+#7464 - Thabhloten
+
+#Default
+owner = MHR
+controller = MHR
+add_core = MHR
+capital = "Thabhloten"
+culture = mahri_culture
+religion = sunni
+trade_goods = camel
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#History by SF
+1444.11.11 = { owner = HDR controller = HDR add_core = HDR } # Hadramut territorial lands - By San Felipe

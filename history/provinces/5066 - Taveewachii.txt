@@ -1,0 +1,23 @@
+#5066 - Hualapai
+
+#Default
+culture = ute_culture
+religion = totemism
+capital = "Taveewach"			#Need a proper name, obviously, but so remote, who will care? Modern Aspen area
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = vu_colorado_plateau 
+    duration = -1
+}

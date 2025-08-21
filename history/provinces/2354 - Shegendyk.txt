@@ -1,0 +1,18 @@
+#2354 - Shegendyk
+
+owner = SHY
+controller = SHY
+add_core = SHY
+culture = khazak
+religion = sunni
+capital = "Shegendyk"
+trade_goods = lead
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = KZH
+

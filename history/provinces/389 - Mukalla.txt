@@ -1,0 +1,24 @@
+#389 - Hadramut
+
+#Default
+owner = HDR
+controller = HDR
+add_core = HDR
+culture = yemeni_culture
+religion = sunni
+capital = "ash-Shihr"
+trade_goods = dates
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3 
+is_city = yes
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

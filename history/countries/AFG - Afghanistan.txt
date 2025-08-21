@@ -1,0 +1,31 @@
+#AFG - Afghanistan
+government = monarchy
+add_government_reform = islamic_emirate_reform
+government_rank = 5 #Emirate
+#technology_group = muslim
+technology_group = persian_tech_group
+unit_type = muslim
+religion = sunni
+primary_culture = afghani
+capital = 451	# Kabul
+religious_school = hanafi_school
+
+historical_rival = TRS
+historical_rival = KHO
+historical_rival = SIS
+historical_rival = FRS
+
+historical_friend = QAR
+historical_friend = AKK
+
+#Timurid Governors of Kabul, sons of Soyurghatmish
+1443.1.1 = {
+	monarch = {
+		name = "Karatshar bin Soyurghatmish"
+		culture = uzbehk
+		dynasty = "Timurid"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}

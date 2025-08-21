@@ -1,0 +1,17 @@
+#2369 - Lower Ishim
+
+owner = SHY
+controller = SHY
+add_core = SHY
+culture = khazak
+religion = sunni
+capital = "Zhanibek"
+trade_goods = vodka
+hre = no
+base_tax = 1
+base_production = 1 
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = KZH

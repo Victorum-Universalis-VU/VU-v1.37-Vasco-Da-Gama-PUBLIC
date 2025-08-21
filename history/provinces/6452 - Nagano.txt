@@ -1,0 +1,15 @@
+#6452 - Nagano
+
+#Default
+owner = OGS
+controller = OGS
+add_core = OGS
+culture = tokai 
+religion = shinto
+capital = "Nagano"
+trade_goods = silk
+hre = no
+base_tax = 4
+base_manpower = 4
+base_production = 4
+is_city = yes

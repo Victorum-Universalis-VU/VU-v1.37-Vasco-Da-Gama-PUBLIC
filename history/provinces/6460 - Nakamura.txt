@@ -1,0 +1,15 @@
+#6460 - Nakamura
+
+#Default
+owner = HSK
+controller = HSK
+add_core = HSK
+culture = shikoku
+religion = shinto
+capital = "Nakamura"
+trade_goods = seafood
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 4
+is_city = yes

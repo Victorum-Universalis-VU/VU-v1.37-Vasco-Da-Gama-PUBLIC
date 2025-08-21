@@ -1,0 +1,15 @@
+#110 - Trent
+
+#Default
+owner = TNT
+controller = TNT
+add_core = TNT
+culture = venetian
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = copper 
+base_manpower = 3
+capital = "Trento"
+is_city = yes

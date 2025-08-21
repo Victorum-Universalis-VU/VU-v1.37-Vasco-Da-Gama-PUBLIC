@@ -1,0 +1,15 @@
+#8525 - Zug
+
+#Default
+owner = ZU6
+controller = ZU6
+add_core = ZU6
+culture = swiss
+religion = catholic
+capital = "Zug"
+trade_goods = grain
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes

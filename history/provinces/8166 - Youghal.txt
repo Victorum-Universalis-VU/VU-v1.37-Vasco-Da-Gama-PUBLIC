@@ -1,0 +1,26 @@
+#8166 - Youghal
+
+#Default
+owner = DMS
+controller = DMS
+add_core = DMS
+capital = "Youghal"
+is_city = yes
+culture = celtic_irish_culture #Was irish
+religion = catholic
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = fish
+hre = no
+
+#Claimants
+add_core = ANI
+add_core = ENG
+
+#History by SF
+1215.6.15 = { owner = MCM controller = MCM add_core = MCM } # Deasmhumhain territory - By San Felipe
+1291.1.1 = {
+	capital = "Eochaill"
+}
+1444.11.11 = { owner = MNS controller = MNS add_core = MNS } # Desmond territory - By San Felipe

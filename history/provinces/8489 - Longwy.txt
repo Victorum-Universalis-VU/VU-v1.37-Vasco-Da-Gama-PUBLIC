@@ -1,0 +1,19 @@
+#8489 - Longwy
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = BAR
+controller = BAR
+add_core = BAR 
+capital = "Longwy"
+is_city = yes
+culture = lorraine_culture
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = glass

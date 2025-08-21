@@ -1,0 +1,15 @@
+#7836 - Georgenburg
+
+#Default
+owner = SGA
+controller = SGA
+add_core = SGA
+culture = pruthenian #Was latvian but changed due to morsmessor's advice.
+religion = catholic
+capital = "Georgenburg"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = fur
+is_city = yes
+hre = no

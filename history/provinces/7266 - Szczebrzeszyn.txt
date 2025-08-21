@@ -1,0 +1,18 @@
+#7266 - Szczebrzeszyn
+
+#Default
+owner = POL
+controller = POL
+add_core = POL
+culture = polish
+religion = catholic
+capital = "Szczebrzeszyn"
+base_tax = 4
+base_production = 2
+base_manpower = 4
+trade_goods = horses
+is_city = yes
+hre = no
+
+#Claimants
+add_core = VOL

@@ -1,0 +1,17 @@
+#459 - Taraz
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = khazak
+religion = sunni
+capital = "Taraz"
+trade_goods = cloth
+hre = no
+base_tax = 2  
+base_production = 2 
+base_manpower = 6
+is_city = yes
+
+#Claims
+add_core = KZH

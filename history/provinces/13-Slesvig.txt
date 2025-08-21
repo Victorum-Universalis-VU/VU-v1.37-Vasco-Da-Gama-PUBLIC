@@ -1,0 +1,35 @@
+#13 - Slesvig
+
+#Default
+owner = SHL
+controller = SHL
+add_core = SHL
+culture = danish
+religion = catholic
+hre = no
+base_tax = 6 
+base_production = 6
+trade_goods = beer
+base_manpower = 3 
+capital = "Schleswig"
+is_city = yes
+
+#Buildings
+fort_15th = yes
+
+#Claimant
+add_core = SLW
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+add_permanent_province_modifier = {
+	name = eider_estuary_modifier
+	duration = -1
+}

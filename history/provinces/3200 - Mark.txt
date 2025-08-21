@@ -1,0 +1,18 @@
+#3200 - Mark
+
+#Default
+owner = MKK
+controller = MKK
+add_core = MKK
+culture = hessian
+religion = catholic
+trade_goods = lead
+capital = "Hamm"
+base_tax = 10
+base_production = 10
+base_manpower = 6
+is_city = yes
+hre = yes
+
+#Claimants
+add_core = KLE

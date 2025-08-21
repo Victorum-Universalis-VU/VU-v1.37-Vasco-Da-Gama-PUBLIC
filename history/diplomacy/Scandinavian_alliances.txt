@@ -1,0 +1,64 @@
+################################################################
+##################### Denmark (VU) ######################
+################################################################
+
+###########
+# Vassals #
+###########
+
+dependency = {
+	subject_type = norwegian_duchy
+	first = NOR
+	second = ICE
+	start_date = 1444.1.1
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
+}
+
+dependency = {
+	subject_type = norwegian_duchy
+	first = NOR
+	second = ICE
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	end_date = 1536.1.1
+}
+
+##########
+# Unions #
+##########
+
+# Kalmar Union
+dependency = {
+	subject_type = danish_crown_PU
+	first = DAN
+	second = SWE
+	#start_date = 1397.6.17
+	start_date = 1444.1.1
+	end_date = 1448.6.20
+}
+
+# Denmark-Norway
+dependency = {
+	subject_type = danish_crown_PU
+	first = DAN
+	second = NOR
+	#start_date = 1397.6.17
+	start_date = 1444.1.1
+	end_date = 1449.11.20
+}
+
+################################################################
+###################### Sweden (VU) ######################
+################################################################
+
+###########
+# Vassals #
+###########
+
+# Danish vassal, Holstein
+dependency = {
+	subject_type = danish_duchy
+	first = DAN
+	second = SHL
+	start_date = 1444.1.1
+	end_date = 1460.3.6
+}

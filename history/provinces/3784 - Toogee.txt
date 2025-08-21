@@ -1,0 +1,13 @@
+#3784 - Toogee
+
+culture = palawa
+religion = dreamtime
+capital = "Toogee"
+hre = no
+trade_goods = unknown
+base_manpower = 2
+base_tax = 1
+base_production = 1
+native_size = 2
+native_ferocity = 1
+native_hostileness = 2

@@ -1,0 +1,23 @@
+#7639 - Piensk
+
+#Default
+owner = SOR
+controller = SOR
+add_core = SOR
+capital = "Piensk"
+culture = sorbian
+religion = catholic
+trade_goods = glass
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2 
+is_city = yes
+
+#Claimants
+add_core = BOH
+add_core = MEI #owned by Meissen until 1370
+
+#History by SF
+1419.12.1 = { unrest = 10 } # Hussite Wars, Battle of Nekmir
+1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava

@@ -1,0 +1,29 @@
+#7436 - Norwich
+
+#Default
+owner = B0N
+controller = B0N
+add_core = B0N
+culture = east_anglian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 1
+trade_goods = apiculture 
+capital = "Norwich"
+is_city = yes
+
+#Claimants
+add_core = ENG
+
+#Commerce
+center_of_trade = 1
+
+#History by SF
+1444.11.11 = { 
+	owner = NFL 
+	controller = NFL 
+	add_core = NFL
+	remove_core = B0N 
+} # The Dukedom of Norfolk territory - By San Felipe

@@ -1,0 +1,25 @@
+#4366 - Montgomery
+
+#Default
+owner = PWY
+controller = PWY
+add_core = PWY
+culture = celtic_welsh_culture #Was welsh
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 2
+trade_goods = iron
+base_manpower = 1
+capital = "Gwyddelwern"
+is_city = yes
+
+#History by SF
+1444.11.11 = {
+	owner = WMC
+	controller = WMC
+	add_core = WMC
+	add_core = ENG
+	add_core = WLS
+}
+

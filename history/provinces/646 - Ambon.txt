@@ -1,0 +1,23 @@
+#646 - Ambon
+
+#Default
+culture = moluccan
+religion = animism
+capital = "Ambon"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+native_size = 30
+native_ferocity = 1
+native_hostileness = 3
+
+#Commerce
+center_of_trade = 1
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}

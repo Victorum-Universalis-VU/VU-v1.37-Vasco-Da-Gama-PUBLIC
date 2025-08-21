@@ -1,0 +1,15 @@
+#7563 - Rottenburg
+
+#Default
+owner = FUR
+controller = FUR
+add_core = FUR
+culture = swabian
+capital = "Rottenburg"
+religion = catholic
+trade_goods = fruit
+base_tax = 3
+base_production = 2
+base_manpower = 3
+is_city = yes
+hre = yes

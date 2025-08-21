@@ -1,0 +1,25 @@
+#SGV - Segovia
+government = monarchy
+add_government_reform = eue_duchy_reform
+government_rank = 6 #Duchy
+primary_culture = castillian
+religion = catholic
+technology_group = spanish_tech_group
+unit_type = western
+capital = 4789 #Segovia
+
+#History by Prussia
+
+#1444.6.25 = {
+#	monarch = {
+#		name = "Wincenty II"
+#		dynasty = "Kot"
+#		birth_date = 1395.01.01
+#		adm = 5
+#		dip = 5
+#		mil = 3
+#	}
+#	clear_scripted_personalities = yes
+#	add_ruler_personality = scholar_personality
+#	add_ruler_personality = incorruptible_personality
+#}

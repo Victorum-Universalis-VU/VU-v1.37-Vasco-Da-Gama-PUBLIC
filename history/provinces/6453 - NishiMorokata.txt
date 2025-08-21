@@ -1,0 +1,18 @@
+#6453 - Nishi Morokara
+
+#Default
+add_core = KHR
+owner = KHR
+controller = KHR
+culture = kyushuan
+religion = shinto
+capital = "Iino"
+trade_goods = books #Known for a famous Japanese poet Kazan'in Morokata from the 12th century
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+#Claimants
+add_core = EGY

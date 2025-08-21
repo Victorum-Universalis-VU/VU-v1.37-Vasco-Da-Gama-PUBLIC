@@ -1,0 +1,28 @@
+#188 - Metz
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = MTZ			#Like Koeln, seems to be trouble between Bishohric and imperial free city wiki quote -During the 12th century, Metz rose to the status of Republic and the Republic of Metz ruled until the 15th century.
+controller = MTZ
+add_core = MTZ
+capital = "Metz"
+is_city = yes
+culture = alsatian
+religion = catholic
+hre = yes
+base_tax = 8
+base_production = 8			#center of population in Gall, with a population of 40k all the way back in 1st century, but seemed to shrink with the fall of Rome. Wiki (I know) estimates population well under 10k until at least 18th century, grows more important later, though
+trade_goods = fruit
+base_manpower = 4
+
+#Commerce
+center_of_trade = 2
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population 
+    duration = -1
+}

@@ -1,0 +1,31 @@
+#8158 - Iveagh
+
+#Default
+owner = IVE
+controller = IVE
+add_core = IVE
+capital = "Rathfriland"
+is_city = yes
+culture = celtic_irish_culture #Was irish
+religion = catholic
+base_tax = 3
+base_production = 1
+base_manpower = 2
+trade_goods = amber
+hre = no
+
+#Claimants
+add_core = ANI
+
+#Province Modifiers
+add_permanent_province_modifier = {
+	name = newry_estuary_modifier
+	duration = -1
+}
+
+#History by SF
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # English Lordship of Ireland territory - By San Felipe
+1291.1.1 = {
+	capital = "Ráth Fraoileann"
+}
+1444.11.11 = { owner = IVE controller = IVE add_core = IVE } # Offaly clan territory - By San Felipe

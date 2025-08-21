@@ -1,0 +1,23 @@
+#7048 - Tortona
+
+#Default
+owner = TTN
+controller = TTN
+add_core = TTN
+culture = romagnan
+religion = catholic
+capital = "Tortona"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = fruit
+is_city = yes
+hre = yes
+
+#History by SF
+1347.1.1 = {
+	# Gradually comes under Visconti domination
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+} 

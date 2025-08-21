@@ -1,0 +1,18 @@
+#8126 - Northampton
+
+#Default
+owner = ENG
+controller = ENG
+add_core = ENG
+capital = "Northampton"
+is_city = yes
+culture = midlander
+religion = lollardy
+base_tax = 3
+base_production = 2
+base_manpower = 2
+trade_goods = fur #hunting
+hre = no
+
+#History by SF
+1444.11.11 = { owner = BCK controller = BCK add_core = BCK } # The Dukedom of Buckingham territory - By San Felipe

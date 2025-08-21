@@ -1,0 +1,19 @@
+#8455 - Saint Mihiel
+
+latent_trade_goods = {
+	coal
+}
+
+#Default
+owner = BAR
+controller = BAR
+add_core = BAR
+capital = "Saint Mihiel"
+is_city = yes
+culture = lorraine_culture
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = grain
+base_manpower = 1
