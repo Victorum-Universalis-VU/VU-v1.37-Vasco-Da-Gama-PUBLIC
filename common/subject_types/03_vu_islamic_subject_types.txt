@@ -40,7 +40,9 @@ islamic_sheikdom = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -120,7 +122,9 @@ islamic_sharifate = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
     can_fight_independence_war = yes
     
@@ -200,7 +204,9 @@ islamic_emirate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -283,7 +289,9 @@ islamic_governate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 2
@@ -366,7 +374,9 @@ islamic_sultanate = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -448,7 +458,9 @@ islamic_taifa = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -530,7 +542,9 @@ islamic_malikate = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -611,7 +625,9 @@ islamic_nikkah_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -671,7 +687,9 @@ islamic_imamate = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -829,7 +847,9 @@ turkish_tributary_beylik_vassal = {
     # Properties:
     can_fight_independence_war = yes
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     joins_colonial_wars = no
     overlord_can_attack = no
     takes_diplo_slot = yes
@@ -913,7 +933,9 @@ turkish_timariot_march = {
     diplomacy_subject_sprite = GFX_diplomacy_turkish_amtimariot_march    #Was GFX_diplomacy_turkish_amtributary
 
     can_have_subjects_of_other_types = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_fight_independence_war = no
     overlord_can_attack = no
     takes_diplo_slot = no

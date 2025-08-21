@@ -508,6 +508,41 @@ is_ToR_rein_in_able = {
 	}
 }
 
+#By Prussia
+is_asian_principality_subject_type = {
+	is_subject_of_type = vu_chinese_earth_principality
+	is_subject_of_type = vu_chinese_fire_principality
+	is_subject_of_type = vu_chinese_heaven_principality
+	is_subject_of_type = vu_chinese_lake_principality
+	is_subject_of_type = vu_chinese_mountain_principality
+	is_subject_of_type = vu_chinese_thunder_principality
+	is_subject_of_type = vu_chinese_water_principality
+	is_subject_of_type = vu_chinese_wind_principality
+	is_subject_of_type = vu_hindu_brahma_prince
+	is_subject_of_type = vu_hindu_lakshimi_prince
+	is_subject_of_type = vu_hindu_parvarti_prince
+	is_subject_of_type = vu_hindu_saraswati_prince
+	is_subject_of_type = vu_hindu_shiva_prince
+	is_subject_of_type = vu_hindu_vishnu_prince
+	is_subject_of_type = vu_buddhist_bodhisattva_prince
+	is_subject_of_type = vu_buddhist_hinayana_prince
+	is_subject_of_type = vu_buddhist_sakya_prince
+}
+
+#By Prussia
+is_japanese_subject_type = {
+	is_subject_of_type = daimyo_county_vassal
+	is_subject_of_type = daimyo_viscounty_vassal
+	is_subject_of_type = daimyo_county_vassal
+	is_subject_of_type = daimyo_marquisate_vassal
+	is_subject_of_type = daimyo_duchy_vassal
+	is_subject_of_type = daimyo_principality_vassal
+	is_subject_of_type = vu_japanese_imperial_colony
+	is_subject_of_type = vu_japanese_imperial_directorate
+	is_subject_of_type = vu_japanese_imperial_governate
+	is_subject_of_type = vu_japanese_imperial_warlord
+}
+
 is_colourable_subject_type = {
 	NOT = {
 		is_subject_of_type = tributary_state

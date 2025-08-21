@@ -272,7 +272,9 @@ lezhe_league_member = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -338,7 +340,9 @@ anglois_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -417,7 +421,9 @@ anglois_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -497,7 +503,9 @@ anglois_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -577,7 +585,9 @@ anglois_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -656,7 +666,9 @@ anglois_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -740,7 +752,9 @@ anglois_duchy = { #
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -824,7 +838,9 @@ anglois_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -907,7 +923,9 @@ anglois_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -989,7 +1007,9 @@ anglois_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -1049,7 +1069,9 @@ aragonese_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1128,7 +1150,9 @@ aragonese_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1208,7 +1232,9 @@ aragonese_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1288,7 +1314,9 @@ aragonese_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1367,7 +1395,9 @@ aragonese_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1451,7 +1481,9 @@ aragonese_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1535,7 +1567,9 @@ aragonese_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1618,7 +1652,9 @@ aragonese_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1700,7 +1736,9 @@ aragonese_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -1760,7 +1798,9 @@ austrian_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1839,7 +1879,9 @@ austrian_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1919,7 +1961,9 @@ austrian_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -1999,7 +2043,9 @@ austrian_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2078,7 +2124,9 @@ austrian_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2162,7 +2210,9 @@ austrian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2246,7 +2296,9 @@ austrian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2329,7 +2381,9 @@ austrian_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2411,7 +2465,9 @@ austrian_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -2471,7 +2527,9 @@ baltic_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2550,7 +2608,9 @@ baltic_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2631,7 +2691,9 @@ baltic_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2712,7 +2774,9 @@ baltic_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2791,7 +2855,9 @@ baltic_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2875,7 +2941,9 @@ baltic_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -2959,7 +3027,9 @@ baltic_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3042,7 +3112,9 @@ baltic_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3124,7 +3196,9 @@ baltic_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -3184,7 +3258,9 @@ belgian_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3263,7 +3339,9 @@ belgian_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3344,7 +3422,9 @@ belgian_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3425,7 +3505,9 @@ belgian_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3504,7 +3586,9 @@ belgian_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3588,7 +3672,9 @@ belgian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3672,7 +3758,9 @@ belgian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3755,7 +3843,9 @@ belgian_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3838,7 +3928,9 @@ benelux_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -3898,7 +3990,9 @@ bohemian_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -3977,7 +4071,9 @@ bohemian_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4057,7 +4153,9 @@ bohemian_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4137,7 +4235,9 @@ bohemian_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4216,7 +4316,9 @@ bohemian_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4300,7 +4402,9 @@ bohemian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4384,7 +4488,9 @@ bohemian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4467,7 +4573,9 @@ bohemian_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4549,7 +4657,9 @@ bohemian_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -4608,7 +4718,9 @@ bosnian_banat_kingdom = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4674,7 +4786,9 @@ burgundian_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4753,7 +4867,9 @@ burgundian_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4833,7 +4949,9 @@ burgundian_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4913,7 +5031,9 @@ burgundian_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -4992,7 +5112,9 @@ burgundian_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5076,7 +5198,9 @@ burgundian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5160,7 +5284,9 @@ burgundian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5242,7 +5368,9 @@ burgundian_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5324,7 +5452,9 @@ burgundian_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -5384,7 +5514,9 @@ byzantine_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5463,7 +5595,9 @@ byzantine_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5543,7 +5677,9 @@ byzantine_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5623,7 +5759,9 @@ byzantine_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5702,7 +5840,9 @@ byzantine_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5786,7 +5926,9 @@ byzantine_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5870,7 +6012,9 @@ byzantine_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -5953,7 +6097,9 @@ byzantine_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -6035,7 +6181,9 @@ byzantine_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -6095,7 +6243,9 @@ castilian_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -6174,7 +6324,9 @@ castilian_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -6254,7 +6406,9 @@ castilian_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -6334,7 +6488,9 @@ castilian_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -6413,7 +6569,9 @@ castilian_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -6497,7 +6655,9 @@ castilian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -6581,7 +6741,9 @@ castilian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -6664,7 +6826,9 @@ castilian_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -6741,6 +6905,9 @@ christian_abbacy = {
     separatists_become_subjects = yes
     forms_trade_companies = no
     can_concentrate_development = no
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_be_annexed = yes
     liberty_desire_development_ratio = 0.15
     trust_on_start = 0
@@ -6823,6 +6990,9 @@ christian_bishopric = {
     forms_trade_companies = no
     can_concentrate_development = no
     can_be_annexed = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     liberty_desire_development_ratio = 0.15
     trust_on_start = 0
     base_liberty_desire = 25.0
@@ -6904,6 +7074,9 @@ christian_archbishopric = {
     forms_trade_companies = no
     can_concentrate_development = no
     can_be_annexed = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     liberty_desire_development_ratio = 0.15
     trust_on_start = 0
     base_liberty_desire = 25.0
@@ -6994,7 +7167,9 @@ danish_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7073,7 +7248,9 @@ danish_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7153,7 +7330,9 @@ danish_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7233,7 +7412,9 @@ danish_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7312,7 +7493,9 @@ danish_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7396,7 +7579,9 @@ danish_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7480,7 +7665,9 @@ danish_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7563,7 +7750,9 @@ danish_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7645,7 +7834,9 @@ danish_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -7705,7 +7896,9 @@ dutch_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7784,7 +7977,9 @@ dutch_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7864,7 +8059,9 @@ dutch_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -7944,7 +8141,9 @@ dutch_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8023,7 +8222,9 @@ dutch_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8107,7 +8308,9 @@ dutch_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8191,7 +8394,9 @@ dutch_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8274,7 +8479,9 @@ dutch_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8358,7 +8565,9 @@ english_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8437,7 +8646,9 @@ english_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8516,7 +8727,9 @@ english_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.75
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8595,7 +8808,9 @@ english_earldom = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.75
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8674,7 +8889,9 @@ english_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.35
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8758,7 +8975,9 @@ english_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8842,7 +9061,9 @@ english_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -8925,7 +9146,9 @@ english_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9007,7 +9230,9 @@ english_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -9078,7 +9303,9 @@ french_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9157,7 +9384,9 @@ french_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9237,7 +9466,9 @@ french_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9317,7 +9548,9 @@ french_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9396,7 +9629,9 @@ french_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9480,7 +9715,9 @@ french_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9564,7 +9801,9 @@ french_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9647,7 +9886,9 @@ french_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9729,7 +9970,9 @@ french_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -9789,7 +10032,9 @@ german_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9868,7 +10113,9 @@ german_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -9948,7 +10195,9 @@ german_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10028,7 +10277,9 @@ german_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10107,7 +10358,9 @@ german_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10191,7 +10444,9 @@ german_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10275,7 +10530,9 @@ german_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10358,7 +10615,9 @@ german_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10440,7 +10699,9 @@ german_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -10500,7 +10761,9 @@ hungarian_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10579,7 +10842,9 @@ hungarian_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10659,7 +10924,9 @@ hungarian_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10739,7 +11006,9 @@ hungarian_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10818,7 +11087,9 @@ hungarian_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10902,7 +11173,9 @@ hungarian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -10986,7 +11259,9 @@ hungarian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -11069,7 +11344,9 @@ hungarian_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -11151,7 +11428,9 @@ hungarian_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -11211,7 +11490,9 @@ italian_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -11290,7 +11571,9 @@ italian_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -11370,7 +11653,9 @@ italian_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -11450,7 +11735,9 @@ italian_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -11529,7 +11816,9 @@ italian_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -11613,7 +11902,9 @@ italian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -11697,7 +11988,9 @@ italian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -11780,7 +12073,9 @@ italian_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -11862,7 +12157,9 @@ italian_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -11922,7 +12219,9 @@ lithuanian_lordship_march = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12006,7 +12305,9 @@ lithuanian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12090,7 +12391,9 @@ lithuanian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12174,7 +12477,9 @@ mongolian_vassal = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12258,7 +12563,9 @@ norwegian_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12337,7 +12644,9 @@ norwegian_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12417,7 +12726,9 @@ norwegian_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12497,7 +12808,9 @@ norwegian_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12576,7 +12889,9 @@ norwegian_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12660,7 +12975,9 @@ norwegian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12744,7 +13061,9 @@ norwegian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12827,7 +13146,9 @@ norwegian_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -12909,7 +13230,9 @@ norwegian_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -12969,7 +13292,9 @@ polish_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13048,7 +13373,9 @@ polish_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13128,7 +13455,9 @@ polish_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13208,7 +13537,9 @@ polish_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13287,7 +13618,9 @@ polish_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13371,7 +13704,9 @@ polish_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13455,7 +13790,9 @@ polish_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13538,7 +13875,9 @@ polish_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13620,7 +13959,9 @@ polish_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -13680,7 +14021,9 @@ portuguese_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13759,7 +14102,9 @@ portuguese_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13839,7 +14184,9 @@ portuguese_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13919,7 +14266,9 @@ portuguese_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -13998,7 +14347,9 @@ portuguese_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14082,7 +14433,9 @@ portuguese_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14166,7 +14519,9 @@ portuguese_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14249,7 +14604,9 @@ portuguese_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14331,7 +14688,9 @@ portuguese_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -14391,7 +14750,9 @@ prussian_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14470,7 +14831,9 @@ prussian_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14550,7 +14913,9 @@ prussian_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14630,7 +14995,9 @@ prussian_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14709,7 +15076,9 @@ prussian_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14793,7 +15162,9 @@ prussian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14877,7 +15248,9 @@ prussian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -14960,7 +15333,9 @@ prussian_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -15042,7 +15417,9 @@ prussian_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -15102,7 +15479,9 @@ russian_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -15181,7 +15560,9 @@ russian_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -15261,7 +15642,9 @@ russian_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -15341,7 +15724,9 @@ russian_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -15420,7 +15805,9 @@ russian_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -15504,7 +15891,9 @@ russian_duchy = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -15588,7 +15977,9 @@ russian_principality = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -15671,7 +16062,9 @@ russian_kingdom = {
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
     can_be_annexed = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -15753,7 +16146,9 @@ russian_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -15899,7 +16294,9 @@ scottish_clan = {
     trust_on_start = 0
     base_liberty_desire = 35.0
     military_focus = 1.2
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -15969,7 +16366,9 @@ silesian_duke = {
     transfer_trade_power = yes
     joins_colonial_wars = no
     is_voluntary = no
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     takes_diplo_slot = no
     can_be_annexed = yes
     can_transfer_in_peace = yes
@@ -16091,7 +16490,9 @@ slavic_vojvodina = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.5
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
     is_march = yes
 
@@ -16157,7 +16558,9 @@ spanish_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0
@@ -16217,7 +16620,9 @@ swedish_lordship = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -16296,7 +16701,9 @@ swedish_barony = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -16376,7 +16783,9 @@ swedish_viscounty = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -16456,7 +16865,9 @@ swedish_county = {
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.5
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -16535,7 +16946,9 @@ swedish_marquisate = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_annexed = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -16618,7 +17031,9 @@ swedish_duchy = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -16701,7 +17116,9 @@ swedish_principality = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -16783,7 +17200,9 @@ swedish_kingdom = {
     military_focus = 1.2
     pays_overlord = 0.25
     can_be_integrated = yes #Changed from can_be_annexed = yes - SF & Prussia
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     relative_power_class = 1
@@ -16865,7 +17284,9 @@ swedish_crown_PU = {
     transfer_subjects_when_made = yes
     can_concentrate_development = no
     extend_trading_range = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     can_use_claims = yes
 
     liberty_desire_negative_prestige = 1.0

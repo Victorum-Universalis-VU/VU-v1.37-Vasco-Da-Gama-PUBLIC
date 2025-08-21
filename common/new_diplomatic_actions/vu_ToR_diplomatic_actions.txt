@@ -1378,3 +1378,563 @@ vu_invite_vassal_to_become_a_beylik = {
         always = no		#Keeping the AI off this for now, can't be bothered teaching it what to do
     }
 }
+
+# Call Peerage Into Wars by Prussia
+call_peerage_into_wars = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_ToR_subject_type = yes
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_at_war = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = {
+					is_at_war = no
+				}
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = {
+					attackers = ROOT
+				}
+			}
+			FROM = {
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+	}
+	on_decline = {
+	}
+	ai_will_do = {
+		# this is a trigger
+		always = yes
+	}
+}
+
+# Call Governors Into Wars by Prussia
+call_governor_into_wars = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_muslim_subject_type = yes
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_at_war = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = {
+					is_at_war = no
+				}
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = {
+					attackers = ROOT
+				}
+			}
+			FROM = {
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+	}
+	on_decline = {
+	}
+	ai_will_do = {
+		# this is a trigger
+		always = yes
+	}
+}
+
+# Call Viceroy Into Wars by Prussia
+call_viceroy_into_wars = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = feudal_republic
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_at_war = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = {
+					is_at_war = no
+				}
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = {
+					attackers = ROOT
+				}
+			}
+			FROM = {
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+	}
+	on_decline = {
+	}
+	ai_will_do = {
+		# this is a trigger
+		always = yes
+	}
+}
+
+# Call Bishopric Into Wars by Prussia
+call_bishopric_into_wars = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_theocratic_subject_type = yes
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_at_war = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = {
+					is_at_war = no
+				}
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = {
+					attackers = ROOT
+				}
+			}
+			FROM = {
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+	}
+	on_decline = {
+	}
+	ai_will_do = {
+		# this is a trigger
+		always = yes
+	}
+}
+
+# Call Voivode Into Wars by Prussia
+call_voivode_into_wars = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_slavic_subject_type = yes
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_at_war = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = {
+					is_at_war = no
+				}
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = {
+					attackers = ROOT
+				}
+			}
+			FROM = {
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+	}
+	on_decline = {
+	}
+	ai_will_do = {
+		# this is a trigger
+		always = yes
+	}
+}
+
+# Call Crown Subjects Into Wars by Prussia
+call_crown_subject_into_wars = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_crown_subject_type = yes
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_at_war = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = {
+					is_at_war = no
+				}
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = {
+					attackers = ROOT
+				}
+			}
+			FROM = {
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+	}
+	on_decline = {
+	}
+	ai_will_do = {
+		# this is a trigger
+		always = yes
+	}
+}
+
+# Call Principality Into Wars by Prussia
+call_principality_into_wars = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_asian_principality_subject_type = yes
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_at_war = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = {
+					is_at_war = no
+				}
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = {
+					attackers = ROOT
+				}
+			}
+			FROM = {
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+	}
+	on_decline = {
+	}
+	ai_will_do = {
+		# this is a trigger
+		always = yes
+	}
+}
+
+# Call Daimyo Into Wars by Prussia
+call_daimyo_into_wars = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_japanese_subject_type = yes
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_at_war = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = {
+					is_at_war = no
+				}
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = {
+					attackers = ROOT
+				}
+			}
+			FROM = {
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+	}
+	on_decline = {
+	}
+	ai_will_do = {
+		# this is a trigger
+		always = yes
+	}
+}

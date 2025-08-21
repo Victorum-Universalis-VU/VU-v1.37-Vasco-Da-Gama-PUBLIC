@@ -91,7 +91,9 @@ canadian_province_subject_vu = {
     }
     # Properties:
     transfer_trade_if_merchant_republic = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     overlord_can_attack = no
     can_have_subjects_of_other_types = yes
     takes_diplo_slot = no
@@ -206,7 +208,9 @@ commonwealth_subject_vu = {
     }
     # Properties:
     transfer_trade_if_merchant_republic = yes
-    joins_overlords_wars = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     overlord_can_attack = no
     can_have_subjects_of_other_types = yes
     takes_diplo_slot = no
@@ -519,7 +523,9 @@ self_governing_dominion_vu = {
     base_liberty_desire = -25
     pays_overlord = 1.5
     max_government_rank = 7
-    joins_overlords_wars = yes              #Added this because they would still be beholden to their overlord in return for their self-governance - Prussia
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes              #Added this because they would still be beholden to their overlord in return for their self-governance - Prussia
     has_overlords_ruler = no               #Would be ruled by the overlord's monarch, but with a Governor-General appointed to govern it - Prussia | Removed by Don as it was causing issues + it would not be ruled in a personal union, but rather as a governate.
     can_union_break = no                    #Should only be releasable by overlord's permission - Prussia
     can_use_claims = yes
