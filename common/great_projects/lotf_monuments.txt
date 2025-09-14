@@ -180,6 +180,7 @@ fort_sumter = {
 			defensiveness = 0.1
 		}
 		on_upgraded = {
+			add_building = fort_16th
 		}
 	}
 	tier_2 = {
@@ -212,7 +213,7 @@ fort_sumter = {
 			factor = 6000
 		}
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_defensiveness = 0.3
 		}
 		area_modifier = {
 		}

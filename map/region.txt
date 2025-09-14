@@ -94,6 +94,7 @@ scandinavia_region = {
 		southern_norway_area
 		trondelag_area
 		gotland_area
+		bornholm_area
 	}
 }
 

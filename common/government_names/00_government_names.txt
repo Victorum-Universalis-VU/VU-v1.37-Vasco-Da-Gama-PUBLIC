@@ -4305,6 +4305,7 @@ italian_signoria = {
             has_reform = genoese_republic
             has_reform = signoria_baglioni_reform
             has_reform = roman_diarchy_reform
+            has_reform = italian_triarchy_reform
             has_reform = venetian_merchant_republic
             has_reform = oligarchy_reform
         }

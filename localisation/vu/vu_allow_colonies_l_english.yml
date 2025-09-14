@@ -150,3 +150,8 @@
  #
  vu_disallow_all_colonies_title: "Disallow the creation of §RALL§! Colonies"
  vu_disallow_all_colonies_desc: "This now allows you to Annex any and all of them, also forbids any new ones from being released."
+
+ vu_establish_the_colonial_venture_act_title: "Establish the Colonial Venture Act"
+ vu_establish_the_colonial_venture_act_desc: "As our colonial empire grows and gains new lands, these lands have potential to yield a wide variety of goods. Let us set up an administrative system to select which provinces are best for production of each of these valuable resources."
+ vu_abolish_the__colonial_venture_act_title: "Abolish the Colonial Venture Act"
+ vu_abolish_the__colonial_venture_act_desc: "The colonial administrative system of overseeing the production of trade goods is a drain on our treasury we can no longer afford at present. Let us abolish this measure, at least for the time being."

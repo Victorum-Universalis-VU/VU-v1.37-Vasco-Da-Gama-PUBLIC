@@ -16,6 +16,7 @@ is_city = yes
 
 #Claimants
 add_core = FIN
+add_core = O5T
 
 #Commerce
 center_of_trade = 1

@@ -5235,6 +5235,7 @@ estate_action_GRANT_ADMIRALSHIP_BURGHERS = {
         loyalty = 10
     }
     add_estate_influence_modifier = {
+        estate = estate_burghers
         influence = 5
         duration = 3650
     }
@@ -5259,6 +5260,7 @@ estate_action_GRANT_NEW_WORLD_CHARTER_BURGHERS = {
         loyalty = 10
     }
     add_estate_influence_modifier = {
+        estate = estate_burghers
         influence = 5
         duration = 3650
     }
@@ -5287,6 +5289,7 @@ estate_action_COMISSION_MERCHANT_SHIPS_FOR_WAR_BURGHERS = {
         loyalty = -10
     }
     add_estate_influence_modifier = {
+        estate = estate_burghers
         influence = -10
         duration = 3650
     }
@@ -6032,6 +6035,7 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
         loyalty = 10
     }
     add_estate_influence_modifier = {
+        estate = estate_nobles
         influence = 5
         duration = 3650
     }
@@ -6044,6 +6048,7 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
             loyalty = 5
         }
         add_estate_influence_modifier = {
+            estate = estate_rajput
             influence = 5
             duration = 3650
         }
@@ -6057,6 +6062,7 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
             loyalty = 5
         }
         add_estate_influence_modifier = {
+            estate = estate_maratha
             influence = 5
             duration = 3650
         }
@@ -6070,6 +6076,7 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
             loyalty = 5
         }
         add_estate_influence_modifier = {
+            estate = estate_qizilbash
             influence = 5
             duration = 3650
         }
@@ -6083,6 +6090,7 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
             loyalty = 5
         }
         add_estate_influence_modifier = {
+            estate = estate_ghulams
             influence = 5
             duration = 3650
         }
@@ -6095,7 +6103,12 @@ estate_action_RECRUIT_CONQUISTADOR_ESTATES_NOBLES = {
     }
     add_estate_loyalty = {
         estate = estate_nobles
-        loyalty = -15
+        loyalty = 10
+    }
+    add_estate_influence_modifier = {
+        estate = estate_nobles
+        influence = 5
+        duration = 3650
     }
 }
 estate_action_DEMAND_SUPPORT_NOBLES = {

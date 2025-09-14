@@ -2903,6 +2903,9 @@ country_event = {
                     inherit = SH1
                 }
                 change_tag = HAB
+                swap_non_generic_missions = yes
+                set_country_flag = formed_austria_flag
+			    vu_colour_refresh = yes
             }
         }
         else = {
@@ -2964,6 +2967,9 @@ country_event = {
                     inherit = SH1
                 }
                 change_tag = HAB
+                swap_non_generic_missions = yes
+                set_country_flag = formed_austria_flag
+			    vu_colour_refresh = yes
             }
         }
     }

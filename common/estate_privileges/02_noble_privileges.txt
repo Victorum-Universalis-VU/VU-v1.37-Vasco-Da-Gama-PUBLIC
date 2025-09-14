@@ -1602,6 +1602,7 @@ estate_nobles_better_integration = {
 				is_subject_of_type = appanage
 				is_subject_of_type = incorporated_vassal
 				is_subject_of_type = integrated_personal_union
+				is_ToR_subject_type = yes
 			}
 		}
 	}

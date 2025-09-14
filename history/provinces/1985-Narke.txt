@@ -16,6 +16,7 @@ is_city = yes
 
 #Claimants
 add_core = SVD
+add_core = N4K
 
 #Commerce
 center_of_trade = 1

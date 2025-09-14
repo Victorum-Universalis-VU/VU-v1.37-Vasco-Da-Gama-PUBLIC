@@ -63,6 +63,7 @@ gme_bretagne_castles = {
 			prestige = 0.25
 		}
 		on_upgraded = {
+			add_building = fort_16th
 			owner = {
 				if = {
 					limit = { has_estate = estate_nobles }
@@ -78,6 +79,7 @@ gme_bretagne_castles = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = {
+			fort_level = 1
 			local_defensiveness = 0.2
 		}
 		area_modifier = {

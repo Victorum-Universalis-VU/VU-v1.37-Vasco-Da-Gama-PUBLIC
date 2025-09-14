@@ -639,8 +639,7 @@ vilnius_basilica = {
 		country_modifiers = {
 			legitimacy = 0.2
 			prestige = 0.1
-			church_loyalty_modifier = 0.02
-			trade_efficiency = 0.2
+			global_missionary_strength = 0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -673,8 +672,7 @@ vilnius_basilica = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			prestige = 0.2
-			church_loyalty_modifier = 0.02
-			trade_efficiency = 0.2
+			global_missionary_strength = 0.02
 		}
 		#what effects happen when this tier is achieved
 		on_upgraded = {
@@ -709,8 +707,8 @@ vilnius_basilica = {
 		country_modifiers = {
 			legitimacy = 0.3
 			prestige = 0.3
-			church_loyalty_modifier = 0.03
-			trade_efficiency = 0.3
+			global_missionary_strength = 0.03
+			missionaries = 1
 			church_power_modifier = 0.3
 		}
 

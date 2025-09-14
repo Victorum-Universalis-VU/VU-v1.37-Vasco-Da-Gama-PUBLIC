@@ -14,6 +14,9 @@ base_manpower = 2
 capital = "Nykøbing"
 is_city = yes
 
+#Claimants
+add_core = L0L
+
 #Buildings
 fort_15th = yes
 

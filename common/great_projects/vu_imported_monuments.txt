@@ -508,7 +508,7 @@ vu_red_fort = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 1
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = {
     }
@@ -591,8 +591,9 @@ vu_red_fort = {
         country_modifiers = {
             governing_capacity_modifier = 0.1
         }
-        on_upgraded = {
-        }
+        on_upgraded = {	
+			add_building = fort_16th
+		}
     }
     tier_3 = {
         upgrade_time = {
@@ -602,6 +603,7 @@ vu_red_fort = {
             factor = 7500
         }
         province_modifiers = {
+            fort_level = 1
         }
         area_modifier = {
             local_defensiveness = 0.50
@@ -706,6 +708,7 @@ vu_kasbah_of_tunis = {
             tolerance_heretic = 1
         }
         on_upgraded = {
+            add_building = fort_16th
             341 = { add_prosperity = 25 }
         }
     }
@@ -717,6 +720,7 @@ vu_kasbah_of_tunis = {
             factor = 2500
         }
         province_modifiers = {
+            fort_level = 1
             local_development_cost = -0.1
             allowed_num_of_buildings = 1
         }
@@ -1320,6 +1324,7 @@ vu_ishtar_gate = {
             heir_chance = 0.15
         }
         on_upgraded = {
+            add_building = fort_15th
         }
     }
     tier_2 = {
@@ -1349,6 +1354,7 @@ vu_ishtar_gate = {
             factor = 1000
         }
         province_modifiers = {
+            fort_level = 1
             local_defensiveness = 0.2
             trade_value_modifier = 0.15
         }

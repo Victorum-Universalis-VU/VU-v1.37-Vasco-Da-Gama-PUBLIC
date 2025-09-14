@@ -731,7 +731,11 @@ jutland_area = { #4
 
 sjaelland_area = { #4
     color = { 120 201 208 }
-    1981 1983 7610 7611 7612 7613
+    1983 7610 7611 7612 7613
+}
+
+bornholm_area = {
+    1981
 }
 
 kobenhavn_area = { #2
@@ -852,11 +856,11 @@ lwow_area = {
 }
 
 podolia_volhynia_area = { #4
-    7209 281 7208 7254 7272
+    281 7208 7254 7272
 }
 
 braclaw_area = {
-    1943 3241 4540 7206
+    1943 3241 4540 7206 7209
 }
 
 volhynia_area = { # 4

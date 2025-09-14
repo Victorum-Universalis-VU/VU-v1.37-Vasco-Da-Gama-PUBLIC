@@ -75,7 +75,7 @@ vu_castillo_de_la_yedra_de_cazorla = {
             factor = 3500
         }
         province_modifiers = {
-            local_defensiveness = 0.3
+            local_defensiveness = 0.15
         }
         area_modifier = {
             local_unrest = -1
@@ -93,8 +93,7 @@ vu_castillo_de_la_yedra_de_cazorla = {
             factor = 7000
         }
         province_modifiers = {
-            local_defensiveness = 0.4
-            fort_level = 1
+            local_defensiveness = 0.25
         }
         area_modifier = {
             local_unrest = -2
@@ -103,7 +102,9 @@ vu_castillo_de_la_yedra_de_cazorla = {
             land_morale = 0.05
             army_tradition = 0.5
         }
-        on_upgraded = { }
+        on_upgraded = { 
+            add_building = fort_16th
+        }
     }
     tier_3 = {
         upgrade_time = {
@@ -113,7 +114,8 @@ vu_castillo_de_la_yedra_de_cazorla = {
             factor = 14000
         }
         province_modifiers = {
-            local_defensiveness = 0.5
+            fort_level = 1
+            local_defensiveness = 0.3
         }
         area_modifier = {
             local_unrest = -3

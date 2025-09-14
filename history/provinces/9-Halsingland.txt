@@ -16,3 +16,4 @@ is_city = yes
 
 #Claims
 add_core = SVD
+add_core = G4S

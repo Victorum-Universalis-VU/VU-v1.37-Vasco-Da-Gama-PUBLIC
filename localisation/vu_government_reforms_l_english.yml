@@ -239,6 +239,10 @@
  roman_diarchy_desc: "Following the overthrow of the Roman monarchy, the Romans established an oligarchic Roman Republic which divided supreme executive power between two consuls, both elected each year and each holding a veto over the other's actions. The historical duumviri were not rulers but magistrates, performing various judicial, religious, or public functions."
  roman_diarchy_reform_ruler: "Consul"
  #
+ italian_triarchy_reform: "Italian Triarchy"
+ italian_triarchy_reform_desc: "A form of government ruled or dominated by three individuals, known as Triarchs. The arrangement can be formal or informal. Though the three leaders in a Triarchy are notionally equal, the actual distribution of power may vary."
+ italian_triarchy_reform_ruler: "Triarchs"
+ #
  #VU New Theban League reform by Don Brom
  theban_league_reform: "Theban Hegemony"
  theban_league_reform_desc: "A form of government in which two people ruled and were fully committed to an aggressive foreign policy, who were also relied on at times of war to win any battle through feats of innovation."

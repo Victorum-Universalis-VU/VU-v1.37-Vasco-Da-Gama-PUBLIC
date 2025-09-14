@@ -8,7 +8,7 @@ mass_rebellion_modifier = {
 	land_forcelimit = 0.35
 }
 colonial_buffs_1 = {
-	global_colonial_growth = 50
+	global_colonial_growth = 25
 	colonists = 1
 }
 colonial_buffs_2 = {

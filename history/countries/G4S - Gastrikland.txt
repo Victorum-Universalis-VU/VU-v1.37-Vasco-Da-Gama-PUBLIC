@@ -1,0 +1,10 @@
+#G4S - Gastrikland
+government = monarchy
+add_government_reform = unlocked_eue_county_reform
+government_rank = 4 #County
+primary_culture = danish
+religion = catholic
+#technology_group = western
+technology_group = scandinavian_tech_group
+unit_type = western
+capital = 9 #Gastrikland
