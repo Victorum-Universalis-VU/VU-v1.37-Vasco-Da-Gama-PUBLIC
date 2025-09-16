@@ -19,6 +19,7 @@ fort_15th = yes			#removing, Sweden was going broke
 
 #Claimants
 add_core = FIN
+add_core = U5D
 
 #Commerce
 center_of_trade = 1

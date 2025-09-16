@@ -15,6 +15,9 @@ is_city = yes
 hre = no
 add_local_autonomy = 65
 
+#Claimants
+add_core = ST4
+
 
 
 

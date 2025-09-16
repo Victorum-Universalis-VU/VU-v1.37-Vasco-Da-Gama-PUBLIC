@@ -126,12 +126,15 @@ gme_derbent_fortifications = {
         }
         area_modifier = { }
         country_modifiers = { }
-        on_upgraded = { }
+        on_upgraded = { 
+            add_building = fort_16th
+        }
     }
     tier_3 = {
         upgrade_time = { months = 480 }
         cost_to_upgrade = { factor = 5000 }
         province_modifiers = {
+            fort_level = 1
             local_defensiveness = 0.75
             garrison_growth = 0.33
             local_hostile_attrition = 3

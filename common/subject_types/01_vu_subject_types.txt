@@ -17340,6 +17340,9 @@ feudal_republic = {
     has_power_projection = no
     gets_help_with_rebels = yes
     forms_trade_companies = no
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
 
     liberty_desire_development_ratio = 0.25
     liberty_desire_same_dynasty = -5.0

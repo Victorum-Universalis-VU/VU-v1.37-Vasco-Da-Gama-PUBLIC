@@ -1347,7 +1347,7 @@ POL_Missions_3_1 = {
         provinces_to_highlight = {
         }
         trigger = {
-            has_reform = elective_monarchy
+            has_reform = polish_elective_monarchy
             has_regency = no
         }
         effect = {
@@ -1382,7 +1382,7 @@ POL_Missions_3_1 = {
                 if = {
                     limit = {
                         OR = {
-                            has_reform = elective_monarchy
+                            has_reform = polish_elective_monarchy
                             dynasty = "Jagiellon"
                             senior_union_with = LIT
                         }

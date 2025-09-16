@@ -1,4 +1,4 @@
-#K0R - Imperial_County_of_Konigsegg_Rothenfels
+#K04 - Imperial_County_of_Konigsegg_Rothenfels
 government = monarchy
 add_government_reform = unlocked_eue_county_reform
 government_rank = 4 #Imperial County

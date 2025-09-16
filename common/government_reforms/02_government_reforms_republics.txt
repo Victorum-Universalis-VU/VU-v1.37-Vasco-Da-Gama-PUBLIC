@@ -2732,12 +2732,9 @@ nepotism_reform = {
     potential = {
         NOT = {
             has_government_attribute = is_pirate_republic_reform
-        }
-        NOT = {
             has_reform = signoria_reform
-        }
-        NOT = {
             has_reform = roman_diarchy_reform
+            has_reform = italian_triarchy_reform
         }
         OR = {
             is_revolutionary = no
@@ -3070,15 +3067,10 @@ frequent_elections_reform = {
         }
         NOT = {
             tag = SNM
-        }
-        NOT = {
             tag = ROM
-        }
-        NOT = {
             tag = ROR
-        }
-        NOT = {
             has_reform = roman_diarchy_reform
+            has_reform = italian_triarchy_reform
         }
     }
     trigger = {
@@ -3924,9 +3916,8 @@ consolidate_power_into_different_candidates_reform = {
     potential = {
         NOT = {
             has_government_attribute = is_pirate_republic_reform
-        }
-        NOT = {
             has_reform = roman_diarchy_reform
+            has_reform = italian_triarchy_reform
         }
     }
     trigger = {
@@ -4036,6 +4027,7 @@ revolutionary_council_reform = {
         is_revolutionary = yes
         NOT = {
             has_reform = roman_diarchy_reform
+            has_reform = italian_triarchy_reform
         }
     }
     modifiers = {
@@ -5306,6 +5298,47 @@ roman_diarchy_reform = {
         OR = {
             has_reform = roman_diarchy_reform
             have_had_reform = roman_diarchy_reform
+        }
+    }
+    modifiers = {
+        governing_capacity = 100
+        years_of_nationalism = -5
+        land_morale = 0.1
+        max_absolutism = -30
+        global_autonomy = -0.075
+    }
+    custom_attributes = {
+        locked_government_type = yes
+        enables_plutocratic_idea_group = yes
+        enables_aristocratic_idea_group = no
+        enables_nepotism = yes
+        cannot_become_dictatorship = yes
+    }
+    ai = {
+        factor = 10
+    }
+}
+
+italian_triarchy_reform = {
+    icon = "italian_triarchy_reform" #Was roman_diarchy_reform
+    allow_normal_conversion = yes
+    duration = 1
+    #legacy_equivalent = roman_diarchy_legacy
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+    royal_marriage = yes
+    potential = {
+        culture_group = latin
+        OR = {
+            has_reform = italian_triarchy_reform
+            have_had_reform = italian_triarchy_reform
+        }
+    }
+    nation_designer_trigger = {
+        culture_group = latin
+        OR = {
+            has_reform = italian_triarchy_reform
+            have_had_reform = italian_triarchy_reform
         }
     }
     modifiers = {

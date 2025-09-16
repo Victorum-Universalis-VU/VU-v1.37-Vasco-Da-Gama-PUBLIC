@@ -150,3 +150,48 @@ country_event = {
 		}
 	}
 }
+
+#Independence War event by - Don Brom
+country_event = {
+	id = vu_debug.4
+	title = "vu_debug.4.t"
+	desc = "vu_debug.4.d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	hidden = yes
+	trigger = {
+		NOT = {
+			has_country_flag = VU_independence_war
+		}
+		is_at_war = yes
+		OR = {
+			is_in_war = {
+				casus_belli = cb_independence_war
+				attacker_leader = ROOT
+			}
+			is_in_war = {
+				casus_belli = cb_triggered_independence_war
+				attacker_leader = ROOT
+			}
+			is_in_war = {
+				casus_belli = cb_daimyo_annex
+				attacker_leader = ROOT
+			}
+			is_in_war = {
+				casus_belli = cb_colonial_independence_war
+				attacker_leader = ROOT
+			}
+			is_in_war = {
+				casus_belli = cb_independence_war_semi_volunteer
+				attacker_leader = ROOT
+			}
+			is_in_war = {
+				casus_belli = lotf_civil_war
+				attacker_leader = ROOT
+			}
+		}
+	}
+	option = {
+		name = "vu_debug.4.a"
+		set_country_flag = VU_independence_war
+	}
+}

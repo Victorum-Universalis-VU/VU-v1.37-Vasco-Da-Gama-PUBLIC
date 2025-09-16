@@ -98,10 +98,13 @@ gme_alkarak_castle = {
 		cost_to_upgrade = { factor = 1000 }
 		province_modifiers = {
 			local_defensiveness = 0.15
-			local_manpower_modifier = 0.15
 		}
-		area_modifier = { }
-		country_modifiers = { }
+		area_modifier = { 
+			local_regiment_cost = -0.15
+		}
+		country_modifiers = { 
+			global_regiment_cost = -0.10
+		}
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -109,18 +112,25 @@ gme_alkarak_castle = {
 		cost_to_upgrade = { factor = 2500 }
 		province_modifiers = {
 			local_defensiveness = 0.25
-			local_manpower_modifier = 0.25
+			local_manpower_modifier = 0.15
 		}
 		area_modifier = {
-			local_regiment_cost = -0.10
+			local_regiment_cost = -0.25
+			regiment_recruit_speed = -0.1
 		}
-		country_modifiers = { }
-		on_upgraded = { }
+		country_modifiers = { 
+			global_regiment_cost = -0.15
+			cavalry_cost = -0.10
+		}
+		on_upgraded = { 
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = {
+			fort_level = 1
 			local_defensiveness = 0.33
 			local_manpower_modifier = 0.33
 		}
@@ -129,7 +139,8 @@ gme_alkarak_castle = {
 			regiment_recruit_speed = -0.15
 		}
 		country_modifiers = {
-			cavalry_cost = -0.10
+			global_regiment_cost = -0.2
+			cavalry_cost = -0.15
 		}
 		on_upgraded = { }
 	}

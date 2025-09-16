@@ -664,6 +664,11 @@ spriteTypes = {
         texturefile = "gfx/interface/government_reform_icons/roman_diarchy_reform.dds"
     }
 
+    spriteType = {
+        name = "government_reform_italian_triarchy_reform"
+        texturefile = "gfx/interface/government_reform_icons/italian_triarchy_reform.dds"
+    }
+
     #VU - Don's additions v1.36.2.*
     spriteType = {
         name = "government_reform_theban_league_reform"

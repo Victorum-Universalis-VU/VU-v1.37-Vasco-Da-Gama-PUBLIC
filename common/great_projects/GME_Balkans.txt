@@ -36,7 +36,7 @@ gme_kruje_castle = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = 2500 }
 		province_modifiers = {
-			local_defensiveness = 0.33
+			local_defensiveness = 0.3
 			local_manpower_modifier = 0.15
 			local_hostile_attrition = 2
 		}
@@ -48,6 +48,7 @@ gme_kruje_castle = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = {
+			fort_level = 1
 			local_defensiveness = 0.50
 			local_manpower_modifier = 0.25
 			local_hostile_attrition = 3
@@ -56,7 +57,9 @@ gme_kruje_castle = {
 			trade_value = 5
 		}
 		country_modifiers = { }
-		on_upgraded = { }
+		on_upgraded = { 
+			add_building = fort_16th
+		}
 	}
 }
 gme_walls_ragusa = {
@@ -92,7 +95,9 @@ gme_walls_ragusa = {
 		}
 		area_modifier = { }
 		country_modifiers = { }
-		on_upgraded = { }
+		on_upgraded = { 
+			add_building = fort_15th
+		}
 	}
 	tier_2 = {
 		upgrade_time = { months = 240 }
@@ -112,6 +117,7 @@ gme_walls_ragusa = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = {
+			fort_level = 1
 			hostile_fleet_attrition = 1 
 			hostile_disembark_speed = 0.5
 			local_defensiveness = 0.25

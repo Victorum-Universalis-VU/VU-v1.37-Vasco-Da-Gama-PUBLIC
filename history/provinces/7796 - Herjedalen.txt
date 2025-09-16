@@ -17,6 +17,7 @@ add_local_autonomy = 50
 #Claims
 add_core = JEM
 add_core = TRD
+add_core = H4R
 
 #1444 on
 1527.6.1 = { religion = protestant}

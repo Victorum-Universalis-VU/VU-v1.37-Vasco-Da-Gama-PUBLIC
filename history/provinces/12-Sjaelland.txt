@@ -14,6 +14,9 @@ base_manpower = 2
 capital = "Copenhagen"
 is_city = yes
 
+#Claimants
+add_core = C0P
+
 #Commerce
 center_of_trade = 3
 

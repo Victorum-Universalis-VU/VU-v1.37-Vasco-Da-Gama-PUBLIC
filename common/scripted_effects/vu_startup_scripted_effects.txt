@@ -1831,7 +1831,7 @@ remove_extra_HRE_tags = {
 			tag = RVA
 		}
 		vu_integrate_tag_if_possible = {
-			tag = K0R
+			tag = K04
 		}
 	}
 	#Outer German sphere

@@ -233,7 +233,14 @@ vu_castelo_dos_mouros = {
 		province_modifiers = { local_defensiveness = 0.1 }
 		area_modifier = {}
 		country_modifiers = {}
-		on_upgraded = { owner = { add_estate_loyalty = { estate = estate_nobles	loyalty = 5 } } }
+		on_upgraded = {
+			owner = { 
+				add_estate_loyalty = { 
+					estate = estate_nobles 
+					loyalty = 5 
+				} 
+			} 
+		}
 	}
 	tier_2 = {
 		upgrade_time = { months = 480 }
@@ -241,12 +248,24 @@ vu_castelo_dos_mouros = {
 		province_modifiers = { local_defensiveness = 0.15 local_attacker_dice_roll_bonus = -1 }
 		area_modifier = {}
 		country_modifiers = {}
-		on_upgraded = { owner = { add_estate_loyalty = { estate = estate_nobles	loyalty = 7.5 } } }
+		on_upgraded = { 
+			add_building = fort_16th
+			owner = { 
+				add_estate_loyalty = { 
+					estate = estate_nobles 
+					loyalty = 7.5 
+				} 
+			} 
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.15 local_attacker_dice_roll_bonus = -1 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.15 
+			local_attacker_dice_roll_bonus = -1 
+		}
 		area_modifier = {}
 		country_modifiers = { defensiveness = 0.15 }
 		on_upgraded = { owner = { add_estate_loyalty = { estate = estate_nobles	loyalty = 10 } } } 
@@ -386,7 +405,14 @@ vu_castelo_de_guimaraes = {
 		province_modifiers = { local_defensiveness = 0.1 }
 		area_modifier = {}
 		country_modifiers = {}
-		on_upgraded = { owner = { add_estate_loyalty = { estate = estate_nobles	loyalty = 5 } } }
+		on_upgraded = { 
+			owner = { 
+				add_estate_loyalty = { 
+					estate = estate_nobles 
+					loyalty = 5 
+				} 
+			} 
+		}
 	}
 	tier_2 = {
 		upgrade_time = { months = 480 }
@@ -394,12 +420,23 @@ vu_castelo_de_guimaraes = {
 		province_modifiers = { local_defensiveness = 0.15 }
 		area_modifier = {}
 		country_modifiers = { army_tradition = 0.25 prestige = 0.25 }
-		on_upgraded = { owner = { add_estate_loyalty = { estate = estate_nobles	loyalty = 7.5 } } }
+		on_upgraded = {
+			add_building = fort_16th 
+			owner = { 
+				add_estate_loyalty = { 
+					estate = estate_nobles 
+					loyalty = 7.5 
+				} 
+			} 
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.2 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.2 
+		}
 		area_modifier = {}
 		country_modifiers = { army_tradition = 0.5 prestige = 0.5 }
 		on_upgraded = { owner = { add_estate_loyalty = { estate = estate_nobles	loyalty = 10 } } }

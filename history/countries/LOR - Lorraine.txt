@@ -10,7 +10,7 @@ unit_type = western
 capital = 189 #Nancy
 
 #History by Prussia
-1191.1.1 = {
+1215.06.15 = {
 	monarch = {
 		name = "Theobald I"
 		dynasty = "de Lorraine"
@@ -22,7 +22,7 @@ capital = 189 #Nancy
 	}
 }
 
-1191.1.1 = {
+1215.06.15 = {
 	heir = {
 		name = "Matthias"
 		monarch_name = "Matthias II"

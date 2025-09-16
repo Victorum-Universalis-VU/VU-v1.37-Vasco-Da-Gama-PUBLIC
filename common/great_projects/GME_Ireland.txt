@@ -45,7 +45,7 @@ gme_kilkenny_castle = {
         province_modifiers = { }
         area_modifier = { }
         country_modifiers = { }
-        on_upgraded = {	}
+        on_upgraded = { }
     }
     tier_1 = {
         upgrade_time = { months = 120 }
@@ -53,11 +53,13 @@ gme_kilkenny_castle = {
         province_modifiers = {
             local_defensiveness = 0.10
         }
-        area_modifier = { }
+        area_modifier = { 
+            local_monthly_devastation = -0.1
+        }
         country_modifiers = {
             advisor_cost = -0.05
         }
-        on_upgraded = {	}
+        on_upgraded = { }
     }
     tier_2 = {
         upgrade_time = { months = 240 }
@@ -65,25 +67,33 @@ gme_kilkenny_castle = {
         province_modifiers = {
             local_defensiveness = 0.15
         }
-        area_modifier = { }
+        area_modifier = { 
+            local_monthly_devastation = -0.15
+        }
         country_modifiers = {
             advisor_cost = -0.10
             technology_cost = -0.05
         }
-        on_upgraded = {	}
+        on_upgraded = {
+            add_building = fort_16th
+        }
     }
     tier_3 = {
         upgrade_time = { months = 480 }
         cost_to_upgrade = { factor = 5000 }
         province_modifiers = {
+            fort_level = 1
             local_defensiveness = 0.20
         }
-        area_modifier = { }
+        area_modifier = { 
+            local_monthly_devastation = -0.2
+        }
         country_modifiers = {
             advisor_cost = -0.15
             technology_cost = -0.10
         }
-        on_upgraded = {	}
+        on_upgraded = {	
+        }
     }
 }
 gme_newgrange_tomb = {

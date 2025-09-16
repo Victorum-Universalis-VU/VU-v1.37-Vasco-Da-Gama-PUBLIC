@@ -2817,7 +2817,7 @@ country_event = {
     }
 }
 
-#VU - 1.36.2.* Addition 'Death of Frederich III' by SF (Template found and chosen by Actually Prussia)
+#VU - 1.36.2.* Addition 'Death of Frederich III' by SF and updated by Prussia in v1.37 with fix to make the Austrian Mission tree appear when either Fred or Lukemia boy dies. (Template found and chosen by Actually Prussia)
 country_event = {
     id = flavor_hab.40	#Was flavor_dan.4 - SF
     title = "flavor_hab.40.name"	#Was flavor_dan.4.t - SF
@@ -2903,6 +2903,9 @@ country_event = {
                     inherit = SH1
                 }
                 change_tag = HAB
+                swap_non_generic_missions = yes
+                set_country_flag = formed_austria_flag
+			    vu_colour_refresh = yes
             }
         }
         else = {
@@ -2964,6 +2967,9 @@ country_event = {
                     inherit = SH1
                 }
                 change_tag = HAB
+                swap_non_generic_missions = yes
+                set_country_flag = formed_austria_flag
+			    vu_colour_refresh = yes
             }
         }
     }

@@ -17,3 +17,4 @@ is_city = yes
 
 #Claimants
 add_core = FIN
+add_core = S4V

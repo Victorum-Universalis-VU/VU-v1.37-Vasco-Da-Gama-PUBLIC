@@ -428,11 +428,11 @@
  construct_vu_trowulan_title: "Construct Trowulan."
  construct_vu_trowulan_desc: "The Trowulan is a Great Landmark"
 
- great_project_vu_otanahaortress: "Otanaha Fortress"
- vu_otanahaortress: "Otanaha Fortress"
- vu_otanahaortress_title: "Construct Otanaha Fortress."
- construct_vu_otanahaortress_title: "Construct Otanaha Fortress."
- construct_vu_otanahaortress_desc: "The Otanaha Fortress is a Great Landmark"
+ great_project_vu_otanaha_fortress: "Otanaha Fortress"
+ vu_otanaha_fortress: "Otanaha Fortress"
+ vu_otanaha_fortress_title: "Construct Otanaha Fortress."
+ construct_vu_otanaha_fortress_title: "Construct Otanaha Fortress."
+ construct_vu_otanaha_fortress_desc: "The Otanaha Fortress is a Great Landmark"
 
  great_project_vu_st_petka_belgrade_fortress: "St Petka Chapel"
  vu_st_petka_belgrade_fortress: "St Petka Chapel"

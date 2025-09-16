@@ -298,7 +298,7 @@ development_scaled = {
 
 provincial_tax_income = {
 	#a tax income of 1.0 appears to be hardcoded into the engine. I hate messy stuff like this, but if I want to double dev, I'm going to have to offset it
-	tax_income = -0.5	#aforementioned offset
+	tax_income = 0.01	#Increased this from -0.5 - DM because Don is the biggest TWAT in the universe!
 	regiment_recruit_speed = -0.005
 	local_great_project_upgrade_time = -0.01
 	local_build_time = -0.01
@@ -603,7 +603,7 @@ scorched_earth = {
 ##########################################################################
 # Global Static Modifiers
 ##########################################################################
-base_values = {
+base_values = { #For both Ai and Player nations - DM
 	max_absolutism = 65
 	merchants = 1	#Was 2, made obsolete by Govenment ranks adding merchants
 	diplomats = 2	#Start with 2 diplomats..
@@ -653,12 +653,13 @@ ai_nation = {
 	state_maintenance_modifier = -0.25
 	governing_capacity = 250	#Fixes pdx big brain (-_-)
 	governing_cost = -0.05
-	global_supply_limit_modifier = 1	#REDUCE ARMY EVAL ERRORS + LESS LAG IN LATE GAME | Increased it to 1, Should further reduce the errors -Don | UPDATE! Lowered this back to 1 as it did nothing to improve lag - DM
+	#global_supply_limit_modifier = 1	#REDUCE ARMY EVAL ERRORS + LESS LAG IN LATE GAME | Increased it to 1, Should further reduce the errors -Don | UPDATE! Lowered this back to 1 as it did nothing to improve lag - DM | UPDATE! Hashed it out as the Ai cheats with this enabled. - DM
 	nobles_influence_modifier = -0.1	#Reminder : Remove after estate re-work
 	eunuchs_influence_modifier = -0.1
 	country_admin_power = 1	#AI is stupid with monarch points so they get more
 	country_diplomatic_power = 1	#AI is stupid with monarch points so they get more
 	country_military_power = 1	#AI is stupid with monarch points so they get more
+	land_attrition = -0.2 #Made this -0.2 so that the change is noticeable in-game. Need to lower this to -0.15 if it is too much. - DM
 }
 
 war_taxes = {

@@ -20,6 +20,7 @@ fort_15th = yes # Kalmar Slott
 #Claimants
 add_core = KLR
 add_core = OTG
+add_core = SM4
 
 #Commerce
 center_of_trade = 1

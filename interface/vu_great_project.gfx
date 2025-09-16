@@ -306,8 +306,8 @@ spriteTypes = {
         texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_trowulan.dds"
     }
     spriteType = {
-        name = "GFX_great_project_vu_otanahaortress"
-        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_otanahaortress.dds"
+        name = "GFX_great_project_vu_otanaha_fortress"
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_otanaha_fortress.dds"
     }
     spriteType = {
         name = "GFX_great_project_vu_st_petka_belgrade_fortress"

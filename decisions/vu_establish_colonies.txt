@@ -38,6 +38,8 @@ country_decisions = {
 	#colonial_chile
 	#colonial_texas
 	#colonial_central_america
+	#vu_establish_the_colonial_venture_act
+	#vu_abolish_the__colonial_venture_act
 	vu_allow_colony_in_colonial_alaska = {
 		potential = {
 			ai = no
@@ -1869,6 +1871,46 @@ country_decisions = {
 		}
 		effect = {
 			vu_set_disable_releasing_of_colonies_ROOT = yes
+		}
+	}
+	vu_establish_the_colonial_venture_act = {
+		potential = {
+			has_idea_group = exploration_ideas
+			has_idea_group = expansion_ideas
+			NOT = {
+				has_country_modifier = colonial_venture_act_modifier
+			}
+		}
+		allow = {
+			full_idea_group = exploration_ideas
+			full_idea_group = expansion_ideas
+		}
+		effect = {
+			add_adm_power = -50
+			add_dip_power = -50
+			add_mil_power = -50
+			add_treasury = -150
+			add_country_modifier = {
+				name = colonial_venture_act_modifier
+				duration = -1
+			}
+			add_country_modifier = {
+				name = colonial_buffs_1
+				duration = -1
+			}
+		}
+	}
+
+	vu_abolish_the__colonial_venture_act = {
+		potential = {
+			has_country_modifier = colonial_venture_act_modifier
+		}
+		allow = {
+			has_country_modifier = colonial_venture_act_modifier
+		}
+		effect = {
+			remove_country_modifier = colonial_venture_act_modifier
+			remove_country_modifier = colonial_buffs_1
 		}
 	}
 }

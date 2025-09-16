@@ -397,6 +397,37 @@ on_main_war_won = {
 		native_americans.7
 		flavor_kor.15
 	}
+	#
+	if = {
+		limit = {
+			has_country_flag = VU_independence_war
+			is_subject = no
+		}
+		if = {
+			limit = {
+				NOT = {
+					stability = -2
+				}
+			}
+			add_stability = 3
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					stability = -1
+				}
+			}
+			add_stability = 2
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					stability = 0
+				}
+			}
+			add_stability = 1
+		}
+	}
 	#LoTF additions integrated by San Felipe
 	if = {
 		limit = {

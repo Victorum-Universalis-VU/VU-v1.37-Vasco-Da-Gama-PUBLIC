@@ -5,7 +5,7 @@ vu_nassau_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1670 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -36,12 +36,18 @@ vu_nassau_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -55,7 +61,7 @@ vu_santiago_de_cuba_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1514 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -86,12 +92,18 @@ vu_santiago_de_cuba_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -105,7 +117,7 @@ vu_port_royal_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1509 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -136,12 +148,18 @@ vu_port_royal_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -155,7 +173,7 @@ vu_kingston_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1692 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -186,12 +204,18 @@ vu_kingston_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -205,7 +229,7 @@ vu_port_au_prince_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1749 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -236,12 +260,18 @@ vu_port_au_prince_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -255,7 +285,7 @@ vu_santiago_de_los_caballeros_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1495 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -286,12 +316,18 @@ vu_santiago_de_los_caballeros_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -305,7 +341,7 @@ vu_santo_domingo_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1496 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -336,12 +372,18 @@ vu_santo_domingo_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -355,7 +397,7 @@ vu_puerto_rico_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1508 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -386,12 +428,18 @@ vu_puerto_rico_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -405,7 +453,7 @@ vu_guadeloupe_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1635 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -436,12 +484,18 @@ vu_guadeloupe_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -455,7 +509,7 @@ vu_martinque_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1685 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -486,12 +540,18 @@ vu_martinque_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -505,7 +565,7 @@ vu_barbados_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1628 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -536,12 +596,18 @@ vu_barbados_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -555,7 +621,7 @@ vu_tobago_caribbean = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1628 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -586,14 +652,20 @@ vu_tobago_caribbean = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
-		on_upgraded = {}
+		on_upgraded = { }
 	}
 }

@@ -238,6 +238,13 @@ swe_scandinavian_colonialism_mission_slot = {
 				}
 				add_permanent_claim = ROOT
 			}
+			bornholm_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			jutland_area = {
 				limit = {
 					NOT = { is_core = ROOT }

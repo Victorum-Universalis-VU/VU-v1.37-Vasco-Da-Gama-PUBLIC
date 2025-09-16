@@ -71,7 +71,7 @@ granada_development_missions = {
             8087 = {
                 owned_by = ROOT
                 development = 35 #From 20 to 35. Previous mission has pushed it to 34, so 1 more click is required.
-                has_building = temple
+                has_building = grand_cathedral
             }
         }
 

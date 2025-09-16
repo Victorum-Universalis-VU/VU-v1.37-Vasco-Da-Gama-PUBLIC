@@ -13,7 +13,10 @@ trade_goods = silver
 base_manpower = 2 
 capital = "Jönköping"
 is_city = yes
+
+#Claimants
 add_core = OTG
+add_core = VA5
 
 #Commerce
 center_of_trade = 1

@@ -20,6 +20,7 @@ is_city = yes
 #Claimants
 add_core = IGR
 add_core = KRL
+add_core = K3X
 
 #Special Modifier
 add_local_autonomy = 25

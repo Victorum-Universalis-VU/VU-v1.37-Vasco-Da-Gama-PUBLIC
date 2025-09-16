@@ -1315,6 +1315,7 @@ republic = {
 				confederate_states_republic
 				improved_veche_republic
 				roman_diarchy_reform
+				italian_triarchy_reform
 				spartan_diarchy_reform
 				theban_league_reform
 				athenian_democracy_reform

@@ -14,12 +14,8 @@ is_city = yes
 hre = no
 fort_15th = yes
 
-
-
-
-
-
-
+#Claimants
+add_core = R0S
 
 #Province history completed by - Darth Modus and docRobert
 #1st Shattering unused

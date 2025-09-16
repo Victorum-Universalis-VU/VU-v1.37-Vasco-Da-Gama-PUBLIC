@@ -3,9 +3,9 @@
 #Area - Upper Swabia
 
 #Default
-owner = K0R
-controller = K0R
-add_core = K0R
+owner = K04
+controller = K04
+add_core = K04
 culture = swabian
 religion = catholic
 base_tax = 2

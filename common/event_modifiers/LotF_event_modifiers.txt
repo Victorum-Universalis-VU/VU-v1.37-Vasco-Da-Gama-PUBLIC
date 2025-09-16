@@ -8,19 +8,19 @@ mass_rebellion_modifier = {
 	land_forcelimit = 0.35
 }
 colonial_buffs_1 = {
-	global_colonial_growth = 50
+	global_colonial_growth = 25 #Nerfed this by half as 50 is insanely OP - Prussia
 	colonists = 1
 }
 colonial_buffs_2 = {
-	global_colonial_growth = 50
+	global_colonial_growth = 25 #Nerfed this by half as 50 is insanely OP - Prussia
 	colonist_placement_chance = 0.1
 }
 colonial_buffs_3 = {
-	global_colonial_growth = 50
+	global_colonial_growth = 25 #Nerfed this by half as 50 is insanely OP - Prussia
 	native_assimilation = 0.5
 }
 colonial_buffs_4 = {
-	global_colonial_growth = 50
+	global_colonial_growth = 25 #Nerfed this by half as 50 is insanely OP - Prussia
 	trade_efficiency = 0.15
 }
 jamestownprod = {

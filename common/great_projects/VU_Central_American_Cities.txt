@@ -557,7 +557,7 @@ vu_mexico_city_mex = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1521 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -580,7 +580,7 @@ vu_mexico_city_mex = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 5 }
 		area_modifier = { province_trade_power_modifier = 0.063	local_development_cost = -0.025	}
 		country_modifiers = { trade_efficiency = 0.025 }
-		on_upgraded = {	}
+		on_upgraded = { }
 	}
 	tier_2 = {
 		upgrade_time = { months = 480 }
@@ -588,15 +588,21 @@ vu_mexico_city_mex = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
-		on_upgraded = {}
+		on_upgraded = { }
 	}
 }
 
@@ -807,7 +813,7 @@ vu_veracruz_mex = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1519 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -838,12 +844,18 @@ vu_veracruz_mex = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -1101,7 +1113,6 @@ vu_cancun_mex = {
 	}
 }
 
-
 vu_merida_mex = {
     start = 2633
     date = 1542.01.01
@@ -1159,7 +1170,7 @@ vu_belize_city_blz = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1638 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -1190,12 +1201,18 @@ vu_belize_city_blz = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
@@ -1410,7 +1427,7 @@ vu_panama_city_pan = {
     build_cost = 0
     can_be_moved = no
     move_days_per_unit_distance = 10
-    starting_tier = 0
+    starting_tier = 1
     type = monument
     build_trigger = { is_year = 1519 vu_christian_cities_trigger = yes }
     on_built = {}
@@ -1441,12 +1458,18 @@ vu_panama_city_pan = {
 		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 10 }
 		area_modifier = { province_trade_power_modifier = 0.125	local_development_cost = -0.05 }
 		country_modifiers = { trade_efficiency = 0.05 }
-		on_upgraded = {}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { local_defensiveness = 0.25 province_trade_power_value = 20 }
+		province_modifiers = {
+			fort_level = 1 
+			local_defensiveness = 0.25 
+			province_trade_power_value = 20 
+		}
 		area_modifier = { province_trade_power_modifier = 0.25 local_development_cost = -0.10 }
 		country_modifiers = { trade_efficiency = 0.1 merchants = 1 }
 		on_upgraded = {}
