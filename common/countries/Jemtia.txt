@@ -1,8 +1,8 @@
-#Jemtia
+#JEM - Jemtia
 
 graphical_culture = westerngfx	 
 
-color = { 31  68  99 }
+color = { 212  0  0 }
 
 revolutionary_colors = { 13  8  13 } #Fictional
 

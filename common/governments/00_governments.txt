@@ -2195,6 +2195,9 @@ theocracy = {
 				vu_order_of_saint_joan_reform
 				aju_hydraulic_empire
 				#VU
+				church_of_denmark_abbacy_reform
+				church_of_denmark_bishopric_reform
+				church_of_denmark_archbishopric_reform
 				church_of_england_abbacy_reform
 				church_of_england_bishopric_reform
 				church_of_england_archbishopric_reform
@@ -2207,6 +2210,9 @@ theocracy = {
 				church_of_lotharingia_abbacy_reform
 				church_of_lotharingia_bishopric_reform
 				church_of_lotharingia_archbishopric_reform
+				church_of_norway_abbacy_reform
+				church_of_norway_bishopric_reform
+				church_of_norway_archbishopric_reform
 				church_of_balkans_abbacy_reform
 				church_of_balkans_bishopric_reform
 				church_of_balkans_archbishopric_reform
@@ -2225,6 +2231,11 @@ theocracy = {
 				church_of_portugal_abbacy_reform
 				church_of_portugal_bishopric_reform
 				church_of_portugal_archbishopric_reform
+				church_of_sweden_abbacy_reform
+				church_of_sweden_bishopric_reform
+				church_of_sweden_archbishopric_reform
+				church_of_spain_abbacy_reform
+				church_of_spain_bishopric_reform
 				church_of_spain_archbishopric_reform
 				church_of_switzerland_abbacy_reform
 				church_of_switzerland_bishopric_reform

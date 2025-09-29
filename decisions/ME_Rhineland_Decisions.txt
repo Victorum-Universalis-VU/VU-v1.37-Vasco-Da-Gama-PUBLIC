@@ -3,30 +3,16 @@ country_decisions = {
 		potential = {
 			has_country_flag = RHN_Blast_furnaces
 			OR = {
-				hesse_area = {
-					NOT = { has_building = blast_furnace }
-				}
-				frankfurt_area = {
-					NOT = { has_building = blast_furnace }
-				}
-				north_rhine_area = {
-					NOT = { has_building = blast_furnace }
-				}
-				lower_rhineland_area = {
-					NOT = { has_building = blast_furnace }
-				}
-				palatinate_area = {
-					NOT = { has_building = blast_furnace }
-				}
+				any_owned_province = { area = hesse_area NOT = { has_building = blast_furnace }}
+				any_owned_province = { area = frankfurt_area NOT = { has_building = blast_furnace }}
+				any_owned_province = { area = north_rhine_area NOT = { has_building = blast_furnace }}
+				any_owned_province = { area = lower_rhineland_area NOT = { has_building = blast_furnace }}
+				any_owned_province = { area = palatinate_area NOT = { has_building = blast_furnace }}
 				AND = {
 					has_country_flag = RHN_westphalia
 					OR = {
-						westphalia_area = {
-							NOT = { has_building = blast_furnace }
-						}
-						north_westphalia_area = {
-							NOT = { has_building = blast_furnace }
-						}
+						any_owned_province = { area = westphalia_area NOT = { has_building = blast_furnace }}
+						any_owned_province = { area = north_westphalia_area NOT = { has_building = blast_furnace }}
 					}
 				}
 			}
@@ -64,7 +50,6 @@ country_decisions = {
 				NOT = {	has_building = blast_furnace }
 				custom_trigger_tooltip = {
 					tooltip = not_building_tt
-
 					NOT = { has_construction = building }
 					NOT = { has_construction = core }
 					NOT = { has_construction = great_project }

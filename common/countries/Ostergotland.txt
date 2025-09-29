@@ -1,8 +1,8 @@
-#Östgötland
+#OTG - Östgötland
 
 graphical_culture = westerngfx	 
 
-color = { 213  1  0 }
+color = { 236  180  68 }
 
 revolutionary_colors = { 13  1  0 } #Fictional
 

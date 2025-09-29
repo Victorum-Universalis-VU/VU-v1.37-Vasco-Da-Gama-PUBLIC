@@ -1,16 +1,8 @@
 #NOW - Nowogrodek
 graphical_culture = easterngfx
-color = {
-	232
-	224
-	224
-}
+color = { 250 195 83 }
 
-revolutionary_colors = {
-	5
-	5
-	10
-}
+revolutionary_colors = { 5 5 10 }
 
 historical_idea_groups = {
 	trade_ideas

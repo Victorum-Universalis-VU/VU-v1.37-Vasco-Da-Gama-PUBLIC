@@ -1,10 +1,11 @@
 #R0S - Roskilde
-government = monarchy
-add_government_reform = unlocked_eue_duchy_reform
-government_rank = 6 #Duchy
+government = theocracy
+add_government_reform = church_of_denmark_bishopric_reform
+government_rank = 4 #Bishopric
 primary_culture = danish
 religion = catholic
 #technology_group = western
 technology_group = scandinavian_tech_group
 unit_type = western
 capital = 7767 #Roskilde
+fixed_capital = 7767

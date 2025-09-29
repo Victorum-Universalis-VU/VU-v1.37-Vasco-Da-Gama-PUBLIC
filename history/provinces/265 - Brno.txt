@@ -17,6 +17,9 @@ is_city = yes
 fort_15th = yes
 road_system = yes #Because everyone knows that Brno is just a right hand turn on your way to Vienna - D & L
 
+#Claimants
+add_core = ST3
+
 #Commerce
 center_of_trade = 2
 

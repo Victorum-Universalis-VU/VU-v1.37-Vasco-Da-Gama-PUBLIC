@@ -1,0 +1,10 @@
+#L1C - Lichtenburka
+government = monarchy
+add_government_reform = unlocked_eue_county_reform
+government_rank = 4 #County
+#technology_group = western
+technology_group = bohemian_tech_group
+unit_type = western
+primary_culture = silesian_german
+religion = catholic
+capital = 8252 #Kladsko

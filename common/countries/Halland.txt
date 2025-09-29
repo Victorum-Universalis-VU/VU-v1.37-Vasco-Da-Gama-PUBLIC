@@ -1,8 +1,8 @@
-#Halland
+#HLL - Halland
 
 graphical_culture = westerngfx	 
 
-color = { 157  36  96 }
+color = { 10  123  178 }
 
 revolutionary_colors = { 13  8  13 } #Fictional
 

@@ -1,8 +1,8 @@
-#Hordaland - Template for Norwegian "Pirates" hehehe
+#HOR - Hordaland
 
 graphical_culture = westerngfx
 
-color = { 222 16 62 }
+color = { 248 206 11 }
 revolutionary_colors = { 16 13 16 }
 
 historical_score = 25

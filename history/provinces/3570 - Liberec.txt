@@ -12,3 +12,6 @@ base_production = 1
 base_manpower = 1
 trade_goods = tin #This area of Bohemia is the richest and one of the only areas in Central Europe with significant tin deposits
 hre = yes
+
+#Claimants
+add_core = V4L

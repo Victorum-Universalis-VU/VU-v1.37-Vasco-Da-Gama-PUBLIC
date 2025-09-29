@@ -413,6 +413,15 @@
  church_of_bohemia_archbishopric_reform: "Arcibiskupství"
  church_of_bohemia_archbishopric_reform_desc: "Is a diocesan archbishopric within the frame work and system set forth by the Church of Bohemia."
  #
+ church_of_denmark_abbacy_reform: "Abbat"
+ church_of_denmark_abbacy_reform_desc: "Is a diocesan abbacy within the frame work and system set forth by the Church of Denmark."
+ #
+ church_of_denmark_bishopric_reform: "Biskop"
+ church_of_denmark_bishopric_reform_desc: "Is a diocesan bishopric within the frame work and system set forth by the Church of Denmark."
+ #
+ church_of_denmark_archbishopric_reform: "Ærkebiskop"
+ church_of_denmark_archbishopric_reform_desc: "Is a diocesan archbishopric within the frame work and system set forth by the Church of Denmark."
+ #
  church_of_hungary_abbacy_reform: "Apátság"
  church_of_hungary_abbacy_reform_desc: "Is a diocesan abbacy within the frame work and system set forth by the Church of Hungary."
  #
@@ -431,6 +440,15 @@
  church_of_italy_archbishopric_reform: "Arcivescovado"
  church_of_italy_archbishopric_reform_desc: "Is a diocesan archbishopric within the frame work and system set forth by the Church of Italy."
  #
+ church_of_norway_abbacy_reform: "Abbotcy"
+ church_of_norway_abbacy_reform_desc: "Is a diocesan abbacy within the frame work and system set forth by the Church of Norway."
+ #
+ church_of_norway_bishopric_reform: "Biskop"
+ church_of_norway_bishopric_reform_desc: "Is a diocesan bishopric within the frame work and system set forth by the Church of Norway."
+ #
+ church_of_norway_archbishopric_reform: "Erkebiskop"
+ church_of_norway_archbishopric_reform_desc: "Is a diocesan archbishopric within the frame work and system set forth by the Church of Norway."
+ #
  church_of_poland_abbacy_reform: "Abadia"
  church_of_poland_abbacy_reform_desc: "Is a diocesan abbacy within the frame work and system set forth by the Church of Poland."
  #
@@ -448,6 +466,15 @@
  #
  church_of_portugal_archbishopric_reform: "Arcebispado"
  church_of_portugal_archbishopric_reform_desc: "Is a diocesan archbishopric within the frame work and system set forth by the Church of Portugal."
+ #
+ church_of_sweden_abbacy_reform: "Kloster"
+ church_of_sweden_abbacy_reform_desc: "Is a diocesan abbacy within the frame work and system set forth by the Church of Sweden."
+ #
+ church_of_sweden_bishopric_reform: "Biskopsstift"
+ church_of_sweden_bishopric_reform_desc: "Is a diocesan bishopric within the frame work and system set forth by the Church of Sweden."
+ #
+ church_of_sweden_archbishopric_reform: "Ärkebiskopsämbetet"
+ church_of_sweden_archbishopric_reform_desc: "Is a diocesan archbishopric within the frame work and system set forth by the Church of Sweden."
  #
  church_of_spain_abbacy_reform: "Abadía"
  church_of_spain_abbacy_reform_desc: "Is a diocesan abbacy within the frame work and system set forth by the Church of Spain."

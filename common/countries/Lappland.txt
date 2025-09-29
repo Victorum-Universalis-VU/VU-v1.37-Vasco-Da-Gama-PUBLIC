@@ -1,7 +1,7 @@
 #LPL - Lappland
 graphical_culture = westerngfx
 
-color = { 252  209  22 }
+color = { 55  130  55 }
 revolutionary_colors = { 5 8 13 }
 
 historical_idea_groups = {
@@ -33,18 +33,6 @@ historical_units = {
 	napoleonic_lancers
 }
 
-leader_names = {
-	Ubmeje Nuorï¿½ne Gï¿½jka
-	Magga Guolï¿½dat Yugra
-	Kaise Saiva
-	Syktyvkar Nylogid
-}
-
-ship_names = {
-	Haldi "Laib Olmai" Akka Beaivi Bieggolmai
-	Lieaibolmmai Ruohtta  Stallo  Tjaetsieï¿½lmaj Raedieahkka
-}
-
 monarch_names = {
 	"Kaupo #0" = 20
 	"Shutr #0" = 20
@@ -59,8 +47,45 @@ monarch_names = {
 	"Vetseke #0" = 0
 	"Vaishvilkas #0" = 0
 	"Yudki #0" = 0
-	
 	"Inga #0" = -1
 	"Ulla #0" = -1
 	"Lisa #0" = -1
 }
+
+leader_names = {
+	Adlercreutz Ahlqvist
+	Berg Björn Blom 
+	Cronstedt
+	Dufva
+	Ehrensvärd "von Essen" 
+	Glad
+	Haataja Helander Helin Hiltunen Horn
+	Ilkka Isotalo
+	Järvelä Järnberg
+	Kesäläinen Klingspor Kortelainen Krouvari Kyrö
+	Liljencrantz Länkinen
+	Pentti Pietilä 
+	Rehnskiöld Renner Rokka Rutanen
+	Sakari Sjögren Stålhandske Stoor
+	Tapani Termonen Turunen
+	Wilander
+}
+
+ship_names = {
+	Agricola Aura
+	Borgå "Birger Jarl"
+	Helsingfors Hakkapeliitta
+	Ilmarinen
+	Kullervo Karelen Kymi
+	Lemminkäinen Lapland
+	Nyland
+	Oulu
+	"Per Brahe"
+	Sampo "St. Henrik" Savolax
+	Tavastehus Tavastland
+	Väinämöinen Vasa Viborg Vanda Vuoksi
+	Åbo
+	Österbotten
+}
+
+

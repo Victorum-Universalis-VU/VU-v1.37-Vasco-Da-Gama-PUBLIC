@@ -3101,6 +3101,101 @@ church_of_bohemia_archbishopric_reform = {
     }
 }
 
+church_of_denmark_abbacy_reform = {
+    icon = "abbacy"
+    potential = {
+        primary_culture = danish
+        has_reform = church_of_denmark_abbacy_reform
+        NOT = {
+            government_rank = 3
+        }
+    }
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    allow_convert = no
+    lock_level_when_selected = yes
+    modifiers = {
+        land_morale = 0.1
+        global_trade_power = 0.05
+        global_tax_modifier = 0.05
+    }
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        custom_attributes = {
+            gain_devotion_from_conversions = yes
+        }
+    }
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
+church_of_denmark_bishopric_reform = {
+    icon = "bishop"
+    potential = {
+        primary_culture = danish
+        has_reform = church_of_denmark_bishopric_reform
+        government_rank = 3
+        NOT = {
+            government_rank = 5
+        }
+    }
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    allow_convert = no
+    lock_level_when_selected = yes
+    queen = no
+    modifiers = {
+        church_loyalty_modifier = 0.1
+        global_tax_modifier = 0.1
+    }
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        custom_attributes = {
+            gain_devotion_from_conversions = yes
+        }
+    }
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
+church_of_denmark_archbishopric_reform = {
+    icon = "archbishop"
+    potential = {
+        primary_culture = danish
+        has_reform = church_of_denmark_archbishopric_reform
+        government_rank = 5
+        NOT = {
+            government_rank = 8
+        }
+    }
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    allow_convert = no
+    lock_level_when_selected = yes
+    queen = no
+    modifiers = {
+        church_loyalty_modifier = 0.15
+        global_tax_modifier = 0.15
+    }
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        custom_attributes = {
+            gain_devotion_from_conversions = yes
+        }
+    }
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
 church_of_england_abbacy_reform = {
     icon = "abbacy"
     potential = {
@@ -3686,6 +3781,101 @@ church_of_lotharingia_archbishopric_reform = {
     }
 }
 
+church_of_norway_abbacy_reform = {
+    icon = "abbacy"
+    potential = {
+        primary_culture = norwegian
+        has_reform = church_of_norway_abbacy_reform
+        NOT = {
+            government_rank = 3
+        }
+    }
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    allow_convert = no
+    lock_level_when_selected = yes
+    modifiers = {
+        land_morale = 0.1
+        global_trade_power = 0.05
+        global_tax_modifier = 0.05
+    }
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        custom_attributes = {
+            gain_devotion_from_conversions = yes
+        }
+    }
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
+church_of_norway_bishopric_reform = {
+    icon = "bishop"
+    potential = {
+        primary_culture = norwegian
+        has_reform = church_of_norway_bishopric_reform
+        government_rank = 3
+        NOT = {
+            government_rank = 5
+        }
+    }
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    allow_convert = no
+    lock_level_when_selected = yes
+    queen = no
+    modifiers = {
+        church_loyalty_modifier = 0.1
+        global_tax_modifier = 0.1
+    }
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        custom_attributes = {
+            gain_devotion_from_conversions = yes
+        }
+    }
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
+church_of_norway_archbishopric_reform = {
+    icon = "archbishop"
+    potential = {
+        primary_culture = norwegian
+        has_reform = church_of_norway_archbishopric_reform
+        government_rank = 5
+        NOT = {
+            government_rank = 8
+        }
+    }
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    allow_convert = no
+    lock_level_when_selected = yes
+    queen = no
+    modifiers = {
+        church_loyalty_modifier = 0.15
+        global_tax_modifier = 0.15
+    }
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        custom_attributes = {
+            gain_devotion_from_conversions = yes
+        }
+    }
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
 church_of_poland_abbacy_reform = {
     icon = "abbacy"
     potential = {
@@ -3849,6 +4039,101 @@ church_of_portugal_archbishopric_reform = {
     potential = {
         technology_group = portuguese_tech_group
         has_reform = church_of_portugal_archbishopric_reform
+        government_rank = 5
+        NOT = {
+            government_rank = 8
+        }
+    }
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    allow_convert = no
+    lock_level_when_selected = yes
+    queen = no
+    modifiers = {
+        church_loyalty_modifier = 0.15
+        global_tax_modifier = 0.15
+    }
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        custom_attributes = {
+            gain_devotion_from_conversions = yes
+        }
+    }
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
+church_of_sweden_abbacy_reform = {
+    icon = "abbacy"
+    potential = {
+        primary_culture = swedish
+        has_reform = church_of_sweden_abbacy_reform
+        NOT = {
+            government_rank = 3
+        }
+    }
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    allow_convert = no
+    lock_level_when_selected = yes
+    modifiers = {
+        land_morale = 0.1
+        global_trade_power = 0.05
+        global_tax_modifier = 0.05
+    }
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        custom_attributes = {
+            gain_devotion_from_conversions = yes
+        }
+    }
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
+church_of_sweden_bishopric_reform = {
+    icon = "bishop"
+    potential = {
+        primary_culture = swedish
+        has_reform = church_of_sweden_bishopric_reform
+        government_rank = 3
+        NOT = {
+            government_rank = 5
+        }
+    }
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    allow_convert = no
+    lock_level_when_selected = yes
+    queen = no
+    modifiers = {
+        church_loyalty_modifier = 0.1
+        global_tax_modifier = 0.1
+    }
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        custom_attributes = {
+            gain_devotion_from_conversions = yes
+        }
+    }
+    custom_attributes = {
+        locked_government_type = yes
+    }
+}
+
+church_of_sweden_archbishopric_reform = {
+    icon = "archbishop"
+    potential = {
+        primary_culture = swedish
+        has_reform = church_of_sweden_archbishopric_reform
         government_rank = 5
         NOT = {
             government_rank = 8

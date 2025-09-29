@@ -1,8 +1,8 @@
-#NorthSeaEmpire 
+#NRE - NorthSeaEmpire 
 
 graphical_culture = westerngfx
 
-color = { 156  154  154 }
+color = { 188  46  46 }
 revolutionary_colors = { 6 4 4 }
 
 historical_score = 25

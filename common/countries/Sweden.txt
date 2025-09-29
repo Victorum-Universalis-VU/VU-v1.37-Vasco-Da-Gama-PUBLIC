@@ -1,4 +1,4 @@
-#Sweden
+#SWE - Sweden
 
 graphical_culture = westerngfx	 
 

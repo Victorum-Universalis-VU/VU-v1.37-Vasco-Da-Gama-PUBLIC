@@ -1,4 +1,4 @@
-#Polotsk
+#PLT - Polotsk
 
 graphical_culture = easterngfx
 

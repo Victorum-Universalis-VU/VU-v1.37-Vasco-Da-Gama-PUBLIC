@@ -13,3 +13,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 2 
 is_city = yes
+
+#Claimants
+add_core = L4N #A stain on the land - DM

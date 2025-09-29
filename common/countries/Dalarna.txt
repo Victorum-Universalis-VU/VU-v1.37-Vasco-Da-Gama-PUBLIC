@@ -1,8 +1,8 @@
-#Dalarna
+#DLA - Dalarna
 
 graphical_culture = westerngfx
 
-color = { 0  86  148 }
+color = { 29  123  170 }
 
 revolutionary_colors = { 1  6  9 } #Made up
 

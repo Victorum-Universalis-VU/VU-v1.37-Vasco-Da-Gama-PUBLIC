@@ -1,16 +1,8 @@
 #MNK - Minsk
 graphical_culture = easterngfx
-color = {
-	232
-	224
-	224
-}
+color = { 6 75 110 }
 
-revolutionary_colors = {
-	5
-	5
-	10
-}
+revolutionary_colors = { 5 5 10 }
 
 historical_idea_groups = {
 	trade_ideas

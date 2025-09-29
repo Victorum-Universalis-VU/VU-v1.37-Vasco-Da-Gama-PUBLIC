@@ -1,7 +1,7 @@
 #ABR - Abruzzo
 government = monarchy
 add_government_reform = unlocked_eue_county_reform
-government_rank = 6 #Duchy
+government_rank = 4 #County
 #technology_group = western
 technology_group = italian_tech_group
 unit_type = western

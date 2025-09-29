@@ -254,16 +254,14 @@ sunni_subject = {
         8 = SHAHZADE
     }
     trigger = {
+        religion = sunni
         OR = {
             is_muslim_subject_type = yes
             is_subject_of_type = islamic_nikkah_PU
             has_ToR_muslim_government_reform = yes
             has_ToR_unique_government_reform = yes
         }
-        NOT = {
-            religion = shiite
-            is_subject_of_type = islamic_governate
-        }
+        NOT = { is_subject_of_type = islamic_governate }
     }
 }
 shiite_subject = {
@@ -308,6 +306,56 @@ shiite_subject = {
         8 = SHAZADEH
     }
     trigger = {
+        religion = shiite
+        OR = {
+            is_muslim_subject_type = yes
+            has_ToR_muslim_government_reform = yes
+        }
+    }
+}
+ibadi_subject = {
+    rank = {
+        1 = IMAMATE
+        2 = GRAND_MUFTATE_VU
+        3 = SHEIKHDOM
+        4 = SHARIFATE
+        5 = EMIRATE
+        6 = SULTANATE
+        7 = TAIFATE_VU
+        8 = MALEKATE_VU
+    }
+    ruler_male = {
+        1 = IMAM
+        2 = GRAND_MUFTI_VU
+        3 = SHEIKH
+        4 = SHARIF
+        5 = EMIR
+        6 = SULTAN
+        7 = TAIF_VU
+        8 = MALIK
+    }
+    consort_female = {
+        1 = SAYIDA_CONSORT_fem
+        2 = SAYIDA_CONSORT_fem
+        3 = SAYIDA_CONSORT_fem
+        4 = SAYIDA_CONSORT_fem
+        5 = SAYIDA_CONSORT_fem
+        6 = SAYIDA_CONSORT_fem
+        7 = SAYIDA_CONSORT_fem
+        8 = SAYIDA_CONSORT_fem
+    }
+    heir_male = {
+        1 = EALAM
+        2 = RABA
+        3 = RABA
+        4 = RABA
+        5 = RABA
+        6 = SHAHZADE
+        7 = SHAHZADE
+        8 = SHAHZADE
+    }
+    trigger = {
+        religion = ibadi
         OR = {
             is_muslim_subject_type = yes
             has_ToR_muslim_government_reform = yes
@@ -829,6 +877,62 @@ church_of_baltics = {
         }
     }
 }
+church_of_denmark = {
+    rank = {
+        1 = DANISH_ABBACY
+        2 = DANISH_PRINCE_ABBACY
+        3 = DANISH_BISHOPRIC
+        4 = DANISH_PRINCE_BISHOPRIC
+        5 = DANISH_ARCHBISHOPRIC
+        6 = DANISH_PRINCE_ARCHBISHOPRIC
+        7 = DANISH_METROPOLITANATE
+    }
+    ruler_male = {
+        1 = DANISH_ABBOT
+        2 = DANISH_PRINCE_ABBOT
+        3 = DANISH_BISHOP
+        4 = DANISH_PRINCE_BISHOP
+        5 = DANISH_ARCHBISHOP
+        6 = DANISH_ARCHBISHOP
+        7 = DANISH_CARDINAL
+    }
+    ruler_female = {
+        1 = DANISH_ABBESS_fem
+        2 = DANISH_PRINCESS_ABBESS_fem
+        3 = DANISH_PRINCESS_ABBESS_fem
+        4 = DANISH_PRINCESS_ABBESS_fem
+        5 = DANISH_PRINCESS_ABBESS_fem
+        6 = DANISH_PRINCESS_ABBESS_fem
+        7 = DANISH_PRINCESS_ABBESS_fem
+    }
+    heir_male = {
+        1 = DANISH_FATHER
+        2 = DANISH_FATHER
+        3 = DANISH_FATHER
+        4 = DANISH_FATHER
+        5 = DANISH_BISHOP
+        6 = DANISH_ARCHBISHOP
+        7 = DANISH_ARCHBISHOP
+    }
+    heir_female = {
+        1 = DANISH_SISTER_fem
+        2 = DANISH_SISTER_fem
+        3 = DANISH_SISTER_fem
+        4 = DANISH_SISTER_fem
+        5 = DANISH_SISTER_fem
+        6 = DANISH_SISTER_fem
+        7 = DANISH_SISTER_fem
+    }
+    trigger = {
+        primary_culture = danish
+        OR = {
+            has_reform = church_of_denmark_abbacy_reform
+            has_reform = church_of_denmark_bishopric_reform
+            has_reform = church_of_denmark_archbishopric_reform
+            is_theocratic_subject_type = yes
+        }
+    }
+}
 church_of_england = {
     rank = {
         1 = EAB_ABBACY_1
@@ -1109,6 +1213,71 @@ church_of_italy = {
         }
     }
 }
+church_of_norway = {
+    rank = {
+        1 = NORWEGIAN_ABBACY
+        2 = NORWEGIAN_PRINCE_ABBACY
+        3 = NORWEGIAN_BISHOPRIC
+        4 = NORWEGIAN_PRINCE_BISHOPRIC
+        5 = NORWEGIAN_ARCHBISHOPRIC
+        6 = NORWEGIAN_PRINCE_ARCHBISHOPRIC
+        7 = NORWEGIAN_METROPOLITANATE
+    }
+    ruler_male = {
+        1 = NORWEGIAN_ABBOT
+        2 = NORWEGIAN_PRINCE_ABBOT
+        3 = NORWEGIAN_BISHOP
+        4 = NORWEGIAN_PRINCE_BISHOP
+        5 = NORWEGIAN_ARCHBISHOP
+        6 = NORWEGIAN_ARCHBISHOP
+        7 = NORWEGIAN_CARDINAL
+    }
+    ruler_female = {
+        1 = NORWEGIAN_ABBESS_fem
+        2 = NORWEGIAN_PRINCESS_ABBESS_fem
+        3 = NORWEGIAN_PRINCESS_ABBESS_fem
+        4 = NORWEGIAN_PRINCESS_ABBESS_fem
+        5 = NORWEGIAN_PRINCESS_ABBESS_fem
+        6 = NORWEGIAN_PRINCESS_ABBESS_fem
+        7 = NORWEGIAN_PRINCESS_ABBESS_fem
+    }
+    heir_male = {
+        1 = NORWEGIAN_FATHER
+        2 = NORWEGIAN_FATHER
+        3 = NORWEGIAN_FATHER
+        4 = NORWEGIAN_FATHER
+        5 = NORWEGIAN_BISHOP
+        6 = NORWEGIAN_ARCHBISHOP
+        7 = NORWEGIAN_ARCHBISHOP
+    }
+    heir_female = {
+        1 = NORWEGIAN_SISTER_fem
+        2 = NORWEGIAN_SISTER_fem
+        3 = NORWEGIAN_SISTER_fem
+        4 = NORWEGIAN_SISTER_fem
+        5 = NORWEGIAN_SISTER_fem
+        6 = NORWEGIAN_SISTER_fem
+        7 = NORWEGIAN_SISTER_fem
+    }
+    trigger = {
+        OR = {
+            primary_culture = norwegian
+            primary_culture = icelandic
+            primary_culture = faroese
+            primary_culture = gotlander
+            primary_culture = jan_mayenese
+            primary_culture = norse
+            primary_culture = greenlandic
+            primary_culture = vinlandic
+        }
+        OR = {
+            has_reform = church_of_norway_abbacy_reform
+            has_reform = church_of_norway_bishopric_reform
+            has_reform = church_of_norway_archbishopric_reform
+            is_theocratic_subject_type = yes
+        }
+    }
+}
 church_of_poland = {
     rank = {
         1 = POLAND_ABBACY
@@ -1280,6 +1449,63 @@ church_of_catalonia = {
             has_reform = church_of_spain_abbacy_reform
             has_reform = church_of_spain_bishopric_reform
             has_reform = church_of_spain_archbishopric_reform
+            is_theocratic_subject_type = yes
+        }
+    }
+}
+
+church_of_sweden = {
+    rank = {
+        1 = SWEDISH_ABBACY
+        2 = SWEDISH_PRINCE_ABBACY
+        3 = SWEDISH_BISHOPRIC
+        4 = SWEDISH_PRINCE_BISHOPRIC
+        5 = SWEDISH_ARCHBISHOPRIC
+        6 = SWEDISH_PRINCE_ARCHBISHOPRIC
+        7 = SWEDISH_METROPOLITANATE
+    }
+    ruler_male = {
+        1 = SWEDISH_ABBOT
+        2 = SWEDISH_PRINCE_ABBOT
+        3 = SWEDISH_BISHOP
+        4 = SWEDISH_PRINCE_BISHOP
+        5 = SWEDISH_ARCHBISHOP
+        6 = SWEDISH_ARCHBISHOP
+        7 = SWEDISH_CARDINAL
+    }
+    ruler_female = {
+        1 = SWEDISH_ABBESS_fem
+        2 = SWEDISH_PRINCESS_ABBESS_fem
+        3 = SWEDISH_PRINCESS_ABBESS_fem
+        4 = SWEDISH_PRINCESS_ABBESS_fem
+        5 = SWEDISH_PRINCESS_ABBESS_fem
+        6 = SWEDISH_PRINCESS_ABBESS_fem
+        7 = SWEDISH_PRINCESS_ABBESS_fem
+    }
+    heir_male = {
+        1 = SWEDISH_FATHER
+        2 = SWEDISH_FATHER
+        3 = SWEDISH_FATHER
+        4 = SWEDISH_FATHER
+        5 = SWEDISH_BISHOP
+        6 = SWEDISH_ARCHBISHOP
+        7 = SWEDISH_ARCHBISHOP
+    }
+    heir_female = {
+        1 = SWEDISH_SISTER_fem
+        2 = SWEDISH_SISTER_fem
+        3 = SWEDISH_SISTER_fem
+        4 = SWEDISH_SISTER_fem
+        5 = SWEDISH_SISTER_fem
+        6 = SWEDISH_SISTER_fem
+        7 = SWEDISH_SISTER_fem
+    }
+    trigger = {
+        primary_culture = swedish
+        OR = {
+            has_reform = church_of_sweden_abbacy_reform
+            has_reform = church_of_sweden_bishopric_reform
+            has_reform = church_of_sweden_archbishopric_reform
             is_theocratic_subject_type = yes
         }
     }
@@ -1642,10 +1868,10 @@ confucian_theocracy = {
 }
 ibadi_theocracy_imamate_reform = {
     rank = {
-        1 = IMAMATE
-        2 = HIGH_IMAMATE
-        3 = GREAT_IMAMATE
-        4 = GRAND_IMAMATE
+        1 = IMAMATE_THEOCRACY
+        2 = HIGH_IMAMATE_THEOCRACY
+        3 = GREAT_IMAMATE_THEOCRACY
+        4 = GRAND_IMAMATE_THEOCRACY
     }
     ruler_male = {
         1 = IMAM
@@ -1667,7 +1893,10 @@ ibadi_theocracy_imamate_reform = {
     }
     trigger = {
         religion = ibadi
-        has_reform = islamic_imamate_reform
+        OR = {
+            has_reform = islamic_imamate_reform
+            has_reform = unlocked_islamic_imamate_reform
+        }
     }
 }
 yemenite_theocracy = {

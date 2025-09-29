@@ -4206,6 +4206,29 @@ vu_ToR_set_theocracy_gov_reform = {
     }
     else_if = {
         limit = {
+            primary_culture = danish
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_denmark_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_denmark_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_denmark_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
             technology_group = english_tech_group
         }
         if = {
@@ -4344,6 +4367,29 @@ vu_ToR_set_theocracy_gov_reform = {
     }
     else_if = {
         limit = {
+            primary_culture = norwegian
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_norway_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_norway_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_norway_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
             technology_group = polish_tech_group
         }
         if = {
@@ -4386,6 +4432,29 @@ vu_ToR_set_theocracy_gov_reform = {
                 is_subject_of_type = christian_archbishopric
             }
             add_government_reform = church_of_portugal_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            primary_culture = swedish
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_sweden_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_sweden_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_sweden_archbishopric_reform
         }
     }
     else_if = {

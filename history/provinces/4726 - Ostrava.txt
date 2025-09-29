@@ -18,6 +18,9 @@ base_manpower = 1
 trade_goods = beer #Because ofc it does! SF
 hre = yes
 
+#Claimants
+add_core = Z3R
+
 #History by SF
 1444.1.1 = { #Moravia was integrated into the Crown of Bohemia in 1431
 	owner = BOH

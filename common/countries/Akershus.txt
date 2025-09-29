@@ -1,8 +1,8 @@
-#Akershus
+#AKE - Akershus
 
 graphical_culture = westerngfx
 
-color = { 0 86 148 }
+color = { 68 173 249 }
 revolutionary_colors = { 16 13 16 }
 
 historical_score = 25

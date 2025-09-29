@@ -1,7 +1,6 @@
 #4725 - Tábor
-#Region - Germany
-#Area - Bohemia
 
+#Default
 owner = BOH
 controller = BOH
 add_core = BOH
@@ -14,3 +13,6 @@ base_tax = 3
 base_production = 2 
 base_manpower = 2 
 is_city = yes
+
+#Claimants
+add_core = P3R

@@ -34,19 +34,19 @@ DRJ = "countries/Dobruja.txt"
 VBZ = "countries/Velbazhd.txt"
 
 #VU - Bohemia
-#B05 = "countries/Boskovicove.txt" #Boskovicové
+B05 = "countries/Boskovicove.txt" #Boskovicové
 EGR = "countries/Eger.txt"
-#L4N = "countries/Landstein.txt"
-#L1C = "countries/Lichtenburka.txt"
-#L08 = "countries/Lobkowicz.txt"
-#P3R = "countries/Pernstein.txt"
-#PR3 = "countries/Premyslids.txt"
-#R3U = "countries/Reuss.txt"
-#R05 = "countries/Rosenberg.txt"
-#ST3 = "countries/Sternberg.txt"
-#SV4 = "countries/Svamberka .txt" #Švamberka
-#V4L = "countries/Valdstejnove.txt" #Valdštejnové
-#Z3R = "countries/Zerotinove.txt" #Žerotínové
+L4N = "countries/Landstein.txt"
+L1C = "countries/Lichtenburka.txt"
+L08 = "countries/Lobkowicz.txt"
+P3R = "countries/Pernstein.txt"
+PR3 = "countries/Premyslids.txt"
+R3U = "countries/Reuss.txt"
+R05 = "countries/Rosenberg.txt"
+ST3 = "countries/Sternberg.txt"
+SV4 = "countries/Svamberka.txt" #Švamberka
+V4L = "countries/Valdstejnove.txt" #Valdštejnové
+Z3R = "countries/Zerotinove.txt" #Žerotínové
 
 #VU - Caucasus
 ABZ = "countries/Abazinia.txt"
@@ -233,7 +233,7 @@ HOS = "countries/Hohnstein.txt"
 JUL = "countries/Julich.txt"
 KMB = "countries/Kulmbach.txt"
 KMP = "countries/Princely_Abbey_of_Kempten.txt"
-K04 = "countries/Imperial_County_of_Konigsegg_Rothenfels.txt"
+K0A = "countries/Imperial_County_of_Konigsegg_Rothenfels.txt"
 KRH = "countries/Kirchberg.txt"
 KTZ = "countries/Katz.txt"
 KUZ = "countries/Kreuzburg.txt"

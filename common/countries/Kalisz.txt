@@ -1,8 +1,8 @@
-#Poland
+#KPL - Kalisz
 
 graphical_culture = westerngfx #easterngfx
 
-color = { 207  41  41 }
+color = { 249  193  83 }
 
 revolutionary_colors = { 5  0  5 }
 

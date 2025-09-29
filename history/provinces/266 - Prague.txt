@@ -19,6 +19,7 @@ cinema = yes #Because Hussites like fun, unlike Calvinists. - D
 
 #Claimants
 add_core = PGE
+add_core = PR3
 
 #Commerce
 center_of_trade = 4

@@ -1,4 +1,4 @@
-#Lithuania
+#LIT Lithuania
 
 graphical_culture = westerngfx #easterngfx
 
