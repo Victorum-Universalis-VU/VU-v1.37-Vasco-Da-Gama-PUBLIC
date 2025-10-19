@@ -14,5 +14,8 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 
+#Claimants
+add_core = R4S
+
 #History by SF
 1444.11.11 = { owner = HDR controller = HDR add_core = HDR } # Hadramut territorial lands - By San Felipe

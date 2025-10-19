@@ -320,7 +320,7 @@
  HALACH_UINIK: "Halach Uinik"
  K_UHUL_AJAW: "K'uhul Ajaw"
  KURAKA: "Kuraka"
- APU: "Apu"
+ APU: "Apulia" #This probably needs changing at some point, it's interfering with the loc for the Apulia tag - Prussia
  SAPA_INKA: "Sapa Inka"
  ARCHDUCHY: "Archduchy"
  ARCHDUKE: "Archduke"

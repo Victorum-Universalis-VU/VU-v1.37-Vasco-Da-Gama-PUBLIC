@@ -34,8 +34,26 @@ change_estate_land_share = {
         name = "Enrique I"
         dynasty = "de Ivrea"
 		birth_date = 1171.8.15
-		death_date = 1217.1.1 #Died at the age of 13 where upon his death, his siter Berengaria became regent to the heir apparent Ferdinand III.
         adm = 3
+        dip = 2
+        mil = 2
+    }
+}
+
+1406.12.25 = {
+    monarch = {
+        name = "Juan II"
+        dynasty = "de Trastámara"
+		birth_date = 1405.3.6
+        adm = 1
+        dip = 1
+        mil = 2
+    }
+    queen = {
+        name = "Maria"
+        dynasty = "de Trastámara" #First cousins
+        birth_date = 1403.2.24
+        adm = 2
         dip = 2
         mil = 2
     }

@@ -14,8 +14,7 @@ base_manpower = 2
 is_city = yes
 
 #Claimants
-
-add_core = KHI
+add_core = ABA
 
 1409.5.13 = { #Ulugh Beg is made Governor of Samarkand
 	owner = TRS

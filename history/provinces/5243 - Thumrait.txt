@@ -14,6 +14,9 @@ base_production = 4
 base_manpower = 2 
 is_city = yes
 
+#Claimants
+add_core = R4S
+
 #History by SF
 1215.6.15 = { 
 	owner = MHR 

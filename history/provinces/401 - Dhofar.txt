@@ -14,6 +14,9 @@ base_production = 6
 base_manpower = 4 
 is_city = yes
 
+#Claimants
+add_core = R4S
+
 #Commerce
 center_of_trade = 2
 

@@ -4,7 +4,7 @@
 owner = TIM
 controller = TIM
 add_core = TIM
-culture = khorasani
+culture = uzbehk
 religion = sunni
 capital = "Merv"
 trade_goods = cotton
@@ -19,6 +19,7 @@ fort_15th = yes
 
 #Claimants
 add_core = KHO
+add_core = BUK
 
 #Commerce
 center_of_trade = 2

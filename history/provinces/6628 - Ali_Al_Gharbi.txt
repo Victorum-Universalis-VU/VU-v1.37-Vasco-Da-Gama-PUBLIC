@@ -12,31 +12,10 @@ base_tax = 3
 base_production = 2
 base_manpower = 2
 is_city = yes
+
+#Claimants
 add_core = IRQ
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+add_core = M3D
 
 1440.1.1 = {
 	revolt = {

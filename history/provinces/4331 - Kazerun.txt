@@ -14,16 +14,8 @@ is_city = yes
 add_core = FRS
 add_core = TIM
 
-
-
-
-
-
-
-
-
-
-
+#Buildings
+add_building = fort_15th #Royal Citadel has existed here since 3rd Century
 
 1447.3.13 = {
 	owner = QOM

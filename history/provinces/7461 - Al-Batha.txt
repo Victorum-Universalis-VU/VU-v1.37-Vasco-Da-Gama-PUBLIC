@@ -13,6 +13,9 @@ native_size = 10
 native_ferocity = 9
 native_hostileness = 5
 
+#Claimants
+add_core = YAS
+
 #Province Modifiers
 add_permanent_province_modifier = {
     name = gulf_of_persia_estuary_modifier

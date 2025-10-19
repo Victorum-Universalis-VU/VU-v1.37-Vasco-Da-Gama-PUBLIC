@@ -15,7 +15,6 @@ is_city = yes
 
 #Claimants
 add_core = AFG
-add_core = DAG
 
 1449.2.1 = { #Conquered by Babur bin Baysunkur
 	owner = KHO

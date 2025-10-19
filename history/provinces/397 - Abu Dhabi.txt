@@ -18,6 +18,7 @@ is_city = yes
 add_core = ALH
 add_core = OMA
 add_core = SHR
+add_core = U4E
 
 #Commerce
 center_of_trade = 1

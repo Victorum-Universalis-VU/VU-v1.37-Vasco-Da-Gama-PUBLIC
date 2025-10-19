@@ -1151,6 +1151,8 @@ S3O = "countries/Seoul.txt"
 SA1 = "countries/Saigon.txt"
 PY0 = "countries/Pyongyang.txt"
 BG5 = "countries/Bangladesh.txt"
+DRR = "countries/Durrani.txt"
+AFS = "countries/Afsharids.txt"
 
 #Crusader States
 AC3 = "countries/Acre.txt"                      #Principality

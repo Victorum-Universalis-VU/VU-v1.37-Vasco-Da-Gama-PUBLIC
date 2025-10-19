@@ -1877,6 +1877,7 @@ country_decisions = {
 		potential = {
 			has_idea_group = exploration_ideas
 			has_idea_group = expansion_ideas
+			ai = no
 			NOT = {
 				has_country_modifier = colonial_venture_act_modifier
 			}
@@ -1899,11 +1900,15 @@ country_decisions = {
 				duration = -1
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	vu_abolish_the__colonial_venture_act = {
 		potential = {
 			has_country_modifier = colonial_venture_act_modifier
+			ai = no
 		}
 		allow = {
 			has_country_modifier = colonial_venture_act_modifier
@@ -1911,6 +1916,9 @@ country_decisions = {
 		effect = {
 			remove_country_modifier = colonial_venture_act_modifier
 			remove_country_modifier = colonial_buffs_1
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }

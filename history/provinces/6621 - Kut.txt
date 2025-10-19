@@ -14,29 +14,8 @@ base_manpower = 2
 is_city = yes
 add_core = IRQ
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Claimants
+add_core = AKD
 
 1440.1.1 = {
 	revolt = {

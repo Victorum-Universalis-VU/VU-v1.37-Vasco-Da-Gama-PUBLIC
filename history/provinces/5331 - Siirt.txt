@@ -1,8 +1,8 @@
 #4396 - Bitlis and Hakkari
 
-owner = HSN
-controller = HSN
-add_core = HSN
+owner = QAR
+controller = QAR
+add_core = QAR
 capital = "Siirt"			#Syriac version is Si'reth
 culture = assyrian		#last remaining areas where Eastern Aramaic communities were still strong and plantiful
 religion = nestorian

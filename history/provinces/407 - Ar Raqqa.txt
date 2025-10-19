@@ -4,7 +4,7 @@
 owner = AKK			#Was Fadl before but neither Fadl nor Mamlukan extended beyond Euphrates. Controlled by Aq-Quoyouvnyulglu instead.
 controller = AKK
 add_core = AKK
-culture = aramaic		#last pockets of strong aramaic communities
+culture = al_suryah_arabic		
 religion = sunni				#The city retained an active Christian community well into the Middle Ages
 capital = "Raqqah"			#Many versions in latin alphabet, just going with this one for fun, plus I have no idea what the differences are.
 trade_goods = saffron			#Al-Raqqah experienced a second blossoming, based on agriculture and industrial production, during the Zangid and Ayyubid period in the 12th and first half of the 13th century. Most famous is the blue-glazed so-called Raqqa ware.
@@ -16,6 +16,7 @@ is_city = yes
 
 #Claimants
 add_core = SYR
+add_core = UMY
 
 #History by SF
 1215.6.15 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe

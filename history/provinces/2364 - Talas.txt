@@ -13,17 +13,8 @@ base_production = 4
 base_manpower = 4
 is_city = yes
 
-
-
-
-
-
-
-
-
-
-
- 
+#Claimants
+add_core = S3L
 
 1462.1.1 = {
 	owner = KAS

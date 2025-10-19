@@ -4,7 +4,7 @@
 owner = TIM
 controller = TIM
 add_core = TIM
-culture = uzbehk
+culture = turkmeni
 religion = sunni
 capital = "Khiva"
 trade_goods = chinaware #Prussia

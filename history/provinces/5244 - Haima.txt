@@ -14,5 +14,8 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 
+#Claimants
+add_core = R4S
+
 #Buildings
 fort_15th = yes

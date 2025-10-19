@@ -12,31 +12,10 @@ base_tax = 2
 base_production = 4
 base_manpower = 3
 is_city = yes
+
+#Claimants
 add_core = IRQ
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+add_core = M3D
 
 1469.2.4 = {
 	owner = AKK

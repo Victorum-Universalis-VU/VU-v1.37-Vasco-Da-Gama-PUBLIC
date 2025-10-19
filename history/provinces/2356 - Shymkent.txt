@@ -1,8 +1,8 @@
 #2356 - Shymkent
 
-owner = TIM
-controller = TIM
-add_core = TIM
+owner = TRS
+controller = TRS
+add_core = TRS
 culture = uzbehk
 religion = sunni
 capital = "Shymkent"
@@ -14,4 +14,5 @@ base_manpower = 2
 is_city = yes
 
 #Claimants
-add_core = TRS
+add_core = TIM
+add_core = S3L

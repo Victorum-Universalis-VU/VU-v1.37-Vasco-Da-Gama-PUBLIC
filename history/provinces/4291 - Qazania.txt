@@ -16,6 +16,7 @@ is_city = yes
 
 #Claimants
 add_core = IRQ
+add_core = AKD
 
 #History by SF
 1440.1.1 = {

@@ -4,7 +4,7 @@ government_rank = 5
 primary_culture = gulf_arabic
 religion = sunni
 technology_group = muslim
-capital = 4285 #Abu Dhabi
+capital = 397 #Abu Dhabi
 
 #1441.11.01 = {
 #	monarch = {

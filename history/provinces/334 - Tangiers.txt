@@ -14,6 +14,9 @@ base_production = 7
 base_manpower = 4
 is_city = yes
 
+#Claimants
+add_core = ALM
+
 #Commerce
 center_of_trade = 2
 

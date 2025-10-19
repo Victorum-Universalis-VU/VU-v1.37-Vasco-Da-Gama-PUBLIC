@@ -15,7 +15,7 @@ base_manpower = 2
 is_city = yes
 
 #Claimants
-add_core = KHI
+add_core = ABA
 
 #Commerce
 center_of_trade = 1

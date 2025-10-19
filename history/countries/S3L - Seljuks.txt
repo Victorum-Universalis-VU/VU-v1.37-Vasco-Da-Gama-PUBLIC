@@ -2,7 +2,7 @@
 government = monarchy
 add_government_reform = islamic_sultanate_reform
 government_rank = 6
-primary_culture = persian
+primary_culture = uzbehk
 religion = sunni
 technology_group = persian_tech_group
 unit_type = muslim

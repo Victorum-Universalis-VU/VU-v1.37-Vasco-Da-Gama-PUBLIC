@@ -2,7 +2,7 @@
 
 owner = AFG
 controller = AFG
-culture = khalaj
+culture = afghani
 religion = sunni
 capital = "Qalat"
 trade_goods = cotton	#generic
@@ -11,21 +11,11 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = TIM
 add_core = AFG
 
-
-
-
-
-
-
-
-
-
-
-
-
+#Claimants
+add_core = TIM
+add_core = DRR
 
 1449.2.1 = { #Conquered by Babur bin Baysunkur
 	owner = KHO

@@ -2,7 +2,7 @@
 government = monarchy
 add_government_reform = unlocked_islamic_emirate_reform
 government_rank = 5 #Emirate
-primary_culture = al_suryah_arabic
+primary_culture = kurdish
 religion = sunni
 technology_group = muslim
 capital = 4295 #Hisn Kayfa

@@ -16,3 +16,4 @@ is_city = yes
 
 #Claimants
 add_core = OMA
+add_core = R4S

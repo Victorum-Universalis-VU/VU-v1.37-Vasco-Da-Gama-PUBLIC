@@ -4,7 +4,7 @@
 owner = MAM
 controller = MAM
 add_core = MAM
-culture = palastinian_arabic
+culture = hebrew
 religion = sunni
 capital = "Jerusalem"
 trade_goods = books
