@@ -10,6 +10,6 @@ capital = "Bartenstein"
 base_tax = 3 
 base_production = 3 
 base_manpower = 2 
-trade_goods = grain
+trade_goods = oats
 is_city = yes
 hre = no

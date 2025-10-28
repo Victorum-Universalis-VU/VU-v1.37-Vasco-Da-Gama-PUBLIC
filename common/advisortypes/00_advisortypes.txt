@@ -5446,6 +5446,11 @@ drunkard = {
                     beer = 1
                     vodka = 1
                     rum = 1
+                    rakija = 1
+                    brandy = 1
+                    whiskey = 1
+                    sake = 1
+                    rum = 1
                     cider = 1
                 }
             }
@@ -5467,6 +5472,10 @@ drunkard = {
             NOT = {
                 beer = 1
                 vodka = 1
+                rakija = 1
+                brandy = 1
+                whiskey = 1
+                sake = 1
                 rum = 1
                 cider = 2
             }
@@ -5476,6 +5485,10 @@ drunkard = {
             NOT = {
                 beer = 3
                 vodka = 3
+                rakija = 3
+                brandy = 3
+                whiskey = 3
+                sake = 3
                 rum = 3
                 cider = 4
             }
@@ -5485,6 +5498,10 @@ drunkard = {
             NOT = {
                 beer = 5
                 vodka = 5
+                rakija = 5
+                brandy = 5
+                whiskey = 5
+                sake = 5
                 rum = 5
                 cider = 6
             }

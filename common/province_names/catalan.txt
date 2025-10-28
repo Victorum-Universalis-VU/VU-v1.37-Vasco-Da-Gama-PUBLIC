@@ -50,7 +50,7 @@
 101 = "Gènova"
 102 = "Agradable"
 103 = "Torí"
-104 = "Milà "
+104 = "Milà"
 106 = "Mòdena"
 109 = "Màntua"
 111 = "Friúl"

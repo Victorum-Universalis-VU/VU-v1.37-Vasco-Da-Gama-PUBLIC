@@ -10,7 +10,7 @@ capital = "Rhaedestus"			#Or Rodoschuk under the Ottomans.
 base_tax = 2
 base_production = 3
 base_manpower = 2
-trade_goods = olive_oil			#Rich region, no real other logic here.
+trade_goods = rakija
 is_city = yes
 hre = no
 

@@ -584,7 +584,14 @@ goods_save = {
 		limit = { trade_goods = exotic_fur}
 		set_variable = { which = goods_num value = 76}
 	}
-	
+	else_if = {
+		limit = { trade_goods = oats}
+		set_variable = { which = goods_num value = 77}
+	}
+	else_if = {
+		limit = { trade_goods = vegetables}
+		set_variable = { which = goods_num value = 78}
+	}
 }
 
 goods_back = {
@@ -913,6 +920,14 @@ goods_back = {
 	else_if = {
 		limit = { is_variable_equal = { which = goods_num value = 76} }
 		change_trade_goods = exotic_fur	
+	}
+	else_if = {
+		limit = { is_variable_equal = { which = goods_num value = 77} }
+		change_trade_goods = oats
+	}
+	else_if = {
+		limit = { is_variable_equal = { which = goods_num value = 78} }
+		change_trade_goods = vegetables
 	}
 }
 

@@ -10596,3 +10596,75 @@ organic_soap = {
 		factor = 0
 	}
 }
+
+oats = {
+    #140
+    is_valuable = yes
+    color = {
+        0.250
+        0.163
+        0.61
+    }
+    modifier = {
+        manpower_in_own_culture_provinces = 0.15
+    }
+    province = {
+        local_garrison_size = 0.1
+        land_forcelimit = 3
+    }
+    chance = {
+        factor = 0
+    }
+}
+
+brandy = {
+    #141
+    color = {
+        0.194
+        0.119
+        0.31
+    }
+    modifier = {
+        promote_culture_cost = -0.15
+    }
+    province = {
+        local_unrest = -2
+        local_sailors_modifier = -0.1
+        local_manpower_modifier = -0.1
+        trade_value = 0.5
+    }
+    chance = {
+        #Added the chance for whiskey to be produced in places in North America known for their whiskey and bourbon -NK.
+        factor = 0
+        modifier = {
+            factor = 0
+            NOT = {
+                area = south_iroquoisia_area
+            }
+            NOT = {
+                area = california_area
+            }
+        }
+    }
+}
+
+rakija = {
+    #142
+    color = {
+        0.34
+        0.13
+        0.1
+    }
+    modifier = {
+        promote_culture_cost = -0.15
+    }
+    province = {
+        local_unrest = -2
+        local_sailors_modifier = -0.1
+        local_manpower_modifier = -0.1
+        trade_value = 0.5
+    }
+    chance = {
+        factor = 0
+    }
+}

@@ -8,9 +8,9 @@ culture = gascon
 religion = catholic
 capital = "Bazas"
 base_tax = 1
-base_production = 1
-base_manpower = 2
-trade_goods = fur
+base_production = 3
+base_manpower = 1
+trade_goods = livestock #Specific breed of hardy cattle and every year they have a "fat Oxen" festival - Prussia
 is_city = yes
 hre = no
 

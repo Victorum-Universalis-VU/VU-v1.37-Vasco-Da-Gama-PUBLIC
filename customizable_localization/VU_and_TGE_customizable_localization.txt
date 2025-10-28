@@ -1022,6 +1022,40 @@ defined_text = {
         }
     }
 }
+
+defined_text = {
+    name = GetOatsTGE
+
+    text = {
+        localisation_key = string_GOODS_Marcin_Oats
+        trigger = {
+            NOT = { has_global_flag = No_Oats }
+        }
+    }
+    text = {
+        localisation_key = string_GOODS_Marcin_Oats_NO
+        trigger = {
+            has_global_flag = No_Oats
+        }
+    }
+}
+
+defined_text = {
+    name = GetVegetablesTGE
+
+    text = {
+        localisation_key = string_GOODS_Marcin_Vegetables
+        trigger = {
+            NOT = { has_global_flag = No_Vegetables }
+        }
+    }
+    text = {
+        localisation_key = string_GOODS_Marcin_Vegetables_NO
+        trigger = {
+            has_global_flag = No_Vegetables
+        }
+    }
+}
         
 
 defined_text = {

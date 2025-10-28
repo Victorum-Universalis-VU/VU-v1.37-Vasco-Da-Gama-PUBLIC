@@ -99,6 +99,7 @@
 2988 = { "Taraghwna" "Tarrakunah" }
 2990 = { "Tirwil" "Tirwal" }
 3108 = { "Saytubal" "Saytubal" }
+3565 = { "Santiaghu dw Kasim" "Santiaghu dw Kasim" }
 4020 = "Qamari"
 4150 = { "Iifura" "Iifura" }
 4546 = { "Malaqah" "Malaqah" }
@@ -156,7 +157,7 @@
 8102 = { "al-Mutatarifin" "al-Mutatarifin" }
 8103 = { "Abrantis" "Abrantis" }
 8104 = { "Mura" "Mura" }
-8105 = { "Santiaghu dw Kasim" "Santiaghu dw Kasim" }
+8105 = { "Al-qasr" "Al-qasr" }
 8106 = { "Kasturu al-Khadra" "Kasturu al-Khadra" }
 8107 = { "Manaratan" "Manaratan" }
 8108 = { "Mahr" "Mahr" }

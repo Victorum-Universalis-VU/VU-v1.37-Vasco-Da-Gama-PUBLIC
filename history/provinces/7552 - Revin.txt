@@ -1,4 +1,4 @@
-#6237 - Revin
+#7552 - Revin
 
 #Default
 owner = SPY
@@ -12,7 +12,7 @@ hre = yes
 base_tax = 3
 base_production = 4
 base_manpower = 2
-trade_goods = cloth
+trade_goods = grain
 
 #Buildings
 fort_15th = yes

@@ -10,6 +10,6 @@ capital = "Ortelsburg"
 base_tax = 3 
 base_production = 3 
 base_manpower = 2 
-trade_goods = lumber
+trade_goods = herbs
 is_city = yes
 hre = no

@@ -1,12 +1,13 @@
 #3382 - Schwyz
 
+#Default
 owner = SW1
 controller = SW1
 add_core = SW1
 culture = swiss
 religion = catholic
 capital = "Schwyz"
-trade_goods = cheese
+trade_goods = lumber
 hre = yes
 base_tax = 3
 base_production = 3

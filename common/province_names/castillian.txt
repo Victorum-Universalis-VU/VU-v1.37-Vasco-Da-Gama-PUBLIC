@@ -12,7 +12,7 @@
 1177 = { "Cabo" "Ciudad del Cabo" }
 1306 = { "Santo Tomé" "Santo Tomé" }
 2025 = "Isla San Pedro"
-2258 = { Costa del Cabo Costa del Cabo }
+2258 = { "Costa del Cabo" "Costa del Cabo" }
 3047 = { "Ndar" "San Luis" }
 5261 = { "Puerto Said" "Puerto Said" }
 7379 = { "Ciudad Libre" "Ciudad Libre" }
@@ -224,6 +224,7 @@
 2753 = "Narbona"
 2976 = { "Perusa" "Perusa" }
 2986 = { "Cáller" "Cáller" }
+3565 = { "Santiago de Cacém" "Santiago de Cacém" }
 3749 = { "Setenil" "Setenil de las Bodegas" }
 3750 = { "Motril" "Motril" }
 3751 = { "Almuñécar" "Almuñécar" }
@@ -269,6 +270,7 @@
 8087 = { "Granada" "Granada" }
 8088 = { "Dénia" "Dénia" }
 8089 = { "Maestrazgo" "Maestrazgo" }
+8105 = { "Alcázar de Sal" "Alcázar de Sal" }
 8505 = { "San Lorenzo" "San Lorenzo de El Escorial" }
 
 #Caribbean

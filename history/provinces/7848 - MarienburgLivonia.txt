@@ -1,21 +1,18 @@
 #7848 - MarienburgLivonia
 
+#Default
 owner = LIV
 controller = LIV
 add_core = LIV
-add_core = LTG
 culture = latgalian #Was latvian but changed by San Felipe on advice of Morsmessor
 religion = catholic
 capital = "Aluksne"			#DE Marienburg
 base_tax = 1
 base_production = 1
 base_manpower = 2
-trade_goods = lumber
+trade_goods = fur
 is_city = yes
 hre = no
 
-
-
-
-
-
+#Claimants
+add_core = LTG

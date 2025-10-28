@@ -1,5 +1,6 @@
 #8099 - Guarda
 
+#Default
 owner = POR
 controller = POR
 add_core = POR
@@ -9,12 +10,6 @@ capital = "Guarda"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = horses
+trade_goods = wool
 is_city = yes
 hre = no
-
-
-
-
-
-

@@ -2471,9 +2471,11 @@ manufactories = {
 					trade_goods = potato
 					trade_goods = maize
 					trade_goods = tomato
+					trade_goods = vegetables
 					trade_goods = champagne_bottle
 					trade_goods = llama
 					trade_goods = millet
+					trade_goods = oats
 				}
 				manufactories_origin = {
 					same_continent = PREV
@@ -2675,9 +2677,11 @@ manufactories = {
 					trade_goods = potato
 					trade_goods = maize
 					trade_goods = tomato
+					trade_goods = vegetables
 					trade_goods = champagne_bottle
 					trade_goods = llama
 					trade_goods = millet
+					trade_goods = oats
 				}
 				manufactories_origin = {
 					NOT = {
@@ -3570,9 +3574,11 @@ industrialization = {
 					trade_goods = potato
 					trade_goods = maize
 					trade_goods = tomato
+					trade_goods = vegetables
 					trade_goods = champagne_bottle
 					trade_goods = llama
 					trade_goods = millet
+					trade_goods = oats
 				}
 			}
 			custom_trigger_tooltip = {
@@ -3775,9 +3781,11 @@ industrialization = {
 					trade_goods = potato
 					trade_goods = maize
 					trade_goods = tomato
+					trade_goods = vegetables
 					trade_goods = champagne_bottle
 					trade_goods = llama
 					trade_goods = millet
+					trade_goods = oats
 				}
 				industrialization_origin = {
 					NOT = {

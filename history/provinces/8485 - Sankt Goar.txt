@@ -1,9 +1,9 @@
-#Sankt Goar
+#8485 - Sankt Goar
 
+#Default
 owner = MAI
 controller = MAI
 add_core = MAI
-add_core = RAU
 capital = "Sankt Goar"
 is_city = yes
 culture = hessian
@@ -11,21 +11,17 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 1
-trade_goods = livestock
+trade_goods = grain
 base_manpower = 3
-add_local_autonomy = 10
 
-#Special Modifiers
+#Claimants
+add_core = RAU
 
+#Province Modifiers
 add_permanent_province_modifier = {
     name = rich_black_soil
     duration = -1
 }
 
-
-
-
-
-
-
-1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+#Special Modifiers
+add_local_autonomy = 10

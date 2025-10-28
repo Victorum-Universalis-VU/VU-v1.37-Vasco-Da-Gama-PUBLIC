@@ -10,7 +10,7 @@ capital = "Mende"
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = wine
+trade_goods = oats
 is_city = yes
 hre = no
 

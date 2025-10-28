@@ -10,7 +10,7 @@ capital = "Samar"			#Dates to circa mid 16th century so.... much better than mos
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = horses
+trade_goods = livestock
 is_city = yes
 hre = no
 

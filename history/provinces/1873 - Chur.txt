@@ -1,14 +1,13 @@
 #1873 - Bregenz
-#Region - Germany
-#Area - Switzerland
 
+#Default
 owner = TIR
 controller = TIR
 add_core = TIR
 culture = austrian
 religion = catholic
 capital = "Chur"
-trade_goods = livestock
+trade_goods = oats
 hre = yes
 base_tax = 6 
 base_production = 6

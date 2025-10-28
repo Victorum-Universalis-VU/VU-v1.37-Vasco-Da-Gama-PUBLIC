@@ -1,24 +1,22 @@
 #7865 - Padany
 
+#Default
 owner = NOV
 controller = NOV
 add_core = NOV
-add_core = KRL
 culture = karelian
 religion = orthodox
 capital = "Padany"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = fur
+trade_goods = tar
 is_city = yes
 hre = no
-add_local_autonomy = 65
 
 #Claimants
 add_core = ST4
+add_core = KRL
 
-
-
-
-
+#Special Modifier
+add_local_autonomy = 65

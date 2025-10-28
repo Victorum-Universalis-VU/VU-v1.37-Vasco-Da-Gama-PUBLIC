@@ -339,7 +339,9 @@ alcantara_order = {
 		religion_group = christian
 		OR = { 
 			primary_culture = leonese
+            primary_culture = asturian
 			accepted_culture = leonese
+            accepted_culture = asturian
 		}
     }
     color = { 71 41 0 } 

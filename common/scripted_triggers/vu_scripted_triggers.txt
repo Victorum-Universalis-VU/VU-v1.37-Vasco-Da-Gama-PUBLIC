@@ -904,6 +904,7 @@ vu_don_economy_ai_forcelimit_in = {
 		trade_goods = horses
 		trade_goods = cheese
 		trade_goods = millet
+		trade_goods = oats
 		trade_goods = sweet_confectioneries
 		trade_goods = vegetables
 	}

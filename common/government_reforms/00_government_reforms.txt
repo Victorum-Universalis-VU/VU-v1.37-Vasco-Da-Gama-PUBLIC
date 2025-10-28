@@ -3115,6 +3115,7 @@ feudal_tribe_legacy = {
 #		NOT = { primary_culture = galician }
 #		NOT = { primary_culture = katsila }
 #		NOT = { primary_culture = leonese }
+#		NOT = { primary_culture = asturian }
 #		NOT = { primary_culture = mexican }
 #		NOT = { primary_culture = portugese }
 #	}

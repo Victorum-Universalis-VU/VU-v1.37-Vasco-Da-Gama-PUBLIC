@@ -353,6 +353,7 @@ spanish_parliamentary_monarchy = {
 			primary_culture = galician_celtic
 			primary_culture = katsila 
 			primary_culture = leonese 
+			primary_culture = asturian
 			primary_culture = mexican
 			has_reform = spanish_parliamentary_monarchy
 		}
@@ -363,7 +364,8 @@ spanish_parliamentary_monarchy = {
 			primary_culture = castillian 
 			primary_culture = galician_celtic 
 			primary_culture = katsila 
-			primary_culture = leonese 
+			primary_culture = leonese
+			primary_culture = asturian 
 			primary_culture = mexican
 			has_reform = spanish_parliamentary_monarchy
 		}

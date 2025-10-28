@@ -1,5 +1,6 @@
 #7946 - Epinal
 
+#Default
 owner = LOR
 controller = LOR
 add_core = LOR
@@ -9,12 +10,6 @@ capital = "Épinal"
 base_tax = 4
 base_production = 4
 base_manpower = 2
-trade_goods = lumber
+trade_goods = naval_supplies
 is_city = yes
 hre = yes
-
-
-
-
-
-

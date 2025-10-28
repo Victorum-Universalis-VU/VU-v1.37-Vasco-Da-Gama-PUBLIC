@@ -19,7 +19,7 @@
 24 = "Hörðaland" 
 26 = "Helsingjaland"  #Halland
 27 = "Turku"  #Abo
-28 = { "Nýrland"  "Borgár" }
+28 = { "Nýrland" "Borgár" }
 29 = "Häme"  #Tavastland
 35 = "Asni"  #Osel
 37 = "Lífland"  #Livland

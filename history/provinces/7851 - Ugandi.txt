@@ -1,5 +1,6 @@
 #7851 - Ugandi
 
+#Default
 owner = DRP
 controller = DRP
 add_core = DRP
@@ -9,7 +10,7 @@ capital = "Vastseliina"			#DE Neuhausen
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = naval_supplies
+trade_goods = salt
 is_city = yes
 hre = no
 

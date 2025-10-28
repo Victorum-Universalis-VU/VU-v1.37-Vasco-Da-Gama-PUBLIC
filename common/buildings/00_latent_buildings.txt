@@ -2005,24 +2005,23 @@ chocolate_factory = {
 	}
 }
 
-bakery = {
+bakery = { #
 	cost = 1150
 	time = 12
 	build_trigger = {
-		ROOT = {
-			NOT = {
-				has_province_flag = has_latent_good
-			}
+		NOT = {
+			has_province_flag = has_latent_good
+			has_global_flag = No_Sweet_Confectioneries
+		}
+		OR = {
+			trade_goods = grain
+			trade_goods = rice
+			trade_goods = millet
+			trade_goods = oats
+			trade_goods = maize
 		}
 		FROM = {
 			has_institution = new_world_i
-			check_variable = {
-				which = grain
-				value = 0.6
-			}
-		}
-		NOT = {
-			has_global_flag = No_Sweet_Confectioneries
 		}
 	}
 	on_built = {

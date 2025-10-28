@@ -1,21 +1,18 @@
 #7849 - Wolmar
 
+#Default
 owner = LIV
 controller = LIV
 add_core = LIV
-add_core = LTG
 culture = latgalian #Was latvian but changed by San Felipe on advice of Morsmessor
 religion = catholic
 capital = "Valmiera"			#DE Wolmar
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = naval_supplies
+trade_goods = herbs
 is_city = yes
 hre = no
 
-
-
-
-
-
+#Claimants
+add_core = LTG

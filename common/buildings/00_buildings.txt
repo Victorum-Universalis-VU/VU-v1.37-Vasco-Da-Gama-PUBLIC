@@ -3795,10 +3795,14 @@ farm_estate = {
 		champagne_bottle
 		llama
 		millet
-		vegetables		#Makes sense to have vegetables in a farm doesn't it ?
+		vegetables
 		vodka
+		rakija
+		brandy
 		whiskey
+		sake
 		organic_soap
+		oats
 	}
 	modifier = {
 		trade_goods_size = 1		#VU Addon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.
@@ -3869,10 +3873,13 @@ farm_estate = {
 			trade_goods = potato
 			trade_goods = rice
 			trade_goods = tomato
-			trade_goods = vegetables			#Makes sense to have vegetables in a farm doesn't it ?
+			trade_goods = vegetables
 			trade_goods = vodka
-			trade_goods = wine
+			trade_goods = rakija
+			trade_goods = brandy
 			trade_goods = whiskey
+			trade_goods = sake
+			trade_goods = wine
 			trade_goods = organic_soap
 		}
 	}
@@ -4104,8 +4111,12 @@ soldier_households = {
 		champagne_bottle
 		millet
 		vodka
+		rakija
+		brandy
 		whiskey
+		sake
 		organic_soap
+		oats
 	}
 	modifier = {
 		local_manpower = 0.5

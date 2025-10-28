@@ -1,19 +1,20 @@
 #3283 - Usolsk
-#Region - Russia
-#Area - Pomorye
 
+#Default
 owner = NOV 
-controller = NOV 
+controller = NOV
+add_core = NOV
 culture = novgorodian
 religion = orthodox
 hre = no
 base_tax = 2
 base_production = 1 
-trade_goods = fur			#fur generally more important this far north
+trade_goods = lumber
 base_manpower = 1 
 capital = "Vaga"			#Old name of Shenkursk
 is_city = yes
-add_core = NOV
+
+#Special Modifier
 add_local_autonomy = 25
 
 

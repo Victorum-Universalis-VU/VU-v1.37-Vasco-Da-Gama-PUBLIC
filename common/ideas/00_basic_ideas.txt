@@ -3429,7 +3429,7 @@ conscription_ideas = {
 mercenary_ideas = {
 	category = MIL
 	bonus = {
-		mercenary_discipline = 0.2
+		mercenary_discipline = 0.10 #Was 0.2 but changed to 0.1 - SF
 	}
 	trigger = {
 		NOT = {

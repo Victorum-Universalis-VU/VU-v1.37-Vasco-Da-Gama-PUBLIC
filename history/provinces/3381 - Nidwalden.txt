@@ -1,12 +1,13 @@
 #3381 - Nidwalden
 
+#Default
 owner = N1D
 controller = N1D
 add_core = N1D
 culture = swiss
 religion = catholic
 capital = "Nidwalden"
-trade_goods = lumber
+trade_goods = apiculture
 hre = yes
 base_tax = 1
 base_production = 1

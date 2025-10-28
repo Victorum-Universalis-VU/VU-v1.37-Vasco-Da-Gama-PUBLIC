@@ -1387,6 +1387,7 @@ call_peerage_into_wars = {
 		FROM = {
 			is_subject_of = ROOT
 			is_ToR_subject_type = yes
+			NOT = { is_crown_subject_type = yes }
 		}
 	}
 	is_allowed = {

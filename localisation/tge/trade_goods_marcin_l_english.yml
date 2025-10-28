@@ -114,7 +114,9 @@
  jade_sculptures: "Jade Sculptures"
  jade_sculpturesDESC: "Jade Sculptures is the art of creating three-dimensional forms from Jade. Sculpture is among the oldest of the arts. Even before painting cave walls, early humans fashioned shapes from stone. From these beginnings, artifacts have evolved to their current complexity."
  millet: "Millet"
- milletDESC: "Millet are a highly varied group of small-seeded grasses, widely grown around the world as cereal crops or grains for fodder and human food. Most species generally referred to as millets belong to the tribe Paniceae, but some millets also belong to various other taxa."
+ milletDESC: "Millet are a highly varied group of small-seeded grasses, widely grown around the world as cereal crops or grains for fodder and human food. Most species generally referred to as millet belong to the tribe Paniceae, but some millet also belong to various other taxa."
+ oats: "Oats"
+ oatsDESC: "Oats are a highly varied group of small grains, widely grown around europe as a means of feeding livestock and the unfortunate peasant, later associated with the Quakers and their puritan ways."
  exotic_fur: "Exotic Fur"
  exotic_furDESC: "As early as the 11 th century, fur was worn as a symbol of wealth and social status rather than just out of the need for warmth. European royalty regularly wore fur coats, fur capes and fur accessories"
  String_Instruments: "String Instruments"
@@ -250,6 +252,10 @@
  string_GOODS_Marcin_Canned_Goods_NO: "§RNo Canned Goods§!"
  string_GOODS_GOODS_Marcin_Sweet_Confectioneries: "§GSweet Confectionaries§!"
  string_GOODS_GOODS_Marcin_Sweet_Confectioneries_NO: "§RNo Sweet Confectionaries§!"
+ string_GOODS_Marcin_Oats: "§GOats§!"
+ string_GOODS_Marcin_Oats_NO: "§ROats§!"
+ string_GOODS_Marcin_Vegetables: "§GVegetables§!"
+ string_GOODS_Marcin_Vegetables_NO: "§RVegetables§!"
  
  mod_options_title: "Trade Goods Expanded Setup"
  mod_options_desc: "Trade Goods Configuration Setup"
@@ -263,7 +269,7 @@
  marcin_events.2.a: "§GYES§!"
  marcin_events.2.b: "§RNO§!"
  
- GOODS_Marcin_YES: "§GYES§!|§RNO§!\n[Root.GetBeerTGE] [Root.GetApicultureTGE] [Root.GetWhalingTGE] [Root.GetLumberTGE] [Root.GetPalm_oilTGE] [Root.GetSaffronTGE] [Root.GetRiceTGE] [Root.GetOpiumTGE] [Root.GetRumTGE] [Root.GetHorsesTGE] [Root.GetOlive_oilTGE] [Root.GetAmberTGE] [Root.GetMarbleTGE] [Root.GetLeadTGE] [Root.GetClovesTGE] [Root.GetMercuryTGE] [Root.GetCamelTGE] [Root.GetGunpowderTGE] [Root.GetElephantsTGE] [Root.GetTinTGE] [Root.GetDatesTGE] [Root.GetCheeseTGE] [Root.GetCitrusTGE] [Root.GetSeafoodTGE] [Root.GetCarpetTGE] [Root.GetNutmegTGE] [Root.GetMaizeTGE] [Root.GetPearlsTGE] [Root.GetMetalworkingTGE] [Root.GetExotic_animalsTGE] [Root.GetVanillaTGE] [Root.GetMunitionsTGE] [Root.GetWoodworkingTGE] [Root.GetEbonyTGE] [Root.GetTarTGE] [Root.GetSulfurTGE] [Root.GetLeatherTGE] [Root.GetJewelleryTGE] [Root.GetMaple_syrupTGE] [Root.GetPotatoTGE] [Root.GetSteam_engineTGE] [Root.GetZincTGE] [Root.GetOpticsTGE] [Root.GetCannonTGE] [Root.GetTomatoTGE] [Root.GetChampagneTGE] [Root.GetLlamaTGE] [Root.GetIndigoTGE] [Root.GetSea_turtleTGE] [Root.GetUniformsTGE] [Root.GetMarble_sculptureTGE] [Root.GetCigarsTGE] [Root.GetChocolateTGE] [Root.GetCinnamonTGE] [Root.GetJadeTGE] [Root.GetMilletTGE] [Root.GetExotic_furTGE] [Root.GetString_instrumentsTGE]"
+ GOODS_Marcin_YES: "§GYES§!|§RNO§!\n[Root.GetBeerTGE] [Root.GetApicultureTGE] [Root.GetWhalingTGE] [Root.GetLumberTGE] [Root.GetPalm_oilTGE] [Root.GetSaffronTGE] [Root.GetRiceTGE] [Root.GetOpiumTGE] [Root.GetRumTGE] [Root.GetHorsesTGE] [Root.GetOlive_oilTGE] [Root.GetAmberTGE] [Root.GetMarbleTGE] [Root.GetLeadTGE] [Root.GetClovesTGE] [Root.GetMercuryTGE] [Root.GetCamelTGE] [Root.GetGunpowderTGE] [Root.GetElephantsTGE] [Root.GetTinTGE] [Root.GetDatesTGE] [Root.GetCheeseTGE] [Root.GetCitrusTGE] [Root.GetSeafoodTGE] [Root.GetCarpetTGE] [Root.GetNutmegTGE] [Root.GetMaizeTGE] [Root.GetPearlsTGE] [Root.GetMetalworkingTGE] [Root.GetExotic_animalsTGE] [Root.GetVanillaTGE] [Root.GetMunitionsTGE] [Root.GetWoodworkingTGE] [Root.GetEbonyTGE] [Root.GetTarTGE] [Root.GetSulfurTGE] [Root.GetLeatherTGE] [Root.GetJewelleryTGE] [Root.GetMaple_syrupTGE] [Root.GetPotatoTGE] [Root.GetSteam_engineTGE] [Root.GetZincTGE] [Root.GetOpticsTGE] [Root.GetCannonTGE] [Root.GetTomatoTGE] [Root.GetChampagneTGE] [Root.GetLlamaTGE] [Root.GetIndigoTGE] [Root.GetSea_turtleTGE] [Root.GetUniformsTGE] [Root.GetMarble_sculptureTGE] [Root.GetCigarsTGE] [Root.GetChocolateTGE] [Root.GetCinnamonTGE] [Root.GetJadeTGE] [Root.GetMilletTGE] [Root.GetExotic_furTGE] [Root.GetString_instrumentsTGE] [Root.GetOatsTGE] [Root.GetVegetablesTGE]"
  marcin_events.1.finish: "Finish Setup" 
  marcin_events.close: "£event_button_red£"
  marcin_events.back: "£event_button_color_red_back£"
@@ -342,6 +348,8 @@
  marcin_events.65.t: "Sweet Confectionaries"
  marcin_events.66.t: "Canned Goods"
  marcin_events.67.t: "Cider"
+ marcin_events.68.t: "Oats"
+ marcin_events.69.t: "Vegetables"
  
  marcin_events.1.a: "Beer = §GYES§!"
  marcin_events.1.b: "Beer = §RNO§!"
@@ -475,6 +483,10 @@
  marcin_events.1.b.64: "Brass = §RNO§!"
  marcin_events.1.a.67: "Cider = §GYES§!"
  marcin_events.1.b.67: "Cider = §RNO§!"
+ marcin_events.1.a.68: "Oats = §GYES§!"
+ marcin_events.1.b.68: "Oats = §RNO§!"
+ marcin_events.1.a.69: "Vegetables = §GYES§!"
+ marcin_events.1.b.69: "Vegetables = §RNO§!"
  
 
  Black_marble: "Black Marble"

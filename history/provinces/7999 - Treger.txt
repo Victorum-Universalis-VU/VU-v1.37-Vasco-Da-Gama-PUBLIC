@@ -1,5 +1,6 @@
 #7999 - Treger
 
+#Default
 owner = BRI
 controller = BRI
 add_core = BRI
@@ -9,12 +10,6 @@ capital = "Morlaix"
 base_tax = 4
 base_production = 4
 base_manpower = 2
-trade_goods = cloth
+trade_goods = fruit
 is_city = yes
 hre = no
-
-
-
-
-
-

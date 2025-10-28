@@ -15843,6 +15843,7 @@ country_decisions = {
 			}
 			restore_country_name = yes
 			change_tag = ROM
+			change_technology_group = roman_tech_group
 			on_change_tag_effect = yes
 			custom_tooltip = roman_culture_provinces_tooltip
 			hidden_effect = {

@@ -14,11 +14,14 @@ base_production = 6			#From 1348 until its surrender to the Ottoman Turks on 31 
 base_manpower = 4 
 is_city = yes
 
-#Claimants
-add_core = MOE
-
 #Buildings
 fort_15th = yes #Castles of the Morea, Monemvasia, etc.
+
+#Commerce
+center_of_trade = 1
+
+#Claimants
+add_core = MOE
 
 #History by SF
 1444.11.11 = { owner = BYZ controller = BYZ add_core = BYZ } # # Byzantine territorial lands - By San Felipe

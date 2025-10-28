@@ -1,18 +1,23 @@
 #7866 - SumaKarelia
 
+#Default
 owner = NOV
 controller = NOV
 add_core = NOV
-add_core = KRL
 culture = karelian
 religion = orthodox
 capital = "Soroka"			#Belomorsk
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = fur
+trade_goods = tar
 is_city = yes
 hre = no
+
+#Claimants
+add_core = KRL
+
+#Special Modifier
 add_local_autonomy = 65
 
 

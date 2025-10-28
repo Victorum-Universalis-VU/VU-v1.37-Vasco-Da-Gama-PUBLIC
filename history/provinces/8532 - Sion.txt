@@ -1,11 +1,13 @@
 #8532 - Sion
+
+#Default
 owner = ZDN
 controller = ZDN
 add_core = ZDN
 culture = swiss
 religion = catholic
 capital = "Sion"
-trade_goods = cheese
+trade_goods = oats
 hre = yes
 base_tax = 2
 base_production = 3

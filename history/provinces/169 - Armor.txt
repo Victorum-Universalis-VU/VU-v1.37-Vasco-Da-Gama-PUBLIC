@@ -11,5 +11,5 @@ religion = catholic
 hre = no
 base_tax = 4
 base_production = 4 
-trade_goods = tin		#Tin mines in Brittany were major source of tin for Europe since Roman Empire. Precious tin was far more important than seafood.
+trade_goods = horses
 base_manpower = 2 

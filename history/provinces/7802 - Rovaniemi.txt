@@ -23,7 +23,7 @@ add_core = FIN
 	controller = SWE
 	add_core = SWE
 	is_city = yes
-	trade_goods = fur
+	trade_goods = naval_supplies
 	#Special Modifiers
 	add_local_autonomy = 55 #This stacks with culture and religious starting autonomy, it seems. Reducing from 90.
 } # Swedish territorial lands - By San Felipe

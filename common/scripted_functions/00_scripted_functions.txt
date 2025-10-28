@@ -576,26 +576,30 @@ can_colonize_province = {
 			NOT = {
 				OR = {
 					#Spanish Cultures
+					#AndalucianFROM = { primary_culture = aragonese } #Aragonese
 					FROM = {
 						primary_culture = andalucian
 					}
-					#AndalucianFROM = { primary_culture = aragonese } #Aragonese
+					#Castillian
 					FROM = {
 						primary_culture = castillian
 					}
-					#Castillian
+					#Catalan
 					FROM = {
 						primary_culture = catalan
 					}
-					#Catalan
+					#Celtic Galician
 					FROM = {
 						primary_culture = galician_celtic
 					}
-					#Celtic Galician
+					#Leonese
 					FROM = {
 						primary_culture = leonese
 					}
-					#Leonese
+					#Asturian
+					FROM = {
+						primary_culture = asturian
+					}
 				}
 			}
 			FROM = {
@@ -1861,30 +1865,34 @@ can_colonize_province = {
 					}
 					#Dixie
 					#Spanish Cultures
+					#Andalucian
 					FROM = {
 						primary_culture = andalucian
 					}
-					#Andalucian
+					#Aragonese
 					FROM = {
 						primary_culture = aragonese
 					}
-					#Aragonese
+					#Castillian
 					FROM = {
 						primary_culture = castillian
 					}
-					#Castillian
+					#Catalan
 					FROM = {
 						primary_culture = catalan
 					}
-					#Catalan
+					#Celtic Galician
 					FROM = {
 						primary_culture = galician_celtic
 					}
-					#Celtic Galician
+					#Leonese
 					FROM = {
 						primary_culture = leonese
 					}
-					#Leonese
+					#Asturian
+					FROM = {
+						primary_culture = asturian
+					}
 				}
 			}
 			FROM = {
@@ -2503,49 +2511,55 @@ can_colonize_province = {
 			NOT = {
 				OR = {
 					#British Cultures
+					#English
 					FROM = {
 						primary_culture = english
 					}
-					#English
+					#Northumbrian
 					FROM = {
 						primary_culture = northumbrian
 					}
-					#Northumbrian
+					#Scottish
 					FROM = {
 						primary_culture = scottish
 					}
-					#Scottish
+					#Lowland Scottish
 					FROM = {
 						primary_culture = celtic_lowland_scottish
 					}
+					#Highland Scottish
 					FROM = {
 						primary_culture = celtic_highland_scottish_culture
 					}
 					#Spanish Cultures
+					#Andalucian
 					FROM = {
 						primary_culture = andalucian
 					}
-					#Andalucian
+					#Aragonese
 					FROM = {
 						primary_culture = aragonese
 					}
-					#Aragonese
+					#Castillian
 					FROM = {
 						primary_culture = castillian
 					}
-					#Castillian
+					#Catalan
 					FROM = {
 						primary_culture = catalan
 					}
-					#Catalan
+					#Celtic Galician
 					FROM = {
 						primary_culture = galician_celtic
 					}
-					#Celtic Galician
+					#Leonese
 					FROM = {
 						primary_culture = leonese
 					}
-					#Leonese
+					#Asturian
+					FROM = {
+						primary_culture = asturian
+					}
 				}
 			}
 			FROM = {
@@ -2603,84 +2617,88 @@ can_colonize_province = {
 			NOT = {
 				OR = {
 					#French Cultures
+					#Angevin
 					FROM = {
 						primary_culture = angevin_culture
 					}
-					#Angevin
+					#Provençal
 					FROM = {
 						primary_culture = aquitaine
 					}
-					#Provençal
+					#Arpitan
 					FROM = {
 						primary_culture = arpitan
 					}
-					#Arpitan
+					#Auvergnat
 					FROM = {
 						primary_culture = auvergnat_culture
 					}
-					#Auvergnat
+					#Celtic Breton
 					FROM = {
 						primary_culture = celtic_breton_culture
 					}
-					#Celtic Breton
+					#Burgundian
 					FROM = {
 						primary_culture = burgundian
 					}
-					#Burgundian
+					#Francien
 					FROM = {
 						primary_culture = cosmopolitan_french
 					}
-					#Francien
 					#FROM = { primary_culture = gallo_culture } #Gallo #Hashed out by Prussia because Gallo culture had died out in France by 1444 and it has no tags for it. - SF
+					#Gascon
 					FROM = {
 						primary_culture = gascon
 					}
-					#Gascon
+					#Lorraine
 					FROM = {
 						primary_culture = lorraine_culture
 					}
-					#Lorraine
+					#Norman
 					FROM = {
 						primary_culture = normand
 					}
-					#Norman
+					#Occitain
 					FROM = {
 						primary_culture = occitain
 					}
-					#Occitain
+					#Picard
 					FROM = {
 						primary_culture = picard_culture
 					}
-					#Picard
+					#Poitevin
 					FROM = {
 						primary_culture = poitevin_culture
 					}
-					#Poitevin
 					#Spanish Cultures
+					#Andalucian
 					FROM = {
 						primary_culture = andalucian
 					}
-					#Andalucian
+					#Aragonese
 					FROM = {
 						primary_culture = aragonese
 					}
-					#Aragonese
+					#Castillian
 					FROM = {
 						primary_culture = castillian
 					}
-					#Castillian
+					#Catalan
 					FROM = {
 						primary_culture = catalan
 					}
-					#Catalan
+					#Celtic Galician
 					FROM = {
 						primary_culture = galician_celtic
 					}
-					#Celtic Galician
+					#Leonese
 					FROM = {
 						primary_culture = leonese
 					}
-					#Leonese
+					#Asturian
+					FROM = {
+						primary_culture = asturian
+					}
 				}
 			}
 			FROM = {
@@ -3038,128 +3056,128 @@ can_colonize_province = {
 			NOT = {
 				OR = {
 					#Chinese Cultures
+					#Cantonese
 					FROM = {
 						primary_culture = cantonese
 					}
-					#Cantonese
+					#Zhili
 					FROM = {
 						primary_culture = chihan
 					}
-					#Zhili
+					#Min
 					FROM = {
 						primary_culture = chimin
 					}
-					#Min
+					#Gan
 					FROM = {
 						primary_culture = gan
 					}
-					#Gan
+					#Hakka
 					FROM = {
 						primary_culture = hakka
 					}
-					#Hakka
+					#Hubei
 					FROM = {
 						primary_culture = hubei
 					}
-					#Hubei
+					#Jianghuai
 					FROM = {
 						primary_culture = jianghuai
 					}
-					#Jianghuai
+					#Jin
 					FROM = {
 						primary_culture = jin
 					}
-					#Jin
+					#Shandong
 					FROM = {
 						primary_culture = shandong_culture
 					}
-					#Shandong
+					#Sichuanese
 					FROM = {
 						primary_culture = sichuanese
 					}
-					#Sichuanese
+					#Wu
 					FROM = {
 						primary_culture = wu
 					}
-					#Wu
+					#Xiang
 					FROM = {
 						primary_culture = xiang
 					}
-					#Xiang
+					#Xibei
 					FROM = {
 						primary_culture = xibei
 					}
-					#Xibei
+					#Zhongyuan
 					FROM = {
 						primary_culture = zhongyuan
 					}
-					#Zhongyuan
 					#Dutch Cultures
+					#Brabatian
 					FROM = {
 						primary_culture = brabantian
 					}
-					#Brabatian
+					#Hollander
 					FROM = {
 						primary_culture = dutch
 					}
-					#Hollander
+					#Nedersaksisch
 					FROM = {
 						primary_culture = dutch_saxon
 					}
-					#Nedersaksisch
+					#East Frisian
 					FROM = {
 						primary_culture = east_frisian
 					}
-					#East Frisian
-					FROM = {
-						primary_culture = frisian
-					}
 					#Frisian
 					FROM = {
 						primary_culture = frisian
-					}
-					#Frisian
-					FROM = {
-						primary_culture = guelders
 					}
 					#Guelderish
 					FROM = {
-						primary_culture = limburgish
+						primary_culture = guelders
 					}
 					#Limburgish
 					FROM = {
-						primary_culture = north_frisian
+						primary_culture = limburgish
 					}
 					#North Frisian
 					FROM = {
-						primary_culture = zeelandic
+						primary_culture = north_frisian
 					}
 					#Zeelander
+					FROM = {
+						primary_culture = zeelandic
+					}
 					#Spanish Cultures
+					#Andalucian
 					FROM = {
 						primary_culture = andalucian
 					}
-					#Andalucian
+					#Aragonese
 					FROM = {
 						primary_culture = aragonese
 					}
-					#Aragonese
+					#Castillian
 					FROM = {
 						primary_culture = castillian
 					}
-					#Castillian
+					#Catalan
 					FROM = {
 						primary_culture = catalan
 					}
-					#Catalan
+					#Celtic Galician
 					FROM = {
 						primary_culture = galician_celtic
 					}
-					#Celtic Galician
+					#Leonese
 					FROM = {
 						primary_culture = leonese
 					}
-					#Leonese
+					#Asturian
+					FROM = {
+						primary_culture = asturian
+					}
 				}
 			}
 			FROM = {

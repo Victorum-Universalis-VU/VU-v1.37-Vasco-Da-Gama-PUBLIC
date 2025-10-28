@@ -10,6 +10,6 @@ capital = "Aix"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = books			#Major university and center of learning. Niki also suggested wine, which is very big in the region, as well as fruit to represent olive oil
+trade_goods = horses
 is_city = yes
 hre = no

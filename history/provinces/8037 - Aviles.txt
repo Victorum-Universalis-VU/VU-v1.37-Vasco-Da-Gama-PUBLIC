@@ -4,7 +4,7 @@
 owner = ASU
 controller = ASU
 add_core = ASU
-culture = leonese
+culture = asturian
 religion = catholic
 capital = "Avilés"
 base_tax = 2
@@ -28,7 +28,7 @@ center_of_trade = 1
     add_core = LON
 }
 1350.1.1 = {
-    culture = castillian
+    #culture = castillian
     add_core = CAS
 }
 

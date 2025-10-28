@@ -136,6 +136,7 @@
 2656 = { "Camagüey" "Camagüey" }
 2658 = { "Azua" "Azua" }
 2659 = { "Gümüs Baglanti Noktasi" "Gümüs Baglanti Noktasi" }
+3565 = { "Santiaghu dw Kasim" "Santiaghu dw Kasim" }
 4618 = { "Artibonit" "Gonaifler" }
 4619 = { "Kuzey" "Haiti Pelerini" }
 4620 = { "Samana" "Aziz Barbara" }
@@ -218,7 +219,7 @@
 8102 = { "al-Mutatarifin" "al-Mutatarifin" }
 8103 = { "Abrantis" "Abrantis" }
 8104 = { "Mura" "Mura" }
-8105 = { "Santiaghu dw Kasim" "Santiaghu dw Kasim" }
+8105 = { "Kaleyi" "Kaleyi" }
 8106 = { "Kasturu al-Khadra" "Kasturu al-Khadra" }
 8107 = { "Manaratan" "Manaratan" }
 8108 = { "Mahr" "Mahr" }

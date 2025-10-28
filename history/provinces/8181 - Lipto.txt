@@ -11,7 +11,7 @@ religion = catholic
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = naval_supplies
+trade_goods = oats
 hre = no
 
 #Buildings

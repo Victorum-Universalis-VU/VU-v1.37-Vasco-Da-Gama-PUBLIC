@@ -15,7 +15,7 @@ religion = catholic
 hre = yes
 base_tax = 2
 base_production = 1
-trade_goods = zinc	# some zinc in Franche-Comte region, had to place it somewhere
+trade_goods = horses
 base_manpower = 1
 
 #History by SF

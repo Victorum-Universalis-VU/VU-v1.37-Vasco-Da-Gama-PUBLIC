@@ -260,6 +260,7 @@
 3259 = "Santa Cruz do Sul"
 3260 = "Santa Maria"
 3269 = "Teresina"
+3565 = { "Santiago do Cacém" "Santiago do Cacém" }
 4618 = { "Artibonite" "Gonaïves" }
 4619 = { "Norte" "Cabo Haitiano" }
 4620 = { "Samana" "Santa Bárbara" }
@@ -360,6 +361,6 @@
 8101 = { "Elvas" "Elvas" }
 8102 = { "Estremoz" "Estremoz" }
 8104 = { "Moura" "Moura" }
-8105 = { "Santiago do Cacém" "Santiago do Cacém" }
+8105 = { "Alcácer do Sal" "Alcácer do Sal" }
 8106 = { "Castro Verde" "Castro Verde" }
 8107 = { "Faro" "Faro" }

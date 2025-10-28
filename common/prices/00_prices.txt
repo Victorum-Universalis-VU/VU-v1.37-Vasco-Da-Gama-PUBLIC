@@ -73,6 +73,7 @@ camel =	{ base_price = 2  }
 elephants = { base_price = 5 }                  #VU - Changed from 3 to 5
 exotic_fur = { base_price = 4 }
 millet = { base_price = 2.5 }
+oats = { base_price = 2 }
 
 #Spices 
 vanilla = {	base_price = 8 }                    #VU - Changed from 3.5 to 4
@@ -100,7 +101,9 @@ lacquerware = { base_price = 4.5 }              #VU - Added by San Felipe
 canned_goods = { base_price = 9 }               #VU - Added by San Felipe
 brass = { base_price = 5 }                      #VU - Added by San Felipe
 books = { base_price = 4.0 }                    #VU - Added by San Felipe
-whiskey = { base_price = 4 }                    #VU - Added by San Felipe
+whiskey = { base_price = 5 }                    #VU - Added by San Felipe
+brandy = { base_price = 6 }                    #VU - Added by San Felipe
+rakija = { base_price = 4 }                    #VU - Added by San Felipe
 vodka = { base_price = 3 }                      #VU - Added by San Felipe
 fur_clothing = { base_price = 7 }
 

@@ -10,7 +10,7 @@ capital = "Città di Castello"
 base_tax = 5
 base_production = 5
 base_manpower = 4
-trade_goods = grain # advanced agriculture, and we need grain somewhere
+trade_goods = oats #Changed this from grain - DM
 is_city = yes
 hre = no
 

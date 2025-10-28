@@ -63314,6 +63314,10 @@ defined_text = {
 		trigger = { OR = { primary_culture = leonese culture = leonese } }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { OR = { primary_culture = asturian culture = asturian } }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { OR = { primary_culture = aragonese culture = aragonese } }
 	}
@@ -64910,6 +64914,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fs_FR
 		trigger = { OR = { primary_culture = leonese culture = leonese } }
+	}
+	text = {
+		localisation_key = string_asturian_fs_FR
+		trigger = { OR = { primary_culture = asturian culture = asturian } }
 	}
 	text = {
 		localisation_key = string_aragonese_fs_FR
@@ -66510,6 +66518,10 @@ defined_text = {
 		trigger = { OR = { primary_culture = leonese culture = leonese } }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { OR = { primary_culture = asturian culture = asturian } }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { OR = { primary_culture = aragonese culture = aragonese } }
 	}
@@ -68106,6 +68118,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fp_FR
 		trigger = { OR = { primary_culture = leonese culture = leonese } }
+	}
+	text = {
+		localisation_key = string_asturian_fp_FR
+		trigger = { OR = { primary_culture = asturian culture = asturian } }
 	}
 	text = {
 		localisation_key = string_aragonese_fp_FR
@@ -139588,6 +139604,10 @@ defined_text = {
 		trigger = { employed_advisor = { category = ADM culture = leonese } }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { employed_advisor = { category = ADM culture = asturian } }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { employed_advisor = { category = ADM culture = aragonese } }
 	}
@@ -141184,6 +141204,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fs_FR
 		trigger = { employed_advisor = { category = ADM culture = leonese } }
+	}
+	text = {
+		localisation_key = string_asturian_fs_FR
+		trigger = { employed_advisor = { category = ADM culture = asturian } }
 	}
 	text = {
 		localisation_key = string_aragonese_fs_FR
@@ -142784,6 +142808,10 @@ defined_text = {
 		trigger = { employed_advisor = { category = ADM culture = leonese } }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { employed_advisor = { category = ADM culture = asturian } }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { employed_advisor = { category = ADM culture = aragonese } }
 	}
@@ -144380,6 +144408,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fp_FR
 		trigger = { employed_advisor = { category = ADM culture = leonese } }
+	}
+	text = {
+		localisation_key = string_asturian_fp_FR
+		trigger = { employed_advisor = { category = ADM culture = asturian } }
 	}
 	text = {
 		localisation_key = string_aragonese_fp_FR
@@ -145985,6 +146017,10 @@ defined_text = {
 		trigger = { employed_advisor = { category = DIP culture = leonese } }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { employed_advisor = { category = DIP culture = asturian } }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { employed_advisor = { category = DIP culture = aragonese } }
 	}
@@ -147581,6 +147617,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fs_FR
 		trigger = { employed_advisor = { category = DIP culture = leonese } }
+	}
+	text = {
+		localisation_key = string_asturian_fs_FR
+		trigger = { employed_advisor = { category = DIP culture = asturian } }
 	}
 	text = {
 		localisation_key = string_aragonese_fs_FR
@@ -149181,6 +149221,10 @@ defined_text = {
 		trigger = { employed_advisor = { category = DIP culture = leonese } }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { employed_advisor = { category = DIP culture = asturian } }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { employed_advisor = { category = DIP culture = aragonese } }
 	}
@@ -150777,6 +150821,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fp_FR
 		trigger = { employed_advisor = { category = DIP culture = leonese } }
+	}
+	text = {
+		localisation_key = string_asturian_fp_FR
+		trigger = { employed_advisor = { category = DIP culture = asturian } }
 	}
 	text = {
 		localisation_key = string_aragonese_fp_FR
@@ -152382,6 +152430,10 @@ defined_text = {
 		trigger = { employed_advisor = { category = MIL culture = leonese } }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { employed_advisor = { category = MIL culture = asturian } }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { employed_advisor = { category = MIL culture = aragonese } }
 	}
@@ -153978,6 +154030,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fs_FR
 		trigger = { employed_advisor = { category = MIL culture = leonese } }
+	}
+	text = {
+		localisation_key = string_asturian_fs_FR
+		trigger = { employed_advisor = { category = MIL culture = asturian } }
 	}
 	text = {
 		localisation_key = string_aragonese_fs_FR
@@ -155578,6 +155634,10 @@ defined_text = {
 		trigger = { employed_advisor = { category = MIL culture = leonese } }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { employed_advisor = { category = MIL culture = asturian } }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { employed_advisor = { category = MIL culture = aragonese } }
 	}
@@ -157174,6 +157234,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fp_FR
 		trigger = { employed_advisor = { category = MIL culture = leonese } }
+	}
+	text = {
+		localisation_key = string_asturian_fp_FR
+		trigger = { employed_advisor = { category = MIL culture = asturian } }
 	}
 	text = {
 		localisation_key = string_aragonese_fp_FR
@@ -158779,6 +158843,10 @@ defined_text = {
 		trigger = { ruler_culture = leonese }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { ruler_culture = asturian }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { ruler_culture = aragonese }
 	}
@@ -160375,6 +160443,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fs_FR
 		trigger = { ruler_culture = leonese }
+	}
+	text = {
+		localisation_key = string_asturian_fs_FR
+		trigger = { ruler_culture = asturian }
 	}
 	text = {
 		localisation_key = string_aragonese_fs_FR
@@ -161975,6 +162047,10 @@ defined_text = {
 		trigger = { ruler_culture = leonese }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { ruler_culture = asturian }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { ruler_culture = aragonese }
 	}
@@ -163571,6 +163647,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fp_FR
 		trigger = { ruler_culture = leonese }
+	}
+	text = {
+		localisation_key = string_asturian_fp_FR
+		trigger = { ruler_culture = asturian }
 	}
 	text = {
 		localisation_key = string_aragonese_fp_FR
@@ -165176,6 +165256,10 @@ defined_text = {
 		trigger = { consort_culture = leonese }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { consort_culture = asturian }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { consort_culture = aragonese }
 	}
@@ -166772,6 +166856,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fs_FR
 		trigger = { consort_culture = leonese }
+	}
+	text = {
+		localisation_key = string_asturian_fs_FR
+		trigger = { consort_culture = asturian }
 	}
 	text = {
 		localisation_key = string_aragonese_fs_FR
@@ -168372,6 +168460,10 @@ defined_text = {
 		trigger = { consort_culture = leonese }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { consort_culture = asturian }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { consort_culture = aragonese }
 	}
@@ -169968,6 +170060,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fp_FR
 		trigger = { consort_culture = leonese }
+	}
+	text = {
+		localisation_key = string_asturian_fp_FR
+		trigger = { consort_culture = asturian }
 	}
 	text = {
 		localisation_key = string_aragonese_fp_FR
@@ -171573,6 +171669,10 @@ defined_text = {
 		trigger = { heir_culture = leonese }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { heir_culture = asturian }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { heir_culture = aragonese }
 	}
@@ -173169,6 +173269,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fs_FR
 		trigger = { heir_culture = leonese }
+	}
+	text = {
+		localisation_key = string_asturian_fs_FR
+		trigger = { heir_culture = asturian }
 	}
 	text = {
 		localisation_key = string_aragonese_fs_FR
@@ -174769,6 +174873,10 @@ defined_text = {
 		trigger = { heir_culture = leonese }
 	}
 	text = {
+		localisation_key = string_asturian_m_FR
+		trigger = { heir_culture = asturian }
+	}
+	text = {
 		localisation_key = string_aragonese_m_FR
 		trigger = { heir_culture = aragonese }
 	}
@@ -176365,6 +176473,10 @@ defined_text = {
 	text = {
 		localisation_key = string_leonese_fp_FR
 		trigger = { heir_culture = leonese }
+	}
+	text = {
+		localisation_key = string_asturian_fp_FR
+		trigger = { heir_culture = asturian }
 	}
 	text = {
 		localisation_key = string_aragonese_fp_FR

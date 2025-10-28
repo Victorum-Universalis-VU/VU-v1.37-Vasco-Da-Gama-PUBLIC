@@ -1,5 +1,6 @@
 #7854 - Hasenpoth
 
+#Default
 owner = KUR
 controller = KUR
 add_core = KUR
@@ -9,17 +10,6 @@ capital = "Aizpute"			#DE Hasenpoth
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = grain
+trade_goods = oats
 is_city = yes
 hre = no
-
-
-
-
-
-
-
-
-
-
-1490.1.1 = { religion = catholic }

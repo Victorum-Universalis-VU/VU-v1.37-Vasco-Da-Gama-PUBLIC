@@ -2,7 +2,7 @@
 government = theocracy
 add_government_reform = church_of_spain_archbishopric_reform
 government_rank = 5 #Archbishopric
-primary_culture = castillian
+primary_culture = asturian
 religion = catholic
 #technology_group = western
 technology_group = spanish_tech_group

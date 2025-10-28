@@ -8,3 +8,4 @@ religion = catholic
 technology_group = spanish_tech_group
 unit_type = western
 capital = 8053 #Molina
+historical_friend = CAS

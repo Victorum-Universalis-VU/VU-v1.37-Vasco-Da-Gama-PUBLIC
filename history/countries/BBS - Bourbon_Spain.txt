@@ -3,6 +3,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = castillian
 add_accepted_culture = sicilian
+add_accepted_culture = asturian
 add_accepted_culture = leonese
 add_accepted_culture = neapolitan
 add_accepted_culture = wallonian

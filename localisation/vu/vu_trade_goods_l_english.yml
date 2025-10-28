@@ -153,7 +153,7 @@
  sweet_confectioneries: "Pastries & Confectioneries"
  sweet_confectioneriesDESC: "Pastries & Confectionery include baked goods like pastry bread, candies, candied nuts, chocolates, chewing gum, bubble gum, pastillage and other confections primarily of flour or sugar."
  #
- #VU additions by Doc Robert
+ #VU additions by SF & Doc Robert
  vodka: "Vodka"
  vodkaDESC: "Vodka is a strong alcohol distilled from grains and produced mostly in Easern Europe. Originated and popularised in Rus, evetually spreaded to other slavic countries. Drink of the masses and pesants due to its very cheap production compared to other alochols. Manufactured from all sorts of grains and later mostly from potatoes once they were introduced. As they say, Pesant saturated with vodka is too drunk to revolt and think for himself."
  pottery: "Pottery"
@@ -166,6 +166,10 @@
  sakeDESC: "Rice wine is a traditional alcohol drink originating from Asia, mainly the Middle-Kingdom, Korea, Japan and South East Asia. It is a type of beverage made from the ferminatation of rice and has found use in many rituals, religious practices and ceremonies."
  whiskey: "Whiskey"
  whiskeyDESC: "Whiskey is a type of distilled alcoholic beverage made from fermented grain mash. Various grains (which may be malted) are used for different varieties, including barley, corn, rye, and wheat. Whisky is typically aged in wooden casks and is believed to have originated from Ireland & Scotland, although you'll often find people from these two regions hotly debating and contesting these claims."
+ brandy: "Brandy"
+ brandyDESC: "Brandy is a type of distilled alcoholic beverage made from fermented fruit mash, but Bohemians have been known to adventurously seek it out on the high seas and brew it from, seaweed, sharks, rocks, wood and even walnuts. It is typically 35–60% alcohol by volume and often served as an after-dinner digestif."
+ rakija: "Rakija"
+ rakijaDESC: "Rakija is a type of distilled alcoholic beverage brewed from brandy, most commonly consumed throughout the Balkans and is especially popular with Serbia, Croats, Bosnians, and Bulgars, who consider it a national drink. The spirit is made by distilling fermented fruit, with the most popular and potent variety, šljivovica, made from plums."
  silkworm: "Silk Worms"
  silkwormDESC: "Silkworms (Bombyx Mori) are insects with unique economical importance for humans. Larvae of this moth covers itself in white cocoon. Those cocoons are then directly turned into silk - prestigeous and valuable textile. Silkworms originated in East Asia where production of silk first occured. Silkworms and the technique of turning cocoons into beutiful silk textiles is a secret held by Sinic civilization for centuries."
 

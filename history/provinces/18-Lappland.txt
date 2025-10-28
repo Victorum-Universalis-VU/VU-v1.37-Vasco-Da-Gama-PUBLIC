@@ -24,7 +24,7 @@ add_core = SMI
 	add_core = SWE
 	is_city = yes
 	add_local_autonomy = 55 #This stacks with culture and religious starting autonomy, it seems. Reducing from 90.
-	trade_goods = fur
+	trade_goods = oats
 }
 
 #Province Modifiers

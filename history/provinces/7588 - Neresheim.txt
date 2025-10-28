@@ -1,7 +1,6 @@
-#6601 - Neresheim
-#Region - Germany
-#Area - Lower Swabia
+#7588 - Neresheim
 
+#Default
 owner = HLF
 controller = HLF
 add_core = HLF
@@ -9,37 +8,14 @@ culture = bavarian
 religion = catholic
 base_tax = 4
 base_production = 3
-trade_goods = cloth	#fustians
+trade_goods = vegetables
 base_manpower = 2
 capital = "Neresheim"
 is_city = yes
 hre = yes
 
-#Special Modifiers
-
+#Province Modifiers
 add_permanent_province_modifier = {
     name = rich_black_soil
     duration = -1
-}
-
-
-
-
-
-
-
-#Documented 85 AD
-1530.1.1 = { religion = protestant }
-1803.1.1 = {
-	add_core = BAV
-	owner = BAV
-	controller = BAV
-	remove_core = ULM
-}
-1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
-1810.1.1 = {
-	add_core = WUR
-	owner = WUR
-	controller = WUR
-	remove_core = BAV
 }

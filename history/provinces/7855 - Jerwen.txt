@@ -1,5 +1,6 @@
 #7855 - Jerwen
 
+#Default
 owner = LIV
 controller = LIV
 add_core = LIV
@@ -10,12 +11,9 @@ capital = "Paide"			#DE Weissenstein
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = lumber
+trade_goods = amber
 is_city = yes
 hre = no
 
-
-
-
-
-
+#Claimants
+add_core = EST

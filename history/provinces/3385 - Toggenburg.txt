@@ -1,5 +1,6 @@
 #3385 - Toggenburg
 
+#Default
 owner = ST6
 controller = ST6
 add_core = ST6

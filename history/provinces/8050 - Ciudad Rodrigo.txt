@@ -16,6 +16,6 @@ hre = no
 
 #History by SF
 1350.1.1 = {
-    culture = castillian
+    #culture = castillian
     add_core = CAS
 }

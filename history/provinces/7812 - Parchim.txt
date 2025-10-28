@@ -1,5 +1,6 @@
 #7812 - Parchim
 
+#Default
 owner = MKL
 controller = MKL
 add_core = MKL
@@ -9,10 +10,11 @@ capital = "Parchim"
 base_tax = 3 
 base_production = 3 
 base_manpower = 2 
-trade_goods = amber
+trade_goods = herbs
 is_city = yes
 hre = yes
 
+#History by SF
 1444.1.1 = { owner = M5H controller = M5H add_core = M5H remove_core = MKL}
 
 

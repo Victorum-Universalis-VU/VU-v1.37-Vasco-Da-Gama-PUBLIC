@@ -26,7 +26,7 @@ add_core = SMI
     religion = catholic
     is_city = yes
     add_local_autonomy = 55
-    trade_goods = fur
+    trade_goods = herbs
 } # Swedish territorial lands - By San Felipe
 
 #Special Modifiers

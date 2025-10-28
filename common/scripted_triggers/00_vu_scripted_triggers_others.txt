@@ -4011,7 +4011,7 @@ has_rural_goods = {
 		trade_goods = fur
 		trade_goods = ivory
 		trade_goods = naval_supplies
-		#TGESTUFFS
+		#VU & TGE STUFF
 		trade_goods = apiculture
 		trade_goods = whaling
 		trade_goods = lumber
@@ -4031,10 +4031,10 @@ has_rural_goods = {
 		trade_goods = tomato
 		trade_goods = fruit
 		trade_goods = silkworm
-		trade_goods = whiskey
 		trade_goods = bamboo
-		trade_goods = vodka
 		trade_goods = vegetables
+		trade_goods = millet
+		trade_goods = oats
 		trade_goods = agave
 		trade_goods = llama
 		trade_goods = bison_hides
@@ -4051,7 +4051,7 @@ has_urban_goods = {
 		trade_goods = chinaware
 		trade_goods = paper
 		trade_goods = glass
-		#TGESTUFFS
+		#VU & TGE STUFF
 		trade_goods = beer
 		trade_goods = gunpowder
 		trade_goods = cheese
@@ -4068,6 +4068,10 @@ has_urban_goods = {
 		trade_goods = cannon
 		trade_goods = cider
 		trade_goods = bronze
+		trade_goods = whiskey
+		trade_goods = brandy
+		trade_goods = rakija
+		trade_goods = vodka
 		trade_goods = sake
 		trade_goods = lace
 		trade_goods = pottery
@@ -4091,7 +4095,7 @@ has_mining_goods = {
 		trade_goods = coal
 		trade_goods = gems
 		trade_goods = diamonds
-		#TGESTUFFS
+		#VU & TGE STUFF
 		trade_goods = amber
 		trade_goods = jade
 		trade_goods = marble
@@ -4119,7 +4123,7 @@ has_plantage_goods = {
 		trade_goods = dyes
 		trade_goods = tropical_wood
 		trade_goods = slaves
-		#TGESTUFFS
+		#VU & TGE STUFF
 		trade_goods = palm_oil
 		trade_goods = cinnamon
 		trade_goods = saffron
@@ -4670,4 +4674,136 @@ vu_post_colonial_usa_cities_trigger = {
 		tag = USA
 	}
 	has_owner_religion = yes
+}
+
+is_eligible_for_trade_goods_crops_tropical = {
+    has_climate = tropical
+    NOT = {
+        has_terrain = mountain
+        has_terrain = cold_mountains
+        has_terrain = desert
+        has_terrain = desert_ranges
+        has_terrain = drylands
+        has_terrain = dry_highlands
+    }
+}
+
+is_eligible_for_trade_goods_crops_subtropical = {
+    OR = {
+        has_winter = mild_winter
+		has_winter = normal_winter
+    }
+    NOT = {
+        has_terrain = mountain
+        has_terrain = cold_mountains
+        has_terrain = desert
+        has_terrain = desert_ranges
+        has_terrain = drylands
+        has_terrain = dry_highlands
+    }
+}
+
+is_eligible_for_trade_goods_crops_hardy = {
+	has_winter = severe_winter
+    NOT = {
+        has_terrain = cold_mountains
+        has_terrain = desert_ranges
+        has_terrain = dry_highlands
+		has_terrain = glacier
+    }
+}
+
+is_eligible_for_trade_goods_crops_dryland = {
+    OR = {
+		has_terrain = desert
+        has_terrain = desert_ranges
+		has_terrain = drylands
+        has_terrain = dry_highlands
+		has_terrain = coastal_desert
+    }
+}
+
+is_eligible_for_trade_goods_crops_wetland = {
+    OR = {
+		has_terrain = marsh
+		has_terrain = swamp
+    }
+}
+
+is_eligible_for_trade_goods_precious_metals = {
+    OR = {
+		region = mexico_region
+		region = california_region
+		region = alaska_region
+		region = australia_region
+		region = peru_region
+		region = upper_peru_region
+		area = central_chile_area
+		area = northern_chile_area
+		area = southern_chile_area
+    }
+	OR = {
+		has_terrain = hills
+		has_terrain = mountain
+		has_terrain = cold_mountains
+		has_terrain = highlands
+		has_terrain = dry_highlands
+		has_terrain = desert_ranges
+	}
+}
+
+is_eligible_for_trade_goods_igneous_minerals = {
+	OR = {
+		has_terrain = hills
+		has_terrain = mountain
+		has_terrain = cold_mountains
+		has_terrain = highlands
+		has_terrain = dry_highlands
+		has_terrain = desert_ranges
+		has_terrain = fertile_highlands
+	}
+}
+
+is_eligible_for_trade_goods_sedimentary_minerals = {
+	OR = {
+		has_terrain = grasslands
+		has_terrain = drylands
+		has_terrain = desert
+		has_terrain = savannah
+	}
+}
+
+is_eligible_for_trade_goods_livestock_lowland = {
+	OR = {
+		has_terrain = grasslands
+		has_terrain = farmlands
+		has_terrain = swamp
+		has_terrain = marsh
+		has_terrain = forest
+		has_terrain = woods
+		has_terrain = jungle
+	}
+}
+
+is_eligible_for_trade_goods_livestock_highland = {
+	OR = {
+		has_terrain = mountain
+		has_terrain = cold_mountains
+		has_terrain = highlands
+		has_terrain = fertile_highlands
+	}
+}
+
+is_eligible_for_trade_goods_livestock_desert = {
+	OR = {
+		has_terrain = drylands
+		has_terrain = desert
+		has_terrain = savannah
+		has_terrain = dry_highlands
+		has_terrain = desert_ranges
+	}
+}
+
+is_eligible_for_trade_goods_aquatic = {
+	has_port = yes
 }

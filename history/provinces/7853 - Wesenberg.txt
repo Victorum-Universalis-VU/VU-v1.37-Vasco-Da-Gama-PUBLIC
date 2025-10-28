@@ -1,21 +1,18 @@
 #7853 - Wesenberg
 
+#Default
 owner = LIV
 controller = LIV
 add_core = LIV
-add_core = EST
 culture = estonian
 religion = catholic
 capital = "Rakvere"			#DE Wesenberg
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = naval_supplies
+trade_goods = livestock
 is_city = yes
 hre = no
 
-
-
-
-
-
+#Claimants
+add_core = EST

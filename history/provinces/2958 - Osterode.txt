@@ -3,18 +3,13 @@
 #Default
 owner = TEU
 controller = TEU
+add_core = TEU
 capital = "Osterode"
 culture = prussian
 religion = catholic
-trade_goods = livestock
+trade_goods = fruit
 hre = no
 base_tax = 5 
 base_production = 5 
 base_manpower = 3
 is_city = yes
-
-#Buildings
-#fort_15th = yes
-
-#Claimants
-add_core = TEU

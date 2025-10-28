@@ -12,4 +12,4 @@ hre = yes
 base_tax = 1
 base_production = 1
 base_manpower = 2          #In 18th century town had 3665 protestants, 9 catholics and 7 Jews. xD 
-trade_goods = lumber #To produce bricks just for the sheetz - SF
+trade_goods = herbs

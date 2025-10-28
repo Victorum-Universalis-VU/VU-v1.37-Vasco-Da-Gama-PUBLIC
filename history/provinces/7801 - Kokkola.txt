@@ -24,7 +24,7 @@ add_core = FIN
 	add_core = SWE
 	religion = catholic
 	is_city = yes
-	trade_goods = fur
+	trade_goods = naval_supplies
 	#Special Modifiers
 	add_local_autonomy = 50
 } # Swedish territorial lands - By San Felipe

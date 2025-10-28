@@ -10,9 +10,9 @@ culture = gascon
 religion = catholic
 hre = no
 base_tax = 3 
-base_production = 3 
-trade_goods = vegetables
+base_production = 3
 base_manpower = 2
+trade_goods = brandy
 
 #Claimants
 add_core = ENG

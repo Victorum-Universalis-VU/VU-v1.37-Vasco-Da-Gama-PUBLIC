@@ -1,5 +1,6 @@
 #7964 - Ardennes
 
+#Default
 owner = LIE
 controller = LIE
 add_core = LIE
@@ -9,13 +10,9 @@ capital = "Mézières" #was Grandpré
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = iron
+trade_goods = herbs
 is_city = yes
 hre = yes
+
+#Commerce
 center_of_trade = 1
-
-
-
-
-
-
