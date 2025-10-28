@@ -1,0 +1,11 @@
+#CN9 - Condòm
+government = theocracy
+add_government_reform = church_of_france_abbacy_reform
+government_rank = 1 #County
+#technology_group = western
+technology_group = french_tech_group
+unit_type = western
+religion = catholic
+primary_culture = gascon
+capital = 7907 #Condòm
+fixed_capital = 7907 # Cannot move capital away from this province & no power cost to move to it

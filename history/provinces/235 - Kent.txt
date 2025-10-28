@@ -17,6 +17,9 @@ is_city = yes
 #Buildings
 fort_15th = yes
 
+#Claimants
+add_core = K3T
+
 #Commerce
 center_of_trade = 1
 

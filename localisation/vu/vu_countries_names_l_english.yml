@@ -222,6 +222,9 @@
  GLR: "Gloucester"
  GLR_ADJ: "Gloucester"
 
+ OXF: "Kent"
+ OXF_ADJ: "Kentish"
+
  LNN: "Lincoln"
  LNN_ADJ: "Lincoln"
 
@@ -239,6 +242,10 @@
  
  SM1: "Somerset"
  SM1_ADJ: "Somerset"
+
+ #France
+ CN9: "Condòm"
+ CN9_ADJ: "Condòments"
 
  #Scotland
  MCD: "MacLeod"

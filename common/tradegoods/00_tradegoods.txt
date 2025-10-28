@@ -3,12 +3,12 @@
 # Please add price definitions to prices.txt as well.
 #Base resources
 grain = {
-	is_valuable = yes
 	color = {
 		0.96
 		0.93
 		0.58
 	}
+	is_valuable = yes
 	modifier = {
 		land_forcelimit_modifier = 0.2
 	}
@@ -243,12 +243,12 @@ grain = {
 }
 
 wine = {
-	is_valuable = yes
 	color = {
 		0.36
 		0.13
 		0.28
 	}
+	is_valuable = yes
 	modifier = {
 		global_unrest = -1
 	}
@@ -413,17 +413,18 @@ wine = {
 }
 
 wool = {
-	is_valuable = yes
 	color = {
 		0.83
 		0.83
 		0.83
 	}
+	is_valuable = yes
 	modifier = {
-		global_ship_cost = -0.05
+		land_attrition = -0.15
 	}
 	province = {
-		local_friendly_movement_speed = 0.1
+		local_manpower_modifier = 0.1
+		local_monthly_devastation = -0.01
 	}
 	chance = {
 		factor = 30
@@ -591,17 +592,18 @@ wool = {
 }
 
 cloth = {
-	is_valuable = yes
 	color = {
 		0.86
 		0.19
 		0.19
 	}
+	is_valuable = yes
 	modifier = {
-		merc_maintenance_modifier = -0.15
+		ship_trade_power_modifier = 0.15
 	}
 	province = {
 		local_development_cost = -0.05
+		local_prosperity_growth = 0.01
 	}
 	chance = {
 		factor = 10
@@ -623,12 +625,12 @@ cloth = {
 }
 
 fish = {
-	is_valuable = yes
 	color = {
 		0.55
 		0.82
 		0.97
 	}
+	is_valuable = yes
 	modifier = {
 		global_sailors_modifier = 0.25
 	}
@@ -774,14 +776,14 @@ fish = {
 }
 
 fur = {
-	is_valuable = yes
 	color = {
 		0.54
 		0.4
 		0.31
 	}
+	is_valuable = yes
 	modifier = {
-		prestige = 0.5
+		hostile_attrition = 0.15
 	}
 	province = {
 		province_trade_power_modifier = 0.1
@@ -990,14 +992,14 @@ fur = {
 }
 
 salt = {
-	is_valuable = yes
 	color = {
 		0.999
 		0.999
 		0.999
 	}
+	is_valuable = yes
 	modifier = {
-		land_maintenance_modifier = -0.05
+		naval_maintenance_modifier = -0.1
 	}
 	province = {
 		local_defensiveness = 0.1
@@ -1102,14 +1104,15 @@ salt = {
 }
 
 naval_supplies = {
-	is_valuable = yes
 	color = {
 		0.11
 		0.17
 		0.4
 	}
+	is_valuable = yes
 	modifier = {
-		naval_forcelimit_modifier = 0.2
+		naval_forcelimit_modifier = 0.15
+		naval_attrition = -0.15
 	}
 	province = {
 		naval_forcelimit = 0.25
@@ -1304,17 +1307,17 @@ naval_supplies = {
 
 # metals
 copper = {
-	is_valuable = yes
 	color = {
 		0.85
 		0.46
 		0.15
 	}
+	is_valuable = yes
 	modifier = {
-		global_regiment_recruit_speed = -0.2
+		movement_speed_in_fleet_modifier = 0.15
 	}
 	province = {
-		regiment_recruit_speed = -0.2
+		local_ship_cost = -0.1
 	}
 	chance = {
 		factor = 15
@@ -1913,17 +1916,17 @@ gold = {
 }
 
 iron = {
-	is_valuable = yes
 	color = {
 		0.2
 		0.2
 		0.2
 	}
+	is_valuable = yes
 	modifier = {
-		global_regiment_cost = -0.05
+		mining_goods_produced_modifier = 0.1
 	}
 	province = {
-		local_build_time = -0.2
+		production_efficiency = 0.05
 	}
 	chance = {
 		factor = 10
@@ -2056,17 +2059,18 @@ iron = {
 
 #African Resources
 slaves = {
-	is_valuable = yes
 	color = {
 		0
 		0
 		0
 	}
+	is_valuable = yes
 	modifier = {
-		global_tariffs = 0.25
+		plantage_goods_produced_modifier = 0.15
 	}
 	province = {
-		local_missionary_strength = 0.01
+		local_build_cost = -0.1
+		local_great_project_upgrade_cost = -0.1
 	}
 	chance = {
 		factor = 15
@@ -2149,17 +2153,18 @@ slaves = {
 }
 
 ivory = {
-	is_valuable = yes
 	color = {
 		0.75
 		0.7
 		0.63
 	}
+	is_valuable = yes
 	modifier = {
-		diplomatic_reputation = 2
+		prestige = 1
 	}
 	province = {
-		local_state_maintenance_modifier = -0.2
+		local_unrest = 1
+		local_center_of_trade_upgrade_cost = -0.1
 	}
 	chance = {
 		factor = 15
@@ -2270,17 +2275,17 @@ ivory = {
 
 #Eastern Resources
 tea = {
-	is_valuable = yes
 	color = {
 		0.07
 		0.33
 		0.09
 	}
+	is_valuable = yes
 	modifier = {
-		advisor_cost = -0.1
+		global_tariffs = 0.25
 	}
 	province = {
-		garrison_growth = 0.25
+		local_prosperity_growth = 0.02
 		land_forcelimit = 1
 	}
 	chance = {
@@ -2477,13 +2482,14 @@ tea = {
 	}
 }
 
-chinaware = {
-	is_valuable = yes
+chinaware = { #Rename to Porcelain in loc - Prussia
 	color = {
 		0.18
 		0.57
 		0.8
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		legitimacy = 0.25
 		devotion = 0.25
@@ -2492,7 +2498,7 @@ chinaware = {
 		meritocracy = 0.1
 	}
 	province = {
-		local_autonomy = -0.1
+		local_production_efficiency = 0.1
 	}
 	chance = {
 		factor = 15
@@ -2564,17 +2570,17 @@ chinaware = {
 }
 
 spices = {
-	is_valuable = yes
 	color = {
 		0.4
 		0.65
 		0.38
 	}
+	is_valuable = yes
 	modifier = {
-		spy_offence = 0.25
+		range = 0.2
 	}
 	province = {
-		local_monthly_devastation = -0.1
+		province_trade_power_modifier = 0.15
 	}
 	chance = {
 		factor = 25
@@ -2721,17 +2727,17 @@ spices = {
 
 #New World Resources
 coffee = {
-	is_valuable = yes
 	color = {
 		0.22
 		0.15
 		0.09
 	}
+	is_valuable = yes
 	modifier = {
-		global_institution_spread = 0.05
+		yearly_innovativeness = 0.05
 	}
 	province = {
-		local_institution_spread = 0.1
+		local_production_efficiency = 0.1
 	}
 	chance = {
 		factor = 15
@@ -2915,17 +2921,18 @@ coffee = {
 }
 
 cotton = {
-	is_valuable = yes
 	color = {
 		0.52
 		0.68
 		0.6
 	}
+	is_valuable = yes
 	modifier = {
 		global_colonial_growth = 20
 	}
 	province = {
 		local_development_cost = -0.05
+		local_colonist_placement_chance = 0.1
 	}
 	chance = {
 		factor = 20
@@ -3062,14 +3069,14 @@ cotton = {
 }
 
 sugar = {
-	is_valuable = yes
 	color = {
 		0.74
 		0.95
 		0.68
 	}
+	is_valuable = yes
 	modifier = {
-		war_exhaustion_cost = -0.2
+		land_morale = 0.05
 	}
 	province = {
 		local_unrest = -1
@@ -3189,17 +3196,18 @@ sugar = {
 }
 
 tobacco = {
-	is_valuable = yes
 	color = {
 		0.33
 		0.56
 		0.38
 	}
+	is_valuable = yes
 	modifier = {
-		global_spy_defence = 0.25
+		idea_cost = -0.05
 	}
 	province = {
 		province_trade_power_modifier = 0.1
+		monarch_lifespan = -0.01
 	}
 	chance = {
 		factor = 15
@@ -3309,14 +3317,14 @@ tobacco = {
 }
 
 cocoa = {
-	is_valuable = yes
 	color = {
 		0.45
 		0.21
 		0.09
 	}
+	is_valuable = yes
 	modifier = {
-		manpower_recovery_speed = 0.05
+		global_trade_goods_size_modifier = 0.05
 	}
 	province = {
 		local_manpower_modifier = 0.1
@@ -3414,14 +3422,15 @@ cocoa = {
 }
 
 silk = {
-	is_valuable = yes
 	color = {
 		0.72
 		0.1
 		0.1
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
-		num_accepted_cultures = 1
+		num_accepted_cultures = 2
 	}
 	province = {
 		province_trade_power_value = 2
@@ -3512,17 +3521,18 @@ silk = {
 }
 
 dyes = {
-	is_valuable = yes
 	color = {
 		0.63
 		0.17
 		0.5
 	}
+	is_valuable = yes
 	modifier = {
-		heir_chance = 0.33
+		development_cost = -0.05
 	}
 	province = {
 		province_trade_power_modifier = 0.1
+		local_development_cost_modifier = -0.05
 	}
 	chance = {
 		factor = 15
@@ -3599,17 +3609,18 @@ dyes = {
 }
 
 tropical_wood = {
-	is_valuable = yes
 	color = {
 		0.45
 		0.47
 		0.09
 	}
+	is_valuable = yes
 	modifier = {
-		development_cost = -0.05
+		build_cost = -0.1
 	}
 	province = {
-		local_build_cost = -0.2
+		local_build_cost = -0.15
+		local_build_time = -0.1
 	}
 	chance = {
 		factor = 25
@@ -3676,14 +3687,14 @@ tropical_wood = {
 }
 
 livestock = {
-	is_valuable = yes
 	color = {
 		0.62
 		0.49
 		0.44
 	}
+	is_valuable = yes
 	modifier = {
-		cavalry_cost = -0.1
+		global_manpower_modifier = 0.2
 	}
 	province = {
 		supply_limit_modifier = 0.5
@@ -3857,17 +3868,18 @@ livestock = {
 }
 
 incense = {
-	is_valuable = yes
 	color = {
 		0.89
 		0.79
 		0.47
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
-		tolerance_own = 0.5
+		tolerance_own = 1
 	}
 	province = {
-		trade_value_modifier = 0.1
+		local_missionary_strength = 0.02
 	}
 	chance = {
 		factor = 25
@@ -3966,12 +3978,13 @@ incense = {
 }
 
 glass = {
-	is_valuable = yes
 	color = {
 		0
 		0.6
 		0.45
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		dip_tech_cost_modifier = -0.05
 	}
@@ -4000,17 +4013,19 @@ glass = {
 }
 
 paper = {
-	is_valuable = yes
 	color = {
 		0.9
 		0.86
 		0.71
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		adm_tech_cost_modifier = -0.05
 	}
 	province = {
 		local_state_maintenance_modifier = -0.1
+		local_governing_cost = -0.1
 	}
 	chance = {
 		factor = 5
@@ -4034,17 +4049,17 @@ paper = {
 }
 
 gems = {
-	is_valuable = yes
 	color = {
 		0.96
 		0.78
 		0.78
 	}
+	is_valuable = yes
 	modifier = {
-		inflation_reduction = 0.05
+		inflation_reduction = 0.1 #Buffed this slightly to help with counteracting the addition of many more gold and silver mines - Prussia
 	}
 	province = {
-		local_tax_modifier = 0.15
+		local_tax_modifier = 0.25
 	}
 	chance = {
 		factor = 4		#reduced from 5, gems were a bit too common
@@ -4484,9 +4499,10 @@ coal = {
 	}
 	modifier = {
 		global_trade_goods_size_modifier = 0.1
+		global_prosperity_growth = 0.03
 	}
 	province = {
-		local_state_maintenance_modifier = -0.2
+		local_production_efficiency = 0.2
 	}
 	chance = {
 		factor = 1
@@ -4502,12 +4518,13 @@ unknown = {
 }
 
 beer = {
-	is_valuable = yes
 	color = {
 		0.9
 		0.6
 		0
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		land_morale = 0.05
 	}
@@ -4575,17 +4592,17 @@ beer = {
 
 #VU - Update, using this for a resource with apothacary
 apiculture = {
-	#is_valuable = yes
 	color = {
 		0.9
 		0.9
 		0.1
 	}
+	#is_valuable = yes
 	modifier = {
-		manpower_recovery_speed = 0.05
+		manpower_recovery_speed = 0.1
 	}
 	province = {
-		local_defensiveness = 0.1
+		local_unrest = -1
 	}
 	chance = {
 		factor = 10
@@ -4703,14 +4720,14 @@ apiculture = {
 }
 
 whaling = {
-	is_valuable = yes
 	color = {
 		0.11
 		0.85
 		0.4
 	}
+	is_valuable = yes
 	modifier = {
-		production_efficiency = 0.1
+		naval_morale = 0.1
 	}
 	province = {
 		local_production_efficiency = 0.1
@@ -4845,12 +4862,12 @@ whaling = {
 }
 
 lumber = {
-	is_valuable = yes
 	color = {
 		0.2
 		0.1
 		0.05
 	}
+	is_valuable = yes
 	modifier = {
 		build_cost = -0.1
 	}
@@ -4913,14 +4930,16 @@ lumber = {
 }
 
 palm_oil = {
-	is_valuable = yes
 	color = {
 		0.6
 		0.2
 		0
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
-		embargo_efficiency = 0.25
+		production_efficiency = 0.05 #Was used as a biofuel - Prussia
+		trade_efficiency = 0.05 #Was used in a wide variety of applications worldwide - Prussia
 	}
 	province = {
 		province_trade_power_modifier = 0.1
@@ -4999,12 +5018,12 @@ palm_oil = {
 }
 
 cinnamon = {
-	is_valuable = yes
 	color = {
 		0.8
 		0.6
 		0.4
 	}
+	is_valuable = yes
 	modifier = {
 		ae_impact = -0.1
 	}
@@ -5017,17 +5036,18 @@ cinnamon = {
 }
 
 saffron = {
-	is_valuable = yes
 	color = {
 		0.99
 		0.6
 		0.8
 	}
+	is_valuable = yes
 	modifier = {
-		merc_maintenance_modifier = -0.1
+		global_trade_power = 0.1
+		prestige = 0.5
 	}
 	province = {
-		local_monthly_devastation = -0.1
+		monthly_heir_claim_increase = 0.01
 	}
 	chance = {
 		factor = 5
@@ -5068,12 +5088,12 @@ saffron = {
 }
 
 rice = {
-	is_valuable = yes
 	color = {
 		0.8
 		0.8
 		0.65
 	}
+	is_valuable = yes
 	modifier = {
 		land_forcelimit_modifier = 0.1
 	}
@@ -5190,17 +5210,19 @@ rice = {
 }
 
 opium = {
-	is_valuable = yes
 	color = {
 		0.72
 		0.3
 		0.99
 	}
+	is_valuable = yes
 	modifier = {
-		yearly_corruption = -0.1
+		eunuchs_influence_modifier = -0.1
+		imperial_mandate = -0.01
 	}
 	province = {
 		local_unrest = -1
+		local_production_efficiency = -0.05
 	}
 	chance = {
 		factor = 15
@@ -5240,12 +5262,13 @@ opium = {
 }
 
 rum = {
-	is_valuable = yes
 	color = {
 		0.4
 		0.2
 		0.2
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		privateer_efficiency = 0.2
 	}
@@ -5335,14 +5358,14 @@ rum = {
 }
 
 horses = {
-	is_valuable = yes
 	color = {
 		0.5
 		0.6
 		0.35
 	}
+	is_valuable = yes
 	modifier = {
-		cavalry_power = 0.1
+		cavalry_power = 0.15
 	}
 	province = {
 		local_friendly_movement_speed = 0.2
@@ -5425,12 +5448,13 @@ horses = {
 }
 
 olive_oil = {
-	is_valuable = yes
 	color = {
 		0.8
 		0.87
 		0.29
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		global_prov_trade_power_modifier = 0.1
 	}
@@ -5473,17 +5497,17 @@ olive_oil = {
 }
 
 amber = {
-	is_valuable = yes
 	color = {
 		0.84
 		0.4
 		0.01
 	}
+	is_valuable = yes
 	modifier = {
 		free_dip_policy = 1 #If jade gets an ADM policy Amber get's a DIP one (also from historical context: even the old slavs from the amber coast engaged in trade and diplomacy, often gifting amber to diplomats
 	}
 	province = {
-		local_development_cost = -0.05
+		local_hostile_movement_speed = 0.15
 	}
 	chance = {
 		factor = 0
@@ -5491,12 +5515,12 @@ amber = {
 }
 
 jade = {
-	is_valuable = yes
 	color = {
 		0.3
 		0.99
 		0.3
 	}
+	is_valuable = yes
 	modifier = {
 		free_adm_policy = 1
 	}
@@ -5549,17 +5573,17 @@ jade = {
 }
 
 marble = {
-	is_valuable = yes
 	color = {
 		0.15
 		0
 		0
 	}
+	is_valuable = yes
 	modifier = {
 		fort_maintenance_modifier = -0.15
 	}
 	province = {
-		local_development_cost = -0.05
+		local_great_project_upgrade_cost = -0.25
 	}
 	chance = {
 		factor = 2
@@ -5577,12 +5601,12 @@ marble = {
 }
 
 lead = {
-	is_valuable = yes
 	color = {
 		0.36
 		0.36
 		0.54
 	}
+	is_valuable = yes
 	modifier = {
 		infantry_cost = -0.15
 	}
@@ -5711,12 +5735,12 @@ lead = {
 }
 
 cloves = {
-	is_valuable = yes
 	color = {
 		0.55
 		0.4
 		0.3
 	}
+	is_valuable = yes
 	modifier = {
 		trade_efficiency = 0.1
 	}
@@ -5780,14 +5804,14 @@ cloves = {
 }
 
 mercury = {
-	is_valuable = yes
 	color = {
 		0.55
 		0.55
 		0.65
 	}
+	is_valuable = yes
 	modifier = {
-		idea_cost = -0.05
+		technology_cost = -0.05
 	}
 	province = {
 		local_institution_spread = 0.2
@@ -5935,12 +5959,12 @@ mercury = {
 }
 
 camel = {
-	is_valuable = yes
 	color = {
 		0.8
 		0.6
 		0.01
 	}
+	is_valuable = yes
 	modifier = {
 		caravan_power = 0.2
 	}
@@ -5988,12 +6012,13 @@ camel = {
 }
 
 gunpowder = {
-	is_valuable = yes
 	color = {
 		0.48
 		0.48
 		0.32
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		fire_damage = 0.1
 	}
@@ -6041,6 +6066,7 @@ elephants = {
 		0.42
 		0.42
 	}
+	is_valuable = yes
 	modifier = {
 		shock_damage = 0.1
 	}
@@ -6053,12 +6079,12 @@ elephants = {
 }
 
 tin = {
-	is_valuable = yes
 	color = {
 		0.52
 		0.43
 		0.3
 	}
+	is_valuable = yes
 	modifier = {
 		artillery_cost = -0.1
 	}
@@ -6198,17 +6224,18 @@ tin = {
 }
 
 dates = {
-	is_valuable = yes
 	color = {
 		0.5
 		0.2
 		0.14
 	}
+	is_valuable = yes
 	modifier = {
 		manpower_recovery_speed = 0.05
 	}
 	province = {
 		local_manpower_modifier = 0.15
+		land_forcelimit = 0.5
 	}
 	chance = {
 		factor = 0
@@ -6216,14 +6243,15 @@ dates = {
 }
 
 cheese = {
-	is_valuable = yes
 	color = {
 		0.88
 		0.66
 		0.37
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
-		garrison_size = 0.15
+		global_supply_limit_modifier = 0.15
 	}
 	province = {
 		local_culture_conversion_cost = -0.2
@@ -6325,13 +6353,13 @@ cheese = {
 }
 
 citrus = {
-	is_valuable = yes
 	#south europe, china
 	color = {
 		0.97
 		0.95
 		0.35
 	}
+	is_valuable = yes
 	modifier = {
 		naval_attrition = -0.15
 	}
@@ -6510,12 +6538,12 @@ citrus = {
 }
 
 seafood = {
-	is_valuable = yes
 	color = {
 		0.52
 		0.11
 		0.18
 	}
+	is_valuable = yes
 	modifier = {
 		improve_relation_modifier = 0.15
 	}
@@ -6642,12 +6670,13 @@ seafood = {
 }
 
 carpet = {
-	is_valuable = yes
 	color = {
 		0.44
 		0.21
 		0.26
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		culture_conversion_cost = -0.15
 	}
@@ -6720,17 +6749,17 @@ carpet = {
 }
 
 nutmeg = {
-	is_valuable = yes
 	color = {
 		0.82
 		0.41
 		0.06
 	}
+	is_valuable = yes
 	modifier = {
 		global_foreign_trade_power = 0.1
 	}
 	province = {
-		local_development_cost = -0.05
+		local_friendly_movement_speed = -0.15
 	}
 	chance = {
 		factor = 50
@@ -6795,12 +6824,12 @@ nutmeg = {
 }
 
 maize = {
-	is_valuable = yes
 	color = {
 		0.98
 		0.93
 		0.36
 	}
+	is_valuable = yes
 	modifier = {
 		land_maintenance_modifier = -0.05
 	}
@@ -6924,12 +6953,12 @@ maize = {
 }
 
 pearls = {
-	is_valuable = yes
 	color = {
 		0.79
 		0.99
 		0.9
 	}
+	is_valuable = yes
 	modifier = {
 		monarch_diplomatic_power = 1
 	}
@@ -7047,17 +7076,18 @@ pearls = {
 }
 
 metalworking = {
-	is_valuable = yes
 	color = {
 		0
 		0.4
 		0.4
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
 		global_trade_goods_size = 0.1
 	}
 	province = {
+		trade_goods_size_modifier = 0.1
 	}
 	chance = {
 		factor = 0
@@ -7065,12 +7095,12 @@ metalworking = {
 }
 
 silver = {
-	is_valuable = yes
 	color = {
 		0.33
 		0.38
 		0.44
 	}
+	is_valuable = yes
 	province = {
 		#Extremely important; balancing silver compared to gold. Since silver is not as priced as gold, it only produces 50% of what gold would've made from precious minerals.
 		trade_goods_size_modifier = -0.5
@@ -7216,12 +7246,12 @@ silver = {
 }
 
 exotic_animals = {
-	is_valuable = yes
 	color = {
 		0.64
 		0
 		0.43
 	}
+	is_valuable = yes
 	modifier = {
 		prestige = 1
 	}
@@ -7291,17 +7321,18 @@ exotic_animals = {
 }
 
 vanilla = {
-	is_valuable = yes
 	color = {
 		0.38
 		0.25
 		0.32
 	}
+	is_valuable = yes
 	modifier = {
-		vassal_forcelimit_bonus = 0.2
+		reduced_liberty_desire_on_other_continent = 10
 	}
 	province = {
-		province_trade_power_modifier = 0.1
+		local_colonial_growth = 10
+		local_colony_cost_modifier = 0.1
 	}
 	chance = {
 		factor = 50
@@ -7386,15 +7417,15 @@ vanilla = {
 }
 
 munitions = {
-	is_valuable = yes
 	color = {
 		0.1
 		0.21
 		0.13
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		discipline = 0.025
+		infantry_fire = 0.25
 	}
 	province = {
 		local_regiment_cost = -0.25
@@ -7405,15 +7436,15 @@ munitions = {
 }
 
 woodworking = {
-	is_valuable = yes
 	color = {
 		0.24
 		0.05
 		0.01
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		governing_capacity_modifier = 0.1
+		global_allowed_num_of_buildings = 1
 	}
 	province = {
 		allowed_num_of_buildings = 1
@@ -7424,17 +7455,17 @@ woodworking = {
 }
 
 ebony = {
-	is_valuable = yes
 	color = {
 		0.23
 		0.18
 		0.18
 	}
+	is_valuable = yes
 	modifier = {
 		global_allowed_num_of_buildings = 1
 	}
 	province = {
-		local_development_cost = -0.05
+		local_tolerance_of_heathens = 1
 	}
 	chance = {
 		factor = 15
@@ -7494,12 +7525,12 @@ ebony = {
 }
 
 tar = {
-	is_valuable = yes
 	color = {
 		0.1
 		0.1
 		0.2
 	}
+	is_valuable = yes
 	modifier = {
 		ship_durability = 0.05
 	}
@@ -7611,17 +7642,17 @@ tar = {
 }
 
 sulfur = {
-	is_valuable = yes
 	color = {
 		1
 		0.78
 		0.14
 	}
+	is_valuable = yes
 	modifier = {
-		infantry_power = 0.05
+		infantry_cost = -0.1
 	}
 	province = {
-		local_hostile_attrition = 1
+		regiment_recruit_speed = -0.2
 	}
 	chance = {
 		factor = 25
@@ -7715,12 +7746,12 @@ sulfur = {
 }
 
 leather = {
-	is_valuable = yes
 	color = {
 		0.4
 		0.27
 		0.05
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
 		shock_damage_received = -0.05
@@ -7754,17 +7785,17 @@ jewellery = {
 
 maple_syrup = {
 	#73
-	is_valuable = yes
 	color = {
 		0.91
 		0.45
 		0.32
 	}
+	is_valuable = yes
 	modifier = {
-		num_accepted_cultures = 1
+		max_hostile_attrition = 1
 	}
 	province = {
-		trade_value_modifier = 0.1
+		local_hostile_attrition = 0.2
 	}
 	chance = {
 		factor = 25
@@ -7844,14 +7875,14 @@ maple_syrup = {
 
 potato = {
 	#74
-	is_valuable = yes
 	color = {
 		0.6
 		0.4
 		0.4
 	}
+	is_valuable = yes
 	modifier = {
-		reinforce_cost_modifier = -0.05
+		reinforce_cost_modifier = -0.1
 	}
 	province = {
 		local_fort_maintenance_modifier = -0.15
@@ -7974,18 +8005,18 @@ potato = {
 
 steam_engine = {
 	#75
-	is_valuable = yes
 	color = {
 		0.62
 		0.99
 		0.22
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		technology_cost = -0.025
+		production_efficiency = 0.15
 	}
 	province = {
-		local_development_cost = -0.1
+		local_development_cost_modifier = -0.1
 	}
 	chance = {
 		factor = 0
@@ -7994,12 +8025,12 @@ steam_engine = {
 
 zinc = {
 	#76
-	is_valuable = yes
 	color = {
 		0.74
 		0.72
 		0.42
 	}
+	is_valuable = yes
 	modifier = {
 		innovativeness_gain = 0.25
 	}
@@ -8110,18 +8141,18 @@ zinc = {
 
 optics = {
 	#77
-	is_valuable = yes
 	color = {
 		0.13
 		0.26
 		0.71
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
 		leader_naval_manuever = 1
 	}
 	province = {
-		local_state_maintenance_modifier = -0.25
+		ship_recruit_speed = 0.25
 	}
 	chance = {
 		factor = 0
@@ -8135,6 +8166,8 @@ brass = {
 		0.88
 		0.69
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		advisor_cost = -0.1
 	}
@@ -8148,12 +8181,12 @@ brass = {
 
 fur_clothing = {
 	#79
-	is_valuable = yes
 	color = {
 		0.33
 		0.68
 		0.44
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
 		land_attrition = -0.1
@@ -8168,18 +8201,18 @@ fur_clothing = {
 
 cannon = {
 	#80
-	is_valuable = yes
 	color = {
 		0.1
 		0.1
 		0.28
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
 		artillery_power = 0.1
 	}
 	province = {
-		local_hostile_attrition = 1
+		local_regiment_cost = -0.2
 	}
 	chance = {
 		factor = 0
@@ -8188,12 +8221,12 @@ cannon = {
 
 tomato = {
 	#81
-	is_valuable = yes
 	color = {
 		1
 		0.4
 		0.1
 	}
+	is_valuable = yes
 	modifier = {
 		placed_merchant_power = 5
 	}
@@ -8285,12 +8318,13 @@ tomato = {
 
 champagne_bottle = {
 	#82
-	is_valuable = yes
 	color = {
 		0.66
 		0.12
 		0.29
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		reform_progress_growth = 0.1
 	}
@@ -8316,11 +8350,13 @@ alpaca_wool = {
 		0.82
 		0.85
 	}
+	is_latent = yes
 	modifier = {
-		infantry_cost = -0.15
+		land_attrition = -0.15
 	}
 	province = {
-		local_regiment_cost = -0.15
+		local_manpower_modifier = 0.1
+		local_monthly_devastation = -0.01
 	}
 	chance = {
 		factor = 30
@@ -8389,17 +8425,22 @@ alpaca_wool = {
 
 indigo = {
 	#84
-	is_valuable = yes
 	color = {
 		0.18
 		0.11
 		0.71
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
-		envoy_travel_time = -0.2		# Changed because prestige is used in so many of these - Q
+		legitimacy = 0.5
+		devotion = 0.5
+		horde_unity = 0.5
+		republican_tradition = 0.25
+		meritocracy = 0.2
 	}
 	province = {
-		province_trade_power_modifier = 0.15
+		trade_value_modifier = 0.2
 	}
 	chance = {
 		factor = 15
@@ -8459,12 +8500,12 @@ indigo = {
 
 sea_turtle = {
 	#85
-	is_valuable = yes
 	color = {
 		0.55
 		0.85
 		0.97
 	}
+	is_valuable = yes
 	modifier = {
 		native_assimilation = 0.25
 	}
@@ -8578,18 +8619,18 @@ sea_turtle = {
 
 uniforms = {
 	#86
-	is_valuable = yes
 	color = {
 		0.58
 		0.45
 		0.31
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		land_morale = 0.05
+		discipline = 0.025
 	}
 	province = {
-		regiment_recruit_speed = -0.5
+		yearly_army_professionalism = 0.001
 	}
 	chance = {
 		factor = 0
@@ -8598,18 +8639,18 @@ uniforms = {
 
 marble_sculpture = {
 	#87
-	is_valuable = yes
 	color = {
 		0.1
 		0.149
 		0.237
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
 		great_project_upgrade_cost = -0.15
 	}
 	province = {
-		local_development_cost = -0.05
+		local_great_project_upgrade_time = 0.15
 	}
 	chance = {
 		factor = 0
@@ -8618,17 +8659,18 @@ marble_sculpture = {
 
 cigars = {
 	#88
-	is_valuable = yes
 	color = {
 		0.92
 		0.7
 		0.54
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
+		global_unrest = -1
 	}
 	province = {
-		local_prosperity_growth = +0.1
+		local_prosperity_growth = 0.1
 	}
 	chance = {
 		factor = 0
@@ -8637,15 +8679,15 @@ cigars = {
 
 chocolate = {
 	#89
-	is_valuable = yes
 	color = {
 		0.21
 		0.1
 		0
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		global_unrest = -1
+		years_of_nationalism = -2
 	}
 	province = {
 		local_culture_conversion_cost = -0.3
@@ -8657,12 +8699,12 @@ chocolate = {
 
 jade_sculptures = {
 	#90
-	is_valuable = yes
 	color = {
 		0.138
 		0.224
 		0.198
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
 		development_cost_modifier = -0.025
@@ -8677,14 +8719,15 @@ jade_sculptures = {
 
 millet = {
 	#91
-	is_valuable = yes
 	color = {
 		0.2
 		0.14
 		0.11
 	}
+	is_valuable = yes
 	modifier = {
 		manpower_in_own_culture_provinces = 0.15
+		manpower_in_accepted_culture_provinces = 0.15
 	}
 	province = {
 		local_garrison_size = 0.1
@@ -8697,17 +8740,18 @@ millet = {
 
 exotic_fur = {
 	#92
-	is_valuable = yes
 	color = {
 		0.2
 		0.15
 		0.8
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		all_estate_loyalty_equilibrium = 0.05
 	}
 	province = {
-		local_prosperity_growth = +0.1
+		local_prosperity_growth = 0.1
 	}
 	chance = {
 		factor = 15
@@ -8728,15 +8772,15 @@ exotic_fur = {
 
 String_Instruments = {
 	#93
-	is_valuable = yes
 	color = {
 		0.25
 		0.2
 		0.16
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		governing_capacity = 150
+		nobles_loyalty_modifier = 0.1
 	}
 	province = {
 		province_trade_power_value = 2
@@ -8754,6 +8798,7 @@ sweet_confectioneries = {
 		0.73
 		0.95
 	}
+	is_latent = yes
 	modifier = {
 		culture_conversion_cost = -0.15		#changed because of unrest reduction modifier bloat - Q
 	}
@@ -8779,7 +8824,7 @@ bison_hides = {
 		global_trade_power = 0.1		# Changed because prestige is used in so many of these - Q
 	}
 	province = {
-		province_trade_power_modifier = 0.1
+		local_unrest = -1
 	}
 	chance = {
 		factor = 15
@@ -8891,17 +8936,17 @@ bison_hides = {
 #VU addition by San Felipe (this was copied by TGE)
 llama = {
 	#96
-	is_valuable = yes
 	color = {
 		0.85
 		0.82
 		0.85
 	}
+	is_valuable = yes
 	modifier = {
-		infantry_cost = -0.05
+		caravan_power = 0.15
 	}
 	province = {
-		local_production_efficiency = 0.1
+		local_prosperity_growth = 0.01
 	}
 	chance = {
 		factor = 50
@@ -8978,10 +9023,10 @@ agave = {
 		0.44
 	}
 	modifier = {
-		land_maintenance_modifier = -0.05
+		navy_tradition = 0.25
 	}
 	province = {
-		local_manpower_modifier = 0.25
+		local_sailors_modifier = 0.25
 	}
 	chance = {
 		factor = 25
@@ -9090,11 +9135,13 @@ canned_goods = {
 		0.107
 		0.53
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
-		development_cost = -0.1		# Changed to be in line with in game tooltip
+		colony_development_boost = 1 #Totally not broken for Portugal and Spain :P
 	}
 	province = {
-		local_culture_conversion_cost = -0.3
+		local_colony_cost_modifier = -0.15
 	}
 	chance = {
 		factor = 0
@@ -9109,10 +9156,10 @@ copra = {
 		0.101
 	}
 	modifier = {
-		development_cost = -0.05
+		light_ship_power = 0.1
 	}
 	province = {
-		local_build_cost = -0.2
+		local_ship_cost = -0.2
 	}
 	chance = {
 		factor = 25
@@ -9348,6 +9395,7 @@ vodka = {
 		0.87
 		0.95
 	}
+	is_latent = yes
 	modifier = {
 		reform_progress_growth = -0.05
 		stability_cost_modifier = -0.1
@@ -9426,8 +9474,9 @@ diamonds = {
 		0.78
 		0.78
 	}
+	is_valuable = yes
 	modifier = {
-		inflation_reduction = 0.05
+		inflation_reduction = 0.1
 	}
 	province = {
 		local_tax_modifier = 0.25
@@ -9539,6 +9588,8 @@ pottery = {
 		0.98
 		0.89
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		monthly_splendor = 1
 	}
@@ -9557,8 +9608,10 @@ lace = {
 		0.224
 		0.19
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
-		caravan_power = 0.05
+		trade_efficiency = 0.1
 	}
 	province = {
 		province_trade_power_value = 1
@@ -9575,6 +9628,8 @@ sake = {
 		0.211
 		0.1
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		harsh_treatment_cost = -0.1
 	}
@@ -9628,7 +9683,7 @@ bamboo = {
 		0.18
 	}
 	modifier = {
-		build_cost = -0.05
+		build_cost = -0.1
 	}
 	province = {
 		local_build_cost = -0.2
@@ -9686,6 +9741,8 @@ whiskey = {
 		0.135
 		0.4
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		promote_culture_cost = -0.15
 	}
@@ -9717,12 +9774,12 @@ silkworm = {
 		0.24
 		0.22
 	}
+	is_valuable = yes
 	modifier = {
-		infantry_cost = -0.025
-		justify_trade_conflict_cost = -0.15
+		global_trade_goods_size_modifier = 0.05
 	}
 	province = {
-		trade_value_modifier = 0.1
+		trade_value_modifier = 0.25
 	}
 	chance = {
 		factor = 0
@@ -9736,8 +9793,11 @@ bronze = {
 		0.41
 		0.06
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		artillery_power = 0.1
+		artillery_cost = -0.1
 	}
 	province = {
 		local_production_efficiency = 0.1
@@ -9754,8 +9814,8 @@ oil = {
 		0.08
 		0.98
 	}
-	is_latent = yes
 	is_valuable = yes
+	is_latent = yes
 	rnw_latent_chance = 5
 	trigger = {
 		OR = {
@@ -9773,10 +9833,10 @@ oil = {
 		}
 	}
 	modifier = {
-		naval_maintenance_modifier = -0.2
+		production_efficiency = 0.1
 	}
 	province = {
-		local_regiment_cost = -0.2
+		trade_goods_size_modifier = 0.1
 	}
 	chance = {
 		factor = 1
@@ -9790,8 +9850,8 @@ rubber = {
 		0.98
 		0.1
 	}
-	is_latent = yes
 	is_valuable = yes
+	is_latent = yes
 	rnw_latent_chance = 5
 	trigger = {
 		OR = {
@@ -9826,6 +9886,8 @@ cider = {
 		0.48
 		0.25
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		land_morale = 0.05
 	}
@@ -9893,6 +9955,8 @@ books = {
 		0.86
 		0.71
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		adm_tech_cost_modifier = -0.05
 	}
@@ -9925,6 +9989,8 @@ lacquerware = {
 		0.7
 		0.7
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		all_estate_possible_privileges = 1
 	}
@@ -10123,10 +10189,10 @@ sand = {
 		0.71
 	}
 	modifier = {
-		#naval_attrition = -0.1
+		hostile_disembark_speed = 0.2
 	}
 	province = {
-		#local_monthly_devastation = -0.1
+		local_hostile_attrition = 1
 	}
 	chance = {
 		factor = 0
@@ -10145,10 +10211,10 @@ clay = {
 		0.75
 	}
 	modifier = {
-		#naval_attrition = -0.1
+		build_time = -0.05
 	}
 	province = {
-		#local_monthly_devastation = -0.1
+		local_hostile_movement_speed = -0.1
 	}
 	chance = {
 		factor = 0
@@ -10161,18 +10227,20 @@ clay = {
 
 steel = {
 	#118
-	is_valuable = yes
 	color = {
 		0.8
 		0.55
 		0.75
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#naval_attrition = -0.1
+		fire_damage_received = -0.025
+		shock_damage_received = -0.025
 	}
 	province = {
-		#local_monthly_devastation = -0.1
+		local_prosperity_growth = 0.03
+		local_regiment_cost = -0.1
 	}
 	chance = {
 		factor = 0
@@ -10181,18 +10249,18 @@ steel = {
 
 regular_clothes = {
 	#119
-	is_valuable = yes
 	color = {
 		0.8
 		0.65
 		0.75
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		global_manpower_modifier = 0.15
 	}
 	province = {
-		#TBD
+		local_monthly_devastation = -0.03
 	}
 	chance = {
 		factor = 0
@@ -10201,18 +10269,22 @@ regular_clothes = {
 
 luxury_clothes = {
 	#120
-	is_valuable = yes
 	color = {
 		0.8
 		0.6
 		0.75
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		republican_tradition = 0.25
+		meritocracy = 0.15
 	}
 	province = {
-		#TBD
+		prestige = 0.25
 	}
 	chance = {
 		factor = 0
@@ -10221,18 +10293,18 @@ luxury_clothes = {
 
 accoutrements = {
 	#121
-	is_valuable = yes
 	color = {
 		0.5
 		0.65
 		0.75
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		diplomats = 1
 	}
 	province = {
-		#TBD
+		diplomatic_annexation_cost = -0.05
 	}
 	chance = {
 		factor = 0
@@ -10241,18 +10313,18 @@ accoutrements = {
 
 english_tea = {
 	#122
-	is_valuable = yes
 	color = {
 		0.2
 		0.85
 		0.25
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		mercantilism_cost = -0.25
 	}
 	province = {
-		#TBD
+		trade_value_modifier = 0.1
 	}
 	chance = {
 		factor = 0
@@ -10261,18 +10333,19 @@ english_tea = {
 
 espresso = {
 	#123
-	is_valuable = yes
 	color = {
 		0.8
 		0.25
 		0.85
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		global_prosperity_growth = 0.03
+		global_institution_spread = 0.1
 	}
 	province = {
-		#TBD
+		local_production_efficiency = 0.15
 	}
 	chance = {
 		factor = 0
@@ -10281,18 +10354,19 @@ espresso = {
 
 medicaments = {
 	#124
-	is_valuable = yes
 	color = {
 		0.85
 		0.16
 		0.05
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		monarch_lifespan = 0.15
+		global_manpower_modifier = 0.1
 	}
 	province = {
-		#TBD
+		local_manpower_modifier = 0.25
 	}
 	chance = {
 		factor = 0
@@ -10301,18 +10375,18 @@ medicaments = {
 
 locomotives = {
 	#125
-	is_valuable = yes
 	color = {
 		0.86
 		0.17
 		0.06
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		global_trade_goods_size_modifier = 0.15
 	}
 	province = {
-		#TBD
+		local_friendly_movement_speed = 0.5
 	}
 	chance = {
 		factor = 0
@@ -10321,18 +10395,18 @@ locomotives = {
 
 tractors = {
 	#126
-	is_valuable = yes
 	color = {
 		0.87
 		0.18
 		0.07
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		rural_goods_produced_modifier = 0.2
 	}
 	province = {
-		#TBD
+		local_production_efficiency = 0.15
 	}
 	chance = {
 		factor = 0
@@ -10341,18 +10415,18 @@ tractors = {
 
 bicycles = {
 	#127
-	is_valuable = yes
 	color = {
 		0.88
 		0.19
 		0.08
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		leader_land_manuever = 1
 	}
 	province = {
-		#TBD
+		trade_efficiency = 0.025
 	}
 	chance = {
 		factor = 0
@@ -10361,18 +10435,18 @@ bicycles = {
 
 motorcycles = {
 	#128
-	is_valuable = yes
 	color = {
 		0.89
 		0.2
 		0.09
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		movement_speed = 0.25
 	}
 	province = {
-		#TBD
+		local_friendly_movement_speed = 0.25
 	}
 	chance = {
 		factor = 0
@@ -10381,18 +10455,18 @@ motorcycles = {
 
 automobiles = {
 	#129
-	is_valuable = yes
 	color = {
 		0.9
 		0.21
 		0.1
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		trade_efficiency = 0.15
 	}
 	province = {
-		#TBD
+		trade_goods_size_modifier = 0.1
 	}
 	chance = {
 		factor = 0
@@ -10401,18 +10475,18 @@ automobiles = {
 
 airships = {
 	#130
-	is_valuable = yes
 	color = {
 		0.91
 		0.22
 		0.11
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		global_trade_power = 0.2
 	}
 	province = {
-		#TBD
+		province_trade_power_modifier = 0.15
 	}
 	chance = {
 		factor = 0
@@ -10421,18 +10495,18 @@ airships = {
 
 bricks = {
 	#131
-	is_valuable = yes
 	color = {
 		0.92
 		0.23
 		0.12
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		build_cost = -0.1
 	}
 	province = {
-		#TBD
+		local_build_time = -0.15
 	}
 	chance = {
 		factor = 0
@@ -10441,18 +10515,18 @@ bricks = {
 
 cement = {
 	#132
-	is_valuable = yes
 	color = {
 		0.93
 		0.24
 		0.13
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		build_time = -0.1
 	}
 	province = {
-		#TBD
+		local_great_project_upgrade_cost = -0.2
 	}
 	chance = {
 		factor = 0
@@ -10461,18 +10535,17 @@ cement = {
 
 limestone = {
 	#133
-	is_valuable = yes
 	color = {
 		0.94
 		0.25
 		0.14
 	}
-	is_latent = yes
+	is_valuable = yes
 	modifier = {
-		#TBD
+		urban_goods_produced_modifier = 0.15
 	}
 	province = {
-		#TBD
+		local_production_efficiency = 0.2
 	}
 	chance = {
 		factor = 0
@@ -10481,13 +10554,12 @@ limestone = {
 
 herbs = {
 	#134
-	is_valuable = yes
 	color = {
 		0.26
 		0.95
 		0.15
 	}
-	is_latent = yes
+	is_valuable = yes
 	modifier = {
 		monarch_lifespan = 0.1
 	}
@@ -10501,18 +10573,18 @@ herbs = {
 
 hats_and_gloves = {
 	#135
-	is_valuable = yes
 	color = {
 		0.96
 		0.27
 		0.16
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		attrition = -0.2
 	}
 	province = {
-		#TBD
+		province_warscore_cost = 0.15
 	}
 	chance = {
 		factor = 0
@@ -10521,18 +10593,20 @@ hats_and_gloves = {
 
 military_equipment = {
 	#136
-	is_valuable = yes
 	color = {
 		0.97
 		0.28
 		0.17
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		fire_damage_received = -0.05
+		shock_damage_received = -0.05
 	}
 	province = {
-		#TBD
+		regiment_recruit_speed = -0.5
+		local_regiment_cost = -0.5
 	}
 	chance = {
 		factor = 0
@@ -10541,18 +10615,18 @@ military_equipment = {
 
 shoes = {
 	#137
-	is_valuable = yes
 	color = {
 		0.98
 		0.29
 		0.18
 	}
+	is_valuable = yes
 	is_latent = yes
 	modifier = {
-		#TBD
+		movement_speed = 0.1
 	}
 	province = {
-		#TBD
+		local_friendly_movement_speed = 0.1
 	}
 	chance = {
 		factor = 0
@@ -10561,12 +10635,13 @@ shoes = {
 
 coloured_stained_glass = {
 	#138
-	is_valuable = yes
 	color = {
 		0
 		0.7
 		0.45
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		diplomatic_reputation = 1
 	}
@@ -10580,12 +10655,13 @@ coloured_stained_glass = {
 
 organic_soap = {
 	#139
-	is_valuable = yes
 	color = {
 		0.93
 		0.26
 		0.15
 	}
+	is_valuable = yes
+	is_latent = yes
 	modifier = {
 		monarch_lifespan = 0.1
 	}
@@ -10599,7 +10675,6 @@ organic_soap = {
 
 oats = {
     #140
-    is_valuable = yes
     color = {
         0.250
         0.163
@@ -10624,6 +10699,8 @@ brandy = {
         0.119
         0.31
     }
+	is_valuable = yes
+	is_latent = yes
     modifier = {
         promote_culture_cost = -0.15
     }

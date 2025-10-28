@@ -4660,6 +4660,18 @@ province_event = {
 			factor = 0
 		}
 	}
+	#apiculture
+	#whaling
+	#lumber
+	#cinnamon
+	#saffron
+	#rice
+	#opium
+	#horses
+	#amber
+	#jade
+	#marble
+	#lead
 	#cloves
 	option = {
 		name = flavor_gbr.200.cloves
@@ -4674,6 +4686,41 @@ province_event = {
 			factor = 0
 		}
 	}
+	#camel
+	#elephants
+	#tin
+	#dates
+	#citrus
+	#seafood
+	#nutmeg
+	#maize
+	#pearls
+	#silver
+	#exotic_animals
+	#vanilla
+	#ebony
+	#tar
+	#sulfur
+	#maple_syrup
+	#potato
+	#zinc
+	#tomato
+	#sea_turtles
+	#millet
+	#bison_hides
+	#llama
+	#agave
+	#copra
+	#vegetables
+	#diamonds
+	#bamboo
+	#silkworm
+	#fruit
+	#sand
+	#clay
+	#limestone
+	#herbs
+	#oats
 	#unknown
 	option = {
 		name = flavor_gbr.200.unknown
