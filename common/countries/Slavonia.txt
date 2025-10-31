@@ -1,4 +1,4 @@
-#Slavonia
+#SLA - Slavonia
 
 graphical_culture = easterngfx
 

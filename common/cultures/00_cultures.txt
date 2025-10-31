@@ -3953,6 +3953,153 @@ iberian	= {
 			Paula Páscoa Rosa Sancha Teresa Toda Urraca Violante
 		}
 	}
+	#Minhotoese = {
+	#	graphical_culture = latingfx
+	#	country = { } 
+	#	province = { local_has_caravel = yes local_has_galleon = yes }
+	#	#primary = XXX
+	#	dynasty_names = {
+	#		#VU additions by SF
+	#		"de Bragança" "de Avis" "de Sousa" "de Menezes" "de Castro" "de Albuquerque" "de Andrade" "de Pereira" "de Silva" "de Vasconcelos" "de Fonseca" "de Alencar" "de Faria" "de Teive" "de Coutinho" "de Almeida" "de Melo" "de Carvalho" "de Lemos" 
+	#		"de Sousa Chichorro" "de Mascarenhas" "de Azevedo" "de Miranda" "de Távora" "de Noronha" "de Meneses" "de Castro Pacheco" "de Góis" "de Sequeira" "de Portocarreiro" "de Moniz" "de Eça" "de Brito" "de Sá" "de Caminha" "de Faro" "de Moura" "de Lacerda"
+	#	}
+	#	male_names = {
+	#		#VU additions by SF
+	#		Afonso Álvaro Aleixo Amado André António Baltasar Bartolomeu Bernardo Bento Carlos Cristóvão Diogo Domingos Duarte Estevão Fernão Filipe Francisco Frei Gil Gonçalo Gregório Gualdim Henrique João Jorge Lourenço Lopo Luís Martim Martinho Mateus Mendo 
+	#		Miguel Nuno Paio Pedro Pêro Rui Rodrigo Salvador Sancho Sebastião Simão Tomé Vasco Vicente
+	#	}
+	#	female_names = {
+	#		#VU additions by SF
+	#		Alda Aldara Aldonça Alina Almodis Amélia Ana Andreza Beatriz Berengária Branca Brites Catarina Constança Cristina Diolinda Duarteza Elvira Estefânia Filipa Francisca Guiomar Inês Isabel Joana Leonor Lídia Mafalda Maria Margarida Mencía Mécia Milia 
+	#		Paula Páscoa Rosa Sancha Teresa Toda Urraca Violante
+	#	}
+	#}
+	#Transmontanoese = {
+	#	graphical_culture = latingfx
+	#	country = { } 
+	#	province = { local_has_caravel = yes local_has_galleon = yes }
+	#	#primary = XXX
+	#	dynasty_names = {
+	#		#VU additions by SF
+	#		"de Bragança" "de Avis" "de Sousa" "de Menezes" "de Castro" "de Albuquerque" "de Andrade" "de Pereira" "de Silva" "de Vasconcelos" "de Fonseca" "de Alencar" "de Faria" "de Teive" "de Coutinho" "de Almeida" "de Melo" "de Carvalho" "de Lemos" 
+	#		"de Sousa Chichorro" "de Mascarenhas" "de Azevedo" "de Miranda" "de Távora" "de Noronha" "de Meneses" "de Castro Pacheco" "de Góis" "de Sequeira" "de Portocarreiro" "de Moniz" "de Eça" "de Brito" "de Sá" "de Caminha" "de Faro" "de Moura" "de Lacerda"
+	#	}
+	#	male_names = {
+	#		#VU additions by SF
+	#		Afonso Álvaro Aleixo Amado André António Baltasar Bartolomeu Bernardo Bento Carlos Cristóvão Diogo Domingos Duarte Estevão Fernão Filipe Francisco Frei Gil Gonçalo Gregório Gualdim Henrique João Jorge Lourenço Lopo Luís Martim Martinho Mateus Mendo 
+	#		Miguel Nuno Paio Pedro Pêro Rui Rodrigo Salvador Sancho Sebastião Simão Tomé Vasco Vicente
+	#	}
+	#	female_names = {
+	#		#VU additions by SF
+	#		Alda Aldara Aldonça Alina Almodis Amélia Ana Andreza Beatriz Berengária Branca Brites Catarina Constança Cristina Diolinda Duarteza Elvira Estefânia Filipa Francisca Guiomar Inês Isabel Joana Leonor Lídia Mafalda Maria Margarida Mencía Mécia Milia 
+	#		Paula Páscoa Rosa Sancha Teresa Toda Urraca Violante
+	#	}
+	#}
+	#Beiraoese = {
+	#	graphical_culture = latingfx
+	#	country = { } 
+	#	province = { local_has_caravel = yes local_has_galleon = yes }
+	#	#primary = XXX
+	#	dynasty_names = {
+	#		#VU additions by SF
+	#		"de Bragança" "de Avis" "de Sousa" "de Menezes" "de Castro" "de Albuquerque" "de Andrade" "de Pereira" "de Silva" "de Vasconcelos" "de Fonseca" "de Alencar" "de Faria" "de Teive" "de Coutinho" "de Almeida" "de Melo" "de Carvalho" "de Lemos" 
+	#		"de Sousa Chichorro" "de Mascarenhas" "de Azevedo" "de Miranda" "de Távora" "de Noronha" "de Meneses" "de Castro Pacheco" "de Góis" "de Sequeira" "de Portocarreiro" "de Moniz" "de Eça" "de Brito" "de Sá" "de Caminha" "de Faro" "de Moura" "de Lacerda"
+	#	}
+	#	male_names = {
+	#		#VU additions by SF
+	#		Afonso Álvaro Aleixo Amado André António Baltasar Bartolomeu Bernardo Bento Carlos Cristóvão Diogo Domingos Duarte Estevão Fernão Filipe Francisco Frei Gil Gonçalo Gregório Gualdim Henrique João Jorge Lourenço Lopo Luís Martim Martinho Mateus Mendo 
+	#		Miguel Nuno Paio Pedro Pêro Rui Rodrigo Salvador Sancho Sebastião Simão Tomé Vasco Vicente
+	#	}
+	#	female_names = {
+	#		#VU additions by SF
+	#		Alda Aldara Aldonça Alina Almodis Amélia Ana Andreza Beatriz Berengária Branca Brites Catarina Constança Cristina Diolinda Duarteza Elvira Estefânia Filipa Francisca Guiomar Inês Isabel Joana Leonor Lídia Mafalda Maria Margarida Mencía Mécia Milia 
+	#		Paula Páscoa Rosa Sancha Teresa Toda Urraca Violante
+	#	}
+	#}
+	#Mondegoese = {
+	#	graphical_culture = latingfx
+	#	country = { } 
+	#	province = { local_has_caravel = yes local_has_galleon = yes }
+	#	#primary = XXX
+	#	dynasty_names = {
+	#		#VU additions by SF
+	#		"de Bragança" "de Avis" "de Sousa" "de Menezes" "de Castro" "de Albuquerque" "de Andrade" "de Pereira" "de Silva" "de Vasconcelos" "de Fonseca" "de Alencar" "de Faria" "de Teive" "de Coutinho" "de Almeida" "de Melo" "de Carvalho" "de Lemos" 
+	#		"de Sousa Chichorro" "de Mascarenhas" "de Azevedo" "de Miranda" "de Távora" "de Noronha" "de Meneses" "de Castro Pacheco" "de Góis" "de Sequeira" "de Portocarreiro" "de Moniz" "de Eça" "de Brito" "de Sá" "de Caminha" "de Faro" "de Moura" "de Lacerda"
+	#	}
+	#	male_names = {
+	#		#VU additions by SF
+	#		Afonso Álvaro Aleixo Amado André António Baltasar Bartolomeu Bernardo Bento Carlos Cristóvão Diogo Domingos Duarte Estevão Fernão Filipe Francisco Frei Gil Gonçalo Gregório Gualdim Henrique João Jorge Lourenço Lopo Luís Martim Martinho Mateus Mendo 
+	#		Miguel Nuno Paio Pedro Pêro Rui Rodrigo Salvador Sancho Sebastião Simão Tomé Vasco Vicente
+	#	}
+	#	female_names = {
+	#		#VU additions by SF
+	#		Alda Aldara Aldonça Alina Almodis Amélia Ana Andreza Beatriz Berengária Branca Brites Catarina Constança Cristina Diolinda Duarteza Elvira Estefânia Filipa Francisca Guiomar Inês Isabel Joana Leonor Lídia Mafalda Maria Margarida Mencía Mécia Milia 
+	#		Paula Páscoa Rosa Sancha Teresa Toda Urraca Violante
+	#	}
+	#}
+	#Alegrean = {
+	#	graphical_culture = latingfx
+	#	country = { } 
+	#	province = { local_has_caravel = yes local_has_galleon = yes }
+	#	#primary = XXX
+	#	dynasty_names = {
+	#		#VU additions by SF
+	#		"de Bragança" "de Avis" "de Sousa" "de Menezes" "de Castro" "de Albuquerque" "de Andrade" "de Pereira" "de Silva" "de Vasconcelos" "de Fonseca" "de Alencar" "de Faria" "de Teive" "de Coutinho" "de Almeida" "de Melo" "de Carvalho" "de Lemos" 
+	#		"de Sousa Chichorro" "de Mascarenhas" "de Azevedo" "de Miranda" "de Távora" "de Noronha" "de Meneses" "de Castro Pacheco" "de Góis" "de Sequeira" "de Portocarreiro" "de Moniz" "de Eça" "de Brito" "de Sá" "de Caminha" "de Faro" "de Moura" "de Lacerda"
+	#	}
+	#	male_names = {
+	#		#VU additions by SF
+	#		Afonso Álvaro Aleixo Amado André António Baltasar Bartolomeu Bernardo Bento Carlos Cristóvão Diogo Domingos Duarte Estevão Fernão Filipe Francisco Frei Gil Gonçalo Gregório Gualdim Henrique João Jorge Lourenço Lopo Luís Martim Martinho Mateus Mendo 
+	#		Miguel Nuno Paio Pedro Pêro Rui Rodrigo Salvador Sancho Sebastião Simão Tomé Vasco Vicente
+	#	}
+	#	female_names = {
+	#		#VU additions by SF
+	#		Alda Aldara Aldonça Alina Almodis Amélia Ana Andreza Beatriz Berengária Branca Brites Catarina Constança Cristina Diolinda Duarteza Elvira Estefânia Filipa Francisca Guiomar Inês Isabel Joana Leonor Lídia Mafalda Maria Margarida Mencía Mécia Milia 
+	#		Paula Páscoa Rosa Sancha Teresa Toda Urraca Violante
+	#	}
+	#}
+	#Castelo_Branco = {
+	#	graphical_culture = latingfx
+	#	country = { } 
+	#	province = { local_has_caravel = yes local_has_galleon = yes }
+	#	#primary = XXX
+	#	dynasty_names = {
+	#		#VU additions by SF
+	#		"de Bragança" "de Avis" "de Sousa" "de Menezes" "de Castro" "de Albuquerque" "de Andrade" "de Pereira" "de Silva" "de Vasconcelos" "de Fonseca" "de Alencar" "de Faria" "de Teive" "de Coutinho" "de Almeida" "de Melo" "de Carvalho" "de Lemos" 
+	#		"de Sousa Chichorro" "de Mascarenhas" "de Azevedo" "de Miranda" "de Távora" "de Noronha" "de Meneses" "de Castro Pacheco" "de Góis" "de Sequeira" "de Portocarreiro" "de Moniz" "de Eça" "de Brito" "de Sá" "de Caminha" "de Faro" "de Moura" "de Lacerda"
+	#	}
+	#	male_names = {
+	#		#VU additions by SF
+	#		Afonso Álvaro Aleixo Amado André António Baltasar Bartolomeu Bernardo Bento Carlos Cristóvão Diogo Domingos Duarte Estevão Fernão Filipe Francisco Frei Gil Gonçalo Gregório Gualdim Henrique João Jorge Lourenço Lopo Luís Martim Martinho Mateus Mendo 
+	#		Miguel Nuno Paio Pedro Pêro Rui Rodrigo Salvador Sancho Sebastião Simão Tomé Vasco Vicente
+	#	}
+	#	female_names = {
+	#		#VU additions by SF
+	#		Alda Aldara Aldonça Alina Almodis Amélia Ana Andreza Beatriz Berengária Branca Brites Catarina Constança Cristina Diolinda Duarteza Elvira Estefânia Filipa Francisca Guiomar Inês Isabel Joana Leonor Lídia Mafalda Maria Margarida Mencía Mécia Milia 
+	#		Paula Páscoa Rosa Sancha Teresa Toda Urraca Violante
+	#	}
+	#}
+	#Meridional = {
+	#	graphical_culture = latingfx
+	#	country = { } 
+	#	province = { local_has_caravel = yes local_has_galleon = yes }
+	#	#primary = XXX
+	#	dynasty_names = {
+	#		#VU additions by SF
+	#		"de Bragança" "de Avis" "de Sousa" "de Menezes" "de Castro" "de Albuquerque" "de Andrade" "de Pereira" "de Silva" "de Vasconcelos" "de Fonseca" "de Alencar" "de Faria" "de Teive" "de Coutinho" "de Almeida" "de Melo" "de Carvalho" "de Lemos" 
+	#		"de Sousa Chichorro" "de Mascarenhas" "de Azevedo" "de Miranda" "de Távora" "de Noronha" "de Meneses" "de Castro Pacheco" "de Góis" "de Sequeira" "de Portocarreiro" "de Moniz" "de Eça" "de Brito" "de Sá" "de Caminha" "de Faro" "de Moura" "de Lacerda"
+	#	}
+	#	male_names = {
+	#		#VU additions by SF
+	#		Afonso Álvaro Aleixo Amado André António Baltasar Bartolomeu Bernardo Bento Carlos Cristóvão Diogo Domingos Duarte Estevão Fernão Filipe Francisco Frei Gil Gonçalo Gregório Gualdim Henrique João Jorge Lourenço Lopo Luís Martim Martinho Mateus Mendo 
+	#		Miguel Nuno Paio Pedro Pêro Rui Rodrigo Salvador Sancho Sebastião Simão Tomé Vasco Vicente
+	#	}
+	#	female_names = {
+	#		#VU additions by SF
+	#		Alda Aldara Aldonça Alina Almodis Amélia Ana Andreza Beatriz Berengária Branca Brites Catarina Constança Cristina Diolinda Duarteza Elvira Estefânia Filipa Francisca Guiomar Inês Isabel Joana Leonor Lídia Mafalda Maria Margarida Mencía Mécia Milia 
+	#		Paula Páscoa Rosa Sancha Teresa Toda Urraca Violante
+	#	}
+	#}
 	dynasty_names = {
 	    #VU additions by SF (Got rid of the old PDX list as it was neither historical nor accurate and had some biases) 
 		"de Trastámara" "de Guzmán" "de Toledo" "de la Cerda" "de Castilla" "de Valencia" "Téllez-Girón" "Manrique de Lara" "de Ávalos" "Enríquez" "Osuna" "Argavieso" "Ruspoli" "de la Vega" "de Hoyos" "Zayas" "de Alcalá" "de Menezes" "de Mendoza" "de Niebla" 

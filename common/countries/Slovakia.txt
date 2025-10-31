@@ -1,4 +1,4 @@
-#SLO - Slovakia
+#SLO - Slovakia/Nyitra
 
 graphical_culture = westerngfx #easterngfx
 

@@ -1087,6 +1087,9 @@ unlocked_islamic_imamate_reform = {
     government_abilities = {
         iqta_mechanic
     }
+    ai = {
+        factor = 100
+    }
 }
 
 islamic_grand_muftate_reform = {
@@ -1160,6 +1163,9 @@ unlocked_islamic_grand_muftate_reform = {
     }
     government_abilities = {
         iqta_mechanic
+    }
+    ai = {
+        factor = 100
     }
 }
 
@@ -1237,6 +1243,9 @@ unlocked_islamic_sheikdom_reform = {
     government_abilities = {
         iqta_mechanic
     }
+    ai = {
+        factor = 100
+    }
 }
 
 islamic_sharifate_reform = {
@@ -1312,6 +1321,9 @@ unlocked_islamic_sharifate_reform = {
     }
     government_abilities = {
         iqta_mechanic
+    }
+    ai = {
+        factor = 100
     }
 }
 

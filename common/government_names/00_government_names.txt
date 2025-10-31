@@ -2613,52 +2613,52 @@ korean_monarchy = {
 
 romanian_monarchy = {
     rank = {
-        6 = ROM_DUCHY
-        7 = ROM_PRINCIPALITY
-        8 = ROM_KINGDOM
-        9 = ROM_EMPIRE
+        6 = RMN_DUCHY
+        7 = RMN_PRINCIPALITY
+        8 = RMN_KINGDOM
+        9 = RMN_EMPIRE
     }
 
     ruler_male = {
-        6 = ROM_DUKE
-        7 = ROM_PRINCE
-        8 = ROM_KING
-        9 = ROM_EMPEROR
+        6 = RMN_DUKE
+        7 = RMN_PRINCE
+        8 = RMN_KING
+        9 = RMN_EMPEROR
     }
 
     ruler_female = {
-        6 = ROM_DUCHESS
-        7 = ROM_PRINCESS
-        8 = ROM_QUEEN
-        9 = ROM_EMPRESS
+        6 = RMN_DUCHESS
+        7 = RMN_PRINCESS
+        8 = RMN_QUEEN
+        9 = RMN_EMPRESS
     }
 
     consort_male = {
-        6 = ROM_DUKE_CONSORT
-        7 = ROM_PRINCE_CONSORT
-        8 = ROM_KING_CONSORT
-        9 = ROM_EMPEROR_CONSORT
+        6 = RMN_DUKE_CONSORT
+        7 = RMN_PRINCE_CONSORT
+        8 = RMN_KING_CONSORT
+        9 = RMN_EMPEROR_CONSORT
     }
 
     consort_female = {
-        6 = ROM_DUCHESS_CONSORT_fem
-        7 = ROM_PRINCESS_CONSORT_fem
-        8 = ROM_QUEEN_CONSORT_fem
-        9 = ROM_EMPRESS_CONSORT_fem
+        6 = RMN_DUCHESS_CONSORT_fem
+        7 = RMN_PRINCESS_CONSORT_fem
+        8 = RMN_QUEEN_CONSORT_fem
+        9 = RMN_EMPRESS_CONSORT_fem
     }
 
     heir_male = {
-        6 = ROM_PRINCE
-        7 = ROM_PRINCE
-        8 = ROM_PRINCE
-        9 = ROM_PRINCE
+        6 = RMN_PRINCE
+        7 = RMN_PRINCE
+        8 = RMN_PRINCE
+        9 = RMN_PRINCE
     }
 
     heir_female = {
-        6 = ROM_PRINCESS
-        7 = ROM_PRINCESS
-        8 = ROM_PRINCESS
-        9 = ROM_PRINCESS
+        6 = RMN_PRINCESS
+        7 = RMN_PRINCESS
+        8 = RMN_PRINCESS
+        9 = RMN_PRINCESS
     }
 
     trigger = {
@@ -3662,86 +3662,81 @@ mong_monarchy = {
 #Less Specific Monarchies
 croatian_monarchy = {
     rank = {
-        1 = VOJVOTSTVO
-        2 = VOJVOTSTVO
-        3 = VOJVOTSTVO
-        4 = VOJVOTSTVO
-        5 = VOJVOTSTVO
-        6 = VOJVOTSTVO
-        7 = KNEZEVINA
-        8 = KRALJEVSTVO
-        9 = CISARSTVO
+        1 = CRO_LORDSHIP
+        2 = CRO_BARONY
+        3 = CRO_VISCOUNTY
+        4 = CRO_COUNTY
+        5 = CRO_MARQUISATE
+        6 = CRO_DUCHY
+        7 = CRO_PRINCIPALITY
+        8 = CRO_KINGDOM
+        9 = CRO_EMPIRE
     }
-
     ruler_male = {
-        1 = VOJVOTA
-        2 = VOJVOTA
-        3 = VOJVOTA
-        4 = VOJVOTA
-        5 = VOJVOTA
-        6 = VOJVOTA
-        7 = PRINC
-        8 = KRALJ
-        9 = CAR
+        1 = CRO_LORD
+        2 = CRO_BARON
+        3 = CRO_VISCOUNT
+        4 = CRO_COUNT
+        5 = CRO_MARQUIS
+        6 = CRO_DUKE
+        7 = CRO_PRINCE
+        8 = CRO_KING
+        9 = CRO_EMPEROR
     }
-
     ruler_female = {
-        1 = VOJVOTA
-        2 = VOJVOTA
-        3 = VOJVOTA
-        4 = VOJVOTA
-        5 = VOJVOTA
-        6 = VOJVOTA
-        7 = PRINC
-        8 = KRALJ
-        9 = CAR
+        1 = CRO_LADY_fem
+        2 = CRO_BARONESS_fem
+        3 = CRO_VISCOUNTESS_fem
+        4 = CRO_COUNTESS_fem
+        5 = CRO_MARCHIONESS_fem
+        6 = CRO_DUCHESS_fem
+        7 = CRO_PRINCESS_fem
+        8 = CRO_QUEEN_fem
+        9 = CRO_EMPRESS_fem
     }
-
     consort_male = {
-        1 = VOJVOTA_CONSORT
-        2 = VOJVOTA_CONSORT
-        3 = VOJVOTA_CONSORT
-        4 = VOJVOTA_CONSORT
-        5 = VOJVOTA_CONSORT
-        6 = VOJVOTA_CONSORT            #Duke-Consort
-        7 = PRINC_CONSORT              #Princ-Consort
-        8 = KRAL_CONSORT               #Kral-Consort
-        9 = CAR_CONSORT                #Emperor-Consort
+        1 = CRO_LORD_CONSORT
+        2 = CRO_LORD_CONSORT
+        3 = CRO_LORD_CONSORT
+        4 = CRO_LORD_CONSORT
+        5 = CRO_LORD_CONSORT
+        6 = CRO_DUKE_CONSORT
+        7 = CRO_PRINCE_CONSORT
+        8 = CRO_KING_CONSORT
+        9 = CRO_EMPEROR_CONSORT
     }
-
     consort_female = {
-        1 = VOJVOTKINJA_CONSORT_fem
-        2 = VOJVOTKINJA_CONSORT_fem
-        3 = VOJVOTKINJA_CONSORT_fem
-        4 = VOJVOTKINJA_CONSORT_fem
-        5 = VOJVOTKINJA_CONSORT_fem
-        6 = VOJVOTKINJA_CONSORT_fem        #Duke-Consort
-        7 = PRINCEZA_CONSORT_fem       #Princ-Consort
-        8 = KRALJICA_CONSORT_fem       #Kral-Consort
-        9 = CARICA_CONSORT_fem         #Emperor-Consort
+        1 = CRO_LADY_CONSORT_fem
+        2 = CRO_LADY_CONSORT_fem
+        3 = CRO_LADY_CONSORT_fem
+        4 = CRO_LADY_CONSORT_fem
+        5 = CRO_LADY_CONSORT_fem
+        6 = CRO_DUCHESS_CONSORT_fem
+        7 = CRO_PRINCESS_CONSORT_fem
+        8 = CRO_QUEEN_CONSORT_fem
+        9 = CRO_EMPRESS_CONSORT_fem
     }
     heir_male = {
-        1 = PRINC
-        2 = PRINC
-        3 = PRINC
-        4 = PRINC
-        5 = PRINC
-        6 = PRINC
-        7 = PRINC
-        8 = PRESTOLONASLJEDNIK
-        9 = PRESTOLONASLJEDNIK
+        1 = CRO_LORD
+        2 = CRO_LORD
+        3 = CRO_LORD
+        4 = CRO_LORD
+        5 = CRO_LORD
+        6 = CRO_PRINCE
+        7 = CRO_PRINCE
+        8 = CRO_CROWN_PRINCE
+        9 = CRO_CROWN_PRINCE
     }
-
     heir_female = {
-        1 = PRINCEZA_fem
-        2 = PRINCEZA_fem
-        3 = PRINCEZA_fem
-        4 = PRINCEZA_fem
-        5 = PRINCEZA_fem
-        6 = PRINCEZA_fem
-        7 = PRINCEZA_fem
-        8 = PRIJESTOLONASLJEDNICA_fem
-        9 = PRIJESTOLONASLJEDNICA_fem
+        1 = CRO_LADY_fem
+        2 = CRO_LADY_fem
+        3 = CRO_LADY_fem
+        4 = CRO_LADY_fem
+        5 = CRO_LADY_fem
+        6 = CRO_PRINCESS_fem
+        7 = CRO_PRINCESS_fem
+        8 = CRO_CROWN_PRINCESS_fem
+        9 = CRO_CROWN_PRINCESS_fem
     }
 
     trigger = {
@@ -3773,52 +3768,81 @@ croatian_monarchy = {
 
 serbian_monarchy = {
     rank = {
-        6 = VOJVODSTVO
-        7 = SRPSKA_DESPOTOVINA
-        8 = KRALJEVSTVO
-        9 = IMPERIJA
+        1 = SER_LORDSHIP
+        2 = SER_BARONY
+        3 = SER_VISCOUNTY
+        4 = SER_COUNTY
+        5 = SER_MARQUISATE
+        6 = SER_SERBIAN_DESPOTATE
+        7 = SER_PRINCIPALITY
+        8 = SER_KINGDOM
+        9 = SER_EMPIRE
     }
-
     ruler_male = {
-        6 = VOIVODE
-        7 = DESPOT
-        8 = KRALJ
-        9 = CARU
+        1 = SER_LORD
+        2 = SER_BARON
+        3 = SER_VISCOUNT
+        4 = SER_COUNT
+        5 = SER_MARQUIS
+        6 = SER_DUKE
+        7 = SER_PRINCE
+        8 = SER_KING
+        9 = SER_EMPEROR
     }
-
     ruler_female = {
-        6 = VOJVODKINJA_fem
-        7 = DESPOTISSA_fem
-        8 = KRALJICA_fem
-        9 = CARICA_fem
+        1 = SER_LADY_fem
+        2 = SER_BARONESS_fem
+        3 = SER_VISCOUNTESS_fem
+        4 = SER_COUNTESS_fem
+        5 = SER_MARCHIONESS_fem
+        6 = SER_DUCHESS_fem
+        7 = SER_PRINCESS_fem
+        8 = SER_QUEEN_fem
+        9 = SER_EMPRESS_fem
     }
-
     consort_male = {
-        6 = VOIVODE
-        7 = PRINC
-        8 = KRALJ
-        9 = CARU
+        1 = SER_LORD_CONSORT
+        2 = SER_LORD_CONSORT
+        3 = SER_LORD_CONSORT
+        4 = SER_LORD_CONSORT
+        5 = SER_LORD_CONSORT
+        6 = SER_DUKE_CONSORT
+        7 = SER_PRINCE_CONSORT
+        8 = SER_KING_CONSORT
+        9 = SER_EMPEROR_CONSORT
     }
-
     consort_female = {
-        6 = VOJVODKINJA_fem
-        7 = PRINCEZA_fem
-        8 = KRALJICA_fem
-        9 = CARICA_fem
+        1 = SER_LADY_CONSORT_fem
+        2 = SER_LADY_CONSORT_fem
+        3 = SER_LADY_CONSORT_fem
+        4 = SER_LADY_CONSORT_fem
+        5 = SER_LADY_CONSORT_fem
+        6 = SER_DUCHESS_CONSORT_fem
+        7 = SER_PRINCESS_CONSORT_fem
+        8 = SER_QUEEN_CONSORT_fem
+        9 = SER_EMPRESS_CONSORT_fem
     }
-
     heir_male = {
-        6 = PRINC
-        7 = PRINC
-        8 = PRINC
-        9 = PRINC
+        1 = SER_LORD
+        2 = SER_LORD
+        3 = SER_LORD
+        4 = SER_LORD
+        5 = SER_LORD
+        6 = SER_PRINCE
+        7 = SER_PRINCE
+        8 = SER_CROWN_PRINCE
+        9 = SER_CROWN_PRINCE
     }
-
     heir_female = {
-        6 = PRINCEZA_fem
-        7 = PRINCEZA_fem
-        8 = PRINCEZA_fem
-        9 = PRINCEZA_fem
+        1 = SER_LADY_fem
+        2 = SER_LADY_fem
+        3 = SER_LADY_fem
+        4 = SER_LADY_fem
+        5 = SER_LADY_fem
+        6 = SER_PRINCESS_fem
+        7 = SER_PRINCESS_fem
+        8 = SER_CROWN_PRINCESS_fem
+        9 = SER_CROWN_PRINCESS_fem
     }
 
     trigger = {
@@ -3838,52 +3862,81 @@ serbian_monarchy = {
 
 slovenian_monarchy = {
     rank = {
-        6 = VOJVODSTVO
-        7 = KNEZEVINA
-        8 = KRALJESTVO
-        9 = CESARSTVO
+        1 = SLO_LORDSHIP
+        2 = SLO_BARONY
+        3 = SLO_VISCOUNTY
+        4 = SLO_COUNTY
+        5 = SLO_MARQUISATE
+        6 = SLO_DUCHY
+        7 = SLO_PRINCIPALITY
+        8 = SLO_KINGDOM
+        9 = SLO_EMPIRE
     }
-
     ruler_male = {
-        6 = VOJVODA
-        7 = PRINC
-        8 = KRALJ
-        9 = CESAR
+        1 = SLO_LORD
+        2 = SLO_BARON
+        3 = SLO_VISCOUNT
+        4 = SLO_COUNT
+        5 = SLO_MARQUIS
+        6 = SLO_DUKE
+        7 = SLO_PRINCE
+        8 = SLO_KING
+        9 = SLO_EMPEROR
     }
-
     ruler_female = {
-        6 = VOJVODKINJA_fem
-        7 = PRINCESA_fem
-        8 = KRALJICA_fem
-        9 = CESARICA_fem
+        1 = SLO_LADY_fem
+        2 = SLO_BARONESS_fem
+        3 = SLO_VISCOUNTESS_fem
+        4 = SLO_COUNTESS_fem
+        5 = SLO_MARCHIONESS_fem
+        6 = SLO_DUCHESS_fem
+        7 = SLO_PRINCESS_fem
+        8 = SLO_QUEEN_fem
+        9 = SLO_EMPRESS_fem
     }
-
     consort_male = {
-        6 = VOJVODA
-        7 = PRINC
-        8 = KRALJ
-        9 = CESAR
+        1 = SLO_LORD_CONSORT
+        2 = SLO_LORD_CONSORT
+        3 = SLO_LORD_CONSORT
+        4 = SLO_LORD_CONSORT
+        5 = SLO_LORD_CONSORT
+        6 = SLO_DUKE_CONSORT
+        7 = SLO_PRINCE_CONSORT
+        8 = SLO_KING_CONSORT
+        9 = SLO_EMPEROR_CONSORT
     }
-
     consort_female = {
-        6 = VOJVODKINJA_fem
-        7 = PRINCESA_fem
-        8 = KRALJICA_fem
-        9 = CESARICA_fem
+        1 = SLO_LADY_CONSORT_fem
+        2 = SLO_LADY_CONSORT_fem
+        3 = SLO_LADY_CONSORT_fem
+        4 = SLO_LADY_CONSORT_fem
+        5 = SLO_LADY_CONSORT_fem
+        6 = SLO_DUCHESS_CONSORT_fem
+        7 = SLO_PRINCESS_CONSORT_fem
+        8 = SLO_QUEEN_CONSORT_fem
+        9 = SLO_EMPRESS_CONSORT_fem
     }
-
     heir_male = {
-        6 = GOSPOD
-        7 = PRINC
-        8 = PRINC
-        9 = PRINC
+        1 = SLO_LORD
+        2 = SLO_LORD
+        3 = SLO_LORD
+        4 = SLO_LORD
+        5 = SLO_LORD
+        6 = SLO_PRINCE
+        7 = SLO_PRINCE
+        8 = SLO_CROWN_PRINCE
+        9 = SLO_CROWN_PRINCE
     }
-
     heir_female = {
-        6 = GOSPA_fem
-        7 = PRINCESA_fem
-        8 = PRINCESA_fem
-        9 = PRINCESA_fem
+        1 = SLO_LADY_fem
+        2 = SLO_LADY_fem
+        3 = SLO_LADY_fem
+        4 = SLO_LADY_fem
+        5 = SLO_LADY_fem
+        6 = SLO_PRINCESS_fem
+        7 = SLO_PRINCESS_fem
+        8 = SLO_CROWN_PRINCESS_fem
+        9 = SLO_CROWN_PRINCESS_fem
     }
 
     trigger = {
@@ -3895,52 +3948,81 @@ slovenian_monarchy = {
 
 bulgarian_monarchy = {
     rank = {
-        6 = VOJVODSTVO
-        7 = KNEZEVINA
-        8 = KRALJEVSTVO
-        9 = IMPERIJA
+        1 = BUL_LORDSHIP
+        2 = BUL_BARONY
+        3 = BUL_VISCOUNTY
+        4 = BUL_COUNTY
+        5 = BUL_MARQUISATE
+        6 = BUL_DUCHY
+        7 = BUL_PRINCIPALITY
+        8 = BUL_KINGDOM
+        9 = BUL_EMPIRE
     }
-
     ruler_male = {
-        6 = KHERTSOG
-        7 = PRINTS
-        8 = KRAL
-        9 = TSAR
+        1 = BUL_LORD
+        2 = BUL_BARON
+        3 = BUL_VISCOUNT
+        4 = BUL_COUNT
+        5 = BUL_MARQUIS
+        6 = BUL_DUKE
+        7 = BUL_PRINCE
+        8 = BUL_KING
+        9 = BUL_EMPEROR
     }
-
     ruler_female = {
-        6 = KHERTSOGINYA_fem
-        7 = PRINTSESA_fem
-        8 = KRALITSA_fem
-        9 = TSARINA_fem
+        1 = BUL_LADY_fem
+        2 = BUL_BARONESS_fem
+        3 = BUL_VISCOUNTESS_fem
+        4 = BUL_COUNTESS_fem
+        5 = BUL_MARCHIONESS_fem
+        6 = BUL_DUCHESS_fem
+        7 = BUL_PRINCESS_fem
+        8 = BUL_QUEEN_fem
+        9 = BUL_EMPRESS_fem
     }
-
     consort_male = {
-        6 = KHERTSOG
-        7 = PRINTS
-        8 = KRAL
-        9 = TSAR
+        1 = BUL_LORD_CONSORT
+        2 = BUL_LORD_CONSORT
+        3 = BUL_LORD_CONSORT
+        4 = BUL_LORD_CONSORT
+        5 = BUL_LORD_CONSORT
+        6 = BUL_DUKE_CONSORT
+        7 = BUL_PRINCE_CONSORT
+        8 = BUL_KING_CONSORT
+        9 = BUL_EMPEROR_CONSORT
     }
-
     consort_female = {
-        6 = KHERTSOGINYA_fem
-        7 = PRINTSESA_fem
-        8 = KRALITSA_fem
-        9 = TSARINA_fem
+        1 = BUL_LADY_CONSORT_fem
+        2 = BUL_LADY_CONSORT_fem
+        3 = BUL_LADY_CONSORT_fem
+        4 = BUL_LADY_CONSORT_fem
+        5 = BUL_LADY_CONSORT_fem
+        6 = BUL_DUCHESS_CONSORT_fem
+        7 = BUL_PRINCESS_CONSORT_fem
+        8 = BUL_QUEEN_CONSORT_fem
+        9 = BUL_EMPRESS_CONSORT_fem
     }
-
     heir_male = {
-        6 = GOSPODI
-        7 = PRINTS
-        8 = PRINTS
-        9 = PRINTS
+        1 = BUL_LORD
+        2 = BUL_LORD
+        3 = BUL_LORD
+        4 = BUL_LORD
+        5 = BUL_LORD
+        6 = BUL_PRINCE
+        7 = BUL_PRINCE
+        8 = BUL_CROWN_PRINCE
+        9 = BUL_CROWN_PRINCE
     }
-
     heir_female = {
-        6 = GOSPODA_fem
-        7 = PRINTSESA_fem
-        8 = PRINTSESA_fem
-        9 = PRINTSESA_fem
+        1 = BUL_LADY_fem
+        2 = BUL_LADY_fem
+        3 = BUL_LADY_fem
+        4 = BUL_LADY_fem
+        5 = BUL_LADY_fem
+        6 = BUL_PRINCESS_fem
+        7 = BUL_PRINCESS_fem
+        8 = BUL_CROWN_PRINCESS_fem
+        9 = BUL_CROWN_PRINCESS_fem
     }
 
     trigger = {
@@ -3951,52 +4033,81 @@ bulgarian_monarchy = {
 
 south_slavic_monarchy = {
     rank = {
-        6 = VOJVODSTVO
-        7 = KNEZEVINA
-        8 = KRALJEVSTVO
-        9 = IMPERIJA
+        1 = BOS_LORDSHIP
+        2 = BOS_BARONY
+        3 = BOS_VISCOUNTY
+        4 = BOS_COUNTY
+        5 = BOS_MARQUISATE
+        6 = BOS_DUCHY
+        7 = BOS_PRINCIPALITY
+        8 = BOS_KINGDOM
+        9 = BOS_EMPIRE
     }
-
     ruler_male = {
-        6 = VOIVODE
-        7 = PRINC
-        8 = KRALJ
-        9 = CARU
+        1 = BOS_LORD
+        2 = BOS_BARON
+        3 = BOS_VISCOUNT
+        4 = BOS_COUNT
+        5 = BOS_MARQUIS
+        6 = BOS_DUKE
+        7 = BOS_PRINCE
+        8 = BOS_KING
+        9 = BOS_EMPEROR
     }
-
     ruler_female = {
-        6 = VOJVODKINJA_fem
-        7 = PRINCEZA_fem
-        8 = KRALJICA_fem
-        9 = CARICA_fem
+        1 = BOS_LADY_fem
+        2 = BOS_BARONESS_fem
+        3 = BOS_VISCOUNTESS_fem
+        4 = BOS_COUNTESS_fem
+        5 = BOS_MARCHIONESS_fem
+        6 = BOS_DUCHESS_fem
+        7 = BOS_PRINCESS_fem
+        8 = BOS_QUEEN_fem
+        9 = BOS_EMPRESS_fem
     }
-
     consort_male = {
-        6 = VOIVODE
-        7 = PRINC
-        8 = KRALJ
-        9 = CARU
+        1 = BOS_LORD_CONSORT
+        2 = BOS_LORD_CONSORT
+        3 = BOS_LORD_CONSORT
+        4 = BOS_LORD_CONSORT
+        5 = BOS_LORD_CONSORT
+        6 = BOS_DUKE_CONSORT
+        7 = BOS_PRINCE_CONSORT
+        8 = BOS_KING_CONSORT
+        9 = BOS_EMPEROR_CONSORT
     }
-
     consort_female = {
-        6 = VOJVODKINJA_fem
-        7 = PRINCEZA_fem
-        8 = KRALJICA_fem
-        9 = CARICA_fem
+        1 = BOS_LADY_CONSORT_fem
+        2 = BOS_LADY_CONSORT_fem
+        3 = BOS_LADY_CONSORT_fem
+        4 = BOS_LADY_CONSORT_fem
+        5 = BOS_LADY_CONSORT_fem
+        6 = BOS_DUCHESS_CONSORT_fem
+        7 = BOS_PRINCESS_CONSORT_fem
+        8 = BOS_QUEEN_CONSORT_fem
+        9 = BOS_EMPRESS_CONSORT_fem
     }
-
     heir_male = {
-        6 = GOSPODE
-        7 = PRINC
-        8 = PRINC
-        9 = PRINC
+        1 = BOS_LORD
+        2 = BOS_LORD
+        3 = BOS_LORD
+        4 = BOS_LORD
+        5 = BOS_LORD
+        6 = BOS_PRINCE
+        7 = BOS_PRINCE
+        8 = BOS_CROWN_PRINCE
+        9 = BOS_CROWN_PRINCE
     }
-
     heir_female = {
-        6 = LADI_fem
-        7 = PRINCEZA_fem
-        8 = PRINCEZA_fem
-        9 = PRINCEZA_fem
+        1 = BOS_LADY_fem
+        2 = BOS_LADY_fem
+        3 = BOS_LADY_fem
+        4 = BOS_LADY_fem
+        5 = BOS_LADY_fem
+        6 = BOS_PRINCESS_fem
+        7 = BOS_PRINCESS_fem
+        8 = BOS_CROWN_PRINCESS_fem
+        9 = BOS_CROWN_PRINCESS_fem
     }
 
     trigger = {
@@ -4008,19 +4119,6 @@ south_slavic_monarchy = {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 dutch_republic = {
     rank = {

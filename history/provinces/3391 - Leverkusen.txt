@@ -3,7 +3,7 @@
 owner = KOL
 controller = KOL
 add_core = KOL
-culture = swiss
+culture = hessian
 religion = catholic
 capital = "Leverkusen"
 trade_goods = dyes

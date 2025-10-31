@@ -13,7 +13,3 @@ base_manpower = 1
 trade_goods = lumber
 is_city = yes
 hre = no
-
-#History by SF
-1442.1.1 = { unrest = 0 owner = SMO controller = SMO add_core = SMO remove_core = LIT }
-

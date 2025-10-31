@@ -14,6 +14,9 @@ base_manpower = 8
 capital = "Palermo"
 is_city = yes
 
+#Buildings
+fort_15th = yes
+
 #Commerce
 center_of_trade = 4
 

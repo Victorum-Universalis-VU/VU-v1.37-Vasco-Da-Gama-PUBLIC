@@ -4,7 +4,7 @@
 owner = AMD
 controller = AMD
 add_core = AMD
-culture = andalusi_arabic
+culture = andalucian
 religion = catholic
 capital = "Lorca"
 base_tax = 2

@@ -16,4 +16,9 @@ capital = "Forfar" #"Dundee"
 is_city = yes
 
 #History by SF
-1444.11.11 = { owner = DUG controller = DUG add_core = DUG } # The Isles clan territory - By San Felipe
+1444.11.11 = { 
+	owner = DUG 
+	controller = DUG 
+	add_core = DUG
+	culture = celtic_lowland_scottish
+} # The Isles clan territory - By San Felipe

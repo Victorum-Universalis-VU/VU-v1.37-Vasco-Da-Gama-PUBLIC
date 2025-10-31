@@ -23,6 +23,7 @@ barracks = yes
 workshop = yes
 grand_cathedral = yes
 custom_house = yes
+fort_15th = yes
 
 #Claimants
 add_core = CAS

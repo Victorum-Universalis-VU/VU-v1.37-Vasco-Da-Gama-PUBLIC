@@ -1385,9 +1385,10 @@ call_peerage_into_wars = {
 	require_acceptance = no
 	is_visible = {
 		FROM = {
-			is_subject_of = ROOT
-			is_ToR_subject_type = yes
-			NOT = { is_crown_subject_type = yes }
+			AND = {
+				is_subject_of = ROOT
+				is_ToR_subject_type = yes
+			}
 		}
 	}
 	is_allowed = {
@@ -1456,8 +1457,10 @@ call_governor_into_wars = {
 	require_acceptance = no
 	is_visible = {
 		FROM = {
-			is_subject_of = ROOT
-			is_muslim_subject_type = yes
+			AND = {
+				is_subject_of = ROOT
+				is_muslim_subject_type = yes
+			}
 		}
 	}
 	is_allowed = {
@@ -1526,8 +1529,10 @@ call_viceroy_into_wars = {
 	require_acceptance = no
 	is_visible = {
 		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = feudal_republic
+			AND = {
+				is_subject_of = ROOT
+				is_subject_of_type = feudal_republic
+			}
 		}
 	}
 	is_allowed = {
@@ -1596,8 +1601,10 @@ call_bishopric_into_wars = {
 	require_acceptance = no
 	is_visible = {
 		FROM = {
-			is_subject_of = ROOT
-			is_theocratic_subject_type = yes
+			AND = {
+				is_subject_of = ROOT
+				is_theocratic_subject_type = yes
+			}
 		}
 	}
 	is_allowed = {
@@ -1666,8 +1673,10 @@ call_voivode_into_wars = {
 	require_acceptance = no
 	is_visible = {
 		FROM = {
-			is_subject_of = ROOT
-			is_slavic_subject_type = yes
+			AND = {
+				is_subject_of = ROOT
+				is_slavic_subject_type = yes
+			}
 		}
 	}
 	is_allowed = {
@@ -1731,74 +1740,76 @@ call_voivode_into_wars = {
 }
 
 # Call Crown Subjects Into Wars by Prussia
-call_crown_subject_into_wars = {
-	category = influence
-	require_acceptance = no
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_crown_subject_type = yes
-		}
-	}
-	is_allowed = {
-		if = {
-			limit = {
-				FROM = {
-					liberty_desire = 50
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = FROM_IS_REBELLIOUS_TT
-				FROM = {
-					liberty_desire = 50
-				}
-			}
-		}
-		if = {
-			limit = {
-				is_at_war = no
-			}
-			custom_trigger_tooltip = {
-				tooltip = ROOT_IS_NOT_AT_WAR_TT
-				is_at_war = yes
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					is_at_war = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = FROM_IS_AT_WAR_TT
-				FROM = {
-					is_at_war = no
-				}
-			}
-		}
-	}
-	on_accept = {
-		FROM = {
-			join_all_defensive_wars_of = ROOT
-		}
-		if = {
-			limit = {
-				is_in_war = {
-					attackers = ROOT
-				}
-			}
-			FROM = {
-				join_all_offensive_wars_of = ROOT
-			}
-		}
-	}
-	on_decline = {
-	}
-	ai_will_do = {
-		# this is a trigger
-		always = yes
-	}
-}
+#call_crown_subject_into_wars = { # Hashed this out for now since they're already included under the ToR Peerage subject type entry so this is a bit redundant - Prussia
+#	category = influence
+#	require_acceptance = no
+#	is_visible = {
+#		FROM = {
+#			AND = {
+#				is_subject_of = ROOT
+#				is_crown_subject_type = yes
+#			}
+#		}
+#	}
+#	is_allowed = {
+#		if = {
+#			limit = {
+#				FROM = {
+#					liberty_desire = 50
+#				}
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = FROM_IS_REBELLIOUS_TT
+#				FROM = {
+#					liberty_desire = 50
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				is_at_war = no
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = ROOT_IS_NOT_AT_WAR_TT
+#				is_at_war = yes
+#			}
+#		}
+#		if = {
+#			limit = {
+#				FROM = {
+#					is_at_war = yes
+#				}
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = FROM_IS_AT_WAR_TT
+#				FROM = {
+#					is_at_war = no
+#				}
+#			}
+#		}
+#	}
+#	on_accept = {
+#		FROM = {
+#			join_all_defensive_wars_of = ROOT
+#		}
+#		if = {
+#			limit = {
+#				is_in_war = {
+#					attackers = ROOT
+#				}
+#			}
+#			FROM = {
+#				join_all_offensive_wars_of = ROOT
+#			}
+#		}
+#	}
+#	on_decline = {
+#	}
+#	ai_will_do = {
+#		# this is a trigger
+#		always = yes
+#	}
+#}
 
 # Call Principality Into Wars by Prussia
 call_principality_into_wars = {
@@ -1806,8 +1817,19 @@ call_principality_into_wars = {
 	require_acceptance = no
 	is_visible = {
 		FROM = {
-			is_subject_of = ROOT
-			is_asian_principality_subject_type = yes
+			AND = {
+				is_subject_of = ROOT
+					OR = {
+						is_subject_of_type = vu_chinese_heaven_principality
+						is_subject_of_type = vu_chinese_lake_principality
+						is_subject_of_type = vu_chinese_fire_principality
+						is_subject_of_type = vu_chinese_thunder_principality
+						is_subject_of_type = vu_chinese_wind_principality
+						is_subject_of_type = vu_chinese_water_principality
+						is_subject_of_type = vu_chinese_mountain_principality
+						is_subject_of_type = vu_chinese_earth_principality
+					}
+			}
 		}
 	}
 	is_allowed = {
@@ -1876,8 +1898,21 @@ call_daimyo_into_wars = {
 	require_acceptance = no
 	is_visible = {
 		FROM = {
-			is_subject_of = ROOT
-			is_japanese_subject_type = yes
+			AND = {
+				is_subject_of = ROOT
+				OR = {
+					is_subject_of_type = daimyo_county_vassal
+					is_subject_of_type = daimyo_viscounty_vassal
+					is_subject_of_type = daimyo_county_vassal
+					is_subject_of_type = daimyo_marquisate_vassal
+					is_subject_of_type = daimyo_duchy_vassal
+					is_subject_of_type = daimyo_principality_vassal
+					is_subject_of_type = vu_japanese_imperial_colony
+					is_subject_of_type = vu_japanese_imperial_directorate
+					is_subject_of_type = vu_japanese_imperial_governate
+					is_subject_of_type = vu_japanese_imperial_warlord
+				}
+			}
 		}
 	}
 	is_allowed = {

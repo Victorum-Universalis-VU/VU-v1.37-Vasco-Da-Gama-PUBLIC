@@ -2895,7 +2895,7 @@ gme_igreja_madre_deus = {
     on_destroyed = { }
     can_use_modifiers_trigger = {
         OR = {
-            province_is_or_accepts_religion = {
+            province_is_or_accepts_religion_group = {
                 religion_group = christian
             }
             owner = {
@@ -2905,7 +2905,7 @@ gme_igreja_madre_deus = {
     }
     can_upgrade_trigger = {
         OR = {
-            province_is_or_accepts_religion = {
+            province_is_or_accepts_religion_group = {
                 religion_group = christian
             }
             owner = {

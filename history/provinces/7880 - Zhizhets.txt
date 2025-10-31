@@ -14,5 +14,3 @@ trade_goods = fur
 is_city = yes
 hre = no
 
-#History by SF
-1442.1.1 = { owner = SMO controller = SMO add_core = SMO remove_core = LIT }

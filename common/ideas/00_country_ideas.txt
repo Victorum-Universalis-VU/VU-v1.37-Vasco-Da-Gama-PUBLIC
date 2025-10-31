@@ -13193,6 +13193,7 @@ YEM_ideas = {
 		OR = {
 			tag = YEM
 			tag = ADE
+			tag = RSL
 		}
 	}
 	free = yes

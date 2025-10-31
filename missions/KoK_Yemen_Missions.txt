@@ -1259,7 +1259,7 @@ KoK_YEM_missions_2_RAS_religious = {
 		}
 	}
 	
-	YEM_convert_sunni_mosques = {
+	YEM_convert_sunni_mosques = { 
 		icon = mission_conquer_rewakantha
 		required_missions = { YEM_dawah }
 		position = 6
@@ -1268,10 +1268,13 @@ KoK_YEM_missions_2_RAS_religious = {
 			NOT = { religion = ROOT }
 		}
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = YEM_converted_30_provs
-				check_variable = { which = num_converted_religion value = 30 }
-			}
+			religion = ROOT
+			dominant_religion = ROOT
+			ruler_religion = ROOT
+			#custom_trigger_tooltip = {
+			#	tooltip = YEM_converted_30_provs
+			#	check_variable = { which = num_converted_religion value = 30 }
+			#}
 		}
 		effect = {
 			custom_tooltip = YEM_gain_a_tenth_of_yearly_income
@@ -1294,9 +1297,7 @@ KoK_YEM_missions_2_RAS_religious = {
 					}
 				}
 			}
-			
 			custom_tooltip = " "
-			
 			country_event_with_option_insight = {
 				id = flavor_YEM.7
 				option_1 = "
@@ -1327,10 +1328,10 @@ KoK_YEM_missions_2_RAS_religious = {
 					value = 20
 				}
 			}
-			custom_trigger_tooltip = {
-				tooltip = YEM_converted_100_provs
-				check_variable = { which = num_converted_religion value = 100 }
-			}
+			#custom_trigger_tooltip = {
+			#	tooltip = YEM_converted_100_provs
+			#	check_variable = { which = num_converted_religion value = 100 }
+			#}
 		}
 		effect = {
 			add_country_modifier = {

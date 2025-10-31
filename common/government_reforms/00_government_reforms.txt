@@ -3118,6 +3118,11 @@ feudal_tribe_legacy = {
 #		NOT = { primary_culture = asturian }
 #		NOT = { primary_culture = mexican }
 #		NOT = { primary_culture = portugese }
+#		NOT = { primary_culture = minhotoese }
+#		NOT = { primary_culture = transmontanoese }
+#		NOT = { primary_culture = beiraoese }
+#		NOT = { primary_culture = mondegoese }
+#		NOT = { primary_culture = alegreanese }
 #	}
 #	
 #	modifiers = {
