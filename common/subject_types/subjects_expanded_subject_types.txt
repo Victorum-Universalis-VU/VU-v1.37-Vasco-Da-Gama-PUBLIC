@@ -68,7 +68,7 @@ roman_client_kingdom = {
 
     # Properties:
     can_be_annexed = yes
-    takes_diplo_slot = yes
+    takes_diplo_slot = no
     overlord_enforce_peace_attacking = yes
     gets_help_with_rebels = yes
     allows_taking_land_without_independence = no
@@ -83,23 +83,8 @@ roman_client_kingdom = {
     forcelimit_to_overlord = 0.33
     military_focus = 1.0
 
-    relative_power_class = 2
+    relative_power_class = 1
     diplomacy_view_class = 1
-
-    can_fight = {
-        neighboring_primitives = yes
-        other_overlord = all
-    }
-    can_rival = {
-        other_overlord = all
-        independent_nations = yes
-    }
-    can_ally = {
-        same_overlord = roman_client_kingdom
-    }
-    can_marry = {
-        same_overlord = roman_client_kingdom
-    }
 
     restoration_cb = cb_disloyal_vassal
 

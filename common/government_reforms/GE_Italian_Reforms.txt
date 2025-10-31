@@ -93,6 +93,7 @@ florentine_republic = {
 		has_candidate_bonus = yes
 		enables_aristocratic_idea_group = no
 		#is_merchant_republic = yes
+		vu_has_ToR_subjects = yes
 	}
 }
 genoese_republic = {
@@ -151,6 +152,7 @@ genoese_republic = {
 		enables_aristocratic_idea_group = no
 		is_merchant_republic = yes
 		can_impose_genoese_commercial_republic_rules = yes
+		vu_has_ToR_subjects = yes
 	}
 	government_abilities = {
 		albergo_nobili_mechanic

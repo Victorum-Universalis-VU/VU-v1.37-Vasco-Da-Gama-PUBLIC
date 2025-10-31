@@ -19050,85 +19050,52 @@ establish_roman_client_kingdom = {
 	category = influence
 	require_acceptance = no
 	is_visible = {
-		can_create_subject_type = {
-			subject = FROM
-			subject_type = roman_client_kingdom
+		#Checks if the overlord has access to the appropriate subject types
+		OR = {
+			tag = ROM
+			tag = BYZ
+			tag = SNM
+			primary_culture = roman
 		}
 		FROM = {
-			is_subject_of = PREV
+			#FROM has to be a vassal of ROOT 
+			is_subject_of = ROOT
+			OR = {
+				is_subject_of_type = vassal
+				is_subject_of_type = client_vassal
+			}
+			government = monarchy
 		}
 	}
 	is_allowed = {
-		can_create_subject_type = {
-			subject = FROM
-			subject_type = roman_client_kingdom
-		}
-		FROM = {
-			is_subject_of = PREV
-		}
-		NOT = {
-			truce_with = FROM
-		}
-		is_at_war = no
-		FROM = {
-			is_at_war = no
-		}
-		FROM = {
-			NOT = {
-				liberty_desire = 50
+		if = {
+			#Limited that the vassal has less than 50 liberty desire
+			limit = {
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = {
+					liberty_desire = 50
+				}
 			}
 		}
 	}
 	on_accept = {
-		if = {
-			limit = {
-				can_create_subject_type = {
-					subject = FROM
-					subject_type = roman_client_kingdom
-				}
-				FROM = {
-					is_subject_of = PREV
-				}
-				NOT = {
-					truce_with = FROM
-				}
-				is_at_war = no
-				FROM = {
-					is_at_war = no
-				}
-				FROM = {
-					NOT = {
-						liberty_desire = 50
-					}
-				}
-			}
-			create_subject = {
-				subject = FROM
-				subject_type = roman_client_kingdom
-			}
-		}
-	}
-	ai_will_do = {
-		OR = {
-			num_of_free_diplomatic_relations = 1
-			FROM = {
-				any_neighbor_country = {
-					OR = {
-						is_rival = FROM
-						is_enemy = FROM
-					}
-				}
-			}
+		create_subject = {
+			subject = FROM
+			subject_type = roman_client_kingdom
 		}
 		FROM = {
-			NOT = {
-				years_in_vassalage_under = {
-					who = ROOT
-					years = 10
-					all_subject_country = yes
-				}
-			}
+			change_religion = ROOT
+			add_government_reform = eue_kingdom_reform
 		}
+		vu_colour_refresh = yes
+	}
+	ai_will_do = {
+		always = no		#Keeping the AI off this for now, can't be bothered teaching it what to do
 	}
 }
 
