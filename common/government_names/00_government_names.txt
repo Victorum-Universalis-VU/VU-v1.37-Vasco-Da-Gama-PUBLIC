@@ -2627,10 +2627,10 @@ romanian_monarchy = {
     }
 
     ruler_female = {
-        6 = RMN_DUCHESS
-        7 = RMN_PRINCESS
-        8 = RMN_QUEEN
-        9 = RMN_EMPRESS
+        6 = RMN_DUCHESS_fem
+        7 = RMN_PRINCESS_fem
+        8 = RMN_QUEEN_fem
+        9 = RMN_EMPRESS_fem
     }
 
     consort_male = {
@@ -2655,10 +2655,10 @@ romanian_monarchy = {
     }
 
     heir_female = {
-        6 = RMN_PRINCESS
-        7 = RMN_PRINCESS
-        8 = RMN_PRINCESS
-        9 = RMN_PRINCESS
+        6 = RMN_PRINCESS_fem
+        7 = RMN_PRINCESS_fem
+        8 = RMN_PRINCESS_fem
+        9 = RMN_PRINCESS_fem
     }
 
     trigger = {

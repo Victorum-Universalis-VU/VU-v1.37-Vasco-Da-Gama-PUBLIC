@@ -9801,7 +9801,7 @@ vu_st_petka_belgrade_fortress = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			global_missionary_strength = 0.1
+			global_missionary_strength = 0.01
 			land_morale = 0.1
 		}
 		on_upgraded = {
@@ -9821,7 +9821,7 @@ vu_st_petka_belgrade_fortress = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			global_missionary_strength = 0.15
+			global_missionary_strength = 0.015
 			prestige = 1
 			land_morale = 0.15
 		}

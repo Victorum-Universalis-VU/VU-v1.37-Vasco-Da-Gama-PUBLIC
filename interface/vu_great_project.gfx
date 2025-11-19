@@ -1628,23 +1628,112 @@ spriteTypes = {
         texturefile = "gfx//interface//VU_great_projects//great_project_vu_toob_benadir.dds"
     }
     #New to VU v1.37 by SF
+    #Balkans
+    spriteType = {
+        name = "GFX_great_project_vu_kalaja_e_krujes"
+        texturefile = "gfx//interface//great_projects//VU_Balkans//great_project_vu_kalaja_e_krujes.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_walls_of_dubrovnik"
+        texturefile = "gfx//interface//great_projects//VU_Balkans//great_project_vu_walls_of_dubrovnik.dds"
+    }
+    #Baltic
+    spriteType = {
+        name = "GFX_great_project_vu_st_petersburg_admiralty"
+        texturefile = "gfx//interface//great_projects//GME//great_project_vu_st_petersburg_admiralty.dds"
+    }
     #England
     spriteType = {
         name = "GFX_great_project_vu_royal_naval_college"
         texturefile = "gfx//interface//great_projects//VU_England//great_project_royal_naval_college.dds"
     }
+    #Germany
+    spriteType = {
+        name = "GFX_great_project_vu_schloss_weesenstein"
+        texturefile = "gfx//interface//great_projects//VU_Germany//great_project_vu_schloss_weesenstein.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_externsteine"
+        texturefile = "gfx//interface//great_projects//VU_Germany//great_project_vu_externsteine.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_schloss_neuhaus"
+        texturefile = "gfx//interface//great_projects//VU_Germany//great_project_vu_schloss_neuhaus.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_reichstag"
+        texturefile = "gfx//interface//great_projects//VU_Germany//great_project_vu_reichstag.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_steinerne_brucke"
+        texturefile = "gfx//interface//great_projects//VU_Germany//great_project_vu_steinerne_brucke.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_bundeshaus"
+        texturefile = "gfx//interface//great_projects//VU_Germany//great_project_vu_bundeshaus.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_college_de_geneve"
+        texturefile = "gfx//interface//great_projects//VU_Germany//great_project_vu_college_de_geneve.dds"
+    }
+    #Russia
+    spriteType = {
+        name = "GFX_great_project_vu_petergof_palace"
+        texturefile = "gfx//interface//great_projects//VU_Russia//great_project_vu_petergof_palace.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_bolshoi_grand_theatre"
+        texturefile = "gfx//interface//great_projects//VU_Russia//great_project_vu_bolshoi_grand_theatre.dds"
+    }
     #Spain
     spriteType = {
         name = "GFX_great_project_vu_castillo_de_la_yedra_de_cazorla"
-        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_castillo_de_la_yedra_de_cazorla.dds"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_castillo_de_la_yedra_de_cazorla.dds"
     }
     spriteType = {
         name = "GFX_great_project_vu_iglesia_del_buen_suceso"
-        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_iglesia_del_buen_suceso.dds"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_iglesia_del_buen_suceso.dds"
     }
     spriteType = {
         name = "GFX_great_project_vu_almudena_cathedral_de_madrid"
-        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_almudena_cathedral_de_madrid.dds"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_almudena_cathedral_de_madrid.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_alcazar_segovia"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_alcazar_segovia.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_lotja_de_la_seda"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_lotja_de_la_seda.dds"
+    }
+    #Portugal
+    spriteType = {
+        name = "GFX_great_project_vu_sagres_school_navigation"
+        texturefile = "gfx//interface//great_projects//VU_Portugal//great_project_vu_sagres_school_navigation.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_santa_barbara_castle"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_santa_barbara_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_mosque_cathedral"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_mosque_cathedral.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_tower_hercules"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_tower_hercules.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_rock_gibraltar"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_rock_gibraltar.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_tierra_castillos"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_tierra_castillos.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_cathedral_seville"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_cathedral_seville.dds"
     }
     #Timurids
     spriteType = {

@@ -127,7 +127,7 @@
  BOS_KING: "Kralj"
  BOS_EMPEROR: "Caru"
  #Female Ruler
- BOS_LADY_fem: "Gospoda" #Gospođa
+ BOS_LADY_fem: "Gospoda" #Gospoda
  BOS_BARONESS_fem: "Barunica"
  BOS_VISCOUNTESS_fem: "Vikontesa"
  BOS_COUNTESS_fem: "Grofica"
@@ -173,7 +173,7 @@
  BUL_KING: "Kral"
  BUL_EMPEROR: "Tsar"
  #Female Ruler
- BUL_LADY_fem: "Gospoda" #Gospođa
+ BUL_LADY_fem: "Gospoda" #Gospoda
  BUL_BARONESS_fem: "Barunica"
  BUL_VISCOUNTESS_fem: "Vikontesa"
  BUL_COUNTESS_fem: "Grofica"
@@ -219,7 +219,7 @@
  CRO_KING: "Kralj"
  CRO_EMPEROR: "Car"
  #Female Ruler
- CRO_LADY_fem: "Gospoda" #Gospođa
+ CRO_LADY_fem: "Gospoda" #Gospoda
  CRO_BARONESS_fem: "Barunica"
  CRO_VISCOUNTESS_fem: "Vikontesa"
  CRO_COUNTESS_fem: "Grofica"
@@ -261,34 +261,34 @@
  RMN_COUNT: "Conte"
  RMN_MARQUIS: "Marchiz"
  RMN_DUKE: "Duce"
- RMN_PRINCE: "Prinţ"
+ RMN_PRINCE: "Print"
  RMN_KING: "Rege"
- RMN_EMPEROR: "Împărat"
+ RMN_EMPEROR: "Împarat"
  #Female Ruler
- RMN_LADY_fem: "Doamnă"
- RMN_BARONESS_fem: "Baroneasă"
- RMN_VISCOUNTESS_fem: "Vicontesă"
- RMN_COUNTESS_fem: "Contesă"
- RMN_MARCHIONESS_fem: "Marchiză"
- RMN_DUCHESS_fem: "Ducesă"
- RMN_PRINCESS_fem: "Prinţesă"
+ RMN_LADY_fem: "Doamna"
+ RMN_BARONESS_fem: "Baroneasa"
+ RMN_VISCOUNTESS_fem: "Vicontesa"
+ RMN_COUNTESS_fem: "Contesa"
+ RMN_MARCHIONESS_fem: "Marchiza"
+ RMN_DUCHESS_fem: "Ducesa"
+ RMN_PRINCESS_fem: "Printesa"
  RMN_QUEEN_fem: "Regina"
- RMN_EMPRESS_fem: "Împărăteasă"
+ RMN_EMPRESS_fem: "Împarateasa"
  #Male-Consort
- RMN_LORD_CONSORT: "Doamne-Consoartă"
- RMN_DUKE_CONSORT: "Duce-Consoartă"
- RMN_PRINCE_CONSORT: "Prinţ-Consoartă"
- RMN_KING_CONSORT: "Rege-Consoartă"
- RMN_EMPEROR_CONSORT: "Împărat-Consoartă"
+ RMN_LORD_CONSORT: "Doamne-Consoarta"
+ RMN_DUKE_CONSORT: "Duce-Consoarta"
+ RMN_PRINCE_CONSORT: "Print-Consoarta"
+ RMN_KING_CONSORT: "Rege-Consoarta"
+ RMN_EMPEROR_CONSORT: "Împarat-Consoarta"
  #Female-Consort
- RMN_LADY_CONSORT_fem: "Doamnă-Consoartă"
- RMN_DUCHESS_CONSORT_fem: "Ducesă-Consoartă"
- RMN_PRINCESS_CONSORT_fem: "Prinţesă-Consoartă"
- RMN_QUEEN_CONSORT_fem: "Regină-Consoartă"
- RMN_EMPRESS_CONSORT_fem: "Împărăteasă-Consoartă"
+ RMN_LADY_CONSORT_fem: "Doamna-Consoarta"
+ RMN_DUCHESS_CONSORT_fem: "Ducesa-Consoarta"
+ RMN_PRINCESS_CONSORT_fem: "Printesa-Consoarta"
+ RMN_QUEEN_CONSORT_fem: "Regina-Consoarta"
+ RMN_EMPRESS_CONSORT_fem: "Împarateasa-Consoarta"
  #Heirs
- RMN_CROWN_PRINCE: "Prințul Moștenitor"
- RMN_CROWN_PRINCESS_fem: "Prințesa Moștenitoare"
+ RMN_CROWN_PRINCE: "Prin?ul Mo?tenitor"
+ RMN_CROWN_PRINCESS_fem: "Prin?esa Mo?tenitoare"
  #
  #Serbian Monarchy
  SER_LORDSHIP: "Gospodstvo"
@@ -311,7 +311,7 @@
  SER_KING: "Kralj"
  SER_EMPEROR: "Caru"
  #Female Ruler
- SER_LADY_fem: "Gospoda" #Gospođa
+ SER_LADY_fem: "Gospoda" #Gospoda
  SER_BARONESS_fem: "Barunica"
  SER_VISCOUNTESS_fem: "Vikontesa"
  SER_COUNTESS_fem: "Grofica"
@@ -357,7 +357,7 @@
  SLO_KING: "Kralj"
  SLO_EMPEROR: "Caru"
  #Female Ruler
- SLO_LADY_fem: "Gospoda" #Gospođa
+ SLO_LADY_fem: "Gospoda" #Gospoda
  SLO_BARONESS_fem: "Barunica"
  SLO_VISCOUNTESS_fem: "Vikontesa"
  SLO_COUNTESS_fem: "Grofica"
@@ -4535,17 +4535,17 @@
  CARA: "Cara"
  PRINCEZO_fem: "Princezo"
  KHERTSOG: "Khertsog"
- KHERTSOG_CONSORT: "Khertsog-Sŭprug"
+ KHERTSOG_CONSORT: "Khertsog-Suprug"
  PRINTS: "Prints"
- PRINTS_CONSORT: "Prints-Sŭprug"
- BUL_KRAL_CONSORT: "Kral-Sŭprug"
- TSAR_CONSORT: "Tsar-Sŭprug"
+ PRINTS_CONSORT: "Prints-Suprug"
+ BUL_KRAL_CONSORT: "Kral-Suprug"
+ TSAR_CONSORT: "Tsar-Suprug"
  KHERTSOGINYA_fem: "Khertsoginya"
- KHERTSOGINYA_CONSORT_fem: "Khertsoginya-Sŭprug"
+ KHERTSOGINYA_CONSORT_fem: "Khertsoginya-Suprug"
  KRALITSA_fem: "Kralitsa"
- KRALITSA_CONSORT_fem: "Kralitsa-Sŭprug"
+ KRALITSA_CONSORT_fem: "Kralitsa-Suprug"
  TSARINA_fem: "Tsarina"
- TSARINA_CONSORT_fem: "Tsarina-Sŭprug"
+ TSARINA_CONSORT_fem: "Tsarina-Suprug"
  #
  #Tribal Chiefdom
  BORDER_CHIEFDOM: "Border Chiefdom"
@@ -5606,8 +5606,8 @@
  LEGISLADOR: "Legislador"
  #Polish Republic
  REPUBLIC: "Republic"
- HIGH_MARSHALL: "Wysoki Marszałek"
- GREAT_MARSHALL: "Wielki Marszałek"
+ HIGH_MARSHALL: "Wysoki Marszalek"
+ GREAT_MARSHALL: "Wielki Marszalek"
  PRAWODAWCA: "Prawodawca"
  #Prussian Field Marshall
  ALLGEMEIN: "Allgemein"

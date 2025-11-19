@@ -5490,7 +5490,7 @@ ludwigsburg_palace = {
 
 konigstein_castle = {
 	# province it starts in
-	start = 61
+	start = 7643
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1233.01.01	#Recorded
 	#time to build

@@ -1,4 +1,4 @@
-#61 - Saxony
+#61 - Dresden
 
 #Default
 owner = MEI
@@ -15,7 +15,7 @@ base_manpower = 2
 is_city = yes
 
 #Buildings
-fort_16th = yes
+fort_17th = yes
 
 #Commerce
 center_of_trade = 4

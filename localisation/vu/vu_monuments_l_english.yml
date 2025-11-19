@@ -88,7 +88,18 @@
  construct_vu_red_bay_title: "Experience the tranquil waters of Red Bay"
  construct_vu_red_bay_desc: "Red Bay is a natural harbour residing in the bay that gives it its name and is surrounded by red granite cliffs that when combined lend their names to this part of the world; Costs 4000."
  #
- #VU - Monuments 
+ #VU v1.37 by DM
+ great_project_vu_kalaja_e_krujes: "Kalaja e Krujës"
+ vu_kalaja_e_krujes: "Kalaja e Krujës"
+ vu_kalaja_e_krujes_title: "Gaze in awe at the defensive structure that is Kalaja e Krujës"
+ construct_vu_kalaja_e_krujes_title: "Gaze in awe at the defensive structure that is Kalaja e Krujës"
+ construct_vu_kalaja_e_krujes_desc: "Built in the 5th or 6th century, Kalaja e Krujës fortress is perched above the city with the same name; Costs 4000."
+ #
+ great_project_vu_walls_of_dubrovnik : "Dubrovačke gradske zidine"
+ vu_walls_of_dubrovnik: "Dubrovačke gradske zidine"
+ vu_walls_of_dubrovnik_title: "Gaze in awe at the defensive structure that is Dubrovačke gradske zidine"
+ construct_vu_walls_of_dubrovnik_title: "Gaze in awe at the defensive structure that is Dubrovačke gradske zidine"
+ construct_vu_walls_of_dubrovnik_desc: "Built initially as ramparts in the outlying areas of the city between the 13th to 17th centuries, Dubrovačke gradske zidine or “Walls of Dubrovnik” was constructed as a means of defence for the Adriatic coastal city of Dubrovnik; Costs 4000."
  #
  great_project_vu_york_castle: "York Castle"
  vu_york_castle: "York Castle"
@@ -96,7 +107,120 @@
  construct_vu_york_castle_title: "Gaze in awe at the defensive structure that is York Castle"
  construct_vu_york_castle_desc: "York Castle is a fortress stronghold built by William the Conqueror in 1068; Costs 4000."
  #
- #New to VU v1.37 by SF
+ great_project_vu_schloss_weesenstein: "Weesenstein Castle"
+ vu_schloss_weesenstein: "Weesenstein Castle"
+ vu_schloss_weesenstein_title: "Gaze in awe at the defensive structure that is Weesenstein Castle"
+ construct_vu_schloss_weesenstein_title: "Gaze in awe at the defensive structure that is Weesenstein Castle"
+ construct_vu_schloss_weesenstein_desc: "Otherwise known as “Schloss Weesenstein,” this castle or fortress stronghold was erected sometime around 1200s, with the purpose of defending the Saxon border to the Kingdom of Bohemia, and was first mentioned in written sources dating back to 1318; Costs 4000."
+ #
+ great_project_vu_externsteine: "Externsteine"
+ vu_externsteine: "Externsteine"
+ vu_externsteine_title: "Gaze in awe at the religious structure that is Externsteine"
+ construct_vu_externsteine_title: "Gaze in awe at the religious structure that is Externsteine"
+ construct_vu_externsteine_desc: "Externsteine is a distinctive sandstone rock formation located in the Teutoburg Forest, near the town of Detmold; Costs 4000."
+ #
+ great_project_vu_schloss_neuhaus: "Neuhaus Castle"
+ vu_schloss_neuhaus: "Neuhaus Castle"
+ vu_schloss_neuhaus_title: "Gaze in awe at the defensive structure that is Neuhaus Castle"
+ construct_vu_schloss_neuhaus_title: "Gaze in awe at the defensive structure that is Neuhaus Castle"
+ construct_vu_schloss_neuhaus_desc: "Built continuously between the 13th to 16th centuries, Neuhaus Castle was once the residence of the Prince-Bishops of Paderborn with its history going back all the way to the year 1257 when the first fortified house was erected there just outside of the city of Paderborn; Costs 4000."
+ #
+ great_project_vu_reichstag: "Reichstag"
+ vu_reichstag: "Reichstag"
+ vu_reichstag_title: "Gaze in awe at the political structure that is Reichstag"
+ construct_vu_reichstag_title: "Gaze in awe at the political structure that is Reichstag"
+ construct_vu_reichstag_desc: "Constructed between 1884 to 1894 in the Tiergarten district on the left bank of the River Spree by architect Paul Wallot. The Reichstag was built to house the institutional organs of state of the burgeoning unified German state; Costs 4000."
+ #
+ great_project_vu_bundeshaus: "Bundeshaus"
+ vu_bundeshaus: "Bundeshaus"
+ vu_bundeshaus_title: "Gaze in awe at the political structure that is Bundeshaus"
+ construct_vu_bundeshaus_title: "Gaze in awe at the political structure that is Bundeshaus"
+ construct_vu_bundeshaus_desc: "Built between 1852 to 1857 under Jakob Friedrich Studer, the oldest part of the Federal Palace is the west wing or “Bundes-Rathaus,” as a means of unifying the federal administration, government and parliament under one roof; Costs 4000."
+ #
+ great_project_vu_college_de_geneve: "College de Genève"
+ vu_college_de_geneve: "College de Genève"
+ vu_college_de_geneve_title: "Gaze in awe at the insitutional structure that is College de Genève"
+ construct_vu_college_de_geneve_title: "Gaze in awe at the insitutional structure that is College de Genève"
+ construct_vu_college_de_geneve_desc: "Founded in 1429 by François de Versonnex, a wealthy merchant and trustee, the College de Genève began its operations, with famous theologian and reformer Jean “John” Calvin creating the Geneva Academy, which provided secondary and higher education; Costs 4000."
+ #
+ great_project_vu_steinerne_brucke: "Steinerne Brücke"
+ vu_steinerne_brucke: "Steinerne Brücke"
+ vu_steinerne_brucke_title: "Gaze in awe at the engineering structure that is Steinerne Brücke"
+ construct_vu_steinerne_brucke_title: "Gaze in awe at the engineering structure that is Steinerne Brücke"
+ construct_vu_steinerne_brucke_desc: "Steinerne Brücke or “Stone Bridge,” is a river crossing made of stone that was constructed sometime around the 12th-century as a bridge or means of crossing the Danube, linking the Old Town of Regensbyurg with Stadtamhof; Costs 4000."
+ #
+ great_project_vu_bolshoi_grand_theatre: "Bolshoi Theatre"
+ vu_bolshoi_grand_theatre: "Bolshoi Theatre"
+ vu_bolshoi_grand_theatre_title: "Gaze in awe at the cultural structure that is Bolshoi Theatre"
+ construct_vu_bolshoi_grand_theatre_title: "Gaze in awe at the cultural structure that is Bolshoi Theatre"
+ construct_vu_bolshoi_grand_theatre_desc: "The Bolshoi or “Grand” Theatre is an opera house in Moscow, Russia, designed by architect Joseph Bové and built between 1821 and 1824, opening on 18th January, 1825 as the “Bolshoi Petrovsky” Theatre; Costs 4000."
+ #
+ great_project_vu_petergof_palace: "Peterhof Palace"
+ vu_petergof_palace: "Peterhof Palace"
+ vu_petergof_palace_title: "Gaze in awe at the engineering structure that is Peterhof Palace"
+ construct_vu_petergof_palace_title: "Gaze in awe at the engineering structure that is Peterhof Palace"
+ construct_vu_petergof_palace_desc: "Commissioned by Peter the Great as a direct response to the Palace of Versailles by Louis XIV of France, Peterhof Palace or “Peter's Court” is a series of palaces and gardens located within Petergof, Saint Petersburg, Russia that were continually built at the behest of Peter the Great throughout the 18th century, Saint Petersburg, Russia. It is also nicknamed “The Russian Versailles”; Costs 4000."
+ #
+ great_project_vu_st_petersburg_admiralty: "Admiralty Building"
+ vu_st_petersburg_admiralty: "Admiralty Building"
+ vu_st_petersburg_admiralty_title: "Gaze in awe at the naval structure that is Admiralty Building"
+ construct_vu_st_petersburg_admiralty_title: "Gaze in awe at the naval structure that is Admiralty Building"
+ construct_vu_st_petersburg_admiralty_desc: "Originally founded as a fortified shipyard founded by Peter the Great in 1704. The Admiralty Building was continually upgraded and developed between 1806 to 1823 and acts as the headquarters of the Admiralty Board and the Imperial Russian Navy in Central St. Petersburg, Russia; Costs 4000."
+ #
+ great_project_vu_alcazar_segovia: "Alcázar de Segovia"
+ vu_alcazar_segovia: "Alcázar de Segovia"
+ vu_alcazar_segovia_title: "Gaze in awe at the defensive structure that is Alcázar de Segovia"
+ construct_vu_alcazar_segovia_title: "Gaze in awe at the defensive structure that is Alcázar de Segovia"
+ construct_vu_alcazar_segovia_desc: "Existing since at least the 12th century, the Alcázar de Segovia is a medieval castle located in the city of Segovia, Castile and León, Spain and is recognized as one of the most renowned medieval castles in Europe; Costs 4000."
+ #
+ great_project_vu_cathedral_seville: "Cathredal de Sevilla"
+ vu_cathedral_seville: "Cathredal de Sevilla"
+ vu_cathedral_seville_title: "Gaze in awe at the religious structure that is Cathredal de Sevilla"
+ construct_vu_cathedral_seville_title: "Gaze in awe at the religious structure that is Cathredal de Sevilla"
+ construct_vu_cathedral_seville_desc: "After its completion in the early 16th century, the Cathedral de Sevilla or “Cathedral of Saint Mary of the See” supplanted Hagia Sophia as the largest cathedral in the world, a title the Byzantine church had held for a thousand years; Costs 4000."
+ #
+ great_project_vu_lotja_de_la_seda: "Llotja de la Seda"
+ vu_lotja_de_la_seda: "Lonja Seda"
+ vu_lotja_de_la_seda_title: "Gaze in awe at the civil structure that is Llotja de la Seda"
+ construct_vu_lotja_de_la_seda_title: "Gaze in awe at the civil structure that is Llotja de la Seda"
+ construct_vu_lotja_de_la_seda_desc: "Built between 1482 and 1533, the Llotja or “Lonja,” was the financial centre of La Lonja and the complex itself is composed of three parts, a walled courtyard “Orange Garden,” the main hall “Sala de Contractació,” and the Trading hall which is a large lavishly decorated space supported by gorgeous twisted columns. This was the place where the merchants worked out contracts and it was the “Consolat del Mar,” the first marine merchant tribunal to ever be formed in Spain; Costs 4000."
+ #
+ great_project_vu_mosque_cathedral: "Mezquita-Catedral de Córdoba"
+ vu_mosque_cathedral: "Mezquita-Catedral de Córdoba"
+ vu_mosque_cathedral_title: "Gaze in awe at the religious structure that is Mezquita-Catedral de Córdoba"
+ construct_vu_mosque_cathedral_title: "Gaze in awe at the religious structure that is Mezquita-Catedral de Córdoba"
+ construct_vu_mosque_cathedral_desc: "The Mezquita-Catedral de Córdoba or “Cathedral of Our Lady of the Assumption” according to traditional accounts stands on the site of the original Visigothic church, the Catholic Christian Basilica of Vincent of Saragossa, which had been destroyed and subsequently converted to a Grand Mosque in 785 on orders by Abd al-Rahman I, founder of the Islamic Umayyad Emirate of Córdoba. The mosque was later converted to a cathedral in 1236 when Córdoba was captured by the Christian forces of Castile during the Reconquista; Costs 4000."
+ #
+ great_project_vu_rock_gibraltar: "Rock of Gibraltar"
+ vu_rock_gibraltar: "Rock of Gibraltar"
+ vu_rock_gibraltar_title: "Gaze in awe at the geological structure that is Rock of Gibraltar"
+ construct_vu_rock_gibraltar_title: "Gaze in awe at the geological structure that is Rock of Gibraltar"
+ construct_vu_rock_gibraltar_desc: "Known in antiquity as the “Pillars of Hercules” or “Jabal Ṭāriq” in Arabic meaning “Mountain of Tariq,” the Rock of Gibraltar is a monolithic limestone mountain measuring 1,398 ft in height, which dominates the western entrance to the Mediterranean Sea and the straits that cut through it known as the Straits of Gibraltar; Costs 4000."
+ #
+ great_project_vu_sagres_school_navigation: "Escola de Sagres"
+ vu_sagres_school_navigation: "Escola de Sagres"
+ vu_sagres_school_navigation_title: "Gaze in awe at the naval structure that is Escola de Sagres"
+ construct_vu_sagres_school_navigation_title: "Gaze in awe at the naval structure that is Escola de Sagres"
+ construct_vu_sagres_school_navigation_desc: "The Escola de Sagres or “Sagres School of Navigation,” also called Court of Sagres was founded by prince Henry “the Navigator” of Portugal in Sagres near Cape St. Vincent as a means of teaching would-be seafarers the art of Navigation; Costs 4000."
+ #
+ great_project_vu_santa_barbara_castle: "Castell de Santa Bàrbara"
+ vu_santa_barbara_castle: "Castell de Santa Bàrbara"
+ vu_santa_barbara_castle_title: "Gaze in awe at the defensive structure that is Castell de Santa Bàrbara"
+ construct_vu_santa_barbara_castle_title: "Gaze in awe at the defensive structure that is Castell de Santa Bàrbara"
+ construct_vu_santa_barbara_castle_desc: "Built around the 8th century by Moorish invaders until its recapture on 8th December 1248, Castell de Santa Bàrbara or “Santa Bàrbara Castle” is a fortified stronghold situated 545 meteres atop Mount Benacantil near Alicante, Valencia, Spain; Costs 4000."
+ #
+ great_project_vu_tierra_castillos: "Tierra de Castillos"
+ vu_tierra_castillos: "Tierra de Castillos"
+ vu_tierra_castillos_title: "Gaze in awe at the naval structure that is Tierra de Castillos"
+ construct_vu_tierra_castillos_title: "Gaze in awe at the naval structure that is Tierra de Castillos"
+ construct_vu_tierra_castillos_desc: "Formed through the construction of its earliest fortresses in the 9th and 10th centuries under Andalusi rule and later reshaped during the Christian advances of the 12th and 13th centuries, the Tierra de Castillos is a vast expanse of fortified strongholds spread across the hills and valleys of Jaén in southern Spain; Costs 4000."
+ #
+ great_project_vu_tower_hercules: "Tower of Hercules"
+ vu_tower_hercules: "Tower of Hercules"
+ vu_tower_hercules_title: "Gaze in awe at the naval structure that is Tower of Hercules"
+ construct_vu_tower_hercules_title: "Gaze in awe at the naval structure that is Tower of Hercules"
+ construct_vu_tower_hercules_desc: "Constructed in the late 1st century AD under Roman rule and restored in 1791 during the reign of Charles IV, the Tower of Hercules is a monumental lighthouse standing upon the windswept peninsula of A Coruña in Galicia, Spain; Costs 4000."
+ #
  great_project_vu_gifu_castle: "Gifu Castle"
  vu_gifu_castle: "Gifu Castle"
  vu_gifu_castle_title: "Gaze in awe at the defensive structure that is Gifu Castle"

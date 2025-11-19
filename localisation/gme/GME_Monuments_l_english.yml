@@ -1,8 +1,4 @@
 ﻿l_english:
-#Balkans
- gme_kruje_castle: "Kruje Castle"
- gme_walls_ragusa: "Walls of Ragusa"
-
 #Ireland
  gme_blarney_castle: "Blarney Castle"
  gme_kilkenny_castle: "Kilkenny Castle"
@@ -32,17 +28,6 @@
  gme_chambord: "Chateau de Chambord"
  gme_chenonceau: "Chateau de Chenonceau"
  gme_port_de_moon: "Port de la Lune"
-
-#Iberia
- gme_alcazar_segovia: "Alcázar of Segovia"
- gme_cathedral_seville: "Cathredal of Sevilla"
- gme_lonja_seda: "Lonja de la Seda"
- gme_mosque_cathedral: "Mosque-Cathedral of Cordoba"
- gme_rock_gibraltar: "Rock of Gibraltar"
- gme_sagres_school_navigation: "Sagres School of Navigation"
- gme_santa_barbara_castle: "Santa Barbara Castle"
- gme_tierra_castillos: "Tierra de Castillos"
- gme_tower_hercules: "Tower of Hercules"
 
 #Italy
  gme_altare_patria: "Altare della Patria"
@@ -121,11 +106,6 @@
  gme_temple_of_heaven: "Temple of Heaven"
  gme_yungang_grottoes: "Yungang Grottoes"
 
-#North Germany
- gme_externsteine: "Externsteine"
- gme_schloss_neuhaus: "Neuhaus Palace"
- gme_reichstag: "Reichstag"
-
 #Persia
  gme_agha_bozorg_mosque: "Agha Bozorg Mosque"
  gme_ali_qapu_palace: "Ali Qapu Palace"
@@ -157,11 +137,6 @@
 #Pontic Steppe
  gme_bakhchisaray_palace: "Bakhchisaray Palace"
 
-#Russia
- gme_petersburg_admiralty: "Admiralty"
- gme_peterhof_palace: "Peterhof Palace"
- gme_bolshoi_theatre: "Bolshoi Theatre"
-
 #Ruthenia
  gme_brotherhood_school: "Brotherhood School"
  gme_mir_castle: "Mir Castle"
@@ -178,11 +153,6 @@
  gme_quanzhou_port: "Quanzou Port"
  gme_shi_bo_si: "Shi Bo Si"
  gme_zhaozhou_bridge: "Zhaozhou Bridge"
-
-#South Germany
- gme_bundeshaus: "Bundeshaus"
- gme_college_geneve: "College de Genève"
- gme_stone_bridge_regensburg: "Stone Bridge of Regensburg"
 
 #Tibet
  gme_mount_kailash: "Mount Kailash"

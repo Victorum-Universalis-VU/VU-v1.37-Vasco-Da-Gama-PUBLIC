@@ -14,6 +14,7 @@
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_client_march: "Can be made into a §YClient March§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_colony: "Can be made into a §YColonial Nation§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_tributary_state: "Can be made into a §YTributary State§!"
+ IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_overseas_territory: "Can be made into a Overseas Territory§!"
  #IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_protectorate: "Can be made into a §YProtectorate§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_satellite_state: "Can be made into a §YSatellite State§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_dominion: "Can be made into a §YDominion§!"

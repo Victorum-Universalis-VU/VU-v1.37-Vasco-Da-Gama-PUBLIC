@@ -1,4 +1,4 @@
-gme_kruje_castle = {
+vu_kalaja_e_krujes = {
 	start = 4750
 	date = 1.01.01
 	time = { months = 120 }
@@ -62,7 +62,7 @@ gme_kruje_castle = {
 		}
 	}
 }
-gme_walls_ragusa = {
+vu_walls_of_dubrovnik = {
 	start = 137
 	date = 1.01.01
 	time = { months = 120 }

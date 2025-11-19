@@ -14,6 +14,9 @@ trade_goods = cloth
 capital = "Chemnitz"
 is_city = yes
 
+#Buildings
+fort_16th = yes
+
 #History by SF
 1444.1.1 = {
 	owner = WLB

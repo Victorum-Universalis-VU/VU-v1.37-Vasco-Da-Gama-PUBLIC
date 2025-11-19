@@ -222,8 +222,8 @@
  GLR: "Gloucester"
  GLR_ADJ: "Gloucester"
 
- OXF: "Kent"
- OXF_ADJ: "Kentish"
+ K3T: "Kent"
+ K3T_ADJ: "Kentish"
 
  LNN: "Lincoln"
  LNN_ADJ: "Lincoln"
@@ -246,6 +246,10 @@
  #France
  CN9: "Condòm"
  CN9_ADJ: "Condòments"
+
+ #Germany
+ ELB: "Elba"
+ ELB_ADJ: "Elban"
 
  #Scotland
  MCD: "MacLeod"

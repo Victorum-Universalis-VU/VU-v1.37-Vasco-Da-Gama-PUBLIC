@@ -388,12 +388,18 @@ savonarola_unique = {
 }
 gov_papal_government = {
     rank = {
+        6 = PAPACY
+        7 = PAPACY
         8 = PAPACY
     }
     ruler_male = {
+        6 = POPE
+        7 = POPE
         8 = POPE
     }
     heir_male = {
+        6 = PREFERATI_VU
+        7 = PREFERATI_VU
         8 = PREFERATI_VU
     }
     trigger = {
