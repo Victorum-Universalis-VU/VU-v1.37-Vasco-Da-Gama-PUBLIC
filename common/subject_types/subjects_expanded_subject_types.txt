@@ -1146,7 +1146,10 @@ integrated_tribe_subject = {
             AND = {
                 culture_group = caucasian
                 capital_scope = {
-                    region = caucasia_region
+                    OR = {
+                        region = caucasia_region
+                        region = south_caucasia_region
+                    }
                 }
                 NOT = { current_age = age_of_reformation }
                 NOT = { current_age = age_of_absolutism }

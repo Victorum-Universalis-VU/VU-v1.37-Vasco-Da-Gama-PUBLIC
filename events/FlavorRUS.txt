@@ -2987,6 +2987,13 @@ country_event = {
 			}
 			add_russian_claim = yes
 		}
+		south_caucasia_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_russian_claim = yes
+		}
 		4341 = {
 			add_trade_modifier = {
 				who = ROOT

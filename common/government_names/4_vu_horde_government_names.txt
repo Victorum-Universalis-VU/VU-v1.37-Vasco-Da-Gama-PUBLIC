@@ -18,6 +18,10 @@ khanate = {
     }
     trigger = {
         has_reform = steppe_horde
+        government_rank = 8
+        NOT = {
+            government_rank = 9
+        }
         OR = {
             tag = AST
             tag = BAL
@@ -44,6 +48,7 @@ ilkhanate = {
         9 = KHANZADEH
     }
     trigger = {
+        government_rank = 9
         tag = ILK
     }
 }

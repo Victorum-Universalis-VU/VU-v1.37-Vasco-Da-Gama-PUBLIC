@@ -131,13 +131,29 @@
  vu_promote_vassal_to_abbacy_alert_tooltip: "An offer to promote us to a §YAbbacy§!"
  vu_promote_vassal_to_abbacy_dialog: "[This.GetName] offers us to become their Abbacy subject. This will grant us additional autonomy and we will no longer be called into wars automatically."
 
+ #Promote theocracy to Andoran Co-prince Abbacy
+ vu_promote_vassal_to_andoran_co_prince_abbacy: "Create Abbacy"
+ vu_promote_vassal_to_andoran_co_prince_abbacy_title: "Create Abbacy"
+ vu_promote_vassal_to_andoran_co_prince_abbacy_desc: "Create §Y[From.GetName]§!'s and turn them into a §YCo-prince Abbacy§! subject. This will allow us to integrate the target §Y[From.GetName]§!, allowing them to be called §Y[From.GetName]§! into all our wars as well as also allowing them the liberty to fight their own wars.\n\n§YAbbacy can be annexed for £dip£ per development.§!"
+ vu_promote_vassal_to_andoran_co_prince_abbacy_tooltip: "Give the target a Co-prince Abbacy status, allowing us to both integrate the target and call them into all our wars whilst also allowing them to fight their own."
+ vu_promote_vassal_to_andoran_co_prince_abbacy_alert_tooltip: "An offer to promote us to a §YCo-prince Abbacy§!"
+ vu_promote_vassal_to_andoran_co_prince_abbacy_dialog: "[This.GetName] offers us to become their Co-prince Abbacy subject. This will grant us additional autonomy and we will no longer be called into wars automatically."
+
  #Promote theocracy
  vu_promote_theocracy: "Promote Theocracy"
  vu_promote_theocracy_title: "Promote Theocracy"
  vu_promote_theocracy_desc: "Create §Y[From.GetName]§!'s and turn them into either §YBishopric§! or §YArchbishopric§! subject. This will allow us to integrate the target §Y[From.GetName]§!, allowing them to be called §Y[From.GetName]§! into all our wars as well as also allowing them the liberty to fight their own wars.\n\n§YTheocracies can be annexed for £dip£ per development.§!"
  vu_promote_theocracy_tooltip: "Give the target a Theocracy status, allowing us to both integrate the target and call them into all our wars whilst also allowing them to fight their own."
- vu_promote_theocracy_alert_tooltip: "An offer to promote us to a §YAbbacy§!"
- vu_promote_theocracy_dialog: "[This.GetName] offers us to become their Abbacy subject. This will grant us additional autonomy and we will no longer be called into wars automatically."
+ vu_promote_theocracy_alert_tooltip: "An offer to promote us to a §YTheocracy§!"
+ vu_promote_theocracy_dialog: "[This.GetName] offers us to become their Theocracy subject. This will grant us additional autonomy and we will no longer be called into wars automatically."
+
+ #Promote Andoran Co-prince Theocracy
+ vu_promote_andoran_co_prince_theocracy: "Promote Co-prince Theocracy"
+ vu_promote_andoran_co_prince_theocracy_title: "Promote Co-prince Theocracy"
+ vu_promote_andoran_co_prince_theocracy_desc: "Create §Y[From.GetName]§!'s and turn them into either §YCo-prince Bishopric§! or §YCo-prince Archbishopric§! subject. This will allow us to integrate the target §Y[From.GetName]§!, allowing them to be called §Y[From.GetName]§! into all our wars as well as also allowing them the liberty to fight their own wars.\n\n§YCo-prince Theocracies can be annexed for £dip£ per development.§!"
+ vu_promote_andoran_co_prince_theocracy_tooltip: "Give the target a Co-prince Theocracy status, allowing us to both integrate the target and call them into all our wars whilst also allowing them to fight their own."
+ vu_promote_andoran_co_prince_theocracy_alert_tooltip: "An offer to promote us to a §YCo-prince Theocracy§!"
+ vu_promote_andoran_co_prince_theocracy_dialog: "[This.GetName] offers us to become their Co-prince Theocracy subject. This will grant us additional autonomy and we will no longer be called into wars automatically."
  
  #Promote vassal to Feudal republic
  vu_promote_vassal_to_feudal_republic: "Create Feudal Republic"
@@ -147,6 +163,26 @@
  vu_promote_vassal_to_feudal_republic_alert_tooltip: "An offer to promote us to a §YFeudal Republic§!"
  vu_promote_vassal_to_feudal_republic_dialog: "[This.GetName] offers us to become their Feudal Republic subject. This will grant us additional autonomy and we will no longer be called into wars automatically."
  ########################################################################################################################################################
+
+ #####################
+ # Republic Subjects #
+ #####################
+
+ #Promote Vassal to Outpost (OUTPOST)
+ vu_promote_vassal_to_outpost: "Create Outpost"
+ vu_promote_vassal_to_outpost_title: "Create Outpost"
+ vu_promote_vassal_to_outpost_desc: "Create §Y[From.GetName]§!'s and turn them into a §YOutpost§! subject. This will allow us to integrate the target §Y[From.GetName]§!, allowing them to be called §Y[From.GetName]§! into all our wars as well as also allowing them the liberty to fight their own wars.\n\n§YOutpost can be integrated for £dip£ per development.§!"
+ vu_promote_vassal_to_outpost_tooltip: "Give the target a Outpost status, allowing us to both integrate the target and call them into all our wars whilst also allowing them to fight their own."
+ vu_promote_vassal_to_outpost_alert_tooltip: "An offer to promote us to a §YOutpost§!"
+ vu_promote_vassal_to_outpost_dialog: "[This.GetName] offers us to become their Outpost subject. This will grant us additional autonomy and we will no longer be called into wars automatically."
+
+ #Rein in Subject
+ vu_rein_republic_subject_in: "Rein in Subject"
+ vu_rein_republic_subject_in_title: "Rein in Subject"
+ vu_rein_republic_subject_in_desc: "Rein in §Y[From.GetName]§!'s and turn them into a next tier §YRepublic§! subject resulting in them being called §Y[From.GetName]§! into all our wars."
+ vu_rein_republic_subject_in_tooltip: "Rein in the target from a previous tier to next tier status, enabling us to call them into all our wars."
+ vu_rein_republic_subject_in_alert_tooltip: "An offer to turn us into a next tier §YRepublic§! subject"
+ vu_rein_republic_subject_in_dialog: "[This.GetName] wants to turn us into a next tier subject type, tying us closer to their goverment polity and prohibiting private wars."
 
  ####################
  # Islamic Subjects #
@@ -318,11 +354,20 @@
  cb_disloyal_christian_abbacy: "Disloyal Abbacy"
  cb_disloyal_christian_abbacy_desc: "This Abbacy has grown bold and is trying to break free from our grip."
  #
+ cb_disloyal_andoran_co_prince_abbacy: "Disloyal Co-prince Abbacy"
+ cb_disloyal_andoran_co_prince_abbacy_desc: "This Co-prince Abbacy has grown bold and is trying to break free from our grip."
+ #
  cb_disloyal_christian_bishopric: "Disloyal Bishopric"
  cb_disloyal_christian_bishopric_desc: "This Bishopric has grown bold and is trying to break free from our grip."
  #
+ cb_disloyal_andoran_co_prince_bishopric: "Disloyal Co-prince Bishopric"
+ cb_disloyal_andoran_co_prince_bishopric_desc: "This Co-prince Bishopric has grown bold and is trying to break free from our grip."
+ #
  cb_disloyal_christian_archbishopric: "Disloyal Archbishopric"
  cb_disloyal_christian_archbishopric_desc: "This Archbishopric has grown bold and is trying to break free from our grip."
+ #
+ cb_disloyal_andoran_co_prince_archbishopric: "Disloyal Co-prince Archbishopric"
+ cb_disloyal_andoran_co_prince_archbishopric_desc: "This Co-prince Archbishopric has grown bold and is trying to break free from our grip."
  #
  cb_disloyal_mongolian_vassal: "Disloyal Mongolian Vassal"
  cb_disloyal_mongolian_vassal_desc: "This Mongolian Vassal has grown bold and is trying to break free from our grip."
@@ -397,11 +442,20 @@
  is_christian_abbacy: "Abbacy"
  desc_is_christian_abbacy: "Is an Abbacy"
 
+ is_andoran_co_prince_abbacy: "Co-prince Abbacy"
+ desc_is_andoran_co_prince_abbacy: "Is a Co-prince Abbacy"
+
  is_christian_bishopric: "Bishopric"
  desc_is_christian_bishopric: "Is a Bishopric"
 
+ is_andoran_co_prince_bishopric: "Co-prince Bishopric"
+ desc_is_andoran_co_prince_bishopric: "Is a Co-prince Bishopric"
+
  is_christian_archbishopric: "Archbishopric"
- desc_is_christian_archbishopric: "Is an Archbishopric"
+ desc_is_christian_archbishopric: "Is a Archbishopric"
+
+ is_andoran_co_prince_archbishopric: "Co-prince Archbishopric"
+ desc_is_andoran_co_prince_archbishopric: "Is a Co-prince Archbishopric"
 
  is_feudal_republic: "Feudal Republc"
  desc_is_feudal_republic: "Is a Feudal Republc"
@@ -543,6 +597,78 @@
  genoese_commercial_republic_long_desc: "A §Stato do Mâ§! behaves similar to a normal vassal, but pays less taxes, does not cost a diplomatic relation and transfers §Y50%§! of its trade power to its overlord. It gains a bonus to naval forcelimit, goods produced and province trade power and has a reduced liberty desire compared to vassals. If the Stato do Mâ or its overlord has enough trade power in its home trade node, the overlord gets an additional merchant. A Stato do Mâ can be established by independent nations that are either §YGenoa§! or have the §YLigurian§! primary culture or have the Merchant Republic and or a custom reform that allows creating this subject type. It can be established in independent one province minors or in own vassals.\n"
  genoese_commercial_republic_no_overlord_dow: "You cannot declare war on your own Stato do Mâ."
  genoese_commercial_republic_overlord_title: "Signore Supremo"
+ #
+ #New VU 1.37.* Outpost Republic T1
+ rep_outpost_subject: "Outpost"
+ rep_outpost_subject_title: "Outpost"
+ rep_outpost_subject_title_plural: "Outposts"
+ rep_outpost_subject_is_our: "§Y$NAME$§! is our Outpost"
+ rep_outpost_subject_long_desc: "A §Outpost§! behaves similar to a normal vassal, but establishes a foothold in this region.\n"
+ rep_outpost_subject_no_overlord_dow: "You cannot declare war on your own Outpost."
+ rep_outpost_subject_overlord_title: "Commandant"
+ #
+ #New VU 1.37.* Borough Republic T2
+ rep_borough_subject: "Borough"
+ rep_borough_subject_title: "Borough"
+ rep_borough_subject_title_plural: "Boroughs"
+ rep_borough_subject_is_our: "§Y$NAME$§! is our Borough"
+ rep_borough_subject_long_desc: "A §Borough§! behaves similar to an Outpost subject by expanding an established foothold in this region.\n"
+ rep_borough_subject_no_overlord_dow: "You cannot declare war on your own Borough."
+ rep_borough_subject_overlord_title: "Councillor"
+ #
+ #New VU 1.37.* Commune Republic T3
+ rep_commune_subject: "Commune"
+ rep_commune_subject_title: "Commune"
+ rep_commune_subject_title_plural: "Communes"
+ rep_commune_subject_is_our: "§Y$NAME$§! is our Commune"
+ rep_commune_subject_long_desc: "A §Commune§! behaves similar to a Borough subject but begins the process of forming its own administration in this region.\n"
+ rep_commune_subject_no_overlord_dow: "You cannot declare war on your own Commune."
+ rep_commune_subject_overlord_title: "Mayor"
+ #
+ #New VU 1.37.* Canton Republic T4
+ rep_canton_subject: "Canton"
+ rep_canton_subject_title: "Canton"
+ rep_canton_subject_title_plural: "Cantons"
+ rep_canton_subject_is_our: "§Y$NAME$§! is our Canton"
+ rep_canton_subject_long_desc: "A §Canton§! behaves similar to a Commune subject with the exception that it has partial authority and autonomy in its own affairs, can pass their own laws, and have control over their own economy, leading to further development of government institutions and lowering overall autonomy of a region.\n"
+ rep_canton_subject_no_overlord_dow: "You cannot declare war on your own Canton."
+ rep_canton_subject_overlord_title: "Chancellor"
+ #
+ #New VU 1.37.* Territory Republic T5
+ rep_territory_subject: "Territory"
+ rep_territory_subject_title: "Territory"
+ rep_territory_subject_title_plural: "Territory"
+ rep_territory_subject_is_our: "§Y$NAME$§! is our Territory"
+ rep_territory_subject_long_desc: "A §Territory§! behaves similar to a Canton subject with the exception that it has more authority and autonomy over its own affairs. Territories can pass their own laws, and have control over their own economy, leading to further development of government institutions and lowering overall autonomy of a region.\n"
+ rep_territory_subject_no_overlord_dow: "You cannot declare war on your own Territory."
+ rep_territory_subject_overlord_title: "Administrator"
+ #
+ #New VU 1.37.* Province Republic T6
+ rep_province_subject: "Province"
+ rep_province_subject_title: "Province"
+ rep_province_subject_title_plural: "Province"
+ rep_province_subject_is_our: "§Y$NAME$§! is our Province"
+ rep_province_subject_long_desc: "A §Province§! behaves similar to a Territory subject with the exception that it has greater authority and autonomy over its own affairs. Provinces can pass their own laws, and have control over their own economy, leading to further development of government institutions and lowering overall autonomy of a region.\n"
+ rep_province_subject_no_overlord_dow: "You cannot declare war on your own Province."
+ rep_province_subject_overlord_title: "Governor"
+ #
+ #New VU 1.37.* State Republic T7
+ rep_state_subject: "State"
+ rep_state_subject_title: "State"
+ rep_state_subject_title_plural: "States"
+ rep_state_subject_is_our: "§Y$NAME$§! is our State"
+ rep_state_subject_long_desc: "A §State§! behaves similar to a State subject with the exception that it has near full authority and autonomy over its own affairs. States can pass their own laws, and have control over their own economy, leading to further development of government institutions and lowering overall autonomy of a region.\n"
+ rep_state_subject_no_overlord_dow: "You cannot declare war on your own State."
+ rep_state_subject_overlord_title: "President"
+ #
+ #New VU 1.37.* Commonwealth Republic T8
+ rep_commonwealth_subject: "Commonwealth"
+ rep_commonwealth_subject_title: "Commonwealth"
+ rep_commonwealth_subject_title_plural: "Commonwealths"
+ rep_commonwealth_subject_is_our: "§Y$NAME$§! is our Commonwealth"
+ rep_commonwealth_subject_long_desc: "A §Commonwealth§! behaves similar to a Commonwealth subject with the exception that it has full authority and autonomy over its own affairs. States can pass their own laws, and have control over their own economy, leading to further development of government institutions and lowering overall autonomy of a region.\n"
+ rep_commonwealth_subject_no_overlord_dow: "You cannot declare war on your own Commonwealth."
+ rep_commonwealth_subject_overlord_title: "Premier"
  #
  canadian_province_subject_vu: "Canadian Province"
  canadian_province_subject_vu_title: "Canadian Province"

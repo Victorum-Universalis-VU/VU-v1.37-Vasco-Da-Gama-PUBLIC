@@ -5631,3 +5631,43 @@ welsh_marches_ideas = {
 		global_regiment_recruit_speed = -0.10
 	}
 }
+
+indonesia_nation_ideas = {
+	start = {
+		army_tradition = 1
+		navy_tradition = 1
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.2
+	}
+	
+	trigger = {
+		tag = IDN
+	}
+	free = yes
+	
+	indonesia_fight_the_colonizers = {
+		land_morale = 0.2
+	}
+	indonesia_straits_of_malacca = {
+ 		trade_efficiency = 0.15
+	}	
+	indonesia_settle_the_spice_islands = {
+		colonists = 1
+		global_colonial_growth = 0.15
+	}
+	indonesia_dominate_of_the_indian_ocean = {
+		naval_morale = 0.2
+	}
+	indonesia_shield_the_home_isles = {
+		galley_power = 0.15
+	}
+	indonesia_fertile_islands = {
+		global_manpower_modifier = 0.2
+	}
+	indonesia_propagate_the_faith = {
+		missionaries = 1
+		global_missionary_strength = 0.015
+	}
+}

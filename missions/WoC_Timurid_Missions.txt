@@ -125,6 +125,7 @@ WoC_timurids_1_persia = {
 				region = mashriq_region
 				region = anatolia_region
 				region = caucasia_region
+				region = south_caucasia_region
 				area = tabriz_area
 			}
 			province_has_center_of_trade_of_level = 1
@@ -140,6 +141,7 @@ WoC_timurids_1_persia = {
 					region = mashriq_region
 					region = anatolia_region
 					region = caucasia_region
+					region = south_caucasia_region
 					area = tabriz_area
 				}
 				province_has_center_of_trade_of_level = 1

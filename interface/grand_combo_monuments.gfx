@@ -421,10 +421,10 @@ spriteTypes = {
         texturefile = "gfx//interface//great_projects//grand_combo_monuments//great_project_malbork_castle.dds"
     }
 
-    spriteType = {
-        name = "GFX_great_project_rammelsberg"
-        texturefile = "gfx//interface//great_projects//grand_combo_monuments//great_project_rammelsberg.dds"
-    }
+    #spriteType = {
+    #    name = "GFX_great_project_rammelsberg"
+    #    texturefile = "gfx//interface//great_projects//grand_combo_monuments//great_project_rammelsberg.dds"
+    #}
 
     spriteType = {
         name = "GFX_great_project_imperial_castle"

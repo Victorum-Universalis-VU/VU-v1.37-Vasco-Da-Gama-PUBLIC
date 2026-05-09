@@ -477,6 +477,9 @@ armenia_missions_slot_4_1 = {
 				caucasia_region = {
 					country_or_non_sovereign_subject_holds = QAR
 				}
+				south_caucasia_region = {
+					country_or_non_sovereign_subject_holds = QAR
+				}
 			}
 		}
 		effect = {

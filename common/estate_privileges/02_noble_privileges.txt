@@ -600,7 +600,7 @@ estate_nobles_french_strong_duchies = {
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	loyalty = 0.1
-	influence = 0.1
+	influence = 0.05
 	check_valid_when_tag_switching = no
 	is_valid = {
 		OR = {
@@ -1195,8 +1195,11 @@ estate_nobles_strong_duchies = {
 			    is_subject_of_type = autonomous_canton
 			    #Christian Subjects
 			    is_subject_of_type = christian_abbacy
+				is_subject_of_type = andoran_co_prince_abbacy
 			    is_subject_of_type = christian_bishopric
+				is_subject_of_type = andoran_co_prince_bishopric
 			    is_subject_of_type = christian_archbishopric
+				is_subject_of_type = andoran_co_prince_archbishopric
 			    #Islamic Subjects
 			    is_subject_of_type = islamic_imamate			#Equivalent to Lordship  
 			    is_subject_of_type = islamic_grand_muftate	    #Equivalent to barony
@@ -1273,8 +1276,11 @@ estate_nobles_strong_duchies = {
 			            is_subject_of_type = autonomous_canton
 			            #Christian Subjects
 			            is_subject_of_type = christian_abbacy
+						is_subject_of_type = andoran_co_prince_abbacy
 			            is_subject_of_type = christian_bishopric
+						is_subject_of_type = andoran_co_prince_bishopric
 			            is_subject_of_type = christian_archbishopric
+						is_subject_of_type = andoran_co_prince_archbishopric
 			            #Islamic Subjects
 			            is_subject_of_type = islamic_imamate			  #Equivalent to Lordship  
 			            is_subject_of_type = islamic_grand_muftate		  #Equivalent to barony

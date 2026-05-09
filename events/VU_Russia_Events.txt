@@ -644,6 +644,7 @@ country_event = {
 				}
 				NOT = {
 					region = caucasia_region
+					region = south_caucasia_region
 				}
 				culture = astrakhani
 			}
@@ -658,6 +659,7 @@ country_event = {
 				culture = astrakhani
 				NOT = {
 					region = caucasia_region
+					region = south_caucasia_region
 				}
 				development = 4
 				NOT = {
@@ -1102,6 +1104,7 @@ province_event = {
 		}
 		NOT = {
 			region = caucasia_region
+			region = south_caucasia_region
 		}
 	}
 	mean_time_to_happen = {

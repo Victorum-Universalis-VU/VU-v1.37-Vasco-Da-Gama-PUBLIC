@@ -2415,10 +2415,10 @@
  construct_wormser_dom_title: "Renovate the Wormser Dom"
  construct_wormser_dom_desc: "Wormser Dom is a Roman Catholic church and former cathedral in Worms, southern Germany. Most of the cathedral was finished by 1181; Costs 1250."
  #
- great_project_santiago_de_compostela: "Basilica of St. James"
- santiago_de_compostela: "Basilica of St. James"
- santiago_de_compostela_title: "Renovate the Basilica of St. James"
- construct_santiago_de_compostela_title: "Renovate the Basilica of St. James"
+ great_project_santiago_de_compostela: "Basílica de Santiago de Compostela"
+ santiago_de_compostela: "Basílica de Santiago de Compostela"
+ santiago_de_compostela_title: "Renovate the Basílica de Santiago de Compostela"
+ construct_santiago_de_compostela_title: "Renovate the Basílica de Santiago de Compostela"
  construct_santiago_de_compostela_desc: "The Basilica of St.James “the great” in Santiago de Compostela is the destination of the Way of St. James, a leading Catholic pilgrimage route since the 9th century; Costs 3250."
  #
  #VU Universities
@@ -2446,11 +2446,11 @@
  construct_vu_university_of_siena_title: "Renovate the Università di Siena"
  construct_vu_university_of_siena_desc: "Founded in 1240, the University of Siena had an anual attendance of 16,000 pupils, a figure almost one-third of Siena's population, it is the second oldest university in Italy and is considered the world's fifth-oldest surviving university."
  #
- great_project_vu_university_of_valladolid: "University of Valladolid"
- vu_university_of_valladolid: "University of Valladolid"
- vu_university_of_valladolid_title: "Renovate the University of Valladolid"
- construct_vu_university_of_valladolid_title: "Renovate the University of Valladolid"
- construct_vu_university_of_valladolid_desc: "Established in the 13th century, it is one of the oldest universities in the world."
+ great_project_vu_university_of_valladolid: "Universidad de Valladolid"
+ vu_university_of_valladolid: "Universidad de Valladolid"
+ vu_university_of_valladolid_title: "Renovate the Universidad de Valladolid"
+ construct_vu_university_of_valladolid_title: "Renovate the Universidad de Valladolid"
+ construct_vu_university_of_valladolid_desc: "Established in the 13th century, the University of Valladolid is one of the oldest universities in the world."
  #
  great_project_vu_university_of_montpellier: "Université Montpellier"
  vu_university_of_montpellier: "Université Montpellier"

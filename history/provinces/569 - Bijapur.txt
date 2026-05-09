@@ -16,3 +16,4 @@ is_city = yes
 
 #Claimants
 add_core = BIJ
+add_core = DEC

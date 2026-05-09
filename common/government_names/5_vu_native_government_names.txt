@@ -1132,6 +1132,7 @@ stateless_society = {
     }
     trigger = {
         has_reform = stateless_society
+        government_rank = 4
     }
 }
 kongolese_monarchical_tribal_kingdom = {

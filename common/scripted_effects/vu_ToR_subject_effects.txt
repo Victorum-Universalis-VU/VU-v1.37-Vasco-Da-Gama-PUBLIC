@@ -4134,6 +4134,29 @@ vu_ToR_removed_EUE_gov_reform = {
 vu_ToR_set_theocracy_gov_reform = {
     if = {
         limit = {
+            tag = AOR
+        }
+        if = {
+            limit = {
+                is_subject_of_type = andoran_co_prince_abbacy
+            }
+            add_government_reform = prince_abbacy_of_andorra_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = andoran_co_prince_bishopric
+            }
+            add_government_reform = prince_bishopric_of_andorra_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = andoran_co_prince_archbishopric
+            }
+            add_government_reform = prince_archbishopric_of_andorra_reform
+        }
+    }
+    else_if = {
+        limit = {
             technology_group = bulgarian_tech_group
         }
         if = {
@@ -4521,6 +4544,129 @@ vu_ToR_set_theocracy_gov_reform = {
                 is_subject_of_type = christian_archbishopric
             }
             add_government_reform = church_of_generic_archbishopric_reform
+        }
+    }
+}
+
+#New Republican Subject Types
+vu_create_republic_ToR_subject = {
+    #FROM is subject ROOT is overlord
+    if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = rep_state_subject
+                    government_rank = 7
+                }
+            }
+        }
+        create_subject = {
+            subject_type = rep_commonwealth_subject
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = vu_unlocked_rep_commonwealth_reform
+        }
+    }
+    else_if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = rep_province_subject
+                    government_rank = 6
+                }
+            }
+        }
+        create_subject = {
+            subject_type = rep_state_subject
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = vu_rep_state_reform
+        }
+    }
+    else_if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = rep_territory_subject
+                    government_rank = 5
+                }
+            }
+        }
+        create_subject = {
+            subject_type = rep_province_subject
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = vu_rep_province_reform			#Yani sees no issues with this, it just works - Todd Howard.
+        }
+    }
+    else_if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = rep_canton_subject
+                    government_rank = 4
+                }
+            }
+        }
+        create_subject = {
+            subject_type = rep_territory_subject
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = vu_rep_territory_reform
+        }
+    }
+    else_if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = rep_commune_subject
+                    government_rank = 3
+                }
+            }
+        }
+        create_subject = {
+            subject_type = rep_canton_subject
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = vu_rep_canton_reform
+        }
+    }
+    else_if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = rep_borough_subject
+                    government_rank = 2
+                }
+            }
+        }
+        create_subject = {
+            subject_type = rep_commune_subject
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = vu_rep_commune_reform
+        }
+    }
+    else = {
+        create_subject = {
+            subject_type = rep_borough_subject
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = vu_rep_borough_reform
         }
     }
 }

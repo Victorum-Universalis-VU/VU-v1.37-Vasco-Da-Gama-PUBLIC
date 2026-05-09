@@ -1929,7 +1929,12 @@ emp_hab_balkans_2 = {
 						NOT = { is_core = root }
 						NOT = { is_permanent_claim = root }
 						NOT = { region = anatolia_region }
-						NOT = { region = caucasia_region }
+						NOT = { 
+							OR = {
+								region = caucasia_region
+								region = south_caucasia_region
+							}
+						}
 						NOT = { region = balkan_region }
 					}
 					add_claim = root
@@ -1951,7 +1956,12 @@ emp_hab_balkans_2 = {
 			owned_by = TUR
 			continent = europe
 			NOT = { region = anatolia_region }
-			NOT = { region = caucasia_region }
+			NOT = { 
+				OR = {
+					region = caucasia_region
+					region = south_caucasia_region
+				}
+			}
 		}
 		trigger = {
 			NOT = {
@@ -1960,7 +1970,12 @@ emp_hab_balkans_2 = {
 						tooltip = emp_hab_scourge_of_europe_trigger_tooltip
 						owned_by = TUR
 						NOT = { region = anatolia_region }
-						NOT = { region = caucasia_region }
+						NOT = {
+							OR = {
+								region = caucasia_region
+								region = south_caucasia_region
+							}
+						}
 					}
 				}
 			}
@@ -2503,7 +2518,12 @@ emp_hab_diplo_branch = {
 				any_owned_province = {
 					continent = europe
 					NOT = { region = anatolia_region }
-					NOT = { region = caucasia_region }
+					NOT = {
+						OR = {
+							region = caucasia_region
+							region = south_caucasia_region
+						}
+					}
 				}
 				is_subject = no
 			}
@@ -2526,7 +2546,12 @@ emp_hab_diplo_branch = {
 						europe = {
 							type = all
 							NOT = { region = anatolia_region }
-							NOT = { region = caucasia_region }
+							NOT = {
+								OR = {
+									region = caucasia_region
+									region = south_caucasia_region
+								}
+							}
 							owner = {
 								OR = {
 									tag = ROOT
@@ -2562,7 +2587,12 @@ emp_hab_diplo_branch = {
 				europe = {
 					type = all
 					NOT = { region = anatolia_region }
-					NOT = { region = caucasia_region }
+					NOT = {
+						OR = {
+							region = caucasia_region
+							region = south_caucasia_region
+						}
+					}
 					OR = {
 						owned_by = root
 						owner = {

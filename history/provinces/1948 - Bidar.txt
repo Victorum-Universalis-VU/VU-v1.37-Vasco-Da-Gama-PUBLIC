@@ -14,6 +14,9 @@ base_production = 10
 base_manpower = 10
 is_city = yes
 
+#Claimants
+add_core = DEC
+
 #Buildings
 fort_15th = yes #Bidar Fort
 

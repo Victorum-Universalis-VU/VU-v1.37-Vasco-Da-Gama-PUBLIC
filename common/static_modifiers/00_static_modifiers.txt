@@ -1988,6 +1988,21 @@ christian_abbacy_overlord = {
 	church_loyalty_modifier = 0.01
 }
 
+andoran_co_prince_abbacy_subject = {
+    #Added by SF
+    land_forcelimit = 1
+    naval_forcelimit = 1
+    global_tax_modifier = 0.025
+}
+
+andoran_co_prince_abbacy_overlord = {
+    #Added by SF
+    land_forcelimit = 1
+    naval_forcelimit = 1
+    global_tax_modifier = 0.1
+    church_loyalty_modifier = 0.01
+}
+
 christian_bishopric_subject = {
 	#Added by Prussia
 	land_forcelimit = 1	#VU AddOn changed from 1. Uses up an dip upkeep slot, so might as well be useful
@@ -2001,6 +2016,19 @@ christian_bishopric_overlord = {
 	church_loyalty_modifier = 0.015
 }
 
+andoran_co_prince_bishopric_subject = {
+    #Added by Prussia
+    land_forcelimit = 1	#VU AddOn changed from 1. Uses up an dip upkeep slot, so might as well be useful
+    global_tax_modifier = 0.05	#Added so that lower ranked subjects provide more tax than men when compared to higher ranked subs - Prussia
+}
+
+andoran_co_prince_bishopric_overlord = {
+    #Added by Prussia
+    land_forcelimit = 1	#VU AddOn changed from 1. Uses up an dip upkeep slot, so might as well be useful
+    global_tax_modifier = 0.1	#Added so that lower ranked subjects provide more tax than men when compared to higher ranked subs - Prussia
+    church_loyalty_modifier = 0.015
+}
+
 christian_archbishopric_subject = {
 	#Added by Prussia
 	land_forcelimit = 2	#VU AddOn changed from 1. Uses up an dip upkeep slot, so might as well be useful
@@ -2012,6 +2040,19 @@ christian_archbishopric_overlord = {
 	land_forcelimit = 2	#VU AddOn changed from 1. Uses up an dip upkeep slot, so might as well be useful
 	global_tax_modifier = 0.1	#Added so that lower ranked subjects provide more tax than men when compared to higher ranked subs - Prussia
 	church_loyalty_modifier = 0.02
+}
+
+andoran_co_prince_archbishopric_subject = {
+    #Added by Prussia
+    land_forcelimit = 2	#VU AddOn changed from 1. Uses up an dip upkeep slot, so might as well be useful
+    global_tax_modifier = 0.05	#Added so that lower ranked subjects provide more tax than men when compared to higher ranked subs - Prussia
+}
+
+andoran_co_prince_archbishopric_overlord = {
+    #Added by Prussia
+    land_forcelimit = 2	#VU AddOn changed from 1. Uses up an dip upkeep slot, so might as well be useful
+    global_tax_modifier = 0.1	#Added so that lower ranked subjects provide more tax than men when compared to higher ranked subs - Prussia
+    church_loyalty_modifier = 0.02
 }
 
 marquisate_subject = {

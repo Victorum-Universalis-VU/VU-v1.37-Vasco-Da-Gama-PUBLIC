@@ -79,7 +79,7 @@ vu_ulugh_beg_madrasa = {
         }
         country_modifiers = {
             yearly_innovativeness = 0.75
-            idea_cost = 0.025
+            idea_cost = -0.025
         }
         on_upgraded = {
             owner = {
@@ -105,8 +105,8 @@ vu_ulugh_beg_madrasa = {
         }
         country_modifiers = {
             yearly_innovativeness = 1
-            idea_cost = 0.05
-            technology_cost = 0.05
+            idea_cost = -0.05
+            technology_cost = -0.05
         }
         on_upgraded = {
             owner = {

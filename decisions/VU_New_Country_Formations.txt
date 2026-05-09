@@ -5008,4 +5008,113 @@ country_decisions = {
 			}
 		}
 	}
+	#######################################################################################
+	##############################        Indonesia		 ##################################
+	#######################################################################################
+	vu_form_indonesia = {
+		major = yes
+		potential = {
+			NOT = {
+				exists = IDN
+			}
+			NOT = {
+				has_country_flag = indonesia_formed_flag
+			}
+			#was_never_end_game_tag_trigger = yes
+			normal_or_historical_nations = yes
+			OR = {
+				culture = sundanese
+				culture = javanese
+				culture = sumatran
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		color = {
+			250
+			50
+			50
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 622
+				province_id = 622
+				province_id = 636
+			}
+			OR = {
+				NOT = {
+					owned_by = ROOT
+				}
+				NOT = {
+					is_core = ROOT
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_emperor = no
+			OR = {
+				has_institution = nationalism_institution
+				has_idea_group = nationalism_ideas
+			}
+			owns_core_province = 630
+			owns_core_province = 622
+			owns_core_province = 636
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			change_tag = IDN
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 9
+					}
+				}
+				set_government_rank = 9
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = indonesia_formed_flag
+			#swap_non_generic_missions = yes #Need to add a mission tree at a later date - Prussia
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = {
+					id = ideagroups.1
+				}
+				#Swap Ideas
+			}
+			east_indies_superregion = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+					NOT = {
+						is_core = ROOT
+					}
+					OR = {
+						culture_group = malay
+					}
+				}
+				add_permanent_claim = IDN
+			}
+			vu_colour_refresh = yes
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				ai = yes
+			}
+		}
+	}
 }

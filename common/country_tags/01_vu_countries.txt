@@ -1397,6 +1397,7 @@ SLT = "countries/Slutsk.txt"
 TBT = "countries/Trubetsk.txt"
 TMT = "countries/Tmutarakan.txt"
 TOV = "countries/Turov.txt"
+VLD = "countries/Vladimir.txt"
 
 #ROMANIAN PRINCIPALITIES by Prussia
 B5R = "countries/Basarab.txt"

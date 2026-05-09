@@ -1,6 +1,6 @@
 ﻿l_english:
  # New Diplomatic Actions:
- establish_overseas_territorys_title: "Establish Overseas Territory"
+ establish_overseas_territory_title: "Establish Overseas Territory"
  establish_overseas_territory_desc: "Do you want to offer §Y[From.GetName]§! to become our Overseas Territory? \n[overseas_territory_desc]"
  establish_overseas_territory_tooltip: "Make §Y[From.GetName]§! to a [Root.GetAdjective] §YOverseas Territorys§!.\n"
  establish_overseas_territory_alert_tooltip: "Establish Overseas Territory"

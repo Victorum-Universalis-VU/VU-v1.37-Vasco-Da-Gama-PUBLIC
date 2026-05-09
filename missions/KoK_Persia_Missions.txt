@@ -10,6 +10,7 @@ kok_persia_conquest_mission_slot_1 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -48,12 +49,18 @@ kok_persia_conquest_mission_slot_1 = {
 		required_missions = { per_consolidate_persia }
 		position = 2
 		provinces_to_highlight = {
-			region = caucasia_region
+			OR = {
+				region = caucasia_region
+				region = south_caucasia_region
+			}
 			NOT = { owned_by = root }
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				region = caucasia_region
+				OR = {
+					region = caucasia_region
+					region = south_caucasia_region
+				}
 				value = 15
 			}
 		}
@@ -236,6 +243,7 @@ kok_persia_mission_muslim_slot_1 = {
 			tag = PER
 			tag = ERS
 		}
+		has_country_flag = use_paradox_missions
 		OR = {
 			has_country_flag = per_shia_missions
 			has_country_flag = per_sunni_missions
@@ -332,6 +340,7 @@ kok_persia_mission_zoroastrian_slot_1 = {
 			tag = PER
 			tag = ERS
 		}
+		has_country_flag = use_paradox_missions
 		has_country_flag = per_zoroastrian_missions
 	}
 	has_country_shield = yes
@@ -422,6 +431,7 @@ kok_persia_mission_branching_slot_1 = {
 			tag = PER
 			tag = ERS
 		}
+		has_country_flag = use_paradox_missions
 		NOT = {
 			OR = {
 				has_country_flag = per_shia_missions
@@ -454,6 +464,7 @@ kok_persia_conquest_mission_slot_2 = {
 			tag = PER
 			tag = ERS
 		}
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	per_butcher_black_sheep = {
@@ -471,7 +482,14 @@ kok_persia_conquest_mission_slot_2 = {
 			OR = {
 				AND = {
 					NOT = { persia_region = { owned_by = QAR } }
-					NOT = { caucasia_region = { owned_by = QAR } }
+					NOT = { 
+						caucasia_region = { 
+							owned_by = QAR 
+						}
+						south_caucasia_region = {
+							owned_by = QAR
+						}
+					}
 				}
 				AKK = { is_subject_of = root }
 				alliance_with = QAR
@@ -490,7 +508,14 @@ kok_persia_conquest_mission_slot_2 = {
 					OR = {
 						AND = {
 							NOT = { persia_region = { owned_by = QAR } }
-							NOT = { caucasia_region = { owned_by = QAR } }
+							NOT = { 
+							    caucasia_region = { 
+								    owned_by = QAR 
+								} 
+								south_caucasia_region = {
+								    owned_by = QAR
+								}
+							}
 						}
 						QAR = { is_subject_of = root }
 					}
@@ -637,6 +662,7 @@ kok_persia_mission_origins_slot_ardabil = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -747,6 +773,7 @@ kok_persia_mission_origins_slot_timurid = {
 			tag = PER
 			tag = ERS
 		}
+		has_country_flag = use_paradox_missions
 		NOT = { was_tag = ARL }
 		NOT = { primary_culture = mazandarani }
 		NOT = { was_tag = AKK }
@@ -845,6 +872,7 @@ kok_persia_mission_origins_slot_mazandarani = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -906,6 +934,7 @@ kok_persia_mission_origins_slot_mazandarani = {
 				region = khorasan_region
 				region = persia_region
 				region = caucasia_region
+				region = south_caucasia_region
 				region = mashriq_region
 				region = anatolia_region
 			}
@@ -919,6 +948,7 @@ kok_persia_mission_origins_slot_mazandarani = {
 					region = khorasan_region
 					region = persia_region
 					region = caucasia_region
+					region = south_caucasia_region
 					region = mashriq_region
 					region = anatolia_region
 				}
@@ -979,6 +1009,7 @@ kok_persia_mission_origins_slot_qoyunlu = {
 			tag = PER
 			tag = ERS
 		}
+		has_country_flag = use_paradox_missions
 		NOT = { was_tag = ARL }
 		NOT = { was_tag = TIM }
 		NOT = { was_tag = KHO }
@@ -1068,6 +1099,7 @@ kok_persia_defense_mission_slot_3 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -1178,6 +1210,7 @@ kok_persia_conquest_mission_slot_4 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -1276,6 +1309,7 @@ kok_persia_conquest_mission_slot_5 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -1433,6 +1467,7 @@ kok_persia_military_mission_slot_1 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -1574,6 +1609,7 @@ kok_persia_military_mission_slot_2 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -1818,6 +1854,7 @@ kok_persia_religious_direction_mission = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -1865,6 +1902,7 @@ kok_persia_mission_muslim_slot_3 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -1968,6 +2006,7 @@ kok_persia_mission_shia_slot_3 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -2097,6 +2136,7 @@ kok_persia_mission_sunni_slot_3 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -2234,6 +2274,7 @@ kok_persia_mission_muslim_slot_4 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -2371,6 +2412,7 @@ kok_persia_mission_muslim_slot_5 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -2513,6 +2555,7 @@ kok_persia_mission_zoroastrian_slot_3 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -2705,6 +2748,7 @@ kok_persia_mission_zoroastrian_slot_4 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -2789,6 +2833,7 @@ kok_persia_mission_zoroastrian_slot_5 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -2917,6 +2962,7 @@ kok_persia_mission_branching_slot_3 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -2967,6 +3013,7 @@ kok_persia_mission_branching_slot_4 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -3003,6 +3050,7 @@ kok_persia_mission_branching_slot_5 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -3049,6 +3097,7 @@ kok_persia_military_mission_slot_3 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -3102,6 +3151,7 @@ kok_persia_culture_mission_slot_1 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -3215,6 +3265,7 @@ kok_persia_culture_mission_slot_2 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -3416,6 +3467,7 @@ kok_persia_culture_mission_slot_3 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -3583,6 +3635,7 @@ kok_persia_culture_mission_slot_4 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS
@@ -3809,6 +3862,7 @@ kok_persia_culture_mission_slot_5 = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "King of Kings"
+		has_country_flag = use_paradox_missions
 		or = {
 			tag = PER
 			tag = ERS

@@ -99,8 +99,11 @@ castilian_principality = {}
 castilian_kingdom = {}
 #CHRISTIAN SUBJECTS
 christian_abbacy = {}
+andoran_co_prince_abbacy = {}
 christian_bishopric = {}
+andoran_co_prince_bishopric = {}
 christian_archbishopric = {}
+andoran_co_prince_archbishopric = {}
 #DANISH SUBJECTS
 danish_lordship = {}
 danish_barony = {}
@@ -250,6 +253,14 @@ feudal_republic = {}
 merchantlist_republic = {}
 venetian_republic = {}
 genoese_commercial_republic = {}
+rep_outpost_subject = {}
+rep_borough_subject = {}
+rep_commune_subject = {}
+rep_canton_subject = {}
+rep_territory_subject = {}
+rep_province_subject = {}
+rep_state_subject = {}
+rep_commonwealth_subject = {}
 
 #ALBANIAN SUBJECTS
 lezhe_league_member = {
@@ -918,6 +929,7 @@ anglois_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -937,7 +949,7 @@ anglois_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -1647,6 +1659,7 @@ aragonese_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -1666,7 +1679,7 @@ aragonese_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -2376,6 +2389,7 @@ austrian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -2395,7 +2409,7 @@ austrian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -3107,6 +3121,7 @@ baltic_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -3126,7 +3141,7 @@ baltic_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -3838,6 +3853,7 @@ belgian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -3857,7 +3873,7 @@ belgian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -4568,6 +4584,7 @@ bohemian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -4587,7 +4604,7 @@ bohemian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -4715,6 +4732,7 @@ bosnian_banat_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 20.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
@@ -5363,6 +5381,7 @@ burgundian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -5381,7 +5400,7 @@ burgundian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -6092,6 +6111,7 @@ byzantine_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -6111,7 +6131,7 @@ byzantine_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -6821,6 +6841,7 @@ castilian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -6840,7 +6861,7 @@ castilian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -6975,6 +6996,90 @@ christian_abbacy = {
     subject_opinion_modifier = is_christian_abbacy
 }
 
+andoran_co_prince_abbacy = {
+    copy_from = default
+
+    # Graphics:
+    sprite = GFX_icon_andoran_co_prince_abbacy_subject
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_andoran_co_prince_abbacy_subject
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_andoran_co_prince_abbacy_subject
+
+    # Properties:
+    takes_diplo_slot = no
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
+    can_be_annexed = yes
+    liberty_desire_development_ratio = 0.15
+    trust_on_start = 0
+    base_liberty_desire = 25.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 0.35
+    max_government_rank = 2
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    # Subject Interactions
+    seize_court_resources = no
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = yes
+    enforce_religion = yes
+    enforce_culture = no
+    seize_territory = no
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    # Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+
+    restoration_cb = cb_disloyal_andoran_co_prince_abbacy #Was cb_disloyal_marquisate
+
+    # Subject Interactions:
+
+    # Modifiers:
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = andoran_co_prince_abbacy_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = andoran_co_prince_abbacy_overlord
+    }
+
+    overlord_opinion_modifier = is_andoran_co_prince_abbacy
+    subject_opinion_modifier = is_andoran_co_prince_abbacy
+}
+
 christian_bishopric = {
     copy_from = christian_abbacy
 
@@ -7059,6 +7164,90 @@ christian_bishopric = {
     subject_opinion_modifier = is_christian_bishopric
 }
 
+andoran_co_prince_bishopric = {
+    copy_from = andoran_co_prince_abbacy
+
+    # Graphics:
+    sprite = GFX_icon_andoran_co_prince_bishopric_subject
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_andoran_co_prince_bishopric_subject
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_andoran_co_prince_bishopric_subject
+
+    # Properties:
+    takes_diplo_slot = no
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    can_be_annexed = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
+    liberty_desire_development_ratio = 0.15
+    trust_on_start = 0
+    base_liberty_desire = 25.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 0.35
+    max_government_rank = 4
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    # Subject Interactions
+    seize_court_resources = no
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = yes
+    enforce_religion = yes
+    enforce_culture = no
+    seize_territory = no
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    # Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+
+    restoration_cb = cb_disloyal_andoran_co_prince_bishopric #Was cb_disloyal_marquisate
+
+    # Subject Interactions:
+
+    # Modifiers:
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = andoran_co_prince_bishopric_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = andoran_co_prince_bishopric_overlord
+    }
+
+    overlord_opinion_modifier = is_andoran_co_prince_bishopric
+    subject_opinion_modifier = is_andoran_co_prince_bishopric
+}
+
 christian_archbishopric = {
     copy_from = christian_bishopric
 
@@ -7101,7 +7290,6 @@ christian_archbishopric = {
     enforce_culture = no
     seize_territory = no
     placate_rulers = yes
-    seize_court_resources = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -7143,6 +7331,91 @@ christian_archbishopric = {
 
     overlord_opinion_modifier = is_christian_archbishopric
     subject_opinion_modifier = is_christian_archbishopric
+}
+
+andoran_co_prince_archbishopric = {
+    copy_from = andoran_co_prince_bishopric
+
+    # Graphics:
+    sprite = GFX_icon_andoran_co_prince_archbishopric_subject
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_andoran_co_prince_archbishopric_subject
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_andoran_co_prince_archbishopric_subject
+
+    # Properties:
+    takes_diplo_slot = no
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    can_be_annexed = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
+    liberty_desire_development_ratio = 0.15
+    trust_on_start = 0
+    base_liberty_desire = 25.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 0.35
+    max_government_rank = 7
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    # Subject Interactions
+    seize_court_resources = no
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = no
+    enforce_religion = yes
+    enforce_culture = no
+    seize_territory = no
+    placate_rulers = yes
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    # Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+
+    restoration_cb = cb_disloyal_andoran_co_prince_archbishopric #Was cb_disloyal_marquisate
+
+    # Subject Interactions:
+
+    # Modifiers:
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = andoran_co_prince_archbishopric_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = andoran_co_prince_archbishopric_overlord
+    }
+
+    overlord_opinion_modifier = is_andoran_co_prince_archbishopric
+    subject_opinion_modifier = is_andoran_co_prince_archbishopric
 }
 
 #DANISH SUBJECTS
@@ -7745,6 +8018,7 @@ danish_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -7764,7 +8038,7 @@ danish_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -8474,6 +8748,7 @@ dutch_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -8493,7 +8768,7 @@ dutch_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -9141,6 +9416,7 @@ english_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -9160,7 +9436,7 @@ english_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -9881,6 +10157,7 @@ french_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -9900,7 +10177,7 @@ french_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -10610,6 +10887,7 @@ german_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -10629,7 +10907,7 @@ german_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -11339,6 +11617,7 @@ hungarian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -11358,7 +11637,7 @@ hungarian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -12068,6 +12347,7 @@ italian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -12087,7 +12367,7 @@ italian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -13141,6 +13421,7 @@ norwegian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -13160,7 +13441,7 @@ norwegian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -13870,6 +14151,7 @@ polish_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -13889,7 +14171,7 @@ polish_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -14599,6 +14881,7 @@ portuguese_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -14618,7 +14901,7 @@ portuguese_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -15328,6 +15611,7 @@ prussian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -15347,7 +15631,7 @@ prussian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -16057,6 +16341,7 @@ russian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -16076,7 +16361,7 @@ russian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -17196,6 +17481,7 @@ swedish_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -17214,7 +17500,7 @@ swedish_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
@@ -17850,3 +18136,381 @@ genoese_commercial_republic = {
     overlord_opinion_modifier = is_genoese_commercial_republic
     subject_opinion_modifier = is_genoese_commercial_republic
 }
+
+#REPUBLIC SUBJECTS
+rep_outpost_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_outpost_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_outpost_subject
+    subject_opinion_modifier = is_rep_outpost_subject
+}
+
+rep_borough_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_borough_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_borough_subject
+    subject_opinion_modifier = is_rep_borough_subject
+}
+
+rep_commune_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_commune_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_commune_subject
+    subject_opinion_modifier = is_rep_commune_subject
+}
+
+rep_canton_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_canton_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_canton_subject
+    subject_opinion_modifier = is_rep_canton_subject
+}
+
+rep_territory_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_territory_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_territory_subject
+    subject_opinion_modifier = is_rep_territory_subject
+}
+
+rep_province_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_province_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_province_subject
+    subject_opinion_modifier = is_rep_province_subject
+}
+
+rep_state_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_state_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_state_subject
+    subject_opinion_modifier = is_rep_state_subject
+}
+
+rep_commonwealth_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_commonwealth_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_commonwealth_subject
+    subject_opinion_modifier = is_rep_commonwealth_subject
+}
+

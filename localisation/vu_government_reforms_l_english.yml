@@ -161,6 +161,12 @@
  welsh_principality: "Welsh Principality"
  welsh_principality_desc: "Founded in 1216 at the 'Council of Aberdyfi' and later recognised by the 1218 'Treaty of Worcester' the Principality of Wales or 'Tywysogaeth Cymru' in the local tongue consists of all territories within the region of Wales west of the River Dee, strecthing as far south to the Brecon Beacons and Black Mountains range. Similarly, this territory is ruled over by either a Prince or Princess, bearing the title 'Prince or Princess of Wales' who rule over a Kingdom regardless of the title 'Prince'. The powers of a Prince may sometimes be gained through hereditary or electoral means. In other words, a Prince or Princess may come to power if he or she is descended from the previous ruler or is elected by court and local nobility."
  #
+ prince_abbacy_of_andorra_reform: "Prince-Abbacy of Andorra"
+ prince_abbacy_of_andorra_reform_desc: "Prince-Abbacy of Andorra is an Iberian prelate who serves as the Abbot of Urgell and Andorra."
+ #
+ prince_bishopric_of_andorra_reform: "Prince-Bishop of Andorra"
+ prince_bishopric_of_andorra_reform_desc: "Prince-Bishop of Andorra is an Iberian prelate who serves as the Bishop of Urgell and Andorra."
+ #
  prince_archbishopric_of_andorra_reform: "Prince-Archbishop of Andorra"
  prince_archbishopric_of_andorra_reform_desc: "Prince-Archbishop of Andorra is an Iberian prelate who serves not only as the Bishop of Urgell but also as the Prince-Archbishop of the Principality of Andorra. Representatives of this office are unique in that they are one of only two Catholic religious figures in the world that act as both church leader and who rule over a nation state. The only other church figure that has comparable power is of course the Pope in Rome."
  #
@@ -924,3 +930,54 @@
 
  iroquois_confederacy_member_reform: "Iroquois Confederacy Member"
  iroquois_confederacy_member_reform_desc: "We are a member of the Iroqouis Confederacy, a pact of tribal chiefs to protect our common interests under the leadership of the Iroqouis Tribe."
+
+ #New VU Republican Subject Types
+ #Locked
+ vu_rep_outpost_reform: "Outpost"
+ vu_rep_outpost_reform_desc: "A fortified Outpost in the wilderness."
+
+ vu_rep_borough_reform: "Borough"
+ vu_rep_borough_reform_desc: "A Borough built from a fortified Outpost."
+
+ vu_rep_commune_reform: "Commune"
+ vu_rep_commune_reform_desc: "An administrative entity that has absorbed multiple villages."
+
+ vu_rep_canton_reform: "Canton"
+ vu_rep_canton_reform_desc: "A Commune that has grown to encompass multiple towns."
+
+ vu_rep_territory_reform: "Territory"
+ vu_rep_territory_reform_desc: "A geographical location made up of several towns and cities."
+
+ vu_rep_province_reform: "Province"
+ vu_rep_province_reform_desc: "An area that administers several territories."
+
+ vu_rep_state_reform: "State"
+ vu_rep_state_reform_desc: "A region that governs multiple cities and provinces."
+
+ vu_rep_commonwealth_reform: "Commonwealth"
+ vu_rep_commonwealth_reform_desc: "A collection of many states that have all banded together to form a collective Commonwealth."
+ 
+ #Unlocked
+ vu_unlocked_rep_outpost_reform: "Outpost"
+ vu_unlocked_rep_outpost_reform_desc: "A fortified Outpost in the wilderness."
+
+ vu_unlocked_rep_borough_reform: "Borough"
+ vu_unlocked_rep_borough_reform_desc: "A Borough built from a fortified Outpost."
+
+ vu_unlocked_rep_commune_reform: "Commune"
+ vu_unlocked_rep_commune_reform_desc: "An administrative entity that has absorbed multiple villages."
+
+ vu_unlocked_rep_canton_reform: "Canton"
+ vu_unlocked_rep_canton_reform_desc: "A Commune that has grown to encompass multiple towns."
+
+ vu_unlocked_rep_territory_reform: "Territory"
+ vu_unlocked_rep_territory_reform_desc: "A geographical location made up of several towns and cities."
+
+ vu_unlocked_rep_province_reform: "Province"
+ vu_unlocked_rep_province_reform_desc: "An area that administers several territories."
+
+ vu_unlocked_rep_state_reform: "State"
+ vu_unlocked_rep_state_reform_desc: "A region that governs multiple cities and provinces."
+
+ vu_unlocked_rep_commonwealth_reform: "Commonwealth"
+ vu_unlocked_rep_commonwealth_reform_desc: "A collection of many states that have all banded together to form a collective Commonwealth."

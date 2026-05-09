@@ -14763,6 +14763,7 @@ country_decisions = {
                             region = persia_region
                             region = khorasan_region
                             region = caucasia_region
+                            region = south_caucasia_region
                             region = central_asia_region
                         }
                         is_permanent_claim = MUG
@@ -14778,6 +14779,7 @@ country_decisions = {
                             region = persia_region
                             region = khorasan_region
                             region = caucasia_region
+                            region = south_caucasia_region
                             region = central_asia_region
                         }
                         is_core = MUG

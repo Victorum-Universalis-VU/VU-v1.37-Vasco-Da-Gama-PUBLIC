@@ -808,6 +808,47 @@ ruler_just_canceled_to_be_banking_family_subject = {
 switched_defensive_march_to_or_from_offensive_wars = {
 }
 
+#New VU 1.37.* Republican Subject Types
+rep_outpost_subject_overlord_modifier = {
+    land_forcelimit = 1
+	native_assimilation = 0.2
+}
+
+rep_borough_subject_overlord_modifier = {
+    land_forcelimit = 1
+	placed_merchant_power = 5
+}
+
+rep_commune_subject_overlord_modifier = {
+    land_forcelimit = 1
+	army_tradition = 0.1
+}
+
+rep_canton_subject_overlord_modifier = {
+    land_forcelimit = 1
+	development_cost = 0.05
+}
+
+rep_territory_subject_overlord_modifier = {
+    land_forcelimit = 1
+	ship_trade_power_modifier = 0.05
+}
+
+rep_province_subject_overlord_modifier = {
+    land_forcelimit = 1
+	trade_steering = 0.05
+}
+
+rep_state_subject_overlord_modifier = {
+    land_forcelimit = 1
+	global_autonomy = -0.025
+}
+
+rep_commonwealth_subject_overlord_modifier = {
+    land_forcelimit = 1
+	yearly_corruption = -0.05
+}
+
 overseas_territory_low_dev_modifier = { }
 overseas_territory_overlord_modifier = { }
 satellite_state_low_dev_modifier = { }

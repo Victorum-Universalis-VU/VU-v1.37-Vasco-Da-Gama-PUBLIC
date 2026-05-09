@@ -230,6 +230,7 @@ vu_economic_influence = {
 		full_idea_group = influence_ideas
 	}
 	reduced_liberty_desire_on_same_continent = 10
+	all_estate_influence_modifier = -10
 	effect = {
 	}
 	removed_effect = {
@@ -1741,6 +1742,7 @@ vu_influence_offensive = {
 		full_idea_group = offensive_ideas
 	}
 	unjustified_demands = -0.2
+	war_exhaustion = -0.05
 	effect = {
 	}
 	removed_effect = {

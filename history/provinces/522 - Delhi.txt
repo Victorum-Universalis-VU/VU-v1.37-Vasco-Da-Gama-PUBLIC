@@ -18,6 +18,7 @@ is_city = yes	#Still Recovering after sack by Timur
 add_core = BHA
 add_core = MUL
 add_core = SRH
+add_core = HIN
 
 #Commerce
 center_of_trade = 5

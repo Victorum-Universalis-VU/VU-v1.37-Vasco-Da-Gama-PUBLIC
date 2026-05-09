@@ -421,3 +421,21 @@
  #Don's German Empire formable
  vu_german_empire_title: "§gForm the German Empire§!"
  vu_german_empire_desc: "For the Kaiser!"
+ #Prussia's Indonesia Formable
+ vu_form_indonesia_title: "Unite the Indonesians"
+ vu_form_indonesia_desc: "Long have the peoples of the Indonesian Isles been disparate and divided. No longer."
+ #Timurid Subject Decisions
+ vu_tim_establish_ilkhanate_title: "Establish Prince in the Ilkhanate"
+ vu_tim_establish_ilkhanate_desc: "Establish one of our princes in the Azerbaijan area"
+ vu_tim_establish_scythia_title: "Establish Prince in Scythia"
+ vu_tim_establish_scythia_desc: "Establish one of our princes in the Scythia area"
+ vu_tim_establish_uae_title: "Establish Prince in Arabia"
+ vu_tim_establish_uae_desc: "Establish one of our princes in the Arabia area"
+ vu_tim_establish_assur_title: "Establish Prince in Assyria"
+ vu_tim_establish_assur_desc: "Establish one of our princes in the Mesopotamia area"
+ vu_tim_establish_rum_title: "Establish Prince in Rum"
+ vu_tim_establish_rum_desc: "Establish one of our princes in the Anatolia area"
+ vu_tim_establish_palestine_title: "Establish Prince in Palestine"
+ vu_tim_establish_palestine_desc: "Establish one of our princes in the Palestine area"
+ vu_tim_establish_dagestan_title: "Establish Prince in Dagestan"
+ vu_tim_establish_dagestan_desc: "Establish one of our princes in the Dagestan area"

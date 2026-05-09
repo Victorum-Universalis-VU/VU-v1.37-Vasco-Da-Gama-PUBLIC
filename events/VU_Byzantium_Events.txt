@@ -1028,6 +1028,13 @@ country_event = { #The Faithful of Georgia
                 }
                 add_core = GEO
             }
+            south_caucasia_region = {
+                limit = {
+                    NOT = { is_core = GEO }
+                    owned_by = ROOT
+                }
+                add_core = GEO
+            }
             release = GEO
             GEO = {
                 change_government = monarchy
@@ -1082,6 +1089,10 @@ country_event = { #The Faithful of Georgia
         name = FU_Byzantium_Events.17.b
 
         caucasia_region = {
+            limit = { country_or_non_sovereign_subject_holds = ROOT }
+            add_nationalism = -5
+        }
+        south_caucasia_region = {
             limit = { country_or_non_sovereign_subject_holds = ROOT }
             add_nationalism = -5
         }

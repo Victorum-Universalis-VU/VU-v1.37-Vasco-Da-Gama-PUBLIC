@@ -2176,3 +2176,14 @@
  vu_hre_events.3.t: "A New Bishop of the Empire"
  vu_hre_events.3.d: "The senate has now been disolved. The regional governors will now have direct control of their territories."
  vu_hre_events.3.a: "For a safe... and secure... SOCIETY!"
+
+ #Splitting of Moldavia for Poland
+ flavor_pol.29.d: "End the feud and split Moldavia between the claimants"
+ pol_split_up_moldavia_tt: "If they cannot sort out their problems, we shall sort it for them"
+ splitting_of_moldavia: "Splitting of Moldavia"
+
+ #Sejm of Lublin
+ flavor_pol.34.t: "Sejm of Lublin"
+ flavor_pol.34.d: "With our union with Lithuania, our eastern border has been secured. However, the Lithuanian hold over Ruthenia has proven troublesome for them to maintain, and as such, we have been petitioned to take over these lands as part of a more tightly binding union treaty between our nations. With this move comes opportunity and danger alike, as it will now be up to us to defend these lands from the steppe raiders of Crimea and the hungry Muscovites to the east.."
+ flavor_pol.34.a: "Sign the treaty. There is great benefit in this!"
+ flavor_pol.34.b: "Let us not upset the status quo"

@@ -596,6 +596,15 @@ me_persia_missions_2 = {
                 }
                 add_permanent_claim = ROOT
             }
+            south_caucasia_region = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                    NOT = { is_core = ROOT }
+                    NOT = { is_empty = yes }
+                    NOT = { is_wasteland = yes }
+                }
+                add_permanent_claim = ROOT
+            }
         }
     }
 
@@ -727,6 +736,10 @@ me_persia_missions_3 = {
                 type = all
                 num_of_times_improved = 3
             }
+            south_caucasia_region = {
+                type = all
+                num_of_times_improved = 3
+            }
             if = {
                 limit = { has_dlc = "Mandate of Heaven" }
                 persia_region = {
@@ -741,6 +754,10 @@ me_persia_missions_3 = {
                     type = all
                     prosperity = 25
                 }
+                south_caucasia_region = {
+                    type = all
+                    prosperity = 25
+                }
             }
             else = {
                 persia_region = {
@@ -752,6 +769,10 @@ me_persia_missions_3 = {
                     NOT = { devastation = 1 }
                 }
                 caucasia_region = {
+                    type = all
+                    NOT = { devastation = 1 }
+                }
+                south_caucasia_region = {
                     type = all
                     NOT = { devastation = 1 }
                 }
@@ -6130,11 +6151,21 @@ me_persia_missions_3_military = {
         trigger = {
             development_in_provinces = {
                 value = 250
-                region = caucasia_region
+                OR = {
+                    region = caucasia_region
+                    region = south_caucasia_region
+                }
             }
         }
         effect = {
             caucasia_region = {
+                add_permanent_province_modifier = {
+                    name = persia_expanded_ghulam
+                    duration = -1
+                    desc = PER_SWAP_RELIGION_TT
+                }
+            }
+            south_caucasia_region = {
                 add_permanent_province_modifier = {
                     name = persia_expanded_ghulam
                     duration = -1
@@ -6194,6 +6225,7 @@ me_persia_missions_4_military = {
         provinces_to_highlight = {
             OR = {
                 region = caucasia_region
+                region = south_caucasia_region
                 area = north_kurdistan_area
                 area = al_jazira_area
                 area = tabriz_area
@@ -6207,6 +6239,7 @@ me_persia_missions_4_military = {
                         value = 25
                         OR = {
                             region = caucasia_region
+                            region = south_caucasia_region
                             area = north_kurdistan_area
                             area = al_jazira_area
                             area = tabriz_area
@@ -6238,6 +6271,7 @@ me_persia_missions_4_military = {
                     value = 250
                     OR = {
                         region = caucasia_region
+                        region = south_caucasia_region
                         area = north_kurdistan_area
                         area = al_jazira_area
                         area = tabriz_area
@@ -6249,6 +6283,7 @@ me_persia_missions_4_military = {
                     value = 25
                     OR = {
                         region = caucasia_region
+                        region = south_caucasia_region
                         area = north_kurdistan_area
                         area = al_jazira_area
                         area = tabriz_area

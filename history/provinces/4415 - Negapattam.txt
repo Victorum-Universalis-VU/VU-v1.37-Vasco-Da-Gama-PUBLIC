@@ -13,28 +13,16 @@ base_production = 8
 base_manpower = 8
 is_city = yes
 add_vaisyas_or_burghers_effect = yes
+
+#Claimants
 add_core = MAD
 add_core = TNJ
+add_core = BHA
 
 add_permanent_province_modifier = {
 	name = kaveri_estuary_modifier
 	duration = -1
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 add_local_autonomy = 25
 

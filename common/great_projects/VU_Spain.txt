@@ -233,7 +233,7 @@ vu_iglesia_del_buen_suceso = {
     }
 }
 
-vu_almudena_cathedral_de_madrid = {
+vu_almudena_catedral_de_madrid = {
     start = 217
     date = 1883.01.01
     time = { months = 0 }
@@ -337,7 +337,7 @@ vu_almudena_cathedral_de_madrid = {
     }
 }
 
-vu_alcazar_segovia = {
+vu_alcazar_de_segovia = {
     start = 4789
     date = 1.01.01
     time = { months = 0 }
@@ -434,7 +434,7 @@ vu_alcazar_segovia = {
     }
 }
 
-vu_cathedral_seville = {
+vu_catedral_de_seville = {
     start = 224
     date = 1.01.01
     time = { months = 0 }
@@ -516,6 +516,7 @@ vu_cathedral_seville = {
         on_upgraded = { }
     }
 }
+
 vu_lotja_de_la_seda = {
     start = 220
     date = 1.01.01
@@ -633,6 +634,7 @@ vu_lotja_de_la_seda = {
         }
     }
 }
+
 vu_mosque_cathedral = {
     start = 225
     date = 1.01.01
@@ -719,6 +721,7 @@ vu_mosque_cathedral = {
         on_upgraded = { }
     }
 }
+
 vu_rock_gibraltar = {
     start = 226
     date = 1.01.01
@@ -791,7 +794,7 @@ vu_rock_gibraltar = {
     }
 }
 
-vu_santa_barbara_castle = {
+vu_castell_de_santa_barbara = {
     start = 1750
     date = 1.01.01
     time = { months = 0 }
@@ -936,7 +939,8 @@ vu_tierra_castillos = {
         }
     }
 }
-vu_tower_hercules = {
+
+vu_torre_de_hercules = {
     start = 206
     date = 1.01.01
     time = { months = 0 }

@@ -25,6 +25,7 @@ country_event = {
                 region = balkan_region
                 region = khorasan_region
                 region = caucasia_region
+                region = south_caucasia_region
             }
         }
     }
@@ -101,6 +102,7 @@ country_event = {
                 region = balkan_region
                 region = khorasan_region
                 region = caucasia_region
+                region = south_caucasia_region
             }
         }
     }
@@ -214,6 +216,7 @@ country_event = {
                 region = balkan_region
                 region = khorasan_region
                 region = caucasia_region
+                region = south_caucasia_region
             }
         }
     }

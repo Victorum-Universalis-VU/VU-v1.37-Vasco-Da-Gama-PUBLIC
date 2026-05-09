@@ -579,15 +579,20 @@ khorasan_region = {
 caucasia_region = {
 	areas = {
 		circassia_area
-		shirvan_area
-		armenia_area
 		dagestan_area
-		qazakh_area
-		mtskheta_area
 		caucasia_stepp_area
-		imereti_area
-		samtskhe_area
 	}
+}
+
+south_caucasia_region = {
+    areas = {
+        shirvan_area
+        armenia_area
+        qazakh_area
+        mtskheta_area
+        imereti_area
+        samtskhe_area
+    }
 }
 
 arabia_region = {

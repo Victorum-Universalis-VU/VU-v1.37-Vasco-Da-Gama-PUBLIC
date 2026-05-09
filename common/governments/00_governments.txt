@@ -1341,6 +1341,22 @@ republic = {
 				russian_republic_republic
 				caucasian_republic
 				common_republic_reform #Re-added by Quonton for VU v1.36.2.* 
+				vu_rep_outpost_reform
+				vu_unlocked_rep_outpost_reform
+				vu_rep_borough_reform
+				vu_unlocked_rep_borough_reform
+				vu_rep_commune_reform
+				vu_unlocked_rep_commune_reform
+				vu_rep_canton_reform
+				vu_unlocked_rep_canton_reform
+				vu_rep_territory_reform
+				vu_unlocked_rep_territory_reform
+				vu_rep_province_reform
+				vu_unlocked_rep_province_reform
+				vu_rep_state_reform
+				vu_unlocked_rep_state_reform
+				vu_rep_commonwealth_reform
+				vu_unlocked_rep_commonwealth_reform
 			}
 		}
 		republican_virtues = {
@@ -2240,6 +2256,8 @@ theocracy = {
 				church_of_switzerland_abbacy_reform
 				church_of_switzerland_bishopric_reform
 				church_of_switzerland_archbishopric_reform
+				prince_abbacy_of_andorra_reform
+				prince_bishopric_of_andorra_reform
 				prince_archbishopric_of_andorra_reform
 				prince_provost_reform
 				imperial_abbacy_reform

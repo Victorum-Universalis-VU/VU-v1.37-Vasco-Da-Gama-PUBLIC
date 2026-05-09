@@ -1,6 +1,6 @@
 # A region can only belong to one super region.
 
-india_superregion = {
+india_superregion = { #
 	bengal_region
 	hindusthan_region
 	west_india_region
@@ -146,6 +146,7 @@ near_east_superregion = {
 	mashriq_region
 	mesopotamia_region
 	caucasia_region
+	south_caucasia_region
 	arabia_region
 }
 

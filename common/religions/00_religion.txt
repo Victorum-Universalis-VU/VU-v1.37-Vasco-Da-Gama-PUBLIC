@@ -3564,6 +3564,7 @@ dharmic = {
 
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
+	defender_of_faith = yes
 
 	hinduism = {
 		color = { 245 8 8 }

@@ -1213,6 +1213,9 @@ feo_4 = {
 				region = caucasia_region
 			}
 			give_claims = {
+				region = south_caucasia_region
+			}
+			give_claims = {
 				region = ural_region
 			}
 			give_claims = {
@@ -1243,14 +1246,20 @@ feo_4 = {
 			feo_beyond_crimea
 		}
 		provinces_to_highlight = {
-			region = caucasia_region
+			OR = {
+				region = caucasia_region
+				region = south_caucasia_region
+			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				region = caucasia_region
+				OR = {
+					region = caucasia_region
+					region = south_caucasia_region
+				}
 				value = 15
 			}
 		}
@@ -1259,7 +1268,10 @@ feo_4 = {
 				years = 5
 				trigger = {
 					trade_goods = livestock
-					region = caucasia_region
+					OR = {
+						region = caucasia_region
+						region = south_caucasia_region
+					}
 				}
 				custom_tooltip = FROM_CAUCASIA_LIVESTOCK
 			}
@@ -1268,7 +1280,10 @@ feo_4 = {
 			hidden_effect = {
 				every_owned_province = {
 					limit = {
-						region = caucasia_region
+						OR = {
+							region = caucasia_region
+							region = south_caucasia_region
+						}
 						OR = {
 							has_terrain = hills
 							has_terrain = mountain

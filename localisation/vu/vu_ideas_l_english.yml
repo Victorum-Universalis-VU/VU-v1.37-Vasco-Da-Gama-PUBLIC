@@ -4512,7 +4512,7 @@
  TIM_rennaisance: "Rennaisance"
  TIM_rennaisance_desc: "It's Renne-sauce time!"
 
- #TIM - Timurids
+ #UNK - United Kingdom
  UNK_ideas: "United Kingdom Ideas"
  UNK_ideas_start: "United Kingdom Traditions"
  UNK_ideas_end: "United Kingdom Ambitions"
@@ -4531,3 +4531,23 @@
  UNK_the_royal_navy_desc: "Rule Britannia! Britannia Rules The Waves!"
  UNK_pax_britannica: "Pax Britannica"
  UNK_pax_britannica_desc: "Peace in our time!"
+
+#IDN - Indonesia
+IDN_ideas: "Indonesian Ideas"
+IDN_ideas_start: "Indonesian Traditions"
+IDN_ideas_end: "Indonesian Ambitions"
+IDN_ideas_bonus: "Indonesian Ambitions"
+indonesia_fight_the_colonizers: "Resist the Colonizers"
+indonesia_fight_the_colonizers_desc: "As they have rounded the Cape of Good Hope and descended like a plague on the Indian Ocean, the colonizers of Europe have proven a blight on our people, enviously eyeing up our lands with desire to conquer and plunder our wealth. Let our united peoples resist these efforts to the bitter end!"
+indonesia_straits_of_malacca: "Straits of Malacca"
+indonesia_straits_of_malacca_desc: "The Straits of Malacca are the proverbial throat of trade between East and West, and boast a vast flow of untapped wealth just waiting to be exploited by those that can consolidate control of them."
+indonesia_settle_the_spice_islands: "Settle the Spice Islands"
+indonesia_settle_the_spice_islands_desc: "The Spice Islands of the Moluccas are ripe for settlement and exploitation by our people. These spices are much in demand by local and foreign markets alike, and will vastly increase our state revenues if we can sieze them."
+indonesia_dominate_of_the_indian_ocean: "Dominance of the Indian Ocean"
+indonesia_dominate_of_the_indian_ocean_desc: "The Indian Ocean is ours. We boast the mightiest and most skilled fleet in the East, and all shall tremble before the might of our great fleet!"
+indonesia_shield_the_home_isles: "Shielf the Home Isles"
+indonesia_shield_the_home_isles_desc: "The best defense of our island nation, is simply to never let the enemy land on it in the first place. The home defence fleet of war galleys shall see to it that no foe ever sets foot on Indonesian soil ever again!"
+indonesia_fertile_islands: "The Fertile Islands of the East"
+indonesia_fertile_islands_desc: "Our islands are ripe and bountiful, ensuring a ready supply of food to feed our populace, ensuring that we have a healthy supply of able-bodied labourers, sailors, and of course, soldiers."
+indonesia_propagate_the_faith: "Propagate the Faith"
+indonesia_propagate_the_faith_desc: "Unity in politics may have been achieved, but for the sake of continued harmony, we must accomplish unity in spirit also. Let us bring the peoples of our nation under the banner of our one true faith!"

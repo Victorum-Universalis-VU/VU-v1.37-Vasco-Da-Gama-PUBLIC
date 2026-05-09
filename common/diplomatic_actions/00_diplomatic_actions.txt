@@ -610,8 +610,12 @@ annexationaction = {
                 OR = {
                     #Christian Subjects
                     is_subject_of_type = christian_abbacy
+                    is_subject_of_type = andoran_co_prince_abbacy
                     is_subject_of_type = christian_bishopric
+                    is_subject_of_type = andoran_co_prince_bishopric
                     is_subject_of_type = christian_archbishopric
+                    is_subject_of_type = andoran_co_prince_archbishopric
+
                     #Monarchies Subjects
                     is_marquisate_subject_type = yes
                     is_duchy_subject_type = yes

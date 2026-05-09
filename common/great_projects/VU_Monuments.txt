@@ -10069,7 +10069,7 @@ vu_pomnik_jana_zizky_z_trocnova_a_kalicha = {
 			max_hostile_attrition = 1
 			hostile_attrition = 1
 			church_power_modifier = 0.1
-			fire_damage_received = 0.05
+			fire_damage_received = -0.05
 			fire_damage = 0.05
 		}
 		#what effects happen when this tier is achieved
@@ -10101,7 +10101,7 @@ vu_pomnik_jana_zizky_z_trocnova_a_kalicha = {
 			max_hostile_attrition = 1.5
 			hostile_attrition = 1.5
 			church_power_modifier = 0.2
-			fire_damage_received = 0.1
+			fire_damage_received = -0.1
 			fire_damage = 0.1
 		}
 		#what effects happen when this tier is achieved
@@ -10133,7 +10133,7 @@ vu_pomnik_jana_zizky_z_trocnova_a_kalicha = {
 			max_hostile_attrition = 2
 			hostile_attrition = 2
 			church_power_modifier = 0.3
-			fire_damage_received = 0.15
+			fire_damage_received = -0.15
 			fire_damage = 0.15
 		}
 		#what effects happen when this tier is achieved

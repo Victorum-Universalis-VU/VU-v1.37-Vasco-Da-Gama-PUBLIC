@@ -66,33 +66,31 @@ can_release_colonial_nation = {
 }
 
 can_claim_defender_of_faith = {
-	condition = { #Beware, Don Code. - DM
+	condition = { #By DM & Don
 		tooltip = "defender_of_faith_limits_tt"
 		potential = {
 			always = yes
 		}
 		allow = {
+			religious_unity = 1.0  #Works - DM
+			army_size = 30         #Works - DM
+			stability = 2          #Works - DM
+			#OR = { 
+			#	theologian = 1
+			#	religious_representative = 1
+			#	inquisitor = 1
+			#	has_idea_group = religious_ideas    #Doesn't work - DM
+			#}
 			OR = {
-				any_country = {
-					is_defender_of_faith = yes
-					religion = ROOT
-					ROOT = {
-						OR = {
-							has_won_war_against = {
-								who = PREV
-							}
-							army_size = PREV
-						}
-					}
-				}
-				AND = {
-					army_size = 25
-					any_neighbor_country = {
-						NOT = {
-							religion = ROOT
-						}
-					}
-				}
+				fervor = 55                   #Calvinism
+				papal_influence = 55          #Catholicism
+				patriarch_authority = 0.55    #Orthodoxy
+				church_power = 55             #Protestants
+				piety = -55                   #Islam
+				karma = 30                    #Buddhism
+				num_of_active_blessings = 2   #Coptics
+				religion_group = dharmic      #Hinduism (Don't have specific religious mechanic - Don) 
+				#All these work - DM    
 			}
 		}
 	}

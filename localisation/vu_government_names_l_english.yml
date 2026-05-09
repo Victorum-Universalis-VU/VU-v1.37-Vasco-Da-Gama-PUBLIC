@@ -659,6 +659,14 @@
  christian_abbacy_overlord: "Abbacy Overlord"
  christian_abbacy_subject: "Abbacy Subject"
  christian_abbacy_is_our: "§Y$NAME$§ is our Abbacy."
+
+ andoran_co_prince_abbacy: "Co-prince Abbacy"
+ andoran_co_prince_abbacy_long_desc: "A Co-prince Abbacy or Príncep Abadia subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Co-prince Abbacy subjects cannot fight each other."
+ andoran_co_prince_abbacy_title: "Co-prince Abbacy"
+ andoran_co_prince_abbacy_title_plural: "Co-prince Abbacies"
+ andoran_co_prince_abbacy_overlord: "Co-prince Abbacy Overlord"
+ andoran_co_prince_abbacy_subject: "Co-prince Abbacy Subject"
+ andoran_co_prince_abbacy_is_our: "§Y$NAME$§ is our Co-prince Abbacy."
  
  christian_bishopric: "Bishopric"
  christian_bishopric_long_desc: "A Bishopric subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Bishopric subjects cannot fight each other."
@@ -668,6 +676,14 @@
  christian_bishopric_subject: "Bishopric Subject"
  christian_bishopric_is_our: "§Y$NAME$§ is our Bishopric."
 
+ andoran_co_prince_bishopric: "Co-prince Bishopric"
+ andoran_co_prince_bishopric_long_desc: "A Co-prince Bishopric or Príncep Bisbat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Co-prince Bishopric subjects cannot fight each other."
+ andoran_co_prince_bishopric_title: "Co-prince Bishopric"
+ andoran_co_prince_bishopric_title_plural: "Co-prince Bishoprics"
+ andoran_co_prince_bishopric_overlord: "Co-prince Bishopric Overlord"
+ andoran_co_prince_bishopric_subject: "Co-prince Bishopric Subject"
+ andoran_co_prince_bishopric_is_our: "§Y$NAME$§ is our Co-prince Bishopric."
+
  christian_archbishopric: "Archbishopric"
  christian_archbishopric_long_desc: "An Archbishopric subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Archbishopric subjects cannot fight each other."
  christian_archbishopric_title: "Archbishopric"
@@ -675,6 +691,14 @@
  christian_archbishopric_overlord: "Archbishopric Overlord"
  christian_archbishopric_subject: "Archbishopric Subject"
  christian_archbishopric_is_our: "§Y$NAME$§ is our Archbishopric."
+
+ andoran_co_prince_archbishopric: "Co-prince Archbishopric"
+ andoran_co_prince_archbishopric_long_desc: "A Co-prince Archbishopric or Príncep Arquebisbat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Co-prince Archbishopric subjects cannot fight each other."
+ andoran_co_prince_archbishopric_title: "Co-prince Archbishopric"
+ andoran_co_prince_archbishopric_title_plural: "Co-prince Archbishoprics"
+ andoran_co_prince_archbishopric_overlord: "Co-prince Archbishopric Overlord"
+ andoran_co_prince_archbishopric_subject: "Co-prince Archbishopric Subject"
+ andoran_co_prince_archbishopric_is_our: "§Y$NAME$§ is our Co-prince Archbishopric."
 
  #######################################################################################################################################################
  
@@ -5267,7 +5291,9 @@
  #
  #Grand Duchy of Luxembourg
  GROSSER_DUCHE: "Grand-Duché"
+ HERZOG: "Herzog"
  GROSSERHERZOG: "Groussherzog"
+ HERZOGIN_KONSORT_fem: "Herzogin"
  GROSSERHERZOGIN_KONSORT_fem: "Groussherzogin-Konsort"
  PRENZ: "Prënz"
  #

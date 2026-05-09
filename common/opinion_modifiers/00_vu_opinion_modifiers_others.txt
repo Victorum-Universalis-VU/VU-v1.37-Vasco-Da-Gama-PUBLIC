@@ -259,3 +259,8 @@ VU_HOL_Danzig_Amsterdam_Connection_3 = {
     opinion = 100
     yearly_decay = 2
 }
+
+splitting_of_moldavia = {
+	opinion = -50
+	yearly_decay = 2
+}

@@ -126,13 +126,19 @@ woc_tatars_1 = {
 		position = 4
 		required_missions = { tatars_strengthen_raids } 
 		provinces_to_highlight = {  
-			region = caucasia_region
+			OR = {
+				region = caucasia_region
+				region = south_caucasia_region
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		} 
 
 		trigger = {  
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				region = caucasia_region
+				OR = {
+					region = caucasia_region
+					region = south_caucasia_region
+				}
 				value = 15
 			}
 		} 
@@ -142,7 +148,10 @@ woc_tatars_1 = {
 			hidden_effect = {
 				every_owned_province = {
 					limit = {
-						region = caucasia_region
+						OR = {
+							region = caucasia_region
+							region = south_caucasia_region
+						}
 						OR = {
 							has_terrain = mountain
 							has_terrain = hills

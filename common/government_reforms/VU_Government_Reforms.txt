@@ -986,3 +986,509 @@ vu_islamic_revolutionary_guard_corps = { #T2
         factor = 1
     }
 }
+
+vu_rep_outpost_reform = {
+    #T1 - Lordship level
+    icon = "vu_rep_outpost_reform"
+    allow_normal_conversion = no
+    lock_level_when_selected = yes
+    fixed_rank = 1
+    maintain_dynasty = yes
+    potential = {
+        OR = {
+            is_republican_subject_type = yes
+            has_reform = vu_rep_outpost_reform
+        }
+    }
+    lock_level_when_selected = yes
+    modifiers = {
+        defensiveness = 0.1
+        merchants = 1
+        placed_merchant_power = 5
+		naval_forcelimit = 2
+		republican_tradition = 0.1
+    }
+}
+
+vu_unlocked_rep_outpost_reform = {
+    #T1 - Lordship level
+    icon = "vu_rep_outpost_reform"
+    potential = {
+        NOT = {
+            is_republican_subject_type = yes
+			has_reform = vu_unlocked_rep_outpost_reform
+            government_rank = 2
+        }
+        capital_scope = {
+            OR = {
+                superregion = europe_superregion
+                superregion = eastern_europe_superregion
+            }
+        }
+    }
+    custom_attributes = {
+        vu_has_ToR_subjects = yes
+    }
+    modifiers = {
+        defensiveness = 0.1
+        merchants = 1
+        placed_merchant_power = 5
+        naval_forcelimit = 2
+		republican_tradition = 0.1
+    }
+    removed_effect = {
+        if = {
+            limit = {
+                government_rank = 2				# >=2
+            }
+            vu_ToR_removed_EUE_gov_reform = yes
+        }
+    }
+    ai = {
+        factor = 100
+    }
+}
+
+vu_rep_borough_reform = {
+    #T2 - Barony level
+    icon = "vu_rep_borough_reform"
+    allow_normal_conversion = no
+    lock_level_when_selected = yes
+    fixed_rank = 2
+    maintain_dynasty = yes
+    potential = {
+        OR = {
+            is_republican_subject_type = yes
+            has_reform = vu_rep_borough_reform
+        }
+    }
+    lock_level_when_selected = yes
+    modifiers = {
+		development_cost = 0.05
+        merchants = 1
+        placed_merchant_power = 5
+        naval_forcelimit = 2
+        republican_tradition = 0.2
+    }
+}
+
+vu_unlocked_rep_borough_reform = {
+    #T2 - Barony level
+    icon = "vu_rep_borough_reform"
+    potential = {
+        NOT = {
+            is_republican_subject_type = yes
+            has_reform = vu_unlocked_rep_borough_reform
+            government_rank = 3
+        }
+        capital_scope = {
+            OR = {
+                superregion = europe_superregion
+                superregion = eastern_europe_superregion
+            }
+        }
+    }
+    custom_attributes = {
+        vu_has_ToR_subjects = yes
+    }
+    modifiers = {
+        development_cost = 0.05
+        merchants = 1
+        placed_merchant_power = 5
+        naval_forcelimit = 2
+        republican_tradition = 0.2
+    }
+    removed_effect = {
+        if = {
+            limit = {
+                government_rank = 2				# >=2
+            }
+            vu_ToR_removed_EUE_gov_reform = yes
+        }
+    }
+    ai = {
+        factor = 100
+    }
+}
+
+vu_rep_commune_reform = {
+    #T3 - Viscounty level
+    icon = "vu_rep_commune_reform"
+    allow_normal_conversion = no
+    lock_level_when_selected = yes
+    fixed_rank = 3
+    maintain_dynasty = yes
+    potential = {
+        OR = {
+            is_republican_subject_type = yes
+            has_reform = vu_rep_commune_reform
+        }
+    }
+    lock_level_when_selected = yes
+    modifiers = {
+		army_tradition = 0.25
+        development_cost = 0.05
+        placed_merchant_power = 5
+        naval_forcelimit = 2
+        republican_tradition = 0.3
+    }
+}
+
+vu_unlocked_rep_commune_reform = {
+    #T3 - Viscounty level
+    icon = "vu_rep_commune_reform"
+    potential = {
+        NOT = {
+            is_republican_subject_type = yes
+            has_reform = vu_unlocked_rep_commune_reform
+            government_rank = 4
+        }
+        capital_scope = {
+            OR = {
+                superregion = europe_superregion
+                superregion = eastern_europe_superregion
+            }
+        }
+    }
+    custom_attributes = {
+        vu_has_ToR_subjects = yes
+    }
+    modifiers = {
+		army_tradition = 0.25
+        development_cost = 0.05
+        placed_merchant_power = 5
+        naval_forcelimit = 2
+        republican_tradition = 0.3
+    }
+    removed_effect = {
+        if = {
+            limit = {
+                government_rank = 2				# >=2
+            }
+            vu_ToR_removed_EUE_gov_reform = yes
+        }
+    }
+    ai = {
+        factor = 100
+    }
+}
+
+vu_rep_canton_reform = {
+    #T4 - County level
+    icon = "vu_rep_canton_reform"
+    allow_normal_conversion = no
+    lock_level_when_selected = yes
+    fixed_rank = 4
+    maintain_dynasty = yes
+    potential = {
+        OR = {
+            is_republican_subject_type = yes
+            has_reform = vu_rep_canton_reform
+        }
+    }
+    lock_level_when_selected = yes
+    modifiers = {
+		merc_maintenance_modifier = -0.1
+        development_cost = 0.05
+		fort_maintenance_modifier = -0.2
+        placed_merchant_power = 5
+        naval_forcelimit = 2
+        republican_tradition = 0.4
+    }
+}
+
+vu_unlocked_rep_canton_reform = {
+    #T4 - County level
+    icon = "vu_rep_canton_reform"
+    potential = {
+        NOT = {
+            is_republican_subject_type = yes
+            has_reform = vu_unlocked_rep_canton_reform
+            government_rank = 5
+        }
+        capital_scope = {
+            OR = {
+                superregion = europe_superregion
+                superregion = eastern_europe_superregion
+            }
+        }
+    }
+    custom_attributes = {
+        vu_has_ToR_subjects = yes
+    }
+    modifiers = {
+        merc_maintenance_modifier = -0.1
+        development_cost = 0.05
+        fort_maintenance_modifier = -0.2
+        placed_merchant_power = 5
+        naval_forcelimit = 2
+        republican_tradition = 0.4
+    }
+    removed_effect = {
+        if = {
+            limit = {
+                government_rank = 2				# >=2
+            }
+            vu_ToR_removed_EUE_gov_reform = yes
+        }
+    }
+    ai = {
+        factor = 100
+    }
+}
+
+vu_rep_territory_reform = {
+    #T5 - Marquisate level
+    icon = "vu_rep_territory_reform"
+    allow_normal_conversion = no
+    lock_level_when_selected = yes
+    fixed_rank = 5
+    maintain_dynasty = yes
+    potential = {
+        OR = {
+            is_republican_subject_type = yes
+            has_reform = vu_rep_territory_reform
+        }
+    }
+    lock_level_when_selected = yes
+    modifiers = {
+        ship_trade_power_modifier = 0.1
+        fort_maintenance_modifier = -0.25
+        naval_forcelimit = 2
+        republican_tradition = 0.5
+		interest = -1 #"My factor will call upon your grace's factor."
+    }
+}
+
+vu_unlocked_rep_territory_reform = {
+    #T5 - Marquisate level
+    icon = "vu_rep_territory_reform"
+    potential = {
+        NOT = {
+            is_republican_subject_type = yes
+            has_reform = vu_unlocked_rep_territory_reform
+            government_rank = 6
+        }
+        capital_scope = {
+            OR = {
+                superregion = europe_superregion
+                superregion = eastern_europe_superregion
+            }
+        }
+    }
+    custom_attributes = {
+        vu_has_ToR_subjects = yes
+    }
+    modifiers = {
+        ship_trade_power_modifier = 0.1
+        fort_maintenance_modifier = -0.25
+        naval_forcelimit = 2
+        republican_tradition = 0.5
+        interest = -1 #"My factor will call upon your grace's factor."
+    }
+    removed_effect = {
+        if = {
+            limit = {
+                government_rank = 2				# >=2
+            }
+            vu_ToR_removed_EUE_gov_reform = yes
+        }
+    }
+    ai = {
+        factor = 100
+    }
+}
+
+vu_rep_province_reform = {
+    #T6 - Duchy level
+    icon = "vu_rep_province_reform"
+    allow_normal_conversion = no
+    lock_level_when_selected = yes
+    fixed_rank = 6
+    maintain_dynasty = yes
+    potential = {
+        OR = {
+            is_republican_subject_type = yes
+            has_reform = vu_rep_province_reform
+        }
+    }
+    lock_level_when_selected = yes
+    modifiers = {
+		governing_capacity = 100
+        trade_steering = 0.1
+        fort_maintenance_modifier = -0.25
+        land_forcelimit_modifier = 0.15
+        republican_tradition = 0.6
+		loot_amount = 0.5
+    }
+}
+
+vu_unlocked_rep_province_reform = {
+    #T6 - Duchy level
+    icon = "vu_rep_province_reform"
+    potential = {
+        NOT = {
+            is_republican_subject_type = yes
+            has_reform = vu_unlocked_rep_province_reform
+            government_rank = 7
+        }
+        capital_scope = {
+            OR = {
+                superregion = europe_superregion
+                superregion = eastern_europe_superregion
+            }
+        }
+    }
+    custom_attributes = {
+        vu_has_ToR_subjects = yes
+    }
+    modifiers = {
+        governing_capacity = 100
+        trade_steering = 0.1
+        fort_maintenance_modifier = -0.25
+        land_forcelimit_modifier = 0.15
+        republican_tradition = 0.6
+        loot_amount = 0.5
+    }
+    removed_effect = {
+        if = {
+            limit = {
+                government_rank = 2				# >=2
+            }
+            vu_ToR_removed_EUE_gov_reform = yes
+        }
+    }
+    ai = {
+        factor = 100
+    }
+}
+
+vu_rep_state_reform = {
+    #T7 - Principality level
+    icon = "vu_rep_state_reform"
+    allow_normal_conversion = no
+    lock_level_when_selected = yes
+    fixed_rank = 7
+    maintain_dynasty = yes
+    potential = {
+        OR = {
+            is_republican_subject_type = yes
+            has_reform = vu_rep_state_reform
+        }
+    }
+    lock_level_when_selected = yes
+    modifiers = {
+        governing_capacity = 200
+		missionary_maintenance_cost = 0.15
+        trade_steering = 0.1
+        global_autonomy = -0.025
+		land_maintenance_modifier = -0.1
+        republican_tradition = 0.7
+    }
+}
+
+vu_unlocked_rep_state_reform = {
+    #T7 - Principality level
+    icon = "vu_rep_state_reform"
+    potential = {
+        NOT = {
+            is_republican_subject_type = yes
+            has_reform = vu_unlocked_rep_state_reform
+            government_rank = 8
+        }
+        capital_scope = {
+            OR = {
+                superregion = europe_superregion
+                superregion = eastern_europe_superregion
+            }
+        }
+    }
+    custom_attributes = {
+        vu_has_ToR_subjects = yes
+    }
+    modifiers = {
+        governing_capacity = 200
+        missionary_maintenance_cost = 0.15
+        trade_steering = 0.1
+        global_autonomy = -0.025
+        land_maintenance_modifier = -0.1
+        republican_tradition = 0.7
+    }
+    removed_effect = {
+        if = {
+            limit = {
+                government_rank = 2				# >=2
+            }
+            vu_ToR_removed_EUE_gov_reform = yes
+        }
+    }
+    ai = {
+        factor = 100
+    }
+}
+
+vu_rep_commonwealth_reform = {
+    #T8 - Kingdom level
+    icon = "vu_rep_commonwealth_reform"
+    allow_normal_conversion = no
+    lock_level_when_selected = yes
+    fixed_rank = 8
+    maintain_dynasty = yes
+    potential = {
+        OR = {
+            is_republican_subject_type = yes
+            has_reform = vu_rep_commonwealth_reform
+        }
+    }
+    lock_level_when_selected = yes
+    modifiers = {
+        governing_capacity = 300
+        administrative_efficiency = 0.025
+		prestige = 0.25
+        global_autonomy = -0.025
+        land_maintenance_modifier = -0.1
+        republican_tradition = 0.8
+		trade_efficiency = 0.1
+    }
+}
+
+vu_unlocked_rep_commonwealth_reform = {
+    #T8 - Kingdom level
+    icon = "vu_rep_commonwealth_reform"
+    potential = {
+        NOT = {
+            is_republican_subject_type = yes
+            has_reform = vu_unlocked_rep_commonwealth_reform
+            government_rank = 9
+        }
+        capital_scope = {
+            OR = {
+                superregion = europe_superregion
+                superregion = eastern_europe_superregion
+            }
+        }
+    }
+    custom_attributes = {
+        vu_has_ToR_subjects = yes
+    }
+    modifiers = {
+        governing_capacity = 300
+        administrative_efficiency = 0.025 #Notable
+        prestige = 0.25
+        global_autonomy = -0.025
+        land_maintenance_modifier = -0.1
+        republican_tradition = 0.8
+        trade_efficiency = 0.1
+    }
+    removed_effect = {
+        if = {
+            limit = {
+                government_rank = 2				# >=2
+            }
+            vu_ToR_removed_EUE_gov_reform = yes
+        }
+    }
+    ai = {
+        factor = 100
+    }
+}

@@ -914,6 +914,47 @@ spriteTypes = {
         texturefile = "gfx/interface/subject_icon_papal_vassal.dds"
     }
 
+    #VU 1.37.* New Republican Subjects
+    spriteType = {
+        name = "GFX_icon_vu_republic_subject"
+        texturefile = "gfx/interface/subject_icon_vu_republic_subject.dds"
+    }
+
+    #spriteType = {
+    #    name = "GFX_icon_rep_borough_subject"
+    #    texturefile = "gfx/interface/subject_icon_rep_borough_subject.dds"
+    #}
+
+    #spriteType = {
+    #    name = "GFX_icon_rep_commune_subject"
+    #    texturefile = "gfx/interface/subject_icon_rep_commune_subject.dds"
+    #}
+
+    #spriteType = {
+    #    name = "GFX_icon_rep_canton_subject"
+    #    texturefile = "gfx/interface/subject_icon_rep_canton_subject.dds"
+    #}
+
+    #spriteType = {
+    #    name = "GFX_icon_rep_territory_subject"
+    #    texturefile = "gfx/interface/subject_icon_rep_territory_subject.dds"
+    #}
+
+    #spriteType = {
+    #    name = "GFX_icon_rep_province_subject"
+    #    texturefile = "gfx/interface/subject_icon_rep_province_subject.dds"
+    #}
+
+    #spriteType = {
+    #    name = "GFX_icon_rep_state_subject"
+    #    texturefile = "gfx/interface/subject_icon_rep_state_subject.dds"
+    #}
+
+    #spriteType = {
+    #    name = "GFX_icon_rep_commonwealth_subject"
+    #    texturefile = "gfx/interface/subject_icon_rep_commonwealth_subject.dds"
+    #}
+
     #Christian Subjects#
 
     #Abbacy
@@ -932,6 +973,22 @@ spriteTypes = {
         texturefile = "gfx/interface/icon_diplomacy_am_christian_abbacy.dds"
     }
 
+    #Andoran Co-prince Abbacy
+    spriteType = {
+        name = "GFX_icon_andoran_co_prince_abbacy_subject"
+        texturefile = "gfx/interface/icon_andoran_co_prince_abbacy_subject.dds"
+    }
+    #Lead
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_andoran_co_prince_abbacy_subject"
+        texturefile = "gfx/interface/icon_diplomacy_lead_andoran_co_prince_abbacy.dds"
+    }
+    #Am
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_andoran_co_prince_abbacy_subject"
+        texturefile = "gfx/interface/icon_diplomacy_am_andoran_co_prince_abbacy.dds"
+    }
+
     #Bishopric
     spriteType = {
         name = "GFX_icon_christian_bishopric_subject"
@@ -948,6 +1005,22 @@ spriteTypes = {
         texturefile = "gfx/interface/icon_diplomacy_am_christian_bishopric.dds"
     }
 
+    #Andoran Co-prince Bishopric
+    spriteType = {
+        name = "GFX_icon_andoran_co_prince_bishopric_subject"
+        texturefile = "gfx/interface/icon_andoran_co_prince_bishopric_subject.dds"
+    }
+    #Lead
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_andoran_co_prince_bishopric_subject"
+        texturefile = "gfx/interface/icon_diplomacy_lead_andoran_co_prince_bishopric.dds"
+    }
+    #Am
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_andoran_co_prince_bishopric_subject"
+        texturefile = "gfx/interface/icon_diplomacy_am_andoran_co_prince_bishopric.dds"
+    }
+
     #Archbishopric
     spriteType = {
         name = "GFX_icon_christian_archbishopric_subject"
@@ -962,6 +1035,22 @@ spriteTypes = {
     spriteType = {
         name = "GFX_icon_diplomacy_am_christian_archbishopric_subject"
         texturefile = "gfx/interface/icon_diplomacy_am_christian_archbishopric.dds"
+    }
+
+    #Andoran Co-prince Archbishopric
+    spriteType = {
+        name = "GFX_icon_andoran_co_prince_archbishopric_subject"
+        texturefile = "gfx/interface/icon_andoran_co_prince_archbishopric_subject.dds"
+    }
+    #Lead
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_andoran_co_prince_archbishopric_subject"
+        texturefile = "gfx/interface/icon_diplomacy_lead_andoran_co_prince_archbishopric.dds"
+    }
+    #Am
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_andoran_co_prince_archbishopric_subject"
+        texturefile = "gfx/interface/icon_diplomacy_am_andoran_co_prince_archbishopric.dds"
     }
 
     #Chinese Principalities

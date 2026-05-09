@@ -3634,7 +3634,10 @@ is_not_eligible_for_trade_good_wool = {
             NOT = { region = tibet_region }
             NOT = { region = hindusthan_region }
             NOT = { region = central_asia_region }
-            NOT = { region = caucasia_region }
+            NOT = { 
+                region = caucasia_region
+                region = south_caucasia_region
+            }
         }
         AND = {
             OR = {

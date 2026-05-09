@@ -1013,6 +1013,7 @@ merc_bukhara_band = {
 				region = khorasan_region
 				region = central_asia_region
 				region = caucasia_region
+				region = south_caucasia_region
 			}
 		}
 	}
@@ -1420,7 +1421,12 @@ merc_laz_auxiliaries = {
 	trigger = {
 		is_allowed_to_recruit_mercenaries = yes
 		OR = {
-			capital_scope = { region = caucasia_region }
+			capital_scope = {
+				OR = {
+					region = caucasia_region
+					region = south_caucasia_region
+				}
+			}
 			tag = BYZ
 		}
 	}

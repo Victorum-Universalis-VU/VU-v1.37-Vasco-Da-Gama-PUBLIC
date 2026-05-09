@@ -22,6 +22,10 @@ ikko_ikki_temple = {
     }
     trigger = {
         has_reform = ikko_ikki_reform
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
     }
 }
 asian_monastic_order = {
@@ -39,6 +43,10 @@ asian_monastic_order = {
     }
     trigger = {
         has_reform = asian_monastic_order_reform
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
         OR = {
             religion_group = eastern
             culture_group = japanese_g
@@ -125,6 +133,7 @@ timurid_amirate_reform = { #Timurid Caliphate
     }
     trigger = {
         has_reform = timurid_amirate_reform
+        government_rank = 9
     }
 }
 turkic_ghazinate_reform = { #Turkic Caliphate
@@ -145,12 +154,10 @@ turkic_ghazinate_reform = { #Turkic Caliphate
         9 = ORHAN
     }
     trigger = {
+        government_rank = 8
         OR = {
             has_reform = ghazi_reform
-            AND = {
-                government_rank = 8
-                culture_group = turkish_g
-            }
+            culture_group = turkish_g
         }
     }
 }
@@ -168,6 +175,7 @@ caliphate_sunni = { #Sunni Caliphate
         9 = SHAHZADE
     }
     trigger = {
+        government_rank = 9
         ME_is_caliphate_trigger = yes
         NOT = { religion = shiite }
     }
@@ -186,6 +194,7 @@ ayatollah_shiite = { #Persian Caliphate
         9 = SHAZADEH
     }
     trigger = {
+        government_rank = 9
         ME_is_caliphate_trigger = yes
         NOT = { religion = sunni }
     }
@@ -205,6 +214,10 @@ safaviyya = { #Persian Caliphate
         5 = SHAZADEH
     }
     trigger = {
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
         has_reform = islamic_feudal_theocratic_order_reform
     }
 }
@@ -255,13 +268,16 @@ sunni_subject = {
     }
     trigger = {
         religion = sunni
+        NOT = {
+            government_rank = 9
+            is_subject_of_type = islamic_governate
+        }
         OR = {
             is_muslim_subject_type = yes
             is_subject_of_type = islamic_nikkah_PU
             has_ToR_muslim_government_reform = yes
             has_ToR_unique_government_reform = yes
         }
-        NOT = { is_subject_of_type = islamic_governate }
     }
 }
 shiite_subject = {
@@ -310,6 +326,9 @@ shiite_subject = {
         OR = {
             is_muslim_subject_type = yes
             has_ToR_muslim_government_reform = yes
+        }
+        NOT = {
+            government_rank = 9
         }
     }
 }
@@ -360,6 +379,9 @@ ibadi_subject = {
             is_muslim_subject_type = yes
             has_ToR_muslim_government_reform = yes
         }
+        NOT = {
+            government_rank = 9
+        }
     }
 }
 #############################
@@ -380,6 +402,10 @@ savonarola_unique = {
     }
     trigger = {
         has_reform = church_of_italy_archbishopric_reform
+        government_rank = 6
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             tag = FER
             tag = LAN
@@ -404,6 +430,10 @@ gov_papal_government = {
     }
     trigger = {
         has_reform = papacy_reform
+        government_rank = 6
+        NOT = {
+            government_rank = 9
+        }
     }
 }
 brewing_order = {
@@ -419,6 +449,10 @@ brewing_order = {
     trigger = {
         has_reform = monastic_breweries_reform
         religion = catholic
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
     }
 }
 livonian_monastic_order = {
@@ -434,6 +468,10 @@ livonian_monastic_order = {
     trigger = {
         has_reform = monastic_order_reform
         tag = LIV
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
     }
 }
 teutonic_monastic_order = {
@@ -449,6 +487,10 @@ teutonic_monastic_order = {
     trigger = {
         has_reform = monastic_order_reform
         tag = TEU
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
     }
 }
 knights_monastic_order = {
@@ -464,6 +506,10 @@ knights_monastic_order = {
     trigger = {
         has_reform = monastic_order_reform
         tag = KNI
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
     }
 }
 northerner_king_monastic_order = {
@@ -481,6 +527,10 @@ northerner_king_monastic_order = {
     }
     trigger = {
         has_reform = commander_king_reform
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
         OR = {
             tag = NOL
             capital_scope = {
@@ -507,6 +557,10 @@ northerner_monastic_order = {
     }
     trigger = {
         has_reform = monastic_order_reform
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
         OR = {
             tag = NOL
             capital_scope = {
@@ -529,6 +583,10 @@ gov_religious_order_of_jerusalem = {
         5 = MONK
     }
     trigger = {
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
         OR = {
             has_reform = monastic_order_reform
             AND = {
@@ -549,6 +607,10 @@ sisters_crusader_state = {
         5 = SISTER_fem
     }
     trigger = {
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
         OR = {
             AND = {
                 has_reform = holy_state_reform
@@ -569,6 +631,10 @@ germanic_monastic_order = {
         5 = GER_MONK
     }
     trigger = {
+        government_rank = 5
+        NOT = {
+            government_rank = 6
+        }
         OR = {
             has_reform = monastic_order_reform
             AND = {
@@ -592,6 +658,9 @@ imperial_abbacy = {
     }
     trigger = {
         has_reform = imperial_abbacy_reform
+        NOT = {
+            government_rank = 2
+        }
     }
 }
 ellwangen_abbacy = {
@@ -610,6 +679,10 @@ ellwangen_abbacy = {
     trigger = {
         tag = ELW
         has_reform = prince_provost_reform
+        government_rank = 2
+        NOT = {
+            government_rank = 3
+        }
     }
 }
 prince_pencil_kempten = {
@@ -627,6 +700,10 @@ prince_pencil_kempten = {
 
     trigger = {
         has_reform = prince_pencil_reform
+        government_rank = 2
+        NOT = {
+            government_rank = 3
+        }
     }
 }
 german_ecclesiastical_principality = {
@@ -639,6 +716,10 @@ german_ecclesiastical_principality = {
     trigger = {
         culture_group = germanic
         has_reform = leading_clergy_reform
+        government_rank = 7
+        NOT = {
+            government_rank = 8
+        }
     }
 }
 #More Generic Churches Reforms
@@ -689,6 +770,9 @@ church_of_bohemia = {
         7 = BOHEMIA_MOTHER_SUPERIOR_fem
     }
     trigger = {
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             primary_culture = czech
             primary_culture = kashubian_culture
@@ -728,6 +812,11 @@ church_of_switzerland = {
     ruler_female = {
         1 = SWISS_ABBESS_fem
         2 = SWISS_PRINCESS_ABBESS_fem
+        3 = SWISS_PRINCESS_ABBESS_fem
+        4 = SWISS_PRINCESS_ABBESS_fem
+        5 = SWISS_PRINCESS_ABBESS_fem
+        6 = SWISS_PRINCESS_ABBESS_fem
+        7 = SWISS_PRINCESS_ABBESS_fem
     }
     heir_male = {
         1 = SWISS_FATHER
@@ -741,8 +830,16 @@ church_of_switzerland = {
     heir_female = {
         1 = SWISS_SISTER_fem
         2 = SWISS_SISTER_fem
+        3 = SWISS_SISTER_fem
+        4 = SWISS_SISTER_fem
+        5 = SWISS_SISTER_fem
+        6 = SWISS_SISTER_fem
+        7 = SWISS_SISTER_fem
     }
     trigger = {
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             primary_culture = swiss
             primary_culture = romanch_culture
@@ -802,6 +899,9 @@ church_of_lotharingia = {
         7 = DUTCH_SISTER_fem
     }
     trigger = {
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             primary_culture = ger_dutch
             primary_culture = ger_brabantian
@@ -871,6 +971,9 @@ church_of_baltics = {
         7 = BALTICS_SISTER_fem
     }
     trigger = {
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             culture_group = baltic
             culture_group = finno_ugric
@@ -931,6 +1034,9 @@ church_of_denmark = {
     }
     trigger = {
         primary_culture = danish
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             has_reform = church_of_denmark_abbacy_reform
             has_reform = church_of_denmark_bishopric_reform
@@ -987,6 +1093,9 @@ church_of_england = {
     }
     trigger = {
         culture_group = british
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             has_reform = church_of_england_abbacy_reform
             has_reform = church_of_england_bishopric_reform
@@ -1043,6 +1152,9 @@ church_of_france = {
     }
     trigger = {
         culture_group = french
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             has_reform = church_of_france_abbacy_reform
             has_reform = church_of_france_bishopric_reform
@@ -1099,6 +1211,9 @@ church_of_germany = {
     }
     trigger = {
         culture_group = germanic
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             has_reform = church_of_germany_abbacy_reform
             has_reform = church_of_germany_bishopric_reform
@@ -1155,6 +1270,9 @@ church_of_balkans = {
     }
     trigger = {
         culture_group = south_slavic
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             has_reform = church_of_balkans_abbacy_reform
             has_reform = church_of_balkans_bishopric_reform
@@ -1211,6 +1329,9 @@ church_of_italy = {
     }
     trigger = {
         culture_group = latin
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             has_reform = church_of_italy_abbacy_reform
             has_reform = church_of_italy_bishopric_reform
@@ -1266,6 +1387,9 @@ church_of_norway = {
         7 = NORWEGIAN_SISTER_fem
     }
     trigger = {
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             primary_culture = norwegian
             primary_culture = icelandic
@@ -1332,6 +1456,9 @@ church_of_poland = {
     }
     trigger = {
         culture_group = west_slavic
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             has_reform = church_of_poland_abbacy_reform
             has_reform = church_of_poland_bishopric_reform
@@ -1387,6 +1514,9 @@ church_of_portugal = {
         7 = PORTUGUESE_SISTER_fem
     }
     trigger = {
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             primary_culture = brazilian
             primary_culture = portugese
@@ -1447,6 +1577,9 @@ church_of_catalonia = {
         7 = CATALAN_SISTER_fem
     }
     trigger = {
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             primary_culture = aragonese
             primary_culture = catalan
@@ -1508,6 +1641,9 @@ church_of_sweden = {
     }
     trigger = {
         primary_culture = swedish
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             has_reform = church_of_sweden_abbacy_reform
             has_reform = church_of_sweden_bishopric_reform
@@ -1565,6 +1701,9 @@ church_of_spain = {
     }
     trigger = {
         culture_group = iberian
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             has_reform = church_of_spain_abbacy_reform
             has_reform = church_of_spain_bishopric_reform
@@ -1899,6 +2038,9 @@ ibadi_theocracy_imamate_reform = {
     }
     trigger = {
         religion = ibadi
+        NOT = {
+            government_rank = 5
+        }
         OR = {
             has_reform = islamic_imamate_reform
             has_reform = unlocked_islamic_imamate_reform
@@ -1932,6 +2074,9 @@ yemenite_theocracy = {
     }
     trigger = {
         religion = shiite
+        NOT = {
+            government_rank = 5
+        }
         OR = {
             government = theocracy
             has_reform = feudal_theocracy
@@ -1966,12 +2111,13 @@ shiite_theocracy = {
     }
     trigger = {
         religion = shiite
+        government_rank = 6
         OR = {
             government = theocracy
             has_reform = feudal_theocracy
         }
-        NOT = { primary_culture = yemeni_culture }
         NOT = {
+            primary_culture = yemeni_culture
             tag = AKK
             tag = EGI
             tag = HAK
@@ -2006,6 +2152,7 @@ uyghur_theocracy = {
     trigger = {
         religion = sunni
         government = theocracy
+        government_rank = 6
         OR = {
             primary_culture = uyghur
             has_country_flag = end_of_khojas
@@ -2079,12 +2226,15 @@ orthodox_theocracy = {
         7 = BISHOP
     }
     trigger = {
+        government = theocracy
+        government_rank = 7
+        NOT = {
+            government_rank = 8
+        }
         OR = {
             religion = orthodox
             religion = coptic
         }
-        government_rank = 7
-        government = theocracy
     }
 }
 inti_theocracy = {
@@ -2103,6 +2253,10 @@ inti_theocracy = {
     trigger = {
         religion = inti
         government = theocracy
+        government_rank = 7
+        NOT = {
+            government_rank = 8
+        }
     }
 }
 pagan_theocracy = {

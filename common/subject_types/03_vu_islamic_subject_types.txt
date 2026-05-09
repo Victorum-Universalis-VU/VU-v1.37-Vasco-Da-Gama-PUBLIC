@@ -537,6 +537,7 @@ islamic_malikate = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -555,7 +556,7 @@ islamic_malikate = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes

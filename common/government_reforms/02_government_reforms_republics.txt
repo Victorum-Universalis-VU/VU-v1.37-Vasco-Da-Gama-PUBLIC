@@ -5324,6 +5324,7 @@ roman_diarchy_reform = {
         enables_aristocratic_idea_group = no
         enables_nepotism = yes
         cannot_become_dictatorship = yes
+        vu_has_ToR_subjects = yes
     }
     ai = {
         factor = 10

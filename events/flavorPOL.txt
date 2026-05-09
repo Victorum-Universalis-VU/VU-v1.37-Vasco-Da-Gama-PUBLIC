@@ -2634,6 +2634,135 @@ country_event = { #Stefan the Great Ascends on the Moldavian Throne
             duration = 3650
         }
     }
+
+    option = {
+         name = flavor_pol.29.d
+
+        if = {
+            limit = {
+                MOL = { is_march = yes }
+            }
+            custom_tooltip = pol_split_up_moldavia_tt
+            hidden_effect = {
+                POL = {
+                    inherit = MOL
+                }
+                every_owned_province = {
+                    remove_core = MOL
+                }
+            }
+            POL = {
+                bukovina_area = {
+                    add_core = SCV
+                }
+                release = SCV
+                create_subject = {
+                    subject_type = polish_duchy
+                    who = SCV
+                }
+                SCV = {
+                    change_religion = ROOT
+				    change_government = monarchy
+				    set_government_rank = 6
+                    add_government_reform = eue_duchy_reform
+                    add_treasury = 100
+                    add_manpower = 9
+                    define_ruler = {
+					    name = "Petru III"
+					    dynasty = "Musat" 
+					    age = 45
+					    adm = 3
+					    dip = 4
+					    mil = 4
+				    }
+                    add_liberty_desire = 20
+                    if = {
+                        limit = { has_estate = estate_nobles }
+                        add_estate_loyalty = {
+                            estate = estate_nobles
+                            loyalty = -15
+                        }
+                    }
+                    add_opinion = {
+                        who = POL
+                        modifier = splitting_of_moldavia
+                    }
+                }
+                western_moldovia = {
+                    add_core = IAI
+                }
+                release = IAI
+                create_subject = {
+                    subject_type = polish_duchy
+                    who = IAI
+                }
+                IAI = {
+                    change_religion = ROOT
+				    change_government = monarchy
+				    set_government_rank = 6
+                    add_government_reform = eue_duchy_reform
+                    add_treasury = 100
+                    add_manpower = 9
+                    define_ruler = {
+					    name = "Roman II"
+					    dynasty = "Musat" 
+					    age = 20
+					    adm = 3
+					    dip = 3
+					    mil = 3
+				    }
+                    add_liberty_desire = 20
+                    if = {
+                        limit = { has_estate = estate_nobles }
+                        add_estate_loyalty = {
+                            estate = estate_nobles
+                            loyalty = -15
+                        }
+                    }
+                    add_opinion = {
+                        who = POL
+                        modifier = splitting_of_moldavia
+                    }
+                }
+                moldavia_area = {
+                    add_core = BSS
+                }
+                release = BSS
+                create_subject = {
+                    subject_type = polish_duchy
+                    who = BSS
+                }
+                BSS = {
+                    change_religion = ROOT
+				    change_government = monarchy
+				    set_government_rank = 6
+                    add_government_reform = eue_duchy_reform
+                    add_treasury = 100
+                    add_manpower = 9
+                    define_ruler = {
+					    name = "Stefan II"
+					    dynasty = "Musat" 
+					    age = 34
+					    adm = 3
+					    dip = 3
+					    mil = 5
+				    }
+                    add_liberty_desire = 20
+                    if = {
+                        limit = { has_estate = estate_nobles }
+                        add_estate_loyalty = {
+                            estate = estate_nobles
+                            loyalty = -15
+                        }
+                    }
+                    add_opinion = {
+                        who = POL
+                        modifier = splitting_of_moldavia
+                    }
+                }
+            }
+        }
+    }
 }
 
 country_event = { #The Crown of Rome
@@ -2900,6 +3029,78 @@ country_event = { #The Sejm Diet of [GetYear]
                 clr_country_flag = pol_chose_pu_flag
                 set_country_flag = pol_chose_pu_flag
                 swap_non_generic_missions = yes
+            }
+        }
+    }
+}
+
+country_event = { #The Sejm of Lublin
+    id = flavor_pol.34
+    title = flavor_pol.34.t
+    desc = flavor_pol.34.d
+    picture = HRE_eventPicture
+    fire_only_once = yes
+
+    major = yes
+    trigger = {
+        is_year = 1450
+        LIT = {
+            is_subject_of = POL
+        }
+    }
+    mean_time_to_happen = {
+        days = 7300
+    }
+
+    option = {
+        name = flavor_pol.34.a
+
+        ai_chance = { factor = 0 }
+        LIT = {
+            volhynia_area = {
+                add_core = POL
+                cede_province = POL
+                remove_core = LIT
+            }
+            eastern_volhynia_area = {
+                add_core = POL
+                cede_province = POL
+                remove_core = LIT
+            }
+        }
+        POL = {
+            inherit = KIE
+            inherit = BSV
+            inherit = CHR
+            inherit = ZAZ
+            create_subject = {
+                who = SMO
+                subject_type = polish_duchy
+            }
+            create_subject = {
+                who = SMG
+                subject_type = polish_duchy
+            }
+            create_subject = {
+                who = OKA
+                subject_type = polish_duchy
+            }
+            OKA = {
+                inherit = BLV
+                inherit = VTN
+                inherit = MSL
+            }
+        }
+    }
+
+    option = {
+        name = flavor_pol.34.b
+
+        ai_chance = { factor = 10 }
+
+        hidden_effect = {
+            POL = {
+                add_prestige = 20
             }
         }
     }

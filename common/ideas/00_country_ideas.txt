@@ -6312,12 +6312,13 @@ MON_ideas = {
 
 RMN_ideas = {
 	start = {
-		discipline = 0.05
+		yearly_corruption = -0.5
 		tolerance_own = 2
 	}
 
 	bonus = {
 		improve_relation_modifier = 0.25
+		available_province_loot = 2
 	}
 
 	trigger = {
@@ -6334,6 +6335,7 @@ RMN_ideas = {
 	}
 	scorch_the_land_and_poison_the_wells = {
 		hostile_attrition = 1
+		loot_amount = 2
 	}
 	latin_island = {
 		legitimacy = 1

@@ -16,8 +16,8 @@ hre = no
 
 #History by SF
 1444.11.11 = { 
-	owner = GRA 
-	controller = GRA 
-	add_core = GRA 
+	owner = SVL 
+	controller = SVL 
+	add_core = SVL 
 	remove_core = AMD 
 } # Granadan territorial lands - By San Felipe

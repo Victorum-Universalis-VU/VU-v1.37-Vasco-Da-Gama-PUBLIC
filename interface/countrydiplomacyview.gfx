@@ -1000,4 +1000,14 @@ spriteTypes = {
         name = "GFX_diplomacy_papal_areclients"
         texturefile = "gfx//interface//icon_diplomacy_papal_amclients.dds"
     }
+
+    #VU 1.37.* New Republican Subjects
+    spriteType = {
+        name = "GFX_diplomacy_vu_republic_subject_leadvassal"
+        texturefile = "gfx//interface//icon_diplomacy_vu_republic_subject_leadvassal.dds"
+    }
+    spriteType = {
+        name = "GFX_diplomacy_vu_republic_subject_amvassal"
+        texturefile = "gfx//interface//icon_diplomacy_vu_republic_subject_amvassal.dds"
+    }
 }

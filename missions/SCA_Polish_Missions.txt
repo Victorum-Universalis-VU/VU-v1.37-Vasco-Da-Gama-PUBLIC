@@ -1863,6 +1863,12 @@ poland_sca_slot_3_a = {
 						months = 300
 						target = BOH
 					} 
+					poland_region = {
+						add_permanent_claim = ROOT
+					}
+					bohemia_region = {
+						add_permanent_claim = ROOT
+					}
 				}
 				else = {
 					moravia_area = { 
@@ -1933,6 +1939,9 @@ poland_sca_slot_3_a = {
 						months = 300
 						target = HUN
 					} 
+					carpathia_region = {
+						add_permanent_claim = ROOT
+					}
 				}
 				else = {
 					slovakia_area = { 

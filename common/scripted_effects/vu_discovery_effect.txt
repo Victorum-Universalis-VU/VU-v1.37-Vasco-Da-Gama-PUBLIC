@@ -56,6 +56,7 @@ vu_discover_the_world = {
                 europe_superregion = { discover_country = PREV }
                 anatolia_region = { discover_country = PREV }
                 caucasia_region = { discover_country = PREV }
+                south_caucasia_region = { discover_country = PREV }
                 marrekesh_area = { discover_country = PREV }
                 western_morocco_area = { discover_country = PREV }
                 northern_morocco_area = { discover_country = PREV }
@@ -143,6 +144,7 @@ vu_discover_the_world = {
                 europe_superregion = { discover_country = PREV }
                 anatolia_region = { discover_country = PREV }
                 caucasia_region = { discover_country = PREV }
+                south_caucasia_region = { discover_country = PREV }
                 maghreb_region = { discover_country = PREV }
                 egypt_region = { discover_country = PREV }
                 mashriq_region = { discover_country = PREV }
@@ -217,6 +219,7 @@ vu_discover_the_world = {
                 baltic_region = { discover_country = PREV }
                 carpathia_region = { discover_country = PREV }
                 caucasia_region = { discover_country = PREV }
+                south_caucasia_region = { discover_country = PREV }
                 crimea_region = { discover_country = PREV }
                 khorasan_region = { discover_country = PREV }
                 mashriq_region = { discover_country = PREV }
@@ -465,6 +468,7 @@ vu_discover_the_world = {
                 baltic_region = { discover_country = PREV }
                 carpathia_region = { discover_country = PREV }
                 caucasia_region = { discover_country = PREV }
+                south_caucasia_region = { discover_country = PREV }
                 crimea_region = { discover_country = PREV }
                 khorasan_region = { discover_country = PREV }
                 mashriq_region = { discover_country = PREV }
@@ -738,6 +742,7 @@ vu_discover_the_world = {
                 baltic_region = { discover_country = PREV }
                 carpathia_region = { discover_country = PREV }
                 caucasia_region = { discover_country = PREV }
+                south_caucasia_region = { discover_country = PREV }
                 crimea_region = { discover_country = PREV }
                 khorasan_region = { discover_country = PREV }
                 mashriq_region = { discover_country = PREV }
@@ -1068,6 +1073,7 @@ vu_discover_the_world = {
                 baltic_region = { discover_country = PREV }
                 carpathia_region = { discover_country = PREV }
                 caucasia_region = { discover_country = PREV }
+                south_caucasia_region = { discover_country = PREV }
                 crimea_region = { discover_country = PREV }
                 khorasan_region = { discover_country = PREV }
                 mashriq_region = { discover_country = PREV }
@@ -2375,6 +2381,7 @@ vu_discover_the_world = {
                 yrtesh_area = { discover_country = PREV }
                 carpathia_region = { discover_country = PREV }
                 caucasia_region = { discover_country = PREV }
+                south_caucasia_region = { discover_country = PREV }
                 central_asia_region = { discover_country = PREV }
                 crimea_region = { discover_country = PREV }
                 korea_region = { discover_country = PREV }

@@ -944,7 +944,7 @@
  FRL: "Forli"
  FRL_ADJ: "Forlian"
  SNM: "San Marino"
- SNM_ADJ: "Sanmarinese"
+ SNM_ADJ: "Sammarinese"
  ROR: "Roman Republic"
  ROR_ADJ: "Roman"
  FNZ: "Faenza"
@@ -1955,6 +1955,8 @@
  ZCY_ADJ: "Zichian"
  ZPL: "Szapolyai"
  ZPL_ADJ: "Szapolyan"
+ VLD: "Vladimir"
+ VLD_ADJ: "Vladimirian"
 
  #Swedish Tag
  AN6: "Ångermanland"

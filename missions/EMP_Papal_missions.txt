@@ -754,6 +754,7 @@ emp_pap_slot_3 = {
 								region = balkan_region
 								region = anatolia_region
 								region = caucasia_region
+								region = south_caucasia_region
 							}
 						}
 					}
@@ -767,6 +768,7 @@ emp_pap_slot_3 = {
 									region = balkan_region
 									region = anatolia_region
 									region = caucasia_region
+									region = south_caucasia_region
 								}
 							}
 							religion_group = christian
@@ -777,6 +779,7 @@ emp_pap_slot_3 = {
 									region = balkan_region
 									region = anatolia_region
 									region = caucasia_region
+									region = south_caucasia_region
 								}
 							}
 							religion_group = christian
@@ -791,6 +794,7 @@ emp_pap_slot_3 = {
 						region = balkan_region
 						region = anatolia_region
 						region = caucasia_region
+						region = south_caucasia_region
 					}
 				}
 			}
@@ -805,6 +809,7 @@ emp_pap_slot_3 = {
 								region = balkan_region
 								region = anatolia_region
 								region = caucasia_region
+								region = south_caucasia_region
 							}
 						}
 						religion_group = christian
@@ -821,6 +826,7 @@ emp_pap_slot_3 = {
 								region = balkan_region
 								region = anatolia_region
 								region = caucasia_region
+								region = south_caucasia_region
 							}
 						}
 						religion_group = christian

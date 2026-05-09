@@ -1695,33 +1695,28 @@ spriteTypes = {
         texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_iglesia_del_buen_suceso.dds"
     }
     spriteType = {
-        name = "GFX_great_project_vu_almudena_cathedral_de_madrid"
-        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_almudena_cathedral_de_madrid.dds"
+        name = "GFX_great_project_vu_almudena_catedral_de_madrid"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_almudena_catedral_de_madrid.dds"
     }
     spriteType = {
-        name = "GFX_great_project_vu_alcazar_segovia"
-        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_alcazar_segovia.dds"
+        name = "GFX_great_project_vu_alcazar_de_segovia"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_alcazar_de_segovia.dds"
     }
     spriteType = {
         name = "GFX_great_project_vu_lotja_de_la_seda"
         texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_lotja_de_la_seda.dds"
     }
-    #Portugal
     spriteType = {
-        name = "GFX_great_project_vu_sagres_school_navigation"
-        texturefile = "gfx//interface//great_projects//VU_Portugal//great_project_vu_sagres_school_navigation.dds"
-    }
-    spriteType = {
-        name = "GFX_great_project_vu_santa_barbara_castle"
-        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_santa_barbara_castle.dds"
+        name = "GFX_great_project_vu_castell_de_santa_barbara"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_castell_de_santa_barbara.dds"
     }
     spriteType = {
         name = "GFX_great_project_vu_mosque_cathedral"
         texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_mosque_cathedral.dds"
     }
     spriteType = {
-        name = "GFX_great_project_vu_tower_hercules"
-        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_tower_hercules.dds"
+        name = "GFX_great_project_vu_torre_de_hercules"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_torre_de_hercules.dds"
     }
     spriteType = {
         name = "GFX_great_project_vu_rock_gibraltar"
@@ -1732,8 +1727,13 @@ spriteTypes = {
         texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_tierra_castillos.dds"
     }
     spriteType = {
-        name = "GFX_great_project_vu_cathedral_seville"
-        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_cathedral_seville.dds"
+        name = "GFX_great_project_vu_catedral_de_seville"
+        texturefile = "gfx//interface//great_projects//VU_Spain//great_project_vu_catedral_de_seville.dds"
+    }
+    #Portugal
+    spriteType = {
+        name = "GFX_great_project_vu_sagres_school_navigation"
+        texturefile = "gfx//interface//great_projects//VU_Portugal//great_project_vu_sagres_school_navigation.dds"
     }
     #Timurids
     spriteType = {

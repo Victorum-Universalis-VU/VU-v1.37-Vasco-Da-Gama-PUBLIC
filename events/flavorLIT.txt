@@ -860,7 +860,10 @@ country_event = {
 		ai_chance = { factor = 1 } 
 		set_country_flag = lit_accepted_pu
 		POL = { 
-			create_union = LIT 
+			create_subject = {
+				who = LIT
+				subject_type = polish_crown_PU
+			}
 			country_event = { id = flavor_pol.20 }
 		}
 		if = {

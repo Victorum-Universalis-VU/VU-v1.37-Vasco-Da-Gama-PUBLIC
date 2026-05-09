@@ -2974,7 +2974,7 @@ dom_cas_missions_3_c = {
                 fire = 5
                 manuever = 6
                 siege = 1
-                name = "Hernán Cortés"
+                name = "Hernï¿½n Cortï¿½s"
             }
             490 = {
                 add_base_production = 3
@@ -3410,17 +3410,22 @@ dom_cas_missions_4 = {
         }
 
         trigger = {
-            inner_austria_area = {
-                type = all
-                country_or_non_sovereign_subject_holds = ROOT
-            }
-            austria_proper_area = {
-                type = all
-                country_or_non_sovereign_subject_holds = ROOT
-            }
-            tirol_area = {
-                type = all
-                country_or_non_sovereign_subject_holds = ROOT
+            OR = {
+                AND = {
+                    inner_austria_area = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    austria_proper_area = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    tirol_area = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                }
+                dynasty = "von Habsburg"
             }
         }
         effect = {
@@ -3784,7 +3789,7 @@ dom_cas_missions_4_c = {
 
         effect = {
             define_explorer = {
-                name = "Martín Alonso Pinzón" #Captain of the Pinta
+                name = "Martï¿½n Alonso Pinzï¿½n" #Captain of the Pinta
                 fire = 2
                 shock = 2
                 manuever = 5

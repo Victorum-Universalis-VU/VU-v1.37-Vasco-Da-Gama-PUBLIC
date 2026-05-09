@@ -820,6 +820,16 @@ spriteTypes = {
 
     #Prince-Archbishopric of Andorra
     spriteType = {
+        name = "government_reform_prince_abbacy_of_andorra_reform"
+        texturefile = "gfx/interface/government_reform_icons/andorra/prince_abbacy_of_andorra_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_prince_bishopric_of_andorra_reform"
+        texturefile = "gfx/interface/government_reform_icons/andorra/prince_bishopric_of_andorra_reform.dds"
+    }
+    
+    spriteType = {
         name = "government_reform_prince_archbishopric_of_andorra_reform"
         texturefile = "gfx/interface/government_reform_icons/andorra/prince_archbishopric_reform.dds"
     }
@@ -2406,5 +2416,47 @@ spriteTypes = {
     spriteType = {
         name = "government_reform_vu_generic_dominion"
         texturefile = "gfx//interface//government_reform_icons//dominions//generic_dominion_governor_reform.dds"
+    }
+
+    #New Republic Subject Types by SF & Don
+
+    spriteType = {
+        name = "government_reform_vu_rep_outpost_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_outpost_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_borough_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_borough_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_commune_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_commune_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_canton_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_canton_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_territory_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_territory_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_province_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_province_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_state_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_state_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_commonwealth_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_commonwealth_reform.dds"
     }
 }

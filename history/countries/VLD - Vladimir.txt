@@ -1,0 +1,15 @@
+#VLD - Vladimir
+government = monarchy
+add_government_reform = principality
+government_rank = 7 #Principality
+primary_culture = muscovite
+religion = orthodox
+#technology_group = eastern
+technology_group = russian_tech_group
+unit_type = eastern
+capital = 307 # Vladimir
+fixed_capital = 295 # Cannot move capital away from this province & no power cost to move to it
+historical_rival = GOL
+historical_rival = NOV
+historical_rival = POL
+national_focus = ADM

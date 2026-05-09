@@ -461,7 +461,7 @@ republic_of_saint_blaise = {
 		is_merchant_republic = yes
 		can_create_merchantlist_republic_rule = yes
 		can_impose_venetian_republic_rules = yes
-		can_impose_genoese_commercial_republic_rules= yes
+		can_impose_genoese_commercial_republic_rules = yes
 	}
 	government_abilities = {
 		maritime_republic_mechanic

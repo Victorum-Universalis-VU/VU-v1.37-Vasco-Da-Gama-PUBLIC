@@ -20,6 +20,10 @@ imperial_city = {
 			has_reform = imperial_city
 		}
 		culture_group = germanic
+		government_rank = 3
+		NOT = {
+			government_rank = 4
+		}
 	}
 }
 
@@ -36,6 +40,10 @@ french_imperial_city = {
 			has_reform = imperial_city
 		}
 		culture_group = french
+		government_rank = 3
+		NOT = {
+			government_rank = 4
+		}
 	}
 }
 
@@ -52,6 +60,10 @@ italian_imperial_city = {
 			has_reform = imperial_city
 		}
 		culture_group = latin
+		government_rank = 3
+		NOT = {
+			government_rank = 4
+		}
 	}
 }
 
@@ -75,6 +87,10 @@ greek_pirate_republic = {
 	trigger = {
 		has_reform = pirate_republic_reform
 		primary_culture = greek
+		government_rank = 6
+		NOT = {
+			government_rank = 7
+		}
 	}
 }
 
@@ -97,6 +113,10 @@ greek_pirate_confederacy = {
 	trigger = {
 		has_reform = pirate_confederacy_reform
 		primary_culture = greek
+		government_rank = 7
+		NOT = {
+			government_rank = 8
+		}
 	}
 }
 
@@ -120,6 +140,10 @@ iberian_colonial_government = {
 		6 = CONSORT_fem
 	}
 	trigger = {
+		government_rank = 6
+		NOT = {
+			government_rank = 7
+		}
 		OR = {
 			culture_group = iberian
 			culture = galician_celtic
@@ -151,6 +175,10 @@ dutch_colonial_government = {
 	}
 	trigger = {
 		primary_culture = dutch
+		government_rank = 6
+		NOT = {
+			government_rank = 7
+		}
 		OR = {
 			has_reform = colonial_government
 			has_reform = crown_colony_government
@@ -174,6 +202,10 @@ gov_colonial_government = {
 		6 = LORD
 	}
 	trigger = {
+		government_rank = 6
+		NOT = {
+			government_rank = 7
+		}
 		OR = {
 			has_reform = colonial_government
 			has_reform = crown_colony_government
@@ -284,6 +316,10 @@ ikko_ikki_peasants = {
 	}
 	trigger = {
 		has_reform = ikko_ikki_republic_reform
+		government_rank = 6
+		NOT = {
+			government_rank = 7
+		}
 	}
 }
 
@@ -306,6 +342,10 @@ japanese_pirate_daimyo = {
 	trigger = {
 		culture_group = japanese_g
 		has_reform = pirate_republic_reform
+		government_rank = 6
+		NOT = {
+			government_rank = 7
+		}
 	}
 }
 
@@ -364,6 +404,10 @@ pirate_republic_government = {
 	}
 	trigger = {
 		has_reform = pirate_republic
+		government_rank = 6
+		NOT = {
+			government_rank = 7
+		}
 	}
 }
 
@@ -385,6 +429,10 @@ pirate_confederacy = {
 	}
 	trigger = {
 		has_reform = pirate_confederacy_reform
+		government_rank = 7
+		NOT = {
+			government_rank = 8
+		}
 	}
 }
 
@@ -406,6 +454,10 @@ pirate_kingdom = {
 	}
 	trigger = {
 		has_reform = pirate_king_reform
+		government_rank = 8
+		NOT = {
+			government_rank = 9
+		}
 	}
 }
 
@@ -469,6 +521,9 @@ gov_supreme_admiralty = {
 		3 = FIRST_MATE
 	}
 	trigger = {
+		NOT = {
+			government_rank = 4
+		}
 		OR = {
 			has_reform = supreme_admiral_reform
 			has_reform = high_admiral_reform

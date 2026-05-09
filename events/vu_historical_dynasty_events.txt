@@ -360,7 +360,7 @@ country_event = {
             tag = ARA
             tag = SPA
         }
-        is_year = 1589
+        is_year = 1700
         OR = {
             dynasty = "de Trastámara"
             dynasty = "von Habsburg"

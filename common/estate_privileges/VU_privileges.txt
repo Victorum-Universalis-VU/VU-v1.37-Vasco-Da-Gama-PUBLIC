@@ -278,7 +278,7 @@ estate_jews_suck_privileges = {
 	land_share = -10
 	max_absolutism = 5
 	loyalty = -0.45
-	influence = -0.2
+	influence = -0.95
 	is_valid = {
 		NOT = { has_estate_privilege = estate_jews_foster_jews }
 	}
@@ -343,7 +343,7 @@ estate_jews_suck_2 = {
 	land_share = -10
 	max_absolutism = 5
 	loyalty = -0.45
-	influence = -0.2
+	influence = -0.95
 	is_valid = {
 		NOT = { has_estate_privilege = estate_jews_foster_jews }
 	}
@@ -5450,8 +5450,11 @@ estate_nobles_very_strong_duchies = {
 			        is_subject_of_type = autonomous_canton
 			        #Christian Subjects
 			        is_subject_of_type = christian_abbacy
+					is_subject_of_type = andoran_co_prince_abbacy
 			        is_subject_of_type = christian_bishopric
+					is_subject_of_type = andoran_co_prince_bishopric
 			        is_subject_of_type = christian_archbishopric
+					is_subject_of_type = andoran_co_prince_archbishopric
 			        #Islamic Subjects
                     is_subject_of_type = islamic_imamate			       #Equivalent to Lordship
                     is_subject_of_type = islamic_grand_muftate			   #Equivalent to barony
@@ -5800,7 +5803,6 @@ estate_nobles_british_strong_marches = { #
 				}
 				NOT = { has_estate_privilege = estate_nobles_strong_duchies }
 				NOT = {
-					
 					is_subject_of_type = anglois_marquisate
 					is_subject_of_type = aragonese_marquisate
 					is_subject_of_type = austrian_marquisate

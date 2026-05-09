@@ -788,13 +788,15 @@
  GOVERNOR_GENERAL_VU_heir: "Governor"
  #ANDORRAN PRINCE-BISHOPRIC
  #Religion Court - GOVERNMENT
- PRINCE_BISHOPRIC_ANDORRA: "Príncep Bisbat"
- PRINCE_ARCHBISHOPRIC_ANDORRA: "Príncep Arquebisbat"
- PRINCE_METROPOLITAN_ANDORRA: "Príncep Cardenal"
+ AOR_PRINCE_ABBACY: "Príncep Abadia"
+ AOR_PRINCE_BISHOPRIC: "Príncep Bisbat"
+ AOR_PRINCE_ARCHBISHOPRIC: "Príncep Arquebisbat"
+ #AOR_PRINCE_METROPOLITAN: "Príncep Cardenal"
  #Bishopric Court - MALE TITLES
- PRINCE_BISHOP_ANDORRA: "Bisbe d'Urgell"
- PRINCE_ARCHBISHOP_ANDORRA: "Arquebisbe d'Urgell"
- PRINCE_CARDINAL_ANDORRA: "Cardenal d'Urgell"
+ AOR_PRINCE_ABBOT: "Abat d'Urgell"
+ AOR_PRINCE_BISHOP: "Bisbe d'Urgell"
+ AOR_PRINCE_ARCHBISHOP: "Arquebisbe d'Urgell"
+ #AOR_PRINCE_CARDINAL: "Cardenal d'Urgell"
  #CHURCH OF ENGLAND
  #Religion Court - GOVERNMENT
  ENGLISH_BISHOPRIC: "Bishopric"
@@ -828,6 +830,7 @@
  #Principality Court - FEMALE RULER TITLES
  PRINCIPALITY_PRINCESS_ORANGE_fem: "Princess of Orange"
  PRINCIPALITY_GRAND_PRINCESS_ORANGE_fem: "Grand Princess of Orange"
+ #
  #WELSH PRINCIPALITY
  #Principality - GOVERNMENT
  PRINCIPALITY_WALES: "Principality"
@@ -844,6 +847,7 @@
  #Principality Court - FEMALE RULER TITLES
  PRINCIPALITY_PRINCESS_WALES_fem: "Princess of Wales"
  PRINCIPALITY_GRAND_PRINCESS_WALES_fem: "Grand Princess of Wales"
+ #
  #TURKISH SULTANATE
  #Sultanate - GOVERNMENT
  TURKISH_SULTANATE_DUKEDOM: "Beylik"
@@ -861,4 +865,159 @@
  KAISERREICH: "Kaiserreich"
  KAISER: "Kaiser"
  KAISERIN: "Kaiserin"
-
+ #
+ #ARABIC GOV NAMES
+ #Arabic - GOVERNMENT
+ ARABIC_IMAMATE: "Imamate"
+ ARABIC_GRAND_MUFTATE: "Muftate"
+ ARABIC_SHEIKHDOM: "Sheikhdom"
+ ARABIC_SHARIFATE: "Sharifate"
+ ARABIC_EMIRATE: "Emirate"
+ ARABIC_SULTANATE: "Sultanate"
+ ARABIC_TAIFATE_VU: "Taifate"
+ ARABIC_MALEKATE_VU: "Malekate"
+ ARABIC_CALIPHATE: "Caliphate"
+ #Arabic Court - MALE RULER TITLES
+ ARABIC_IMAM: "Imam"
+ ARABIC_GRAND_MUFTI: "Grand Mufti"
+ ARABIC_SHEIKH: "Sheik"
+ ARABIC_SHARIF: "Sharif"
+ ARABIC_EMIR: "Emir"
+ ARABIC_SULTAN: "Sultan"
+ ARABIC_TAIF_VU: "Taif"
+ ARABIC_MALIK: "Malik"
+ ARABIC_CALIPH: "Caliph"
+ #ArBICabic Court - FEMALE CONSORT TITLES
+ ARABIC_RABA_CONSORT_fem: "Raba-Begum"
+ ARABIC_SHEIKHA_CONSORT_fem: "Sheikha-Begum"
+ ARABIC_SAYIDA_CONSORT_fem: "Sayida-Begum"
+ ARABIC_EMIRA_CONSORT_fem: "Amira-Begum"
+ ARABIC_SULTANA_CONSORT_fem: "Sultana-Begum"
+ ARABIC_GREAT_SULTANA_CONSORT_fem: "Great Sultana-Begum"
+ ARABIC_MALIKAH_CONSORT_fem: "Malikah-Begum"
+ ARABIC_CALIPH_CONSORT_fem: "Khalifah-Begum"
+ #Arabic Court - MALE HEIR TITLES
+ ARABIC_EALAM: "Ealam"
+ ARABIC_MUFTI_heir: "Imam"
+ ARABIC_GRAND_MUFTI_heir: "Mufti"
+ ARABIC_SHEIKH_heir: "Grand Mufti"
+ ARABIC_SHARIF_heir: "Sheikh"
+ ARABIC_EMIR_heir: "Sharif"
+ ARABIC_SULTAN_heir: "Emir"
+ ARABIC_TAIFA_heir: "Sultan"
+ ARABIC_MALIK_heir: "Taif"
+ ARABIC_CALIPH_heir: "Malik"
+ #
+ #IRANIAN GOV NAMES
+ #Persian - GOVERNMENT
+ IRA_MULLAHATE: "Mullahate"
+ IRA_GRAND_MULLAHATE: "Grand Mullahate"
+ IRA_SHEIKHDOM: "Sheikhdom"
+ IRA_SHARIFATE: "Sharifate"
+ IRA_GOVERNATE: "Governate"
+ IRA_SHAHDOM: "Shahdom"
+ IRA_GREAT_SHAHDOM: "Great Shahdom"
+ IRA_GRAND_SHAHDOM: "Grand Shahdom"
+ IRA_SHAHANSHAHDOM: "Shahanshahdom"
+ #Persian Court - MALE RULER TITLES
+ IRA_MULLAH: "Mullah"
+ IRA_GRAND_MULLAH: "Grand Mullah"
+ IRA_SHEIKH: "Sheik"
+ IRA_SHARIF: "Sharif"
+ IRA_AMIR: "Amir"
+ IRA_SHAH: "Shah"
+ IRA_GREAT_SHAH: "Great Shah"
+ IRA_GRAND_SHAH: "Grand Shah"
+ IRA_SHAHANSHAH: "Shahanshah"
+ #Persian Court - FEMALE CONSORT TITLES
+ IRA_AMIRA_CONSORT_fem: "Amira-Begum"
+ IRA_SHAHBANU_CONSORT_fem: "Shahbanu-Begum"
+ IRA_SHAHANSHAHBANU_CONSORT_fem: "Shahanshahbanu-Begum"
+ #Persian Court - MALE HEIR TITLES
+ IRA_MULLAH_heir: "Imam"
+ IRA_GRAND_MULLAH_heir: "Mullah"
+ IRA_SHEIKH_heir: "Grand Mufti"
+ IRA_SHARIF_heir: "Sheikh"
+ IRA_AMIR_heir: "Sharif"
+ IRA_SHAH_heir: "Amir"
+ IRA_GREAT_SHAH_heir: "Shah"
+ IRA_GRAND_SHAH_heir: "Great Shah"
+ IRA_SHAHANSHAH_heir: "Grand Shah"
+ #
+ #TURKISH
+ #Turkic - GOVERNMENT
+ TUR_IMAMATE: "Imamate"
+ TUR_GRAND_MUFTATE: "Muftate"
+ TUR_SHEIKHDOM: "Sheikhdom"
+ TUR_SHARIFATE: "Sharifate"
+ TUR_BEYLIK: "Beylik"
+ TUR_SULTANATE: "Sultanate"
+ TUR_GREAT_SULTANATE: "Great Sultanate"
+ TUR_GRAND_SULTANATE: "Grand Sultanate"
+ TUR_HALIFATE: "Halifate"
+ #Turkic Court - MALE RULER TITLES
+ TUR_IMAM: "Imam"
+ TUR_GRAND_MUFTI: "Grand Mufti"
+ TUR_SHEIKH: "Sheik"
+ TUR_SHARIF: "Sharif"
+ TUR_BEY: "Bey"
+ TUR_SULTAN: "Sultan"
+ TUR_GREAT_SULTAN: "Great Sultan"
+ TUR_GRAND_SULTAN: "Grand Sultan"
+ TUR_HALIF: "Halif"
+ #Turkic Court - FEMALE CONSORT TITLES
+ TUR_AMIRA_CONSORT_fem: "Amira-Begum"
+ TUR_HATUN_CONSORT_fem: "Hatun-Begum"
+ TUR_HALIFA_CONSORT_fem: "Halifa-Begum"
+ #Turkic Court - MALE HEIR TITLES
+ TUR_MUFTI_heir: "Imam"
+ TUR_GRAND_MUFTI_heir: "Mufti"
+ TUR_SHEIKH_heir: "Grand Mufti"
+ TUR_SHARIF_heir: "Sheikh"
+ TUR_AMIR_heir: "Sharif"
+ TUR_SULTAN_heir: "Amir"
+ TUR_GREAT_SULTAN_heir: "Sultan"
+ TUR_GRAND_SULTAN_heir: "Great Sultan"
+ TUR_HALIF_heir: "Grand Sultan"
+ #
+ #INDIAN SUBCONTINENT
+ #Indian - GOVERNMENT
+ INDSC_LORDSHIP: "Prabhutva"
+ INDSC_BARONY: "Bairan"
+ INDSC_VISCOUNTY: "Viscounti"
+ INDSC_COUNTY: "Counti"
+ INDSC_MARQUISATE: "Markeset"
+ INDSC_DUCHY: "Dachi"
+ INDSC_PRINCIPALITY: "Riyasat"
+ INDSC_KINGDOM: "Rajyam"
+ INDSC_EMPIRE: "Samrajam"
+ #Indian Court - MALE RULER TITLES
+ INDSC_LORD: "Vidhata"
+ INDSC_BARON: "Baironi"
+ INDSC_VISCOUNT: "Viscont"
+ INDSC_COUNT: "Cont"
+ INDSC_MARQUIS: "Markes"
+ INDSC_PRINCE: "Rajkumar"
+ INDSC_DUKE: "Duk"
+ INDSC_KING: "Raja"
+ INDSC_EMPEROR: "Samrat"
+ #Indian Court - FEMALE RULER TITLES
+ INDSC_LADY_fem: "Stri"
+ INDSC_BARONESS_fem: "Bairones"
+ INDSC_VISCOUNTESS_fem: "Viscontesah"
+ INDSC_COUNTESS_fem: "Countes"
+ INDSC_MARCHIONESS_fem: "Markvises"
+ INDSC_PRINCESS_fem: "Rajkumari"
+ INDSC_DUCHESS_fem: "Daches"
+ INDSC_QUEEN_fem: "Ragnyi"
+ INDSC_EMPRESS_fem: "Samragnyi"
+ #Indian Court - MALE CONSORT TITLES
+ INDSC_CONSORT: "Patni"
+ #Indian Court - FEMALE CONSORT TITLES
+ INDSC_CONSORT_fem: "Patni"
+ #Indian Court - MALE HEIR TITLES
+ INDSC_PRINCE_HEIR: "Raja"
+ INDSC_CROWN_PRINCE: "Rajkumar"
+ #Indian Court - FEMALE HEIR TITLES
+ INDSC_PRINCESS_HEIR_fem: "Rajkumari"
+ INDSC_CROWN_PRINCESS_fem: "Taj Rajkumari"

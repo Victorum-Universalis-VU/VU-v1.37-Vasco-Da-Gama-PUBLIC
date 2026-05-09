@@ -19085,7 +19085,7 @@ establish_roman_client_kingdom = {
 	}
 	on_accept = {
 		create_subject = {
-			subject = FROM
+			who = FROM
 			subject_type = roman_client_kingdom
 		}
 		FROM = {

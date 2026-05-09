@@ -2875,6 +2875,14 @@ byzantine_missions_4 = {
                 }
                 add_permanent_claim = ROOT
             }
+            south_caucasia_region = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                    NOT = { is_core = ROOT }
+                    is_empty = no
+                }
+                add_permanent_claim = ROOT
+            }
             mashriq_region = {
                 limit = {
                     NOT = { owned_by = ROOT }
@@ -3798,6 +3806,7 @@ byzantine_missions_5 = {
             OR = {
                 province_id = 330
                 region = caucasia_region
+                region = south_caucasia_region
             }
             NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
@@ -3807,7 +3816,10 @@ byzantine_missions_5 = {
                 330 = { country_or_non_sovereign_subject_holds = ROOT }
             }
             num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                region = caucasia_region
+                OR = {
+                    region = caucasia_region
+                    region = south_caucasia_region
+                }
                 has_owner_religion = yes
                 value = 15
             }

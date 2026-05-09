@@ -483,6 +483,7 @@ wool = {
 					}
 					NOT = {
 						region = caucasia_region
+						region = south_caucasia_region
 					}
 				}
 			}

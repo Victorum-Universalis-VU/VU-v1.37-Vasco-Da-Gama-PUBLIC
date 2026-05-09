@@ -12,23 +12,13 @@ base_production = 11
 base_manpower = 11
 is_city = yes
 add_core = DLH
+
+#Claimants
 add_core = SRH
 add_core = MUL
+add_core = HIN
+
 add_jains_or_burghers_effect = yes
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
 
 1414.1.1 = {
 	owner = DLH
