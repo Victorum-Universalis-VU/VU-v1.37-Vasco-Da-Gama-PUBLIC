@@ -1,5 +1,6 @@
+#RIF - Riffans
 government = monarchy
-add_government_reform = islamic_emirate_reform
+add_government_reform = unlocked_islamic_emirate_reform
 government_rank = 5 #Emirate
 primary_culture = riffian
 add_accepted_culture = moroccan
@@ -8,6 +9,7 @@ technology_group = muslim
 capital = 5218
 religious_school = maliki_school
 
+#History by DM
 1441.11.01 = {
 	monarch = {
 		name = "Regency"

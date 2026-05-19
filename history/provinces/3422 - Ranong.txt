@@ -1,0 +1,30 @@
+#3422 - Ranong
+
+owner = AYU
+controller = AYU
+add_core = AYU
+culture = central_thai
+religion = buddhism
+capital = "Ranong"
+trade_goods = rice
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

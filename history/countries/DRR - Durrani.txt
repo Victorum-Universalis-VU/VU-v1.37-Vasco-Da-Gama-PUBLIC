@@ -1,6 +1,6 @@
 #DRR - Durrani
 government = monarchy
-add_government_reform = islamic_emirate_reform
+add_government_reform = unlocked_islamic_emirate_reform
 government_rank = 5 #Emirate
 #technology_group = muslim
 technology_group = persian_tech_group
@@ -9,3 +9,5 @@ religion = sunni
 primary_culture = afghani
 capital = 3608	# Zabul
 religious_school = hanafi_school
+
+#History by DM

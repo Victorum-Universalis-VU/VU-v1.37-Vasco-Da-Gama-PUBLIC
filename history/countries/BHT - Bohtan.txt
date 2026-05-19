@@ -1,6 +1,6 @@
 #BHT - Bohtan
 government = monarchy
-add_government_reform = islamic_emirate_reform
+add_government_reform = islamic_governate_reform
 government_rank = 5 #Emirate
 primary_culture = kurdish
 religion = sunni
@@ -8,3 +8,14 @@ technology_group = persian_tech_group
 unit_type = muslim
 capital = 4293 #Arbil
 religious_school = shafii_school
+
+#History by DM
+1444.1.1 = {
+    monarch = {
+        name = "Abdal"
+        dynasty = "Bukhti"
+        adm = 4
+        dip = 3
+        mil = 2
+    }
+}

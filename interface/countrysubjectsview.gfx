@@ -1105,6 +1105,22 @@ spriteTypes = {
         texturefile = "gfx/interface/icon_diplomacy_am_chinese_principality.dds"
     }
 
+    #New Chinese Pacification Commission Subject Type by DM 
+    spriteType = {
+        name = "GFX_icon_vu_chinese_pacification_commission"
+        texturefile = "gfx/interface/icon_vu_chinese_pacification_commission.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_vu_chinese_pacification_commission"
+        texturefile = "gfx/interface/icon_diplomacy_lead_vu_chinese_pacification_commission.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_vu_chinese_pacification_commission"
+        texturefile = "gfx/interface/icon_diplomacy_am_vu_chinese_pacification_commission.dds"
+    }
+
     #Japanese Imperial Subjects
     spriteType = {
         name = "GFX_icon_japanese_imperial_colony"

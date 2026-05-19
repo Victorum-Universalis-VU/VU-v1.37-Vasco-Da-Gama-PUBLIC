@@ -11,6 +11,7 @@ vu_chinese_wind_principality = {}
 vu_chinese_water_principality = {}
 vu_chinese_mountain_principality = {}
 vu_chinese_earth_principality = {}
+vu_chinese_pacification_commission = {}
 #JAPANESE DAIMYO SUBJECTS
 daimyo_barony_vassal = {}
 daimyo_viscounty_vassal = {}
@@ -70,7 +71,6 @@ vu_chinese_heaven_principality = { #Aristocratic Principality Type
     relative_power_class = 1
     should_quit_wars_on_activation = yes
 
-
     # Subject Interactions
     seize_court_resources = yes
     request_extra_levies = yes
@@ -119,11 +119,11 @@ vu_chinese_heaven_principality = { #Aristocratic Principality Type
         }
     }
     modifier_overlord = {
-        modifier = chinese_principality_subject
+        modifier = chinese_pacification_commission_subject
     }
 
-    overlord_opinion_modifier = is_principality
-    subject_opinion_modifier = is_principality
+    overlord_opinion_modifier = is_marquisate
+    subject_opinion_modifier = is_marquisate
 }
 
 vu_chinese_lake_principality = { #Religious Principality Type
@@ -657,7 +657,79 @@ vu_chinese_earth_principality = { #Agricultural Principality Type
     diplomacy_subject_sprite = GFX_icon_diplomacy_am_chinese_principality #Was GFX_icon_diplomacy_am_core_eyalet
 
     # Properties:
-	can_send_tribute = yes
+    has_power_projection = yes
+    takes_diplo_slot = no
+    gives_daimyo_bonuses = yes
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    allows_taking_land_without_independence = yes
+    can_use_claims = no
+    forms_trade_companies = no
+    can_concentrate_development = no
+
+    trust_on_start = 0
+
+    base_liberty_desire = 10.0
+    military_focus = 1.2
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    can_fight = {
+        same_overlord = daimyo_marquisate_vassal
+    }
+    can_rival = {
+        same_overlord = daimyo_marquisate_vassal
+    }
+    can_ally = {
+        same_overlord = daimyo_marquisate_vassal
+    }
+    can_marry = {
+        same_overlord = daimyo_marquisate_vassal
+    }
+
+    # Subject Interactions
+    #(disable)
+    scutage = no
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = no
+    enforce_religion = no
+    enforce_culture = no
+    seize_territory = no
+    #(enable)
+    force_seppuku = yes
+    contribute_to_capital = yes
+    conscript_general = yes
+    force_isolation = yes
+    return_land = yes
+    #(special)
+    sword_hunt = yes
+    sankin_kotai = yes
+    expel_ronin = yes
+
+    # Modifiers
+
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+    modifier_subject = clear #Ditto
+    modifier_subject = {
+        modifier = subject_nation
+    }
+    modifier_overlord = {
+        modifier = daimyo_marquisate_subject
+    }
+}
+
+vu_chinese_pacification_commission = { #Commandery
+    copy_from = march
+
+    # Graphics:
+    sprite = GFX_icon_vu_chinese_pacification_commission #Was GFX_icon_core_eyalet
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_vu_chinese_pacification_commission #Was GFX_icon_diplomacy_lead_core_eyalet
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_vu_chinese_pacification_commission #Was GFX_icon_diplomacy_am_core_eyalet
+
+    # Properties:
+    can_send_tribute = yes
     takes_diplo_slot = no
     gets_help_with_rebels = no
     separatists_become_subjects = yes
@@ -700,7 +772,7 @@ vu_chinese_earth_principality = { #Agricultural Principality Type
     # Modifiers
     modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
 
-    restoration_cb = cb_disloyal_principality #Up to Sphinx what cb they would use - Prussia
+    restoration_cb = cb_disloyal_marquisate #Up to Sphinx what cb they would use - Prussia
 
     # Subject Interactions:
 
@@ -708,7 +780,7 @@ vu_chinese_earth_principality = { #Agricultural Principality Type
     modifier_subject = clear # Use this to clear after copy_from.
 
     modifier_subject = {
-        modifier = chinese_earth_principality_bonus
+        modifier = chinese_pacification_commission_bonus
     }
     modifier_subject = {
         modifier = subject_tax_modifier

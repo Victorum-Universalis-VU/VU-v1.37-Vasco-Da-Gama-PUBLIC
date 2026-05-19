@@ -140,3 +140,6 @@
  make_pirate_brotherhood_vassal_triggered_desc: "@[From.GetTag] §Y[From.GetName]§! is made into a Pirate Brotherhood of @[Root.GetTag] §Y[Root.GetName]§!. If [From.GetName] does not have a Pirate government, they will get one."
  CB_ALLOWED_make_pirate_brotherhood_vassal_triggered: "Force Pirate Brotherhood"
  PEACE_make_pirate_brotherhood_vassal_triggered: "$TAKERS$ Pirate Brotherhood"
+
+ cb_force_vassal_surya_majapahit: "Majapahiti Vassalization"
+ cb_force_vassal_surya_majapahit_desc: "This nation sits in our sphere of influence and yet does not kneel to us. Let us rectify!"

@@ -2027,6 +2027,7 @@ buddhist_hindu_islamic_titles_monarchy = { #Buddhist state that used Muslim titl
                 culture_group = malay
                 primary_culture = moluccan
                 primary_culture = timorese
+                tag = LIG
             }
         }
         NOT = {
@@ -5105,6 +5106,44 @@ chinese_principality = {
         government_rank = 7
         NOT = {
             government_rank = 8
+        }
+    }
+}
+
+chinese_pacification_commission = {
+    rank = {
+        5 = CHINESE_PACIFICATION_COMMISSION
+    }
+
+    ruler_male = {
+        5 = CHINESE_PACIFICATION_COMMISSIONER
+    }
+
+    ruler_female = {
+        5 = CHINESE_PACIFICATION_COMMISSIONER_fem
+    }
+
+    consort_male = {
+        5 = CHINESE_PACIFICATION_COMMISSIONER_CONSORT
+    }
+
+    consort_female = {
+        5 = CHINESE_PACIFICATION_COMMISSIONER_CONSORT_fem
+    }
+
+    heir_male = {
+        5 = CHINESE_SON_HEIR
+    }
+
+    heir_female = {
+        5 = CHINESE_DAUGHTER_HEIR_fem
+    }
+
+    trigger = {
+        has_reform = vu_pacification_commission_reform
+        government_rank = 5
+        NOT = {
+            government_rank = 6
         }
     }
 }

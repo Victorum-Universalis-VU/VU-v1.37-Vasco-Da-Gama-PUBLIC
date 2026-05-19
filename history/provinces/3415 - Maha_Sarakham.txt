@@ -1,0 +1,19 @@
+#3415 - Maha_Sarakham
+
+#Default
+owner = LXA
+controller = LXA
+culture = lao
+religion = buddhism
+capital = "Maha Sarakham"
+trade_goods = livestock
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+#Claimants
+add_core = LXA
+add_core = CHK
+add_core = VIE

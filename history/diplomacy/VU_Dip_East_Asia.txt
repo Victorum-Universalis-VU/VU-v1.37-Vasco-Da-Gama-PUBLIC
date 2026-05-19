@@ -16,8 +16,8 @@ dependency = {
 
 #Palembang
 dependency = {
-	subject_type = tributary_state
-	first = MAJ
+	subject_type = vu_chinese_pacification_commission
+	first = MNG
 	second = PLB
 	start_date = 1400.1.1
 	end_date = 1527.1.1

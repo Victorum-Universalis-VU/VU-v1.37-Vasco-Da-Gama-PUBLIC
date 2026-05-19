@@ -99,9 +99,9 @@ ship_names = {
 	Baia "Bogdan I"
 	Iuga
 	Moldova
-	"Rï¿½ul Prut"
+	"Râul Prut"
 	"Stefan cel Mare" Suceava
-	"Tï¿½rgul Moldovei"
+	"Târgul Moldovei"
 	Vaslui
 }
 

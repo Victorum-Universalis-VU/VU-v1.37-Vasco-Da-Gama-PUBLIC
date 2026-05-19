@@ -1912,6 +1912,7 @@
  can_sell_crownland_to_estates_targeted_tt: "§YSale of Titles§! can now target an estate."
  can_seize_crownland_to_estates_targeted_tt: "§YSeize Land§! can now target an estate."
  half_estate_privilege_absolutism_loss_tt: "Reduce the Max Absolutism Loss from Estate Privileges by §G-50.0§! (rounded down)"
+ #
  create_leader_scaling_with_tradition_tt: "§YScales with Tradition§!"
  trade_goods_selection_string: "§Y[This.GetName]§! pays"
  ducat_price_for_grain_tt: "[ColonizingCountry.TradeGoodsSelectionFirstString] §R§2[ColonizingCountry.final_ducat_price_grain.GetValue]§!¤"

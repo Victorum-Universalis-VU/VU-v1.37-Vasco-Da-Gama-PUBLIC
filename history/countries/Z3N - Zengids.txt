@@ -1,6 +1,6 @@
 #Z3N - Zengids
 government = monarchy
-add_government_reform = islamic_sultanate_reform
+add_government_reform = unlocked_islamic_sultanate_reform
 government_rank = 6
 primary_culture = al_suryah_arabic
 religion = sunni

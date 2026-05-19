@@ -1,7 +1,9 @@
-#4549 - Singgora
+#8577 - Songkhla
 
+#Default
 owner = LIG #Conquered from Langkasuka in 1295
 controller = LIG
+add_core = LIG
 culture = central_thai
 religion = buddhism
 capital = "Songkhla"
@@ -11,33 +13,3 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-add_core = LIG
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1566.1.1 = { #King Bana Sri Raja died, and the kingdom was annexed into Ayutthaya
-	owner = AYU
-	controller = AYU
-        add_core = AYU
-}
-1767.4.1 = {
-	owner = LIG
-	controller = LIG
-}
-1769.1.1 = {
-	owner = AYU
-	controller = AYU
-}

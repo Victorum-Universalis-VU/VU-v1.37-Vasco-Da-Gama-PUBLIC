@@ -1,5 +1,6 @@
+#SHM - Shammar
 government = tribal
-add_government_reform = islamic_emirate_reform
+add_government_reform = unlocked_islamic_emirate_reform
 government_rank = 5 #Emirate
 technology_group = muslim
 primary_culture = bedouin_arabic
@@ -7,6 +8,7 @@ religion = sunni
 capital = 393 # Jabal Shammar
 religious_school = shafii_school
 
+#History by DM
 1444.1.1 = {
 	monarch = {
 		name = "Abdullah"

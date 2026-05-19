@@ -15,7 +15,7 @@ base_manpower = 1
 is_city = yes
 
 #Buildings
-fort_15th = yes
+fort_15th = yes #Castle of St George
 
 #Commerce
 center_of_trade = 2

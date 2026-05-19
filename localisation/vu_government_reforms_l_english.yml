@@ -40,6 +40,36 @@
  kongsi_federation: "Kongsi Federation"
  kongsi_federation_desc: "A democratic syndicate of mining republics that share its profits with its members. As the Kongsi Republics have become more powerful, they have also taken on the duties of government such as education and agricultural administration."
  #
+ vu_mantri_sakai_system_reform: "Mantri Sakai System"
+ vu_mantri_sakai_system_reform_desc: "Each district was administered by a noble governor appointed directly by the central court. They were responsible for maintaining local law, suppressing tribal rebellions, and ensuring that a portion of local rice crops, gold dust, and timber was funneled back to the capital."
+ #
+ vu_banua_federation_reform: "Banua Federation"
+ vu_banua_federation_reform_desc: "Before unification, the region consisted of scattered, independent Dayak and Malay riverine settlements called banua. This early Bornean federative government did not erase these groups; instead, the King ruled as a supreme coordinator over local chiefs who maintained day-to-day legal authority over their villages."
+ #
+ vu_matriarchal_leadership_reform: "Matriarchal Monarchy"
+ vu_matriarchal_leadership_reform_desc: "Uniquely for the region, Sanggau continued to accept female absolute monarchs well into the 16th century driving the kingdom's physical expansion."
+ #
+ vu_landak_absolutism_reform: "Landak Absolutism"
+ vu_landak_absolutism_reform_desc: "Founded in the late 13th century and historically linked to Javanese expansions from the Singhasari and Majapahit empires, early Landak was a highly traditional Hindu absolutist monarchy operating under the regional mandala structure."
+ #
+ vu_migratory_capital_system_reform: "Migratory Capital System"
+ vu_migratory_capital_system_reform_desc: "When the ancient capital of Tanjungpura fell into decline, the royal court relocated to the coast at Sukadana, transforming the government from an inland agrarian state to a coastal maritime administration."
+ #
+ vu_divine_monarchy_reform: "Devine Monarchy"
+ vu_divine_monarchy_reform_desc: "The king was viewed as a living incarnation or earthly representative of Hindu deities, primarily Shiva or Vishnu. This status provided divine justification for his absolute executive, legislative, and judicial authority."
+ #
+ vu_nek_aristocracy_reform: "Nek Aristocracy"
+ vu_nek_aristocracy_reform_desc: "The “Nek” Aristocracy represents the earliest recorded phase of governance in the Sambas region of West Kalimantan. Before the arrival of Javanese Majapahit nobility in the 16th century and the subsequent conversion to Islam, Sambas was organized as an indigenous Dayak tribal federation ruled by hereditary clan leaders known by the title Nek."
+ #
+ vu_unified_law_reform: "Unified Law"
+ vu_unified_law_reform_desc: "This marriage produced a formal political alliance that bridged the two cultures. The Javanese elite brought formalized Indianized royal administration, court protocols, and scriptural law, while the indigenous Dayak chiefs retained complete territorial autonomy over the interior forests."
+ #
+ vu_dual_monarchy_islamic_confederation: "Twin Kingdom Structure"
+ vu_dual_monarchy_islamic_confederation_desc: "Originally, the island was split into separate villages led by clan chiefs called Momole. In 1257, these chiefs united to elect a single king, known as the Kolano until the late 1400s when the ruler's title switched from Kolano to Sultan."
+ #
+ vu_momole_and_kolano_system_reform: "Momole and Kolano"
+ vu_momole_and_kolano_system_reform_desc: "Historically, Makassar was not a single uniform kingdom, but an unbreakable political alliance forged between two distinct sister states, the Kingdom of Gowa and the Kingdom of Tallo known as the “Twin Kingdom Structure”. To maximize economic and military efficiency, they permanently fused their governing administrations."
+ #
  confucian_bureaucracy: "Confucian Bureaucracy"
  confucian_bureaucracy_desc: "A system of government where the monarch appoints educated bureaucrats to administrate the country in accordance with Confucian principles."
  #
@@ -273,10 +303,13 @@
  #VU New Corinthian Oligarchy reform by Don Brom
  corinthian_oligarchy_reform: "Corinthian Oligarchy"
  corinthian_oligarchy_reform_desc: "Corinthian Oligarchy is a form of government associated with Corinth since the end of the Cypselid tyranny. The presence of a well- disposed allied army which could be used to overawe the ruling classes offered a golden oppor- tunity for the democrates to gain control."
+ #
  corinthian_oligarchy_legacy: "Corinthian Oligarchy"
  corinthian_oligarchy_legacy_desc: "Corinthian Oligarchy is a form of government associated with Corinth since the end of the Cypselid tyranny. The presence of a well- disposed allied army which could be used to overawe the ruling classes offered a golden oppor- tunity for the democrates to gain control."
  corinthian_oligarchy_reform_ruler: "Tyrant"
  #
+ vu_pacification_commission_reform: "Pacification Commission"
+ vu_pacification_commission_reform_desc: "A Pacification Commission, typically known as Xuanfushi si or Anfushi si refers to an important imperial military and administrative agency that was tasked with bringing stability, administering justice, and consolidating central control over border regions, disaster-stricken zones, or newly conquered territories, or tributaries, or vassal states."
  #VU New Selucian Kingdom reform by Don Brom
  selucian_kingdom_reform: "Selucian Monarchy"
  selucian_kingdom_reform_desc: "Selucian monarchy, whether large or small, whether Greek or indigenous, was a form of government that placed the military uniquely above anything else and on par with personal monarchy, having its origins in a system called the 'Balot'."
@@ -742,6 +775,12 @@
  #
  unlocked_islamic_sublimating_khalifa_reform: "Alkhilafa"
  unlocked_islamic_sublimating_khalifa_reform_desc: "An Alkhilafa or Caliphate is led by a Khalifa or Caliph who is subservient to no one but Allah and his prophet Muhammad 'Alayhi s-salam', who may have gained the position through noble birth, military service and recognition of their meritous deeds or through sheer luck and circumstance. Caliphates normaly rule over more than one nation state and were focused on the running of these countries, often with assistance and advice in matters of imperial statehood from fellow rulers or advisors. Caliphs when travelling need no invitation and maye just appear out of nowhere, often to the detrement of the surprised state they visit since lavish feasts, shows and or spectacles would often follow in hopes of entertaining and or impressing the Imperial entourage. Caliphates would also visit other capitals in hopes of securing funding, personal unions, alliances and assistance in times of national crisis."
+ #
+ vu_melayu_islam_beraja_reform: "Melayu Islam Beraja"
+ vu_melayu_islam_beraja_reform_desc: "Brunei's government structure is formalized through a state-sanctioned national philosophy known as Melayu Islam Beraja “Malay Islamic Monarchy”. This concept justifies absolute royal rule by intertwining three foundational pillars."
+ #
+ vu_unlocked_melayu_islam_beraja_reform: "Melayu Islam Beraja"
+ vu_unlocked_melayu_islam_beraja_reform_desc: "A Melayu Islam Beraja Sultanate is led by a Sultan who is subservient to no one but Allah and his prophet Muhammad 'Alayhi s-salam', who may have gained the position through noble birth or had earnt it through either military recognition or meritous service. It combines Brunei's government structure is formalized through a state-sanctioned national philosophy known as Melayu Islam Beraja “Malay Islamic Monarchy”, a concept that justifies absolute royal rule by intertwining three foundational pillars. These Sultanates normaly rule over one or more provincial areas and were more focused on providing the state with military leadership and or skills in times of war."
  #
  visconti_dukes_of_milan: "Visconti Dukes of Milan"
  visconti_dukes_of_milan_desc: "The Dukes of Milan were members of the prominent Milanese family known as the Viscontis who ruled the hereditary Duchy from 1277 to 1447. They had humble origins, originally holing the title of Lords of Milan before rising to prominence by later becoming Dukes in 1395. This fainly not only played a significant role in the political afairs of state concering Milan at the time but also contributed to the cultural development of the Lombardy region but also northern Italy during the High Middle Ages and early Renaissance period."

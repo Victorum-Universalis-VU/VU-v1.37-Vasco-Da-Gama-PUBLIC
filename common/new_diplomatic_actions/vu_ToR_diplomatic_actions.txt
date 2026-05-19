@@ -210,6 +210,8 @@ vu_promote_vassal_to_marquisate = {
 				}
 				set_dynasty = ROOT
 			}
+			add_treasury = 250
+			add_manpower = 14
 		}
 		vu_colour_refresh = yes
 	}
@@ -1017,9 +1019,18 @@ vu_promote_vassal_to_emirate = {
 		#Made a scripted effect for this, to make this a bit less long and
 		#also to make it a bit more efficient as we can re-use these later on
 		FROM = {
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
 			change_religion = ROOT
 			set_dynasty = ROOT
-			change_government = monarchy
+			add_treasury = 250
+			add_manpower = 14
 		}
 		if = {
 			limit = {
@@ -1531,7 +1542,7 @@ vu_invite_vassal_to_become_a_beylik = {
     }
 }
 
-# Call Peerage Into Wars by Prussia
+# Call Peerage Into Wars by Prussia 
 call_peerage_into_wars = {
 	category = alliance
 	require_acceptance = no
@@ -1540,6 +1551,9 @@ call_peerage_into_wars = {
 			AND = {
 				is_subject_of = ROOT
 				is_ToR_subject_type = yes
+				NOT = { #Prussia, this will need sorting out properly - DM
+					is_muslim_subject_type = yes
+				}
 			}
 		}
 	}
@@ -1971,16 +1985,16 @@ call_principality_into_wars = {
 		FROM = {
 			AND = {
 				is_subject_of = ROOT
-					OR = {
-						is_subject_of_type = vu_chinese_heaven_principality
-						is_subject_of_type = vu_chinese_lake_principality
-						is_subject_of_type = vu_chinese_fire_principality
-						is_subject_of_type = vu_chinese_thunder_principality
-						is_subject_of_type = vu_chinese_wind_principality
-						is_subject_of_type = vu_chinese_water_principality
-						is_subject_of_type = vu_chinese_mountain_principality
-						is_subject_of_type = vu_chinese_earth_principality
-					}
+				OR = {
+					is_subject_of_type = vu_chinese_heaven_principality
+					is_subject_of_type = vu_chinese_lake_principality
+					is_subject_of_type = vu_chinese_fire_principality
+					is_subject_of_type = vu_chinese_thunder_principality
+					is_subject_of_type = vu_chinese_wind_principality
+					is_subject_of_type = vu_chinese_water_principality
+					is_subject_of_type = vu_chinese_mountain_principality
+					is_subject_of_type = vu_chinese_earth_principality
+				}
 			}
 		}
 	}
@@ -2044,6 +2058,77 @@ call_principality_into_wars = {
 	}
 }
 
+call_chinese_pacification_commission_into_wars = {
+    category = alliance
+    require_acceptance = no
+    is_visible = {
+        FROM = {
+            AND = {
+                is_subject_of = ROOT
+                is_subject_of_type = vu_chinese_pacification_commission
+            }
+        }
+    }
+    is_allowed = {
+        if = {
+            limit = {
+                FROM = {
+                    liberty_desire = 50
+                }
+            }
+            custom_trigger_tooltip = {
+                tooltip = FROM_IS_REBELLIOUS_TT
+                FROM = {
+                    liberty_desire = 50
+                }
+            }
+        }
+        if = {
+            limit = {
+                is_at_war = no
+            }
+            custom_trigger_tooltip = {
+                tooltip = ROOT_IS_NOT_AT_WAR_TT
+                is_at_war = yes
+            }
+        }
+        if = {
+            limit = {
+                FROM = {
+                    is_at_war = yes
+                }
+            }
+            custom_trigger_tooltip = {
+                tooltip = FROM_IS_AT_WAR_TT
+                FROM = {
+                    is_at_war = no
+                }
+            }
+        }
+    }
+    on_accept = {
+        FROM = {
+            join_all_defensive_wars_of = ROOT
+        }
+        if = {
+            limit = {
+                is_in_war = {
+                    attackers = ROOT
+                }
+            }
+            FROM = {
+                join_all_offensive_wars_of = ROOT
+            }
+        }
+    }
+    on_decline = {
+    }
+    ai_will_do = {
+        # this is a trigger
+        always = yes
+    }
+}
+
 # Call Daimyo Into Wars by Prussia
 call_daimyo_into_wars = {
 	category = alliance
@@ -2063,6 +2148,85 @@ call_daimyo_into_wars = {
 					is_subject_of_type = vu_japanese_imperial_directorate
 					is_subject_of_type = vu_japanese_imperial_governate
 					is_subject_of_type = vu_japanese_imperial_warlord
+				}
+			}
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = {
+					liberty_desire = 50
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_at_war = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = {
+					is_at_war = no
+				}
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = {
+					attackers = ROOT
+				}
+			}
+			FROM = {
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+	}
+	on_decline = {
+	}
+	ai_will_do = {
+		# this is a trigger
+		always = yes
+	}
+}
+
+# Call Hindu Principalities Into Wars by Prussia
+call_hindu_prince_into_wars = {
+	category = alliance
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			AND = {
+				is_subject_of = ROOT
+				OR = {
+					is_subject_of_type = vu_hindu_brahma_prince
+					is_subject_of_type = vu_hindu_lakshimi_prince
+					is_subject_of_type = vu_hindu_parvarti_prince
+					is_subject_of_type = vu_hindu_saraswati_prince
+					is_subject_of_type = vu_hindu_shiva_prince
+					is_subject_of_type = vu_hindu_vishnu_prince
 				}
 			}
 		}

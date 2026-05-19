@@ -7,7 +7,7 @@ primary_culture = panjabi
 religion = hinduism
 capital = 510 #Sirhind
 
-#Lodis
+#History by DM
 1431.1.1 = {
 	monarch = {
 		name = "Bahlûl"
@@ -28,22 +28,4 @@ capital = 510 #Sirhind
 	add_ruler_personality = strict_personality
 	add_ruler_personality = conqueror_personality
 	add_ruler_personality = industrious_personality
-}
-
-#Surs
-1553.1.1 = {
-	monarch = {
-		name = "Sikandar"
-		dynasty = "Suri"
-		ADM = 1
-		DIP = 3
-		MIL = 2
-		culture = afghani
-	}
-	religion = sunni
-	religious_school = hanafi_school
-	government = monarchy
-	add_government_reform = islamic_sultanate_reform
-	government_rank = 6 #Sultanate
-	capital = 507 #Lahore
 }

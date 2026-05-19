@@ -748,6 +748,13 @@
  vu_chinese_earth_principality_long_desc: "A §Kun Wángzi§! is a agricultural specialist Prince of the Imperial Dynasty of China."
  vu_chinese_earth_principality_is_our: "$NAME|Y$ is our Kun Wángzi."
  vu_chinese_earth_principality_no_overlord_dow: "You cannot declare war on our own Kun Wángzi."
+
+ vu_chinese_pacification_commission: "Xuanfushi si"
+ vu_chinese_pacification_commission_title: "Xuanfushi si"
+ vu_chinese_pacification_commission_title_plural: "Xuanfushi si"
+ vu_chinese_pacification_commission_long_desc: "A §Xuanfushi si§! is an important imperial military and administrative agency that was tasked with bringing stability, administering justice, and consolidating central control over border regions, disaster-stricken zones, or newly conquered territories, or tributaries, or vassal states of China."
+ vu_chinese_pacification_commission_is_our: "$NAME|Y$ is our Xuanfushi si."
+ vu_chinese_pacification_commission_no_overlord_dow: "You cannot declare war on our own Xuanfushi si."
  
  vu_promote_vassal_to_heaven_prince: "Create Qian Wángzi"
  vu_promote_vassal_to_heaven_prince_title: "Create Qian Wángzi"
@@ -805,12 +812,26 @@
  vu_promote_vassal_to_earth_prince_alert_tooltip: "An offer to promote us to a §YKun Wángzi§!"
  vu_promote_vassal_to_earth_prince_dialog: "[This.GetName] offers us to become their Kun Wángzi subject. This will grant us additional autonomy at the cost of aiding our overlord in wars."
 
+ vu_promote_vassal_to_chinese_pacification_commission: "Create Xuanfushi si"
+ vu_promote_vassal_to_chinese_pacification_commission_title: "Create Xuanfushi si"
+ vu_promote_vassal_to_chinese_pacification_commission_desc: "Create §Y[From.GetName]§!'s and turn them into a §YXuanfushi si§!, or Pacification Commission subject. This will disallow us to integrate the target §Y[From.GetName]§!, but allow them to be called into all our wars."
+ vu_promote_vassal_to_chinese_pacification_commission_tooltip: "Give the target a Xuanfushi si status, preventing us from integrating the target, enabling us to call them in all our wars."
+ vu_promote_vassal_to_chinese_pacification_commission_alert_tooltip: "An offer to promote us to a §YXuanfushi si§!"
+ vu_promote_vassal_to_chinese_pacification_commission_dialog: "[This.GetName] offers us to become their Xuanfushi si subject. This will grant us additional autonomy at the cost of aiding our overlord in wars."
+
  vu_revert_chinese_principality_to_vassal: "Revert Wángzi to Vassal"
  vu_revert_chinese_principality_to_vassal_title: "Revert Wángzi to Vassal"
  vu_revert_chinese_principality_to_vassal_desc: "Create §Y[From.GetName]§!'s and turn them into a §YVassal§!. This will allow us to integrate the target §Y[From.GetName]§!, and allowing them to be called into all our wars."
  vu_revert_chinese_principality_to_vassal_tooltip: "Give the target a Vassal status, enabling us to integrate the target."
  vu_revert_chinese_principality_to_vassal_alert_tooltip: "An offer to promote us to a §YVassal§!"
  vu_revert_chinese_principality_to_vassal_dialog: "[This.GetName] offers us to become their Vassal subject. This will reduce our autonomy at the cost of aiding our overlord in wars."
+
+ vu_revert_chinese_pacification_commission_to_vassal: "Revert Xuanfushi si to Vassal"
+ vu_revert_chinese_pacification_commission_to_vassal_title: "Revert Xuanfushi si to Vassal"
+ vu_revert_chinese_pacification_commission_to_vassal_desc: "Create §Y[From.GetName]§!'s and turn them into a §YVassal§!. This will allow us to integrate the target §Y[From.GetName]§!, and allowing them to be called into all our wars."
+ vu_revert_chinese_pacification_commission_to_vassal_tooltip: "Give the target a Vassal status, enabling us to integrate the target."
+ vu_revert_chinese_pacification_commission_to_vassal_alert_tooltip: "An offer to promote us to a §YVassal§!"
+ vu_revert_chinese_pacification_commission_to_vassal_dialog: "[This.GetName] offers us to become their Vassal subject. This will reduce our autonomy at the cost of aiding our overlord in wars."
  
  #Japanese Imperial Subjects by Prussia
  vu_japanese_imperial_colony: "Koroni"
@@ -1119,9 +1140,23 @@
  call_principality_into_wars_alert_tooltip: "We are being called to arms! TO BATTLE!"
  call_principality_into_wars_dialog: "Our liege has called for aid. We shall answer."
 
+ call_chinese_pacification_commission_into_wars: "Call the Banners"
+ call_chinese_pacification_commission_into_wars_title: "Call the Banners"
+ call_chinese_pacification_commission_into_wars_desc: "Call the Banners to arms in our ongoing struggles"
+ call_chinese_pacification_commission_into_wars_tooltip: "Summon this §YPacification Commission§! bannerman to serve in the war against our enemies."
+ call_chinese_pacification_commission_into_wars_alert_tooltip: "We are being called to arms! TO BATTLE!"
+ call_chinese_pacification_commission_into_wars_dialog: "Our liege has called for aid. We shall answer."
+
  call_daimyo_into_wars: "Call the Banners"
  call_daimyo_into_wars_title: "Call the Banners"
  call_daimyo_into_wars_desc: "Call the Banners to arms in our ongoing struggles"
  call_daimyo_into_wars_tooltip: "Summon this §YDaimyo§! bannerman to serve in the war against our enemies."
  call_daimyo_into_wars_alert_tooltip: "We are being called to arms! TO BATTLE!"
  call_daimyo_into_wars_dialog: "Our liege has called for aid. We shall answer."
+
+ call_hindu_prince_into_wars: "Call the Banners"
+ call_hindu_prince_into_wars_title: "Call the Banners"
+ call_hindu_prince_into_wars_desc: "Call the Banners to arms in our ongoing struggles"
+ call_hindu_prince_into_wars_tooltip: "Summon this §YPrince§! bannerman to serve in the war against our enemies."
+ call_hindu_prince_into_wars_alert_tooltip: "We are being called to arms! TO BATTLE!"
+ call_hindu_prince_into_wars_dialog: "Our liege has called for aid. We shall answer."

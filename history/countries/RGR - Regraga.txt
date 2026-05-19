@@ -1,5 +1,6 @@
+#RGR - Regraga
 government = monarchy
-add_government_reform = islamic_emirate_reform
+add_government_reform = unlocked_islamic_emirate_reform
 government_rank = 5 #Emirate
 technology_group = muslim
 primary_culture = shilha
@@ -8,5 +9,13 @@ capital = 2470			#Haha
 fixed_capital = 2470
 religious_school = maliki_school
 
-
-#May fill in later, but very unlikely anyone will care
+#History by DM
+1441.11.01 = {
+    monarch = {
+        name = "Wattasid Viziers"
+        adm = 3
+        dip = 3
+        mil = 3
+        regent = yes
+    }
+}

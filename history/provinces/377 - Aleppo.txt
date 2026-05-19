@@ -1,9 +1,9 @@
 #377 - Aleppo
 
 #Default
-owner = MAM
-controller = MAM
-add_core = MAM
+owner = A1P
+controller = A1P
+add_core = A1P
 culture = al_suryah_arabic	#Arabic Syrian, possibly sizeable minority of aramaic culture within province' borders
 religion = sunni
 capital = "Halab"
@@ -18,7 +18,7 @@ is_city = yes
 fort_15th = yes
 
 #Claimants
-add_core = A1P
+add_core = MAM
 add_core = SYR
 
 #Commerce

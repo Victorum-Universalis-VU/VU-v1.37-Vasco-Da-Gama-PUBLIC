@@ -3,19 +3,21 @@
 ################################################################
 
 # Ayutthaya and Sukhothai
-vassal = {
-	first = AYU
-	second = SUK
-	start_date = 1438.1.1
-	end_date = 1530.1.1
+dependency = {
+    subject_type = vu_buddhist_sakya_prince
+    first = AYU
+    second = SUK
+    start_date = 1438.1.1
+    end_date = 1530.1.1
 }
 
 # Ligor (Nakhon Si Thammarat)
-vassal = {
-	first = AYU
-	second = LIG
-	start_date = 1400.1.1
-	end_date = 1570.1.1
+dependency = {
+    subject_type = vu_buddhist_sakya_prince
+    first = AYU
+    second = LIG
+    start_date = 1400.1.1
+    end_date = 1570.1.1
 }
 
 # Sulu
@@ -51,10 +53,10 @@ dependency = {
 	end_date = 1475.1.1
 }
 
-dependency = {
-	subject_type = tributary_state
-	first = MAJ
-	second = PLB
-	start_date = 1444.1.1
-	end_date = 1475.1.1
-}
+#dependency = {
+#	subject_type = tributary_state
+#	first = MAJ
+#	second = PLB
+#	start_date = 1444.1.1
+#	end_date = 1475.1.1
+#}

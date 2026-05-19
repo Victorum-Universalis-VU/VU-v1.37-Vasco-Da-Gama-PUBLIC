@@ -1187,7 +1187,7 @@ mam_missions_3 = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 358
-				province_id = 362
+				province_id = 2316
 				province_id = 363
 			}
 			OR = {
@@ -1197,7 +1197,7 @@ mam_missions_3 = {
 		}
 		trigger = {
 			358 = { owned_by = ROOT has_trade_building_trigger = yes }
-			362 = { owned_by = ROOT has_trade_building_trigger = yes }
+			2316 = { owned_by = ROOT has_trade_building_trigger = yes }
 			363 = { owned_by = ROOT has_trade_building_trigger = yes }
 		}
 		effect = {
@@ -1219,7 +1219,6 @@ mam_missions_3 = {
 		position = 9
 		provinces_to_highlight = {
 			OR = {
-				province_id = 362
 				province_id = 363
 				province_id = 2316
 				province_id = 361
@@ -1246,14 +1245,6 @@ mam_missions_3 = {
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = mam_every_province_nile_tt
-				362 = {
-					owned_by = ROOT
-					OR = {
-						num_of_buildings_in_province = 1
-						num_of_times_improved = 1
-						is_prosperous = yes
-					}
-				}
 				363 = {
 					owned_by = ROOT
 					OR = {
@@ -1315,7 +1306,6 @@ mam_missions_3 = {
 				every_owned_province = {
 					limit = {
 						OR = { 
-							province_id = 362
 							province_id = 363
 							province_id = 2316
 							province_id = 361
@@ -1724,7 +1714,6 @@ mam_missions_4 = {
 			if = {
 				limit = { has_dlc = "Mandate of Heaven" }
 				OR = {
-					province_id = 362 
 					province_id = 363
 					province_id = 4316 
 					province_id = 2316 
@@ -1737,7 +1726,6 @@ mam_missions_4 = {
 			}
 			else = {
 				OR = {
-					province_id = 362 
 					province_id = 363
 					province_id = 4316 
 					province_id = 2316 
@@ -1751,13 +1739,6 @@ mam_missions_4 = {
 		trigger = {
 			if = {
 				limit = { has_dlc = "Mandate of Heaven" }
-				362 = {
-					OR = {
-						is_prosperous = yes 
-						num_of_times_improved = 4
-					}
-					owned_by = ROOT
-				}
 				2316 = {
 					OR = {
 						is_prosperous = yes 
@@ -1788,10 +1769,6 @@ mam_missions_4 = {
 				}
 			}
 			else = {
-				362 = {
-					num_of_times_improved = 4
-					owned_by = ROOT
-				}
 				2316 = {
 					num_of_times_improved = 4
 					owned_by = ROOT
@@ -2247,7 +2224,6 @@ mam_missions_5 = {
 		position = 10
 		provinces_to_highlight = {
 			OR = {
-				province_id = 362
 				province_id = 363
 				province_id = 2316
 				province_id = 4316
@@ -2261,10 +2237,6 @@ mam_missions_5 = {
 			OR = {
 				crown_land_share = 40 
 				has_reform = diwan_al_khass_reform
-			}
-			362 = {
-				owned_by = ROOT 
-				has_production_building_trigger = yes 
 			}
 			363 = {
 				owned_by = ROOT 

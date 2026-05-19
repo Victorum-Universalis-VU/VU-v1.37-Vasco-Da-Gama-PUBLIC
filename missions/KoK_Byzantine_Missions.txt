@@ -44,36 +44,30 @@ MEE_BYZ_conquest_1 = {
 			}
 		}
 		effect = {
-			simple_dynamic_effect = {
-				first_custom_tooltip = BYZ_if_done_via_conquest
-				first_limit = "
-					owns_or_non_sovereign_subject_of = 4699 #arta
+			add_dip_power = 75
+			aetolia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
 					NOT = { exists = EPI }
-				"
-				first_effect = "
-					add_country_modifier = {
-						name = EPI_epirote_forces
-						duration = 5475
-					}
-				"
-				second_custom_tooltip = BYZ_if_done_via_vassalization
-				second_limit = "
-					EPI = { is_subject_of = ROOT }
-				"
-				second_effect = "
-					add_dip_power = 75
-					
-					custom_tooltip = \" \" 
-					
-					add_core = 4698 #cephalonia
-					
-					custom_tooltip = \" \"
-				"
+				}
+				add_core = ROOT
 			}
-			
+			northern_epirus_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+					NOT = { exists = EPI }
+				}
+				add_core = ROOT
+			}
+			add_country_modifier = {
+				name = EPI_epirote_forces
+				duration = 5475
+			}
 			give_claims = { area = albania_area }
-			
 			give_claims = { area = apulia_area }
+			give_claims = { area = northern_greece_area } #Epirus Area
 			give_claims = { area = calabria_area }
 			give_claims = { area = sicily_area }
 			#give_claims = { area = western_sicily_area } #Removed from VU
@@ -420,7 +414,6 @@ MEE_BYZ_conquest_2 = {
 			give_claims = { area = lazio_area }
 			give_claims = { area = central_italy_area }
 			give_claims = { area = san_marino_area }
-			give_claims = { area = tuscany_area }
 			give_claims = { area = inner_austria_area }
 			give_claims = { area = austria_proper_area }
 			give_claims = { area = tirol_area }
@@ -1932,22 +1925,22 @@ MEE_BYZ_economy_1 = {
 				}
 				AND = {
 					province_id = 330
-                    OR = {
-                        AND = {
-                            trade_goods = gold
-                            OR = {
-                                NOT = { owned_by = ROOT }
-                                NOT = { base_production = 10 }
-                            }
-                        }
-                        AND = {
-                            NOT = { trade_goods = gold }
-                            OR = {
-                                NOT = { owned_by = ROOT }
-                                NOT = { has_production_building_trigger = yes }
-                            }
-                        }
-                    }
+					OR = {
+						AND = {
+							trade_goods = gold
+							OR = {
+								NOT = { owned_by = ROOT }
+								NOT = { base_production = 10 }
+							}
+						}
+						AND = {
+							NOT = { trade_goods = gold }
+							OR = {
+								NOT = { owned_by = ROOT }
+								NOT = { has_production_building_trigger = yes }
+							}
+						}
+					}
 				}
 			}
 		}

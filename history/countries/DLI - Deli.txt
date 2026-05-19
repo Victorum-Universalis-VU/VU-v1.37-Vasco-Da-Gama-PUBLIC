@@ -1,5 +1,6 @@
+#DLI - Deli
 government = monarchy
-add_government_reform = islamic_sultanate_reform
+add_government_reform = unlocked_islamic_sultanate_reform
 government_rank = 6 #Sultanate
 primary_culture = sumatran
 religion = sunni
@@ -7,6 +8,7 @@ technology_group = chinese
 capital = 618
 religious_school = shafii_school
 
+#History by DM
 1444.1.1 = {
 	monarch = {
 		name = "Panglima"
@@ -14,15 +16,5 @@ religious_school = shafii_school
 		adm = 3
 		dip = 2
 		mil = 0
-	}
-}
-
-1480.1.1 = {
-	monarch = {
-		name = "Kabupaten"
-		adm = 3
-		dip = 3
-		mil = 3
-		regent = yes
 	}
 }

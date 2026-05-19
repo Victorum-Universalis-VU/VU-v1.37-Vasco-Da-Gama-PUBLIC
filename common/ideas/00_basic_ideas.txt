@@ -2993,8 +2993,8 @@ nationalism_ideas = {
 	category = DIP
 	trigger = {
 		OR = {
-			dip_tech = 27
-			adm_tech = 27
+			dip_tech = 21
+			adm_tech = 21
 			has_country_flag = vu_proto_nationalism
 		}
 	}

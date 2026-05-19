@@ -1,6 +1,6 @@
 #BG5 - Bangladesh
 government = monarchy
-add_government_reform = islamic_sultanate_reform
+add_government_reform = unlocked_islamic_sultanate_reform
 government_rank = 6 #Sultanate
 primary_culture = bengali
 religion = sunni
@@ -8,6 +8,7 @@ technology_group = indian
 capital = 564 #Dhaka
 add_army_professionalism = 0.05
 
+#History by DM
 #1441.11.01 = {
 #	monarch = {
 #		name = "Regency"

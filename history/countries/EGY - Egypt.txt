@@ -1,7 +1,10 @@
+#EGY - Egypt
 government = monarchy
-add_government_reform = islamic_sultanate_reform
+add_government_reform = unlocked_islamic_sultanate_reform
 government_rank = 6 #Sultanate
 primary_culture = al_misr_arabic
 religion = sunni
 technology_group = muslim
 capital = 361 # Cairo
+
+#History by DM

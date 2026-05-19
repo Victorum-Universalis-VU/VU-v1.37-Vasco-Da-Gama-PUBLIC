@@ -704,69 +704,7 @@ country_event = {
 			add_ruler_personality = vu_doctorate_personality
 		}
 		change_adm = 1
-
-		clr_ruler_flag = vu_ruler_studying
-	}
-	option = {
-		name = "SF_Edumacation_Events.3.b"
-		highlight = yes
-		if = {
-			limit = { ruler_has_personality = vu_uneducated_personality	}
-			remove_ruler_personality = vu_uneducated_personality
-			add_ruler_personality = vu_literate_personality
-		}
-		else_if = {
-			limit = { ruler_has_personality = vu_literate_personality }
-			remove_ruler_personality = vu_literate_personality
-			add_ruler_personality = vu_scholarly_personality
-		}
-		else_if = {
-			limit = { ruler_has_personality = vu_scholarly_personality }
-			remove_ruler_personality = vu_scholarly_personality
-			add_ruler_personality = vu_bachelorette_personality
-		}
-		else_if = {
-			limit = { ruler_has_personality = vu_bachelorette_personality }
-			remove_ruler_personality = vu_bachelorette_personality
-			add_ruler_personality = vu_masters_personality
-		}
-		else_if = {
-			limit = { ruler_has_personality = vu_masters_personality }
-			remove_ruler_personality = vu_masters_personality
-			add_ruler_personality = vu_doctorate_personality
-		}
 		change_dip = 1
-
-		clr_ruler_flag = vu_ruler_studying
-	}
-	option = {
-		name = "SF_Edumacation_Events.3.c"
-		highlight = yes
-		if = {
-			limit = { ruler_has_personality = vu_uneducated_personality	}
-			remove_ruler_personality = vu_uneducated_personality
-			add_ruler_personality = vu_literate_personality
-		}
-		else_if = {
-			limit = { ruler_has_personality = vu_literate_personality }
-			remove_ruler_personality = vu_literate_personality
-			add_ruler_personality = vu_scholarly_personality
-		}
-		else_if = {
-			limit = { ruler_has_personality = vu_scholarly_personality }
-			remove_ruler_personality = vu_scholarly_personality
-			add_ruler_personality = vu_bachelorette_personality
-		}
-		else_if = {
-			limit = { ruler_has_personality = vu_bachelorette_personality }
-			remove_ruler_personality = vu_bachelorette_personality
-			add_ruler_personality = vu_masters_personality
-		}
-		else_if = {
-			limit = { ruler_has_personality = vu_masters_personality }
-			remove_ruler_personality = vu_masters_personality
-			add_ruler_personality = vu_doctorate_personality
-		}
 		change_mil = 1
 
 		clr_ruler_flag = vu_ruler_studying
@@ -968,69 +906,7 @@ country_event = {
 			add_heir_personality = vu_doctorate_personality
 		}
 		change_heir_adm = 1
-
-		clr_heir_flag = vu_heir_studying
-	}
-	option = {
-		name = "SF_Edumacation_Events.4.b"
-		highlight = yes
-		if = {
-			limit = { heir_has_personality = vu_uneducated_personality }
-			remove_heir_personality = vu_uneducated_personality
-			add_heir_personality = vu_literate_personality
-		}
-		else_if = {
-			limit = { heir_has_personality = vu_literate_personality }
-			remove_heir_personality = vu_literate_personality
-			add_heir_personality = vu_scholarly_personality
-		}
-		else_if = {
-			limit = { heir_has_personality = vu_scholarly_personality }
-			remove_heir_personality = vu_scholarly_personality
-			add_heir_personality = vu_bachelorette_personality
-		}
-		else_if = {
-			limit = { heir_has_personality = vu_bachelorette_personality }
-			remove_heir_personality = vu_bachelorette_personality
-			add_heir_personality = vu_masters_personality
-		}
-		else_if = {
-			limit = { heir_has_personality = vu_masters_personality }
-			remove_heir_personality = vu_masters_personality
-			add_heir_personality = vu_doctorate_personality
-		}
 		change_heir_dip = 1
-
-		clr_heir_flag = vu_heir_studying
-	}
-	option = {
-		name = "SF_Edumacation_Events.4.c"
-		highlight = yes
-		if = {
-			limit = { heir_has_personality = vu_uneducated_personality }
-			remove_heir_personality = vu_uneducated_personality
-			add_heir_personality = vu_literate_personality
-		}
-		else_if = {
-			limit = { heir_has_personality = vu_literate_personality }
-			remove_heir_personality = vu_literate_personality
-			add_heir_personality = vu_scholarly_personality
-		}
-		else_if = {
-			limit = { heir_has_personality = vu_scholarly_personality }
-			remove_heir_personality = vu_scholarly_personality
-			add_heir_personality = vu_bachelorette_personality
-		}
-		else_if = {
-			limit = { heir_has_personality = vu_bachelorette_personality }
-			remove_heir_personality = vu_bachelorette_personality
-			add_heir_personality = vu_masters_personality
-		}
-		else_if = {
-			limit = { heir_has_personality = vu_masters_personality }
-			remove_heir_personality = vu_masters_personality
-			add_heir_personality = vu_doctorate_personality
-		}
 		change_heir_mil = 1
 
 		clr_heir_flag = vu_heir_studying

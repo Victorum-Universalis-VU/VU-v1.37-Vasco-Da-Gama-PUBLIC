@@ -1,5 +1,5 @@
 #LRI - Luristan
-government = tribal
+government = monarchy
 add_government_reform = islamic_taifa_reform
 government_rank = 7 #Taifa
 primary_culture = luri
@@ -10,7 +10,7 @@ unit_type = muslim
 capital = 413 #Khorramabad
 religious_school = hanafi_school
 
-#History by SF
+#History by DM
 1413.1.1 = {
 	monarch = {
 		name = "Hussein"

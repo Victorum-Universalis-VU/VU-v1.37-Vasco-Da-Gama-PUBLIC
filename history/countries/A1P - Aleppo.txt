@@ -1,18 +1,21 @@
 #A1P - Aleppo
 government = monarchy
-add_government_reform = islamic_emirate_reform
+add_government_reform = unlocked_islamic_emirate_reform
 government_rank = 5
 primary_culture = al_suryah_arabic
 religion = sunni
 technology_group = muslim
 capital = 377 #Aleppo
 
-#1441.11.01 = {
-#	monarch = {
-#		name = "Regency"
-#		adm = 0
-#		dip = 0
-#		mil = 0
-#		regent = yes
-#	}
-#}
+#History by DM
+1438.6.8 = {
+    monarch = {
+        name = "Jaqmaq"
+        birth_date = 1372.1.1
+        dynasty = "Burji"
+        culture = circassian
+        adm = 2
+        dip = 2
+        mil = 3
+    }
+}

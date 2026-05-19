@@ -373,7 +373,7 @@ sub_saharan_lakes = {
 }
 
 west_african_coast_and_rivers_provinces = {
-    1465 1468 1469 5547 7302 7303 7304 7385 7386
+    1465 1468 1469 5547 7302 7303 7304 7377 7385 7386
 }
 
 #What East Africans can see
@@ -737,7 +737,7 @@ south_east_asia_provinces = {
     636 2704 2705 4804 4805 8560 8701 #brunei_area
     2380 4825 4826 8583 8591 8681 #cambodia_area
     620 2675 4816 #central_sumatra_area
-    600 2387 4830 4831 6680 6682 6936 6937 6938 6939 8556 #central_thai_area
+    600 2387 3408 3409 3410 3411 3412 3413 3414 3415 3416 3417 3418 3419 3420 3421 3422 3423 3424 3425 4830 4831 6680 6682 6936 6937 6938 6939 8556 #central_thai_area
     606 607 2374 4822 8652 8628 8653 #champa_area
     7395 #chao_praya_river_area
     597 4815 8649 #indonesian_islands_area

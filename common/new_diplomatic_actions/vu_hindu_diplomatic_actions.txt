@@ -8,6 +8,7 @@ vu_promote_vassal_to_brahma_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -16,7 +17,6 @@ vu_promote_vassal_to_brahma_prince = {
 				is_subject_of_type = vassal
 				is_subject_of_type = client_vassal
 			}
-			government = monarchy
 		}
 	}
 	is_allowed = {
@@ -41,6 +41,14 @@ vu_promote_vassal_to_brahma_prince = {
 			subject_type = vu_hindu_brahma_prince
 		}
 		FROM = {
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
 			set_dynasty = ROOT
 			change_religion = ROOT
 			add_government_reform = vu_hindu_principality_reform
@@ -62,6 +70,7 @@ vu_promote_vassal_to_vishnu_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -70,7 +79,6 @@ vu_promote_vassal_to_vishnu_prince = {
 				is_subject_of_type = vassal
 				is_subject_of_type = client_vassal
 			}
-			government = monarchy
 		}
 	}
 	is_allowed = {
@@ -95,6 +103,14 @@ vu_promote_vassal_to_vishnu_prince = {
 			subject_type = vu_hindu_vishnu_prince
 		}
 		FROM = {
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
 			set_dynasty = ROOT
 			change_religion = ROOT
 			add_government_reform = vu_hindu_principality_reform
@@ -116,6 +132,7 @@ vu_promote_vassal_to_shiva_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -124,7 +141,6 @@ vu_promote_vassal_to_shiva_prince = {
 				is_subject_of_type = vassal
 				is_subject_of_type = client_vassal
 			}
-			government = monarchy
 		}
 	}
 	is_allowed = {
@@ -149,6 +165,14 @@ vu_promote_vassal_to_shiva_prince = {
 			subject_type = vu_hindu_shiva_prince
 		}
 		FROM = {
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
 			set_dynasty = ROOT
 			change_religion = ROOT
 			add_government_reform = vu_hindu_principality_reform
@@ -170,6 +194,7 @@ vu_promote_vassal_to_saraswati_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -178,7 +203,6 @@ vu_promote_vassal_to_saraswati_prince = {
 				is_subject_of_type = vassal
 				is_subject_of_type = client_vassal
 			}
-			government = monarchy
 		}
 	}
 	is_allowed = {
@@ -203,6 +227,14 @@ vu_promote_vassal_to_saraswati_prince = {
 			subject_type = vu_hindu_saraswati_prince
 		}
 		FROM = {
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
 			set_dynasty = ROOT
 			change_religion = ROOT
 			add_government_reform = vu_hindu_principality_reform
@@ -224,6 +256,7 @@ vu_promote_vassal_to_lakshimi_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -232,7 +265,6 @@ vu_promote_vassal_to_lakshimi_prince = {
 				is_subject_of_type = vassal
 				is_subject_of_type = client_vassal
 			}
-			government = monarchy
 		}
 	}
 	is_allowed = {
@@ -257,6 +289,14 @@ vu_promote_vassal_to_lakshimi_prince = {
 			subject_type = vu_hindu_lakshimi_prince
 		}
 		FROM = {
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
 			set_dynasty = ROOT
 			change_religion = ROOT
 			add_government_reform = vu_hindu_principality_reform
@@ -278,6 +318,7 @@ vu_promote_vassal_to_parvarti_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -286,7 +327,6 @@ vu_promote_vassal_to_parvarti_prince = {
 				is_subject_of_type = vassal
 				is_subject_of_type = client_vassal
 			}
-			government = monarchy
 		}
 	}
 	is_allowed = {
@@ -311,6 +351,14 @@ vu_promote_vassal_to_parvarti_prince = {
 			subject_type = vu_hindu_parvarti_prince
 		}
 		FROM = {
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
 			set_dynasty = ROOT
 			change_religion = ROOT
 			add_government_reform = vu_hindu_principality_reform
@@ -332,10 +380,8 @@ vu_revert_hindu_principality_to_vassal = {
 	is_visible = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
-			is_emperor_of_china = yes
-			capital_scope = {
-				superregion = china_superregion
-			}
+			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT

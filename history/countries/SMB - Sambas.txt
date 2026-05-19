@@ -1,11 +1,13 @@
+#SMB - Sambas
 government = monarchy
-add_government_reform = plutocratic_reform
+add_government_reform = vu_nek_aristocracy_reform
 government_rank = 3 #Raja
 primary_culture = bornean
 technology_group = chinese
 religion = hinduism
 capital = 640
 
+#History by DM
 1444.1.1 = {
 	monarch = {
 		name = "Sepudak"
@@ -13,15 +15,5 @@ capital = 640
 		adm = 1
 		dip = 1
 		mil = 4
-	}
-}
-
-1480.1.1 = {
-	monarch = {
-		name = "Sintang"
-		adm = 3
-		dip = 3
-		mil = 3
-		regent = yes
 	}
 }

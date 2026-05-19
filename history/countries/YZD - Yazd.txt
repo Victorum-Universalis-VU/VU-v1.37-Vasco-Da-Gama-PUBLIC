@@ -1,7 +1,10 @@
+#YZD - Yazd
 government = monarchy
-add_government_reform = islamic_emirate_reform
+add_government_reform = unlocked_islamic_emirate_reform
 government_rank = 5 #Emirate
 primary_culture = persian
 religion = shiite
 technology_group = muslim
 capital = 433 # Kerman
+
+#History by DM

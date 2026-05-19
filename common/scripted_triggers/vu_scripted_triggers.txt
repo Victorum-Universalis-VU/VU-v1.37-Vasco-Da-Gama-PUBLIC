@@ -461,6 +461,8 @@ has_ToR_muslim_government_reform = {
 		has_reform = unlocked_islamic_emirate_reform
 		has_reform = islamic_sultanate_reform
 		has_reform = unlocked_islamic_sultanate_reform
+		has_reform = vu_melayu_islam_beraja_reform
+		has_reform = vu_unlocked_melayu_islam_beraja_reform
 		has_reform = islamic_taifa_reform
 		has_reform = unlocked_islamic_taifa_reform
 		has_reform = islamic_malikate_reform
@@ -567,6 +569,10 @@ is_asian_principality_subject_type = {
 	is_subject_of_type = vu_buddhist_bodhisattva_prince
 	is_subject_of_type = vu_buddhist_hinayana_prince
 	is_subject_of_type = vu_buddhist_sakya_prince
+}
+
+is_chinese_pacification_commission_subject_type = {
+    is_subject_of_type = vu_chinese_pacification_commission
 }
 
 #By Prussia

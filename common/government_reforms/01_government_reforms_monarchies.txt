@@ -13884,9 +13884,9 @@ selucian_kingdom_reform = {
     icon = "selucian_kingdom_reform"
     allow_normal_conversion = yes
     potential = {
-        NOT = {
-            has_country_flag = formed_selucian_kingdom_flag
-        }
+        #NOT = {
+        #    has_country_flag = formed_selucian_kingdom_flag
+        #}
         OR = {
             AND = {
                 capital_scope = {
@@ -13947,9 +13947,9 @@ selucian_satrapy_reform = {
     icon = "selucian_satrapy_reform"
     allow_normal_conversion = no
     potential = {
-        NOT = {
-            has_country_flag = formed_satrapy_flag
-        }
+        #NOT = {
+        #    has_country_flag = formed_satrapy_flag
+        #}
         overlord = {
             has_reform = shogunate
         }
@@ -16161,3 +16161,512 @@ self_governing_dominion_vu_government = {
         factor = 1		#Make sure this always gets picked if it gets de-selected by the ai for some reason - Prussia
     }
 }
+
+#New Gov Reforms for Indonesia and Borneo by DM & Prussia
+#Indonesia
+#Kingdom of Majapahit
+vu_majapahit_kingdom_reform = {
+    icon = "vu_majapahit_kingdom_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = javanese
+        OR = {
+            tag = MAJ
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    legacy_equivalent = despotic_monarchy
+    modifiers = {
+        heir_chance = 1
+        naval_morale = 0.15
+        liberty_desire = -0.20
+        global_missionary_strength = 0.02
+        global_trade_goods_size_modifier = 0.15
+    }
+    free_concentrate_development = yes
+}
+
+#Kingdom of Sunda.
+vu_sunda_kingdom_reform = {
+    icon = "vu_sunda_kingdom_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = sundanese
+        OR = {
+            tag = SUN
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    modifiers = {
+        heir_chance = 1
+        land_morale = 0.1
+        liberty_desire = -0.1
+        global_missionary_strength = 0.02
+        global_trade_goods_size_modifier = 0.1
+    }
+    free_concentrate_development = yes
+}
+
+#Borneo
+#Banjar Hindu-Buddhist "Mantri Sakai" absolutist system.
+vu_mantri_sakai_system_reform = {
+    icon = "vu_mantri_sakai_system_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = bornean
+        OR = {
+            tag = BNJ
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    modifiers = {
+        max_absolutism = 10
+        monarch_admin_power = 1
+    }
+    free_concentrate_development = yes
+}
+
+#Berau Banua Federation.
+vu_banua_federation_reform = {
+    icon = "vu_banua_federation_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = bornean
+        OR = {
+            tag = BEU
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    modifiers = {
+        num_accepted_cultures = 1
+        tolerance_heathen = 2
+        liberty_desire = 0.1
+    }
+    duration = 4
+}
+
+#Landak Kingdom absolutist system (Based on Mandala system).
+vu_landak_absolutism_reform = {
+    icon = "vu_landak_absolutism_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = bornean
+        OR = {
+            tag = LDA
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    modifiers = {
+        max_absolutism = 10
+        monarch_admin_power = 1
+        vassal_income = 0.10
+        vassal_forcelimit_bonus = 1
+    }
+    free_concentrate_development = yes
+}
+
+#Absolutist Malay Islamic Monarchy system.
+vu_melayu_islam_beraja_reform = {
+    #T6 - Duchy level
+    icon = "vu_melayu_islam_beraja_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    lock_level_when_selected = yes
+    fixed_rank = 6
+    maintain_dynasty = yes
+    potential = {
+        tag = BEI
+        OR = {
+            is_subject_of_type = islamic_sultanate
+            is_subject_of_type = islamic_nikkah_PU
+        }
+    }
+    queen = no
+    custom_attributes = {
+        vu_has_ToR_crowns = yes
+    }
+    modifiers = {
+        tolerance_heathen = -6
+        tolerance_own = 4
+        legitimacy = 1
+        monthly_piety = 0.1
+        warscore_cost_vs_other_religion = -0.25
+    }
+    government_abilities = {
+        iqta_mechanic
+    }
+}
+
+vu_unlocked_melayu_islam_beraja_reform = { #Absolutist Malay Islamic Monarchy
+    #T6 - Duchy level
+    icon = "vu_unlocked_melayu_islam_beraja_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        religion_group = muslim
+        tag = BEI
+        NOT = {
+            is_subject_of_type = islamic_sultanate
+            is_subject_of_type = islamic_nikkah_PU
+            government_rank = 7
+        }
+        government_rank = 6
+    }
+    queen = no
+    custom_attributes = {
+        vu_has_ToR_crowns = yes
+    }
+    modifiers = {
+        tolerance_heathen = -6
+        tolerance_own = 4
+        legitimacy = 1
+        monthly_piety = 0.1
+        warscore_cost_vs_other_religion = -0.25
+    }
+    government_abilities = {
+        iqta_mechanic
+    }
+    ai = {
+        factor = 100
+    }
+}
+
+#Twin Kingdom Structure.
+vu_dual_monarchy_islamic_confederation = {
+    icon = "vu_dual_monarchy_islamic_confederation"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = sulawesi
+        OR = {
+            tag = MKS
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    queen = no
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_heathen = 2
+        liberty_desire = 0.15
+        republican_tradition = 0.5
+        max_absolutism = -50
+    }
+    duration = 4
+}
+
+#Maharaja or "Great King" system.
+vu_divine_monarchy_reform = {
+    icon = "vu_divine_monarchy_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        OR = {
+            primary_culture = bornean
+            primary_culture = javanese
+        }
+        OR = {
+            tag = BLI
+            tag = KUT
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    queen = yes
+    modifiers = {
+        legitimacy = 0.25
+        global_autonomy = -0.025
+        yearly_absolutism = 0.1
+        max_absolutism = 10
+    }
+    free_concentrate_development = yes
+}
+
+#Hindu "Matriarchal Leadership" monarchy system.
+vu_matriarchal_leadership_reform = {
+    icon = "vu_matriarchal_leadership_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = bornean
+        OR = {
+            tag = SGG
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    modifiers = {
+        num_accepted_cultures = 1
+        tolerance_heathen = 2
+        liberty_desire = 0.1
+        diplomatic_upkeep = 1
+        diplomats = 1
+    }
+    free_concentrate_development = yes
+}
+
+#Sukadana "Migratory Capital" system.
+vu_migratory_capital_system_reform = {
+    icon = "vu_migratory_capital_system_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = bornean
+        OR = {
+            tag = SKD
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    modifiers = {
+        global_tax_modifier = 0.1
+        trade_efficiency = 0.1
+        production_efficiency = 0.1
+    }
+    free_concentrate_development = yes
+}
+
+#Samban "Despotic Tyranny" system.
+vu_nek_aristocracy_reform = {
+    icon = "vu_nek_aristocracy_reform"
+    allow_normal_conversion = no
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = bornean
+        OR = {
+            tag = SMB
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    modifiers = {
+        governing_capacity = 50
+        core_creation = -0.1
+        global_unrest = -1
+        diplomatic_upkeep = -1
+        global_institution_spread = -0.05
+    }
+    free_concentrate_development = yes
+}
+
+#Sintang Unified Law or "Constitutional Pact" system.
+vu_unified_law_reform = {
+    icon = "vu_unified_law_reform"
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = bornean
+        OR = {
+            tag = STG
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    modifiers = {
+        num_accepted_cultures = 1
+        tolerance_heathen = 2
+        liberty_desire = 0.1
+        diplomatic_upkeep = 1
+        diplomats = 1
+    }
+    free_concentrate_development = yes
+}
+
+#Ternate "Momole and Kolano" system.
+vu_momole_and_kolano_system_reform = {
+    icon = "vu_momole_and_kolano_system_reform" #Was vu_dual_monarchy_islamic_confederation
+    allow_normal_conversion = yes
+    valid_for_nation_designer = no
+    potential = {
+        primary_culture = moluccan
+        OR = {
+            tag = TER
+            tag = IDN
+        }
+        NOT = { religion = shinto }
+        NOT = { religion = confucianism }
+        OR = {
+            religion_group = eastern
+            religion_group = dharmic
+            religion_group = muslim
+            religion_group = buddhist_group
+            religion = animism
+            religion = surya_majapahit
+        }
+        technology_group = chinese
+        OR = {
+            has_dlc = "Leviathan"
+            has_dlc = "Dharma"
+        }
+    }
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_heathen = 2
+    }
+    duration = 4
+}
+

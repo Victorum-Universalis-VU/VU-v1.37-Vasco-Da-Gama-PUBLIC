@@ -1,8 +1,11 @@
+#RIA - Riau
 government = monarchy
-add_government_reform = islamic_sultanate_reform
+add_government_reform = unlocked_islamic_sultanate_reform
 government_rank = 6 #Sultanate
 primary_culture = malayan
 religion = sunni
 technology_group = chinese
 capital = 2686	# Bintan
 religious_school = jafari_school
+
+#History by DM

@@ -4987,6 +4987,8 @@ hindu_nayankara_monarchy = {
             has_reform = nayankara_reform
             has_reform = mandala_reform
             has_reform = basic_reformed_mandala_reform
+            has_reform = vu_sunda_kingdom_reform
+            has_reform = vu_majapahit_kingdom_reform
         }
         NOT = {
             has_reform = aryachakravarti_reform
@@ -5183,6 +5185,7 @@ malay_animist_monarchy = {
         }
     }
 }
+
 mongolian_vassal = {
     rank = {
         6 = HORDE

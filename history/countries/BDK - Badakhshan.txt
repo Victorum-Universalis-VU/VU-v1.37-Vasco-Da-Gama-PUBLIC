@@ -1,6 +1,6 @@
 #BDK - Badakhshan
 government = monarchy
-add_government_reform = islamic_emirate_reform
+add_government_reform = unlocked_islamic_emirate_reform
 government_rank = 5 #Emirate
 primary_culture = pamiri
 add_accepted_culture = tajik
@@ -10,7 +10,7 @@ unit_type = muslim
 capital = 452
 religious_school = hanafi_school
 
-#History by SF
+#History by DM
 1444.1.1 = {
 	monarch = {
 		name = "Muhammad"

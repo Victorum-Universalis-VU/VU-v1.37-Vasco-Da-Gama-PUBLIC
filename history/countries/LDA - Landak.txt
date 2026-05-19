@@ -1,11 +1,13 @@
+#LDA - Landak
 government = monarchy
-add_government_reform = plutocratic_reform
+add_government_reform = vu_landak_absolutism_reform
 government_rank = 3 #Raja
 primary_culture = bornean
 religion = hinduism
 technology_group = chinese
 capital = 8558 #Landak
 
+#History by DM
 1430.1.1 = {
 	monarch = {
 		name = "Ratu Sang Nata VII" #The seventh king in a row with the same name

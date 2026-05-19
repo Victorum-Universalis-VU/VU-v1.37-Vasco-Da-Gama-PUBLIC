@@ -848,7 +848,7 @@ turkish_tributary_beylik_vassal = {
     # Properties:
     can_fight_independence_war = yes
     can_be_annexed = yes
-    joins_overlords_wars = no
+    joins_overlords_wars = yes          #So that when Ottos declare war on GEN, BYZ can actually join in and gain. - DM
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     joins_colonial_wars = no

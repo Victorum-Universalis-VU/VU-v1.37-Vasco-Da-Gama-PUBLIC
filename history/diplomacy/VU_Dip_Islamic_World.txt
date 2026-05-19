@@ -24,6 +24,14 @@ vassal = {
 }
 
 dependency = {
+    subject_type = islamic_emirate
+    first = MAM
+    second = A1P
+    start_date = 1444.1.1
+    end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+}
+
+dependency = {
 	subject_type = islamic_sheikdom
 	first = MAM
 	second = BEJ

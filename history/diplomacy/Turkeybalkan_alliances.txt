@@ -121,13 +121,13 @@ dependency = {
 }
 
 #Since 1444 to 1461
-dependency = {
-    subject_type = turkish_tributary_beylik_vassal
-    first = TUR
-    second = EPI
-    start_date = 1417.1.1
-    end_date = 1479.1.1
-}
+#dependency = {
+#    subject_type = turkish_tributary_beylik_vassal
+#    first = TUR
+#    second = EPI
+#    start_date = 1417.1.1
+#    end_date = 1479.1.1
+#}
 
 ##############
 # Guarantees #

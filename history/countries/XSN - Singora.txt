@@ -1,7 +1,11 @@
+#XSN - Singora
 government = monarchy
-add_government_reform = islamic_sultanate_reform
+add_government_reform = unlocked_islamic_sultanate_reform
 government_rank = 6 #Sultanate
 primary_culture = malayan
 religion = shiite
 religious_school = jafari_school
 technology_group = chinese
+capital = 8577 #Songkhla
+
+#History by DM

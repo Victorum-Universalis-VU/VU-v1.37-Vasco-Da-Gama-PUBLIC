@@ -1,0 +1,19 @@
+#3420 - Nong_Bua_Lam_Phu
+
+#Default
+owner = LXA
+controller = LXA
+culture = lao
+religion = buddhism
+capital = "Nong Bua Lam Phu"
+trade_goods = livestock
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+#Claimants
+add_core = LXA
+add_core = CHK
+add_core = VIE

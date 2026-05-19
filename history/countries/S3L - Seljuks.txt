@@ -1,6 +1,6 @@
 #S3L - Seljuks
 government = monarchy
-add_government_reform = islamic_sultanate_reform
+add_government_reform = unlocked_islamic_sultanate_reform
 government_rank = 6
 primary_culture = uzbehk
 religion = sunni
@@ -9,6 +9,7 @@ unit_type = muslim
 capital = 457 #Tashkent
 add_army_professionalism = 0.05
 
+#History by DM
 #1441.11.01 = {
 #	monarch = {
 #		name = "Regency"

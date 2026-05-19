@@ -1,0 +1,30 @@
+#3423 - Phangnga
+
+owner = AYU
+controller = AYU
+add_core = AYU
+culture = central_thai
+religion = buddhism
+capital = "Phangnga"
+trade_goods = rice
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

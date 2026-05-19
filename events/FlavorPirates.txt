@@ -1000,6 +1000,11 @@ country_event = {
         }
         add_republican_tradition = 50
         swap_non_generic_missions = yes
+        add_casus_belli = {
+            target = PLB
+            type = cb_disloyal_marquisate
+            months = 24
+        }
     }
 
     option = {
