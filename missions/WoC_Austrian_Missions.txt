@@ -289,39 +289,39 @@ WoC_austria_1_holy_roman_empire = {
                     for = {
                         amount = 5
                         effect = "random_owned_province = {
-                            limit = {
-                                is_part_of_hre = yes
-                                development = 25
-                                num_of_buildings_in_province = 3
-                                NOT = {
-                                    has_province_modifier = hab_imperial_cities
-                                }
-                            }
-                            add_province_modifier = {
-                                name = hab_imperial_cities
-                                duration = -1
-                            }
-                            add_or_upgrade_production_building = yes
-                        }"
+limit = {
+is_part_of_hre = yes
+development = 25
+num_of_buildings_in_province = 3
+NOT = {
+has_province_modifier = hab_imperial_cities
+}
+}
+add_province_modifier = {
+name = hab_imperial_cities
+duration = -1
+}
+add_or_upgrade_production_building = yes
+}"
                     }
                 }
                 else = {
                     for = {
                         amount = 5
                         effect = "random_owned_province = {
-                            limit = {
-                                development = 25
-                                num_of_buildings_in_province = 3
-                                NOT = {
-                                    has_province_modifier = hab_imperial_cities
-                                }
-                            }
-                            add_province_modifier = {
-                                name = hab_imperial_cities
-                                duration = -1
-                            }
-                            add_or_upgrade_production_building = yes
-                        }"
+limit = {
+development = 25
+num_of_buildings_in_province = 3
+NOT = {
+has_province_modifier = hab_imperial_cities
+}
+}
+add_province_modifier = {
+name = hab_imperial_cities
+duration = -1
+}
+add_or_upgrade_production_building = yes
+}"
                     }
                 }
             }
@@ -459,20 +459,20 @@ WoC_austria_1_germany = {
                 for = {
                     amount = 5
                     effect = "random_owned_province = {
-                        limit = {
-                            region = south_german_region
-                            development = 20
-                            num_of_buildings_in_province = 3
-                            NOT = {
-                                has_province_modifier = hab_south_german_cities
-                            }
-                        }
-                        add_province_modifier = {
-                            name = hab_south_german_cities
-                            duration = -1
-                        }
-                        add_or_upgrade_tax_building = yes
-                    }"
+limit = {
+region = south_german_region
+development = 20
+num_of_buildings_in_province = 3
+NOT = {
+has_province_modifier = hab_south_german_cities
+}
+}
+add_province_modifier = {
+name = hab_south_german_cities
+duration = -1
+}
+add_or_upgrade_tax_building = yes
+}"
                 }
             }
         }
@@ -1639,21 +1639,21 @@ WoC_austria_2_germany = {
             }
             owns_core_province = 50			# Berlin
             owns_core_province = 57			# Brunswick
-            owns_core_province = 65			# Mï¿½nchen
+            owns_core_province = 65			# München
             OR = {
                 owns_core_province = 1868				# Augsburg
                 owns_core_province = 70				# Wurttemberg
             }
             OR = {
-                owns_core_province = 67				# Nï¿½rnberg
+                owns_core_province = 67				# Nürnberg
                 owns_core_province = 1876				# Frankfurt
             }
             OR = {
                 owns_core_province = 1762				# Niederhessen
-                owns_core_province = 85				# Kï¿½ln
+                owns_core_province = 85				# Köln
             }
             OR = {
-                owns_core_province = 41				# Kï¿½nigsberg
+                owns_core_province = 41				# Königsberg
                 owns_core_province = 75				# Strassburg
             }
             OR = {
@@ -1662,7 +1662,7 @@ WoC_austria_2_germany = {
             }
             OR = {
                 owns_core_province = 61				# Dresden
-                owns_core_province = 63				# Thï¿½ringen
+                owns_core_province = 63				# Thüringen
             }
             num_of_owned_provinces_with = {
                 is_core = ROOT
@@ -2808,21 +2808,20 @@ WoC_austria_3_1 = {
                 }"
                 second_custom_tooltip = HAB_IF_CONQUEST
                 second_limit = "NOT = {
-                    HUN = {
-                        is_subject_of = ROOT
-                    }
-                }
-                num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                    value = 11
-                    OR = {
-                        area = slovakia_area
-                        area = transdanubia_area
-                        area = alfold_area
-                        area = transylvania_area
-                        area = southern_transylvania_area
-                    }
-                }
-                "
+HUN = {
+is_subject_of = ROOT
+}
+}
+num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+value = 11
+OR = {
+area = slovakia_area
+area = transdanubia_area
+area = alfold_area
+area = transylvania_area
+area = southern_transylvania_area
+}
+}"
                 second_effect = "add_country_modifier = {
                     name = royal_hungary
                     duration = 7300
@@ -3910,25 +3909,24 @@ WoC_austria_5 = {
                 }
                 "
                 first_effect = "country_event_with_option_insight = {
-                    id = flavor_hab.25
-                    option_1 = \"
-                    add_country_modifier = {
-                        name = hab_dukes_of_burgundy_and_austria
-                        duration = 3650
-                    }
+id = flavor_hab.25
+option_1 = \"
+add_country_modifier = {
+name = hab_dukes_of_burgundy_and_austria
+duration = 3650
+}
 
-                    custom_tooltip = HAB_DISABLE_HORSE_KISSING
-                    \"
+custom_tooltip = HAB_DISABLE_HORSE_KISSING
+\"
 
-                    option_2 = \"
-                    add_adm_power = 100
-                    change_ruler_stat = {
-                        type = adm
-                        amount = 1
-                    }
-                    \"
-                }
-                "
+option_2 = \"
+add_adm_power = 100
+change_ruler_stat = {
+type = adm
+amount = 1
+}
+\"
+}"
                 second_custom_tooltip = HAB_IF_BURGUNDY_HRE
                 second_limit = "BUR = {
                     NOT = { junior_union_with = ROOT }
@@ -4198,20 +4196,19 @@ WoC_austria_5 = {
             complex_dynamic_effect = {
                 first_custom_tooltip = HAB_IF_WE_HAVE_IBERIAN_PU
                 first_limit = "OR = {
-                    AND = {
-                        senior_union_with = CAS
-                        NOT = {
-                            CAS = { is_subject_of_type = integrated_personal_union }
-                        }
-                    }
-                    AND = {
-                        senior_union_with = SPA
-                        NOT = {
-                            SPA = { is_subject_of_type = integrated_personal_union }
-                        }
-                    }
-                }
-                "
+AND = {
+senior_union_with = CAS
+NOT = {
+CAS = { is_subject_of_type = integrated_personal_union }
+}
+}
+AND = {
+senior_union_with = SPA
+NOT = {
+SPA = { is_subject_of_type = integrated_personal_union }
+}
+}
+}"
                 first_effect = "austria_iberian_hegemony_reward = yes
                 "
             }

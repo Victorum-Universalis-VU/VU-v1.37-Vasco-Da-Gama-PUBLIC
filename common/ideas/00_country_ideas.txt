@@ -1,5 +1,5 @@
 #VU 1.37.* update by SF
-#Key contributors to the file: SF, Prussia, Lukas, Altan, Yeti, Don      
+#Key contributors to the file: SF, Prussia, Lukas, Altan, Yeti, VU      
 
 STY_ideas = {
     start = {
@@ -1703,7 +1703,7 @@ DAL_ideas = {
 	}
 }
 
-#Originally modified by Don Brom but updated by San Felipe on advice by Actually Prussia. 6/03/2024
+#Originally modified Brom but updated by San Felipe on advice by Actually Prussia. 6/03/2024
 
 PRU_ideas = {
     start = {
@@ -2105,11 +2105,12 @@ CHI_ideas = {
 	free = yes		#will be added at load.
 	
 	nine_garrisons_of_the_great_wall = {
-		defensiveness = 0.05
+		defensiveness = 0.2
 		garrison_size = 0.25
 	}
 	revived_three_grand_divisions = {
 		discipline = 0.05
+		movement_speed = 0.2
 	}
 	inward_perfection = {
 		stability_cost_modifier = -0.10
@@ -3412,6 +3413,9 @@ PAL_ideas = {
 	
 	trigger = {
 		tag = PAL
+		NOT = {
+			has_country_flag = vu_palatinate_rename_meme
+		}
 	}
 	free = yes		#will be added at load.
 	
@@ -18232,47 +18236,6 @@ ZUL_ideas = {
 	}
 	zul_conquest_through_patronage = {
 		accept_vassalization_reasons = 10
-	}
-}
-
-FU2_ideas = {
-	start = {
-		trade_efficiency = 0.2
-		merchants = 1 
-	}
-	
-	bonus = {
-		trade_steering = 0.2 
-	}
-	
-	trigger = {
-		tag = HSA
-		has_country_flag = hsa_proclaimed_queen_of_the_hansa_flag
-	}
-	free = yes 
-	
-	FU2_foreign_kontors = {
-		global_trade_power = 0.15
-	}
-	FU2_the_handelsmarine = {
-		global_ship_trade_power = 0.25
-		global_ship_cost = -0.05
-	}
-	FU2_reform_queens_army = {
-		discipline = 0.05
-	}
-	FU2_adler_von_lubeck_legacy = {
-		heavy_ship_power = 0.1
-	}
-	FU2_merchants_with_state = {
-		global_trade_goods_size_modifier = 0.1
-		development_cost = -0.05
-	}
-	FU2_spread_the_northern_style = {
-		idea_cost = -0.1
-	}
-	regularised_contribution = {
-		global_prov_trade_power_modifier = 0.20
 	}
 }
 

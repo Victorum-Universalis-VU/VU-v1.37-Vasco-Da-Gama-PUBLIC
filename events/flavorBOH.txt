@@ -1250,7 +1250,7 @@ country_event = {
     }
 }
 
-#Don Brom events
+#VU Brom events
 #Lusatian situation event tree
 #BOH    flavor_boh.22 -BOH start of event tree,
 #BRA    flavor_boh.23 -BOH offers alliance for lower lusatia

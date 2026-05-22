@@ -1,4 +1,4 @@
-#All here by Don, for various reasons, explained in # comments
+#All here, for various reasons, explained in # comments
 vu_POW_on_battle_won_effect = {
 	#Runs on battle ended to update the POW mechanic
 	# root = winning country, from = loser country

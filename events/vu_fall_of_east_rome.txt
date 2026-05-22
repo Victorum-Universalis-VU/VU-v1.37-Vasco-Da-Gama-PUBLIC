@@ -873,10 +873,78 @@ country_event = { # Constantine XI reaction
 			add_dip_power = 20
 			add_mil_power = 20
 		}
-		TUR = {
-			create_subject = {
-				subject_type = tributary_state
-				subject = BYZ
+		# Restore the tribute obligation rather than making BYZ a formal subject
+		if = {
+			limit = {
+				NOT = { has_country_modifier = the_ottoman_tribute }
+			}
+			add_country_modifier = {
+				name = the_ottoman_tribute
+				duration = -1
+			}
+		}
+	}
+}
+# The Fate of the Ecumenical Patriarchate
+# Fires for TUR after taking Constantinople. Sultan decides whether to keep or suppress the Greek Orthodox Patriarchate.
+# Sets br_tur_kept_patriarchate if kept, which enables the ecumenical_patriarch_modifier_muslim province triggered modifier.
+country_event = {
+	id = vu_fall_of_rome.14
+	title = vu_fall_of_rome.14.t
+	desc = vu_fall_of_rome.14.d
+	picture = RELIGIOUS_WARS_eventPicture
+
+	fire_only_once = yes
+
+	goto = 151
+
+	trigger = {
+		tag = TUR
+		owns_core_province = 151
+		religion_group = muslim
+		NOT = { war_with = BYZ }
+		NOT = { has_country_flag = br_tur_decided_patriarchate }
+		# Fires after vu_fall_of_rome.8 has resolved
+		has_global_flag = TUR_captured_constantinople
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	# Keep the Patriarchate - historical choice of Mehmed II
+	option = {
+		name = vu_fall_of_rome.14.a
+		ai_chance = { factor = 70 }
+		set_country_flag = br_tur_kept_patriarchate
+		set_country_flag = br_tur_decided_patriarchate
+		add_prestige = 5
+		add_dip_power = 15
+		hidden_effect = {
+			every_known_country = {
+				limit = { religion = orthodox }
+				reverse_add_opinion = {
+					who = ROOT
+					modifier = vu_kept_the_patriarchate
+				}
+			}
+		}
+	}
+
+	# Suppress the Patriarchate
+	option = {
+		name = vu_fall_of_rome.14.b
+		ai_chance = { factor = 30 }
+		set_country_flag = br_tur_decided_patriarchate
+		add_prestige = 10
+		add_legitimacy = 10
+		hidden_effect = {
+			every_known_country = {
+				limit = { religion = orthodox }
+				reverse_add_opinion = {
+					who = ROOT
+					modifier = vu_suppressed_the_patriarchate
+				}
 			}
 		}
 	}

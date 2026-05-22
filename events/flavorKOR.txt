@@ -625,7 +625,7 @@ country_event = {
 			trait = ironside_personality
 		}
 	}
-	option = { # Don't intervene in the trial
+	option = { # VU't intervene in the trial
 		name = flavor_kor.6.d
 		ai_chance = {
 			factor = 10

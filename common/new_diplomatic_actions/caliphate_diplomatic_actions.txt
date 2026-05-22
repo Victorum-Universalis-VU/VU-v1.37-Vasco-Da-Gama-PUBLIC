@@ -716,7 +716,7 @@ abbasid_ransom = {
 			}
 		}
 		add_entry = {
-			#Ignore thise false flag errors, I've fixed up everything there is to fix - Don
+			#Ignore thise false flag errors, I've fixed up everything there is to fix - VU
 			name = ME_DOESNT_HAVE_ENOUGH_IN_BANK
 			export_to_variable = {
 				variable_name = ai_value

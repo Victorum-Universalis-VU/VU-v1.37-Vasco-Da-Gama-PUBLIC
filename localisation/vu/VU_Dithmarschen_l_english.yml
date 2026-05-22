@@ -1,9 +1,5 @@
 ﻿l_english:
  
- #Made for Flavor Universalis by Big Boss#
- #Quonton - BLEH I HATE THAT THIS IS BETTER THEN THE CURRENT FUCKING MISSIONS FUCKKKK
- #|Missions made by Big Boss for Flavor Universalis|#
- 
  dtt_otterndorf_strife_title: "Otterndorf Strife"
  dtt_otterndorf_strife_desc: "Our relations with the neighboring city of Hamburg have always stood on unsteady ground. Recent provocations in our border are enough of a reason for us to invade and liberate their people!"
  dtt_bishop_needle_title: "The Bishop's Needle"
@@ -50,7 +46,7 @@
  
  
  
- #|Custom Tooltips made by Big Boss for Flavor Universalis|#
+ #Custom Tooltips
  dtt_if_44_owned_by_subject_tt: "If [44.GetName] is owned by a subject:" 
  dtt_as_long_as_subject_desc: "as long as they remain a subject"
  dtt_else_tt: "\nElse:"
@@ -73,8 +69,7 @@
  dtt_alliance_option: "\nIf we complete the mission via alliance:"
  dtt_capture_of_the_danish_coat_of_arms_tt: "\nThe capture of the §YDanish Golden Coat of Arms§! will severely weaken the grip of the Danish king on his subjects"
  dtt_peasants_war_outcome_tt: "Fighting this war will guarantee a victory in the current '§YGreat Peasants War§!' Imperial Incident"
- #|Modifiers made by Big Boss for Flavor Universalis|#
- #Quonton - BLEH I HATE THAT THIS IS BETTER THEN THE CURRENT FUCKING MISSIONS FUCKKKK
+ #Modifiers
 
  dtt_liberation_hamburg_modifier: "Liberation of Hamburg"
  desc_dtt_liberation_hamburg_modifier: ""
@@ -139,8 +134,7 @@
  
  
  
- #|Events made by Big Boss for Flavor Universalis|#
- # - He's a Jew
+ #Events
  VU_Dith_Events.1.t: "City of Bremen"
  VU_Dith_Events.1.d: "The grand city of Bremen has been standing in the Weser area for centuries. Despite its glory and natural wealth, the recent mismanagement and decay displayed by its Archbishop have left the city stranded, yearning to taste the old glories of its better days. After adding the city and its inhabitants to our domain, it is our duty to ensure the city thrives once more!"
  VU_Dith_Events.1.a: "Construct the Weigh House!"
@@ -161,8 +155,7 @@
  VU_Dith_Events.5.b: "No,milk comes first and aplenty!"
  VU_Dith_Events.5.c: "Whatever the order, we are one people!"
   
- #|New CB and Peace Deal Loc made by Big Boss for Flavor Universalis|#
- # I can say that because I am a jew - Q
+ #CB and Peace Deal Loc
  LIBERATE_THE_PEOPLE_WAR_NAME: "War to Liberate the People"
  ALL_MONARCHIES: "All Minority Oppressive Governments"
  superiority_dithmarschen_break_chains_desc: "It is time we liberate all people under feudal and oppresive rule!"

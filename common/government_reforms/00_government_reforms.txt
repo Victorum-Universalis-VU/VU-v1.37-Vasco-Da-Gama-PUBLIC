@@ -3435,7 +3435,7 @@ feudal_tribe_legacy = {
 
 #End of VU addition by San Felipe
 
-#VU additions by DonBrom
+#VU additions by Darth Modus & Prussia
 
 #Theban gov reform
 #theban_league_legacy = {

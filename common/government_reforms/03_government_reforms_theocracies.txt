@@ -1,5 +1,5 @@
 #VU update for Marco Polo v1.37 by SF
-#Contributors: Don Brom and SF
+#Contributors: VU and SF
 theocracy_mechanic = {
     has_devotion = yes
     rulers_can_be_generals = no

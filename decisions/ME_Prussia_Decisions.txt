@@ -381,21 +381,21 @@ country_decisions = {
 			is_emperor = no
 			owns_or_non_sovereign_subject_of = 50	# Berlin
 			owns_or_non_sovereign_subject_of = 57	# Brunswick
-			owns_or_non_sovereign_subject_of = 65	# Mï¿½nchen
+			owns_or_non_sovereign_subject_of = 65	# München
 			OR = {
 				owns_or_non_sovereign_subject_of = 1868 # Augsburg
 				owns_or_non_sovereign_subject_of = 70 # Wurttemberg
 			}
 			OR = {
-				owns_or_non_sovereign_subject_of = 67	# Nï¿½rnberg
+				owns_or_non_sovereign_subject_of = 67	# Nürnberg
 				owns_or_non_sovereign_subject_of = 1876 # Frankfurt
 			}
 			OR = {
 				owns_or_non_sovereign_subject_of = 1762 # Niederhessen
-				owns_or_non_sovereign_subject_of = 85	# Kï¿½ln
+				owns_or_non_sovereign_subject_of = 85	# Köln
 			}
 			OR = {
-				owns_or_non_sovereign_subject_of = 41	# Kï¿½nigsberg
+				owns_or_non_sovereign_subject_of = 41	# Königsberg
 				owns_or_non_sovereign_subject_of = 75	# Strassburg
 			}
 			OR = {
@@ -404,7 +404,7 @@ country_decisions = {
 			}
 			OR = {
 				owns_or_non_sovereign_subject_of = 61	# Dresden
-				owns_or_non_sovereign_subject_of = 63	# Thï¿½ringen
+				owns_or_non_sovereign_subject_of = 63	# Thüringen
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				OR = {

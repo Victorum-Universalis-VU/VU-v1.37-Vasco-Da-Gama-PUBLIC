@@ -27,7 +27,7 @@
 # It will still check whether it can afford a building before doing so though, but may save up to it.
 #
 ############################################################
-# All of AI has been re-done by DonBrom for the VU project #
+# All of AI has been re-done by VU for the VU project #
 ############################################################
 #
 ################################################
@@ -39,7 +39,7 @@ workshop = {
 	#Returned price to 100 due to the production efficiency increase.
 	modifier = {
 		local_production_efficiency = 0.5
-		trade_goods_size = 0.1		#Don
+		trade_goods_size = 0.1		#VU
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.1
 		local_core_creation = 0.025
@@ -60,31 +60,31 @@ workshop = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -98,7 +98,7 @@ counting_house = {
 	make_obsolete = workshop
 	modifier = {
 		local_production_efficiency = 1
-		trade_goods_size = 0.2		#Don
+		trade_goods_size = 0.2		#VU
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.15
 		local_core_creation = 0.03
@@ -119,31 +119,31 @@ counting_house = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -156,7 +156,7 @@ factory = {
 	make_obsolete = counting_house
 	modifier = {
 		local_production_efficiency = 1.5
-		trade_goods_size = 0.3		#Don
+		trade_goods_size = 0.3		#VU
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.2
 		local_core_creation = 0.05
@@ -216,31 +216,31 @@ factory = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -253,7 +253,7 @@ marketplace = {
 	time = 12
 	modifier = {
 		province_trade_power_modifier = 0.5
-		trade_value = 0.25		#Don
+		trade_value = 0.25		#VU
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.1
 		local_core_creation = 0.05
@@ -283,31 +283,31 @@ marketplace = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		#############################
 		## Trade buildings specific #
@@ -315,7 +315,7 @@ marketplace = {
 		#Build in trade related provinces...
 		modifier = {
 			factor = 5
-			vu_don_economy_ai_trade_in = yes
+			vu_economy_ai_trade_in = yes
 		}
 	}
 }
@@ -329,7 +329,7 @@ trade_depot = {
 	make_obsolete = marketplace
 	modifier = {
 		province_trade_power_modifier = 1
-		trade_value = 0.35		#Don
+		trade_value = 0.35		#VU
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.15
 		local_core_creation = 0.03
@@ -353,31 +353,31 @@ trade_depot = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		#############################
 		## Trade buildings specific #
@@ -385,7 +385,7 @@ trade_depot = {
 		#Build in trade related provinces...
 		modifier = {
 			factor = 5
-			vu_don_economy_ai_trade_in = yes
+			vu_economy_ai_trade_in = yes
 		}
 	}
 }
@@ -397,7 +397,7 @@ corporative_headquarters = {
 	make_obsolete = trade_depot
 	modifier = {
 		province_trade_power_modifier = 1.5
-		trade_value = 0.5		#Don
+		trade_value = 0.5		#VU
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.2
 		local_core_creation = 0.05
@@ -421,31 +421,31 @@ corporative_headquarters = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		#############################
 		## Trade buildings specific #
@@ -453,7 +453,7 @@ corporative_headquarters = {
 		#Build in trade related provinces...
 		modifier = {
 			factor = 5
-			vu_don_economy_ai_trade_in = yes
+			vu_economy_ai_trade_in = yes
 		}
 	}
 }
@@ -466,7 +466,7 @@ barracks = {
 	time = 12
 	modifier = {
 		local_manpower_modifier = 0.25
-		local_manpower = 0.5		#Don
+		local_manpower = 0.5		#VU
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.1
 		local_core_creation = 0.025
@@ -475,8 +475,6 @@ barracks = {
 		global_tax_income = -0.6
 	}
 	on_built = {
-		#VU 3.0
-		add_base_manpower = 1
 		if = {
 			limit = {
 				FROM = {
@@ -503,8 +501,6 @@ barracks = {
 		}
 	}
 	on_destroyed = {
-		#VU 3.0
-		add_base_manpower = -1
 		if = {
 			limit = {
 				FROM = {
@@ -531,35 +527,36 @@ barracks = {
 		}
 	}
 	on_obsolete = {
+		#VU - add_base_manpower removed from on_built/on_destroyed. Permanent province manpower inflation from building military structures was compounding force limits far too aggressively over time. The manpower_modifier on the building itself provides the recruitment bonus without permanently inflating base stats.
 	}
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		######################
 		## Manpower Specific #
@@ -567,12 +564,12 @@ barracks = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_manpower_when = yes
+				vu_economy_ai_manpower_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_manpower_in = yes
+			vu_economy_ai_manpower_in = yes
 		}
 	}
 }
@@ -585,8 +582,8 @@ training_fields = {
 	#VU AddOn time changed from 12. Doubling second level military buildings build time.
 	make_obsolete = barracks
 	modifier = {
-		local_manpower_modifier = 1
-		local_manpower = 0.5		#Don
+		local_manpower_modifier = 0.5	#VU reduced from 1.0 - combined with barracks (+0.25) this was generating too much manpower at scale
+		local_manpower = 0.5		#VU
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.2
 		local_core_creation = 0.05
@@ -595,8 +592,6 @@ training_fields = {
 		global_tax_income = -1.2
 	}
 	on_built = {
-		#VU 3.0
-		add_base_manpower = 2
 		if = {
 			limit = {
 				FROM = {
@@ -623,8 +618,6 @@ training_fields = {
 		}
 	}
 	on_destroyed = {
-		#VU 3.0
-		add_base_manpower = -2
 		if = {
 			limit = {
 				FROM = {
@@ -655,31 +648,31 @@ training_fields = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		######################
 		## Manpower Specific #
@@ -687,12 +680,12 @@ training_fields = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_manpower_when = yes
+				vu_economy_ai_manpower_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_manpower_in = yes
+			vu_economy_ai_manpower_in = yes
 		}
 	}
 }
@@ -702,7 +695,7 @@ regimental_camp = {
 	cost = 125	#VU - Decreased from 200 to 150 in v1.36.2.* by San Felipe
 	time = 12
 	modifier = {
-		land_forcelimit = 0.15 #Decreased this from 0.5 to 0.1 (to prevent tags earlier on from having huge armies) but we'll need to monitor this - DM
+		land_forcelimit = 0.10 #Reduced further from 0.15 (from original 0.5) - VU's province count inflates building-based FL across many provinces. DM/VU
 		regiment_recruit_speed = -0.15
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.1
@@ -712,8 +705,6 @@ regimental_camp = {
 		global_tax_income = -0.6
 	}
 	on_built = {
-		#VU 3.0
-		add_base_manpower = 1
 		update_improved_military_buildings_modifier = {
 			building = regimental_camp
 		}
@@ -730,8 +721,6 @@ regimental_camp = {
 		}
 	}
 	on_destroyed = {
-		#VU 3.0
-		add_base_manpower = -1
 		update_improved_military_buildings_modifier = {
 			building = regimental_camp
 		}
@@ -752,31 +741,31 @@ regimental_camp = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		########################
 		## Forcelimit Specific #
@@ -784,12 +773,12 @@ regimental_camp = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_forcelimit_when = yes
+				vu_economy_ai_forcelimit_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_forcelimit_in = yes
+			vu_economy_ai_forcelimit_in = yes
 		}
 	}
 }
@@ -800,7 +789,7 @@ conscription_center = {
 	time = 24
 	make_obsolete = regimental_camp
 	modifier = {
-		land_forcelimit = 0.3 #Decreased this from 1 to 0.2 (to prevent tags earlier on from having huge armies) but we'll need to monitor this - DM
+		land_forcelimit = 0.20 #Reduced further from 0.3 (from original 1.0) - VU's province count inflates building-based FL across many provinces. DM/VU
 		regiment_recruit_speed = -0.25
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.2
@@ -811,8 +800,6 @@ conscription_center = {
 	}
 	#THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
-		#VU 3.0
-		add_base_manpower = 2
 		update_improved_military_buildings_modifier = {
 			building = conscription_center
 		}
@@ -829,8 +816,6 @@ conscription_center = {
 		}
 	}
 	on_destroyed = {
-		#VU 3.0
-		add_base_manpower = -2
 		update_improved_military_buildings_modifier = {
 			building = conscription_center
 		}
@@ -851,31 +836,31 @@ conscription_center = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		########################
 		## Forcelimit Specific #
@@ -883,12 +868,12 @@ conscription_center = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_forcelimit_when = yes
+				vu_economy_ai_forcelimit_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_forcelimit_in = yes
+			vu_economy_ai_forcelimit_in = yes
 		}
 	}
 }
@@ -902,7 +887,7 @@ shipyard = {
 	#VU AddOn notes - leaving cost here despite lowering most others. Dramtically improving naval capabilities was a bit overpowered, in my opinion.
 	#Especially compared to the regimental camp with half effect at double the price.
 	modifier = {
-		naval_forcelimit = 0.15
+		naval_forcelimit = 0.10	#VU reduced from 0.15 (from original 1.0) - same reasoning as army buildings; VU's port province count inflates aggregate naval FL
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
 		local_has_man_of_war = yes
@@ -936,31 +921,31 @@ shipyard = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		##############################
 		## Naval Forcelimit Specific #
@@ -968,12 +953,12 @@ shipyard = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_naval_forcelimit_when = yes
+				vu_economy_ai_naval_forcelimit_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_naval_forcelimit_in = yes
+			vu_economy_ai_naval_forcelimit_in = yes
 		}
 	}
 }
@@ -987,7 +972,7 @@ grand_shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 0.3 #Decreased from 1 to 0.3 by DM
+		naval_forcelimit = 0.20	#VU reduced from 0.3 (from original 1.0) - same reasoning as army buildings; VU's port province count inflates aggregate naval FL
 		ship_recruit_speed = -0.5
 		local_ship_repair = 0.5
 		local_has_man_of_war = yes
@@ -1018,31 +1003,31 @@ grand_shipyard = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		##############################
 		## Naval Forcelimit Specific #
@@ -1050,12 +1035,12 @@ grand_shipyard = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_naval_forcelimit_when = yes
+				vu_economy_ai_naval_forcelimit_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_naval_forcelimit_in = yes
+			vu_economy_ai_naval_forcelimit_in = yes
 		}
 	}
 }
@@ -1113,31 +1098,31 @@ dock = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		####################
 		## Sailor Specific #
@@ -1145,12 +1130,12 @@ dock = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_sailors_when = yes
+				vu_economy_ai_sailors_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_sailors_in = yes
+			vu_economy_ai_sailors_in = yes
 		}
 	}
 }
@@ -1209,31 +1194,31 @@ drydock = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		####################
 		## Sailor Specific #
@@ -1241,12 +1226,12 @@ drydock = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_sailors_when = yes
+				vu_economy_ai_sailors_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_sailors_in = yes
+			vu_economy_ai_sailors_in = yes
 		}
 	}
 }
@@ -1296,31 +1281,31 @@ courthouse = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Government buildings have a different never do when...
 				FROM = {
-					vu_don_economy_ai_government_never_do_when = yes
+					vu_economy_ai_government_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		########################
 		## Government Specific #
@@ -1328,7 +1313,7 @@ courthouse = {
 		modifier = {
 			factor = 5
 			FROM = {
-				vu_don_economy_ai_government_when = yes
+				vu_economy_ai_government_when = yes
 			}
 		}
 	}
@@ -1368,31 +1353,31 @@ hall = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Government buildings have a different never do when...
 				FROM = {
-					vu_don_economy_ai_government_never_do_when = yes
+					vu_economy_ai_government_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		########################
 		## Government Specific #
@@ -1400,7 +1385,7 @@ hall = {
 		modifier = {
 			factor = 5
 			FROM = {
-				vu_don_economy_ai_government_when = yes
+				vu_economy_ai_government_when = yes
 			}
 		}
 	}
@@ -1467,31 +1452,31 @@ town_hall = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Government buildings have a different never do when...
 				FROM = {
-					vu_don_economy_ai_government_never_do_when = yes
+					vu_economy_ai_government_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		########################
 		## Government Specific #
@@ -1499,7 +1484,7 @@ town_hall = {
 		modifier = {
 			factor = 5
 			FROM = {
-				vu_don_economy_ai_government_when = yes
+				vu_economy_ai_government_when = yes
 			}
 		}
 	}
@@ -1559,31 +1544,31 @@ city_hall = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Government buildings have a different never do when...
 				FROM = {
-					vu_don_economy_ai_government_never_do_when = yes
+					vu_economy_ai_government_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		########################
 		## Government Specific #
@@ -1591,7 +1576,7 @@ city_hall = {
 		modifier = {
 			factor = 5
 			FROM = {
-				vu_don_economy_ai_government_when = yes
+				vu_economy_ai_government_when = yes
 			}
 		}
 	}
@@ -1624,31 +1609,31 @@ library = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Government buildings have a different never do when...
 				FROM = {
-					vu_don_economy_ai_government_never_do_when = yes
+					vu_economy_ai_government_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		########################
 		## Government Specific #
@@ -1656,7 +1641,7 @@ library = {
 		modifier = {
 			factor = 5
 			FROM = {
-				vu_don_economy_ai_government_when = yes
+				vu_economy_ai_government_when = yes
 			}
 		}
 		#######################
@@ -1665,12 +1650,12 @@ library = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_education_when = yes
+				vu_economy_ai_education_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_education_in = yes
+			vu_economy_ai_education_in = yes
 		}
 	}
 }
@@ -1703,31 +1688,31 @@ school = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Government buildings have a different never do when...
 				FROM = {
-					vu_don_economy_ai_government_never_do_when = yes
+					vu_economy_ai_government_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		########################
 		## Government Specific #
@@ -1735,7 +1720,7 @@ school = {
 		modifier = {
 			factor = 5
 			FROM = {
-				vu_don_economy_ai_government_when = yes
+				vu_economy_ai_government_when = yes
 			}
 		}
 		#######################
@@ -1744,12 +1729,12 @@ school = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_education_when = yes
+				vu_economy_ai_education_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_education_in = yes
+			vu_economy_ai_education_in = yes
 		}
 	}
 }
@@ -1782,31 +1767,31 @@ university = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Government buildings have a different never do when...
 				FROM = {
-					vu_don_economy_ai_government_never_do_when = yes
+					vu_economy_ai_government_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		########################
 		## Government Specific #
@@ -1814,7 +1799,7 @@ university = {
 		modifier = {
 			factor = 5
 			FROM = {
-				vu_don_economy_ai_government_when = yes
+				vu_economy_ai_government_when = yes
 			}
 		}
 		#######################
@@ -1823,12 +1808,12 @@ university = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_education_when = yes
+				vu_economy_ai_education_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_education_in = yes
+			vu_economy_ai_education_in = yes
 		}
 	}
 }
@@ -2003,31 +1988,31 @@ temple = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		####################
 		## Church Specific #
@@ -2035,12 +2020,12 @@ temple = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_church_when = yes
+				vu_economy_ai_church_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_church_in = yes
+			vu_economy_ai_church_in = yes
 		}
 	}
 }
@@ -2197,31 +2182,31 @@ cathedral = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		####################
 		## Church Specific #
@@ -2229,12 +2214,12 @@ cathedral = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_church_when = yes
+				vu_economy_ai_church_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_church_in = yes
+			vu_economy_ai_church_in = yes
 		}
 	}
 }
@@ -2309,31 +2294,31 @@ grand_cathedral = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		####################
 		## Church Specific #
@@ -2341,12 +2326,12 @@ grand_cathedral = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_church_when = yes
+				vu_economy_ai_church_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_church_in = yes
+			vu_economy_ai_church_in = yes
 		}
 	}
 }
@@ -2382,31 +2367,31 @@ road_system = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -2417,7 +2402,7 @@ canal_system = {
 	time = 8
 	make_obsolete = road_system
 	modifier = {
-		local_friendly_movement_speed = 0.2		#all changed by Don
+		local_friendly_movement_speed = 0.2		#all changed
 		trade_value_modifier = 0.1		#Removed trade value, replaced with modifier
 		allowed_num_of_buildings = 3
 		#VU 2.0 Buffs
@@ -2461,31 +2446,31 @@ canal_system = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -2500,7 +2485,7 @@ railway_system = {
 	#Removed the DLC requirements so those that don't have them can still have railways.
 	#Change the building triggers to favour terrain restrictions instead of coal production, railway adjacency or rail boom.
 	modifier = {
-		local_friendly_movement_speed = 0.3		#all changed by Don
+		local_friendly_movement_speed = 0.3		#all changed
 		trade_value_modifier = 0.2		#Removed trade value, replaced with modifier
 		allowed_num_of_buildings = 4
 		#VU 2.0 Buffs
@@ -2531,31 +2516,31 @@ railway_system = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -2856,34 +2841,34 @@ fort_15th = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
-				vu_don_economy_ai_fortress_never_in = yes
+				vu_economy_ai_never_build_in = yes
+				vu_economy_ai_fortress_never_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
 			OR = {
-				vu_don_economy_ai_fortress_avoid_in = yes
-				vu_don_economy_ai_avoid_building_in = yes
+				vu_economy_ai_fortress_avoid_in = yes
+				vu_economy_ai_avoid_building_in = yes
 			}
 		}
 	}
@@ -2979,34 +2964,34 @@ fort_16th = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
-				vu_don_economy_ai_fortress_never_in = yes
+				vu_economy_ai_never_build_in = yes
+				vu_economy_ai_fortress_never_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
 			OR = {
-				vu_don_economy_ai_fortress_avoid_in = yes
-				vu_don_economy_ai_avoid_building_in = yes
+				vu_economy_ai_fortress_avoid_in = yes
+				vu_economy_ai_avoid_building_in = yes
 			}
 		}
 	}
@@ -3102,34 +3087,34 @@ fort_17th = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
-				vu_don_economy_ai_fortress_never_in = yes
+				vu_economy_ai_never_build_in = yes
+				vu_economy_ai_fortress_never_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
 			OR = {
-				vu_don_economy_ai_fortress_avoid_in = yes
-				vu_don_economy_ai_avoid_building_in = yes
+				vu_economy_ai_fortress_avoid_in = yes
+				vu_economy_ai_avoid_building_in = yes
 			}
 		}
 	}
@@ -3224,34 +3209,34 @@ fort_18th = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
-				vu_don_economy_ai_fortress_never_in = yes
+				vu_economy_ai_never_build_in = yes
+				vu_economy_ai_fortress_never_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
 			OR = {
-				vu_don_economy_ai_fortress_avoid_in = yes
-				vu_don_economy_ai_avoid_building_in = yes
+				vu_economy_ai_fortress_avoid_in = yes
+				vu_economy_ai_avoid_building_in = yes
 			}
 		}
 	}
@@ -3327,31 +3312,31 @@ wharf = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -3418,31 +3403,31 @@ weapons = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -3507,31 +3492,31 @@ textile = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -3612,31 +3597,31 @@ plantations = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -3745,31 +3730,31 @@ tradecompany = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -3886,31 +3871,31 @@ farm_estate = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -3990,31 +3975,31 @@ mills = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -4057,31 +4042,31 @@ furnace = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }
@@ -4178,31 +4163,31 @@ soldier_households = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		######################
 		## Manpower Specific #
@@ -4210,12 +4195,12 @@ soldier_households = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_manpower_when = yes
+				vu_economy_ai_manpower_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_manpower_in = yes
+			vu_economy_ai_manpower_in = yes
 		}
 	}
 }
@@ -4276,34 +4261,34 @@ ramparts = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
-				vu_don_economy_ai_fortress_never_in = yes
+				vu_economy_ai_never_build_in = yes
+				vu_economy_ai_fortress_never_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
 			OR = {
-				vu_don_economy_ai_fortress_avoid_in = yes
-				vu_don_economy_ai_avoid_building_in = yes
+				vu_economy_ai_fortress_avoid_in = yes
+				vu_economy_ai_avoid_building_in = yes
 			}
 		}
 	}
@@ -4371,31 +4356,31 @@ impressment_offices = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		####################
 		## Sailor Specific #
@@ -4403,12 +4388,12 @@ impressment_offices = {
 		modifier = {
 			factor = 2
 			FROM = {
-				vu_don_economy_ai_sailors_when = yes
+				vu_economy_ai_sailors_when = yes
 			}
 		}
 		modifier = {
 			factor = 2
-			vu_don_economy_ai_sailors_in = yes
+			vu_economy_ai_sailors_in = yes
 		}
 	}
 }
@@ -4498,31 +4483,31 @@ state_house = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 		########################
 		## Government Specific #
@@ -4530,7 +4515,7 @@ state_house = {
 		modifier = {
 			factor = 5
 			FROM = {
-				vu_don_economy_ai_government_when = yes
+				vu_economy_ai_government_when = yes
 			}
 		}
 	}
@@ -4549,7 +4534,7 @@ oil_well = {
 	modifier = {
 		trade_goods_size = 0.4		#VU Addon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.
 		trade_goods_size_modifier = 0.25		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
-		#monthly_splendor = 0.25		#VU AddOn new - Just a fun little new bonus #NO -Don
+		#monthly_splendor = 0.25		#VU AddOn new - Just a fun little new bonus #NO
 		#VU 3.0 Manufactory
 		local_governing_cost_increase = 10
 	}
@@ -4558,31 +4543,31 @@ oil_well = {
 	ai_will_do = {
 		factor = 1
 		################################
-		## Don's New Super-Economy AI ##
+		## VU Economy AI ##
 		################################
 		modifier = {
 			factor = 0
 			OR = {
 				#Never do when...
 				FROM = {
-					vu_don_economy_ai_never_do_when = yes
+					vu_economy_ai_never_do_when = yes
 				}
 				#Never build in...
-				vu_don_economy_ai_never_build_in = yes
+				vu_economy_ai_never_build_in = yes
 			}
 		}
-		#Don note - both Avoids are separate, as they are supposed to stack...
+		#Note: both Avoids are separate, as they are supposed to stack...
 		#Avoid doing when...
 		modifier = {
 			factor = 0.25
 			FROM = {
-				vu_don_economy_ai_avoid_doing_when = yes
+				vu_economy_ai_avoid_doing_when = yes
 			}
 		}
 		#Avoid building in...
 		modifier = {
 			factor = 0.25
-			vu_don_economy_ai_avoid_building_in = yes
+			vu_economy_ai_avoid_building_in = yes
 		}
 	}
 }

@@ -4,8 +4,8 @@
 # Uses all 'modifiers' possible that are exported as a Modifier.
 # Note that ai_will_do calculates a priority.
 # An advisor may be chosen over another if its random priority exceeds it. RandomPriority(advisor) := rand[1, 2[ * Priority(advisor).
-# Fixed the second modifier -Don on 4-6-24
-# Completely re-worked this entire file, added AI stuff and changed the spawn requirements for VU -Don on 16-7-24
+# Fixed the second modifier on 4-6-24
+# Completely re-worked this entire file, added AI stuff and changed the spawn requirements for VU on 16-7-24
 #
 #
 #List at the start of the files is always good to have.
@@ -2376,7 +2376,7 @@ inquisitor = {
             monthly_persian_influence = 0.03
         }
     }
-    allow_only_owner_religion = yes #False negative showing as a bug in Audax validator - SF & Don
+    allow_only_owner_religion = yes #False negative showing as a bug in Audax validator - SF & VU
     chance = {
         factor = 1
         modifier = {
@@ -2510,7 +2510,7 @@ religious_representative = {
         }
     }
     allow_only_male = yes
-    allow_only_owner_religion = yes #False negative showing as a bug in Audax validator - SF & Don
+    allow_only_owner_religion = yes #False negative showing as a bug in Audax validator - SF & VU
     chance = {
         factor = 1
         modifier = {

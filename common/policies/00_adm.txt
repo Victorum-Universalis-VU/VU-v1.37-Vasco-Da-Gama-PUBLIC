@@ -5,7 +5,7 @@
 # 	   \   /   '  '-'  '               \ '-'  |\ `-' |\ `-' ||  |  |  |  |  |' '-' '|  ||  |	#
 #	    `-'     `-----'                 `--`--' `---'  `---' `--'  `--'  `--' `---' `--''--'	#
 #################################################################################################                  
-#By Don and Prussia
+#By VU and Prussia
 vu_innovative_spy = {
 	monarch_power = ADM
 	potential = {
@@ -1581,6 +1581,160 @@ vu_administrative_hre = {
 		full_idea_group = holy_roman_empire_ideas
 	}
 	imperial_authority = 0.2
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+##############################################################
+# expansion_ideas policies (ADM)
+##############################################################
+
+vu_expansion_economic = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = expansion_ideas
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		full_idea_group = expansion_ideas
+		full_idea_group = economic_ideas
+	}
+	global_tariffs = 0.05
+	global_trade_goods_size_modifier = 0.05
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vu_expansion_humanist = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = expansion_ideas
+		has_idea_group = humanist_ideas
+	}
+	allow = {
+		full_idea_group = expansion_ideas
+		full_idea_group = humanist_ideas
+	}
+	native_assimilation = 0.15
+	global_unrest = -1
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vu_expansion_industry = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = expansion_ideas
+		has_idea_group = industry_ideas
+	}
+	allow = {
+		full_idea_group = expansion_ideas
+		full_idea_group = industry_ideas
+	}
+	global_trade_goods_size_modifier = 0.1
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+##############################################################
+# agricultural_ideas policies (ADM)
+##############################################################
+
+vu_agricultural_economic = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = agricultural_ideas
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		full_idea_group = agricultural_ideas
+		full_idea_group = economic_ideas
+	}
+	production_efficiency = 0.1
+	global_trade_goods_size_modifier = 0.05
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vu_agricultural_infrastructure = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = agricultural_ideas
+		has_idea_group = infrastructure_ideas
+	}
+	allow = {
+		full_idea_group = agricultural_ideas
+		full_idea_group = infrastructure_ideas
+	}
+	development_cost = -0.05
+	global_supply_limit_modifier = 0.25
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vu_agricultural_humanist = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = agricultural_ideas
+		has_idea_group = humanist_ideas
+	}
+	allow = {
+		full_idea_group = agricultural_ideas
+		full_idea_group = humanist_ideas
+	}
+	global_unrest = -1
+	global_autonomy = -0.025
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vu_agricultural_industry = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = agricultural_ideas
+		has_idea_group = industry_ideas
+	}
+	allow = {
+		full_idea_group = agricultural_ideas
+		full_idea_group = industry_ideas
+	}
+	rural_goods_produced_modifier = 0.1
+	global_regiment_cost = -0.05
 	effect = {
 	}
 	removed_effect = {

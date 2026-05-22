@@ -162,7 +162,7 @@
 #
 #	english_colony_in_the_carribean = {
 #		icon = mission_establish_caribbean_colony
-#		required_missions = { lotf_gb_sea_venture }
+#		required_missions = { vu_murica_gb_sea_venture }
 #		position = 25
 #		completed_by = 1610.1.1
 #	

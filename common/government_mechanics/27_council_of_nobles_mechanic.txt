@@ -1,4 +1,4 @@
-#VU addition for v1.37 ToR by SF & Don
+#VU addition for v1.37 ToR by SF & Prussia
 vu_council_of_nobles_mechanic = {
 	alert_icon_gfx = GFX_alerticons_government_mechanics
 	alert_icon_index = 22

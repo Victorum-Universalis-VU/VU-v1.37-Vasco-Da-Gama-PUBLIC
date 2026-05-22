@@ -559,7 +559,7 @@ country_event = {
         add_years_of_income = -0.2
     }
     option = {
-        name = "personality_options.5017.c"		#Don't Panic!
+        name = "personality_options.5017.c"		#VU't Panic!
         ai_chance = {
             factor = 100
         }
@@ -4576,7 +4576,7 @@ country_event = {
         add_years_of_income = -0.25
     }
     option = {
-        name = "EVTOPTB5085"		# Don't build it
+        name = "EVTOPTB5085"		# VU't build it
         ai_chance = {
             factor = 60
             modifier = {
@@ -5893,7 +5893,7 @@ country_event = {
         add_years_of_income = -0.1
     }
     option = {
-        name = "EVTOPTB6013"		# Don't arrange a ball
+        name = "EVTOPTB6013"		# VU't arrange a ball
         ai_chance = {
             factor = 40
         }
@@ -10871,7 +10871,7 @@ country_event = {
     }
 }
 
-### Scripted by Sara Wendel-ï¿½rtqvist ###
+### Scripted by Sara Wendel-Örtqvist ###
 namespace = random_event
 # Support for revolution overseas - No longer supported; the event takes a lot of performance for little gain.
 #country_event = {

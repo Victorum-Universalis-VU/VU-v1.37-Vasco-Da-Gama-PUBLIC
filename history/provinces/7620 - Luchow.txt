@@ -16,5 +16,5 @@ is_city = yes
 
 #History by SF
 1300.1.1 = {
-	culture = saxon #Added by SF in VU v1.37 on advice of Don Brom since according to his sources, Polabian Slavs had already been fully assimilated by the Germans.
+	culture = saxon #Added by SF in VU v1.37 Polabian Slavs had already been fully assimilated by the Germans.
 }

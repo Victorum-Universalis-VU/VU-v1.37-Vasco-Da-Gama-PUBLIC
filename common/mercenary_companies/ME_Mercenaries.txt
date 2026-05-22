@@ -509,7 +509,7 @@ ME_merc_new_company_of_the_rose = { #Shock Troops, historically 1000 knights and
 	}
 }
 
-ME_honoratas_band = { #Don't kill me, this is a female band so they get female stuff also
+ME_honoratas_band = { #VU't kill me, this is a female band so they get female stuff also
 	regiments_per_development = 0.1
 	home_province = 1862
 	sprites = { sav_base_sprite_pack westerngfx_sprite_pack }
@@ -1289,8 +1289,7 @@ merc_akk_ponts = {
 	}
 }
 
-#LOTF
-merc_lotf_minutemen = {
+merc_vu_murica_minutemen = {
     regiments_per_development = 0.06
 	cavalry_weight = 0.1
 	artillery_weight = 0.15

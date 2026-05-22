@@ -1,5 +1,5 @@
 
-FU_swiss_missions_1 = {
+vu_swiss_missions_1 = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -247,7 +247,7 @@ FU_swiss_missions_1 = {
 			}
 		}
 		effect = {
-			country_event = { id = FU_Switzerland_Events.1 }
+			country_event = { id = vu_Switzerland_Events.1 }
 			
 			tooltip = {
 				1870 = {
@@ -268,7 +268,7 @@ FU_swiss_missions_1 = {
 	}	
 }
 
-FU_swiss_missions_2 = {
+vu_swiss_missions_2 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -507,7 +507,7 @@ FU_swiss_missions_2 = {
 			}
 		}
 		effect = {
-			country_event = { id = FU_Switzerland_Events.2 }
+			country_event = { id = vu_Switzerland_Events.2 }
 			
 			custom_tooltip = " "
 			
@@ -529,7 +529,7 @@ FU_swiss_missions_2 = {
 	}
 }
 
-FU_swiss_missions_3 = {
+vu_swiss_missions_3 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -751,7 +751,7 @@ FU_swiss_missions_3 = {
 	}
 }
 
-FU_swiss_missions_4 = {
+vu_swiss_missions_4 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -1032,7 +1032,7 @@ FU_swiss_missions_4 = {
 	}
 }
 	
-FU_swiss_missions_5 = {
+vu_swiss_missions_5 = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -1153,7 +1153,7 @@ FU_swiss_missions_5 = {
 			custom_tooltip = SWI_if_done_via_diplomacy
 			tooltip = {
 				emperor = { 
-					country_event = { id = FU_Switzerland_Events.3 }
+					country_event = { id = vu_Switzerland_Events.3 }
 				}
 				custom_tooltip = SWI_we_will_request
 			}
@@ -1171,7 +1171,7 @@ FU_swiss_missions_5 = {
 				}
 				else = {
 					emperor = { 
-						country_event = { id = FU_Switzerland_Events.3 }
+						country_event = { id = vu_Switzerland_Events.3 }
 					}
 				}
 			}

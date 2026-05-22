@@ -1,5 +1,5 @@
 # VU ToR v1.37 subject types by SF
-# Credits go to: Prussia, Modus and to DonBrom for modifying parts of the file
+# Credits go to: Prussia, Modus and to VU for modifying parts of the file
 # All subjects listed here are for VU and were created by the VU team.
 
 #COLONIAL SUBJECTS
@@ -526,7 +526,7 @@ self_governing_dominion_vu = {
     joins_overlords_wars = no
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes              #Added this because they would still be beholden to their overlord in return for their self-governance - Prussia
-    has_overlords_ruler = no               #Would be ruled by the overlord's monarch, but with a Governor-General appointed to govern it - Prussia | Removed by Don as it was causing issues + it would not be ruled in a personal union, but rather as a governate.
+    has_overlords_ruler = no               #Would be ruled by the overlord's monarch, but with a Governor-General appointed to govern it - Prussia | Removed as it was causing issues + it would not be ruled in a personal union, but rather as a governate.
     can_union_break = no                    #Should only be releasable by overlord's permission - Prussia
     can_use_claims = yes
     extend_trading_range = yes

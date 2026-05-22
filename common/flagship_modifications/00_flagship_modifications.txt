@@ -459,7 +459,7 @@ flag_officers = {
 		ME_create_flagship_can_have = { which = flag_officers }
     }
     modifier = {
-        admiral_skill_gain_modifier = 0.01 #IDK why it was hashed out | Don
+        admiral_skill_gain_modifier = 0.01
         naval_maintenance_flagship_modifier = 0.5
     }
     ai_trade_score = {

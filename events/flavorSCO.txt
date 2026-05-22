@@ -476,7 +476,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "flavor_sco.EVTOPTB7" #Don't do it
+		name = "flavor_sco.EVTOPTB7" #VU't do it
 		add_stability_or_adm_power = yes
 	}
 }

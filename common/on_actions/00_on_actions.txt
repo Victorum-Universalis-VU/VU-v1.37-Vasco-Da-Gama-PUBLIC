@@ -197,11 +197,15 @@ on_colonial_reintegration = {
 on_peace_actor = {
 	events = {
 		usa_dlc.36		# Evacuation Day
+		subj_peace.1		# Subject peaced out of overlord war
 	}
 }
 
 # country
 on_peace_recipient = {
+	events = {
+		subj_peace.1		# Subject peaced out of overlord war
+	}
 }
 
 # country
@@ -441,7 +445,7 @@ on_main_war_won = {
 			}
 		}
 		country_event = {
-			id = lotf_events.2
+			id = vu_murica_events.2
 		}
 	}
 	if = {
@@ -456,7 +460,7 @@ on_main_war_won = {
 			}
 		}
 		country_event = {
-			id = lotf_events.2
+			id = vu_murica_events.2
 		}
 	}
 	#New 1.34.* LoTN additions
@@ -836,6 +840,25 @@ on_battle_won_province = {
 	random_events = {
 		1000 = 0
 		100 = war_of_the_roses.6		# WotR - Rebel Leaders Captured
+	}
+	# Waterloo — France loses a battle in the Northern France / Low Countries corridor
+	if = {
+		limit = {
+			OR = {
+				province_id = 1744		# Brussels / Brabant
+				province_id = 96		# Hainaut
+				area = flanders_area
+				area = wallonia_area
+				area = picardy_area
+			}
+			FROM = {
+				has_reform = french_first_empire_restoration_reform
+				NOT = { has_country_flag = vu_hundred_days_collapsed }
+			}
+		}
+		FROM = {
+			country_event = { id = vu_waterloo.1 }
+		}
 	}
 }
 
@@ -1524,7 +1547,7 @@ on_new_monarch = {
 		flavor_tim.1		# Death of Shah Rukh
 		muslim_school_events.20		# No Religious School
 		flavor_daimyo.4		# Shiba Yoshikado
-		flavor_fra.9000		# Franï¿½ois Villon
+		flavor_fra.9000		# François Villon
 		flavor_sca.2		# Education Focus of the new Ruler
 		flavor_rus.128		# Peter the Great
 		flavor_rus.131		# Streltsy Payment
@@ -1727,7 +1750,7 @@ on_monarch_death = {
 		}
 	}
 	if = {
-		#Don & Lucas
+		#VU & Lucas
 		limit = {
 			is_emperor_of_china = yes
 		}
@@ -2834,6 +2857,21 @@ on_government_change = {
 			}
 		}
 	}
+	# Neapolitan Republic flag — keeps CB prerequisites in sync with Naples government
+	if = {
+		limit = {
+			OR = { tag = NAP tag = TTS }
+			government = republic
+		}
+		set_country_flag = neapolitan_republic
+	}
+	if = {
+		limit = {
+			OR = { tag = NAP tag = TTS }
+			NOT = { government = republic }
+		}
+		clr_country_flag = neapolitan_republic
+	}
 }
 
 # When a native changes government after filling all their advancement groups.
@@ -3295,11 +3333,15 @@ on_siberian_pulse = {
 
 # country random events
 on_monthly_pulse = {
+	events = {
+		subj_peace.2		# Eject subjects recalled after white peace
+	}
 }
 
 on_yearly_pulse = {
 	events = {
 		flavor_mos.3		#Yearly Tatar Yoke Tribute
+		byz_tribute.2		#Yearly Ottoman Tribute for Byzantium
 	}
 }
 
@@ -3732,10 +3774,10 @@ on_bi_yearly_pulse_5 = {
 	random_events = {
 		#all these were shifted from on_bi_yearly_pulse_1
 		#LOTF additions integrated by San Felipe
-		200 = lotf_random_events.1
-		200 = lotf_random_events.2
-		200 = lotf_random_events.3
-		200 = lotf_random_events.4
+		200 = vu_murica_random_events.1
+		200 = vu_murica_random_events.2
+		200 = vu_murica_random_events.3
+		200 = vu_murica_random_events.4
 		# Anglican Events
 		100 = anglican_events.1
 		100 = anglican_events.2
@@ -8557,35 +8599,6 @@ on_trade_good_changed = {
 	if = {
 		limit = {
 			ROOT = {
-				AND = {
-					has_province_modifier = copper_mine
-					has_province_modifier = copper_mine_small
-					has_province_modifier = tin_mine
-					has_province_modifier = tin_mine_small
-					has_province_modifier = zinc_mine
-					has_province_modifier = zinc_mine_small
-					has_province_modifier = iron_mine
-					has_province_modifier = iron_mine_small
-					has_province_modifier = lead_mine
-					has_province_modifier = lead_mine_small
-				}
-			}
-		}
-		remove_province_modifier = copper_mine
-		remove_province_modifier = copper_mine_small
-		remove_province_modifier = tin_mine
-		remove_province_modifier = tin_mine_small
-		remove_province_modifier = zinc_mine
-		remove_province_modifier = zinc_mine_small
-		remove_province_modifier = iron_mine
-		remove_province_modifier = iron_mine_small
-		remove_province_modifier = lead_mine
-		remove_province_modifier = lead_mine_small
-		clr_province_flag = has_mine
-	}
-	if = {
-		limit = {
-			ROOT = {
 				trade_goods = indigo
 				continent = europe
 			}
@@ -8629,7 +8642,7 @@ on_trade_good_changed = {
 		}
 		ROOT = {
 			province_event = {
-				id = prices_marcin.15
+				id = vu_prices.15
 				days = 1
 			}
 		}
@@ -8776,6 +8789,10 @@ on_pre_mil_advisor_fired = {
 on_post_adm_advisor_fired = {
 	on_advisor_removed_effct = {
 		type = adm
+	}
+	if = {
+		limit = { has_country_flag = need_to_fire_adm_advisor }
+		set_country_flag = just_fired_adm_advisor
 	}
 }
 

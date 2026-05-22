@@ -13,6 +13,10 @@
  #Modifiers
  swi_canton_administration_modifier: "Canton Administration Overlord Reform" 
  
- #Generic Dominions by SF & Don
+ #Generic Dominions by SF & VU
  vu_generic_dominion: "Dominion Administration"
  vu_generic_dominion_desc: "A former colonial nation that has grown to be large enough that it can carry its own weight in war whilst still giving taxes to the overlord."
+
+ # Neapolitan Republic
+ vu_neapolitan_republic_reform: "Parthenopean Republic"
+ vu_neapolitan_republic_reform_desc: "The Parthenopean Republic was born in the revolutionary fires of 1799, a short-lived but passionately held experiment in Jacobin governance. Inspired by the ideals of the French Revolution, the Neapolitan republicans sought to transform the kingdom into a state governed by reason, law, and popular sovereignty. Though crushed within months by Cardinal Ruffo's Sanfedist army, the republic left an indelible mark on Neapolitan political culture, a reminder of what the kingdom might yet become."

@@ -367,7 +367,7 @@ technology = {
 		renaissance = 0.5
 	}
 	#Noble Republic
-	#Sculpture Workshop TGE Manufactory
+	#Sculpture Workshop VU Manufactory
 	sculpture_workshop = yes
 }
 
@@ -420,7 +420,7 @@ technology = {
 		new_world_i = 0.3
 	}
 	theocratic_government = yes
-	#Woodworking Workshop TGE Manufactory
+	#Woodworking Workshop VU Manufactory
 	wood_workshop = yes
 	school = yes
 	allowed_idea_groups = 9
@@ -498,7 +498,7 @@ technology = {
 		printing_press = 0.3
 	}
 	plantations = yes
-	#Leather Workshop TGE Manufactory
+	#Leather Workshop VU Manufactory
 	leather_workshop = yes
 	allowed_idea_groups = 11
 }
@@ -700,7 +700,7 @@ technology = {
 	governing_capacity = 500	#Dev doubled but cap gains not?
 	#Treasury Building
 	treasury = yes
-	#Steam Engine Assembly Line TGE Manufactory
+	#Steam Engine Assembly Line VU Manufactory
 	steam_engine_manu = yes
 	allowed_idea_groups = 16
 }

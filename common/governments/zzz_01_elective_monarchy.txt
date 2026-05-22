@@ -18,14 +18,14 @@ elective_monarchy = {
 				carthaginian_elective_monarchical_republic_reform
 			}
 		}
-		candidates_for_election = {
-			reforms = {
-				noble_electors_reform 
-				royal_electors_reform 
-				parliamental_electors_reform 
-				papal_electors_reform 
-			}
-		}
+		#candidates_for_election = { #Hashed this out as I suspect this is causing the reforms to display for monarchies, which they should not be - Prussia
+		#	reforms = {
+		#		noble_electors_reform 
+		#		royal_electors_reform 
+		#		parliamental_electors_reform 
+		#		papal_electors_reform 
+		#	}
+		#}
 		hereditary_vs_nobility = {
 			reforms = {
 				enforce_privileges_reform

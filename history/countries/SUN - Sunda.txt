@@ -8,7 +8,7 @@ religion = surya_majapahit
 capital = 2687	# Pakuan
 
 #History by DM
-1390.1.1 = {
+1402.11.11 = {
 	monarch = {
 		name = "Mangkubumi Suradipati"
 		dynasty = "Sunda"

@@ -1,14 +1,14 @@
-namespace = FU_Byzantium_Events
+namespace = vu_Byzantium_Events
 
 country_event = { #Mending the Schism
-    id = FU_Byzantium_Events.1
-    title = FU_Byzantium_Events.1.t
-    desc = FU_Byzantium_Events.1.d
+    id = vu_Byzantium_Events.1
+    title = vu_Byzantium_Events.1.t
+    desc = vu_Byzantium_Events.1.d
     picture = POPE_PREACHING_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.1.a
+        name = vu_Byzantium_Events.1.a
 
         custom_tooltip = byz_all_catholics_bend_the_knee
         hidden_effect = {
@@ -17,7 +17,7 @@ country_event = { #Mending the Schism
                     religion = catholic
                     NOT = { war_with = ROOT }
                 }
-                country_event = { id = FU_Byzantium_Events.2 }
+                country_event = { id = vu_Byzantium_Events.2 }
             }
         }
         add_patriarch_authority = 0.1
@@ -26,14 +26,14 @@ country_event = { #Mending the Schism
 }
 
 country_event = { #Downfall of Catholicism
-    id = FU_Byzantium_Events.2
-    title = FU_Byzantium_Events.2.t
-    desc = FU_Byzantium_Events.2.d
+    id = vu_Byzantium_Events.2
+    title = vu_Byzantium_Events.2.t
+    desc = vu_Byzantium_Events.2.d
     picture = RELIGIOUS_TURMOIL_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.2.a
+        name = vu_Byzantium_Events.2.a
 
         ai_chance = {
             factor = 0.4
@@ -82,7 +82,7 @@ country_event = { #Downfall of Catholicism
     }
 
     option = {
-        name = FU_Byzantium_Events.2.b
+        name = vu_Byzantium_Events.2.b
 
 
         ai_chance = {
@@ -117,15 +117,15 @@ country_event = { #Downfall of Catholicism
 }
 
 country_event = { #Offer of the Phoenix
-    id = FU_Byzantium_Events.3
-    title = FU_Byzantium_Events.3.t
-    desc = FU_Byzantium_Events.3.d
+    id = vu_Byzantium_Events.3
+    title = vu_Byzantium_Events.3.t
+    desc = vu_Byzantium_Events.3.d
     picture = REFORM_eventPicture
     is_triggered_only = yes
 
     option = {
 
-        name = FU_Byzantium_Events.3.a
+        name = vu_Byzantium_Events.3.a
 
         BYZ = {
             create_subject = {
@@ -138,7 +138,7 @@ country_event = { #Offer of the Phoenix
 
     option = {
 
-        name = FU_Byzantium_Events.3.b
+        name = vu_Byzantium_Events.3.b
         ai_chance = { factor = 0 }
 
         add_prestige = 5
@@ -147,14 +147,14 @@ country_event = { #Offer of the Phoenix
 }
 
 country_event = { #Imperial Themata of Byzantium
-    id = FU_Byzantium_Events.4
-    title = FU_Byzantium_Events.4.t
-    desc = FU_Byzantium_Events.4.d
+    id = vu_Byzantium_Events.4
+    title = vu_Byzantium_Events.4.t
+    desc = vu_Byzantium_Events.4.d
     picture = MILITARY_CAMP_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.4.a
+        name = vu_Byzantium_Events.4.a
 
         add_years_of_income = -0.5
         add_country_modifier = {
@@ -182,7 +182,7 @@ country_event = { #Imperial Themata of Byzantium
     }
 
     option = {
-        name = FU_Byzantium_Events.4.b
+        name = vu_Byzantium_Events.4.b
 
         add_years_of_income = -0.25
         add_country_modifier = {
@@ -199,7 +199,7 @@ country_event = { #Imperial Themata of Byzantium
     }
 
     option = {
-        name = FU_Byzantium_Events.4.c
+        name = vu_Byzantium_Events.4.c
 
         random_owned_province = {
             limit = { base_manpower = 5 }
@@ -217,14 +217,14 @@ country_event = { #Imperial Themata of Byzantium
 }
 
 country_event = { #The End of Bulgarian Independence
-    id = FU_Byzantium_Events.5
-    title = FU_Byzantium_Events.5.t
-    desc = FU_Byzantium_Events.5.d
+    id = vu_Byzantium_Events.5
+    title = vu_Byzantium_Events.5.t
+    desc = vu_Byzantium_Events.5.d
     picture = LIBERUM_VETO_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.5.a
+        name = vu_Byzantium_Events.5.a
 
         trigger = {
             BUL = {
@@ -266,7 +266,7 @@ country_event = { #The End of Bulgarian Independence
     }
 
     option = {
-        name = FU_Byzantium_Events.5.b
+        name = vu_Byzantium_Events.5.b
 
         add_accepted_culture = bulgarian
         custom_tooltip = byz_every_bulgarian_area_owned_by_us_or_subject_tt
@@ -316,14 +316,14 @@ country_event = { #The End of Bulgarian Independence
 }
 
 country_event = { #Reconquest of Jerusalem
-    id = FU_Byzantium_Events.6
-    title = FU_Byzantium_Events.6.t
-    desc = FU_Byzantium_Events.6.d
+    id = vu_Byzantium_Events.6
+    title = vu_Byzantium_Events.6.t
+    desc = vu_Byzantium_Events.6.d
     picture = BYZ_JERUSALEM_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.6.a
+        name = vu_Byzantium_Events.6.a
 
         379 = {
             add_province_modifier = {
@@ -342,29 +342,29 @@ country_event = { #Reconquest of Jerusalem
 }
 
 country_event = { #Hidden event to give scholar trait
-    id = FU_Byzantium_Events.7
-    title = FU_Byzantium_Events.7.t
-    desc = FU_Byzantium_Events.d
+    id = vu_Byzantium_Events.7
+    title = vu_Byzantium_Events.7.t
+    desc = vu_Byzantium_Events.d
     picture = REFORM_eventPicture
     hidden = yes
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.7.a
+        name = vu_Byzantium_Events.7.a
 
         add_ruler_personality = scholar_personality
     }
 }
 
 country_event = { #The Status of the Serbian Lands
-    id = FU_Byzantium_Events.8
-    title = FU_Byzantium_Events.8.t
-    desc = FU_Byzantium_Events.8.d
+    id = vu_Byzantium_Events.8
+    title = vu_Byzantium_Events.8.t
+    desc = vu_Byzantium_Events.8.d
     picture = ADVISOR_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.8.a #Restore the local Despot!
+        name = vu_Byzantium_Events.8.a #Restore the local Despot!
 
         trigger = {
             SER = {
@@ -417,7 +417,7 @@ country_event = { #The Status of the Serbian Lands
     }
 
     option = {
-        name = FU_Byzantium_Events.8.b
+        name = vu_Byzantium_Events.8.b
 
         serbia_area = {
             add_province_modifier = {
@@ -436,14 +436,14 @@ country_event = { #The Status of the Serbian Lands
 }
 
 country_event = { #Conquest of Egypt
-    id = FU_Byzantium_Events.9
-    title = FU_Byzantium_Events.9.t
-    desc = FU_Byzantium_Events.9.d
+    id = vu_Byzantium_Events.9
+    title = vu_Byzantium_Events.9.t
+    desc = vu_Byzantium_Events.9.d
     picture = CONQUEST_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.9.a
+        name = vu_Byzantium_Events.9.a
 
         trigger = {
             MAM = {
@@ -510,7 +510,7 @@ country_event = { #Conquest of Egypt
     }
 
     option = {
-        name = FU_Byzantium_Events.9.b
+        name = vu_Byzantium_Events.9.b
 
         add_country_modifier = {
             name = byz_enforced_egyptian_public_service_modifier
@@ -521,14 +521,14 @@ country_event = { #Conquest of Egypt
 }
 
 country_event = { #The Kingdom of Prester John
-    id = FU_Byzantium_Events.10
-    title = FU_Byzantium_Events.10.t
-    desc = FU_Byzantium_Events.10.d
+    id = vu_Byzantium_Events.10
+    title = vu_Byzantium_Events.10.t
+    desc = vu_Byzantium_Events.10.d
     picture = vu_prester_john_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.10.a
+        name = vu_Byzantium_Events.10.a
 
         trigger = {
             any_owned_province = {
@@ -542,7 +542,7 @@ country_event = { #The Kingdom of Prester John
     }
 
     option = {
-        name = FU_Byzantium_Events.10.b
+        name = vu_Byzantium_Events.10.b
         define_advisor = {
             type = inquisitor
             skill = 3
@@ -559,7 +559,7 @@ country_event = { #The Kingdom of Prester John
     }
 
     option = {
-        name = FU_Byzantium_Events.10.c
+        name = vu_Byzantium_Events.10.c
 
         highlight = yes
         trigger = {
@@ -601,14 +601,14 @@ country_event = { #The Kingdom of Prester John
 }
 
 country_event = { #The Glory of Rome
-    id = FU_Byzantium_Events.11
-    title = FU_Byzantium_Events.11.t
-    desc = FU_Byzantium_Events.11.d
+    id = vu_Byzantium_Events.11
+    title = vu_Byzantium_Events.11.t
+    desc = vu_Byzantium_Events.11.d
     picture = BYZ_BYZANTINE_EAGLE_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.11.a
+        name = vu_Byzantium_Events.11.a
 
         trigger = {
             num_accepted_cultures = 12
@@ -648,7 +648,7 @@ country_event = { #The Glory of Rome
     }
 
     option = {
-        name = FU_Byzantium_Events.11.b
+        name = vu_Byzantium_Events.11.b
 
         trigger = {
             has_global_modifier_value = {
@@ -691,7 +691,7 @@ country_event = { #The Glory of Rome
     }
 
     option = {
-        name = FU_Byzantium_Events.11.c
+        name = vu_Byzantium_Events.11.c
 
         trigger = { absolutism = 100 }
         change_tag = ROM
@@ -729,7 +729,7 @@ country_event = { #The Glory of Rome
     }
 
     option = {
-        name = FU_Byzantium_Events.11.e
+        name = vu_Byzantium_Events.11.e
 
         add_country_modifier = {
             name = byz_byzantine_concept_of_europe_modifier
@@ -746,14 +746,14 @@ country_event = { #The Glory of Rome
 }
 
 country_event = { #Grand Library of the House of Wisdom
-    id = FU_Byzantium_Events.12
-    title = FU_Byzantium_Events.12.t
-    desc = FU_Byzantium_Events.12.d
+    id = vu_Byzantium_Events.12
+    title = vu_Byzantium_Events.12.t
+    desc = vu_Byzantium_Events.12.d
     picture = vu_islamic_library_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.12.a
+        name = vu_Byzantium_Events.12.a
 
         410 = {
             if = {
@@ -790,15 +790,15 @@ country_event = { #Grand Library of the House of Wisdom
 }
 
 country_event = { #Reorganization of the Byzantine Empire
-    id = FU_Byzantium_Events.13
-    title = FU_Byzantium_Events.13.t
-    desc = FU_Byzantium_Events.13.d
+    id = vu_Byzantium_Events.13
+    title = vu_Byzantium_Events.13.t
+    desc = vu_Byzantium_Events.13.d
     picture = vu_reforms_eventPicture
     is_triggered_only = yes
     major = yes
 
     option = {
-        name = FU_Byzantium_Events.13.a
+        name = vu_Byzantium_Events.13.a
 
         add_country_modifier = {
             name = byz_fund_post_offices_modifier
@@ -809,7 +809,7 @@ country_event = { #Reorganization of the Byzantine Empire
     }
 
     option = {
-        name = FU_Byzantium_Events.13.b
+        name = vu_Byzantium_Events.13.b
 
         add_country_modifier = {
             name = byz_introduced_paper_banknotes_modifier
@@ -820,7 +820,7 @@ country_event = { #Reorganization of the Byzantine Empire
     }
 
     option = {
-        name = FU_Byzantium_Events.13.c
+        name = vu_Byzantium_Events.13.c
 
         add_country_modifier = {
             name = byz_establish_a_national_anthem_modifier
@@ -831,7 +831,7 @@ country_event = { #Reorganization of the Byzantine Empire
     }
 
     option = {
-        name = FU_Byzantium_Events.13.e
+        name = vu_Byzantium_Events.13.e
 
         add_country_modifier = {
             name = byz_academy_of_sciences_modifier
@@ -842,7 +842,7 @@ country_event = { #Reorganization of the Byzantine Empire
     }
 
     option = {
-        name = FU_Byzantium_Events.13.f
+        name = vu_Byzantium_Events.13.f
 
         add_country_modifier = {
             name = byz_reorganize_civil_and_criminal_code_modifier
@@ -853,7 +853,7 @@ country_event = { #Reorganization of the Byzantine Empire
     }
 
     option = {
-        name = FU_Byzantium_Events.13.g
+        name = vu_Byzantium_Events.13.g
 
         add_ruler_personality = vu_absolutist_personality
         add_absolutism = 20
@@ -861,14 +861,14 @@ country_event = { #Reorganization of the Byzantine Empire
 }
 
 country_event = { #The Bride of Thermaikos
-    id = FU_Byzantium_Events.14
-    title = FU_Byzantium_Events.14.t
-    desc = FU_Byzantium_Events.14.d
+    id = vu_Byzantium_Events.14
+    title = vu_Byzantium_Events.14.t
+    desc = vu_Byzantium_Events.14.d
     picture = vu_thessaloniki_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.14.a
+        name = vu_Byzantium_Events.14.a
 
         148 = {
             change_province_name = Thessaloniki
@@ -885,14 +885,14 @@ country_event = { #The Bride of Thermaikos
 }
 
 country_event = { #Legacy of the Ottoman Order
-    id = FU_Byzantium_Events.15
-    title = FU_Byzantium_Events.15.t
-    desc = FU_Byzantium_Events.15.x
+    id = vu_Byzantium_Events.15
+    title = vu_Byzantium_Events.15.t
+    desc = vu_Byzantium_Events.15.x
     picture = ADVISOR_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.15.a
+        name = vu_Byzantium_Events.15.a
 
         change_mil = 2
         add_ruler_modifier = {
@@ -902,7 +902,7 @@ country_event = { #Legacy of the Ottoman Order
     }
 
     option = {
-        name = FU_Byzantium_Events.15.b
+        name = vu_Byzantium_Events.15.b
         add_country_modifier = {
             name = byz_cheron_school_administration_modifier
             duration = 10950
@@ -911,7 +911,7 @@ country_event = { #Legacy of the Ottoman Order
     }
 
     option = {
-        name = FU_Byzantium_Events.15.c
+        name = vu_Byzantium_Events.15.c
 
         add_country_modifier = {
             name = byz_romanized_the_timars_modifier
@@ -928,9 +928,9 @@ country_event = { #Legacy of the Ottoman Order
 }
 
 country_event = { #Anatolia Returns to the Empire
-    id = FU_Byzantium_Events.16
-    title = FU_Byzantium_Events.16.t
-    desc = FU_Byzantium_Events.16.d
+    id = vu_Byzantium_Events.16
+    title = vu_Byzantium_Events.16.t
+    desc = vu_Byzantium_Events.16.d
     picture = {
         trigger = {
             has_dlc = "Purple Phoenix"
@@ -946,7 +946,7 @@ country_event = { #Anatolia Returns to the Empire
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.16.a
+        name = vu_Byzantium_Events.16.a
 
         add_country_modifier = {
             name = byz_enforced_hellenization_modifier
@@ -956,11 +956,11 @@ country_event = { #Anatolia Returns to the Empire
         custom_tooltip = byz_impact_missions_tt
         set_country_flag = byz_turkish_conversion_camps_flag
         custom_tooltip = " "
-        custom_tooltip = FU_CONVERT_ANATOLIA_OVER_TIME
+        custom_tooltip = vu_CONVERT_ANATOLIA_OVER_TIME
     }
 
     option = {
-        name = FU_Byzantium_Events.16.b
+        name = vu_Byzantium_Events.16.b
 
         custom_tooltip = byz_accept_turkish_culture_no_slot_tt
         hidden_effect = {
@@ -988,14 +988,14 @@ country_event = { #Anatolia Returns to the Empire
 }
 
 country_event = { #The Faithful of Georgia
-    id = FU_Byzantium_Events.17
-    title = FU_Byzantium_Events.17.t
-    desc = FU_Byzantium_Events.17.d
+    id = vu_Byzantium_Events.17
+    title = vu_Byzantium_Events.17.t
+    desc = vu_Byzantium_Events.17.d
     picture = BYZ_COURT_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.17.a
+        name = vu_Byzantium_Events.17.a
 
         trigger = {
             GEO = {
@@ -1086,7 +1086,7 @@ country_event = { #The Faithful of Georgia
     }
 
     option = {
-        name = FU_Byzantium_Events.17.b
+        name = vu_Byzantium_Events.17.b
 
         caucasia_region = {
             limit = { country_or_non_sovereign_subject_holds = ROOT }
@@ -1112,23 +1112,23 @@ country_event = { #The Faithful of Georgia
 }
 
 country_event = { #Reconciling with the See of Rome
-    id = FU_Byzantium_Events.18
-    title = FU_Byzantium_Events.18.t
-    desc = FU_Byzantium_Events.18.d
+    id = vu_Byzantium_Events.18
+    title = vu_Byzantium_Events.18.t
+    desc = vu_Byzantium_Events.18.d
     picture = ST_PETERS_CHURCH_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.18.a
+        name = vu_Byzantium_Events.18.a
 
         PAP = {
-            country_event = { id = FU_Byzantium_Events.24 }
+            country_event = { id = vu_Byzantium_Events.24 }
         }
         custom_tooltip = byz_if_pap_helps_tt
     }
 
     option = {
-        name = FU_Byzantium_Events.18.b
+        name = vu_Byzantium_Events.18.b
 
         add_patriarch_authority = 0.05
         add_estate_loyalty = {
@@ -1139,14 +1139,14 @@ country_event = { #Reconciling with the See of Rome
 }
 
 country_event = { #Royal Workshops of Constantinople
-    id = FU_Byzantium_Events.19
-    title = FU_Byzantium_Events.19.t
-    desc = FU_Byzantium_Events.19.d
+    id = vu_Byzantium_Events.19
+    title = vu_Byzantium_Events.19.t
+    desc = vu_Byzantium_Events.19.d
     picture = FEAST_eventPicture
     is_triggered_only = yes
 
     # option = {
-    # name = FU_Byzantium_Events.19.a
+    # name = vu_Byzantium_Events.19.a
 
     # trigger = {
     # custom_trigger_tooltip = {
@@ -1162,7 +1162,7 @@ country_event = { #Royal Workshops of Constantinople
     # }
 
     option = {
-        name = FU_Byzantium_Events.19.b
+        name = vu_Byzantium_Events.19.b
 
         trigger = {
             151 = { has_province_modifier = diamond_district }
@@ -1179,7 +1179,7 @@ country_event = { #Royal Workshops of Constantinople
     }
 
     option = {
-        name = FU_Byzantium_Events.19.c
+        name = vu_Byzantium_Events.19.c
 
         trigger = {
             151 = { trade_goods = glass }
@@ -1199,7 +1199,7 @@ country_event = { #Royal Workshops of Constantinople
     }
 
     option = {
-        name = FU_Byzantium_Events.19.e
+        name = vu_Byzantium_Events.19.e
 
         151 = {
             change_trade_goods = silk
@@ -1229,14 +1229,14 @@ country_event = { #Royal Workshops of Constantinople
 
 
 country_event = { #The Spoils of Cairo
-    id = FU_Byzantium_Events.20
-    title = FU_Byzantium_Events.20.t
-    desc = FU_Byzantium_Events.20.d
+    id = vu_Byzantium_Events.20
+    title = vu_Byzantium_Events.20.t
+    desc = vu_Byzantium_Events.20.d
     picture = CITY_VIEW_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.20.a
+        name = vu_Byzantium_Events.20.a
 
         trigger = {
             361 = {
@@ -1274,7 +1274,7 @@ country_event = { #The Spoils of Cairo
     }
 
     option = {
-        name = FU_Byzantium_Events.20.b
+        name = vu_Byzantium_Events.20.b
 
         add_years_of_income = 1
         add_ruler_personality = kind_hearted_personality
@@ -1285,9 +1285,9 @@ country_event = { #The Spoils of Cairo
 
 
 country_event = { #Ghost-kun event to remove above Bulgarian modifier-chan OwO
-    id = FU_Byzantium_Events.21
-    title = FU_Byzantium_Events.21.t
-    desc = FU_Byzantium_Events.21.d
+    id = vu_Byzantium_Events.21
+    title = vu_Byzantium_Events.21.t
+    desc = vu_Byzantium_Events.21.d
     picture = REFORM_eventPicture
     hidden = yes
 
@@ -1297,16 +1297,16 @@ country_event = { #Ghost-kun event to remove above Bulgarian modifier-chan OwO
     }
 
     option = {
-        name = FU_Byzantium_Events.21.a
+        name = vu_Byzantium_Events.21.a
 
         remove_country_modifier = byz_bulgarian_border_guards_modifier
     }
 }
 
 country_event = { #apply turkish province bonus
-    id = FU_Byzantium_Events.22
-    title = FU_Byzantium_Events.22.t
-    desc = FU_Byzantium_Events.22.d
+    id = vu_Byzantium_Events.22
+    title = vu_Byzantium_Events.22.t
+    desc = vu_Byzantium_Events.22.d
     picture = REFORM_eventPicture
     hidden = yes
 
@@ -1324,7 +1324,7 @@ country_event = { #apply turkish province bonus
     }
 
     option = {
-        name = FU_Byzantium_Events.22.a
+        name = vu_Byzantium_Events.22.a
 
         every_owned_province = {
             limit = { culture = turkish }
@@ -1337,9 +1337,9 @@ country_event = { #apply turkish province bonus
 }
 
 country_event = { #event to remove turkish acceptance bonus in the event of losing turkish culture provinces
-    id = FU_Byzantium_Events.23
-    title = FU_Byzantium_Events.23.t
-    desc = FU_Byzantium_Events.23.d
+    id = vu_Byzantium_Events.23
+    title = vu_Byzantium_Events.23.t
+    desc = vu_Byzantium_Events.23.d
     picture = REFORM_eventPicture
     hidden = yes
 
@@ -1351,7 +1351,7 @@ country_event = { #event to remove turkish acceptance bonus in the event of losi
     }
 
     option = {
-        name = FU_Byzantium_Events.23.a
+        name = vu_Byzantium_Events.23.a
 
         clr_country_flag = byz_tolerated_turkish_pop_flag
         every_owned_province = {
@@ -1362,18 +1362,18 @@ country_event = { #event to remove turkish acceptance bonus in the event of losi
 }
 
 country_event = { #The Byzantine Appeal to the West
-    id = FU_Byzantium_Events.24
-    title = FU_Byzantium_Events.24.t
-    desc = FU_Byzantium_Events.24.d
+    id = vu_Byzantium_Events.24
+    title = vu_Byzantium_Events.24.t
+    desc = vu_Byzantium_Events.24.d
     picture = CONQUEST_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.24.a
+        name = vu_Byzantium_Events.24.a
 
         BYZ = {
             country_event = {
-                id = FU_Byzantium_Events.25
+                id = vu_Byzantium_Events.25
                 days = 10
                 random = 10
             }
@@ -1383,7 +1383,7 @@ country_event = { #The Byzantine Appeal to the West
     }
 
     option = {
-        name = FU_Byzantium_Events.24.b
+        name = vu_Byzantium_Events.24.b
 
         ai_chance = { factor = 0 }
         add_prestige = 10
@@ -1391,14 +1391,14 @@ country_event = { #The Byzantine Appeal to the West
 }
 
 country_event = { #The Papal Delegate Arrives!"
-    id = FU_Byzantium_Events.25
-    title = FU_Byzantium_Events.25.t
-    desc = FU_Byzantium_Events.25.d
+    id = vu_Byzantium_Events.25
+    title = vu_Byzantium_Events.25.t
+    desc = vu_Byzantium_Events.25.d
     picture = ORTHODOX_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.25.a
+        name = vu_Byzantium_Events.25.a
 
         ai_chance = { factor = 1 }
 
@@ -1442,7 +1442,7 @@ country_event = { #The Papal Delegate Arrives!"
                 }
             }
             HAB = {
-                country_event = { id = FU_Byzantium_Events.26 }
+                country_event = { id = vu_Byzantium_Events.26 }
             }
         }
         else_if = {
@@ -1459,7 +1459,7 @@ country_event = { #The Papal Delegate Arrives!"
                 }
             }
             POL = {
-                country_event = { id = FU_Byzantium_Events.26 }
+                country_event = { id = vu_Byzantium_Events.26 }
                 add_opinion = {
                     who = ROOT
                     modifier = byz_byzantine_conversion_modifier
@@ -1484,7 +1484,7 @@ country_event = { #The Papal Delegate Arrives!"
                 }
             }
             HUN = {
-                country_event = { id = FU_Byzantium_Events.26 }
+                country_event = { id = vu_Byzantium_Events.26 }
                 add_opinion = {
                     who = ROOT
                     modifier = byz_byzantine_conversion_modifier
@@ -1509,7 +1509,7 @@ country_event = { #The Papal Delegate Arrives!"
                 }
             }
             CAS = {
-                country_event = { id = FU_Byzantium_Events.26 }
+                country_event = { id = vu_Byzantium_Events.26 }
                 add_opinion = {
                     who = ROOT
                     modifier = byz_byzantine_conversion_modifier
@@ -1544,7 +1544,7 @@ country_event = { #The Papal Delegate Arrives!"
                 }
             }
             VEN = {
-                country_event = { id = FU_Byzantium_Events.26 }
+                country_event = { id = vu_Byzantium_Events.26 }
                 add_opinion = {
                     who = ROOT
                     modifier = byz_byzantine_conversion_modifier
@@ -1564,7 +1564,7 @@ country_event = { #The Papal Delegate Arrives!"
     }
 
     option = {
-        name = FU_Byzantium_Events.25.b
+        name = vu_Byzantium_Events.25.b
         ai_chance = { factor = 0 }
 
         add_patriarch_authority = 0.05
@@ -1577,15 +1577,15 @@ country_event = { #The Papal Delegate Arrives!"
 }
 
 country_event = { #In the Defense of Rome!
-    id = FU_Byzantium_Events.26
-    title = FU_Byzantium_Events.26.t
-    desc = FU_Byzantium_Events.26.d
+    id = vu_Byzantium_Events.26
+    title = vu_Byzantium_Events.26.t
+    desc = vu_Byzantium_Events.26.d
     picture = BYZ_BYZANTINE_EAGLE_eventPicture
     is_triggered_only = yes
     major = yes
 
     option = {
-        name = FU_Byzantium_Events.26.a
+        name = vu_Byzantium_Events.26.a
 
         ai_chance = { factor = 1 }
         create_alliance = BYZ
@@ -1594,7 +1594,7 @@ country_event = { #In the Defense of Rome!
     }
 
     option = {
-        name = FU_Byzantium_Events.26.b
+        name = vu_Byzantium_Events.26.b
 
         add_prestige = 10
         ai_chance = { factor = 0 }
@@ -1602,9 +1602,9 @@ country_event = { #In the Defense of Rome!
 }
 
 country_event = { #The Decay of Rome
-    id = FU_Byzantium_Events.27
-    title = FU_Byzantium_Events.27.t
-    desc = FU_Byzantium_Events.27.d
+    id = vu_Byzantium_Events.27
+    title = vu_Byzantium_Events.27.t
+    desc = vu_Byzantium_Events.27.d
     picture = {
         trigger = {
             has_dlc = "Purple Phoenix"
@@ -1645,7 +1645,7 @@ country_event = { #The Decay of Rome
     mean_time_to_happen = { months = 1 }
 
     option = {
-        name = FU_Byzantium_Events.27.a
+        name = vu_Byzantium_Events.27.a
 
         add_country_modifier = {
             name = byz_decay_byzantium_modifier
@@ -1672,9 +1672,9 @@ country_event = { #The Decay of Rome
 }
 
 country_event = { #The Brightest Academy of Europe
-    id = FU_Byzantium_Events.28
-    title = FU_Byzantium_Events.28.t
-    desc = FU_Byzantium_Events.28.d
+    id = vu_Byzantium_Events.28
+    title = vu_Byzantium_Events.28.t
+    desc = vu_Byzantium_Events.28.d
     picture = {
         trigger = {
             has_dlc = "Purple Phoenix"
@@ -1705,7 +1705,7 @@ country_event = { #The Brightest Academy of Europe
     }
 
     option = {
-        name = FU_Byzantium_Events.28.a
+        name = vu_Byzantium_Events.28.a
 
         add_country_modifier = {
             name = byz_platos_brightest_academy_modifier
@@ -1716,9 +1716,9 @@ country_event = { #The Brightest Academy of Europe
 }
 
 country_event = { #Military Campaigns in North Africa
-    id = FU_Byzantium_Events.29
-    title = FU_Byzantium_Events.29.t
-    desc = FU_Byzantium_Events.29.d
+    id = vu_Byzantium_Events.29
+    title = vu_Byzantium_Events.29.t
+    desc = vu_Byzantium_Events.29.d
     picture = SIEGE_eventPicture
     fire_only_once = yes
     trigger = {
@@ -1737,7 +1737,7 @@ country_event = { #Military Campaigns in North Africa
     }
 
     option = {
-        name = FU_Byzantium_Events.29.a
+        name = vu_Byzantium_Events.29.a
 
         add_country_modifier = {
             name = byz_march_to_maghreb_modifier
@@ -1747,9 +1747,9 @@ country_event = { #Military Campaigns in North Africa
 }
 
 country_event = { #The Burning of Venezia (revenge for 1204)
-    id = FU_Byzantium_Events.30
-    title = FU_Byzantium_Events.30.t
-    desc = FU_Byzantium_Events.30.d
+    id = vu_Byzantium_Events.30
+    title = vu_Byzantium_Events.30.t
+    desc = vu_Byzantium_Events.30.d
     picture = REVOLUTION_eventPicture
     fire_only_once = yes
     trigger = {
@@ -1766,7 +1766,7 @@ country_event = { #The Burning of Venezia (revenge for 1204)
     }
 
     option = {
-        name = FU_Byzantium_Events.30.a
+        name = vu_Byzantium_Events.30.a
 
         ai_chance = {
             factor = 25
@@ -1781,7 +1781,7 @@ country_event = { #The Burning of Venezia (revenge for 1204)
     }
 
     option = {
-        name = FU_Byzantium_Events.30.b
+        name = vu_Byzantium_Events.30.b
 
         112 = {
             add_base_tax = -2
@@ -1794,9 +1794,9 @@ country_event = { #The Burning of Venezia (revenge for 1204)
 }
 
 country_event = { #Competition in the Aegean
-    id = FU_Byzantium_Events.31
-    title = FU_Byzantium_Events.31.t
-    desc = FU_Byzantium_Events.31.d
+    id = vu_Byzantium_Events.31
+    title = vu_Byzantium_Events.31.t
+    desc = vu_Byzantium_Events.31.d
     picture = BYZ_HARBOUR_eventPicture
     fire_only_once = yes
 
@@ -1819,7 +1819,7 @@ country_event = { #Competition in the Aegean
     }
 
     option = {
-        name = FU_Byzantium_Events.31.a
+        name = vu_Byzantium_Events.31.a
 
         add_country_modifier = {
             name = byz_influx_venetian_business_modifier
@@ -1832,7 +1832,7 @@ country_event = { #Competition in the Aegean
     }
 
     option = {
-        name = FU_Byzantium_Events.31.b
+        name = vu_Byzantium_Events.31.b
 
         add_mercantilism = 3
         VEN = {
@@ -1850,9 +1850,9 @@ country_event = { #Competition in the Aegean
 }
 
 country_event = { #The Final Hour of the Empire
-    id = FU_Byzantium_Events.32
-    title = FU_Byzantium_Events.32.t
-    desc = FU_Byzantium_Events.32.d
+    id = vu_Byzantium_Events.32
+    title = vu_Byzantium_Events.32.t
+    desc = vu_Byzantium_Events.32.d
     picture = BATTLE_eventPicture
     fire_only_once = yes
 
@@ -1874,7 +1874,7 @@ country_event = { #The Final Hour of the Empire
     }
 
     option = {
-        name = FU_Byzantium_Events.32.a
+        name = vu_Byzantium_Events.32.a
 
         add_war_exhaustion = -1
         add_prestige = 10
@@ -1882,9 +1882,9 @@ country_event = { #The Final Hour of the Empire
 }
 
 country_event = { #The Re-Discovery of Greek Epic Literary Works
-    id = FU_Byzantium_Events.33
-    title = FU_Byzantium_Events.33.t
-    desc = FU_Byzantium_Events.33.d
+    id = vu_Byzantium_Events.33
+    title = vu_Byzantium_Events.33.t
+    desc = vu_Byzantium_Events.33.d
     picture = BIG_BOOK_eventPicture
     fire_only_once = yes
 
@@ -1912,7 +1912,7 @@ country_event = { #The Re-Discovery of Greek Epic Literary Works
     }
 
     option = {
-        name = FU_Byzantium_Events.33.a
+        name = vu_Byzantium_Events.33.a
 
         ai_chance = {
             factor = 2
@@ -1932,7 +1932,7 @@ country_event = { #The Re-Discovery of Greek Epic Literary Works
     }
 
     option = {
-        name = FU_Byzantium_Events.33.b
+        name = vu_Byzantium_Events.33.b
         ai_chance = {
             factor = 50
         }
@@ -1941,9 +1941,9 @@ country_event = { #The Re-Discovery of Greek Epic Literary Works
 }
 
 country_event = { #A Tale of Two Romes
-    id = FU_Byzantium_Events.34
-    title = FU_Byzantium_Events.34.t
-    desc = FU_Byzantium_Events.34.d
+    id = vu_Byzantium_Events.34
+    title = vu_Byzantium_Events.34.t
+    desc = vu_Byzantium_Events.34.d
     picture = HRE_eventPicture
     fire_only_once = yes
 
@@ -1964,7 +1964,7 @@ country_event = { #A Tale of Two Romes
     }
 
     option = {
-        name = FU_Byzantium_Events.34.a
+        name = vu_Byzantium_Events.34.a
 
         ai_chance = {
             factor = 0
@@ -1994,7 +1994,7 @@ country_event = { #A Tale of Two Romes
     }
 
     option = {
-        name = FU_Byzantium_Events.34.b
+        name = vu_Byzantium_Events.34.b
         ai_chance = {
             factor = 2
         }
@@ -2002,7 +2002,7 @@ country_event = { #A Tale of Two Romes
     }
 
     option = {
-        name = FU_Byzantium_Events.34.c
+        name = vu_Byzantium_Events.34.c
 
         ai_chance = {
             factor = 0.5
@@ -2015,9 +2015,9 @@ country_event = { #A Tale of Two Romes
 }
 
 country_event = { #hidden event to buff HAB
-    id = FU_Byzantium_Events.35
-    title = FU_Byzantium_Events.35.t
-    desc = FU_Byzantium_Events.35.d
+    id = vu_Byzantium_Events.35
+    title = vu_Byzantium_Events.35.t
+    desc = vu_Byzantium_Events.35.d
     picture = UNIVERSITY_eventPicture
     hidden = yes
     fire_only_once = yes
@@ -2034,7 +2034,7 @@ country_event = { #hidden event to buff HAB
     }
 
     option = {
-        name = FU_Byzantium_Events.35.a
+        name = vu_Byzantium_Events.35.a
 
         add_country_modifier = {
             name = byz_fight_for_the_empire
@@ -2047,9 +2047,9 @@ country_event = { #hidden event to buff HAB
 }
 
 country_event = { #Struggle of Giants
-    id = FU_Byzantium_Events.36
-    title = FU_Byzantium_Events.36.t
-    desc = FU_Byzantium_Events.36.d
+    id = vu_Byzantium_Events.36
+    title = vu_Byzantium_Events.36.t
+    desc = vu_Byzantium_Events.36.d
     picture = HRE_eventPicture
 
     trigger = {
@@ -2079,7 +2079,7 @@ country_event = { #Struggle of Giants
     }
 
     option = {
-        name = FU_Byzantium_Events.36.a
+        name = vu_Byzantium_Events.36.a
 
         ai_chance = {
             factor = 0.35
@@ -2094,7 +2094,7 @@ country_event = { #Struggle of Giants
     }
 
     option = {
-        name = FU_Byzantium_Events.36.b
+        name = vu_Byzantium_Events.36.b
 
         ai_chance = {
             factor = 0.65
@@ -2109,9 +2109,9 @@ country_event = { #Struggle of Giants
 }
 
 country_event = { #Blood Moon Rises over Europe
-    id = FU_Byzantium_Events.37
-    title = FU_Byzantium_Events.37.t
-    desc = FU_Byzantium_Events.37.d
+    id = vu_Byzantium_Events.37
+    title = vu_Byzantium_Events.37.t
+    desc = vu_Byzantium_Events.37.d
     picture = big_castle_eventPicture
     fire_only_once = yes
     trigger = {
@@ -2143,7 +2143,7 @@ country_event = { #Blood Moon Rises over Europe
     }
 
     option = {
-        name = FU_Byzantium_Events.37.a
+        name = vu_Byzantium_Events.37.a
 
         ai_chance = {
             factor = 0.65
@@ -2158,7 +2158,7 @@ country_event = { #Blood Moon Rises over Europe
     }
 
     option = {
-        name = FU_Byzantium_Events.37.b
+        name = vu_Byzantium_Events.37.b
 
         ai_chance = {
             factor = 0.35
@@ -2171,9 +2171,9 @@ country_event = { #Blood Moon Rises over Europe
 }
 
 country_event = { #Heirs of the Imperial Throne
-    id = FU_Byzantium_Events.38
-    title = FU_Byzantium_Events.38.t
-    desc = FU_Byzantium_Events.38.d
+    id = vu_Byzantium_Events.38
+    title = vu_Byzantium_Events.38.t
+    desc = vu_Byzantium_Events.38.d
     picture = {
         trigger = {
             has_dlc = "Purple Phoenix"
@@ -2211,7 +2211,7 @@ country_event = { #Heirs of the Imperial Throne
     mean_time_to_happen = { months = 6 }
 
     option = {
-        name = FU_Byzantium_Events.38.a
+        name = vu_Byzantium_Events.38.a
         ai_chance = { factor = 0.5 }
         if = {
             limit = {
@@ -2237,7 +2237,7 @@ country_event = { #Heirs of the Imperial Throne
     }
 
     option = {
-        name = FU_Byzantium_Events.38.b
+        name = vu_Byzantium_Events.38.b
         ai_chance = { factor = 0.25 }
         define_ruler = {
             name = "Dimitrios"
@@ -2257,7 +2257,7 @@ country_event = { #Heirs of the Imperial Throne
     }
 
     option = {
-        name = FU_Byzantium_Events.38.c
+        name = vu_Byzantium_Events.38.c
         ai_chance = { factor = 0.25 }
         define_ruler = {
             name = "Thomas"
@@ -2276,9 +2276,9 @@ country_event = { #Heirs of the Imperial Throne
 }
 
 country_event = { #Gelati Monastery
-    id = FU_Byzantium_Events.39
-    title = FU_Byzantium_Events.39.t
-    desc = FU_Byzantium_Events.39.d
+    id = vu_Byzantium_Events.39
+    title = vu_Byzantium_Events.39.t
+    desc = vu_Byzantium_Events.39.d
     picture = vu_monastery_eventPicture
     fire_only_once = yes
 
@@ -2295,7 +2295,7 @@ country_event = { #Gelati Monastery
     mean_time_to_happen = { months = 120 }
 
     option = {
-        name = FU_Byzantium_Events.39.a
+        name = vu_Byzantium_Events.39.a
 
         ai_chance = { factor = 0.5 }
         422 = {
@@ -2319,7 +2319,7 @@ country_event = { #Gelati Monastery
     }
 
     option = {
-        name = FU_Byzantium_Events.39.b
+        name = vu_Byzantium_Events.39.b
         ai_chance = { factor = 0.5 }
         add_prestige = -5
         add_estate_loyalty = {
@@ -2330,9 +2330,9 @@ country_event = { #Gelati Monastery
 }
 
 country_event = { #Tyrian Purple
-    id = FU_Byzantium_Events.40
-    title = FU_Byzantium_Events.40.t
-    desc = FU_Byzantium_Events.40.d
+    id = vu_Byzantium_Events.40
+    title = vu_Byzantium_Events.40.t
+    desc = vu_Byzantium_Events.40.d
     picture = ECONOMY_eventPicture
     fire_only_once = yes
     trigger = {
@@ -2359,7 +2359,7 @@ country_event = { #Tyrian Purple
     mean_time_to_happen = { months = 36 }
 
     option = {
-        name = FU_Byzantium_Events.40.a
+        name = vu_Byzantium_Events.40.a
 
         trigger = {
             custom_trigger_tooltip = {
@@ -2382,7 +2382,7 @@ country_event = { #Tyrian Purple
     }
 
     option = {
-        name = FU_Byzantium_Events.40.b
+        name = vu_Byzantium_Events.40.b
 
         ai_chance = { factor = 1 }
         random_owned_province = {
@@ -2402,9 +2402,9 @@ country_event = { #Tyrian Purple
 }
 
 country_event = { #Event to Clear Silk-chan
-    id = FU_Byzantium_Events.41
-    title = FU_Byzantium_Events.41.t
-    desc = FU_Byzantium_Events.41.d
+    id = vu_Byzantium_Events.41
+    title = vu_Byzantium_Events.41.t
+    desc = vu_Byzantium_Events.41.d
     picture = ADVISOR_eventPicture
     hidden = yes
     fire_only_once = yes
@@ -2427,15 +2427,15 @@ country_event = { #Event to Clear Silk-chan
     }
 
     option = {
-        name = FU_Byzantium_Events.41.a
+        name = vu_Byzantium_Events.41.a
 
     }
 }
 
 country_event = { #Jews Seek Refuge in Thessaloniki
-    id = FU_Byzantium_Events.42
-    title = FU_Byzantium_Events.42.t
-    desc = FU_Byzantium_Events.42.d
+    id = vu_Byzantium_Events.42
+    title = vu_Byzantium_Events.42.t
+    desc = vu_Byzantium_Events.42.d
     picture = RELIGIOUS_CONVERSION_eventPicture
     fire_only_once = yes
     goto = 148
@@ -2456,7 +2456,7 @@ country_event = { #Jews Seek Refuge in Thessaloniki
     mean_time_to_happen = { months = 12 }
 
     option = {
-        name = FU_Byzantium_Events.42.a
+        name = vu_Byzantium_Events.42.a
 
         148 = {
             add_province_modifier = {
@@ -2484,7 +2484,7 @@ country_event = { #Jews Seek Refuge in Thessaloniki
     }
 
     option = {
-        name = FU_Byzantium_Events.42.b
+        name = vu_Byzantium_Events.42.b
 
         if = {
             limit = { has_estate = estate_church }
@@ -2498,9 +2498,9 @@ country_event = { #Jews Seek Refuge in Thessaloniki
 }
 
 country_event = { #Jews Prosper in Thessaloniki
-    id = FU_Byzantium_Events.43
-    title = FU_Byzantium_Events.43.t
-    desc = FU_Byzantium_Events.43.d
+    id = vu_Byzantium_Events.43
+    title = vu_Byzantium_Events.43.t
+    desc = vu_Byzantium_Events.43.d
     picture = PRAYING_eventPicture
     fire_only_once = yes
     goto = 148
@@ -2522,7 +2522,7 @@ country_event = { #Jews Prosper in Thessaloniki
     }
 
     option = {
-        name = FU_Byzantium_Events.43.a
+        name = vu_Byzantium_Events.43.a
 
         148 = {
             change_religion = jewish
@@ -2535,7 +2535,7 @@ country_event = { #Jews Prosper in Thessaloniki
     }
 
     option = {
-        name = FU_Byzantium_Events.43.b
+        name = vu_Byzantium_Events.43.b
 
         148 = {
             add_unrest = 10
@@ -2545,9 +2545,9 @@ country_event = { #Jews Prosper in Thessaloniki
 }
 
 country_event = { #The Preservation of Old Ideals
-    id = FU_Byzantium_Events.44
-    title = FU_Byzantium_Events.44.t
-    desc = FU_Byzantium_Events.44.d
+    id = vu_Byzantium_Events.44
+    title = vu_Byzantium_Events.44.t
+    desc = vu_Byzantium_Events.44.d
     fire_only_once = yes
     picture = LIBERUM_VETO_eventPicture
 
@@ -2568,15 +2568,15 @@ country_event = { #The Preservation of Old Ideals
 
 
     option = {
-        name = FU_Byzantium_Events.44.a
-        custom_tooltip = FU_BYZ_CHANGE_IDEAS
+        name = vu_Byzantium_Events.44.a
+        custom_tooltip = vu_BYZ_CHANGE_IDEAS
         hidden_effect = {
             swap_free_idea_group = yes
         }
     }
 
     option = {
-        name = FU_Byzantium_Events.44.b
+        name = vu_Byzantium_Events.44.b
 
         add_country_modifier = {
             name = byz_true_to_tradition_byz
@@ -2586,9 +2586,9 @@ country_event = { #The Preservation of Old Ideals
 }
 
 country_event = { #Blood is Thicker than Water
-    id = FU_Byzantium_Events.45
-    title = FU_Byzantium_Events.45.t
-    desc = FU_Byzantium_Events.45.d
+    id = vu_Byzantium_Events.45
+    title = vu_Byzantium_Events.45.t
+    desc = vu_Byzantium_Events.45.d
     picture = DIPLOMACY_eventPicture
     fire_only_once = yes
     major = yes
@@ -2609,19 +2609,19 @@ country_event = { #Blood is Thicker than Water
     mean_time_to_happen = { months = 32 }
 
     option = {
-        name = FU_Byzantium_Events.45.a
+        name = vu_Byzantium_Events.45.a
 
         ai_chance = { factor = 0.5 }
         BYZ = {
             country_event = {
-                id = FU_Byzantium_Events.46
+                id = vu_Byzantium_Events.46
                 days = 10
             }
         }
     }
 
     option = {
-        name = FU_Byzantium_Events.45.b
+        name = vu_Byzantium_Events.45.b
 
         ai_chance = { factor = 0.5 }
         add_prestige = 10
@@ -2630,15 +2630,15 @@ country_event = { #Blood is Thicker than Water
 }
 
 country_event = { #Messengers from Trebizond
-    id = FU_Byzantium_Events.46
-    title = FU_Byzantium_Events.46.t
-    desc = FU_Byzantium_Events.46.d
+    id = vu_Byzantium_Events.46
+    title = vu_Byzantium_Events.46.t
+    desc = vu_Byzantium_Events.46.d
     picture = DIPLOMACY_eventPicture
     fire_only_once = yes
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.46.a
+        name = vu_Byzantium_Events.46.a
 
         ai_chance = { factor = 0.5 }
         create_subject = {
@@ -2648,7 +2648,7 @@ country_event = { #Messengers from Trebizond
     }
 
     option = {
-        name = FU_Byzantium_Events.46.b
+        name = vu_Byzantium_Events.46.b
 
         ai_chance = { factor = 0.5 }
         add_stability_or_adm_power = yes
@@ -2657,9 +2657,9 @@ country_event = { #Messengers from Trebizond
 }
 
 country_event = { #A Man of Technical Expertise
-    id = FU_Byzantium_Events.47
-    title = FU_Byzantium_Events.47.t
-    desc = FU_Byzantium_Events.47.d
+    id = vu_Byzantium_Events.47
+    title = vu_Byzantium_Events.47.t
+    desc = vu_Byzantium_Events.47.d
     picture = vu_xorme_eventPicture
     fire_only_once = yes
 
@@ -2684,7 +2684,7 @@ country_event = { #A Man of Technical Expertise
     mean_time_to_happen = { months = 2400 }
 
     option = {
-        name = FU_Byzantium_Events.47.a
+        name = vu_Byzantium_Events.47.a
 
         ai_chance = { factor = 0.5 }
         define_admiral = {
@@ -2699,14 +2699,14 @@ country_event = { #A Man of Technical Expertise
 }
 
 country_event = { #Catholicism Triumphant!
-    id = FU_Byzantium_Events.48
-    title = FU_Byzantium_Events.48.t
-    desc = FU_Byzantium_Events.48.d
+    id = vu_Byzantium_Events.48
+    title = vu_Byzantium_Events.48.t
+    desc = vu_Byzantium_Events.48.d
     picture = POPE_PREACHING_eventPicture
     is_triggered_only = yes
 
     option = {
-        name = FU_Byzantium_Events.48.a
+        name = vu_Byzantium_Events.48.a
 
         add_country_modifier = {
             name = byz_champion_of_catholicism_modifier
@@ -2716,9 +2716,9 @@ country_event = { #Catholicism Triumphant!
 }
 
 country_event = { #The man the myth the legend Giovanni Justiniani
-    id = FU_Byzantium_Events.49
-    title = FU_Byzantium_Events.49.t
-    desc = FU_Byzantium_Events.49.d
+    id = vu_Byzantium_Events.49
+    title = vu_Byzantium_Events.49.t
+    desc = vu_Byzantium_Events.49.d
     picture = vu_byzantine_defenders_eventPicture
     fire_only_once = yes
 
@@ -2730,7 +2730,7 @@ country_event = { #The man the myth the legend Giovanni Justiniani
     mean_time_to_happen = { months = 60 }
 
     option = {
-        name = FU_Byzantium_Events.49.a
+        name = vu_Byzantium_Events.49.a
 
         add_mil_power = 25
         define_advisor = {
@@ -2754,9 +2754,9 @@ country_event = { #The man the myth the legend Giovanni Justiniani
 }
 
 country_event = { #Gemisthus Plethon
-    id = FU_Byzantium_Events.50
-    title = FU_Byzantium_Events.50.t
-    desc = FU_Byzantium_Events.50.d
+    id = vu_Byzantium_Events.50
+    title = vu_Byzantium_Events.50.t
+    desc = vu_Byzantium_Events.50.d
     picture = vu_gemistus_eventPicture
     fire_only_once = yes
 
@@ -2768,7 +2768,7 @@ country_event = { #Gemisthus Plethon
     mean_time_to_happen = { months = 36 }
 
     option = {
-        name = FU_Byzantium_Events.50.a
+        name = vu_Byzantium_Events.50.a
 
         define_advisor = {
             name = "Gemisthus Plethon"
@@ -2787,7 +2787,7 @@ country_event = { #Gemisthus Plethon
     }
 
     option = {
-        name = FU_Byzantium_Events.50.b
+        name = vu_Byzantium_Events.50.b
 
         add_estate_loyalty = {
             estate = estate_church
@@ -2798,9 +2798,9 @@ country_event = { #Gemisthus Plethon
 
 
 province_event = { #Conversion of Anatolia
-    id = FU_Byzantium_Events.51
-    title = FU_Byzantium_Events.51.t
-    desc = FU_Byzantium_Events.51.d
+    id = vu_Byzantium_Events.51
+    title = vu_Byzantium_Events.51.t
+    desc = vu_Byzantium_Events.51.d
     picture = {
         trigger = {
             has_dlc = "Purple Phoenix"
@@ -2844,7 +2844,7 @@ province_event = { #Conversion of Anatolia
     }
 
     option = {
-        name = FU_Byzantium_Events.51.a
+        name = vu_Byzantium_Events.51.a
 
         if = {
             limit = {

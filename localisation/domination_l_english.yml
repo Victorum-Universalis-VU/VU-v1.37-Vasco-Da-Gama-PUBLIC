@@ -636,18 +636,13 @@
  desc_ancestor_papal_puppetmaster_personality: ""
  ancestor_papal_puppetmaster_personality_die_desc: "[Root.Monarch.GetHerHisCap] granted us access to incredible amounts of influence behind the seat of the Holy See."
  
- #Name Change  
- FU7: "Angevin Government of Genoa"
- FU7_ADJ: "Angevin-Genoese"
- FU_KINGDOM_OF_GOD: "Kingdom of God"
- FU_KINGDOM_OF_GOD_ADJ: "Papal"
- #National Ideas 
- FU7_ideas: "Angevin-Genoese Ideas"
- FU7_ideas_start: "Angevin-Genoese Traditions"
- FU7_ideas_bonus: "Angevin-Genoese Ambition"
- FU_KINGDOM_OF_GOD_ideas: "Papal Ideas"
- FU_KINGDOM_OF_GOD_ideas_start: "Papal Traditions"
- FU_KINGDOM_OF_GOD_ideas_bonus: "Papal Ambition"
+ #Name Change
+ vu_KINGDOM_OF_GOD: "Kingdom of God"
+ vu_KINGDOM_OF_GOD_ADJ: "Papal"
+ #National Ideas
+ vu_KINGDOM_OF_GOD_ideas: "Papal Ideas"
+ vu_KINGDOM_OF_GOD_ideas_start: "Papal Traditions"
+ vu_KINGDOM_OF_GOD_ideas_bonus: "Papal Ambition"
  #Privileges
  vu_estate_burghers_control_over_monetary_policy_desc: "By giving the [Root.GetBurghersName] the final say over monetary policy, the state guarantees that commercial interests will be taken into account when key economic decisions are made."
  vu_estate_burghers_control_over_monetary_policy: "Control over Monetary Policy"

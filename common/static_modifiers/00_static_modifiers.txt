@@ -246,13 +246,13 @@ severe_monsoon = {
 blockaded = {
 	regiment_recruit_speed = 0.2
 	ship_recruit_speed = 0.5	#VU AddOn changed from 0.2. Inspired by the Rule the Waves mod, which has some really good ideas but is just a bit much for me.
-	local_ship_repair = -0.5	#Blockaded ports would have a very hard time repairing ships -Don
+	local_ship_repair = -0.5	#Blockaded ports would have a very hard time repairing ships
 	local_monthly_devastation = 0.25
-	trade_goods_size_modifier = -0.5	#Unhashed both -Don, let's make blockades actually important
+	trade_goods_size_modifier = -0.5	#Unhashed both, let's make blockades actually important
 	province_trade_power_modifier = -0.9	#VU AddOn changed from -0.75. Inspired by the Rule the Waves mod, which has some really good ideas but is just a bit much for me.
-	attrition = 1	#Blockades would mean the local supply would be diminished, also affects the attacker, but that's sensible, also the second you sieze it this modifier get's removed -Don
-	local_defensiveness = -0.2	#Added some local siege ability from the blockade, making blockading more worthwhile empowering large naval tags with lesser armies -Don
-	local_unrest = 1	#Just a slight amount of unrest, blockaded cities would experience a lot of stress from lack of food etc. -Don
+	attrition = 1	#Blockades would mean the local supply would be diminished, also affects the attacker, but that's sensible, also the second you sieze it this modifier get's removed
+	local_defensiveness = -0.2	#Added some local siege ability from the blockade, making blockading more worthwhile empowering large naval tags with lesser armies
+	local_unrest = 1	#Just a slight amount of unrest, blockaded cities would experience a lot of stress from lack of food etc.
 }
 
 no_adjacent_controlled = {
@@ -299,7 +299,7 @@ development_scaled = {
 
 provincial_tax_income = {
 	#a tax income of 1.0 appears to be hardcoded into the engine. I hate messy stuff like this, but if I want to double dev, I'm going to have to offset it
-	tax_income = 0.01	#Increased this from -0.5 - DM because Don is the biggest TWAT in the universe!
+	tax_income = 0.01	#Increased this from -0.5 - DM because VU is the biggest TWAT in the universe!
 	regiment_recruit_speed = -0.005
 	local_great_project_upgrade_time = -0.01
 	local_build_time = -0.01
@@ -313,8 +313,8 @@ provincial_production_size = {
 
 capital_city = {
 	fort_level = 1
-	development_cost = -0.1	#Added this so that Capital cities end up more developed than random provinces (makes no sense for Berlin to be lower dev by the end of the game than potsdam etc.) -Don
-	build_cost = -0.1	#Very slightly cheaper building in a capital, again, to make it prefferential to build in capital -Don
+	development_cost = -0.1	#Added this so that Capital cities end up more developed than random provinces (makes no sense for Berlin to be lower dev by the end of the game than potsdam etc.)
+	build_cost = -0.1	#Very slightly cheaper building in a capital, again, to make it prefferential to build in capital
 	allowed_num_of_buildings = 1	#VU AddOn new - this little bonus will make sure even 3 dev capitals in arctic or desert terrains will have one open building slot as well as strengthen rich capitals like Paris
 }
 
@@ -572,8 +572,8 @@ active_missionary = {
 # Core province of the owner's culture group, while fighting a defensive war
 national_defense = {
 	local_unrest = -5
-	local_manpower = 0.025	#added manpower and sailors | Changed to a flat modifier from the 2% -Don
-	local_sailors = 10	#more people enlisting to defend your home, right? -Lord_Bowser | Changed to a flat modifier from the 2% -Don
+	local_manpower = 0.025	#added manpower and sailors | Changed to a flat modifier from the 2%
+	local_sailors = 10	#more people enlisting to defend your home, right? -Lord_Bowser | Changed to a flat modifier from the 2%
 }
 
 # penalty when migrant have been there recently.
@@ -596,7 +596,7 @@ left_trade_company = {
 }
 
 scorched_earth = {
-	local_hostile_movement_speed = -0.5	#VU AddOn changed from -0.5 - that is far too much, and I don't like the way it stacks with my terrain changes | reverted by Don (it cost powerpoints, make it worth it)
+	local_hostile_movement_speed = -0.5	#VU AddOn changed from -0.5 - that is far too much, and I don't like the way it stacks with my terrain changes | reverted (it cost powerpoints, make it worth it)
 	local_monthly_devastation = 0.25
 	local_autonomy = 0.01	#Burning down a province does go well with "lost control"
 }
@@ -627,7 +627,7 @@ base_values = { #For both Ai and Player nations - DM
 	devotion = -0.5
 	horde_unity = -2
 	meritocracy = -2
-	#governing_capacity = 350	        #VU Probably not a wise idea to lower from 200 to 80 based on the 10 to 4 max states conversion. Removed this as all government ranks give Governing Capacity now -Don
+	#governing_capacity = 350	        #VU Probably not a wise idea to lower from 200 to 80 based on the 10 to 4 max states conversion. Removed this as all government ranks give Governing Capacity now
 	num_accepted_cultures = 1	#VU AddOn changed from 2 - Note accepted culture bonus to government levels, so kingdoms start with the same as vanilla, and empires get 1 more.
 	monthly_splendor = 1
 	artillery_levels_available_vs_fort = 5
@@ -654,7 +654,7 @@ ai_nation = {
 	state_maintenance_modifier = -0.25
 	governing_capacity = 250	#Fixes pdx big brain (-_-)
 	governing_cost = -0.05
-	#global_supply_limit_modifier = 1	#REDUCE ARMY EVAL ERRORS + LESS LAG IN LATE GAME | Increased it to 1, Should further reduce the errors -Don | UPDATE! Lowered this back to 1 as it did nothing to improve lag - DM | UPDATE! Hashed it out as the Ai cheats with this enabled. - DM
+	#global_supply_limit_modifier = 1	#REDUCE ARMY EVAL ERRORS + LESS LAG IN LATE GAME | Increased it to 1, Should further reduce the errors | UPDATE! Lowered this back to 1 as it did nothing to improve lag - DM | UPDATE! Hashed it out as the Ai cheats with this enabled. - DM
 	nobles_influence_modifier = -0.1	#Reminder : Remove after estate re-work
 	eunuchs_influence_modifier = -0.1
 	country_admin_power = 1	#AI is stupid with monarch points so they get more
@@ -666,9 +666,9 @@ ai_nation = {
 war_taxes = {
 	land_maintenance_modifier = -0.15
 	naval_maintenance_modifier = -0.15
-	merc_maintenance_modifier = -0.15	#Increased from 5% as the rulers of the time would take out loans to buy mercenaries -Don
-	global_unrest = 1	#Nobody likes taxes -Don
-	global_tax_modifier = 0.15	#Extra taxes increase tax income? -Don
+	merc_maintenance_modifier = -0.15	#Increased from 5% as the rulers of the time would take out loans to buy mercenaries
+	global_unrest = 1	#Nobody likes taxes
+	global_tax_modifier = 0.15	#Extra taxes increase tax income?
 }
 
 stability = {
@@ -846,7 +846,7 @@ war = {
 	#GE
 	monthly_bureaucracy_vs_military_power = 0.05
 	monthly_imperial_grace_power = -0.1
-	#VU ToR changes by Don
+	#VU ToR changes
 	global_institution_spread = -0.1	#Being at war makes for slower spread of ideals
 	global_tax_modifier = 0.05	#Nations at peace could focus more on collecting taxes (mostly added to make it so there's some immediate economical benefit to being at peace)
 	production_efficiency = 0.05	#Same as the tax, production at war is less focused on profit and more-so on arming the soldiers
@@ -867,7 +867,7 @@ peace = {
 	monthly_cultural_unity = 0.1
 	monthly_blood = -0.05
 	monthly_authority_power = 0.1
-	#VU ToR changes by Don
+	#VU ToR changes
 	global_tax_modifier = 0.05	#Nations at peace could focus more on collecting taxes (mostly added to make it so there's some immediate economical benefit to being at peace)
 	production_efficiency = 0.05	#Same as the tax, production at war is less focused on profit and more-so on arming the soldiers
 	trade_efficiency = 0.05	#Same as tax, trading during war would mean higher tarrifs for imported goods, opposite at peace
@@ -937,8 +937,8 @@ mercantilism = {
 	embargo_efficiency = 1.5
 	burghers_loyalty_modifier = 0.05
 	vaisyas_loyalty_modifier = 0.05
-	build_cost = -0.2	#added build cost reduction because mercantilism was never worth investing any dip points into - Lord_Bowser | Fixed the decimal error and did some balancing - Don
-	build_time = -0.1	#added build time reduction because mercantilism was never worth investing any dip points into - Lord_Bowser | Fixed the decimal error and did some balancing - Don
+	build_cost = -0.2	#added build cost reduction because mercantilism was never worth investing any dip points into - Lord_Bowser | Fixed the decimal error and did some balancing - VU
+	build_time = -0.1	#added build time reduction because mercantilism was never worth investing any dip points into - Lord_Bowser | Fixed the decimal error and did some balancing - VU
 }
 
 army_tradition = {
@@ -980,7 +980,7 @@ positive_piety = {
 	#As of 1.23 Legalism. Updated by SF for VU v1.37.
 	global_missionary_strength = 0.04	#Moved this from Negative Peity as being more legalistic would increase missionary strength, not decrease it.
 	discipline = 0.075	#More disciplined and less fanatic.
-	global_tax_modifier = 0.25	#Increased this to 0.25 from 0.2 since being more legalistic would justify more taxation of the Dhimi or Kufar. Don't forget, taxing the infidel was a proven tactic of Islamic rulers to force the Kufars to convert through their own conviction rather than via force of arms.
+	global_tax_modifier = 0.25	#Increased this to 0.25 from 0.2 since being more legalistic would justify more taxation of the Dhimi or Kufar. VU't forget, taxing the infidel was a proven tactic of Islamic rulers to force the Kufars to convert through their own conviction rather than via force of arms.
 	global_unrest = -3	#Increased adherence from the Ummah for the teaching of Mohammad.
 	brahmins_muslim_loyalty_modifier = -0.1
 	church_loyalty_modifier = 0.1
@@ -1016,8 +1016,8 @@ defender_of_faith = {
 }
 
 defender_of_faith_refused_cta = {
-	diplomatic_reputation = -5	#Changed from -1, You are the sworn defender of the faithful, and you've betrayed them, there should be some considerable ramifications -Don
-	relation_with_same_religion = -20	#You left your religious kin to die to a heathen/heretic foe -Don
+	diplomatic_reputation = -5	#Changed from -1, You are the sworn defender of the faithful, and you've betrayed them, there should be some considerable ramifications
+	relation_with_same_religion = -20	#You left your religious kin to die to a heathen/heretic foe
 	monthly_asha_vahishta = -2
 }
 
@@ -1033,7 +1033,7 @@ states_in_hre = {
 	#VU Additions - bonuses for each non-free city with capital in HRE.. as emperor
 	land_forcelimit = 0.125	#VU adjusted VU's from 0.2
 	global_manpower = 0.125	#VU adjusted VU's from 0.2
-	tax_income = 0.125	#Emperor needs some cash -Don
+	tax_income = 0.125	#Emperor needs some cash
 }
 
 free_cities_in_hre = {
@@ -1203,7 +1203,7 @@ root_out_corruption = {
 }
 
 recovery_motivation = {
-	#Modus asked this to be Hashed -Don
+	#Modus asked this to be Hashed
 	#global_tax_modifier = 0.5
 	#defensiveness = 0.25
 	#manpower_recovery_speed = 0.5
@@ -1215,7 +1215,7 @@ recovery_motivation = {
 }
 
 luck = {
-	#Modus asked this to be Hashed -Don
+	#Modus asked this to be Hashed
 	##core
 	#global_missionary_strength = 0.01
 	#stability_cost_modifier = -0.1
@@ -1265,7 +1265,7 @@ prestige = {
 	improve_relation_modifier = 0.5
 	monthly_fervor_increase = 1
 	ae_impact = -0.1
-	embracement_cost = -0.1	#VU AddOn removed - no real reason other than I don't like it. It does make balance easier to plan too, though, when not having to factor this into AI chance to embrace. | Unhashing this entry: I don't understand why it was hashed out in the first place - Don
+	embracement_cost = -0.1	#VU AddOn removed - no real reason other than I don't like it. It does make balance easier to plan too, though, when not having to factor this into AI chance to embrace. | Unhashing this entry: I don't understand why it was hashed out in the first place - VU
 	monthly_heir_claim_increase = 0.05
 	monthly_persian_influence = 0.25
 	brahmins_hindu_loyalty_modifier = 0.05
@@ -1332,7 +1332,7 @@ curia_controller = {
 
 bought_indulgence = {
 	papal_influence = 1
-	tolerance_own = 2	#Catholics have less unrest if you show them you are a "good catholic" -Lord_Bowser | Increased to 2 from 0.5 to make it somewhat viable - Don
+	tolerance_own = 2	#Catholics have less unrest if you show them you are a "good catholic" -Lord_Bowser | Increased to 2 from 0.5 to make it somewhat viable - VU
 }
 
 religious_unity = {
@@ -1473,7 +1473,7 @@ trade_protectorate_overlord_modifier = {
 
 liberty_desire = {
 	#extra diplo slot when at least 80% LD so that they can ask for support
-	diplomatic_upkeep = 1	#WHY THE FUCK IS THIS 1.25??? IT'S A FLAT INTEGER MODIFIER!!! -Don
+	diplomatic_upkeep = 1	#WHY THE FUCK IS THIS 1.25??? IT'S A FLAT INTEGER MODIFIER!!!
 }
 
 is_great_power = {
@@ -1498,13 +1498,13 @@ absolutism = {
 	administrative_efficiency = 0.2	#VU AddOn changed from 0.4. Too exploitable, moving the 0.1 of the lost 0.2 back into tech.
 	production_efficiency = 0.15	#VU AddOn added. Compensation for losing the Admin efficiency, and also just logical sense... the description even says absolutism is how 'efficient' the government is. (Plus, 1.25 cut 0.3 from tech)
 	all_power_cost = -0.05	#VU AddOn added. Very powerful compensation for losing Admin Efficiency, hopefully putting to rest any whining about that. Note again, the description of absolutism does read 'how efficient' the government is, so this seems fitting.
-	global_unrest = 5	#VU AddOn added. Further disuading exploitation and just makes logical sense... the description even says absolutism is how 'ruthless' the government is. | Lowered further to 5 - Don
+	global_unrest = 5	#VU AddOn added. Further disuading exploitation and just makes logical sense... the description even says absolutism is how 'ruthless' the government is. | Lowered further to 5 - VU
 	global_spy_defence = 0.2	#Absolutist govenments would be a lot harder to infiltrate
 	monthly_ottoman_decadence = -0.5
 }
 
 low_army_professionalism = {
-	manpower_recovery_speed = 0.15	#Added by Don to slightly incentivise having more of a cannon-fodder armies, might be too much, will MP with it a bit and then we'll change it to a more appropriate amount
+	manpower_recovery_speed = 0.15	#Added to slightly incentivise having more of a cannon-fodder armies, might be too much, will MP with it a bit and then we'll change it to a more appropriate amount
 	mercenary_manpower = 0.25	#VU AddOn changed from 0.15. Low professionalism just seemed a bit lacklustre, so I'm spicing it up a bit.
 	mercenary_discipline = 0.05	#VU AddOn added. Making low professionalism armies slightly more attractive, but still not as good as high professionalism ones. More experienced mercenaries equals more discipline.
 }
@@ -1512,17 +1512,17 @@ low_army_professionalism = {
 high_army_professionalism = {
 	#Buffs
 	discipline = 0.1	#VU AddOn added. The reasoning here should be obvious. Note I also cut 0.05 from absolutism and removed the damage bonuses, so this isn't that massive
-	fire_damage = 0.1	#VU AddOn removed. Replaced by discipline. | Re-added by Don, also added some downsides to balance it out, quality over quantity after all...
+	fire_damage = 0.1	#VU AddOn removed. Replaced by discipline. | Re-added, also added some downsides to balance it out, quality over quantity after all...
 	shock_damage = 0.1	#VU AddOn removed. Replaced by discipline. | Same as previous one
-	global_supply_limit_modifier = 0.5	#Professional armies could be stationed in one place without taking attrition, secondly professionalism requires drilling armies, and driling large armies is the most efficient way to do it -Don
+	global_supply_limit_modifier = 0.5	#Professional armies could be stationed in one place without taking attrition, secondly professionalism requires drilling armies, and driling large armies is the most efficient way to do it
 	siege_ability = 0.15
 	drill_decay_modifier = -0.5
 	allowed_samurai_fraction = 0.1
 	#Debuffs
 	mercenary_discipline = -0.15	#Hiring mercs as a Professional nation would de-moralise them as they're now trying to compete with extremely professional units
 	land_forcelimit_modifier = -0.2	#Again, forcing the user into a smaller, more professional army
-	land_maintenance_modifier = 0.3	#Professional armies are more expensive to keep up -Don
-	manpower_recovery_speed = -0.15	#Highly professional armies would have a harder time recruiting new soldiers, this also forces the user to heavily invest in military infrastructure -Don
+	land_maintenance_modifier = 0.3	#Professional armies are more expensive to keep up
+	manpower_recovery_speed = -0.15	#Highly professional armies would have a harder time recruiting new soldiers, this also forces the user to heavily invest in military infrastructure
 }
 
 streltsy_modifier = {
@@ -1943,14 +1943,14 @@ lezhe_league_member_overlord = {
 
 #New Bosnia VU 1.37.*
 bosnian_banat_kingdom_subject = {
-	#Added by Prussia, Yeti, Don
+	#Added by Prussia, Yeti, VU
 	artillery_cost = -0.1
 	infantry_cost = -0.15
 	land_forcelimit = 2
 }
 
 bosnian_banat_kingdom_overlord = {
-	#Added by Prussia, Yeti, Don
+	#Added by Prussia, Yeti, VU
 	ae_impact = -0.1
 	global_regiment_cost = -0.1	#Consistently able to field armies against Venice
 	diplomatic_upkeep = 1
@@ -1958,7 +1958,7 @@ bosnian_banat_kingdom_overlord = {
 
 #New Slavic VU 1.37.*
 slavic_vojvodina_subject = {
-	#Added by Prussia, Don
+	#Added by Prussia, VU
 	morale_damage = 0.15
 	shock_damage_received = -0.15
 	global_tax_income = 12
@@ -1967,7 +1967,7 @@ slavic_vojvodina_subject = {
 }
 
 slavic_vojvodina_overlord = {
-	#Added by Prussia, Don
+	#Added by Prussia, VU
 	global_tax_income = 12
 	land_forcelimit = 1
 	manpower_recovery_speed = 0.05
@@ -2081,7 +2081,7 @@ duchy_subject = {
 	global_tax_income = 12	#Added at Modus' request to help offset the financial issues caused by building changes at the start of the game. - Prussia
 }
 
-#Bohemian only for reasons -Don
+#Bohemian only for reasons
 henry_duchy_subject = {
 	#land_forcelimit = 2
 	manpower_recovery_speed = 0.05
@@ -2715,7 +2715,7 @@ maintained_forts = {
 }
 
 timurid_chagatai_warriors = {
-	#Stfu Don, this is NOT overpowered. - SF :P
+	#Stfu VU, this is NOT overpowered. - SF :P
 	cavalry_shock = 1
 	leader_land_shock = 1
 	leader_siege = 1
@@ -3819,8 +3819,8 @@ hindu_shiva_principality_bonus = {
 }
 
 hindu_saraswati_principality_bonus = {
-	idea_cost = 0.05
-	technology_cost = 0.05
+	idea_cost = -0.05
+	technology_cost = -0.05
 	global_institution_spread = 0.2
 	yearly_innovativeness = 1
 }
@@ -3840,8 +3840,8 @@ hindu_parvarti_principality_bonus = {
 }
 
 hindu_principality_subject = {
-	land_forcelimit_modifier = 0.05
-	naval_forcelimit_modifier = 0.05
+	land_forcelimit_modifier = 0.1
+	naval_forcelimit = 3
 	global_tax_income = 24
 	army_tradition = 0.05
 	global_trade_goods_size_modifier = 0.01

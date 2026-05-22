@@ -13,7 +13,7 @@ unit_type = eastern
 historical_friend = POL
 capital = 272 # Vilnius
 
-#Don 21/3/2025
+#VU 21/3/2025
 #add_country_modifier = {
 #    name = "mercenary_upkeep_X"
 #    duration = -1

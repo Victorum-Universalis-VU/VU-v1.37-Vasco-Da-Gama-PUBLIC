@@ -1,4 +1,4 @@
-#vu_TGE_latent_buildings
+#vu_latent_buildings
 # Do not change tags in here without changing every other reference to them.
 # If adding new buildings, make sure they are uniquely named.
 # cost = x #==> cost in $ to build (subject to other modifiers)
@@ -1646,21 +1646,6 @@ mine = {
 			}
 			NOT = {
 				has_province_flag = has_mine
-			}
-			NOT = {
-				trade_goods = copper
-			}
-			NOT = {
-				trade_goods = tin
-			}
-			NOT = {
-				trade_goods = zinc
-			}
-			NOT = {
-				trade_goods = iron
-			}
-			NOT = {
-				trade_goods = lead
 			}
 			OR = {
 				has_terrain = mountain

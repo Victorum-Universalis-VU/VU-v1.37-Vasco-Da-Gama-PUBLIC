@@ -384,7 +384,7 @@ ara_consell_de_cent = {
 	effect = { 
 		custom_tooltip = ara_gain_administrator_trait_tt
 		#hidden_effect = { 
-			#country_event = { id = FU_Aragon_Events.12 }
+			#country_event = { id = vu_Aragon_Events.12 }
 		#}
 	}
 	ai = {
@@ -1025,6 +1025,7 @@ vu_unlocked_rep_outpost_reform = {
                 superregion = eastern_europe_superregion
             }
         }
+        government = republic
     }
     custom_attributes = {
         vu_has_ToR_subjects = yes
@@ -1087,6 +1088,7 @@ vu_unlocked_rep_borough_reform = {
                 superregion = eastern_europe_superregion
             }
         }
+        government = republic
     }
     custom_attributes = {
         vu_has_ToR_subjects = yes
@@ -1149,6 +1151,7 @@ vu_unlocked_rep_commune_reform = {
                 superregion = eastern_europe_superregion
             }
         }
+        government = republic
     }
     custom_attributes = {
         vu_has_ToR_subjects = yes
@@ -1212,6 +1215,7 @@ vu_unlocked_rep_canton_reform = {
                 superregion = eastern_europe_superregion
             }
         }
+        government = republic
     }
     custom_attributes = {
         vu_has_ToR_subjects = yes
@@ -1275,6 +1279,7 @@ vu_unlocked_rep_territory_reform = {
                 superregion = eastern_europe_superregion
             }
         }
+        government = republic
     }
     custom_attributes = {
         vu_has_ToR_subjects = yes
@@ -1338,6 +1343,7 @@ vu_unlocked_rep_province_reform = {
                 superregion = eastern_europe_superregion
             }
         }
+        government = republic
     }
     custom_attributes = {
         vu_has_ToR_subjects = yes
@@ -1402,6 +1408,7 @@ vu_unlocked_rep_state_reform = {
                 superregion = eastern_europe_superregion
             }
         }
+        government = republic
     }
     custom_attributes = {
         vu_has_ToR_subjects = yes
@@ -1467,6 +1474,7 @@ vu_unlocked_rep_commonwealth_reform = {
                 superregion = eastern_europe_superregion
             }
         }
+        government = republic
     }
     custom_attributes = {
         vu_has_ToR_subjects = yes
@@ -1491,4 +1499,28 @@ vu_unlocked_rep_commonwealth_reform = {
     ai = {
         factor = 100
     }
+}
+
+vu_neapolitan_republic_reform = {
+	icon = naples_parthenopean_republic
+	allow_normal_conversion = yes
+	valid_for_nation_designer = no
+	potential = {
+		OR = {
+			primary_culture = neapolitan
+			have_had_reform = vu_neapolitan_republic_reform
+		}
+	}
+	modifiers = {
+		republican_tradition = 0.5
+		max_absolutism = -20
+		global_unrest = -1
+		stability_cost_modifier = -0.10
+	}
+	duration = 4
+	custom_attributes = {
+		has_candidate_bonus = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
 }

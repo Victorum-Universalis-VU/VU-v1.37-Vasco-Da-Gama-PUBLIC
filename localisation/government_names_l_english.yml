@@ -958,6 +958,7 @@
  #Turkic Court - MALE RULER TITLES
  TUR_IMAM: "Imam"
  TUR_GRAND_MUFTI: "Grand Mufti"
+ TUR_GRAND_MUFTI_VU: "Grand Mufti"
  TUR_SHEIKH: "Sheik"
  TUR_SHARIF: "Sharif"
  TUR_BEY: "Bey"
@@ -1021,6 +1022,7 @@
  #Indian Court - FEMALE HEIR TITLES
  INDSC_PRINCESS_HEIR_fem: "Rajkumari"
  INDSC_CROWN_PRINCESS_fem: "Taj Rajkumari"
+ INDSC_CROWN_PRINCESS_HEIR_fem: "Taj Rajkumari"
  #Chinese Pacification Commission
  CHINESE_PACIFICATION_COMMISSION: "Xuanfushi si"
  CHINESE_PACIFICATION_COMMISSIONER: "Xuanfushi"

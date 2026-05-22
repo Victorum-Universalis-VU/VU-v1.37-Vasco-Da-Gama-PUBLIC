@@ -308,7 +308,7 @@ monarchy = {
 				palaiologos_montferrat_reform
 				savoia_reform
 				anglois_dual_monarchy
-				#Spain - By Don CRINGE
+				#Spain - By VU CRINGE
 				respect_union_reform
 				islamic_feudal_theocratic_order_reform
 				#Prussia's Larp reforms
@@ -449,9 +449,9 @@ monarchy = {
 				slave_farmer_reform
 				carriers_of_the_quiver_reform
 				generic_nobles_priests_reform
-				#Spain by Don
+				#Spain
 				system_of_councils_reform
-				#Czechia by Don and Modus
+				#Czechia and Modus
 				vu_council_of_nobles_reform
 				#Timurid Reforms by Prussia
 				timurid_diwan_reform #Moved so it's in the same tier as it's Mughal equivelent - Prussia
@@ -1352,6 +1352,7 @@ republic = {
 				genoese_republic
 				italian_republic_reform
 				signoria_baglioni_reform
+				vu_neapolitan_republic_reform
 				old_swiss_confederation_reform
 				russian_republic_republic
 				caucasian_republic

@@ -29,7 +29,7 @@ change_estate_land_share = {
 	share = 10
 }
 
-#Don 21/3/2025
+#VU 21/3/2025
 #add_country_modifier = {
 #    name = "mercenary_upkeep_II"
 #    duration = -1

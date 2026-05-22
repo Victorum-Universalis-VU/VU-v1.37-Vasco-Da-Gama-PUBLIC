@@ -1,5 +1,5 @@
 # VU ToR v1.37 subject types by SF
-# Credits go to: Prussia, Don, Altan, Letole and Modus.
+# Credits go to: Prussia, VU, Altan, Letole and Modus.
 # All subjects listed here are for VU and were created by the VU team. 
 
 #AlBANIAN SUBJECTS
@@ -16795,7 +16795,7 @@ slavic_vojvodina = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = yes
-    seize_territory = yes          #Kniaz is appointing the vojvod - Don
+    seize_territory = yes          #Kniaz is appointing the vojvod - VU
     #(enable)
     contribute_to_capital = no
     return_land = yes

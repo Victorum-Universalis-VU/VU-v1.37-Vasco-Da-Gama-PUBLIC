@@ -49,7 +49,7 @@
  HED_vassal_completed_dev_cost_mission: "Custodian of the Two Holy Mosques"
  
  HED_highlighted_area_is_owned_by_us_subject_or_overlord: "The §YHighlighted Area§! is owned by §Y[Root.GetName]§!, their §YSubjects§! or their §YOverlords§!."
- HED_highlighted_area_is_owned_by_us_subject_or_overlord_and_has_road_network: "The §YHighlighted Area§! is:\n Owned by §Y[Root.GetName]§!, their §YSubjects§! or their §YOverlords§!.\n Has [Root.GetSharifateTGEtrigger]."
+ HED_highlighted_area_is_owned_by_us_subject_or_overlord_and_has_road_network: "The §YHighlighted Area§! is:\n Owned by §Y[Root.GetName]§!, their §YSubjects§! or their §YOverlords§!.\n Has [Root.GetSharifateVUtrigger]."
  HED_road_network: "the §YRoad Network§! building"
  HED_3_times_improved: "been improved at least §Y3§! times"
  ARB_the_highlighted_area: "The §YHighlighted Area§!:"

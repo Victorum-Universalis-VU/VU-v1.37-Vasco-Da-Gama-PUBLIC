@@ -1,15 +1,15 @@
-namespace = FU_Monument_Events
+namespace = vu_Monument_Events
 
 country_event = { #The Brandenburg Gate
-	id = FU_Monument_Events.1
-	title = FU_Monument_Events.1.t 
-	desc = FU_Monument_Events.1.d 
+	id = vu_Monument_Events.1
+	title = vu_Monument_Events.1.t 
+	desc = vu_Monument_Events.1.d 
 	picture = vu_brandenburg_gate_eventPicture
 	
 	is_triggered_only = yes 
 	
 	option = {
-		name = FU_Monument_Events.1.a 
+		name = vu_Monument_Events.1.a 
 		
 		if = {
 			limit = {
@@ -28,9 +28,9 @@ country_event = { #The Brandenburg Gate
 }
 
 country_event = { #Hidden event for personality addition
-	id = FU_Monument_Events.2
-	title = FU_Monument_Events.2.t 
-	desc = FU_Monument_Events.2.d 
+	id = vu_Monument_Events.2
+	title = vu_Monument_Events.2.t 
+	desc = vu_Monument_Events.2.d 
 	picture = vu_brandenburg_gate_eventPicture
 	
 	is_triggered_only = yes 
@@ -47,21 +47,21 @@ country_event = { #Hidden event for personality addition
 	}
 	
 	option = {
-		name = FU_Monument_Events.2.a 
+		name = vu_Monument_Events.2.a 
 	}
 }
 
 country_event = { #The Glory of Arts & Culture
-	id = FU_Monument_Events.3
-	title = FU_Monument_Events.3.t 
-	desc = FU_Monument_Events.3.d 
+	id = vu_Monument_Events.3
+	title = vu_Monument_Events.3.t 
+	desc = vu_Monument_Events.3.d 
 	picture = vu_porcelain_tower_eventPicture
 	
 	is_triggered_only = yes  
 	
 	
 	option = {
-		name = FU_Monument_Events.3.a 
+		name = vu_Monument_Events.3.a 
 		
 		add_dip_power = 100
 		
@@ -69,16 +69,16 @@ country_event = { #The Glory of Arts & Culture
 }
 
 country_event = { #Shakespeare's Globe Theatre
-	id = FU_Monument_Events.4
-	title = FU_Monument_Events.4.t 
-	desc = FU_Monument_Events.4.d 
+	id = vu_Monument_Events.4
+	title = vu_Monument_Events.4.t 
+	desc = vu_Monument_Events.4.d 
 	picture = CULTURE_eventPicture
 	
 	is_triggered_only = yes  
 	
 	
 	option = {
-		name = FU_Monument_Events.4.a 
+		name = vu_Monument_Events.4.a 
 		
 		if = {
 			limit = { has_estate = estate_burghers }
@@ -96,9 +96,9 @@ country_event = { #Shakespeare's Globe Theatre
 }
 
 country_event = { #Hidden event for personality addition
-	id = FU_Monument_Events.6
-	title = FU_Monument_Events.6.t 
-	desc = FU_Monument_Events.6.d 
+	id = vu_Monument_Events.6
+	title = vu_Monument_Events.6.t 
+	desc = vu_Monument_Events.6.d 
 	picture = vu_brandenburg_gate_eventPicture
 	
 	is_triggered_only = yes 
@@ -115,14 +115,14 @@ country_event = { #Hidden event for personality addition
 	}
 	
 	option = {
-		name = FU_Monument_Events.6.a 
+		name = vu_Monument_Events.6.a 
 	}
 }
 
 country_event = { #Hidden event for personality addition
-	id = FU_Monument_Events.7
-	title = FU_Monument_Events.7.t 
-	desc = FU_Monument_Events.7.d 
+	id = vu_Monument_Events.7
+	title = vu_Monument_Events.7.t 
+	desc = vu_Monument_Events.7.d 
 	picture = vu_brandenburg_gate_eventPicture
 	
 	is_triggered_only = yes 
@@ -139,14 +139,14 @@ country_event = { #Hidden event for personality addition
 	}
 	
 	option = {
-		name = FU_Monument_Events.7.a 
+		name = vu_Monument_Events.7.a 
 	}
 }
 
 country_event = { #Hidden event for personality addition
-	id = FU_Monument_Events.8
-	title = FU_Monument_Events.8.t 
-	desc = FU_Monument_Events.8.d 
+	id = vu_Monument_Events.8
+	title = vu_Monument_Events.8.t 
+	desc = vu_Monument_Events.8.d 
 	picture = vu_brandenburg_gate_eventPicture
 	
 	is_triggered_only = yes 
@@ -163,6 +163,6 @@ country_event = { #Hidden event for personality addition
 	}
 	
 	option = {
-		name = FU_Monument_Events.8.a 
+		name = vu_Monument_Events.8.a 
 	}
 }

@@ -69,8 +69,8 @@
  # Silesian tags
  OPL:0 "Opole"
  OPL_ADJ:0 "Opole"
- GLG:0 "Glogow"
- GLG_ADJ:0 "Glogow"
+ GLG:0 "Glogau"
+ GLG_ADJ:0 "Glogau"
  # Lotharingia
  LOT:0 "Lotharingia"
  LOT_ADJ:0 "Lotharingian"
@@ -165,8 +165,8 @@
  BRG_ADJ:0 "Berger"
  CLI:0 "Cilli"
  CLI_ADJ:0 "Cilli"
- HRZ:0 "Herzegovina"
- HRZ_ADJ:0 "Herzegovinian"
+ HRZ:0 "Svetog Save"
+ HRZ_ADJ:0 "Savan"
  MLH:0 "Mulhouse"
  MLH_ADJ:0 "Mulhousian"
  PDV:0 "Padua"

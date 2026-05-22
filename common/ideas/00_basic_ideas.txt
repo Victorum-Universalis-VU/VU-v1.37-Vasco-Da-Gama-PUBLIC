@@ -1,5 +1,5 @@
 #VU 1.37.* update by SF
-#Key contributors to the file: SF, Prussia, Lukas, Altan, Yeti, Don
+#Key contributors to the file: SF, Prussia, Lukas, Altan, Yeti, VU
 ###########################################
 #################   ADM   #################
 ###########################################
@@ -1110,7 +1110,7 @@ religious_ideas = {
 
 
 ###################################
-## Doge's Ideas; Reworked by Don ##
+## Doge's Ideas; Reworked ##
 ###################################
 #############   ADM   #############
 ###################################
@@ -2276,7 +2276,7 @@ agricultural_ideas = {
 }
 
 ###########################################
-## Vanilla Ideas; Reworked Doge's by Don ##
+## Vanilla Ideas; Reworked Doge's ##
 ###########################################
 #################   DIP   #################
 ###########################################
@@ -2529,6 +2529,7 @@ exploration_ideas = {
 	}
 	bonus = {
 		cb_on_primitives = yes
+		may_establish_frontier = yes
 	}
 	quest_for_the_new_world = {
 		#Fits
@@ -2545,7 +2546,7 @@ exploration_ideas = {
 	}
 	land_of_opportunity = {
 		#Fits
-		global_colonial_growth = 10
+		global_colonial_growth = 20
 	}
 	colonial_management = {
 		#Was factories
@@ -2620,7 +2621,7 @@ maritime_ideas = {
 }
 
 ###################################
-## Doge's Ideas; Reworked by Don ##
+## Doge's Ideas; Reworked ##
 ###################################
 #############   DIP   #############
 ###################################
@@ -2821,15 +2822,15 @@ colonial_empire = {
 	category = DIP
 	bonus = {
 		colonists = 1
+		global_colonial_growth = 20
 	}
 	trigger = {
 		primitives = no
-		OR = {
+		AND = {
 			has_idea_group = expansion_ideas
 			has_idea_group = exploration_ideas
 		}
 		num_of_ports = 5
-		colony = 2
 	}
 	colonial_relations = {
 		diplomatic_upkeep = 2
@@ -3116,7 +3117,7 @@ fishing_ideas = {
 }
 
 ###########################################
-## Vanilla Ideas; Reworked Doge's by Don ##
+## Vanilla Ideas; Reworked Doge's ##
 ###########################################
 #################   MIL   #################
 ###########################################
@@ -3293,7 +3294,7 @@ defensive_ideas = {
 }
 
 ###################################
-## Doge's Ideas; Reworked by Don ##
+## Doge's Ideas; Reworked ##
 ###################################
 #############   MIL   #############
 ###################################
@@ -3301,14 +3302,17 @@ defensive_ideas = {
 general_staff_ideas = {
 	category = MIL
 	bonus = {
-		army_tradition_decay = -0.015		#2.0
+		max_general_fire = 1
+		max_general_shock = 1
+		max_general_maneuver = 1
+		max_general_siege = 1		#2.0
 	}
 	organised_general_education = {
 		leader_cost = -0.25
 		may_recruit_female_generals = yes
 	}
 	new_land_doctrines = {
-		army_tradition_from_battle = 0.5		#2.0
+		army_tradition = 1		#2.0
 		mil_tech_cost_modifier = -0.1		#2.0
 	}
 	outmanoevering_enemies = {
@@ -3317,7 +3321,7 @@ general_staff_ideas = {
 	}
 	improved_siege_tactics = {
 		leader_siege = 1
-		siege_ability = 0.1		#2.0
+		siege_ability = 0.2		#2.0
 	}
 	naval_officer_training = {
 		naval_tradition_from_battle = 0.5		#2.0
@@ -3388,7 +3392,7 @@ conscription_ideas = {
 	category = MIL
 	bonus = {
 		manpower_recovery_speed = 0.25
-		discipline = -0.075 #Don & Lucas
+		discipline = -0.075 #VU & Lucas
 	}
 	trigger = {
 		NOT = {
@@ -3500,7 +3504,7 @@ war_economy_ideas = {
 }
 
 fortress_ideas = {
-	# . . . - - - . . . -DonBrom
+	# . . . - - - . . . -VU
 	category = MIL
 	trigger = {
 		has_idea_group = defensive_ideas

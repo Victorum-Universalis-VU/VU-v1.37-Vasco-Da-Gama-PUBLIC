@@ -22,7 +22,7 @@ center_of_trade = 2
 
 #History by SF
 1300.1.1 = {
-	culture = pommeranian #Added by SF in VU v1.37 on advice of Don Brom since according to his sources, Polabian Slavs had already been fully assimilated by the Germans.
+	culture = pommeranian #Added by SF in VU v1.37 Polabian Slavs had already been fully assimilated by the Germans.
 }
 1444.1.1 = { owner = M5H controller = M5H add_core = M5H remove_core = DYM }
 

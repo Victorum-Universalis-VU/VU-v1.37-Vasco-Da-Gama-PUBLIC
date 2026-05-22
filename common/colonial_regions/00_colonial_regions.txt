@@ -1,5 +1,5 @@
 # 12 Active CR's (Please update this when you add in a new CR)
-#A list by Don
+#A list
 #colonial_alaska
 #colonial_canada
 #colonial_eastern_america
@@ -2442,7 +2442,7 @@ colonial_brazil = {
 		#From Rio Grande
 		760 768 769 2857 2879 2884 2887 2895 3192 3205 3208 3210 3211 3212 3215 3216 3217 3249 3255 3257 3258 3259 3260
 		
-		#From Maranhï¿½o
+		#From Maranhão
 		749 750 751 752 753 754 755 756 757 2885 2886 2912 2913 2914 2915 2916 2917 2921 2922 2923 2924 2925 2926 2927 3269 3059 3061 3062 3065	
 		3067 3072 3074 3078 3080 3084 8741
 		

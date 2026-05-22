@@ -90,7 +90,7 @@ defined_text = {
 	random = no
 
 	text = {
-		localisation_key = TGEspices
+		localisation_key = vu_spices
 	}
 	text = {
 		localisation_key = VaniSpices

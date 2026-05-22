@@ -120,7 +120,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 0 #Don't, it's more interesting this way :-)
+			factor = 0 #VU't, it's more interesting this way :-)
 		}
 	}
 
@@ -155,7 +155,7 @@ country_decisions = {
 			# }
 		# }
 		# ai_will_do = {
-			# factor = 0 #Don't, it's more interesting this way :-)
+			# factor = 0 #VU't, it's more interesting this way :-)
 		# }
 	# }
 

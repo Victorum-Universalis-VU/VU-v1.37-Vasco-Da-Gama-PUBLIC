@@ -360,7 +360,7 @@ is_mongolian_vassal = {
 	opinion = 60
 }
 
-#VU v1,37 additions by Don
+#VU v1,37 additions
 vu_sacking = {
     opinion = -5
     yearly_decay = -2

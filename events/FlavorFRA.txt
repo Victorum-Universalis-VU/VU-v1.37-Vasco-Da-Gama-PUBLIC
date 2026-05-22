@@ -1497,7 +1497,7 @@ country_event = {
 		}
 	}
 	option = {
-		# Don't Let him Reform
+		# VU't Let him Reform
 		name = "flavor_fra.EVTOPTB3141"
 		add_stability_or_adm_power = yes
 	}
@@ -2679,7 +2679,7 @@ country_event = {
 		}
 	}
 	option = {
-		# Don't give them anything
+		# VU't give them anything
 		name = "flavor_spa.EVTOPTC3156"
 		ai_chance = {
 			factor = 0
@@ -3260,7 +3260,7 @@ country_event = {
 			}
 		}
 		FRA = {
-			set_country_flag = general_flag_for_FU_Rome_flag
+			set_country_flag = general_flag_Rome_flag
 		}
 		custom_tooltip = fra_no_malus_for_vassalage_of_pope_tt
 		add_country_modifier = {
@@ -3951,11 +3951,17 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_ruler = napoleon_bonaparte
+					has_ruler = "Napoleon"
 				}
 			}
 			hidden_effect = {
-				set_ruler = napoleon_bonaparte
+				define_ruler = {
+					name = "Napoleon"
+					dynasty = "Bonaparte"
+					adm = 5
+					dip = 4
+					mil = 6
+				}
 			}
 			RVF = {
 				country_event = {
@@ -4265,7 +4271,7 @@ country_event = {
 				dynasty = "Bonaparte"
 			}
 			hidden_effect = {
-				set_ruler = napoleon_bonaparte
+				set_ruler = napoleon_in_exile
 			}
 			NPF = {
 				country_event = {
@@ -4497,9 +4503,6 @@ country_event = {
 			male = yes
 		}
 		BFR = {
-			set_ruler = charles_x
-		}
-		BFR = {
 			country_event = {
 				id = flavor_fra.9516
 			}
@@ -4538,7 +4541,6 @@ country_event = {
 		}
 		OFR = {
             change_government = monarchy
-			set_ruler = louis_philippe_i
 			add_government_reform = french_orleanist_restoration_reform
 			remove_government_reform = french_monarchic_restoration_reform
 		}
@@ -4626,7 +4628,6 @@ country_event = {
 		}
 		FSR = {
             change_government = republic
-			set_ruler = napoleon_iii_bonaparte
 			add_government_reform = french_second_republic_reform
 			remove_government_reform = french_monarchic_restoration_reform
 		}

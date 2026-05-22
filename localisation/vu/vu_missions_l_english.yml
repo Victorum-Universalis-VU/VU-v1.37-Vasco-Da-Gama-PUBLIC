@@ -1132,20 +1132,20 @@
  tur_collapse_hun_3: "There is no help for this fallen nation. We will abandon the crown of Hungary now that it has collapsed. Country will be HRE-ified, splitting into many successor states and counties. In our last attempt of surviving Turkish menace, the newly broken confederation will ask Holy Roman Emperor for protection and states will join the HRE."
  tur_collapse_tra: "Every province in Banat and Transylvania areas will be given directly to our control."
  #
- lotf_gb_sea_venture_title: "Sea Venture"
- lotf_gb_sea_venture_desc: "The first of her kind, a ship destined to help emigrate those seeking to expand the borders of the crown. The first single-timbered armed merchant ship of England, she was armed with eight 9-pounder culverins, eight 5-pounder sakers, and four 3-pounded falcons on top of 4 arquebuses!"
- lotf_gb_plymouth_title: "Plymouth Settlement"
- lotf_gb_plymouth_desc: "Plymouth Colony, America's first permanent Puritan settlement, was established by English Separatist Puritans. The Pilgrims left England to seek religious freedom, or simply to find a better life. After a period in Holland, they set sail from Plymouth, England, aboard the Mayflower."
- lotf_gb_reorganize_colonies_title: "Reorganize the Colonies"
- lotf_gb_reorganize_colonies_desc: "The colonies have been rowdy as of late, likely due to the increased tarrifs recently insituted. It's time to reorganize the colonies and bring them back under control of the crown."
- lotf_gb_invest_northern_colonies_title: "Invest in the North"
- lotf_gb_invest_northern_colonies_desc: "The riches brought by the trade of furs and fishes must be increased! The colonies have been helpful in funding the crown, but the tobacco trades in the south have overshadowed the north."
- lotf_gb_invest_southern_colonies_title: "Invest in the South"
- lotf_gb_invest_southern_colonies_desc: "Tobacco and cotton has proven to be very lucrative business for the southern colonies. It would be wise to invest our resources into assuring that their production is increased."
- lotf_gb_jamestown_title: "Jamestown Settlement"
- lotf_gb_jamestown_desc: "The Chesapeke Bay presents many opportunities for the crown and for the inhabitants of England. Tobacco plants have been cultivated in the area and have been fetching quite a nice price in Europe. We should investigate this further."
- lotf_gb_rh_title: "Rhode Island Settlement"
- lotf_gb_rh_desc: "Trapping for furs has always been a lucrative business, and the furs of the new world are no exception to this rule. The natural port of this region makes for a favorable trade hub."
+ vu_murica_gb_sea_venture_title: "Sea Venture"
+ vu_murica_gb_sea_venture_desc: "The first of her kind, a ship destined to help emigrate those seeking to expand the borders of the crown. The first single-timbered armed merchant ship of England, she was armed with eight 9-pounder culverins, eight 5-pounder sakers, and four 3-pounded falcons on top of 4 arquebuses!"
+ vu_murica_gb_plymouth_title: "Plymouth Settlement"
+ vu_murica_gb_plymouth_desc: "Plymouth Colony, America's first permanent Puritan settlement, was established by English Separatist Puritans. The Pilgrims left England to seek religious freedom, or simply to find a better life. After a period in Holland, they set sail from Plymouth, England, aboard the Mayflower."
+ vu_murica_gb_reorganize_colonies_title: "Reorganize the Colonies"
+ vu_murica_gb_reorganize_colonies_desc: "The colonies have been rowdy as of late, likely due to the increased tarrifs recently insituted. It's time to reorganize the colonies and bring them back under control of the crown."
+ vu_murica_gb_invest_northern_colonies_title: "Invest in the North"
+ vu_murica_gb_invest_northern_colonies_desc: "The riches brought by the trade of furs and fishes must be increased! The colonies have been helpful in funding the crown, but the tobacco trades in the south have overshadowed the north."
+ vu_murica_gb_invest_southern_colonies_title: "Invest in the South"
+ vu_murica_gb_invest_southern_colonies_desc: "Tobacco and cotton has proven to be very lucrative business for the southern colonies. It would be wise to invest our resources into assuring that their production is increased."
+ vu_murica_gb_jamestown_title: "Jamestown Settlement"
+ vu_murica_gb_jamestown_desc: "The Chesapeke Bay presents many opportunities for the crown and for the inhabitants of England. Tobacco plants have been cultivated in the area and have been fetching quite a nice price in Europe. We should investigate this further."
+ vu_murica_gb_rh_title: "Rhode Island Settlement"
+ vu_murica_gb_rh_desc: "Trapping for furs has always been a lucrative business, and the furs of the new world are no exception to this rule. The natural port of this region makes for a favorable trade hub."
  13_colonies_southern_colonies_title: "The Southern Colonies"
  13_colonies_southern_colonies_desc: "The southern coast of the continent has been flourishing with the recent immigration of settlers looking to cash in on the lucrative tobacco trade. Expanding the borders of the south is the only natural solution, as there is no shortage of land for those interested in cultivating it."
  13_colonies_weather_the_winter_title: "Weather the Winter"
@@ -1229,7 +1229,7 @@
  #
  emp_pap_patrimony_of_st_peter_tt: "§Y6§! provinces in §YMarche-Abruzzo§! or §YEmilia-Romagna§! areas are owned by you or your non-tributary subjects"
  
- #New 1.37 Missions by DonBrom
+ #New 1.37 Missions by VU
  #Generic Austrian Missions 
  vu_austrian_generic_1_title: "Prepare for War"
  vu_austrian_generic_1_desc: "Let's go!"

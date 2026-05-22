@@ -84,7 +84,7 @@ RHN_supplying_the_industry = {
 	trade_value = 0.5
 }
 
-RHN_coal_debuff_tge = {
+RHN_coal_debuff_vu = {
 	trade_value_modifier = -0.1
 }
 
@@ -96,7 +96,7 @@ RHN_coal_industry_coexisting = {
 	development_cost = -0.1
 }
 
-RHN_munitions_tge_modifier = {
+RHN_munitions_vu_modifier = {
 	fire_damage = 0.05
 }
 

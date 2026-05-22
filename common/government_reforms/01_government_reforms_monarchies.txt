@@ -1,7 +1,6 @@
 #Updated for VU 1.37.* by SF
 #Contributors:
 #Altan
-#DonBrom
 #San Felipe
 #Prussia
 #NOTE!!! Only actual Reforms go in here, not Legacy. Legacy go into 00_government_reforms.txt
@@ -52,7 +51,7 @@ feudalism_reform = {
     }
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
-        vu_has_ToR_subjects = yes		#New VU 1.37.* Don Stuff
+        vu_has_ToR_subjects = yes		#New VU 1.37.* VU Stuff
     }
     ai = {
         factor = 0.5		#generic
@@ -3956,7 +3955,7 @@ al_andalusia_government = {
             has_dlc = "Cradle of Civilization"
         }
         custom_attributes = {
-            allow_piety_switch_decision = yes			#Enables a decision which gives 1 stabhit, but turns your piety 180ï¿½
+            allow_piety_switch_decision = yes			#Enables a decision which gives 1 stabhit, but turns your piety 180°
         }
     }
 }
@@ -3965,7 +3964,7 @@ margrave_of_brandenburg = {
     icon = "margrave_of_brandenburg"
     allow_normal_conversion = yes
     potential = {
-        #has_dlc = "Don plays Brandenburg all the time and he's proud of that"
+        #has_dlc = "VU plays Brandenburg all the time and he's proud of that"
         OR = {
             tag = BRA
             have_had_reform = margrave_of_brandenburg
@@ -3977,13 +3976,13 @@ margrave_of_brandenburg = {
     trigger = {
     }
     modifiers = {
-        diplomatic_reputation = 0.5		#Nerfed from 1 to 0.5 -Don
-        diplomatic_upkeep = 1		#Nerfed from 2 to 1 -Don
+        diplomatic_reputation = 0.5		#Nerfed from 1 to 0.5
+        diplomatic_upkeep = 1		#Nerfed from 2 to 1
         land_maintenance_modifier = -0.1
         nobles_influence_modifier = -0.05
         burghers_loyalty_modifier = 0.05
-        #build_cost = -0.2 #Was making construction in BRA too cheap, replaced below:  -Don
-        relation_with_same_religion = 10		#Make BRA a lot more diplomatic than PRU  -Don
+        #build_cost = -0.2 #Was making construction in BRA too cheap, replaced below:
+        relation_with_same_religion = 10		#Make BRA a lot more diplomatic than PRU
     }
     custom_attributes = {
         vu_has_ToR_subjects = yes
@@ -4036,7 +4035,7 @@ prussian_monarchy = {
         max_absolutism = 10
         monarch_military_power = 3
         nobles_loyalty_modifier = 0.1
-        #governing_capacity_modifier = -0.2 Hashed out due to common consensus by Don, SF, Prussia and Lucas
+        #governing_capacity_modifier = -0.2 Hashed out due to common consensus, SF, Prussia and Lucas
     }
     custom_attributes = {
         vu_has_ToR_subjects = yes
@@ -11522,13 +11521,13 @@ system_of_councils_reform = {
     }
 }
 
-#Council of Nobles by Modus and Don
+#Council of Nobles by Modus and VU
 vu_council_of_nobles_reform = {
     icon = "council_of_nobles"
     allow_normal_conversion = no
     potential = {
         OR = {
-            #mission_completed = BOH_council_of_nobles #Whatever Don decides for the mission
+            #mission_completed = BOH_council_of_nobles #Whatever VU decides for the mission
             has_reform = vu_council_of_nobles_reform
             have_had_reform = vu_council_of_nobles_reform
         }
@@ -11537,7 +11536,7 @@ vu_council_of_nobles_reform = {
     }
     trigger = {
         OR = {
-            #mission_completed = BOH_council_of_nobles #Whatever Don decides for the mission
+            #mission_completed = BOH_council_of_nobles #Whatever VU decides for the mission
             has_reform = vu_council_of_nobles_reform
             have_had_reform = vu_council_of_nobles_reform
         }
@@ -11966,7 +11965,7 @@ unlocked_eue_lordship_reform = {
             }
         }
     }
-    #fixed_rank = 1 #Don't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
+    #fixed_rank = 1 #VU't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
         vu_has_ToR_crowns = yes
@@ -12035,7 +12034,7 @@ unlocked_eue_barony_reform = {
         }
         government_rank = 2
     }
-    #fixed_rank = 2  #Don't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
+    #fixed_rank = 2  #VU't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
         vu_has_ToR_crowns = yes
@@ -12111,7 +12110,7 @@ unlocked_eue_viscounty_reform = {
         }
         government_rank = 3
     }
-    #fixed_rank = 3 #Don't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
+    #fixed_rank = 3 #VU't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
         vu_has_ToR_crowns = yes
@@ -12194,7 +12193,7 @@ unlocked_eue_county_reform = {
         }
         government_rank = 4
     }
-    #fixed_rank = 4 #Don't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
+    #fixed_rank = 4 #VU't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
         vu_has_ToR_crowns = yes
@@ -12270,7 +12269,7 @@ unlocked_eng_earldom_reform = {
         }
         government_rank = 4
     }
-    #fixed_rank = 4  #Don't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
+    #fixed_rank = 4  #VU't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
         vu_has_ToR_crowns = yes
@@ -12351,7 +12350,7 @@ unlocked_eue_marquisate_reform = {
         }
         government_rank = 5
     }
-    #fixed_rank = 5 #Don't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
+    #fixed_rank = 5 #VU't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
         vu_has_ToR_crowns = yes
@@ -12429,7 +12428,7 @@ unlocked_eue_duchy_reform = {
         }
         government_rank = 6
     }
-    #fixed_rank = 6  #Don't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
+    #fixed_rank = 6  #VU't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
         vu_has_ToR_crowns = yes
@@ -12509,7 +12508,7 @@ unlocked_eue_principality_reform = {
         }
         government_rank = 7
     }
-    #fixed_rank = 7 #Don't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
+    #fixed_rank = 7 #VU't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
         vu_has_ToR_crowns = yes
@@ -12598,7 +12597,7 @@ unlocked_eue_kingdom_reform = {
         }
         government_rank = 8
     }
-    #fixed_rank = 8 #Don't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
+    #fixed_rank = 8 #VU't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
         vu_has_ToR_crowns = yes
@@ -12649,7 +12648,7 @@ unlocked_eue_empire_reform = {
         }
         government_rank = 9
     }
-    #fixed_rank = 9 #Don't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
+    #fixed_rank = 9 #VU't need this, as when you upgrade your govenment rank, you loose this one and gain the upgraded one
     custom_attributes = {
         buffed_strong_duchies = yes		#+5% Loyalty
         vu_has_ToR_crowns = yes
@@ -13246,8 +13245,25 @@ french_kingdom_reform = {
     icon = "bourbon_dynasty"
     allow_normal_conversion = no
     potential = {
-        culture_group = french
-        have_had_reform = french_kingdom_reform
+        government = monarchy
+        OR = {
+            tag = FRA
+            AND = {
+                culture_group = french
+                NOT = { exists = FRA }
+            }
+        }
+    }
+    trigger = {
+        # The Ancien Regime belongs to France proper, or French culture
+        # nations that have unified France in France's absence.
+        OR = {
+            tag = FRA
+            AND = {
+                culture_group = french
+                NOT = { exists = FRA }
+            }
+        }
     }
     lock_level_when_selected = yes
     valid_for_nation_designer = yes
@@ -13257,10 +13273,12 @@ french_kingdom_reform = {
     }
     start_territory_to_estates = 0.3
     modifiers = {
-        governing_capacity = 100		#No change in VU but was
-        legitimacy = 0.5
-        global_unrest = -1
-        max_absolutism = -30
+        governing_capacity = 150          # Royal court and bureaucracy at their height
+        legitimacy = 0.75                 # Divine right of kings
+        global_unrest = -1                # Social stability of the Ancien Regime
+        max_absolutism = -20              # Parlements and Estates of the Realm limit royal power
+        prestige_decay = -0.01            # Legacy of the Sun King and Bourbon glory
+        diplomatic_reputation = 1         # France as the arbiter of European civilisation
     }
     conditional = {
         allow = {
@@ -13273,6 +13291,44 @@ french_kingdom_reform = {
         vu_has_ToR_subjects = yes
         vu_has_ToR_crowns = yes
     }
+    effect = {
+        # Non-FRA French culture nations that adopt the Ancien Regime become France
+        if = {
+            limit = { NOT = { tag = FRA } }
+            change_tag = FRA
+            swap_non_generic_missions = yes
+        }
+        # Restore the Bourbon court — Louis and his queen take the throne
+        hidden_effect = {
+            kill_ruler = yes
+            define_ruler = {
+                name = "Louis"
+                dynasty = "Bourbon"
+                adm = 4
+                dip = 3
+                mil = 2
+                age = 20
+                claim = 100
+            }
+            define_consort = {
+                name = "Marie Antoinette"
+                dynasty = "Habsburg"
+                adm = 2
+                dip = 4
+                mil = 1
+                age = 14
+            }
+            define_heir = {
+                name = "Louis"
+                dynasty = "Bourbon"
+                adm = 1
+                dip = 1
+                mil = 1
+                age = 5
+                claim = 95
+            }
+        }
+    }
 }
 
 ############
@@ -13281,84 +13337,208 @@ french_kingdom_reform = {
 #Step 4 - Put in 01_government_reforms_monarchies
 #Does not have legacy entry
 french_consulate_reform = {
-    #consulate_reform
     icon = "consulate"
     allow_normal_conversion = yes
     potential = {
-        culture_group = french
-        has_reform = directory_republic_reform
+        is_french_nation = yes
         is_revolutionary = no
+        OR = {
+            # Historical: transitioning from the Directory Republic
+            has_reform = directory_republic_reform
+            # Alternative: military coup path from the Kingdom
+            AND = {
+                government = monarchy
+                has_reform = french_kingdom_reform
+            }
+        }
     }
     trigger = {
-        culture_group = french
-        has_reform = directory_republic_reform
+        is_revolutionary = no
+        OR = {
+            # Historical: came through the Revolution via the Directory
+            has_reform = directory_republic_reform
+            # Alternative: military strongman seizes power from the Kingdom
+            AND = {
+                has_reform = french_kingdom_reform
+                mil_power = 200
+                absolutism = 60
+            }
+        }
     }
     modifiers = {
-        global_autonomy = -0.05
-        governing_capacity = 300		#No change in VU
+        global_autonomy = -0.10               # Iron centralisation under the First Consul
+        governing_capacity = 200            # Napoleonic administrative overhaul
+        administrative_efficiency = 0.05   # The Napoleonic Code and the prefect system
+        global_unrest = -2                  # Order restored after Revolutionary chaos
+    }
+    custom_attributes = {
+        vu_has_ToR_subjects = yes
+        vu_has_ToR_crowns = yes
     }
     ai = {
         factor = 2.5
+    }
+    effect = {
+        if = {
+            limit = { NOT = { tag = NPF } }
+            change_tag = NPF
+            swap_non_generic_missions = yes
+        }
+        # Napoleon Bonaparte seizes power as First Consul
+        hidden_effect = {
+            kill_ruler = yes
+            define_ruler = {
+                name = "Napoleon"
+                dynasty = "Bonaparte"
+                adm = 6
+                dip = 5
+                mil = 6
+                age = 30
+                claim = 90
+            }
+            define_consort = {
+                name = "Josephine"
+                dynasty = "de Beauharnais"
+                adm = 2
+                dip = 3
+                mil = 1
+                age = 36
+            }
+        }
+        # The Little Corporal commands his armies in the field
+        define_general = {
+            name = "Napoleon Bonaparte"
+            fire = 6
+            shock = 5
+            manuever = 6
+            siege = 4
+            trait = glory_seeker_personality
+        }
     }
 }
 
 #Step 6 - Put in 01_government_reforms_monarchies
 first_french_empire_reform = {
-    #revolutionary_empire_reform
     lock_level_when_selected = yes
     icon = "napoleonic_dynasty"
     allow_normal_conversion = no
     potential = {
-        OR = {
-            tag = NPF
-            culture_group = french
-        }
+        government = monarchy
+        is_french_nation = yes
         is_revolutionary = no
-        has_reform = french_consulate_reform
     }
     trigger = {
+        is_revolutionary = no
         OR = {
-            tag = NPF
-            culture_group = french
+            # Historical: empire proclaimed from the Consulate
+            has_reform = french_consulate_reform
+            # Alternative: empire imposed directly from the Kingdom
+            AND = {
+                has_reform = french_kingdom_reform
+                absolutism = 80
+                mil_tech = 20
+            }
+            # Coup restoration: empire re-established after a republican interlude
+            AND = {
+                has_country_flag = french_coup_restored_monarchy
+                have_had_reform = first_french_empire_reform
+                absolutism = 60
+            }
         }
-        has_reform = french_consulate_reform
     }
     valid_for_new_country = no
     uses_revolutionary_zeal = no
     fixed_rank = 9
     modifiers = {
-        global_manpower_modifier = 0.25
-        land_morale = 0.1
-        global_autonomy = -0.2
-        governing_capacity = 300		#No change in VU
+        global_manpower_modifier = 0.30      # Levee en masse, the Grande Armee
+        land_morale = 0.15                 # Esprit de corps and Napoleonic tactics
+        global_autonomy = -0.2             # Imperial centralisation
+        governing_capacity = 300           # The Empire at the height of its power
+        discipline = 0.05                  # Professional excellence of the imperial armies
     }
     custom_attributes = {
         locked_government_type = yes
         vu_has_ToR_subjects = yes
         vu_has_ToR_crowns = yes
+    }
+    effect = {
+        if = {
+            limit = { NOT = { tag = NPF } }
+            change_tag = NPF
+            swap_non_generic_missions = yes
+        }
+        # Napoleon crowns himself Emperor of the French
+        hidden_effect = {
+            if = {
+                limit = { NOT = { dynasty = "Bonaparte" } }
+                kill_ruler = yes
+                define_ruler = {
+                    name = "Napoleon"
+                    dynasty = "Bonaparte"
+                    adm = 6
+                    dip = 5
+                    mil = 6
+                    age = 35
+                    claim = 90
+                }
+            }
+            define_consort = {
+                name = "Marie-Louise"
+                dynasty = "Habsburg"
+                adm = 2
+                dip = 3
+                mil = 1
+                age = 22
+            }
+            define_heir = {
+                name = "Napoleon"
+                dynasty = "Bonaparte"
+                adm = 2
+                dip = 2
+                mil = 3
+                age = 2
+                claim = 90
+            }
+        }
+        # The Emperor commands the Grande Armee personally
+        if = {
+            limit = { NOT = { dynasty = "Bonaparte" } }
+            define_general = {
+                name = "Napoleon Bonaparte"
+                fire = 6
+                shock = 5
+                manuever = 6
+                siege = 4
+                trait = glory_seeker_personality
+            }
+        }
     }
 }
 
 #Step 7,9
 #Does not have legacy entry
 french_monarchic_restoration_reform = {
-    #revolutionary_empire_reform
     icon = "bourbon_dynasty"
     allow_normal_conversion = no
     potential = {
-        OR = {
-            tag = BFR
-            culture_group = french
-        }
+        government = monarchy
+        is_french_nation = yes
         is_revolutionary = no
-        has_reform = french_kingdom_reform
     }
     trigger = {
+        is_revolutionary = no
         OR = {
-            tag = BFR
-            culture_group = french
+            # Historical: the First Empire has fallen, the Bourbons are restored
+            has_reform = first_french_empire_reform
+            # Alternative: the Hundred Days regime collapses, Bourbons restored again
+            has_reform = french_first_empire_restoration_reform
+            # Coup restoration: republic overthrown, Bourbons restored by force
+            AND = {
+                has_country_flag = french_coup_restored_monarchy
+                legitimacy = 60
+                stability = 1
+            }
         }
-        has_reform = french_kingdom_reform
     }
     maintain_dynasty = yes
     royal_marriage = no
@@ -13366,10 +13546,11 @@ french_monarchic_restoration_reform = {
     lock_level_when_selected = yes
     fixed_rank = 8
     modifiers = {
-        land_morale = 0.1
-        war_exhaustion = -0.03
-        max_absolutism = 10
-        heir_chance = 1
+        legitimacy = 0.75                  # Restored Bourbon legitimacy
+        diplomatic_reputation = 1          # France restored to the Concert of Europe
+        war_exhaustion = -0.05             # Peace after decades of Revolutionary war
+        max_absolutism = 5                 # The Charter grants modest constitutional limits
+        heir_chance = 1                    # Dynastic priority of the Bourbons
     }
     conditional = {
         allow = {
@@ -13381,29 +13562,73 @@ french_monarchic_restoration_reform = {
         locked_government_type = yes
         vu_has_ToR_subjects = yes
         vu_has_ToR_crowns = yes
+    }
+    effect = {
+        if = {
+            limit = { NOT = { tag = BFR } }
+            change_tag = BFR
+            swap_non_generic_missions = yes
+        }
+        # The Bourbon dynasty is restored — Louis returns to the throne
+        hidden_effect = {
+            kill_ruler = yes
+            define_ruler = {
+                name = "Louis"
+                dynasty = "Bourbon"
+                adm = 4
+                dip = 3
+                mil = 2
+                age = 35
+                claim = 100
+            }
+            define_consort = {
+                name = "Marie Antoinette"
+                dynasty = "Habsburg"
+                adm = 2
+                dip = 4
+                mil = 1
+                age = 30
+            }
+            define_heir = {
+                name = "Louis"
+                dynasty = "Bourbon"
+                adm = 1
+                dip = 1
+                mil = 1
+                age = 8
+                claim = 95
+            }
+        }
     }
 }
 
 #Step 10
 #Does not have legacy entry
 french_orleanist_restoration_reform = {
-    #revolutionary_empire_reform
     icon = "orleanist_dynasty"
     allow_normal_conversion = no
     potential = {
-        OR = {
-            tag = OFR
-            culture_group = french
-        }
+        government = monarchy
+        is_french_nation = yes
         is_revolutionary = no
-        has_reform = french_monarchic_restoration_reform
     }
     trigger = {
+        is_revolutionary = no
         OR = {
-            tag = OFR
-            culture_group = french
+            # Historical: Bourbon monarchy overthrown, Orleanists take the throne
+            has_reform = french_monarchic_restoration_reform
+            # Alternative: Orleanists rise directly from the ashes of the First Empire
+            AND = {
+                has_reform = first_french_empire_reform
+                stability = 2
+            }
+            # Coup restoration: republic overthrown, Orleanists restored by force
+            AND = {
+                has_country_flag = french_coup_restored_monarchy
+                legitimacy = 70
+                stability = 2
+            }
         }
-        has_reform = french_monarchic_restoration_reform
     }
     maintain_dynasty = yes
     royal_marriage = no
@@ -13411,10 +13636,11 @@ french_orleanist_restoration_reform = {
     lock_level_when_selected = yes
     fixed_rank = 8
     modifiers = {
-        land_morale = 0.1
-        war_exhaustion = -0.03
-        max_absolutism = 10
-        heir_chance = 1
+        production_efficiency = 0.05       # Industrial bourgeois monarchy
+        global_trade_power = 0.05          # Commercial and colonial expansion
+        max_absolutism = -10               # The Citizen King is more liberal than the Bourbons
+        heir_chance = 1                    # Dynastic continuity of the House of Orleans
+        innovativeness_gain = 0.5          # Age of the railway, industry, and Romanticism
     }
     conditional = {
         allow = {
@@ -13427,29 +13653,73 @@ french_orleanist_restoration_reform = {
         vu_has_ToR_subjects = yes
         vu_has_ToR_crowns = yes
     }
+    effect = {
+        if = {
+            limit = { NOT = { tag = OFR } }
+            change_tag = OFR
+            swap_non_generic_missions = yes
+        }
+        # Louis-Philippe, the Citizen King, takes the throne
+        hidden_effect = {
+            kill_ruler = yes
+            define_ruler = {
+                name = "Louis-Philippe"
+                dynasty = "Orleans"
+                adm = 4
+                dip = 5
+                mil = 2
+                age = 57
+                claim = 90
+            }
+            define_consort = {
+                name = "Marie-Amelie"
+                dynasty = "Bourbon"
+                adm = 2
+                dip = 3
+                mil = 1
+                age = 48
+            }
+            define_heir = {
+                name = "Ferdinand"
+                dynasty = "Orleans"
+                adm = 3
+                dip = 3
+                mil = 3
+                age = 20
+                claim = 85
+            }
+        }
+    }
 }
 
 #Step 8
 #Does not have legacy entry
 french_first_empire_restoration_reform = {
-    #revolutionary_empire_reform
-    # French unique gov 1814 ï¿½ 1815, France is ruled by Napoleon III
+    # French unique gov 1814-1815 â€” Napoleon I returns during the Hundred Days
     icon = "napoleonic_dynasty"
     allow_normal_conversion = no
     potential = {
-        OR = {
-            tag = NPF
-            culture_group = french
-        }
+        government = monarchy
+        is_french_nation = yes
         is_revolutionary = no
-        has_reform = french_monarchic_restoration_reform
     }
     trigger = {
+        is_revolutionary = no
         OR = {
-            tag = NPF
-            culture_group = french
+            # Historical: Napoleon returns, sweeping aside the Bourbon Restoration
+            has_reform = french_monarchic_restoration_reform
+            # Alternative: Napoleon returns from the Orleanist monarchy
+            AND = {
+                has_reform = french_orleanist_restoration_reform
+                mil_power = 200
+            }
+            # Coup restoration: empire reimposed after a republican interlude
+            AND = {
+                has_country_flag = french_coup_restored_monarchy
+                have_had_reform = first_french_empire_reform
+                mil_power = 150
+            }
         }
-        has_reform = french_monarchic_restoration_reform
     }
     maintain_dynasty = yes
     royal_marriage = no
@@ -13457,10 +13727,10 @@ french_first_empire_restoration_reform = {
     lock_level_when_selected = yes
     fixed_rank = 9
     modifiers = {
-        land_morale = 0.1
-        war_exhaustion = -0.03
-        max_absolutism = 10
-        heir_chance = 1
+        land_morale = 0.20                 # Napoleons veterans, fired with zeal for the Emperor
+        global_manpower_modifier = 0.15   # Mass mobilisation for the final campaign
+        discipline = 0.05                  # The Old Guard, the finest soldiers in Europe
+        war_exhaustion = -0.05             # The nation rallies to the Eagles once more
     }
     conditional = {
         allow = {
@@ -13470,42 +13740,139 @@ french_first_empire_restoration_reform = {
     }
     custom_attributes = {
         locked_government_type = yes
+        vu_has_ToR_subjects = yes
+        vu_has_ToR_crowns = yes
+    }
+    effect = {
+        if = {
+            limit = { NOT = { tag = NPF } }
+            change_tag = NPF
+            swap_non_generic_missions = yes
+        }
+        # Napoleon returns from Elba — the Hundred Days begin
+        hidden_effect = {
+            kill_ruler = yes
+            define_ruler = {
+                name = "Napoleon"
+                dynasty = "Bonaparte"
+                adm = 6
+                dip = 5
+                mil = 6
+                age = 45
+                claim = 90
+            }
+        }
+        # The Emperor rides once more — spawn him as a field commander
+        define_general = {
+            name = "Napoleon Bonaparte"
+            fire = 6
+            shock = 5
+            manuever = 6
+            siege = 4
+            trait = glory_seeker_personality
+        }
+        # Start the Hundred Days clock; clear any previous collapse flag
+        set_country_flag = vu_hundred_days_started
+        clr_country_flag = vu_hundred_days_collapsed
     }
 }
 
 #Step 14 - Put in 01_government_reforms_monarchies
 second_french_empire_reform = {
-    #revolutionary_empire_reform
     lock_level_when_selected = yes
     icon = "napoleonic_dynasty"
-    allow_normal_conversion = no
+    allow_normal_conversion = yes
     potential = {
-        OR = {
-            tag = FSE
-            culture_group = french
-        }
+        is_french_nation = yes
         is_revolutionary = no
-        has_reform = french_second_republic_reform
+        OR = {
+            # Historical: Napoleon III rises from the Second Republic
+            has_reform = french_second_republic_reform
+            # Alternative: Second Empire imposed directly from Orleanist monarchy
+            AND = {
+                government = monarchy
+                has_reform = french_orleanist_restoration_reform
+                absolutism = 70
+            }
+            # Coup restoration: Second Empire restored after a republican interlude
+            AND = {
+                government = monarchy
+                has_country_flag = french_coup_restored_monarchy
+                have_had_reform = second_french_empire_reform
+            }
+        }
     }
     trigger = {
+        is_revolutionary = no
         OR = {
-            tag = FSE
-            culture_group = french
+            # Historical: Napoleon III seizes power from the Second Republic
+            has_reform = french_second_republic_reform
+            # Alternative: Orleanist monarchy transitions into the Second Empire
+            AND = {
+                has_reform = french_orleanist_restoration_reform
+                absolutism = 70
+            }
+            # Coup restoration: Second Empire re-established after a coup
+            AND = {
+                has_country_flag = french_coup_restored_monarchy
+                have_had_reform = second_french_empire_reform
+                absolutism = 60
+                stability = 1
+            }
         }
-        has_reform = french_second_republic_reform
     }
     valid_for_new_country = no
     uses_revolutionary_zeal = no
-    revolutionary = no
     fixed_rank = 9
     modifiers = {
-        global_manpower_modifier = 0.25
-        land_morale = 0.1
-        global_autonomy = -0.2
-        governing_capacity = 300		#No change in VU
+        global_manpower_modifier = 0.20      # Modernised, professional army
+        land_morale = 0.10                 # Military tradition of the Bonapartes
+        global_autonomy = -0.15            # Centralised imperial state
+        governing_capacity = 250           # Paris as the heart of European civilisation
+        build_cost = -0.10                 # Haussmanns renovation and industrial expansion
+        production_efficiency = 0.05       # The industrial revolution in full swing
     }
     custom_attributes = {
         locked_government_type = yes
+        vu_has_ToR_subjects = yes
+        vu_has_ToR_crowns = yes
+    }
+    effect = {
+        if = {
+            limit = { NOT = { tag = FSE } }
+            change_tag = FSE
+            swap_non_generic_missions = yes
+        }
+        # Louis-Napoleon crowns himself Napoleon III, Emperor of the French
+        hidden_effect = {
+            kill_ruler = yes
+            define_ruler = {
+                name = "Napoleon"
+                dynasty = "Bonaparte"
+                adm = 4
+                dip = 4
+                mil = 3
+                age = 44
+                claim = 90
+            }
+            define_consort = {
+                name = "Eugenie"
+                dynasty = "de Montijo"
+                adm = 2
+                dip = 4
+                mil = 1
+                age = 26
+            }
+            define_heir = {
+                name = "Napoleon"
+                dynasty = "Bonaparte"
+                adm = 1
+                dip = 1
+                mil = 2
+                age = 2
+                claim = 90
+            }
+        }
     }
 }
 
@@ -13515,23 +13882,29 @@ second_french_empire_reform = {
 #Step 11 - 01_government_reforms_monarchies (become a republic)
 #Does not have legacy entry
 become_french_second_republic_reform = {
-    #become_rev_republic_reform
     icon = "second_republic"
     allow_normal_conversion = yes
     potential = {
-        OR = {
-            tag = FSR
-            culture_group = french
-        }
+        is_french_nation = yes
         is_revolutionary = no
-        has_reform = first_french_empire_reform
+        OR = {
+            has_reform = first_french_empire_reform
+            has_reform = french_monarchic_restoration_reform
+            has_reform = french_orleanist_restoration_reform
+            has_reform = french_first_empire_restoration_reform
+        }
     }
     trigger = {
+        is_revolutionary = no
         OR = {
-            tag = FSR
-            culture_group = french
+            # Historical: the First Empire collapses into the Second Republic
+            has_reform = first_french_empire_reform
+            # Alternative: Bourbon or Orleanist monarchy collapses into republic
+            has_reform = french_monarchic_restoration_reform
+            has_reform = french_orleanist_restoration_reform
+            # Alternative: the Hundred Days regime collapses into republic
+            has_reform = french_first_empire_restoration_reform
         }
-        has_reform = first_french_empire_reform
     }
     modifiers = {
     }
@@ -13546,6 +13919,21 @@ become_french_second_republic_reform = {
         lose_reforms = 3
         change_government = republic
         add_government_reform = french_second_republic_reform
+        change_tag = FSR
+        swap_non_generic_missions = yes
+        # The provisional republic installs a military strongman to restore order
+        hidden_effect = {
+            kill_ruler = yes
+            define_ruler = {
+                name = "Cavaignac"
+                dynasty = ""
+                adm = 3
+                dip = 2
+                mil = 4
+                age = 46
+                claim = 80
+            }
+        }
         if = {
             limit = {
                 has_country_flag = had_states_general_mechanic
@@ -13564,23 +13952,27 @@ become_french_second_republic_reform = {
 #Step 15 - 01_government_reforms_monarchies (become a republic)
 #Does not have legacy entry
 become_french_third_republic_reform = {
-    #become_rev_republic_reform
     icon = "third_republic"
     allow_normal_conversion = yes
     potential = {
-        OR = {
-            tag = TFR
-            culture_group = french
-        }
+        is_french_nation = yes
         is_revolutionary = no
-        has_reform = second_french_empire_reform
+        OR = {
+            has_reform = second_french_empire_reform
+            has_reform = french_second_republic_reform
+        }
     }
     trigger = {
+        is_revolutionary = no
         OR = {
-            tag = TFR
-            culture_group = french
+            # Historical: the Second Empire collapses into the Third Republic
+            has_reform = second_french_empire_reform
+            # Alternative: the Second Republic transitions directly to the Third Republic
+            AND = {
+                has_reform = french_second_republic_reform
+                stability = 2
+            }
         }
-        has_reform = second_french_empire_reform
     }
     modifiers = {
     }
@@ -13595,6 +13987,21 @@ become_french_third_republic_reform = {
         lose_reforms = 3
         change_government = republic
         add_government_reform = french_third_republic_reform
+        change_tag = TFR
+        swap_non_generic_missions = yes
+        # Adolphe Thiers becomes the first President of the Third Republic
+        hidden_effect = {
+            kill_ruler = yes
+            define_ruler = {
+                name = "Thiers"
+                dynasty = ""
+                adm = 5
+                dip = 4
+                mil = 2
+                age = 74
+                claim = 80
+            }
+        }
         if = {
             limit = {
                 has_country_flag = had_states_general_mechanic
@@ -16232,7 +16639,7 @@ vu_sunda_kingdom_reform = {
     modifiers = {
         heir_chance = 1
         land_morale = 0.1
-        liberty_desire = -0.1
+        reduced_liberty_desire = 20
         global_missionary_strength = 0.02
         global_trade_goods_size_modifier = 0.1
     }

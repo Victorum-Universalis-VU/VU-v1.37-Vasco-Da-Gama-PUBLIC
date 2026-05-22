@@ -2834,7 +2834,7 @@ country_event = {
             #Friedrich carries the flag with him, the second he dies the flag dies with him...
             has_ruler_flag = friedrich_III_flag
         }
-        is_date = 1444.1.1 #Adding this so the event doesn't trigger in 1215 -Don
+        is_date = 1444.1.1 #Adding this so the event doesn't trigger in 1215
     }
     immediate = {
         #If the player is playing as one of these tags, they won't recieve a death screen on death of Friedrich III.
@@ -2858,7 +2858,7 @@ country_event = {
                     limit = {
                         STY = {
                             ai = yes
-                            if = { #Adding this as a fallback if the target tag is a subject of another overlord -Don
+                            if = { #Adding this as a fallback if the target tag is a subject of another overlord
                                 limit = { is_subject = yes }
                                 is_subject_of = ROOT
                             }
@@ -2870,7 +2870,7 @@ country_event = {
                     limit = {
                         CNL = {
                             ai = yes
-                            if = { #Adding this as a fallback if the target tag is a subject of another overlord -Don
+                            if = { #Adding this as a fallback if the target tag is a subject of another overlord
                                 limit = { is_subject = yes }
                                 is_subject_of = ROOT
                             }
@@ -2882,7 +2882,7 @@ country_event = {
                     limit = {
                         CR1 = {
                             ai = yes
-                            if = { #Adding this as a fallback if the target tag is a subject of another overlord -Don
+                            if = { #Adding this as a fallback if the target tag is a subject of another overlord
                                 limit = { is_subject = yes }
                                 is_subject_of = ROOT
                             }
@@ -2894,7 +2894,7 @@ country_event = {
                     limit = {
                         SH1 = {
                             ai = yes
-                            if = { #Adding this as a fallback if the target tag is a subject of another overlord -Don
+                            if = { #Adding this as a fallback if the target tag is a subject of another overlord
                                 limit = { is_subject = yes }
                                 is_subject_of = ROOT
                             }
@@ -2922,7 +2922,7 @@ country_event = {
                     limit = {
                         AUT = {
                             ai = yes
-                            if = { #Adding this as a fallback if the target tag is a subject of another overlord -Don
+                            if = { #Adding this as a fallback if the target tag is a subject of another overlord
                                 limit = { is_subject = yes }
                                 is_subject_of = ROOT
                             }
@@ -2934,7 +2934,7 @@ country_event = {
                     limit = {
                         CNL = {
                             ai = yes
-                            if = { #Adding this as a fallback if the target tag is a subject of another overlord -Don
+                            if = { #Adding this as a fallback if the target tag is a subject of another overlord
                                 limit = { is_subject = yes }
                                 is_subject_of = ROOT
                             }
@@ -2946,7 +2946,7 @@ country_event = {
                     limit = {
                         CR1 = {
                             ai = yes
-                            if = { #Adding this as a fallback if the target tag is a subject of another overlord -Don
+                            if = { #Adding this as a fallback if the target tag is a subject of another overlord
                                 limit = { is_subject = yes }
                                 is_subject_of = ROOT
                             }
@@ -2958,7 +2958,7 @@ country_event = {
                     limit = {
                         SH1 = {
                             ai = yes
-                            if = { #Adding this as a fallback if the target tag is a subject of another overlord -Don
+                            if = { #Adding this as a fallback if the target tag is a subject of another overlord
                                 limit = { is_subject = yes }
                                 is_subject_of = ROOT
                             }
@@ -2981,7 +2981,7 @@ country_event = {
         custom_tooltip = flavor_hab.40.a.tt
         add_years_of_income = 1
         add_stability = 1
-        #add_manpower = 10 Removing this as it can cause some BS situations when at war with them -Don
+        #add_manpower = 10 Removing this as it can cause some BS situations when at war with them
         add_prestige = 25
     }
 }

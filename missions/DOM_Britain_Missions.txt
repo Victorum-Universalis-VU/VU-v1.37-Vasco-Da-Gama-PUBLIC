@@ -1,4 +1,4 @@
-#VU - Updated by San Felipe for 1.36.*
+#VU - Updated by Darth Modus v1.37.*
 #English Section
 eng_row_slot_1 = {
 	slot = 1
@@ -879,7 +879,7 @@ eng_row_slot_1 = {
 				}
 				add_church_power = 100
 				tooltip = {
-					#Hashed out by Don
+					#Hashed out
 					#unlock_church_aspect = {
 					#	church_aspect = anglican_aspect
 					#}
@@ -891,7 +891,7 @@ eng_row_slot_1 = {
 					religion = anglican
 				}
 				add_church_power = 100
-				#Hashed out by Don
+				#Hashed out
 				#tooltip = {
 				#	unlock_church_aspect = {
 				#		church_aspect = spread_the_book_of_common_prayer
@@ -905,7 +905,7 @@ eng_row_slot_1 = {
 				}
 			}
 			hidden_effect = {
-				#Hashed out by Don
+				#Hashed out
 				#unlock_church_aspect = {
 				#	church_aspect = anglican_aspect
 				#}
@@ -2455,7 +2455,7 @@ gbr_row_3 = {
 			}
 		}
 	}
-	lotf_gb_sea_venture = {
+	vu_murica_gb_sea_venture = {
 		icon = mission_rb_grow_the_channel
 		required_missions = {
 			eng_rb_mighty_navy
@@ -2466,7 +2466,7 @@ gbr_row_3 = {
 		}
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = lotf_gb_sea_venture_tt
+				tooltip = vu_murica_gb_sea_venture_tt
 				481 = {
 					country_or_non_sovereign_subject_holds = ROOT
 					is_city = yes
@@ -2539,7 +2539,7 @@ gbr_row_3 = {
 		icon = mission_settlers_north_america
 		required_missions = {
 			gbr_explore_new_world
-			lotf_gb_sea_venture
+			vu_murica_gb_sea_venture
 		}
 		position = 6
 		provinces_to_highlight = {
@@ -2623,7 +2623,7 @@ gbr_row_3 = {
 			}
 		}
 	}
-	lotf_gb_jamestown = {
+	vu_murica_gb_jamestown = {
 		icon = prosperity_for_all
 		required_missions = {
 			eng_rb_establish_trade_in_american_cot_virginia_company
@@ -2634,7 +2634,7 @@ gbr_row_3 = {
 		}
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = lotf_gb_jamestown_tt
+				tooltip = vu_murica_gb_jamestown_tt
 				950 = {
 					country_or_non_sovereign_subject_holds = ROOT
 					is_city = yes
@@ -2665,10 +2665,10 @@ gbr_row_3 = {
 			}
 		}
 	}
-	lotf_gb_rh = {
+	vu_murica_gb_rh = {
 		icon = overshadow_venice
 		required_missions = {
-			lotf_gb_jamestown
+			vu_murica_gb_jamestown
 		}
 		position = 9
 		provinces_to_highlight = {
@@ -2676,7 +2676,7 @@ gbr_row_3 = {
 		}
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = lotf_gb_rh_tt
+				tooltip = vu_murica_gb_rh_tt
 				967 = {
 					country_or_non_sovereign_subject_holds = ROOT
 					is_city = yes
@@ -2709,7 +2709,7 @@ gbr_row_3 = {
 	eng_settle_charleston = {
 		icon = mission_rb_cotton_harvesting
 		required_missions = {
-			lotf_gb_rh
+			vu_murica_gb_rh
 		}
 		position = 10
 		provinces_to_highlight = {
@@ -2748,7 +2748,7 @@ gbr_row_3 = {
 			}
 		}
 	}
-	lotf_gb_invest_southern_colonies = {
+	vu_murica_gb_invest_southern_colonies = {
 		icon = dalmatian_conquest
 		required_missions = {
 			eng_settle_charleston
@@ -2815,7 +2815,7 @@ gbr_row_3 = {
 			}
 		}
 		effect = {
-			custom_tooltip = lotf_gb_invest_southern_colonies_tt
+			custom_tooltip = vu_murica_gb_invest_southern_colonies_tt
 			hidden_effect = {
 				colonial_eastern_america = {
 					limit = {
@@ -2845,7 +2845,7 @@ gbr_row_3 = {
 					}
 				}
 			}
-			custom_tooltip = lotf_gb_invest_southern_colonies_bonus_tt
+			custom_tooltip = vu_murica_gb_invest_southern_colonies_bonus_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -2862,16 +2862,16 @@ gbr_row_3 = {
 			}
 		}
 	}
-	lotf_gb_reorganize_colonies = {
+	vu_murica_gb_reorganize_colonies = {
 		icon = mission_reorganize_colonies
 		required_missions = {
-			lotf_gb_invest_northern_colonies
-			lotf_gb_invest_southern_colonies
+			vu_murica_gb_invest_northern_colonies
+			vu_murica_gb_invest_southern_colonies
 		}
 		position = 12
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = lotf_gb_reorganize_colonies_tt
+				tooltip = vu_murica_gb_reorganize_colonies_tt
 				has_country_flag = navigation_acts_chain_end
 			}
 		}
@@ -2901,7 +2901,7 @@ gbr_row_3 = {
 	eng_rb_own_thirteen_colonies = {
 		icon = mission_rb_the_thirteen_colonies
 		required_missions = {
-			lotf_gb_reorganize_colonies
+			vu_murica_gb_reorganize_colonies
 		}
 		completed_by = 1701.1.1
 		position = 13
@@ -4132,10 +4132,10 @@ gbr_row_4 = {
 			}
 		}
 	}
-	lotf_gb_plymouth = {
+	vu_murica_gb_plymouth = {
 		icon = mission_settlers_north_america
 		required_missions = {
-			lotf_gb_jamestown
+			vu_murica_gb_jamestown
 		}
 		position = 9
 		provinces_to_highlight = {
@@ -4143,7 +4143,7 @@ gbr_row_4 = {
 		}
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = lotf_gb_plymouth_tt
+				tooltip = vu_murica_gb_plymouth_tt
 				2561 = {
 					country_or_non_sovereign_subject_holds = ROOT
 					is_city = yes
@@ -4172,10 +4172,10 @@ gbr_row_4 = {
 			}
 		}
 	}
-	lotf_gb_invest_northern_colonies = {
+	vu_murica_gb_invest_northern_colonies = {
 		icon = renaissance_city
 		required_missions = {
-			lotf_gb_plymouth
+			vu_murica_gb_plymouth
 		}
 		position = 11
 		provinces_to_highlight = {
@@ -4243,7 +4243,7 @@ gbr_row_4 = {
 			}
 		}
 		effect = {
-			custom_tooltip = lotf_gb_invest_southern_colonies_tt
+			custom_tooltip = vu_murica_gb_invest_southern_colonies_tt
 			hidden_effect = {
 				colonial_eastern_america = {
 					limit = {
@@ -4320,7 +4320,7 @@ gbr_row_4 = {
 					}
 				}
 			}
-			custom_tooltip = lotf_gb_invest_northern_colonies_bonus_tt
+			custom_tooltip = vu_murica_gb_invest_northern_colonies_bonus_tt
 		}
 	}
 	gbr_discover_india = {

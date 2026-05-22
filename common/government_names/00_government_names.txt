@@ -1,7 +1,6 @@
 #Updated for VU 1.37.* by SF
 #Contributors:
 #Altan
-#DonBrom
 #San Felipe
 #Prussia
 #For specific combinations of culture, religion and other such triggers

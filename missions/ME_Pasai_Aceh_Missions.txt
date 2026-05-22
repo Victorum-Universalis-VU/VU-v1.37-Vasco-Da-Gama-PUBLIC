@@ -612,7 +612,7 @@ PSA_ATJ_missions_4 = {
 						trade_goods = vanilla
 					}
 				}
-				custom_tooltip = MSA_from_spice_production_TGE
+				custom_tooltip = MSA_from_spice_production_vu
 			}
 			add_country_modifier = {
 				name = MSA_spice_production

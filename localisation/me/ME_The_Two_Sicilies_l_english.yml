@@ -79,8 +79,8 @@
  desc_tts_maschio_angioino_modifier: ""
  tts_margherita: "It's Pizza Time"
  desc_tts_margherita: ""
- tts_margherita_tge: "It's Pizza Time"
- desc_tts_margherita_tge: ""
+ tts_margherita_vu: "It's Pizza Time"
+ desc_tts_margherita_vu: ""
  tts_deus_vult: "Deus Vult"
  desc_tts_deus_vult: ""
  tts_duomo_monreale: "Duomo di Monreale"
@@ -109,7 +109,7 @@
  tts_university_federico_II_desc: "The erection of the Studium was decreed by Emperor Frederick II of Swabia on 5 June (5 July according to some sources) 1224 through a circular letter (generalis lictera) sent from Syracuse. Since it was created at the behest of the emperor, the University of Naples is considered by far the first lay university in Europe of a state type (not founded, that is, by corporations or associations of intellectuals, or students, but by virtue of a provision sovereign). \nInitially the studies were directed towards law (fundamental for the training of jurists), the liberal arts, medicine and theology: the latter, compared to other subjects, was taught in religious centers, in particular in the convent of San Domenico Maggiore , where Thomas Aquinas taught from 1271 to 1274. During the Angevin period (1265-1443) the structure and organization of the University remained substantially unchanged. \nFurthermore, during the Angevin period the University of Naples, unlike the others, remained independent from papal power: in fact, Charles I of Anjou reaffirmed and increased the previous privileges granted by the Swabian kings to the University. The first difficulties came with the advent of the Aragonese dominion in 1443, which in fact forced the university to a first closure."
 
  #Tooltip
- tts_pizza_TIME_PROVINCE_BONUS_TOOLTIP_TGE: "All the provinces owned by §Y[Root.GetName]§!, or its non-Tributary Subjects, in Italy region, that have either §MGrain§!, §MLivestock§!, §MCheesek§!, §MTomato§!, §MOlive Oil§! will gain:\n"
+ tts_pizza_TIME_PROVINCE_BONUS_TOOLTIP_vu: "All the provinces owned by §Y[Root.GetName]§!, or its non-Tributary Subjects, in Italy region, that have either §MGrain§!, §MLivestock§!, §MCheesek§!, §MTomato§!, §MOlive Oil§! will gain:\n"
  tts_pizza_TIME_PROVINCE_BONUS_TOOLTIP: "All the provinces owned by §Y[Root.GetName]§!, or its non-Tributary Subjects, in Italy region, that have either §MGrain§! or §MLivestock§! will gain:"
  TTS_ARMY_TT: "Up to 5 random provinces, in the §MNaples, Apulia, Calabria, Western Sicily or Sicily area§!, will get their §YBarracks§! or §YRegimental Camp§! upgraded"
  TTS_NAVY_TT: "Up to 5 random provinces, in the §MNaples, Apulia, Calabria, Western Sicily or Sicily area§!, will get their §YDock§! or §YShipyard§! upgraded"

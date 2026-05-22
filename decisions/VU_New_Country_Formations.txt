@@ -604,6 +604,10 @@ country_decisions = {
 				}
 			}
 			change_tag = FRA
+			if = {
+				limit = { government = monarchy }
+				add_government_reform = french_kingdom_reform
+			}
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -889,7 +893,7 @@ country_decisions = {
 	################################        German Empire	     ##################################			GEM
 	###############################################################################################
 	vu_german_empire = {
-		#By Don & SF
+		#By VU & SF
 		major = yes
 		potential = {
 			vu_generic_can_form_potential_check = yes

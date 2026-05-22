@@ -439,7 +439,7 @@ technology = {
 	enable = carrack
 	enable = caravel
 	may_study_technology = yes
-	#Spectacle Factory TGE Manufactory
+	#Spectacle Factory VU Manufactory
 	luxury_cloth_workshop = yes
 	luxury_furniture_workshop = yes
 	#glassmaker = yes                  #Jay's entry
@@ -480,7 +480,7 @@ technology = {
 	}
 	range = 50
 	wharf = yes
-	#Jewellery Workshop TGE Manufactory
+	#Jewellery Workshop VU Manufactory
 	jewellery_workshop = yes
 }
 
@@ -502,9 +502,9 @@ technology = {
 	naval_engagement_width = 15
 	#Naval Arsenal
 	naval_arsenal = yes
-	#Cigars Factory TGE Manufactory
+	#Cigars Factory VU Manufactory
 	cigars_factory = yes
-	#Cholocate Factory TGE Manufactory
+	#Cholocate Factory VU Manufactory
 	chocolate_factory = yes
 	botanical_gardens = yes
 }

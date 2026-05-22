@@ -1,4 +1,3 @@
-#Don's stuff
 namespace = VU_SET_Events
 #################################
 # Quick setup					#
@@ -16,15 +15,15 @@ country_event = {
 		}
 	}
 	immediate = {
-		vu_add_regimental_camps = yes		#VU forcelimit balance by Don
-		vu_add_docks = yes		#VU forcelimit balance by Don
+		vu_add_regimental_camps = yes		#VU forcelimit balance
+		vu_add_docks = yes		#VU forcelimit balance
 		vu_discover_the_world = yes		#Discover the world by Modus
 		spawn_troops_on_startup = yes		#Spawning the historical amounts of troops for countries by Modus
 		crownland_share_on_startup = yes		#Spawn the historical crownland share by VU Team
-		vu_set_POW_policy_globally = yes		#Don's POWs
-		vu_set_add_institutions = yes		#Don
-		vu_set_disable_releasing_of_colonies = yes		#Don's colonial nonsence
-		#vu_set_province_modifiers = yes			#SF's & Don's province modifiers (will unhash it when it's completed)
+		vu_set_POW_policy_globally = yes		#VU POWs
+		vu_set_add_institutions = yes		#VU
+		vu_set_disable_releasing_of_colonies = yes		#VU colonial settings
+		#vu_set_province_modifiers = yes			#SF's & VU's province modifiers (will unhash it when it's completed)
 	}
 	option = {
 		#Reccommended Mode, doesn't do shit, just leaves the game as is and exits the settings

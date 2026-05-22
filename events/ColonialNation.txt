@@ -803,7 +803,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB75"	# Don't upset the balance
+		name = "colonial_nation.EVTOPTB75"	# VU't upset the balance
 		ai_chance = { factor = 0 }
 		add_prestige = -10
 	}

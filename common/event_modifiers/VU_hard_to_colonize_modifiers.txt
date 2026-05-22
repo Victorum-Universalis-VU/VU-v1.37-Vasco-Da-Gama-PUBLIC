@@ -1,5 +1,5 @@
 #Added by Quonton as to not clutter other files
-#re-worked by Don
+#re-worked by DM
 vu_hard_to_colonise_5 = {
     trade_value = 0.01 #has to be positive to show up
     local_colony_cost_modifier = 5 #was 0.25

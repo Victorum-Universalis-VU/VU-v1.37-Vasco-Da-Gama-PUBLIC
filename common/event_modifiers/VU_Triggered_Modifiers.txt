@@ -101,7 +101,7 @@ vu_addon_triggered_modifier_mil_focus = {
 }
 
 ######################################################################################
-# Manpower modifiers, by SF, re-balanced by Don
+# Manpower modifiers re-balanced by DM
 ######################################################################################
 sufficient_manpower = {
 	land_morale = 0.05
@@ -737,7 +737,7 @@ VU_monastic_militarism = {
 }
 
 ######################################################################################
-# VU AI alliance balancing by Don
+# VU AI alliance balancing by DM
 ######################################################################################
 vu_emperor_dip_decrease = {
 	diplomatic_upkeep = -3
@@ -752,7 +752,7 @@ vu_prince_dip_decrease = {
 }
 
 ######################################################################################
-# VU Edumacation by SF & Don
+# VU Edumacation by SF & Prussia
 ######################################################################################
 vu_ruler_studying = {
 	state_maintenance_modifier = 0.15
@@ -779,14 +779,14 @@ vu_war_heir_general_studying = {
 }
 
 ######################################################################################
-# Don's Startup Settings
+# VU Startup Settings
 ######################################################################################
 vu_startup_small_HRE_modifier = {
 	imperial_authority_value = 0.15
 }
 
 ######################################################################################
-# Don's More Strategic Resources 
+# VU Strategic Resources 
 ######################################################################################
 vu_lacks_horses_for_cavalry = {
 	cavalry_cost = 0.5

@@ -1,6 +1,4 @@
-#DonBrom was here on 24-9-2024
 #Re-Edited by San Felipe 16/08/2023
-#DonBrom was here...
 #SF Edumacation - Improve Ruler
 country_decisions = {
 	edu_0_ruler_literate = {

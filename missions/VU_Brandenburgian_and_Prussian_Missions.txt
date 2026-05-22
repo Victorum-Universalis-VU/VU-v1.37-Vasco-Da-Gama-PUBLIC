@@ -1150,7 +1150,7 @@ BRA_missions_4 = {
 				add_permanent_claim = ROOT
 			}
 			mittelmark_area = {
-				#Added by Don so you can acually get to Saxony
+				#Added so you can acually get to Saxony
 				limit = {
 					NOT = {
 						is_core = ROOT
@@ -1162,7 +1162,7 @@ BRA_missions_4 = {
 				add_permanent_claim = ROOT
 			}
 			altmark_area = {
-				#Added by Don so you can acually get to Saxony
+				#Added so you can acually get to Saxony
 				limit = {
 					NOT = {
 						is_core = ROOT
@@ -2710,7 +2710,7 @@ PRU_missions_1_vassal = {
 					NOT = {
 						liberty_desire = 5
 					}
-					is_subject_of_type = prussian_vassal					#Need to look at this Don - SF
+					is_subject_of_type = prussian_vassal					#Need to look at this VU - SF
 				}
 				amount = 3
 			}

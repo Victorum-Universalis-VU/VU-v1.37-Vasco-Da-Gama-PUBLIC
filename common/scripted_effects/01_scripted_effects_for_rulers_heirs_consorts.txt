@@ -2,7 +2,7 @@
 #All are Country Scope unless otherwise stated.
 
 #Consorts
-create_new_internal_consort_effect = { #Don't use if you want more options with different random consorts.
+create_new_internal_consort_effect = { #VU't use if you want more options with different random consorts.
 	if = {
 		limit = {
 			has_dlc = "Rights of Man"

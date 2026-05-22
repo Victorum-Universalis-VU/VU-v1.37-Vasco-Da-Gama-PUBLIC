@@ -51,7 +51,7 @@ historical_friend = VOR
 
 national_focus = ADM
 
-#Don 21/3/2025
+#VU 21/3/2025
 #add_country_modifier = {
 #    name = "mercenary_upkeep_X"
 #    duration = -1

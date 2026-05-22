@@ -1,4 +1,4 @@
-#By Don
+#By VU
 country_decisions = {
 	#Complete list of all colonial regions
 	#colonial_alaska

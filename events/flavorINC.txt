@@ -362,7 +362,7 @@ country_event = {
 		
 		add_accepted_culture_or_dip_power = { culture = chimuan dip_reward = yes }
 	}
-	option = { #Don't integrate them.
+	option = { #VU't integrate them.
 		name = flavor_inc.7.b
 		
 		custom_tooltip = INC_every_province_in_chimu_area_loses_25_autonomy

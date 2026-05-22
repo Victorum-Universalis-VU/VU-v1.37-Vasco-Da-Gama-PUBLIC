@@ -78,11 +78,11 @@
  reformed_japanese_rifleDESCR: "These cavalry men entered battle wielding improved variants of Bajo-zutsu guns but this time firing from a far in order to to snipe their enemies from a distance."
  #
  #Mercs
- merc_lotf_minutemen: "The Minutemen"
- merc_lotf_minutemenDESCR: "Minutemen are members of organized New England colonial militia companies trained in weaponry, tactics, and military strategies and are known for being ready at a minute's notice, hence the name."
+ merc_vu_murica_minutemen: "The Minutemen"
+ merc_vu_murica_minutemenDESCR: "Minutemen are members of organized New England colonial militia companies trained in weaponry, tactics, and military strategies and are known for being ready at a minute's notice, hence the name."
  #
- merc_lotf_green_mountain_boys: "Green Mountain Boys"
- merc_lotf_green_mountain_boysDESCR: "The Green Linnets, also the Green Boys of Dublin was a regiment raised in Ireland which embarked in March 1781 from Poolbeg, Dublin to Jamaica to serve in the American Revolutionary War. The nicknames came from the colour of their coats."
+ merc_vu_murica_green_mountain_boys: "Green Mountain Boys"
+ merc_vu_murica_green_mountain_boysDESCR: "The Green Linnets, also the Green Boys of Dublin was a regiment raised in Ireland which embarked in March 1781 from Poolbeg, Dublin to Jamaica to serve in the American Revolutionary War. The nicknames came from the colour of their coats."
  #
  ribauldequin: "Organ Gun"
  ribauldequinDESCR: "A ribauldequin, also known as an organ gun, is small-caliber iron barrelled gun that is set up parallel on a platform. An Organ gun is also lighter and more mobile than previous artillery pieces, making it more suitable for engaging enemy personnel rather than fixed fortifications such as castles, and its name comes from the gun's resemblance to that of a church pipe organ."
@@ -95,4 +95,7 @@
  #
  war_wagon: "Murder Wagon"
  war_wagonDESCR: "The Murder Wagon as it is so aptly named is a carriage and or wagon made of wood with metal framing that is usually crewed by up to 18 people and once deployed literally becomes a stationary gun platform. The earliest of its kind in the world and so efficiently used by Czech General Jan Žižka during the Hussite wars."
- merc_mor_black_guard: "§JBlack Guard§!"
+ merc_mor_black_guard: "§JBlack Guard§!" # Missing mercenary company names - ME_Mercenaries.txt
+ merc_mor_ottoman_mercenaries: "Ottoman Auxiliaries"
+ me_tim_war_elephants: "War Elephants"
+ me_tim_war_elephants_upgraded: "Royal War Elephants"

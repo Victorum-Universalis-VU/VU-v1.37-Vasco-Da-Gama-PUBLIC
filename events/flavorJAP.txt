@@ -1,4 +1,4 @@
-#VU updated by San Felipe & Don Brom for 1.37
+#VU updated by San Felipe & VU for 1.37
 ########################################
 # General Flavor Events for Japan and Daimyos
 #
@@ -970,7 +970,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "flavor_jap.EVTOPTB11"		# Don't fund Jokamachi
+		name = "flavor_jap.EVTOPTB11"		# VU't fund Jokamachi
 		ai_chance = {
 			factor = 20
 		}

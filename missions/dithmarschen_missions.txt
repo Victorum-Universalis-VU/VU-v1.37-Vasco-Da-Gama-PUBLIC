@@ -563,7 +563,7 @@ vu_dithmarschen_missions_3 = {
 				45 = { add_center_of_trade_level = 1 }
 				custom_tooltip = vu_colossus_trait_if_possible_tt
 				hidden_effect = {
-					country_event = { id = FU_Monument_Events.2 }
+					country_event = { id = vu_Monument_Events.2 }
 				}
 			}
 			custom_tooltip = dtt_lubeck_owned_by_subject_tt
@@ -604,7 +604,7 @@ vu_dithmarschen_missions_3 = {
 						45 = { owned_by = ROOT }
 					}
 					45 = { add_center_of_trade_level = 1 }
-					country_event = { id = FU_Monument_Events.2 }
+					country_event = { id = vu_Monument_Events.2 }
 				}
 				else_if = {
 					limit = { 

@@ -1646,7 +1646,7 @@ colossus_of_rhodes = {
 			custom_tooltip = vu_colossus_trait_if_possible_tt
 			hidden_effect = {
 				owner = {
-					country_event = { id = FU_Monument_Events.2 }
+					country_event = { id = vu_Monument_Events.2 }
 				}
 			}
 		}

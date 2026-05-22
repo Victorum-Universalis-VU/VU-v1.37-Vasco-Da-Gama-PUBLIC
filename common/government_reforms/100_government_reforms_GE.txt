@@ -7241,7 +7241,7 @@ imperial_circles_reform = {
         vassal_manpower_bonus = 0.25
         vassal_tax_modifier = 0.25
         land_maintenance_modifier = -0.05
-        diplomatic_reputation = 1 #Added by Don to buff SAX a bit (make it possible for them to claim emperorship)
+        diplomatic_reputation = 1 #Added to buff SAX a bit (make it possible for them to claim emperorship)
         reasons_to_elect = 10 #Same as above
     }
     custom_attributes = {

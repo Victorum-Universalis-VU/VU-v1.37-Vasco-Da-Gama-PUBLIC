@@ -1,7 +1,3 @@
-####Made by Big Boss for Flavor Universalis####
-############################################
-############################################
-
 namespace = VU_Dith_Events
 
 country_event = { #City of Bremen

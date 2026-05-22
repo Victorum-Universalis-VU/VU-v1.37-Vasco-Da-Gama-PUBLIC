@@ -1,5 +1,5 @@
 # 69 Active CR's (Please update this when you add in a new CR)
-#A list by Don
+#A list by DM
 #colonial_cascadia
 #colonial_northwest_territories
 #colonial_hudson_bay

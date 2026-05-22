@@ -185,7 +185,7 @@
  advisors_expanded_events21.EVTOPT1: "$DEFENSIVE_PLANNER$ will enlighten our realm!"
  advisors_expanded_events21.EVTOPT2: "$DEFENSIVE_PLANNER$ will shine beyond our borders!"
  
- #VU additions by Don with the help of Lucas and Prussia
+ #VU additions with the help of Lucas and Prussia
  propagandist: "Propagandist"
  propagandist_desc: "I choose the Cow."
  assimilator: "Assimilator"

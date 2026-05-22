@@ -1,4 +1,4 @@
-lotf_ideas = {
+vu_murica_ideas = {
 	start = {
 		merchants = 1
 		build_cost = -0.15

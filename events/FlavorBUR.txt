@@ -627,7 +627,7 @@ country_event = {
             add_unrest = 5
         }
     }
-    option = {		# Don't introduce that Consumption Tax
+    option = {		# VU't introduce that Consumption Tax
         name = "flavor_bur.EVTOPTB14"
         add_legitimacy = -50
         add_prestige = -100

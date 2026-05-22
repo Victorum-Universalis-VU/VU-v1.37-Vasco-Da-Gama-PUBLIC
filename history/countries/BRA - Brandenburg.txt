@@ -9,7 +9,7 @@ unit_type = western
 primary_culture = saxon
 religion = catholic
 capital = 50	# Berlin
-#historical_rival = BOH #Hashed out due to Don's advice since it makes diplomacy between brandenburg and bohemia impossible. - SF
+#historical_rival = BOH #Hashed out due to VU's advice since it makes diplomacy between brandenburg and bohemia impossible. - SF
 historical_friend = SAX
 
 change_estate_land_share = {

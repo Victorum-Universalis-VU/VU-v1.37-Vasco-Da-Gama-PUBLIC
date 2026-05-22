@@ -415,6 +415,12 @@ guiTypes = {
 			}
 
 			iconType = {
+				name = "remove_parliament"
+				spriteType = "GFX_remove_parliament_icon"
+				position = { x = 73 y = 1 }
+			}
+
+			iconType = {
  				name = "have_capital"
 				spriteType = "GFX_have_capital"
 				position = { x = 1 y = 1 }

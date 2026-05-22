@@ -4,7 +4,6 @@ namespace = vu_constantinople_to_istanbul
 #When game is loaded up.
 
 country_event = {
-    #Don's shenanagins... removes AIs allies after they reach their cap
     #no more 20+ allies of Saxony/Palatinate, to be used in cojunction
     #with historical rivals, as this only fixes the number of allies,
     #rather than who they ally... (though I tried to make them remove bad

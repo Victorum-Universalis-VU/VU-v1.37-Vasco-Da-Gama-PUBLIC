@@ -4,7 +4,7 @@ namespace = vu_triggered_modifier_events
 ##############################################################
 ##############################################################
 ####													  ####
-####    Triggered Modifiers performance upgrade by Don    ####
+####    Triggered Modifiers performance upgrade    ####
 ####													  ####
 ##############################################################
 #############################################################################################################################################################################################
@@ -42,7 +42,7 @@ namespace = vu_triggered_modifier_events
 #############################################################################################################################################################################################
 # 5)
 #	For the option, just re-use the same modifier you used in vu_triggered_modifier_trigger, and add it into the vu_triggered_modifier_effect scripted effect, it handles the switching
-#	on it's own, no changes or nothing needed. If you come to any issues using it, please don't touch the thing itself, and inform me (Don) posthaste about the issue, so we can solve it.
+#	on it's own, no changes or nothing needed. If you come to any issues using it, please don't touch the thing itself, and inform me (VU) posthaste about the issue, so we can solve it.
 #
 #############################################################################################################################################################################################
 # 6)
@@ -56,7 +56,7 @@ namespace = vu_triggered_modifier_events
 #
 #
 ######################################################################################
-# Timurid March triggered modifiers by SF, updated by Don for Performance
+# Timurid March triggered modifiers by SF, updated for Performance
 ######################################################################################
 country_event = {
     id = vu_triggered_modifier_events.1
@@ -64,12 +64,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = timariot_assistance
-            trigger = {
-                tag = CRI
+            trigger = "                tag = CRI
                 is_subject_of_type = turkish_timariot_march
                 OR = {
                     is_in_war = {
@@ -78,8 +77,7 @@ country_event = {
                     is_in_war = {
                         defender_leader = TUR
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -101,14 +99,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = timariot_subjugation
-            trigger = {
-                is_subject_of_type = turkish_timariot_march
-                is_subject_of = TUR
-            }
+            trigger = "                is_subject_of_type = turkish_timariot_march
+                is_subject_of = TUR"
         }
     }
     immediate = {
@@ -130,14 +126,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = turko_khanates
-            trigger = {
-                is_subject_of_type = turkish_timariot_march
-                ruler_culture = turkish
-            }
+            trigger = "                is_subject_of_type = turkish_timariot_march
+                ruler_culture = turkish"
         }
     }
     immediate = {
@@ -159,14 +153,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = tauric_khanates
-            trigger = {
-                is_subject_of_type = turkish_timariot_march
-                ruler_culture = crimean
-            }
+            trigger = "                is_subject_of_type = turkish_timariot_march
+                ruler_culture = crimean"
         }
     }
     immediate = {
@@ -183,7 +175,7 @@ country_event = {
 }
 
 ######################################################################################
-# Morocco modifiers, Updated by SF to VU 1.37 ToR, updated by Don for Performance
+# Morocco modifiers, Updated by SF to VU 1.37 ToR, updated for Performance
 ######################################################################################
 country_event = {
     id = vu_triggered_modifier_events.5
@@ -191,14 +183,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = cas_morocco_modifier
-            trigger = {
-                has_country_flag = cas_morocco_culture
-                accepted_culture = moroccan
-            }
+            trigger = "                has_country_flag = cas_morocco_culture
+                accepted_culture = moroccan"
         }
     }
     immediate = {
@@ -220,7 +210,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_event_6_trigger = yes
     }
@@ -243,7 +233,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_event_7_trigger = yes
     }
@@ -269,16 +259,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_tiny_colony
-            trigger = {
-                is_colonial_nation = yes
+            trigger = "                is_colonial_nation = yes
                 is_former_colonial_nation = no
                 NOT = { is_subject_of_type = self_governing_dominion_vu }
-                NOT = { total_development = 100 }
-            }
+                NOT = { total_development = 100 }"
         }
     }
     immediate = {
@@ -300,17 +288,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_small_colony
-            trigger = {
-                is_colonial_nation = yes
+            trigger = "                is_colonial_nation = yes
                 is_former_colonial_nation = no
                 NOT = { is_subject_of_type = self_governing_dominion_vu }
                 total_development = 100
-                NOT = { total_development = 250 }
-            }
+                NOT = { total_development = 250 }"
         }
     }
     immediate = {
@@ -332,17 +318,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_medium_colony
-            trigger = {
-                is_colonial_nation = yes
+            trigger = "                is_colonial_nation = yes
                 is_former_colonial_nation = no
                 NOT = { is_subject_of_type = self_governing_dominion_vu }
                 total_development = 250
-                NOT = { total_development = 500 }
-            }
+                NOT = { total_development = 500 }"
         }
     }
     immediate = {
@@ -364,17 +348,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_large_colony
-            trigger = {
-                is_colonial_nation = yes
+            trigger = "                is_colonial_nation = yes
                 is_former_colonial_nation = no
                 NOT = { is_subject_of_type = self_governing_dominion_vu }
                 total_development = 500
-                NOT = { total_development = 750 }
-            }
+                NOT = { total_development = 750 }"
         }
     }
     immediate = {
@@ -396,17 +378,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_huge_colony
-            trigger = {
-                is_colonial_nation = yes
+            trigger = "                is_colonial_nation = yes
                 is_former_colonial_nation = no
                 NOT = { is_subject_of_type = self_governing_dominion_vu }
                 total_development = 750
-                NOT = { total_development = 1999 }
-            }
+                NOT = { total_development = 1999 }"
         }
     }
     immediate = {
@@ -428,16 +408,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_massive_colony
-            trigger = {
-                is_colonial_nation = yes
+            trigger = "                is_colonial_nation = yes
                 is_former_colonial_nation = no
                 NOT = { is_subject_of_type = self_governing_dominion_vu }
-                total_development = 2000
-            }
+                total_development = 2000"
         }
     }
     immediate = {
@@ -462,13 +440,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_addon_triggered_modifier_adm_focus
-            trigger = {
-                national_focus = ADM
-            }
+            trigger = "                national_focus = ADM"
         }
     }
     immediate = {
@@ -490,13 +466,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_addon_triggered_modifier_dip_focus
-            trigger = {
-                national_focus = DIP
-            }
+            trigger = "                national_focus = DIP"
         }
     }
     immediate = {
@@ -518,13 +492,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_addon_triggered_modifier_mil_focus
-            trigger = {
-                national_focus = MIL
-            }
+            trigger = "                national_focus = MIL"
         }
     }
     immediate = {
@@ -541,7 +513,7 @@ country_event = {
 }
 
 ######################################################################################
-# VU Manpower modifiers, by SF, re-balanced by Don
+# VU Manpower modifiers, by SF, re-balanced
 ######################################################################################
 country_event = {
     id = vu_triggered_modifier_events.17
@@ -549,13 +521,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = sufficient_manpower
-            trigger = {
-                manpower_percentage = 0.85
-            }
+            trigger = "                manpower_percentage = 0.85"
         }
     }
     immediate = {
@@ -577,14 +547,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = insufficient_manpower
-            trigger = {
-                NOT = { manpower_percentage = 0.15 }
-                manpower_percentage = 0.05
-            }
+            trigger = "                NOT = { manpower_percentage = 0.15 }
+                manpower_percentage = 0.05"
         }
     }
     immediate = {
@@ -606,13 +574,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = exhausted_manpower
-            trigger = {
-                NOT = { manpower_percentage = 0.05 }
-            }
+            trigger = "                NOT = { manpower_percentage = 0.05 }"
         }
     }
     immediate = {
@@ -637,7 +603,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         if = {
             limit = {
@@ -679,7 +645,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         if = {
             limit = {
@@ -724,15 +690,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = increased_tariffs_triggered_modifier
-            trigger = {
-                num_of_colonists = 1
+            trigger = "                num_of_colonists = 1
                 can_be_overlord = pirate_brotherhood_vassal
-                can_be_overlord = persian_satrapy
-            }
+                can_be_overlord = persian_satrapy"
         }
     }
     immediate = {
@@ -754,15 +718,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = persian_satrapies_increased_tariffs_triggered_modifier
-            trigger = {
-                NOT = { num_of_colonists = 1 }
+            trigger = "                NOT = { num_of_colonists = 1 }
                 NOT = { colony = 1 }
-                has_subject_of_type = persian_satrapy
-            }
+                has_subject_of_type = persian_satrapy"
         }
     }
     immediate = {
@@ -784,18 +746,16 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = has_5_pirate_brotherhood_vassals_triggered_modifier
-            trigger = {
-                calc_true_if = {
+            trigger = "                calc_true_if = {
                     all_subject_country = {
                         is_subject_of_type = pirate_brotherhood_vassal
                     }
                     amount = 5
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -817,17 +777,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = dutch_provinces_reform_1_overlord
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     has_country_flag = united_the_dutch_provinces
                     has_subject_of_type = dutch_province_subject
                 }
-                has_global_flag = dutch_province_subject_no_internal_war
-            }
+                has_global_flag = dutch_province_subject_no_internal_war"
         }
     }
     immediate = {
@@ -849,14 +807,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = dutch_provinces_reform_1_subject
-            trigger = {
-                is_subject_of_type = dutch_province_subject
-                has_global_flag = dutch_province_subject_no_internal_war
-            }
+            trigger = "                is_subject_of_type = dutch_province_subject
+                has_global_flag = dutch_province_subject_no_internal_war"
         }
     }
     immediate = {
@@ -878,17 +834,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = dutch_provinces_reform_2_overlord
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     has_country_flag = united_the_dutch_provinces
                     has_subject_of_type = dutch_province_subject
                 }
-                has_global_flag = dutch_province_subject_no_external_war
-            }
+                has_global_flag = dutch_province_subject_no_external_war"
         }
     }
     immediate = {
@@ -910,14 +864,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = dutch_provinces_reform_2_subject
-            trigger = {
-                is_subject_of_type = dutch_province_subject
-                has_global_flag = dutch_province_subject_no_external_war
-            }
+            trigger = "                is_subject_of_type = dutch_province_subject
+                has_global_flag = dutch_province_subject_no_external_war"
         }
     }
     immediate = {
@@ -939,17 +891,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = dutch_provinces_reform_3_overlord
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     has_country_flag = united_the_dutch_provinces
                     has_subject_of_type = dutch_province_subject
                 }
-                has_global_flag = dutch_province_subject_no_leader_election
-            }
+                has_global_flag = dutch_province_subject_no_leader_election"
         }
     }
     immediate = {
@@ -971,14 +921,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = dutch_provinces_reform_3_subject
-            trigger = {
-                is_subject_of_type = dutch_province_subject
-                has_global_flag = dutch_province_subject_no_leader_election
-            }
+            trigger = "                is_subject_of_type = dutch_province_subject
+                has_global_flag = dutch_province_subject_no_leader_election"
         }
     }
     immediate = {
@@ -1000,13 +948,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = is_tributary_state_triggered_modifier
-            trigger = {
-                is_subject_of_type = tributary_state
-            }
+            trigger = "                is_subject_of_type = tributary_state"
         }
     }
     immediate = {
@@ -1028,19 +974,17 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = overlord_has_administrative_region_triggered_modifier
-            trigger = {
-                is_subject = yes
+            trigger = "                is_subject = yes
                 NOT = { is_subject_of_type = administrative_region }
                 is_subject_type_that_pays_vassal_tax = yes
                 overlord = {
                     has_subject_of_type = administrative_region
                 }
-                NOT = { liberty_desire = 50 }
-            }
+                NOT = { liberty_desire = 50 }"
         }
     }
     immediate = {
@@ -1065,18 +1009,16 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = zapadoslavia_disloyal_nobles_triggered_modifier
-            trigger = {
-                has_reform = west_slavic_monarchy
+            trigger = "                has_reform = west_slavic_monarchy
                 OR = {
                     NOT = {	check_variable = { which = ME_slovak_loyalty value = 0 } }
                     NOT = {	check_variable = { which = ME_czech_loyalty value = 0 }	}
                     NOT = {	check_variable = { which = ME_polish_loyalty value = 0 } }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -1101,19 +1043,17 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = nah_usa_reservation_triggered_modifier
-            trigger = {
-                tag = NAH
+            trigger = "                tag = NAH
                 has_country_flag = usa_nah_reservation
                 is_subject = yes
                 USA = {
                     NOT = { has_country_flag = usa_nah_annexation }
                 }
-                vassal_of = USA
-            }
+                vassal_of = USA"
         }
     }
     immediate = {
@@ -1135,12 +1075,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = usa_nah_reservation_triggered_modifier
-            trigger = {
-                tag = USA
+            trigger = "                tag = USA
                 NOT = { has_country_flag = usa_nah_annexation }
                 NAH = {
                     exists = yes
@@ -1148,8 +1087,7 @@ country_event = {
                 }
                 NAH = {
                     vassal_of = ROOT
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -1171,15 +1109,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = usa_market_economy_triggered_modifier
-            trigger = {
-                tag = USA
+            trigger = "                tag = USA
                 mission_completed = usa_market_economy
-                NOT = { mercantilism = 10 }
-            }
+                NOT = { mercantilism = 10 }"
         }
     }
     immediate = {
@@ -1204,14 +1140,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = accepted_latvian_culture_triggered_modifier
-            trigger = {
-                mission_completed = sweden_influence_in_livonia
-                accepted_culture = latvian
-            }
+            trigger = "                mission_completed = sweden_influence_in_livonia
+                accepted_culture = latvian"
         }
     }
     immediate = {
@@ -1233,14 +1167,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = accepted_estonian_culture_triggered_modifier
-            trigger = {
-                mission_completed = sweden_influence_in_livonia
-                accepted_culture = estonian
-            }
+            trigger = "                mission_completed = sweden_influence_in_livonia
+                accepted_culture = estonian"
         }
     }
     immediate = {
@@ -1265,15 +1197,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ME_SWA_Stability_1
-            trigger = {
-                has_country_flag = SWA_flourishing
+            trigger = "                has_country_flag = SWA_flourishing
                 stability = 1
-                NOT = { stability = 2 }
-            }
+                NOT = { stability = 2 }"
         }
     }
     immediate = {
@@ -1295,15 +1225,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ME_SWA_Stability_2
-            trigger = {
-                has_country_flag = SWA_flourishing
+            trigger = "                has_country_flag = SWA_flourishing
                 stability = 2
-                NOT = { stability = 3 }
-            }
+                NOT = { stability = 3 }"
         }
     }
     immediate = {
@@ -1325,14 +1253,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ME_SWA_Stability_3
-            trigger = {
-                has_country_flag = SWA_flourishing
-                stability = 3
-            }
+            trigger = "                has_country_flag = SWA_flourishing
+                stability = 3"
         }
     }
     immediate = {
@@ -1357,16 +1283,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = the_milan_duchy_vassal_triggered_modifier
-            trigger = {
-                mission_completed = gc_cas_spa_italian_ambition_22
+            trigger = "                mission_completed = gc_cas_spa_italian_ambition_22
                 exists = MLO
                 overlord_of = MLO
-                has_country_flag = spa_mlo_will_not_take_a_diplo_slot
-            }
+                has_country_flag = spa_mlo_will_not_take_a_diplo_slot"
         }
     }
     immediate = {
@@ -1391,17 +1315,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = saxony_nordmark_triggered_modifier
-            trigger = {
-                has_country_flag = enacted_sax_release_the_nordmark
+            trigger = "                has_country_flag = enacted_sax_release_the_nordmark
                 overlord_of = BRA
                 BRA = {
                     is_subject_of_type = march
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -1423,18 +1345,16 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = saxony_nordmark_subject_triggered_modifier
-            trigger = {
-                tag = BRA
+            trigger = "                tag = BRA
                 is_subject = yes
                 overlord = {
                     has_country_flag = enacted_sax_release_the_nordmark
                 }
-                is_subject_of_type = march
-            }
+                is_subject_of_type = march"
         }
     }
     immediate = {
@@ -1459,7 +1379,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         if = {
             limit = {
@@ -1516,17 +1436,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = BRA_diplo_slot
-            trigger = {
-                has_country_flag = BRA_extra_dip_slot
+            trigger = "                has_country_flag = BRA_extra_dip_slot
                 OR = {
                     legitimacy = 80
                     has_dip_advisor = yes
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -1548,16 +1466,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = PRU_prussian_vassal
-            trigger = {
-                is_subject_of_type = prussian_vassal
+            trigger = "                is_subject_of_type = prussian_vassal
                 overlord = {
                     has_country_flag = PRU_vassal_goods
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -1579,16 +1495,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = PRU_prussian_vassal_2
-            trigger = {
-                is_subject_of_type = prussian_vassal
+            trigger = "                is_subject_of_type = prussian_vassal
                 overlord = {
                     has_country_flag = PRU_vassal_tradition
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -1613,14 +1527,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = BEY_ottoman_war
-            trigger = {
-                has_country_flag = RUM_otto_pwsc
-                war_with = TUR
-            }
+            trigger = "                has_country_flag = RUM_otto_pwsc
+                war_with = TUR"
         }
     }
     immediate = {
@@ -1642,35 +1554,35 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = RUM_crusader_triggered_modifier
             trigger = "has_country_flag = RUM_crusader_bonus
-            aegean_archipelago_area = {
-                type = all
-                owner = {
-                    religion = ROOT
-                }
-            }
-            aydin_area = {
-                type = all
-                owner = {
-                    religion = ROOT
-                }
-            }
-            morea_area = {
-                type = all
-                owner = {
-                    religion = ROOT
-                }
-            }
-            cukurova_area = {
-                type = all
-                owner = {
-                    religion = ROOT
-                }
-            }"
+aegean_archipelago_area = {
+type = all
+owner = {
+religion = ROOT
+}
+}
+aydin_area = {
+type = all
+owner = {
+religion = ROOT
+}
+}
+morea_area = {
+type = all
+owner = {
+religion = ROOT
+}
+}
+cukurova_area = {
+type = all
+owner = {
+religion = ROOT
+}
+}"
         }
     }
     immediate = {
@@ -1692,14 +1604,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = RUM_movement_speed_triggered_modifier
-            trigger = {
-                has_country_flag = RUM_janissary_speed
-                janissary_percentage = 0.2
-            }
+            trigger = "                has_country_flag = RUM_janissary_speed
+                janissary_percentage = 0.2"
         }
     }
     immediate = {
@@ -1724,16 +1634,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = POL_rawa_triggered_modifier
-            trigger = {
-                has_country_flag = POL_recipient
+            trigger = "                has_country_flag = POL_recipient
                 event_target:POL_rawa_province = {
                     controlled_by = ROOT
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -1755,15 +1663,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = prussia_noble_cooperation_triggered_modifier
-            trigger = {
-                has_country_flag = pru_march_gives_bonuses
+            trigger = "                has_country_flag = pru_march_gives_bonuses
                 exists = PRU
-                overlord_of = PRU
-            }
+                overlord_of = PRU"
         }
     }
     immediate = {
@@ -1785,15 +1691,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = POL_kurland_subject_triggered_modifier
-            trigger = {
-                has_country_flag = kur_march_gives_bonuses
+            trigger = "                has_country_flag = kur_march_gives_bonuses
                 exists = KUR
-                overlord_of = KUR
-            }
+                overlord_of = KUR"
         }
     }
     immediate = {
@@ -1818,15 +1722,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = persia_hegemony_india_triggered_modifier
-            trigger = {
-                tag = PER
+            trigger = "                tag = PER
                 has_country_flag = persia_sacking_delhi
-                NOT = { owns = 522 }
-            }
+                NOT = { owns = 522 }"
         }
     }
     immediate = {
@@ -1848,17 +1750,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = persia_securing_road_triggered_modifier
-            trigger = {
-                tag = PER
+            trigger = "                tag = PER
                 owns_core_province = 445
                 owns_core_province = 454
                 owns_core_province = 739
-                owns_core_province = 2124
-            }
+                owns_core_province = 2124"
         }
     }
     immediate = {
@@ -1880,13 +1780,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = persia_indian_hegemony_march_triggered_modifier
-            trigger = {
-                vu_triggered_modifier_event_57_trigger = yes
-            }
+            trigger = "                vu_triggered_modifier_event_57_trigger = yes"
         }
     }
     immediate = {
@@ -1908,13 +1806,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = persia_indian_hegemony_march_522_overlord_triggered_modifier
-            trigger = {
-                vu_triggered_modifier_event_58_trigger = yes
-            }
+            trigger = "                vu_triggered_modifier_event_58_trigger = yes"
         }
     }
     immediate = {
@@ -1936,13 +1832,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = persia_indian_hegemony_march_1948_overlord_triggered_modifier
-            trigger = {
-                vu_triggered_modifier_event_59_trigger = yes
-            }
+            trigger = "                vu_triggered_modifier_event_59_trigger = yes"
         }
     }
     immediate = {
@@ -1964,13 +1858,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = persia_indian_hegemony_march_541_overlord_triggered_modifier
-            trigger = {
-                vu_triggered_modifier_event_60_trigger = yes
-            }
+            trigger = "                vu_triggered_modifier_event_60_trigger = yes"
         }
     }
     immediate = {
@@ -1995,20 +1887,18 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = PAL_bibliotheca_palatina_triggered
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     religion = protestant
                     religion = reformed
                     religion = hussite
                 }
                 77 = {
                     has_province_modifier = PAL_bibliotheca_palatina_modifier
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2033,12 +1923,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = norwegian_constitutional_monarchy
-            trigger = {
-                mission_completed = norway_introduce_constitutional_monarchy
+            trigger = "                mission_completed = norway_introduce_constitutional_monarchy
                 OR = {
                     AND = {
                         has_dlc = 'Dharma'
@@ -2049,8 +1938,7 @@ country_event = {
                         NOT = { has_dlc = 'Dharma' }
                         has_reform = constitutional_monarchy
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2075,17 +1963,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = estate_maya_high_influence
-            trigger = {
-                has_country_flag = estate_maya_enabled
+            trigger = "                religion = mesoamerican_religion
                 estate_influence = {
                     estate = estate_maya
                     influence = 100
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2110,12 +1996,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = MAM_nubia_triggered_modifier
-            trigger = {
-                has_country_flag = MAM_nubia_flag
+            trigger = "                has_country_flag = MAM_nubia_flag
                 NOT = {
                     horn_of_africa_region = {
                         is_capital = yes
@@ -2124,8 +2009,7 @@ country_event = {
                             total_development = 100
                         }
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2147,12 +2031,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = MAM_maghreb_triggered_modifier
-            trigger = {
-                has_country_flag = MAM_maghreb_flag
+            trigger = "                has_country_flag = MAM_maghreb_flag
                 NOT = {
                     maghreb_region = {
                         is_capital = yes
@@ -2161,8 +2044,7 @@ country_event = {
                             total_development = 125
                         }
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2184,12 +2066,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = MAM_indian_ocean_supremacy_triggered_modifier
-            trigger = {
-                has_country_flag = MAM_may_be_penalized_by_europeans
+            trigger = "                has_country_flag = MAM_may_be_penalized_by_europeans
                 europe = {
                     is_capital = yes
                     owner = {
@@ -2198,8 +2079,7 @@ country_event = {
                         has_discovered = 2030
                         num_of_light_ship = ROOT
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2224,16 +2104,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = MSA_syncretic_practices
-            trigger = {
-                has_country_flag = MSA_extra_piety_benefits
+            trigger = "                has_country_flag = MSA_extra_piety_benefits
                 NOT = {
                     piety = 0.9
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2255,14 +2133,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = MSA_dar_islam_extends
-            trigger = {
-                has_country_flag = MSA_extra_piety_benefits
-                piety = 0.9
-            }
+            trigger = "                has_country_flag = MSA_extra_piety_benefits
+                piety = 0.9"
         }
     }
     immediate = {
@@ -2284,20 +2160,18 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = MSA_war_with_colonizers
-            trigger = {
-                has_country_flag = MSA_10_morale_against_colonizers
+            trigger = "                has_country_flag = MSA_10_morale_against_colonizers
                 is_at_war = yes
                 any_country = {
                     war_with = ROOT
                     capital_scope = {
                         continent = europe
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2322,17 +2196,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = MLC_diplo_slot
-            trigger = {
-                has_country_flag = MLC_temenggung
+            trigger = "                has_country_flag = MLC_temenggung
                 OR = {
                     legitimacy = 90
                     has_mil_advisor_3 = yes
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2357,13 +2229,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = italy_four_maritime_republics
-            trigger = {
-                vu_triggered_modifier_event_71_trigger = yes
-            }
+            trigger = "                vu_triggered_modifier_event_71_trigger = yes"
         }
     }
     immediate = {
@@ -2385,12 +2255,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ita_domus_marium
-            trigger = {
-                tag = ITA
+            trigger = "                tag = ITA
                 has_country_flag = ita_domus_marium_flag
                 NOT = {
                     any_country = {
@@ -2399,8 +2268,7 @@ country_event = {
                             value = 0.5
                         }
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2422,12 +2290,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ita_domus_terrae
-            trigger = {
-                tag = ITA
+            trigger = "                tag = ITA
                 has_country_flag = ita_domus_terrae_flag
                 NOT = {
                     any_country = {
@@ -2436,8 +2303,7 @@ country_event = {
                             value = 0.5
                         }
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2462,16 +2328,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = IRQ_free_subject
-            trigger = {
-                has_global_flag = IRQ_someone_got_free_slot
+            trigger = "                has_global_flag = IRQ_someone_got_free_slot
                 any_subject_country = {
                     has_country_flag = IRQ_we_are_free
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2496,16 +2360,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = SYR_free_subject
-            trigger = {
-                has_global_flag = SYR_someone_got_free_slot
+            trigger = "                has_global_flag = SYR_someone_got_free_slot
                 any_subject_country = {
                     has_country_flag = SYR_we_are_free
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2530,12 +2392,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ilkhanate_jihad_triggered_modifier
-            trigger = {
-                has_country_flag = ilk_unlocks_piety_decision
+            trigger = "                has_country_flag = ilk_unlocks_piety_decision
                 has_country_flag = ilkhanate_call_jihad_used
                 NOT = {
                     had_country_flag = {
@@ -2548,8 +2409,7 @@ country_event = {
                     NOT = {
                         religion = ROOT
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2574,19 +2434,17 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = HES_independent_schmalkaldic_league_modifier
-            trigger = {
-                has_global_flag = HES_victory
+            trigger = "                has_global_flag = HES_victory
                 is_part_of_hre = yes
                 OR = {
                     religion = protestant
                     religion = reformed
                     religion = hussite
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2608,15 +2466,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = HES_loss_schmalkaldic_league_modifier
-            trigger = {
-                has_global_flag = HES_loss
+            trigger = "                has_global_flag = HES_loss
                 is_part_of_hre = yes
-                religion = catholic
-            }
+                religion = catholic"
         }
     }
     immediate = {
@@ -2641,16 +2497,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = GRA_tolerance_in_colonies_effect
-            trigger = {
-                is_colonial_nation = yes
+            trigger = "                is_colonial_nation = yes
                 overlord = {
                     has_country_flag = GRA_tolerance_in_colonies
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2675,28 +2529,28 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = FKN_custom_modifier
             trigger = "has_country_flag = FKN_powerbase_flag
-            has_country_modifier = FKN_the_protector_1
-            is_at_war = yes
-            is_emperor = yes
-            any_country = {
-                is_part_of_hre = yes
-                is_at_war = yes
-                NOT = {
-                    alliance_with = ROOT
-                }
-                NOT = {
-                    guaranteed_by = ROOT
-                }
-                is_in_war = {
-                    defender_leader = THIS
-                    defenders = ROOT
-                }
-            }"
+has_country_modifier = FKN_the_protector_1
+is_at_war = yes
+is_emperor = yes
+any_country = {
+is_part_of_hre = yes
+is_at_war = yes
+NOT = {
+alliance_with = ROOT
+}
+NOT = {
+guaranteed_by = ROOT
+}
+is_in_war = {
+defender_leader = THIS
+defenders = ROOT
+}
+}"
         }
     }
     immediate = {
@@ -2721,16 +2575,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = fra_furious_peasantry_triggered_modifier
-            trigger = {
-                tag = FRA
+            trigger = "                tag = FRA
                 has_country_flag = furious_peasantry
                 is_at_war = yes
-                has_wartaxes = yes
-            }
+                has_wartaxes = yes"
         }
     }
     immediate = {
@@ -2752,16 +2604,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = fra_continental_system_triggered_modifier
-            trigger = {
-                is_colonial_nation = yes
+            trigger = "                is_colonial_nation = yes
                 overlord = {
                     has_country_flag = continental_system
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2783,17 +2633,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = fra_first_reform_bonus
-            trigger = {
-                has_embargo_rivals = yes
+            trigger = "                has_embargo_rivals = yes
                 is_subject_of_type = french_hre_subject
                 overlord = {
                     has_country_flag = fra_enable_first_reform
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2815,16 +2663,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = fra_second_reform_bonus
-            trigger = {
-                is_subject_of_type = french_hre_subject
+            trigger = "                is_subject_of_type = french_hre_subject
                 overlord = {
                     has_country_flag = fra_enable_second_reform
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2846,16 +2692,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = fra_third_reform_bonus
-            trigger = {
-                is_subject_of_type = french_hre_subject
+            trigger = "                is_subject_of_type = french_hre_subject
                 overlord = {
                     has_country_flag = fra_enable_third_reform
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2877,16 +2721,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = fra_fourth_reform_bonus
-            trigger = {
-                is_subject_of_type = french_hre_subject
+            trigger = "                is_subject_of_type = french_hre_subject
                 overlord = {
                     has_country_flag = fra_enable_fourth_reform
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2908,14 +2750,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = fra_treasurer_triggered_modifier
-            trigger = {
-                has_country_flag = fra_treasurer_flag
-                advisor = treasurer
-            }
+            trigger = "                has_country_flag = fra_treasurer_flag
+                advisor = treasurer"
         }
     }
     immediate = {
@@ -2940,17 +2780,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                tag = HAT
+            trigger = "                tag = HAT
                 is_subject = yes
                 overlord = {
                     has_country_flag = gran_colombia_haiti_vassal_flag
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -2975,14 +2813,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                has_faction = can_liberal_party
-                is_at_war = no
-            }
+            trigger = "                has_faction = can_liberal_party
+                is_at_war = no"
         }
     }
     immediate = {
@@ -3004,17 +2840,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                has_faction = can_liberal_party
+            trigger = "                has_faction = can_liberal_party
                 is_at_war = yes
                 NOT = {
                     war_score = 15
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -3036,14 +2870,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                has_faction = can_liberal_party
-                stability = 1
-            }
+            trigger = "                has_faction = can_liberal_party
+                stability = 1"
         }
     }
     immediate = {
@@ -3065,15 +2897,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                has_faction = can_conservative_party
+            trigger = "                has_faction = can_conservative_party
                 is_at_war = yes
-                war_score = 15
-            }
+                war_score = 15"
         }
     }
     immediate = {
@@ -3095,14 +2925,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                has_faction = can_conservative_party
-                num_of_loans = 5
-            }
+            trigger = "                has_faction = can_conservative_party
+                num_of_loans = 5"
         }
     }
     immediate = {
@@ -3124,16 +2952,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                has_faction = can_conservative_party
+            trigger = "                has_faction = can_conservative_party
                 NOT = {
                     stability = 0
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -3155,14 +2981,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                has_faction = can_quebecois_party
-                is_at_war = yes
-            }
+            trigger = "                has_faction = can_quebecois_party
+                is_at_war = yes"
         }
     }
     immediate = {
@@ -3184,30 +3008,28 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                has_faction = can_quebecois_party
-                OR = {
-                    NOT = {
-                        faction_influence = {
-                            faction = can_quebecois_party
-                            influence = 25
-                        }
-                    }
-                    OR = {
-                        NOT = {
-                            has_country_flag = can_quebecois_party_appeased
-                        }
-                        had_country_flag = {
-                            flag = can_quebecois_party_appeased
-                            days = 7300
-                        }
-                    }
-                }
-            }
+            trigger = "has_faction = can_quebecois_party
+OR = {
+NOT = {
+faction_influence = {
+faction = can_quebecois_party
+influence = 25
+}
+}
+OR = {
+NOT = {
+has_country_flag = can_quebecois_party_appeased
+}
+had_country_flag = {
+flag = can_quebecois_party_appeased
+days = 7300
+}
+}
+}"
         }
     }
     immediate = {
@@ -3229,14 +3051,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                has_faction = can_quebecois_party
-                num_of_loans = 5
-            }
+            trigger = "                has_faction = can_quebecois_party
+                num_of_loans = 5"
         }
     }
     immediate = {
@@ -3258,16 +3078,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = gran_colombia_haiti_vassal_triggered_modifier
-            trigger = {
-                has_faction = can_quebecois_party
+            trigger = "                has_faction = can_quebecois_party
                 NOT = {
                     stability = 0
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -3292,27 +3110,25 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = bavaria_ferrara_subject_triggered_modifier
-            trigger = {
-                # if you change this modifier, make sure to change bavaria_ferrara_subject_tooltip_modifier accordingly
-                has_country_flag = me_bav_ferrara_subject
-                OR = {
-                    exists = ITA
-                    exists = FER
-                }
-                OR = {
-                    overlord_of = ITA
-                    AND = {
-                        NOT = {
-                            exists = ITA
-                        }
-                        overlord_of = FER
-                    }
-                }
-            }
+            trigger = "# if you change this modifier, make sure to change bavaria_ferrara_subject_tooltip_modifier accordingly
+has_country_flag = me_bav_ferrara_subject
+OR = {
+exists = ITA
+exists = FER
+}
+OR = {
+overlord_of = ITA
+AND = {
+NOT = {
+exists = ITA
+}
+overlord_of = FER
+}
+}"
         }
     }
     immediate = {
@@ -3334,26 +3150,24 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = bavaria_ferrara_fer_subject_triggered_modifier
-            trigger = {
-                # if you change this modifier, make sure to change bavaria_ferrara_fer_subject_tooltip_modifier accordingly
-                OR = {
-                    tag = ITA
-                    AND = {
-                        NOT = {
-                            exists = ITA
-                        }
-                        tag = FER
-                    }
-                }
-                is_subject = yes
-                overlord = {
-                    has_country_flag = me_bav_ferrara_subject
-                }
-            }
+            trigger = "# if you change this modifier, make sure to change bavaria_ferrara_fer_subject_tooltip_modifier accordingly
+OR = {
+tag = ITA
+AND = {
+NOT = {
+exists = ITA
+}
+tag = FER
+}
+}
+is_subject = yes
+overlord = {
+has_country_flag = me_bav_ferrara_subject
+}"
         }
     }
     immediate = {
@@ -3375,15 +3189,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = bavaria_italy_subject_triggered_modifier
-            trigger = {
-                # if you change this modifier, make sure to change bavaria_italy_subject_tooltip_modifier accordingly
+            trigger = "                # if you change this modifier, make sure to change bavaria_italy_subject_tooltip_modifier accordingly
                 has_country_flag = me_bav_ferrara_subject_can_form_italy
-                overlord_of = ITA
-            }
+                overlord_of = ITA"
         }
     }
     immediate = {
@@ -3405,20 +3217,18 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = bavaria_italy_ita_subject_triggered_modifier
-            trigger = {
-                # if you change this modifier, make sure to change bavaria_italy_ita_subject_tooltip_modifier accordingly
+            trigger = "                # if you change this modifier, make sure to change bavaria_italy_ita_subject_tooltip_modifier accordingly
                 tag = ITA
                 is_subject = yes
                 overlord = {
                     has_country_flag = me_bav_ferrara_subject_can_form_italy
                 }
                 is_subject = yes
-                liberty_desire = -25
-            }
+                liberty_desire = -25"
         }
     }
     immediate = {
@@ -3440,7 +3250,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_event_103_trigger = yes
     }
@@ -3463,7 +3273,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_event_104_trigger = yes
     }
@@ -3489,12 +3299,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = AYY_triggered_modifier
-            trigger = {
-                has_global_flag = VU_slave_trade
+            trigger = "                has_global_flag = VU_slave_trade
                 num_of_subjects = 1
                 religion_group = muslim
                 any_subject_country = {
@@ -3506,8 +3315,7 @@ country_event = {
                         value = 190
                     }
                     mission_completed = VU_begin_the_raids
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -3532,14 +3340,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ardabil_georgian_triggered_modifier
-            trigger = {
-                has_country_flag = ARL_Can_use_Georgia
-                overlord_of = GEO
-            }
+            trigger = "                has_country_flag = ARL_Can_use_Georgia
+                overlord_of = GEO"
         }
     }
     immediate = {
@@ -3561,12 +3367,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ardabil_shia_propaganda_triggered_modifier
-            trigger = {
-                has_country_flag = ARL_shia_propaganda
+            trigger = "                has_country_flag = ARL_shia_propaganda
                 exists = TUR
                 NOT = {
                     had_country_flag = {
@@ -3574,8 +3379,7 @@ country_event = {
                         days = 18250
                     }
                 }
-                war_with = TUR
-            }
+                war_with = TUR"
         }
     }
     immediate = {
@@ -3600,31 +3404,31 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = me_aragon_free_states_triggered_modifier
             trigger = "has_country_flag = ara_he_did_it_absolute_madlad
-            ouled_nail_area = {
-                type = all
-                owned_by = ROOT
-                is_state_core = ROOT
-            }
-            north_saharan_area = {
-                type = all
-                owned_by = ROOT
-                is_state_core = ROOT
-            }
-            hautes_plaines_area = {
-                type = all
-                owned_by = ROOT
-                is_state_core = ROOT
-            }
-            fezzan_area = {
-                type = all
-                owned_by = ROOT
-                is_state_core = ROOT
-            }"
+ouled_nail_area = {
+type = all
+owned_by = ROOT
+is_state_core = ROOT
+}
+north_saharan_area = {
+type = all
+owned_by = ROOT
+is_state_core = ROOT
+}
+hautes_plaines_area = {
+type = all
+owned_by = ROOT
+is_state_core = ROOT
+}
+fezzan_area = {
+type = all
+owned_by = ROOT
+is_state_core = ROOT
+}"
         }
     }
     immediate = {
@@ -3649,20 +3453,18 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = HED_vassal_completed_dev_cost_mission
-            trigger = {
-                has_global_flag = HED_pilgrim_caravans_2_mission_global_flag
+            trigger = "                has_global_flag = HED_pilgrim_caravans_2_mission_global_flag
                 any_subject_country = {
                     mission_completed = HED_pilgrim_caravans_2
                 }
                 any_subject_country = {
                     religion = ROOT
                     mission_completed = HED_pilgrim_caravans_2
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -3684,13 +3486,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ARB_china_trade
-            trigger = {
-                vu_triggered_modifier_event_110_trigger = yes
-            }
+            trigger = "                vu_triggered_modifier_event_110_trigger = yes"
         }
     }
     immediate = {
@@ -3712,28 +3512,26 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ARB_subsaharan_africa_buff
-            trigger = {
-                has_country_flag = ARB_buff_for_subsaharan_africa
-                calc_true_if = {
-                    sahel_region = {
-                        type = all
-                        owner = {
-                            religion_group = muslim
-                        }
-                    }
-                    niger_region = {
-                        type = all
-                        owner = {
-                            religion_group = muslim
-                        }
-                    }
-                    amount = 30
-                }
-            }
+            trigger = "has_country_flag = ARB_buff_for_subsaharan_africa
+calc_true_if = {
+sahel_region = {
+type = all
+owner = {
+religion_group = muslim
+}
+}
+niger_region = {
+type = all
+owner = {
+religion_group = muslim
+}
+}
+amount = 30
+}"
         }
     }
     immediate = {
@@ -3755,14 +3553,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ARB_tulaya
-            trigger = {
-                has_country_flag = ARB_arabian_horses_flag
-                cavalry_fraction = 0.2
-            }
+            trigger = "                has_country_flag = ARB_arabian_horses_flag
+                cavalry_fraction = 0.2"
         }
     }
     immediate = {
@@ -3784,16 +3580,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = MSY_low_piety
-            trigger = {
-                has_country_flag = MSY_low_piety_benefits_flag
+            trigger = "                has_country_flag = MSY_low_piety_benefits_flag
                 NOT = {
                     piety = -0.8
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -3818,31 +3612,29 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_iberian_crowns
-            trigger = {
-                tag = ARA
-                is_subject = no
-                NOT = {
-                    total_development = 500
-                }
-                any_subject_country = {
-                    OR = {
-                        is_subject_of_type = aragonese_crown_PU
-                        is_subject_of_type = personal_union
-                    }
-                    OR = {
-                        capital_scope = {
-                            region = italy_region
-                        }
-                        capital_scope = {
-                            region = iberia_region
-                        }
-                    }
-                }
-            }
+            trigger = "tag = ARA
+is_subject = no
+NOT = {
+total_development = 500
+}
+any_subject_country = {
+OR = {
+is_subject_of_type = aragonese_crown_PU
+is_subject_of_type = personal_union
+}
+OR = {
+capital_scope = {
+region = italy_region
+}
+capital_scope = {
+region = iberia_region
+}
+}
+}"
         }
     }
     immediate = {
@@ -3867,12 +3659,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_hanseatic_domination
-            trigger = {
-                government = republic
+            trigger = "                government = republic
                 is_in_trade_league = yes
                 any_core_province = {
                     has_port = yes
@@ -3881,8 +3672,7 @@ country_event = {
                     tag = HSA
                     is_in_trade_league_with = HSA
                 }
-                has_government_attribute = is_merchant_republic
-            }
+                has_government_attribute = is_merchant_republic"
         }
     }
     immediate = {
@@ -3907,17 +3697,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = bangyesurok_1
-            trigger = {
-                has_government_attribute = enables_global_tax_modifier_buff
+            trigger = "                has_government_attribute = enables_global_tax_modifier_buff
                 stability = 1
                 NOT = {
                     stability = 2
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -3939,17 +3727,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = bangyesurok_2
-            trigger = {
-                has_government_attribute = enables_global_tax_modifier_buff
+            trigger = "                has_government_attribute = enables_global_tax_modifier_buff
                 stability = 2
                 NOT = {
                     stability = 3
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -3971,14 +3757,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = bangyesurok_3
-            trigger = {
-                has_government_attribute = enables_global_tax_modifier_buff
-                stability = 3
-            }
+            trigger = "                has_government_attribute = enables_global_tax_modifier_buff
+                stability = 3"
         }
     }
     immediate = {
@@ -4003,14 +3787,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = central_army_VU
-            trigger = {
-                has_government_attribute = enables_central_army_conscription
-                is_at_war = yes
-            }
+            trigger = "                has_government_attribute = enables_central_army_conscription
+                is_at_war = yes"
         }
     }
     immediate = {
@@ -4032,16 +3814,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = bureaucracy_autonomy
-            trigger = {
-                has_government_attribute = enables_bureaucracy_autonomy
+            trigger = "                has_government_attribute = enables_bureaucracy_autonomy
                 NOT = {
                     average_autonomy_above_min = 30
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4063,12 +3843,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = korean_bureaucracy_advisor_1
-            trigger = {
-                has_government_attribute = enables_korean_bureaucracy
+            trigger = "                has_government_attribute = enables_korean_bureaucracy
                 has_adm_advisor_with_skill = {
                     skill = 1
                 }
@@ -4076,8 +3855,7 @@ country_event = {
                     has_adm_advisor_with_skill = {
                         skill = 2
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4099,12 +3877,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = korean_bureaucracy_advisor_2
-            trigger = {
-                has_government_attribute = enables_korean_bureaucracy
+            trigger = "                has_government_attribute = enables_korean_bureaucracy
                 has_adm_advisor_with_skill = {
                     skill = 2
                 }
@@ -4112,8 +3889,7 @@ country_event = {
                     has_adm_advisor_with_skill = {
                         skill = 3
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4135,12 +3911,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = korean_bureaucracy_advisor_3
-            trigger = {
-                has_government_attribute = enables_korean_bureaucracy
+            trigger = "                has_government_attribute = enables_korean_bureaucracy
                 has_adm_advisor_with_skill = {
                     skill = 3
                 }
@@ -4148,8 +3923,7 @@ country_event = {
                     has_adm_advisor_with_skill = {
                         skill = 4
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4171,12 +3945,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = korean_bureaucracy_advisor_4
-            trigger = {
-                has_government_attribute = enables_korean_bureaucracy
+            trigger = "                has_government_attribute = enables_korean_bureaucracy
                 has_adm_advisor_with_skill = {
                     skill = 4
                 }
@@ -4184,8 +3957,7 @@ country_event = {
                     has_adm_advisor_with_skill = {
                         skill = 5
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4207,16 +3979,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = korean_bureaucracy_advisor_5
-            trigger = {
-                has_government_attribute = enables_korean_bureaucracy
+            trigger = "                has_government_attribute = enables_korean_bureaucracy
                 has_adm_advisor_with_skill = {
                     skill = 5
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4241,14 +4011,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = korean_bureaucracy_advisor_5
-            trigger = {
-                has_government_attribute = enables_militant_orders
-                at_war_with_religious_enemy = yes
-            }
+            trigger = "                has_government_attribute = enables_militant_orders
+                at_war_with_religious_enemy = yes"
         }
     }
     immediate = {
@@ -4265,7 +4033,7 @@ country_event = {
 }
 
 ######################################################################################
-# VU AI alliance balancing by Don
+# VU AI alliance balancing
 ######################################################################################
 country_event = {
     id = vu_triggered_modifier_events.127
@@ -4273,14 +4041,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_emperor_dip_decrease
-            trigger = {
-                ai = yes
-                is_emperor = yes
-            }
+            trigger = "                ai = yes
+                is_emperor = yes"
         }
     }
     immediate = {
@@ -4302,15 +4068,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_elector_dip_decrease
-            trigger = {
-                ai = yes
+            trigger = "                ai = yes
                 is_emperor = no
-                is_elector = yes
-            }
+                is_elector = yes"
         }
     }
     immediate = {
@@ -4332,16 +4096,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_prince_dip_decrease
-            trigger = {
-                ai = yes
+            trigger = "                ai = yes
                 is_emperor = no
                 is_elector = no
-                is_part_of_hre = yes
-            }
+                is_part_of_hre = yes"
         }
     }
     immediate = {
@@ -4358,7 +4120,7 @@ country_event = {
 }
 
 ######################################################################################
-# VU Edumacation by SF & Don
+# VU Edumacation by SF & VU
 ######################################################################################
 country_event = {
     id = vu_triggered_modifier_events.130
@@ -4366,14 +4128,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_ruler_studying
-            trigger = {
-                has_ruler_flag = vu_ruler_studying
-                is_at_war = no
-            }
+            trigger = "                has_ruler_flag = vu_ruler_studying
+                is_at_war = no"
         }
     }
     immediate = {
@@ -4395,14 +4155,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_war_ruler_studying
-            trigger = {
-                has_ruler_flag = vu_ruler_studying
-                is_at_war = yes
-            }
+            trigger = "                has_ruler_flag = vu_ruler_studying
+                is_at_war = yes"
         }
     }
     immediate = {
@@ -4424,14 +4182,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_heir_studying
-            trigger = {
-                has_heir_flag = vu_heir_studying
-                is_at_war = no
-            }
+            trigger = "                has_heir_flag = vu_heir_studying
+                is_at_war = no"
         }
     }
     immediate = {
@@ -4453,14 +4209,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_war_heir_general_studying
-            trigger = {
-                has_heir_flag = vu_heir_studying
-                is_at_war = no
-            }
+            trigger = "                has_heir_flag = vu_heir_studying
+                is_at_war = no"
         }
     }
     immediate = {
@@ -4477,7 +4231,7 @@ country_event = {
 }
 
 ######################################################################################
-# Don's Startup Settings
+# VU Startup Settings
 ######################################################################################
 country_event = {
     id = vu_triggered_modifier_events.134
@@ -4485,14 +4239,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_startup_small_HRE_modifier
-            trigger = {
-                has_global_flag = vu_startup_small_HRE
-                is_emperor = yes
-            }
+            trigger = "                has_global_flag = vu_startup_small_HRE
+                is_emperor = yes"
         }
     }
     immediate = {
@@ -4509,7 +4261,7 @@ country_event = {
 }
 
 ######################################################################################
-# Don's More Strategic Resources
+# VU Strategic Resources
 ######################################################################################
 country_event = {
     id = vu_triggered_modifier_events.135
@@ -4517,15 +4269,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_lacks_horses_for_cavalry
-            trigger = {
-                NOT = {
+            trigger = "                NOT = {
                     horses = 1
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4547,12 +4297,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_lacks_bronze_for_cannons
-            trigger = {
-                NOT = {
+            trigger = "                NOT = {
                     AND = {
                         tin = 1
                         copper = 1
@@ -4563,8 +4312,7 @@ country_event = {
                     }
                     iron = 1
                     cannon = 1
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4586,18 +4334,16 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_brass_substitute_for_cannons
-            trigger = {
-                copper = 1
+            trigger = "                copper = 1
                 zinc = 1
                 NOT = {
                     tin = 1
                     cannon = 1
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4619,12 +4365,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_cast_iron_substitute_for_cannons
-            trigger = {
-                iron = 1
+            trigger = "                iron = 1
                 NOT = {
                     AND = {
                         copper = 1
@@ -4635,8 +4380,7 @@ country_event = {
                         zinc = 1
                     }
                     cannon = 1
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4658,16 +4402,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_lacks_iron_for_infantry
-            trigger = {
-                NOT = {
+            trigger = "                NOT = {
                     iron = 1
                     steel = 1
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4689,15 +4431,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_lacks_lumber_for_ships
-            trigger = {
-                NOT = {
+            trigger = "                NOT = {
                     lumber = 1
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4719,16 +4459,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_lacks_supplies_for_navies
-            trigger = {
-                NOT = {
+            trigger = "                NOT = {
                     naval_supplies = 1
                     tar = 1
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4750,12 +4488,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_lacks_food
-            trigger = {
-                NOT = {
+            trigger = "                NOT = {
                     grain = 1
                     fish = 1
                     rice = 1
@@ -4770,8 +4507,7 @@ country_event = {
                     olive_oil = 1
                     livestock = 1
                     llama = 1
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4793,13 +4529,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_gunpowder
-            trigger = {
-                gunpowder = 1
-            }
+            trigger = "                gunpowder = 1"
         }
     }
     immediate = {
@@ -4821,13 +4555,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_steel
-            trigger = {
-                steel = 1
-            }
+            trigger = "                steel = 1"
         }
     }
     immediate = {
@@ -4849,13 +4581,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_munitons
-            trigger = {
-                munitions = 1
-            }
+            trigger = "                munitions = 1"
         }
     }
     immediate = {
@@ -4877,12 +4607,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_alcohol
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     beer = 1
                     cider = 1
                     sake = 1
@@ -4892,8 +4621,7 @@ country_event = {
                     vodka = 1
                     rum = 1
                     wine = 1
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -4915,13 +4643,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_uniforms
-            trigger = {
-                uniforms = 1
-            }
+            trigger = "                uniforms = 1"
         }
     }
     immediate = {
@@ -4943,13 +4669,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_regular_clothes
-            trigger = {
-                regular_clothes = 1
-            }
+            trigger = "                regular_clothes = 1"
         }
     }
     immediate = {
@@ -4971,13 +4695,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_luxury_clothes
-            trigger = {
-                luxury_clothes = 1
-            }
+            trigger = "                luxury_clothes = 1"
         }
     }
     immediate = {
@@ -4999,13 +4721,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_fur_clothes
-            trigger = {
-                fur_clothing = 1
-            }
+            trigger = "                fur_clothing = 1"
         }
     }
     immediate = {
@@ -5027,16 +4747,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_medicaments_or_herbs
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     medicaments = 1
                     herbs = 1
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -5058,13 +4776,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_salt
-            trigger = {
-                salt = 1
-            }
+            trigger = "                salt = 1"
         }
     }
     immediate = {
@@ -5086,13 +4802,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_optics
-            trigger = {
-                optics = 1
-            }
+            trigger = "                optics = 1"
         }
     }
     immediate = {
@@ -5114,13 +4828,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = vu_has_access_to_woodworking
-            trigger = {
-                woodworking = 1
-            }
+            trigger = "                woodworking = 1"
         }
     }
     immediate = {
@@ -5149,13 +4861,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = east_indian_trade_route
-            trigger = {
-                vu_triggered_modifier_event_156_trigger = yes
-            }
+            trigger = "                vu_triggered_modifier_event_156_trigger = yes"
         }
     }
     immediate = {
@@ -5177,17 +4887,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = custodian_of_the_two_holy_mosques
-            trigger = {
-                normal_or_historical_nations = yes
+            trigger = "                normal_or_historical_nations = yes
                 religion_group = muslim
                 is_free_or_tributary_trigger = yes
                 owns_or_vassal_of = 385
-                owns_or_vassal_of = 384
-            }
+                owns_or_vassal_of = 384"
         }
     }
     immediate = {
@@ -5212,7 +4920,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         if = {
             limit = {
@@ -5270,7 +4978,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_event_159_trigger = yes
     }
@@ -5293,7 +5001,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         if = {
             limit = {
@@ -5370,17 +5078,15 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = submission_to_emperor
-            trigger = {
-                has_global_flag = italians_leave_hre
+            trigger = "                has_global_flag = italians_leave_hre
                 is_emperor = no
                 culture_group = latin
                 is_part_of_hre = yes
-                NOT = { has_country_flag = reined_in_for_shadow_kingdom  tag = ITL  tag = ITA  is_year = 1550  emperor = { alliance_with = ROOT } }
-            }
+                NOT = { has_country_flag = reined_in_for_shadow_kingdom  tag = ITL  tag = ITA  is_year = 1550  emperor = { alliance_with = ROOT } }"
         }
     }
     immediate = {
@@ -5405,31 +5111,29 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = counter_revolution
-            trigger = {
-                any_country = {
-                    is_revolution_target = yes
-                    OR = {
-                        capital_scope = {
-                            continent = ROOT
-                        }
-                        is_neighbor_of = ROOT
-                    }
-                }
-                is_free_or_tributary_trigger = yes
-                NOT = {
-                    revolution_target = {
-                        war_with = ROOT
-                    }
-                    revolution_target = {
-                        truce_with = ROOT
-                    }
-                }
-                government = monarchy
-            }
+            trigger = "any_country = {
+is_revolution_target = yes
+OR = {
+capital_scope = {
+continent = ROOT
+}
+is_neighbor_of = ROOT
+}
+}
+is_free_or_tributary_trigger = yes
+NOT = {
+revolution_target = {
+war_with = ROOT
+}
+revolution_target = {
+truce_with = ROOT
+}
+}
+government = monarchy"
         }
     }
     immediate = {
@@ -5454,12 +5158,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = reaction
-            trigger = {
-                revolution_target_exists = yes
+            trigger = "                revolution_target_exists = yes
                 is_revolutionary = no
                 any_country = {
                     is_revolution_target = yes
@@ -5471,8 +5174,7 @@ country_event = {
                 government = monarchy
                 revolution_target = {
                     war_with = ROOT
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -5497,12 +5199,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = crusader
-            trigger = {
-                religion = catholic
+            trigger = "                religion = catholic
                 crusade_target = {
                     exists = yes
                 }
@@ -5512,8 +5213,7 @@ country_event = {
                     any_province = {
                         controlled_by = root
                     }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -5538,14 +5238,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = excommunication
-            trigger = {
-                religion = catholic
-                is_excommunicated = yes
-            }
+            trigger = "                religion = catholic
+                is_excommunicated = yes"
         }
     }
     immediate = {
@@ -5570,24 +5268,22 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = pentarchy_mod
-            trigger = {
-                normal_or_historical_nations = yes
-                religion = orthodox
-                owns = 118 	# Rome
-                owns = 151 	# Constantinople
-                owns = 2313	# Antioch
-                owns = 379 	# Jerusalem
-                owns = 358 	# Alexandria
-                118 = { religion = orthodox }
-                151 = { religion = orthodox }
-                2313 = { religion = orthodox }
-                379 = { religion = orthodox }
-                358 = { religion = orthodox }
-            }
+            trigger = "normal_or_historical_nations = yes
+religion = orthodox
+owns = 118 	# Rome
+owns = 151 	# Constantinople
+owns = 2313	# Antioch
+owns = 379 	# Jerusalem
+owns = 358 	# Alexandria
+118 = { religion = orthodox }
+151 = { religion = orthodox }
+2313 = { religion = orthodox }
+379 = { religion = orthodox }
+358 = { religion = orthodox }"
         }
     }
     immediate = {
@@ -5612,7 +5308,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_event_167_trigger = yes
     }
@@ -5638,12 +5334,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = hre_dominant_catholic
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     religion = catholic
                     religion = protestant
                     religion = reformed
@@ -5653,8 +5348,7 @@ country_event = {
                 is_religion_enabled = protestant
                 religion = catholic
                 hre_religion = catholic
-                hre_religion_locked = yes
-            }
+                hre_religion_locked = yes"
         }
     }
     immediate = {
@@ -5676,12 +5370,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = hre_dominant_protestant
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     religion = catholic
                     religion = protestant
                     religion = reformed
@@ -5691,8 +5384,7 @@ country_event = {
                 is_religion_enabled = protestant
                 religion = protestant
                 hre_religion = protestant
-                hre_religion_locked = yes
-            }
+                hre_religion_locked = yes"
         }
     }
     immediate = {
@@ -5714,12 +5406,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = hre_dominant_reformed
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     religion = catholic
                     religion = protestant
                     religion = reformed
@@ -5729,8 +5420,7 @@ country_event = {
                 is_religion_enabled = reformed
                 religion = reformed
                 hre_religion = reformed
-                hre_religion_locked = yes
-            }
+                hre_religion_locked = yes"
         }
     }
     immediate = {
@@ -5752,12 +5442,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = hre_dominant_hussite
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     religion = catholic
                     religion = protestant
                     religion = reformed
@@ -5765,8 +5454,7 @@ country_event = {
                 }
                 religion = hussite
                 hre_religion = hussite
-                hre_religion_locked = yes
-            }
+                hre_religion_locked = yes"
         }
     }
     immediate = {
@@ -5791,19 +5479,17 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = golden_age_of_piracy
-            trigger = {
-                has_global_flag = golden_age_of_piracy
+            trigger = "                has_global_flag = golden_age_of_piracy
                 NOT = { # lasts 50 years
                     had_global_flag = { flag = golden_age_of_piracy days = 18250 }
                 }
                 1516 = {
                     privateer_power = { country = ROOT share = 1 }
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -5828,18 +5514,16 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = great_peasants_war_triggered_modifier
-            trigger = {
-                has_global_flag = great_peasants_war_flag
+            trigger = "                has_global_flag = great_peasants_war_flag
                 capital_scope = {
                     continent = europe
                 }
                 is_part_of_hre = yes
-                NOT = { has_government_attribute = is_peasants_republic }
-            }
+                NOT = { has_government_attribute = is_peasants_republic }"
         }
     }
     immediate = {
@@ -5861,12 +5545,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = great_peasants_war_concessions_triggered_modifier
-            trigger = {
-                OR = {
+            trigger = "                OR = {
                     has_global_flag = gpw_peasants_win_major
                     has_global_flag = gpw_peasants_win_minor
                 }
@@ -5874,8 +5557,7 @@ country_event = {
                     continent = europe
                 }
                 is_part_of_hre = yes
-                NOT = { has_government_attribute = is_peasants_republic }
-            }
+                NOT = { has_government_attribute = is_peasants_republic }"
         }
     }
     immediate = {
@@ -5900,15 +5582,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = pope_in_hre_triggered_modifier
-            trigger = {
-                PAP = { is_part_of_hre = yes }
+            trigger = "                PAP = { is_part_of_hre = yes }
                 religion = catholic
-                NOT = { is_part_of_hre = yes }
-            }
+                NOT = { is_part_of_hre = yes }"
         }
     }
     immediate = {
@@ -5933,13 +5613,11 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = italian_wars_triggered_modifier
-            trigger = {
-                vu_triggered_modifier_event_176_trigger = yes
-            }
+            trigger = "                vu_triggered_modifier_event_176_trigger = yes"
         }
     }
     immediate = {
@@ -5964,7 +5642,7 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 1 }
     trigger = {
         vu_triggered_modifier_event_177_trigger = yes
     }
@@ -5990,15 +5668,13 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = judaism_yom_kippur_aspect_war_modifier
-            trigger = {
-                religion = jewish
+            trigger = "                religion = jewish
                 has_church_aspect = judaism_yom_kippur_aspect
-                is_at_war = yes
-            }
+                is_at_war = yes"
         }
     }
     immediate = {
@@ -6020,18 +5696,16 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = judaism_yom_kippur_aspect_defensive_war_modifier
-            trigger = {
-                religion = jewish
+            trigger = "                religion = jewish
                 has_church_aspect = judaism_yom_kippur_aspect
                 is_at_war = yes
                 is_in_war = {
                     defenders = ROOT
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -6056,16 +5730,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ahmudan_system_attacker
-            trigger = {
-                has_government_attribute = ahmudan_system
+            trigger = "                has_government_attribute = ahmudan_system
                 is_in_war = {
                     attackers = ROOT
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -6087,16 +5759,14 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = ahmudan_system_defender
-            trigger = {
-                has_government_attribute = ahmudan_system
+            trigger = "                has_government_attribute = ahmudan_system
                 is_in_war = {
                     defenders = ROOT
-                }
-            }
+                }"
         }
     }
     immediate = {
@@ -6118,14 +5788,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = TIM_diwan_adm
-            trigger = {
-                has_reform = timurid_diwan_reform
-                national_focus = adm
-            }
+            trigger = "                has_reform = timurid_diwan_reform
+                national_focus = adm"
         }
     }
     immediate = {
@@ -6147,14 +5815,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = TIM_diwan_dip
-            trigger = {
-                has_reform = timurid_diwan_reform
-                national_focus = dip
-            }
+            trigger = "                has_reform = timurid_diwan_reform
+                national_focus = dip"
         }
     }
     immediate = {
@@ -6176,14 +5842,12 @@ country_event = {
     desc = vu_triggered_modifier_events.desc
     picture = CITY_VIEW_eventPicture
     hidden = yes
-    mean_time_to_happen = { days = 1 }
+    is_triggered_only = yes
     trigger = {
         vu_triggered_modifier_trigger = {
             modifier = TIM_diwan_mil
-            trigger = {
-                has_reform = timurid_diwan_reform
-                national_focus = mil
-            }
+            trigger = "                has_reform = timurid_diwan_reform
+                national_focus = mil"
         }
     }
     immediate = {

@@ -9,8 +9,8 @@
  vu_pomeranian_nation_title: "Unite the Duchy of Pomerania"
  vu_pomeranian_nation_desc: "Through our strong military and our influential diplomacy, we have united the fragmented duchy of Pomerania under our control. Our ancestors divided our lands upon succession, creating a myriad of realms, but no longer will our dynasty fracture our lands. We control territory with such opportunity, harbouring numerous Hanseatic Towns, and vital access to the Baltic Sea that all of Germany envies."         #Credit to JP
  #
- #lotf
- lotf_royal_ties: "American Royal Ties"
+ #VU Americas
+ vu_murica_royal_ties: "American Royal Ties"
  #New Additions by San Felipe
  #de-bugging
  vu_debug.1.t: "Debug"

@@ -1140,7 +1140,7 @@ country_decisions = {
 				tag = SCO
 				num_of_cities = 17				#At least 1/2 of Ireland and Scotland's 34 provinces to see, if not IRE, ANI, or SCO
 			}
-			#Don't want to be able to see this too early. First goal should be forming provincial kingdoms and then Ireland or overthrowing Scotland.
+			#VU't want to be able to see this too early. First goal should be forming provincial kingdoms and then Ireland or overthrowing Scotland.
 		}
 		provinces_to_highlight = {
 			OR = {

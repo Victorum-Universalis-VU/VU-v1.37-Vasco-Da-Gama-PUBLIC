@@ -1,4 +1,4 @@
-#By Don
+#By VU
 country_decisions = {
 	vu_toggle_subject_colours_subject = {
 		#Toggle between having same colour subjects and not

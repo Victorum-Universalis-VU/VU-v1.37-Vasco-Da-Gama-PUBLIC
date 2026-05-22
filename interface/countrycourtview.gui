@@ -1061,7 +1061,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "home"
-			position = { x = 140 y =32 }
+			position = { x = 193 y =32 }
 			format = left
 			textureFile = ""
 			font = "vic_18"

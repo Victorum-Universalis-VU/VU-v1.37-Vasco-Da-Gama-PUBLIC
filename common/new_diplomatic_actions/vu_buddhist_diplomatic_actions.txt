@@ -193,7 +193,7 @@ vu_revert_buddhist_principality_to_vassal = {
 			subject_type = vassal
 		}
 		FROM = {
-			#Adding this entry so it removes the Gov reform when you turn them back, doing it this way shouldn't spawn the "government reform abolished" popup. -Don
+			#Adding this entry so it removes the Gov reform when you turn them back, doing it this way shouldn't spawn the "government reform abolished" popup.
 			remove_government_reform = vu_buddhist_principality_reform
 		}
 		vu_colour_refresh = yes

@@ -492,11 +492,7 @@ annexationaction = {
             }
         }
         allow = {
-            FROM = {
-                capital_scope = {
-					always = yes #Remind Don later
-				}
-            }
+            always = no
         }
     }
     condition = {

@@ -2974,7 +2974,7 @@ dom_cas_missions_3_c = {
                 fire = 5
                 manuever = 6
                 siege = 1
-                name = "Hernï¿½n Cortï¿½s"
+                name = "Hernán Cortés"
             }
             490 = {
                 add_base_production = 3
@@ -3789,7 +3789,7 @@ dom_cas_missions_4_c = {
 
         effect = {
             define_explorer = {
-                name = "Martï¿½n Alonso Pinzï¿½n" #Captain of the Pinta
+                name = "Martín Alonso Pinzón" #Captain of the Pinta
                 fire = 2
                 shock = 2
                 manuever = 5

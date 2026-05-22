@@ -26,7 +26,7 @@
  vu_send_military_attaches_for_MIL_tooltip: "Send a Military Attache to assist them in gaining £mil£ which will improve their opinion of us, resulting in them feeling obligated to owe us favors in return."
  vu_send_military_attaches_for_MIL_dialog: "Would you like to accept this assistance from your kind and loyal benefactor?"
 
- # Don's Stuff #
+ # VU's Stuff #
 
  #Requesting Specialists
  #Opinion Modifires:
@@ -52,7 +52,7 @@
  vu_request_military_attaches_for_MIL_tooltip: "Request Military Attaches from them so that we may gain £mil£ which will improve our opinion of them, resulting in us feeling obligated to owing them favors in return."
  vu_request_military_attaches_for_MIL_dialog: "Would you like to accept this assistance from your kind and loyal benefactor?"
 
- #Don's new skeleton-peachy locs
+ #VU's new skeleton-peachy locs
  #New VU 1.37* Western subject types - SF 
  #vu_promote_vassal_to_lordship_title: "Promote Vassal to Lordship"
  #vu_promote_vassal_to_lordship_desc: "This allows the promotion of vassal subject types to Lordship rank."

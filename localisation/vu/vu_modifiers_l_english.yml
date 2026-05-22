@@ -996,16 +996,16 @@
  COTTON_KING: "Booming Tobacco Industry"
  COTTON_KING_2: "Cotton Gin Production"
  CONT_CONG: ""
- lotf_liberation_modifier: "American Liberation"
- desc_lotf_liberation_modifier: "Liberation"
+ vu_murica_liberation_modifier: "American Liberation"
+ desc_vu_murica_liberation_modifier: "Liberation"
  colonial_buffs_1: "Colonial Endeavors"
  colonial_buffs_2: "Expanded Colonial Endeavors"
  colonial_buffs_3: "Native Cooperation"
  colonial_buffs_4: "New World Trade"
  navigation_acts_1: "Navigation Acts"
  navigation_acts_2: "Unruly Colonies"
- lotf_events.6_modifier: "Prepare for War"
- lotf_events.7_modifier: "It's Time for War!"
+ vu_murica_events.6_modifier: "Prepare for War"
+ vu_murica_events.7_modifier: "It's Time for War!"
  grow_the_ports_modifier: "Growth of Ports"
  desc_grow_the_ports_modifier: ""
  mercantile_protection_modifier: "Mercantile Protection"
@@ -1062,10 +1062,10 @@
  desc_wells_fargo_modifier_1: "Wells Fargo"
  wells_fargo_modifier_2: "The Federal Reserve"
  desc_wells_fargo_modifier_2: "Wells Fargo"
- USA_republic_dec_modifier: "Republican Virtues"
- desc_USA_republic_dec_modifier: ""
- USA_missions_republican_values_modifier: "Spreading our Values"
- desc_USA_missions_republican_values_modifier: ""
+ vu_murica_republic_dec_modifier: "Republican Virtues"
+ desc_vu_murica_republic_dec_modifier: ""
+ vu_murica_republican_values_modifier: "Spreading our Values"
+ desc_vu_murica_republican_values_modifier: ""
  build_roads_modifier: "Building Roads"
  desc_build_roads_modifier: "Build Roads"
  cont_cong_election: "Continental Congress"
@@ -1510,9 +1510,6 @@
  vu_book_of_grudges_modifier: "Book of Grudges"
  desc_vu_book_of_grudges_modifier: ""
 
- vu_fancifur_novels: "Fancy Novels"
- desc_vu_fancifur_novels: ""
-
  vu_wandering_wenches_of_stettin: "Wondering Wenches of Stettin"
  desc_vu_wandering_wenches_of_stettin: ""
 
@@ -1798,7 +1795,7 @@
  MOR_wattasids: "Wattasids"
  desc_MOR_wattasids: ""
 
- #Don's Hardly Strategic Resources
+ #VU's Hardly Strategic Resources
  vu_lacks_horses_for_cavalry: "Is lacking Horses for Cavalry"
  vu_lacks_bronze_for_cannons: "Is lacking Bronze or other substitutes for Cannons"
  vu_brass_substitute_for_cannons: "Is substituting Brass for Bronze in Cannons"
@@ -1843,3 +1840,5 @@
  
  habsburg_glory_power_gain_modifier: ""
  defense_of_the_empire_modifier: ""
+ # Subject peace lock modifier
+ vu_broke_overlord_war: "Abandoned Our War Effort"

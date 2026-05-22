@@ -1253,7 +1253,7 @@
  mechanic_enables_immigrant_settlements_yes: "Immigrant Settlements: §G-10%§! Local Development Cost in Provinces with Rural Goods."
  mechanic_enables_nations_of_the_republic_yes: "Nations of the Republic: §G-10%§! Governing Cost and §G-15%§! Tax in Provinces with Accepted Cultures."
 
- #GE Don't Know
+ #GE VU't Know
  mechanic_enables_siberian_tribe_yes: "Siberian Tribe: §G-25%§! Development Cost in §YGlacial§! or §YArctic§! owned provinces"
  mechanic_enables_capitalism_yes: "Laissez Faire Capitalism: §G+2.5%§! Goods Produced Modifier for each §Y10%§! Total Liberalism up to §Y100%§! Total Liberalism"
  

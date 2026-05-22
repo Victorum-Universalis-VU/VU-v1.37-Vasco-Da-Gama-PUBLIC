@@ -264,3 +264,40 @@ splitting_of_moldavia = {
 	opinion = -50
 	yearly_decay = 2
 }
+
+################
+# VU Americas  #
+################
+
+boston_tea_party = {
+	opinion = -100
+	yearly_decay = 1
+}
+
+assisted_in_revolution = {
+	opinion = 100
+	yearly_decay = 2.5
+}
+
+######################
+# VU Byzantium       #
+######################
+
+vu_kept_the_patriarchate = {
+	opinion = 15
+	yearly_decay = 2
+}
+
+vu_suppressed_the_patriarchate = {
+	opinion = -25
+	yearly_decay = 2
+}
+
+######################
+# VU Subject Peace   #
+######################
+
+vu_broke_overlord_war = {
+	opinion = -20
+	yearly_decay = 2
+}

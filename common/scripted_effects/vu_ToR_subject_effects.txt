@@ -1,6 +1,5 @@
-#VU additions by DonBrom for VU ToR 1.37.* release
+#VU additions by VU for VU ToR 1.37.* release
 #Contributors:
-#DonBrom
 #San Felipe
 #############################################################
 vu_create_ToR_lordship = {

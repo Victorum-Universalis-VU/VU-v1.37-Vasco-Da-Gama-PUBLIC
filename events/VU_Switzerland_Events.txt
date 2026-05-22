@@ -1,16 +1,16 @@
-namespace = FU_Switzerland_Events
+namespace = vu_Switzerland_Events
 namespace = VU_Switzerland_Events
 
 country_event = { #Manufacturing and Trading of Swiss Textiles
-	id = FU_Switzerland_Events.1 
-	title = FU_Switzerland_Events.1.t 
-	desc = FU_Switzerland_Events.1.d 
+	id = vu_Switzerland_Events.1 
+	title = vu_Switzerland_Events.1.t 
+	desc = vu_Switzerland_Events.1.d 
 	picture = TEXTILE_INDUSTRY_eventPicture
 	
 	is_triggered_only = yes 
 	
 	option = {
-		name = FU_Switzerland_Events.1.a 
+		name = vu_Switzerland_Events.1.a 
 		
 		1870 = {
 			if = {
@@ -34,7 +34,7 @@ country_event = { #Manufacturing and Trading of Swiss Textiles
 	}
 	
 	option = {
-		name = FU_Switzerland_Events.1.b
+		name = vu_Switzerland_Events.1.b
 		
 		trigger = {
 			1870 = {
@@ -59,15 +59,15 @@ country_event = { #Manufacturing and Trading of Swiss Textiles
 }
 
 country_event = { #Swiss Cheese
-	id = FU_Switzerland_Events.2 
-	title = FU_Switzerland_Events.2.t 
-	desc = FU_Switzerland_Events.2.d 
+	id = vu_Switzerland_Events.2 
+	title = vu_Switzerland_Events.2.t 
+	desc = vu_Switzerland_Events.2.d 
 	picture = vu_swiss_cheese_eventPicture
 	
 	is_triggered_only = yes 
 	
 	option = {
-		name = FU_Switzerland_Events.2.a 
+		name = vu_Switzerland_Events.2.a 
 		
 		add_years_of_income = 2
 
@@ -85,15 +85,15 @@ country_event = { #Swiss Cheese
 }
 
 country_event = { #Swiss Cheese
-	id = FU_Switzerland_Events.3 
-	title = FU_Switzerland_Events.3.t 
-	desc = FU_Switzerland_Events.3.d 
+	id = vu_Switzerland_Events.3 
+	title = vu_Switzerland_Events.3.t 
+	desc = vu_Switzerland_Events.3.d 
 	picture = vu_swiss_cheese_eventPicture
 	
 	is_triggered_only = yes 
 
 	option = {
-		name = FU_Switzerland_Events.3.a 
+		name = vu_Switzerland_Events.3.a 
 		
 		1880 = { 
 			remove_core = ROOT 
@@ -110,7 +110,7 @@ country_event = { #Swiss Cheese
 	}
 	
 	option = {
-		name = FU_Switzerland_Events.3.b 
+		name = vu_Switzerland_Events.3.b 
 		
 		add_prestige_or_monarch_power = { amount = 5 }
 		
@@ -119,9 +119,9 @@ country_event = { #Swiss Cheese
 }
 
 country_event = { #William Tell and Arnold von Winkelried 
-	id = FU_Switzerland_Events.4
-	title = FU_Switzerland_Events.4.t 
-	desc = FU_Switzerland_Events.4.d
+	id = vu_Switzerland_Events.4
+	title = vu_Switzerland_Events.4.t 
+	desc = vu_Switzerland_Events.4.d
 	picture = william_tell_legends_eventPicture
 	
 	fire_only_once = yes
@@ -137,7 +137,7 @@ country_event = { #William Tell and Arnold von Winkelried
 	}
 	
 	option = {
-		name = FU_Switzerland_Events.4.a 
+		name = vu_Switzerland_Events.4.a 
 		
 		add_army_tradition = 5 
 		add_country_modifier = {
@@ -148,9 +148,9 @@ country_event = { #William Tell and Arnold von Winkelried
 }
 
 country_event = { #The Swiss Confederation
-	id = FU_Switzerland_Events.5
-	title = FU_Switzerland_Events.5.t 
-	desc = FU_Switzerland_Events.5.d 
+	id = vu_Switzerland_Events.5
+	title = vu_Switzerland_Events.5.t 
+	desc = vu_Switzerland_Events.5.d 
 	picture = vu_swiss_cantons_eventPicture
 	
 	fire_only_once = yes 
@@ -166,7 +166,7 @@ country_event = { #The Swiss Confederation
 	}
 	
 	option = {
-		name = FU_Switzerland_Events.5.a 
+		name = vu_Switzerland_Events.5.a 
 		
 		custom_tooltip = swi_enable_cantons_tt 
 		hidden_effect = { 
@@ -177,9 +177,9 @@ country_event = { #The Swiss Confederation
 }
 
 country_event = {
-	id = FU_Switzerland_Events.6
-	title = FU_Switzerland_Events.6.t 
-	desc = FU_Switzerland_Events.6.d 
+	id = vu_Switzerland_Events.6
+	title = vu_Switzerland_Events.6.t 
+	desc = vu_Switzerland_Events.6.d 
 	picture = vu_swiss_cheese_eventPicture 
 	
 	hidden = yes 
@@ -191,7 +191,7 @@ country_event = {
 	}
 	
 	option = {
-		name = FU_Switzerland_Events.6.a 
+		name = vu_Switzerland_Events.6.a 
 		
 		remove_country_modifier = swi_period_of_stability_modifier
 	}

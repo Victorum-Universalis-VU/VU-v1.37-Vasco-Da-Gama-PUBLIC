@@ -670,7 +670,7 @@ cb_subjugate_lithuania = {
 	war_goal = lithuania_sphere 
 }
 
-#lotf_cb_types
+#vu_murica_cb_types
 #New Additions for VU by San Felipe
 ##New Additions from lotf by San Felipe
 cb_manifest_destiny = {
@@ -686,7 +686,7 @@ cb_manifest_destiny = {
 	war_goal = manifest_destiny_war_goal
 }
 
-lotf_civil_war = {
+vu_murica_civil_war = {
 	exclusive = yes
 	independence = yes
 	is_triggered_only = yes
@@ -1435,4 +1435,22 @@ cb_force_vassal_surya_majapahit = {
 		po_become_tributary_state
 	}
 	war_goal = take_capital_vassalize
+}
+
+cb_force_vassal_emperor_of_china = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_emperor_of_china = yes
+		NOT = { truce_with = FROM }
+		FROM = {
+			capital_scope = { trade_range = ROOT }
+			NOT = { is_subject_of = ROOT }
+		}
+	}
+	attacker_disabled_po = {
+		po_subjugate_tributary_state
+		po_become_tributary_state
+	}
+	war_goal = take_capital_vassalize_eoc
 }

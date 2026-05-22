@@ -1148,7 +1148,7 @@ province_event = {
 			add_manpower = -10
 		}
 	}
-	option = {	# Don't risk more lives
+	option = {	# VU't risk more lives
 		name = "canal_events.EVTOPTB21"
 		ai_chance = { factor = 75 }
 		add_construction_progress = -0.05

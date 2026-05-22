@@ -415,7 +415,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = VULegacyCRsSEAFlavour.8.b #Don't accept the merchant's offer
+		name = VULegacyCRsSEAFlavour.8.b #VU't accept the merchant's offer
 		ai_chance = {
 			factor = 0
 		}

@@ -145,7 +145,7 @@ country_event = {
 		custom_tooltip = merges_celtic_cultures_tooltip_c
 		hidden_effect = {
 			if = {
-				limit = { primary_culture = irish } #Don said leave this alone - SF
+				limit = { primary_culture = irish } #VU said leave this alone - SF
 				change_primary_culture = celtic_irish_culture
 			}
 			if = {

@@ -780,7 +780,7 @@ province_event = {
 		}
 		clr_province_flag = RHN_coal_debuff
 		remove_province_modifier = RHN_coal_debuff
-		remove_province_modifier = RHN_coal_debuff_tge
+		remove_province_modifier = RHN_coal_debuff_vu
 	}
 }
 

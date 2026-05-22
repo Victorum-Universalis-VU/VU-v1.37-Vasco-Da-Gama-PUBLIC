@@ -5,7 +5,7 @@
 # 	   \   /   '  '-'  '               \ '-'  |\ `-' |\ `-' ||  |  |  |  |  |' '-' '|  ||  |	#
 #	    `-'     `-----'                 `--`--' `---'  `---' `--'  `--'  `--' `---' `--''--'	#
 #################################################################################################                  
-#By Don and Prussia
+#By VU and Prussia
 vu_innovative_quality = {
 	monarch_power = MIL
 	potential = {
@@ -1680,3 +1680,163 @@ vu_aristocracy_hre = {
 		factor = 1
 	}
 }
+
+##############################################################
+# expansion_ideas policies (ADM+MIL)
+##############################################################
+
+vu_expansion_offensive = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = expansion_ideas
+		has_idea_group = offensive_ideas
+	}
+	allow = {
+		full_idea_group = expansion_ideas
+		full_idea_group = offensive_ideas
+	}
+	province_warscore_cost = -0.1
+	ae_impact = -0.05
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vu_expansion_quantity = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = expansion_ideas
+		has_idea_group = quantity_ideas
+	}
+	allow = {
+		full_idea_group = expansion_ideas
+		full_idea_group = quantity_ideas
+	}
+	global_manpower_modifier = 0.05
+	land_forcelimit_modifier = 0.05
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+##############################################################
+# fishing_ideas policies (DIP+MIL)
+##############################################################
+
+vu_fishing_defensive = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = fishing_ideas
+		has_idea_group = defensive_ideas
+	}
+	allow = {
+		full_idea_group = fishing_ideas
+		full_idea_group = defensive_ideas
+	}
+	defensiveness = 0.1
+	naval_attrition = -0.05
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vu_fishing_offensive = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = fishing_ideas
+		has_idea_group = offensive_ideas
+	}
+	allow = {
+		full_idea_group = fishing_ideas
+		full_idea_group = offensive_ideas
+	}
+	privateer_efficiency = 0.25
+	naval_morale = 0.05
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+##############################################################
+# agricultural_ideas policies (ADM+MIL)
+##############################################################
+
+vu_agricultural_quantity = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = agricultural_ideas
+		has_idea_group = quantity_ideas
+	}
+	allow = {
+		full_idea_group = agricultural_ideas
+		full_idea_group = quantity_ideas
+	}
+	global_manpower_modifier = 0.1
+	global_regiment_cost = -0.05
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vu_agricultural_logistics = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = agricultural_ideas
+		has_idea_group = logistics_ideas
+	}
+	allow = {
+		full_idea_group = agricultural_ideas
+		full_idea_group = logistics_ideas
+	}
+	global_supply_limit_modifier = 0.25
+	land_attrition = -0.05
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vu_agricultural_defensive = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = agricultural_ideas
+		has_idea_group = defensive_ideas
+	}
+	allow = {
+		full_idea_group = agricultural_ideas
+		full_idea_group = defensive_ideas
+	}
+	defensiveness = 0.1
+	manpower_recovery_speed = 0.05
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+

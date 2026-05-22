@@ -428,7 +428,7 @@ country_event = {
 		add_mandate_effect = yes
 	}
 	option = {
-		name = "EVTOPTB6020"			# Don't support any faction
+		name = "EVTOPTB6020"			# VU't support any faction
 		add_stability = -1
 	}
 }

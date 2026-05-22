@@ -1,6 +1,6 @@
 #All Monarchy government names go here, at the top add the specific ones, the further down the file, the more generic they get.
 #Game will pick the first applicable government name from this file.
-#Contributors: Don, Modus, Prussia
+#Contributors: Darth Modus & Prussia
 #Contains Original and modified entries from Victorum Universalis, Vanilla, Missions Expanded and Government's Expanded, they were all transformatively changed according
 #to the DMCA. Permissions were granted for all entries by the constituent parties.
 #######################
@@ -1943,7 +1943,7 @@ bel_ToR_reform = {
         9 = BEL_CROWN_PRINCESS_fem_1
     }
     trigger = {
-        AND = { #You REALLY Don't need this. It's already in the Trigges as base
+        AND = { #You REALLY VU't need this. It's already in the Trigges as base
             OR = {
                 primary_culture = brabantian            #Belgian
                 primary_culture = flemish               #Belgian
@@ -2676,7 +2676,7 @@ indian_subcontinent_ToR_reform = {
             culture_group = western_aryan
             culture_group = eastern_aryan
             culture_group = central_indic
-            culture_group = burmese
+            culture_group = burman
         }
         OR = {
             has_ToR_government_reform = yes

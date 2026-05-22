@@ -980,6 +980,17 @@ country_event = {
         months = 1
     }
 
+    immediate = {
+        hidden_effect = {
+            if = {
+                limit = { is_subject = yes }
+                overlord = {
+                    save_event_target_as = plb_former_overlord
+                }
+            }
+        }
+    }
+
     option = {
         name = "pirates.8.a"
         ai_chance = {
@@ -1000,10 +1011,15 @@ country_event = {
         }
         add_republican_tradition = 50
         swap_non_generic_missions = yes
-        add_casus_belli = {
-            target = PLB
-            type = cb_disloyal_marquisate
-            months = 24
+        if = {
+            limit = { event_target:plb_former_overlord = { always = yes } }
+            event_target:plb_former_overlord = {
+                add_casus_belli = {
+                    target = ROOT
+                    type = cb_disloyal_marquisate
+                    months = 24
+                }
+            }
         }
     }
 

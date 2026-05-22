@@ -1647,6 +1647,10 @@ spriteTypes = {
         name = "GFX_great_project_vu_royal_naval_college"
         texturefile = "gfx//interface//great_projects//VU_England//great_project_royal_naval_college.dds"
     }
+    spriteType = {
+        name = "GFX_great_project_vu_kenilworth_castle"
+        texturefile = "gfx//interface//great_projects//VU_England//great_project_kenilworth_castle.dds"
+    }
     #Germany
     spriteType = {
         name = "GFX_great_project_vu_schloss_weesenstein"

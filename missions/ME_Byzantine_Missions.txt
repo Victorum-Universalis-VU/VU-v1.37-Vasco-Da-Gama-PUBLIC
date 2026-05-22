@@ -186,13 +186,13 @@ byzantine_missions_1 = {
         effect = {
             if = {
                 limit = { religion = orthodox }
-                country_event = { id = FU_Byzantium_Events.1 }
+                country_event = { id = vu_Byzantium_Events.1 }
                 118 = { change_religion = ROOT }
             }
             else_if = {
                 limit = { religion = catholic }
                 custom_tooltip = byz_catholic_rome_tt
-                set_country_flag = general_flag_for_FU_Rome_flag
+                set_country_flag = general_flag_Rome_flag
                 add_papal_influence = 50
                 118 = {
                     if = {
@@ -261,7 +261,7 @@ byzantine_missions_1 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.20 }
+            country_event = { id = vu_Byzantium_Events.20 }
             maghreb_region = {
                 limit = {
                     NOT = { owned_by = ROOT }
@@ -365,7 +365,7 @@ byzantine_missions_1 = {
             #				}
             #			}
             #		}
-            #		country_event = { id = FU_Byzantium_Events.3 }
+            #		country_event = { id = vu_Byzantium_Events.3 }
             #	}
             #}
             add_country_modifier = {
@@ -871,7 +871,7 @@ byzantine_missions_1 = {
         effect = {
             if = {
                 limit = { religion = catholic }
-                country_event = { id = FU_Byzantium_Events.48 }
+                country_event = { id = vu_Byzantium_Events.48 }
             }
             else = {
                 country_event = { id = catholic_flavor.3 }
@@ -911,7 +911,7 @@ byzantine_missions_1 = {
                 hidden_effect = { set_country_flag = byz_enable_byzantine_themes_flag }
             }
             else = {
-                #country_event = { id = FU_Byzantium_Events.4 } #make this into an estate privilege
+                #country_event = { id = vu_Byzantium_Events.4 } #make this into an estate privilege
                 custom_tooltip = EE_BYZ_UNLOCK_THEME_SYSTEM_PRIVILEGE
                 hidden_effect = {
                     set_estate_privilege = ME_estate_nobles_theme_system
@@ -1110,7 +1110,7 @@ byzantine_missions_2 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.5 }
+            country_event = { id = vu_Byzantium_Events.5 }
         }
     }
 
@@ -1204,7 +1204,7 @@ byzantine_missions_2 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.6 }
+            country_event = { id = vu_Byzantium_Events.6 }
             add_power_projection = {
                 type = mission_rewards_power_projection
                 amount = 25
@@ -1509,7 +1509,7 @@ byzantine_missions_2 = {
             }
             custom_tooltip = byz_scholar_trait_tt
             hidden_effect = {
-                country_event = { id = FU_Byzantium_Events.7 }
+                country_event = { id = vu_Byzantium_Events.7 }
             }
             if = {
                 limit = {
@@ -1627,10 +1627,10 @@ byzantine_missions_2 = {
                         has_commanding_three_star = yes
                     }
                 }
-                custom_tooltip = FU_BYZ_IF_ARMY_SIZE_POSITIVE
+                custom_tooltip = vu_BYZ_IF_ARMY_SIZE_POSITIVE
             }
             else = {
-                custom_tooltip = FU_BYZ_IF_ARMY_SIZE
+                custom_tooltip = vu_BYZ_IF_ARMY_SIZE
             }
             tooltip = {
                 add_country_modifier = {
@@ -1645,10 +1645,10 @@ byzantine_missions_2 = {
                         average_autonomy_above_min = 5
                     }
                 }
-                custom_tooltip = FU_BYZ_IF_REFORM_PROGRESS_POSITIVE
+                custom_tooltip = vu_BYZ_IF_REFORM_PROGRESS_POSITIVE
             }
             else = {
-                custom_tooltip = FU_BYZ_IF_REFORM_PROGRESS
+                custom_tooltip = vu_BYZ_IF_REFORM_PROGRESS
             }
             tooltip = {
                 add_country_modifier = {
@@ -1669,10 +1669,10 @@ byzantine_missions_2 = {
                         }
                     }
                 }
-                custom_tooltip = FU_BYZ_IF_PATRIARCH_PROVINCES_POSITIVE
+                custom_tooltip = vu_BYZ_IF_PATRIARCH_PROVINCES_POSITIVE
             }
             else = {
-                custom_tooltip = FU_BYZ_IF_PATRIARCH_PROVINCES
+                custom_tooltip = vu_BYZ_IF_PATRIARCH_PROVINCES
             }
             tooltip = {
                 add_country_modifier = {
@@ -1902,7 +1902,7 @@ byzantine_missions_3 = {
             4757 = { country_or_non_sovereign_subject_holds = ROOT }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.8 }
+            country_event = { id = vu_Byzantium_Events.8 }
         }
     }
 
@@ -2067,7 +2067,7 @@ byzantine_missions_3 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.9 }
+            country_event = { id = vu_Byzantium_Events.9 }
             custom_tooltip = " "
             override_country_name = EASTERN_ROMAN_EMPIRE
         }
@@ -2101,7 +2101,7 @@ byzantine_missions_3 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.10 }
+            country_event = { id = vu_Byzantium_Events.10 }
         }
     }
 
@@ -2224,7 +2224,7 @@ byzantine_missions_3 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.12 }
+            country_event = { id = vu_Byzantium_Events.12 }
             if = {
                 limit = {
                     410 = {
@@ -2295,7 +2295,7 @@ byzantine_missions_3 = {
             absolutism = 50
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.13 }
+            country_event = { id = vu_Byzantium_Events.13 }
         }
     }
 
@@ -2771,7 +2771,7 @@ byzantine_missions_4 = {
             148 = { owned_by = ROOT }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.14 }
+            country_event = { id = vu_Byzantium_Events.14 }
             add_country_modifier = {
                 name = byz_victory_in_greece_modifier
                 duration = 7300
@@ -2801,7 +2801,7 @@ byzantine_missions_4 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.15 }
+            country_event = { id = vu_Byzantium_Events.15 }
         }
     }
 
@@ -3161,7 +3161,7 @@ byzantine_missions_4 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.11 }
+            country_event = { id = vu_Byzantium_Events.11 }
             tooltip = {
                 change_tag = ROM
             }
@@ -3718,7 +3718,7 @@ byzantine_missions_5 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.16 }
+            country_event = { id = vu_Byzantium_Events.16 }
             add_country_modifier = {
                 name = byz_anatolian_campaign_modifier
                 duration = 5475
@@ -3825,7 +3825,7 @@ byzantine_missions_5 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.17 }
+            country_event = { id = vu_Byzantium_Events.17 }
         }
     }
 
@@ -3942,7 +3942,7 @@ byzantine_missions_5 = {
                         }
                     }
                 }
-                country_event = { id = FU_Byzantium_Events.18 }
+                country_event = { id = vu_Byzantium_Events.18 }
             }
             else = {
                 every_country = {
@@ -4005,7 +4005,7 @@ byzantine_missions_5 = {
             }
         }
         effect = {
-            country_event = { id = FU_Byzantium_Events.19 }
+            country_event = { id = vu_Byzantium_Events.19 }
         }
     }
 

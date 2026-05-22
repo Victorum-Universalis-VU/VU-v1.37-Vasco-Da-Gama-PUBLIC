@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 198  67  19 } #Changed for Don because he did not understand why BOH is piss yellow coloured - SF
+color = { 198  67  19 } #Changed for VU because he did not understand why BOH is piss yellow coloured - SF
 revolutionary_colors = { 0  4  15 }
 
 preferred_religion = protestant

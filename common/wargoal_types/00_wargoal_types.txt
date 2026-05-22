@@ -3365,3 +3365,34 @@ take_capital_vassalize_flower_wars = {
 
 	war_name = VASSAL_MISSION_WAR_NAME
 }
+
+take_capital_vassalize_eoc = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 2
+		peace_cost_factor = 0.25
+
+		required_treaty_to_take_provinces = {
+			po_subjugate_vassal
+		}
+		
+		peace_options = {
+			po_demand_provinces
+			po_subjugate_vassal
+		}
+	}
+	
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.25
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+
+	war_name = VASSAL_MISSION_WAR_NAME
+}

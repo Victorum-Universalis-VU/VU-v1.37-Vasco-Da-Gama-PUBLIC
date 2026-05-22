@@ -1,4 +1,3 @@
-#DonBrom was here...
 #SF Edumacation - Improve heir
 country_decisions = {
 	edu_0_heir_literate = {

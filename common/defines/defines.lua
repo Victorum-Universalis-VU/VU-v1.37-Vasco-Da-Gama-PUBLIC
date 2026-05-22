@@ -95,9 +95,8 @@ NDiplomacy = {
 	TRUST_PENALTY_FOR_NO_LAND = 20,					-- Trust penalty for not being given as much land as they expected in peace deal (scales with how much they actually got relative to participation)
 	TRUST_PENALTY_FOR_SEPARATE_PEACE = 10,			-- Trust penalty for signing a separate peace
 
-	OFFENSIVE_WAR_COOLDOWN = 5,						-- Years between when you can call a country into an offensive war on your behalf -lowered to 5 since if you have the favours, use them -don
-	MAX_CLIENT_STATES = 100,						-- Max client states for one country --Why only 10? -don
-
+	OFFENSIVE_WAR_COOLDOWN = 5,						-- Lowered to 5: if you have the favours, use them
+	MAX_CLIENT_STATES = 100,						-- Max client states for one country 
 	ALLOW_LEADER_DEMAND_TOGGLE = 0,					-- Whether or not player is allowed to set if warleader can negotiate for them
 	VASSALIZE_BASE_DEVELOPMENT_CAP = 400, 			-- Countries with more total development than this cannot be vassalized
 
@@ -112,8 +111,7 @@ NDiplomacy = {
 	AUTONOMY_WARSCORE_COST_MODIFIER = 0.33,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
 	GREAT_PROJECT_WARSCORE_COST_MODIFIER = 0.33,	-- How much each great project multiplies a war score cost by (so 1 GP adds 33%, 2 add 66% etc)
 
-	NUM_POSSIBLE_RIVALS = 5, 					--experiment by don
-	RIVAL_PRESTIGE_BONUS = 0.25,				
+	NUM_POSSIBLE_RIVALS = 5, 						RIVAL_PRESTIGE_BONUS = 0.25,				
 	RIVAL_SPY_OFFENCE = 0.25,
 	RIVAL_DISTANT_WAR_FACTOR = 0.25,			-- How much the distant war modifer is reduced when calling against rivals
 	SPY_NETWORK_DISTANCE_EFFECT = 0.1,			-- Mutiplied by distance between capitals to get penalty
@@ -127,7 +125,7 @@ NDiplomacy = {
 	MAX_PEACE_TREATY_COST = 200,					-- in diplo power
 	
 	DESIRED_NUM_OF_ELECTORS = 7,
-	MAX_FREE_CITIES = 25,							-- from 15 to 50 -don but brought back down to 25
+	MAX_FREE_CITIES = 25,							-- reduced from 50 to 25
 	MIN_NUM_ELECTORS_FOR_REMOVE_ELECTORATE = 2,		-- Limit is inclusive.
 	HRE_PRINCE_AUTHORITY_THRESHOLD = 25,			-- Threshold below which you lose IA, and above which you gain it
 	IMPERIAL_AUTHORITY_FROM_PRINCES = 0.075,			-- Scales to threshold
@@ -153,7 +151,7 @@ NDiplomacy = {
 	EXCOMMUNICATE_ACTION_MONTHS = 12, 				-- Excommunication "cooldown" (months)
 	CRUSADE_TIMEOUT_YEARS = 10, 					-- Crusade timeout (years)
 	WE_IMPACT_ON_ANNEX_INTEGRATE = -0.05,			-- multiplied with current WE
-	TRUCE_YEARS = 5, 								-- _DDEF_TRUCE_YEARS_; Years of Truce --lowered by don, modus and prussia
+	TRUCE_YEARS = 5, 								-- _DDEF_TRUCE_YEARS_; Years of Truce --lowered by VU
 	SCALED_TRUCE_YEARS = 10,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
 	REQUEST_HEIR_TRUCE = 5,
 	REQUEST_HEIR_AE = 20,
@@ -197,17 +195,17 @@ NDiplomacy = {
 	BUILD_SPY_DISCOVERED_PENALTY = -10.0,
 	BUILD_SPY_NETWORK_SPEED = 1.5,
 	SPY_NETWORK_DECAY = 1,
-	SPY_NETWORK_SIEGE_EFFECT = 0.5, 		--buffed since VU adds way more defensiveness to forts, used to be .2 (or 20%) -don 
-	SPY_NETWORK_AE_EFFECT = -0.25, 			--buffed a bit from 0.1 (10%) -don 
-	SPY_NETWORK_TECH_EFFECT = -0.10, 		--buffed since it did next to nothing previously (was -0.05) -don
-	SPY_NETWORK_TECH_EFFECT_MAX = -0.45, 	--buffed, again it did very little previously (was -0.3) -don
+	SPY_NETWORK_SIEGE_EFFECT = 0.5, 		--buffed since VU adds way more defensiveness to forts 
+	SPY_NETWORK_AE_EFFECT = -0.25, 			--buffed from 0.1 
+	SPY_NETWORK_TECH_EFFECT = -0.10, 		--buffed from -0.05
+	SPY_NETWORK_TECH_EFFECT_MAX = -0.45, 	--buffed from -0.3
 	DETECTED_SPY_NETWORK_DAMAGE_MIN = 10,	
 	DETECTED_SPY_NETWORK_DAMAGE_MAX = 30,
 	SPY_NETWORK_DISCOVER_WAR = 50,
 	SUPPORT_REBELS_EFFECT = 10,
-	SUPPORT_REBELS_MONEY_FACTOR = 0.25, 	--halved by don
+	SUPPORT_REBELS_MONEY_FACTOR = 0.25, 	--halved
 	FABRICATE_CLAIM_COST = 20,				
-	FABRICATE_CLAIM_COST_MODIFIER_PER_CLAIM = 0.125, --halved by don and prussia
+	FABRICATE_CLAIM_COST_MODIFIER_PER_CLAIM = 0.125, --halved and prussia
 	CLAIM_STATE_MODIFIER = 0.5,
 	JUSTIFY_TRADE_CONFLICT_COST = 10,
 	INFILTRATE_ADMINISTRATION_COST = 40,
@@ -235,7 +233,7 @@ NDiplomacy = {
 	AE_SAME_RELIGION = 0.5,
 	AE_SAME_RELIGION_GROUP = 0.0,
 	AE_DIFFERENT_RELIGION = -0.75,          -- -75% reduction (originally -0.5)
-	AE_HRE_INTERNAL = 0.5,					-- halved by don (undone after some testing)
+	AE_HRE_INTERNAL = 0.5,					-- halved (reverted after testing)
 	AE_ATTACKER_DEVELOPMENT = 0.005,		-- +50% cap (at 1000 development) slightly increased from 0.004
 	AE_DEFENDER_DEVELOPMENT = 0.005,		-- -50% cap (at 1000 development) slightly increased from 0.004
 	AE_DISTANCE_BASE = 0.75, 				--0.75 per 100 distance
@@ -287,8 +285,8 @@ NDiplomacy = {
 	PO_END_RIVALRY_PRESTIGE = 20,
 
 	PEACE_COST_PRIMITIVE_NERF = 0.5,				-- war score cost multiplier vs primitives
-	PEACE_COST_DEMAND_PROVINCE = 0.2,				-- Decreased this to 0.4 from 0.5 Demand a province (scales by province wealth, also used for annex) --halved by Don
-	PEACE_COST_CONCEDE_PROVINCE = 0.2,				-- Demand colonial area province concession. --hlaved by Don
+	PEACE_COST_DEMAND_PROVINCE = 0.2,				-- Decreased this to 0.4 from 0.5 Demand a province (scales by province wealth, also used for annex) --halved
+	PEACE_COST_CONCEDE_PROVINCE = 0.2,				-- Demand colonial area province concession. --hlaved
 	PEACE_COST_BECOME_VASSAL = 0.2,					-- Vassalize a country (scales by province wealth)
 	PEACE_COST_PILLAGE_CAPITAL = 10,				-- Pillage a capital state's dev (scales by province wealth) -- VU increase cost to 10 from 1 to discourage pillaging
 	PEACE_COST_RETURN_CORE = 0.2,					-- Return a core (scales by province wealth)
@@ -314,11 +312,11 @@ NDiplomacy = {
 	PEACE_COST_GIVE_UP_CLAIM = 10,					-- Peace cost for giving up all claims in a country
 	PEACE_COST_DISMANTLE_REVOLUTION = 100,
 	PEACE_COST_CHANGE_HRE_RELIGION = 50,
-	PEACE_COST_HUMILIATE_RIVAL = 25,				-- Halved so it's a bit more useful -don
+	PEACE_COST_HUMILIATE_RIVAL = 25,				-- Halved
 	PEACE_COST_FORCE_MIGRATION = 50.0,
 	PEACE_COST_FORCE_OUT_COLONIZERS = 10.0,
 	PEACE_COST_ENFORCE_REBEL_DEMANDS = 50,
-	PEACE_COST_END_RIVALRY = 10,					-- Made cheaper since now we have more rivals -don
+	PEACE_COST_END_RIVALRY = 10,					-- Made cheaper since we have more rivals
 	PEACE_COST_TAKE_MANDATE = 50,
 	PEACE_COST_SPREAD_REVOLUTION = 60,
 	MAX_PEACE_COST_TRIBUTARY_STATE = 40,
@@ -345,7 +343,7 @@ NDiplomacy = {
 	PO_REVOKE_REFORM_PRESTIGE = 10, 				-- _DDEF_PO_REVOKE_REFORM_PRESTIGE_
 	PO_REVOKE_REFORM_PEACE_COST = 100, 				-- _DDEF_PO_REVOKE_REFORM_PEACE_COST_
 
-	DIP_PORT_FEES = 0,								-- DIP_PORT_FEES -disabled by don	 and prussia
+	DIP_PORT_FEES = 0,								-- disabled
 	IMPROVE_RELATION_MAX = 25,						-- IMPROVE_RELATION_MAX
 	IMPROVE_RELATION_SPEED = 1,						-- IMPROVE_RELATION_SPEED
 	STABHIT_FOR_BREAKING_ALLIANCE_IN_WAR = 2,
@@ -362,10 +360,10 @@ NDiplomacy = {
 	ELECTIVE_VICTORY_PRESTIGE = 25,					-- Prestige for getting a heir from your country onto the throne of an elective nation
 	ELECTIVE_VICTORY_LEGITIMACY = 10,				-- Legitimacy for getting a heir from your country onto the throne of an elective nation
 
-	INTEGRATE_UNION_MIN_YEARS = 25,					-- Number of years before a union can be integrated halved by don from 50 to 25 on Prussia's advice
-	INTEGRATE_VASSAL_MIN_YEARS = 5,				    -- Number of years before a vassal can be integrated -halved by don and prussia
+	INTEGRATE_UNION_MIN_YEARS = 25,					-- Halved from 50 to 25
+	INTEGRATE_VASSAL_MIN_YEARS = 5,				    -- Number of years before a vassal can be integrated --halved
 
-	MONTHS_BEFORE_TOTAL_OCCUPATION = 12,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader -lowered from 24, because why? -don
+	MONTHS_BEFORE_TOTAL_OCCUPATION = 12,			-- Lowered from 24
 
 	WAR_REPARATIONS_FACTOR = 0.10,
 	WAR_REPARATIONS_YEARS = 10,
@@ -607,15 +605,15 @@ NCountry = {
 	PRIMARY_NATION_BLOCK_CONVERT_CULTURE = 0,	-- Does primary nation of a tag existing block converting culture?
 
 	MIN_DEV_FOR_FREE_CITY = 10,					-- Capital must have at least this much development to be a free city
-	MAX_PROVINCES_FOR_FREE_CITY = 5,			-- A free city cannot have more provinces than this --from 1 to 7 so Bremen can be a free city as it should be -don
+	MAX_PROVINCES_FOR_FREE_CITY = 5,			-- Raised so multi-province cities like Bremen can qualify as free cities
 
 	HRE_RANK = 9,								-- Emperor of the HRE is displayed as this rank (for ruler title only)
 	HRE_MAX_RANK = 6,							-- for members
 	HRE_MAX_RANK_ELECTOR = 8,					-- for electors
 	HRE_INCIDENT_DAYS_ACTIVE = 365,				-- Number of days HRE incidents will be active
-	HRE_INCIDENT_ELECTOR_SUPPORT_IA = 5,		-- How much worth an elector support is in an incident --changed from 2 to 5 to better reflect the power the electors had -don
-	HRE_INCIDENT_MEMBER_SUPPORT_IA = 0.25,		-- How much worth an member support is in an incident --used to be 3, lowered it by a bit since we now have even more tags in the HRE -don
-	HRE_INCIDENT_AI_EMPEROR_OPINION = 0.025,	-- How much opinion wit emperor is worh for AI to side with him --increased by .005, just to make it a smidge easier for the emperor -don
+	HRE_INCIDENT_ELECTOR_SUPPORT_IA = 5,		-- Raised from 2 to better reflect elector power
+	HRE_INCIDENT_MEMBER_SUPPORT_IA = 0.25,		-- Lowered from 3 since VU has more HRE tags
+	HRE_INCIDENT_AI_EMPEROR_OPINION = 0.025,	-- Raised from 0.02 to make it slightly easier for the emperor
 	HRE_INCIDENT_AI_RANDOM_FACTOR = 10,			-- A little random spice to AI for deciding what option to pick as a member, will be -10 to 10
 	
 	PRESTIGE_GAIN_FOR_GOV_RANK_2 = 5,			-- Prestige from forming a Barony from a Lordship
@@ -743,7 +741,7 @@ NCountry = {
 	POWER_MAX = 2500,								-- how much power can be stored at maximum. Set this to 2.5k due to the edumacation mechanic and because of the increase in required power points for certain tasks that Rob has increased the cost of - Darth Modus (minimum value, will increase with missing techs, etc.)
 	DISMANTLE_HRE_PRESTIGE = 100,					-- Prestige gain on dismantling HRE
 	CROWN_LANDS_ALERT_THRESHOLD = 30,
-	FREE_IDEA_GROUP_COST = 7,						-- modifier on cheapness of "free" idea group #Was 3, set it to 8 because too OP imo, can be revised when we work again on the 1215 bookmark - by Altan | Lowered to 7, 1 full Idea Group per National Idea sounds a lot better and simpler - Don
+	FREE_IDEA_GROUP_COST = 7,						-- modifier on cheapness of "free" idea group #Was 3, set it to 8 because too OP imo, can be revised when we work again on the 1215 bookmark - by Altan | Lowered to 7, 1 full Idea Group per National Idea sounds a lot better and simpler - VU
 	CONVERSION_COOLDOWN = 120,						-- months before you can convert again.
 	CONVERSION_COOLDOWN_SECONDARY = 120,			-- months before you can convert secondary religion again.
 
@@ -892,8 +890,8 @@ NCountry = {
 	MONTHS_TO_CORE = 24,							-- Decreased this to 24 from 36 How many months it will take to core a province.
 	MONTHS_TO_CHANGE_CULTURE = 3,					-- Increased this to 6 from 5 How many months it will take to change culture in a province, per development.
 	RELEASED_NATION_ARMY_SIZE = 0.5,				-- Newly released nations get an army of this size
-	STARTING_ARMY_SIZE = 0.5,						-- Percentage of force limit
-	STARTING_ARMY_SIZE_AT_WAR = 1.5,				-- Percentage of force limit
+	STARTING_ARMY_SIZE = 0.65,						-- VU increased from 0.5 - AI maintains a larger peacetime army, making it less easy to catch off-guard
+	STARTING_ARMY_SIZE_AT_WAR = 1.2,				-- Percentage of force limit (VU reduced from 1.5 to curb death-stack war spawns)
 	STARTING_ARMY_SIZE_REBEL_THREAT = 0.05,			-- Percentage of rebel threat added to percentage of force limit
 	STARTING_FLEET_SIZE = 0.6, 						-- Starting fleet (as percentage of forcelimits)
 	GALLEY_INLAND_SEA_COAST_RATIO = 0.75, 			-- % of ports that need to be inland seas for galleys to be considered important
@@ -1734,7 +1732,7 @@ NAI = {
 	SUBSIDY_YEARS = 20, -- Years AI will give subsidies for
 	MIN_INCOME_FOR_SUBSIDIES = 20, -- Minimum monthly income for AI to want to spend some on subsidies
 	PS_SHORT_TERM_POOL = 100, -- Max power AI will store in its short-term spending pool
-	AGGRESSIVENESS = 200, -- Base chance (out of 10000) of AI being willing to start a war each diplomatic tick (~1.5 times a month)
+	AGGRESSIVENESS = 200, -- Vanilla value retained - raw aggressiveness increase causes random undirected wars; AI difficulty comes from smarter decision-making instead
 	AGGRESSIVENESS_BONUS_EASY_WAR = 300, -- Added to aggressiveness if the war is against a weak or particularily hated enemy
 	MISSION_PICK_CHANCE = 33, -- Monthly chance of AI picking a mission if it lacks one (of 100)
 	TRADE_INTEREST_THRESHOLD = 3, -- Number of merchants required to be a nation with trade interest
@@ -1744,23 +1742,23 @@ NAI = {
 	ARTILLERY_FRACTION = 0.23, 	-- #Quonton - Lowered it because vanila seems to be to high | Ratio of artillery to infantry AI will build
 	FORCE_COMPOSITION_CHANGE_TECH_LEVEL = 30, -- #Quonton - Raised it because vanila seems to be to low | Tech level at which AI will double its artillery fraction
 	TRANSPORT_FRACTION = 0.5, -- Max fraction of naval forcelimit that should be transports
-	INCOME_SAVINGS_FRACTION = 0.25, -- AI will reserve this amount of their surplus for long-term savings
-	OVER_FORCELIMIT_AVOIDANCE_FACTOR = 10, -- The higher this number is, the less willing the AI will be to exceed forcelimits
+	INCOME_SAVINGS_FRACTION = 0.20, -- VU reduced from 0.25 - AI hoards less surplus, spending more actively on buildings and development
+	OVER_FORCELIMIT_AVOIDANCE_FACTOR = 20, -- VU increased from 10 - AI was too willing to recruit and maintain armies above FL, leading to manpower-empty doom stacks
 	MILITARISE_FORT_BUDGET_FACTOR = 1.5, --if the country should militarise, multiply fort budget priority by this
 	DESIRED_SURPLUS = 0.1, -- AI will aim for having at least this fraction of their income as surplus when they don't have large savings
 	DESIRED_DEFICIT = 0.01, -- AI will try to spend this fraction of their money above their target for long term savings.
-	EXTRA_SURPLUS_WHEN_NEEDING_BUILDINGS = 0.15, -- AI will aim for having at least this fraction of their income as additional surplus when they need buildings
+	EXTRA_SURPLUS_WHEN_NEEDING_BUILDINGS = 0.20, -- VU increased from 0.15 - AI saves up more aggressively when queuing buildings, completing them sooner
 	MAX_SAVINGS = 60, -- AI will keep a maximum of this * their monthly income in long-term savings
 	BUDGET_STEAL_THRESHOLD = 10.0, -- AI will move budget from one area to another if its priority is this many times as high.
 	ADVISOR_BUDGET_FRACTION_MAX = 0.3, -- AI will spend a maximum of this fraction of monthly income on advisor maintenance
-	ADVISOR_BUDGET_FRACTION_MIN = 0.15, -- AI will spend a minimum of this fraction of monthly income on advisor maintenance
+	ADVISOR_BUDGET_FRACTION_MIN = 0.20, -- VU increased from 0.15 - AI always maintains better advisors, improving tech and decision quality
 	ADVISOR_BUDGET_FRACTION_MERITOCRACY_MAX = 0.5, -- If the AI has meritocracy enabled
 	ADVISOR_BUDGET_FRACTION_MERITOCRACY_MIN = 0.25, -- If the AI has meritocracy enabled
 	ADVISOR_BUDGET_THRESHOLD = 1.25, -- The AI will only hire an advisor if it can afford this much maintenance increase (+25%)
 	STATE_MAINTENANCE_BUDGET_FRACTION = 0.3, -- AI will spend a maximum of this fraction of monthly income on state maintenance
 	CORRUPTION_BUDGET_FRACTION = 0.25, -- AI will spend a maximum of this fraction of monthly income on rooting out corruption
 	COLONY_BUDGET_FRACTION = 0.4, -- AI will spend a maximum of this amount of monthly ducats for colonies.
-	ARMY_BUDGET_FRACTION = 0.7, -- AI will spend a maximum of this fraction of monthly income on army maintenance (based off wartime costs)
+	ARMY_BUDGET_FRACTION = 0.60, -- VU: reduced from 0.7 to prevent doom stacks, then raised back to 0.60 once manpower inflation and FL scaling were fixed. AI now maintains a historically appropriate army reliably.
 	NAVY_BUDGET_FRACTION = 0.5, -- AI will spend a maximum of this fraction of monthly income on navy maintenance (based off wartime costs)
 	FORT_BUDGET_FRACTION = 0.4, -- AI will spend a maximum of this fraction of monthly income on forts
 	REGIMENTS_PER_GENERAL = 15, -- AI will want one general for every this number of regiments (will not exceed free leader pool)
@@ -1792,7 +1790,7 @@ NAI = {
 
 	DEBASE_THRESHOLD = 10000,-- AI will not debase if it has more gold than this.
 
-	DEVELOPMENT_CAP_BASE = 50,	-- AI will not develop provinces that have more development than this or DEVELOPMENT_CAP_MULT*original development (whichever is bigger)
+	DEVELOPMENT_CAP_BASE = 65,	-- VU increased from 50 - AI develops provinces further, building up income, manpower, and power throughout the game
 	DEVELOPMENT_CAP_MULT = 10,
 
 	PEACE_BASE_RELUCTANCE = 0, -- AI base stubbornness to refuse peace (always applied)

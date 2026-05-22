@@ -1,5 +1,5 @@
 defined_text = {
-    name = GetSharifateTGEtrigger
+    name = GetSharifateVUtrigger
 	random = no
 
     text = {
@@ -39,13 +39,13 @@ defined_text = {
 	random = no
 
     text = {
-        localisation_key = MAM_TGE_goods
+        localisation_key = MAM_vu_goods
         trigger = {
 			always = no
         }
     }
     text = {
-        localisation_key = MAM_non_TGE_goods
+        localisation_key = MAM_non_vu_goods
         trigger = {
 			always = yes
         }

@@ -66,7 +66,7 @@ can_release_colonial_nation = {
 }
 
 can_claim_defender_of_faith = {
-	condition = { #By DM & Don
+	condition = { #By DM & VU
 		tooltip = "defender_of_faith_limits_tt"
 		potential = {
 			always = yes
@@ -89,7 +89,7 @@ can_claim_defender_of_faith = {
 				piety = -55                   #Islam
 				karma = 30                    #Buddhism
 				num_of_active_blessings = 2   #Coptics
-				religion_group = dharmic      #Hinduism (Don't have specific religious mechanic - Don) 
+				religion_group = dharmic      #Hinduism (VU't have specific religious mechanic - Don) 
 				#All these work - DM    
 			}
 		}

@@ -9,7 +9,7 @@ add_harmonized_religion = taoism
 primary_culture = zhongyuan
 capital = 688	# Kaifeng
 
-#Don 21/3/2025
+#VU 21/3/2025
 #add_country_modifier = {
 #    name = "mercenary_upkeep_XV"
 #    duration = -1

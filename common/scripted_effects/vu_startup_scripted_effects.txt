@@ -1,4 +1,4 @@
-#By Don
+#By VU
 #First two were removed due to being made obsolete
 #turn_off_subject_colouring = {
 #	hidden_effect = {
@@ -874,14 +874,14 @@ vu_colour_country = {
 }
 
 vu_do_with_flag_and_remove_it = {
-	#A quick little thing to simplify the settings by Don
+	#A quick little thing to simplify the settings
 	if = {
 		limit = {
 			has_country_flag = $flag$
 		}
 		custom_tooltip = $flag$
 		hidden_effect = {
-			$effect$ = yes			#This is fine, it just works, don't question it -Don
+			$effect$ = yes			#This is fine, it just works, don't question it
 			clr_country_flag = $flag$
 		}
 	}
@@ -900,7 +900,7 @@ remove_extra_tags = {
 		remove_extra_afrikan_tags = yes
 		#I ain't dealing with Japan, somebody else can do that, too chaotic for me + my knowledge of the area is rather limited, 
 		#so I'd rather leave that to somebody else who can better do that and make sure the historically important nations get preserved.
-		#Nor am I going to deal with southeast asia, or the pacific, or the new world, as I cannot make any authorative choices on the matter. | Don
+		#Nor am I going to deal with southeast asia, or the pacific, or the new world, as I cannot make any authorative choices on the matter. | VU
 	}
 }
 

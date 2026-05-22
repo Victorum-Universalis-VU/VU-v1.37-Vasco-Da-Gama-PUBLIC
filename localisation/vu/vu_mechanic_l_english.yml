@@ -11,8 +11,8 @@
  Black_marble: "Black Marble"
  potato_tooltip: "Potato Trade Good will spread into Europe."
  tomato_tooltip: "Tomato Trade Good will spread into Europe."
- Debug_event.1.t: "Change trade goods TGE"
- Debug_event.2.t: "Change trade goods TGE Latent"
+ Debug_event.1.t: "Change trade goods VU"
+ Debug_event.2.t: "Change trade goods VU Latent"
  Debug_event.3.t: "Change trade goods Vanilla"
  Debug_event.1.d: ""
  Debug_event.2.d: ""
@@ -22,9 +22,9 @@
  mechanic_reinforce_the_gwangmu_reform_yes: ""
  mechanic_reinforce_the_gwangmu_reform_2_yes: ""
  
- #New DonBrom VU 1.37* Mechanics - SF
- mechanic_vu_has_ToR_subjects_yes: "Has §YTable of Ranks§! subjects."                    #New Don renaming
- mechanic_vu_has_ToR_crowns_yes: "Has §YTable of Ranks§! subjects."                      #New Don renaming - Added by SF
+ #New VU VU 1.37* Mechanics - SF
+ mechanic_vu_has_ToR_subjects_yes: "Has §YTable of Ranks§! subjects."                    #New VU renaming
+ mechanic_vu_has_ToR_crowns_yes: "Has §YTable of Ranks§! subjects."                      #New VU renaming - Added by SF
  #New SF VU 1.37* Mechanics
  #Scottish Clans
  #mechanic_has_scottish_clan_subjects_yes: "Has §YClan§! subjects."                       #=> CLAN SUBJECTS (For Gaelic tags and contains Scottish, Irish, Welsh and Breton subject types)
@@ -63,7 +63,7 @@
  mechanic_can_impose_genoese_commercial_republic_rules: "Stato do Mâ Creation"
  mechanic_can_impose_genoese_commercial_republic_rules_yes: "Allows establishing the subject type §YStato do Mâ§! in Genoese held territories."
  
- #Bohemian Noble's Council mechanic and relevant entries by SF & DonBrom
+ #Bohemian Noble's Council mechanic and relevant entries by SF & VU
  bohemian_church_council_interaction: "Call the Church Council"
  bohemian_church_council_interaction_desc: ""
  czech_nobles_church_council_interaction_tooltip: "Can choose one of the following modifiers for §Y10 years§!:\n§YCouncil of the Chamber§!:\n    Possible Advisors: §G+1§!\n    Advisor Cost: §G-10.0%§!\n\n§YCouncil of Finance§!:\n    Yearly Inflation Reduction: §G-0.05§!\n    Interest per Annum: §G-1.00§!\n\n§YCouncil of the Inquisition§!:\n    Missionaries: §G+1§!\n    Missionary Strength against Heretics: §G+2.0%§!"

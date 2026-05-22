@@ -872,7 +872,7 @@ vu_promote_vassal_to_grand_muftate = {
 				is_subject_of_type = vassal
 				is_subject_of_type = client_vassal
 			}
-			#government = monarchy #No Don, behave! - SF
+			#government = monarchy #No VU, behave! - SF
 		}
 	}
 	is_allowed = {
@@ -934,7 +934,7 @@ vu_promote_vassal_to_sheikdom = {
 				is_subject_of_type = vassal
 				is_subject_of_type = client_vassal
 			}
-			#government = monarchy #No Don, behave! - SF
+			#government = monarchy #No VU, behave! - SF
 		}
 	}
 	is_allowed = {
@@ -996,7 +996,7 @@ vu_promote_vassal_to_emirate = {
 				is_subject_of_type = vassal
 				is_subject_of_type = client_vassal
 			}
-			#government = monarchy #No Don, behave! - SF
+			#government = monarchy #No VU, behave! - SF
 		}
 	}
 	is_allowed = {
@@ -1483,8 +1483,8 @@ vu_invite_vassal_to_league_of_lezhe = {
 	}
 	on_accept = {
 		create_subject = {
+			subject = FROM
 			subject_type = lezhe_league_member
-			who = FROM
 		}
 		vu_colour_refresh = yes
 	}
@@ -2335,8 +2335,8 @@ vu_promote_vassal_to_outpost = {
         #Made a scripted effect for this, to make this a bit less long and
         #also to make it a bit more efficient as we can re-use these later on
         create_subject = {
-            subject_type = rep_outpost_subject
             subject = FROM
+			subject_type = rep_outpost_subject
             keep_liberty_desire = yes
         }
         FROM = {

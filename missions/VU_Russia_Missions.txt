@@ -151,19 +151,18 @@ mos_rus_conquer_north = {
                     hidden_effect = { FIN = { set_country_flag = rus_can_complete_missions_as_subject }	 }"
                     second_custom_tooltip = mos_rus_subjugate_scandinavia_ct
                     second_limit = "NOT = { FIN = { exists = yes is_subject_of = ROOT } }"
-                    second_effect = "
-                    capital_scope = {
-                        carolean_infantry = ROOT
-                        carolean_infantry = ROOT
-                        carolean_infantry = ROOT
-                        carolean_infantry = ROOT
-                        carolean_infantry = ROOT
-                        carolean_infantry = ROOT
-                        carolean_infantry = ROOT
-                        carolean_infantry = ROOT
-                        carolean_infantry = ROOT
-                        carolean_infantry = ROOT
-                    }"
+                    second_effect = "capital_scope = {
+carolean_infantry = ROOT
+carolean_infantry = ROOT
+carolean_infantry = ROOT
+carolean_infantry = ROOT
+carolean_infantry = ROOT
+carolean_infantry = ROOT
+carolean_infantry = ROOT
+carolean_infantry = ROOT
+carolean_infantry = ROOT
+carolean_infantry = ROOT
+}"
                 }
             }
             else = {
@@ -5101,19 +5100,19 @@ rus_russian_nobility = {
                 id = flavor_rus.126
                 insight_tooltip = INSIGHT_JUST_TOOLTIP
                 effect_tooltip = "change_government_reform_progress = 50
-                if = {
-                    limit = {
-                        has_government_mechanic = russian_modernization_mechanic
-                    }
-                    add_government_power = {
-                        mechanic_type = russian_modernization_mechanic
-                        power_type = russian_modernization
-                        value = 10
-                    }
-                }
-                else = {
-                    add_adm_power = 50
-                }"
+if = {
+limit = {
+has_government_mechanic = russian_modernization_mechanic
+}
+add_government_power = {
+mechanic_type = russian_modernization_mechanic
+power_type = russian_modernization
+value = 10
+}
+}
+else = {
+add_adm_power = 50
+}"
             }
         }
 
@@ -6351,7 +6350,7 @@ rus_russian_military = {
             if = {
                 limit = {
                     OR = {
-                        has_country_flag = rus_finished_kill_mission #False flag - Don
+                        has_country_flag = rus_finished_kill_mission #False flag - VU
                         has_country_flag = has_rus_kill_counter
                     }
                 }

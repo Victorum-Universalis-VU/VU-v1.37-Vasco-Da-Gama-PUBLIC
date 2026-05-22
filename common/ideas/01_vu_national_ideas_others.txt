@@ -5664,6 +5664,7 @@ indonesia_nation_ideas = {
 	}
 	indonesia_shield_the_home_isles = {
 		galley_power = 0.15
+		naval_forcelimit_modifier = 0.25
 	}
 	indonesia_fertile_islands = {
 		global_manpower_modifier = 0.2
@@ -5671,5 +5672,47 @@ indonesia_nation_ideas = {
 	indonesia_propagate_the_faith = {
 		missionaries = 1
 		global_missionary_strength = 0.015
+	}
+}
+
+PAL_VU_ideas = {
+	start = {
+		land_morale = 0.2
+		reduced_liberty_desire = 25
+	}
+	
+	bonus = {
+		administrative_efficiency = 0.1
+	}
+	
+	trigger = {
+		tag = PAL
+		has_country_flag = vu_palatinate_rename_meme
+	}
+	free = yes		#will be added at load.
+	
+	vu_ensure_continuing_stability = {
+		stability_cost_modifier = -0.5
+	}
+	vu_stormtroopers = {
+		infantry_shock = 0.5
+		infantry_power = 0.2
+	}
+	vu_end_the_rebellions = {
+		global_unrest = -2
+	}
+	vu_imperial_research_institute = {
+		technology_cost = -0.1
+		idea_cost = -0.1
+	}
+	vu_the_death_star = {
+		siege_ability = 0.5
+	}
+	vu_enforce_imperial_serfdom = {
+		global_trade_goods_size_modifier = 0.2	
+	}
+	vu_grand_moffs = {
+		army_tradition = 1
+		navy_tradition = 1
 	}
 }

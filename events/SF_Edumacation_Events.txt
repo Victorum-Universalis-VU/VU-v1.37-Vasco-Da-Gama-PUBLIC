@@ -1,8 +1,7 @@
 #Updated for VU Vasco Da Gama v1.37 by DM
 namespace = SF_Edumacation_Events
 #Revisted broken file and fixed on 25 Sept 2023 by San Felipe
-#DonBrom was here on 24-9-2023
-#DonBrom was hare on 10-8-2024 again
+#VU was hare on 10-8-2024 again
 #Monarch update
 country_event = {
 	id = SF_Edumacation_Events.1

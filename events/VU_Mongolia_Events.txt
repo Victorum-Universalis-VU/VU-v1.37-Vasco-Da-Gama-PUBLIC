@@ -58,16 +58,40 @@ country_event = {
 
 	hidden = yes
 
+	# VU fix: kha_secondary_religion_bonuses flag was never set anywhere.
+	# Replaced with direct conditions: fire when province modifiers are out of sync.
 	trigger = {
-		has_country_flag = kha_secondary_religion_bonuses
-		any_owned_province = {
-			OR = {
-				AND = {
-					religion = sunni
-					NOT = { has_province_modifier = kha_secondary_religion_bonuses_modifier }
+		OR = {
+			# Steppe/Khanate nation with Cossacks DLC + sunni secondary religion: sync province modifiers
+			AND = {
+				OR = {
+					culture_group = tartar
+					culture_group = altaic
+					primary_culture = altaic_new
+					has_reform = steppe_horde
 				}
-				AND = {
-					NOT = { religion = sunni }
+				has_dlc = "The Cossacks"
+				secondary_religion = sunni
+				any_owned_province = {
+					OR = {
+						AND = {
+							religion = sunni
+							NOT = { has_province_modifier = kha_secondary_religion_bonuses_modifier }
+						}
+						AND = {
+							NOT = { religion = sunni }
+							has_province_modifier = kha_secondary_religion_bonuses_modifier
+						}
+					}
+				}
+			}
+			# Cleanup: conditions no longer apply but modifier still exists on provinces
+			AND = {
+				OR = {
+					NOT = { has_dlc = "The Cossacks" }
+					NOT = { secondary_religion = sunni }
+				}
+				any_owned_province = {
 					has_province_modifier = kha_secondary_religion_bonuses_modifier
 				}
 			}

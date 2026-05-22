@@ -1636,7 +1636,7 @@ adu_fatimid_lands_provinces = {
 		area = said_area
 	}
 	NOT = {
-		#Don't touch non-colonised provinces.
+		#VU't touch non-colonised provinces.
 		is_empty = yes
 	}
 }

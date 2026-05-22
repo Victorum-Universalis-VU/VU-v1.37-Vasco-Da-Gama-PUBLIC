@@ -162,7 +162,7 @@ namespace = VU_Russia_Events
 #
 #	# We will govern Slawno ourselves with all means necessary
 #	option = {
-#		name = VU_Russia_Events.107.с
+#		name = VU_Russia_Events.107.c
 #		add_adm_power = 75
 #		ai_chance = {
 #			factor = 1
@@ -867,7 +867,7 @@ country_event = {
 	}
 }
 
-#Colonization of the Don
+#Colonization of the VU
 province_event = {
 	id = VU_Russia_Events.110
 	title = VU_Russia_Events.110.t

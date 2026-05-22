@@ -781,10 +781,6 @@
  MCM: "Deasmhumhain" #We already have the Earldom of Desmond, but here's the Kingdom of Desmond (In 1444 reduced). Also known as South Munster, but that's too long. The basis here is that of Laigin, Leinster in English.
  MCM_ADJ: "Deasmhumhain"
 
- #1.30
- HRZ: "Hum"            #Duchy of Saint Sava
- HRZ_ADJ: "Human"          #Yup, going with this
-
  #Institution Overhauls, formerly part of Misc Addon but annexed to VU proper in 10.0 with dev doubling
  tooltip_development_10: "Developed province (10 or above)"
  tooltip_development_20: "Highly developed province (20 or above)"
@@ -1139,7 +1135,7 @@
  don_and_volga_canal: "Petrov Val Canal"
  don_and_volga_canal_title: "Petrov Val Canal"
  #canal_events.24.t: "Petrov Val Canal Finished"
- #canal_events.24.d: "By what has been considered an unprecedented construction effort in the region, the construction of the Petrov Val Canal connecting the Don and Volga rivers with the Black and Caspian seas has been completed in [Root.GetName]. Our fleet can now move between these key areas quicker and safer, giving us opportunity for unique military maneuvers and trade projects."
+ #canal_events.24.d: "By what has been considered an unprecedented construction effort in the region, the construction of the Petrov Val Canal connecting the VU and Volga rivers with the Black and Caspian seas has been completed in [Root.GetName]. Our fleet can now move between these key areas quicker and safer, giving us opportunity for unique military maneuvers and trade projects."
  #dlc018_reason_don_and_volga_canal: "The §YWealth of Nations Expansion§! adds the ability to build the §YPetrov Val Canal§!, as well as various diplomatic and trade actions and activities."
  #dlc018_reason_don_and_volga_canal_reason: "\nWe're recommending this expansion as you've picked a country that starts near §YPetrov Val§!."
  #
@@ -3437,13 +3433,13 @@
  qizilbash_cavalry: "Qizilbash Cavalry"
  qizilbash_cavalryDESCR: "Cavalry units armed with spears, swords or bows, easily recognizable by their red headgear striped with gold, marking their devotion to the twelve imams of Shiite Islam."
 
- #Don's Institute of Twattery VU 1.37.* - SF
+ #VU's Institute of Twattery VU 1.37.* - SF
  great_project_vu_academy_of_science_berlin: "Preußische Akademie der Künste"
  vu_academy_of_science_berlin: "Preußische Akademie der Künste"
  vu_academy_of_science_berlin_title: "Renovate the Preußische Akademie der Künste"
  construct_vu_academy_of_science_berlin_title: "Renovate the Preußische Akademie der Künste"
  construct_vu_academy_of_science_berlin_desc: "Founded as an institute for the advancement of the arts (of war and of military tactics sire) and sciences, the Preußische Akademie der Künste is renowned for its contributions to Brandenburg-Prussia's rise to prominence and study in the biology of animal and plant species."
- #Don's form Switzerland
+ #VU's form Switzerland
  swiss_nation_title: "Form Switzerland"
  swiss_nation_desc: "Unite the cantons and form the united swiss nation!" 
  

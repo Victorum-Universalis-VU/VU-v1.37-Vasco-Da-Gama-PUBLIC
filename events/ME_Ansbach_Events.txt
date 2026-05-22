@@ -64,7 +64,7 @@ country_event = { #Margrave War
 					ai = yes
 				}
 				every_ally = {
-#Hashed out by DonBrom - Player should have more influence over this
+#Hashed out by VU - Player should have more influence over this
 #					limit = {
 #						ai = yes
 #					}

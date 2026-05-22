@@ -1,6 +1,6 @@
 #All Native government names go here, at the top add the specific ones, the further down the file, the more generic they get. 
 #Game will pick the first applicable government name from this file.
-#Contributors: Don, Modus, Prussia
+#Contributors: Darth Modus & Prussia
 #Contains Original and modified entries from Victorum Universalis, Vanilla, Missions Expanded and Government's Expanded, they were all transformatively changed according
 #to the DMCA. Permissions were granted for all entries by the constituent parties.
 andean_autoratic_tribal_kingdom = {

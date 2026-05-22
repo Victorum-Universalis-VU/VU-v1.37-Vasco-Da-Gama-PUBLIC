@@ -17,7 +17,7 @@ country_event = {
 		NOT = { exists = HLR }
 		NOT = { exists = PAP }
 		NOT = { has_country_flag = no_support }
-		NOT = { has_country_flag = general_flag_Rome_flag } #Was general_flag_for_FU_Rome_flag	
+		NOT = { has_country_flag = general_flag_Rome_flag } #Was general_flag_for_vu_Rome_flag	
 	}
 	
 	mean_time_to_happen = {

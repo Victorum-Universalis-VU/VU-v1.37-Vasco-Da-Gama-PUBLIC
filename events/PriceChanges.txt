@@ -2117,7 +2117,7 @@ country_event = {
                     trade_goods = books
                     trade_goods = paper
                 }
-                province_without_special_goods_produced_trigger = yes #Don't offer if true.
+                province_without_special_goods_produced_trigger = yes #VU't offer if true.
             }
         }
         add_innovativeness_small_effect = yes

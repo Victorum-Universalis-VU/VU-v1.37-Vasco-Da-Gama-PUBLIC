@@ -772,4 +772,178 @@ spriteTypes = {
         name = "mission_vu_boh_monastic_glass"
         texturefile = "gfx//interface//missions//victorum_universalis//Bohemia//vu_boh_monastic_glass.dds"
     }
+
+	# Moved from bt_missions_pics.gfx
+
+	spriteType = {
+		name = "mission_mine"
+		texturefile = "gfx//interface//missions//mission_mine.dds"
+	}
+	spriteType = {
+		name = "mission_breitenfeld"
+		texturefile = "gfx//interface//missions//mission_breitenfeld.dds"
+	}
+	spriteType = {
+		name = "mission_tre_kronor"
+		texturefile = "gfx//interface//missions//mission_tre_kronor.dds"
+	}
+	spriteType = {
+		name = "mission_hre_shield"
+		texturefile = "gfx//interface//missions//mission_hre_shield.dds"
+	}
+	spriteType = {
+		name = "mission_sca_shield"
+		texturefile = "gfx//interface//missions//mission_sca_shield.dds"
+	}
+	spriteType = {
+		name = "mission_pru_shield"
+		texturefile = "gfx//interface//missions//mission_pru_shield.dds"
+	}
+	spriteType = {
+		name = "mission_kur_shield"
+		texturefile = "gfx//interface//missions//mission_kur_shield.dds"
+	}
+	spriteType = {
+		name = "mission_helsingor"
+		texturefile = "gfx//interface//missions//mission_helsingor.dds"
+	}
+	spriteType = {
+		name = "mission_enforce_danelaw"
+		texturefile = "gfx//interface//missions//mission_enforce_danelaw.dds"
+	}
+	spriteType = {
+		name = "mission_norwegian_fjords"
+		texturefile = "gfx//interface//missions//mission_norwegian_fjords.dds"
+	}	
+	spriteType = {
+		name = "mission_acadian_beach"
+		texturefile = "gfx//interface//missions//mission_acadian_beach.dds"
+	}
+	spriteType = {
+		name = "mission_harald_hardrade"
+		texturefile = "gfx//interface//missions//mission_harald_hardrade.dds"
+	}
+	spriteType = {
+		name = "mission_serbian_highlands"
+		texturefile = "gfx//interface//missions//mission_serbian_highlands.dds"
+	}
+	spriteType = {
+		name = "mission_serbian_empire"
+		texturefile = "gfx//interface//missions//mission_serbian_empire.dds"
+	}
+	spriteType = {
+		name = "mission_black_sheep"
+		texturefile = "gfx//interface//missions//mission_black_sheep.dds"
+	}
+	spriteType = {
+		name = "mission_white_sheep"
+		texturefile = "gfx//interface//missions//mission_white_sheep.dds"
+	}
+	spriteType = {
+		name = "mission_baghdad"
+		texturefile = "gfx//interface//missions//mission_baghdad.dds"
+	}
+	spriteType = {
+		name = "mission_hospital"
+		texturefile = "gfx//interface//missions//mission_hospital.dds"
+	}
+	spriteType = {
+		name = "mission_muslim_piety"
+		texturefile = "gfx//interface//missions//mission_muslim_piety.dds"
+	}
+
+	# Moved from vu_murica_interface.gfx
+	
+	spriteType = {
+		name = "vu_murica_betsy_ross"
+		texturefile = "gfx//interface//missions//vu_murica_betsy_ross.dds"
+	}
+	spriteType = {
+		name = "vu_murica_nola"
+		texturefile = "gfx//interface//missions//vu_murica_nola.dds"
+	}
+	spriteType = {
+		name = "vu_murica_declaration"
+		texturefile = "gfx//interface//missions//vu_murica_declaration.dds"
+	}
+	spriteType = {
+		name = "vu_murica_cotton"
+		texturefile = "gfx//interface//missions//vu_murica_cotton.dds"
+	}
+	spriteType = {
+		name = "vu_murica_rock_island"
+		texturefile = "gfx//interface//missions//vu_murica_rock_island.dds"
+	}
+	spriteType = {
+		name = "vu_murica_great_lakes"
+		texturefile = "gfx//interface//missions//vu_murica_great_lakes.dds"
+	}
+	spriteType = {
+		name = "vu_murica_appalachia"
+		texturefile = "gfx//interface//missions//vu_murica_appalachia.dds"
+	}
+	spriteType = {
+		name = "vu_murica_industrialization"
+		texturefile = "gfx//interface//missions//vu_murica_industrialization.dds"
+	}
+	spriteType = {
+		name = "vu_murica_bison"
+		texturefile = "gfx//interface//missions//vu_murica_bison.dds"
+	}
+	spriteType = {
+		name = "vu_murica_goldrush"
+		texturefile = "gfx//interface//missions//vu_murica_goldrush.dds"
+	}
+	spriteType = {
+		name = "vu_murica_dixie"
+		texturefile = "gfx//interface//missions//vu_murica_dixie.dds"
+	}
+	spriteType = {
+		name = "vu_murica_slaves"
+		texturefile = "gfx//interface//missions//vu_murica_slaves.dds"
+	}
+	spriteType = {
+		name = "vu_murica_caribbean"
+		texturefile = "gfx//interface//missions//vu_murica_caribbean.dds"
+	}
+	spriteType = {
+		name = "fred_douglas"
+		texturefile = "gfx//interface//missions//fred_douglas.dds"
+	}
+	spriteType = {
+		name = "vu_murica_king_george"
+		texturefile = "gfx//interface//missions//vu_murica_king_george.dds"
+	}
+	spriteType = {
+		name = "vu_murica_republic_army"
+		texturefile = "gfx//interface//missions//vu_murica_republic_army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_disaster_vu_murica_civil_war"
+		texturefile = "gfx//interface//disasters//us_civil_war.dds"
+		noOfFrames = 3
+        loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_west_point"
+		texturefile = "gfx//interface//monuments//west_point.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_fort_sumter"
+		texturefile = "gfx//interface//monuments//fort_sumter.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_missions"
+		texturefile = "gfx//interface//monuments//missions.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_liberty_bell"
+		texturefile = "gfx//interface//monuments//liberty_bell.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_calumet_and_hecla"
+		texturefile = "gfx//interface//monuments//calumet_and_hecla.dds"
+	}
 }

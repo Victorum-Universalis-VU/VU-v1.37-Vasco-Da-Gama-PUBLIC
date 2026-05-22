@@ -2729,8 +2729,8 @@ country_event = {
         }
     }
 }
-#DonBrom fixed this on 2023-8-26
-#Don re-fixed this on 2024-6-02
+#VU fixed this on 2023-8-26
+#VU re-fixed this on 2024-6-02
 country_event = {
     id = flavor_brapru.59
     title = flavor_brapru.59.t

@@ -4149,7 +4149,7 @@ french_missions_4_italian = {
 						duration = -1 
 						hidden = yes 
 					}
-					set_country_flag = general_flag_for_FU_Rome_flag
+					set_country_flag = general_flag_Rome_flag
 					add_ruler_personality = papal_puppetmaster_personality
 				}
 			}
@@ -4623,7 +4623,7 @@ french_missions_4_normal_continuation = {
 					duration = -1 
 				}
 				PAP = { 
-					override_country_name = FU_KINGDOM_OF_GOD 
+					override_country_name = vu_KINGDOM_OF_GOD 
 					set_country_flag = is_kingdom_of_god_flag
 					add_country_modifier = { 
 						name = fra_suzerainty_italy_modifier
@@ -4665,7 +4665,7 @@ french_missions_4_normal_continuation = {
 						duration = -1 
 					}
 					PAP = { 
-						override_country_name = FU_KINGDOM_OF_GOD 
+						override_country_name = vu_KINGDOM_OF_GOD 
 						set_country_flag = is_kingdom_of_god_flag
 						set_country_flag = has_overriden_name_flag
 						add_country_modifier = { 

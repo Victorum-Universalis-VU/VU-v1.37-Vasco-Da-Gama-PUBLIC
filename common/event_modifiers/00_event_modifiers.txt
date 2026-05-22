@@ -9975,6 +9975,13 @@ the_tatar_yoke = {
     #Causes yearly event where you have to pay up
 }
 
+#Byzantium Events
+the_ottoman_tribute = {
+    prestige = -0.5
+    legitimacy = -0.5
+    #Causes yearly event where BYZ must pay 100 ducats or face Ottoman retaliation
+}
+
 vasily_ii_in_exile = {
     country_admin_power = -1
     country_diplomatic_power = -1
@@ -10865,29 +10872,29 @@ angry_nonconformists = {
 
 a_new_consort_heir_modifier = {
     heir_chance = 1
-    #VU - Start of Don Broms additions for 1.36.2.*
+    #VU - Start of VU additions for 1.36.2.*
     monthly_heir_claim_increase = 0.05
     block_introduce_heir = yes
-    #VU - End of Don Broms additions for 1.36.2.*
+    #VU - End of VU additions for 1.36.2.*
 }
 
 anglican_innovativeness = {
     innovativeness_gain = 0.5
-    #VU - Start of Don Broms additions for 1.36.2.*
+    #VU - Start of VU additions for 1.36.2.*
     reform_progress_growth = 0.15
     technology_cost = -0.05
     idea_cost = -0.05
     institution_spread_from_true_faith = 0.15
-    #VU - End of Don Broms additions for 1.36.2.*
+    #VU - End of VU additions for 1.36.2.*
 }
 
 expelling_heretics = {
-    #VU - Start of Don Broms additions for 1.36.2.*
+    #VU - Start of VU additions for 1.36.2.*
     religious_unity = 0.15
     tolerance_heretic = -1
     global_colonial_growth = 20
     native_uprising_chance = 0.15
-    #VU - End of Don Broms additions for 1.36.2.*
+    #VU - End of VU additions for 1.36.2.*
 }
 
 anglican_militarized_church_aspect = {
@@ -10895,7 +10902,7 @@ anglican_militarized_church_aspect = {
     shock_damage_received = -0.1
 }
 
-#VU - Start of Don Broms additions for 1.36.2.**
+#VU - Start of VU additions for 1.36.2.**
 VU_anglican_spread_the_book = {
     missionaries = 1
     missionary_maintenance_cost = 0.25
@@ -10951,7 +10958,7 @@ vu_encourage_readiness_to_fight_aspect_modifier = {
     land_morale = 0.1
 }
 
-#VU - End of Don Broms additions for 1.36.2.**
+#VU - End of additions for 1.36.2.
 # Indian Estates
 look_up_purbias = {
     is_rajput_modifier = yes

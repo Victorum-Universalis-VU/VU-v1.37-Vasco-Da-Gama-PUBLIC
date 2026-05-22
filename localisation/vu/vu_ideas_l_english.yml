@@ -2720,9 +2720,9 @@
  LBG_ideas: "Limburgish Ideas"
  ZEE_ideas: "Zeelander Ideas"
  #
- lotf_ideas: "American Ideas"
- lotf_ideas_start: "American Traditions"
- lotf_ideas_bonus: "American Ambition"
+ vu_murica_ideas: "American Ideas"
+ vu_murica_ideas_start: "American Traditions"
+ vu_murica_ideas_bonus: "American Ambition"
  freedom_of_religion: "Freedom of Religion"
  freedom_of_religion_desc: "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof..."
  nation_of_militias: "The Militia Act"
@@ -2731,8 +2731,8 @@
  usa_bill_of_rights_desc: "...or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances."
  manifest_destiny: "Manifest Destiny"
  manifest_destiny_desc: "It is the birthright of this American nation to reach from sea to shining sea."
- lotf_civil_war: "American Civil War"
- lotf_civil_war_desc: "...and that the union now subsisting between us and other States, under the name of 'The United States of America,' is hereby dissolved."
+ vu_murica_civil_war: "American Civil War"
+ vu_murica_civil_war_desc: "...and that the union now subsisting between us and other States, under the name of 'The United States of America,' is hereby dissolved."
  workshop_of_the_world: "Workshop of the World"
  workshop_of_the_world_desc: "Free craftsmen are productive craftsmen, so no craftsmen are as productive as ours."
  state_rights: "States' Rights"
@@ -4285,7 +4285,7 @@
  officer_siege_training: "Officer Siege Training"
  officer_siege_training_desc: "Long live 'le Petit Corparal'."
  
- #New VU 1.37.* ideas by Prussia and DonBrom localised by SF
+ #New VU 1.37.* ideas by Prussia and VU localised by SF
  #Innovativeness Ideas
  government_innovations: "Government Innovations"
  government_innovations_desc: "Implementing new and progressive policies to enhance governmental efficiency and effectiveness."

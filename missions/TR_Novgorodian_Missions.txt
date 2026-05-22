@@ -93,7 +93,7 @@ tr_novgorod_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			galich_area = { #Upper Don
+			galich_area = { #Upper VU
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }

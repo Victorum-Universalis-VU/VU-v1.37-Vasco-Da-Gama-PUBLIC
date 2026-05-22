@@ -1,5 +1,5 @@
 #vu_and_subjects_expanded_annexable_colony_scripted_effects
-#Formerly SE annexable colonies, repurpused for VU needs by Don
+#Formerly SE annexable colonies, repurpused for VU needs
 set_disabled_colonial_nation_spawning_for_region = {
     set_country_flag = no_cn_in_$colonial_region$
 }

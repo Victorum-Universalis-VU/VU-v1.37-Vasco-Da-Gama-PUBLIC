@@ -667,7 +667,7 @@ sco_rb_colonial_2 = {
 			    area = subarctic_islands_area
 				area = iceland_area
 			}
-			NOT = {	province_id = 5591 } #Jan Mayen, Don't think this should be required
+			NOT = {	province_id = 5591 } #Jan Mayen, VU't think this should be required
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -676,7 +676,7 @@ sco_rb_colonial_2 = {
 			subarctic_islands_area = {
 				type = all
 				OR = {
-					province_id = 5591 #Jan Mayen, Don't think this should be required
+					province_id = 5591 #Jan Mayen, VU't think this should be required
 					country_or_non_sovereign_subject_holds = ROOT
 				}
 			}

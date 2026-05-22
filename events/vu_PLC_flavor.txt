@@ -431,7 +431,7 @@ country_event = { # Second Peace of Thorn
 		months = 12
 	}
 	
-	option = { # Don't agree to Peace
+	option = { # VU't agree to Peace
 		name = vu_plc.4.a
 		ai_chance = { factor = 25 }
 	}

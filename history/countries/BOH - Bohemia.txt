@@ -16,7 +16,7 @@ add_accepted_culture = slovak
 add_accepted_culture = silesian_german
 add_army_professionalism = 0.1
 historical_rival = HUN
-#historical_rival = BRA #Hashed out due to Don's advice since it makes diplomacy between brandenburg and bohemia impossible. - SF
+#historical_rival = BRA #Hashed out due to VU's advice since it makes diplomacy between brandenburg and bohemia impossible. - SF
 historical_rival = AUT
 historical_rival = HAB
 historical_rival = CR1
@@ -31,7 +31,7 @@ change_estate_land_share = {
     share = -5
 }
 
-#Removed this bandaid fix, as we have a new one - Don
+#Removed this bandaid fix, as we have a new one - VU
 #add_country_modifier = {
 #    name = "mercenary_upkeep_X"
 #    duration = -1

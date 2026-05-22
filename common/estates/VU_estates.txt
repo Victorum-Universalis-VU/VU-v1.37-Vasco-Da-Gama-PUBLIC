@@ -550,8 +550,9 @@ estate_maya = {
 	color = { 79 162 43 }
 
 	# If true, country will get estate
+	# VU fix: flag was never set anywhere; use direct religion condition instead
 	trigger = {
-		has_country_flag = estate_maya_enabled
+		religion = mesoamerican_religion
 	}
 
 	# These scale with loyalty & power

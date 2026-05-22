@@ -39,4 +39,11 @@ spriteTypes = {
 		name = "privilege_estate_guarantee_privileges"
 		texturefile = "gfx/interface/privileges/privilege_estate_guarantee_privileges.dds"
 	}
+
+	# Moved from bt_privileges_pics.gfx
+					
+	spriteType = {
+		name = "privilege_british_strong_marches"
+		texturefile = "gfx/interface/privileges/privilege_british_strong_marches.dds"
+	}
 }

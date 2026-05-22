@@ -24,11 +24,11 @@ vu_send_administrative_bureaucrats_for_ADM = {
 			}
 		}
 		NOT = {
-			#Don addition
+			#VU addition
 			has_country_flag = vu_send_administrative_bureaucrats_for_adm_flag
 		}
 		if = {
-			#Don addition
+			#VU addition
 			limit = {
 				has_country_flag = vu_send_administrative_bureaucrats_for_adm_cooldown_flag #
 			}
@@ -40,9 +40,9 @@ vu_send_administrative_bureaucrats_for_ADM = {
 		}
 	}
 	on_accept = {
-		clr_country_flag = vu_send_administrative_bureaucrats_for_adm_cooldown_flag		#Don addition
+		clr_country_flag = vu_send_administrative_bureaucrats_for_adm_cooldown_flag		#VU addition
 		set_country_flag = vu_send_administrative_bureaucrats_for_adm_flag
-		set_country_flag = vu_send_administrative_bureaucrats_for_adm_cooldown_flag		#Don addition
+		set_country_flag = vu_send_administrative_bureaucrats_for_adm_cooldown_flag		#VU addition
 		clr_country_flag = vu_send_diplomatic_envoys_for_dip_flag
 		clr_country_flag = vu_send_military_attaches_for_mil_flag
 		#Yeeted ROOT because it is already in ROOT
@@ -89,7 +89,7 @@ vu_send_administrative_bureaucrats_for_ADM = {
 		}
 	}
 	ai_will_do = {
-		#Ai stuff by DonBrom
+		#Ai stuff by VU
 		alliance_with = FROM
 		trust = {
 			who = FROM
@@ -103,12 +103,12 @@ vu_send_administrative_bureaucrats_for_ADM = {
 		is_at_war = no
 		has_any_disaster = no
 		is_in_deficit = no
-		is_month = 11		#Don's a genius and I love it! December = Winter is coming. :P
+		is_month = 11		#VU's a genius and I love it! December = Winter is coming. :P
 		adm_power = 750
-		is_great_power = yes		#Another Don addition - If you're a shitty tag then forget it! xD
+		is_great_power = yes		#Another VU addition - If you're a shitty tag then forget it! xD
 		FROM = {
 			ai = no
-			is_subject = no			#Another Don addition - Subjects don't get it! xD
+			is_subject = no			#Another VU addition - Subjects don't get it! xD
 			is_great_power = no			# xD
 			OR = {
 				is_at_war = yes
@@ -143,11 +143,11 @@ vu_send_diplomatic_envoys_for_DIP = {
 			}
 		}
 		NOT = {
-			#Don addition
+			#VU addition
 			has_country_flag = vu_send_diplomatic_envoys_for_dip_flag
 		}
 		if = {
-			#Don addition
+			#VU addition
 			limit = {
 				has_country_flag = vu_send_diplomatic_envoys_for_dip_cooldown_flag
 			}
@@ -159,9 +159,9 @@ vu_send_diplomatic_envoys_for_DIP = {
 		}
 	}
 	on_accept = {
-		clr_country_flag = vu_send_diplomatic_envoys_for_dip_cooldown_flag		#Don addition
+		clr_country_flag = vu_send_diplomatic_envoys_for_dip_cooldown_flag		#VU addition
 		set_country_flag = vu_send_diplomatic_envoys_for_dip_flag
-		set_country_flag = vu_send_diplomatic_envoys_for_dip_cooldown_flag		#Don addition
+		set_country_flag = vu_send_diplomatic_envoys_for_dip_cooldown_flag		#VU addition
 		clr_country_flag = vu_send_administrative_bureaucrats_for_adm_flag
 		clr_country_flag = vu_send_military_attaches_for_mil_flag
 		#Yeeted ROOT because it is already in ROOT
@@ -208,7 +208,7 @@ vu_send_diplomatic_envoys_for_DIP = {
 		}
 	}
 	ai_will_do = {
-		#Ai stuff by DonBrom
+		#Ai stuff by VU
 		alliance_with = FROM
 		trust = {
 			who = FROM
@@ -222,12 +222,12 @@ vu_send_diplomatic_envoys_for_DIP = {
 		is_at_war = no
 		has_any_disaster = no
 		is_in_deficit = no
-		is_month = 11		#Don's a genius and I love it! December = Winter is coming. :P
+		is_month = 11		#VU's a genius and I love it! December = Winter is coming. :P
 		dip_power = 750
-		is_great_power = yes		#Another Don addition - If you're a shitty tag then forget it! xD
+		is_great_power = yes		#Another VU addition - If you're a shitty tag then forget it! xD
 		FROM = {
 			ai = no
-			is_subject = no			#Another Don addition - Subjects don't get it! xD
+			is_subject = no			#Another VU addition - Subjects don't get it! xD
 			is_great_power = no			# xD
 			OR = {
 				is_at_war = yes
@@ -265,11 +265,11 @@ vu_send_military_attaches_for_MIL = {
 			}
 		}
 		NOT = {
-			#Don addition
+			#VU addition
 			has_country_flag = vu_send_military_attaches_for_mil_flag
 		}
 		if = {
-			#Don addition
+			#VU addition
 			limit = {
 				has_country_flag = vu_send_military_attaches_for_mil_cooldown_flag
 			}
@@ -281,9 +281,9 @@ vu_send_military_attaches_for_MIL = {
 		}
 	}
 	on_accept = {
-		clr_country_flag = vu_send_military_attaches_for_mil_cooldown_flag		#Don addition
+		clr_country_flag = vu_send_military_attaches_for_mil_cooldown_flag		#VU addition
 		set_country_flag = vu_send_military_attaches_for_mil_flag
-		set_country_flag = vu_send_military_attaches_for_mil_cooldown_flag		#Don addition
+		set_country_flag = vu_send_military_attaches_for_mil_cooldown_flag		#VU addition
 		clr_country_flag = vu_send_administrative_bureaucrats_for_adm_flag
 		clr_country_flag = vu_send_diplomatic_envoys_for_dip_flag
 		#Yeeted ROOT because it is already in ROOT
@@ -330,7 +330,7 @@ vu_send_military_attaches_for_MIL = {
 		}
 	}
 	ai_will_do = {
-		#Ai stuff by DonBrom
+		#Ai stuff by VU
 		alliance_with = FROM
 		trust = {
 			who = FROM
@@ -344,12 +344,12 @@ vu_send_military_attaches_for_MIL = {
 		is_at_war = no
 		has_any_disaster = no
 		is_in_deficit = no
-		is_month = 11		#Don's a genius and I love it! December = Winter is coming. :P
+		is_month = 11		#VU's a genius and I love it! December = Winter is coming. :P
 		mil_power = 750
-		is_great_power = yes		#Another Don addition - If you're a shitty tag then forget it! xD
+		is_great_power = yes		#Another VU addition - If you're a shitty tag then forget it! xD
 		FROM = {
 			ai = no
-			is_subject = no			#Another Don addition - Subjects don't get it! xD
+			is_subject = no			#Another VU addition - Subjects don't get it! xD
 			is_great_power = no			# xD
 			OR = {
 				is_at_war = yes
@@ -385,11 +385,11 @@ vu_request_administrative_bureaucrats_for_ADM = {
 			}
 		}
 		NOT = {
-			#Don addition
+			#VU addition
 			has_country_flag = vu_request_administrative_bureaucrats_for_adm_flag
 		}
 		if = {
-			#Don addition
+			#VU addition
 			limit = {
 				has_country_flag = vu_request_administrative_bureaucrats_for_adm_cooldown_flag
 			}
@@ -401,9 +401,9 @@ vu_request_administrative_bureaucrats_for_ADM = {
 		}
 	}
 	on_accept = {
-		clr_country_flag = vu_request_administrative_bureaucrats_for_adm_cooldown_flag		#Don addition
+		clr_country_flag = vu_request_administrative_bureaucrats_for_adm_cooldown_flag		#VU addition
 		set_country_flag = vu_request_administrative_bureaucrats_for_adm_flag
-		set_country_flag = vu_request_administrative_bureaucrats_for_adm_cooldown_flag		#Don addition
+		set_country_flag = vu_request_administrative_bureaucrats_for_adm_cooldown_flag		#VU addition
 		clr_country_flag = vu_request_diplomatic_envoys_for_dip_flag
 		clr_country_flag = vu_request_military_attaches_for_mil_flag
 		FROM = {
@@ -445,7 +445,7 @@ vu_request_administrative_bureaucrats_for_ADM = {
 		}
 	}
 	ai_will_do = {
-		#Ai stuff by DonBrom
+		#Ai stuff by VU
 	}
 }
 
@@ -475,11 +475,11 @@ vu_request_diplomatic_envoys_for_DIP = {
 			}
 		}
 		NOT = {
-			#Don addition
+			#VU addition
 			has_country_flag = vu_request_diplomatic_envoys_for_dip_flag
 		}
 		if = {
-			#Don addition
+			#VU addition
 			limit = {
 				has_country_flag = vu_request_diplomatic_envoys_for_dip_cooldown_flag
 			}
@@ -491,9 +491,9 @@ vu_request_diplomatic_envoys_for_DIP = {
 		}
 	}
 	on_accept = {
-		clr_country_flag = vu_request_diplomatic_envoys_for_dip_cooldown_flag		#Don addition
+		clr_country_flag = vu_request_diplomatic_envoys_for_dip_cooldown_flag		#VU addition
 		set_country_flag = vu_request_diplomatic_envoys_for_dip_flag
-		set_country_flag = vu_request_diplomatic_envoys_for_dip_cooldown_flag		#Don addition
+		set_country_flag = vu_request_diplomatic_envoys_for_dip_cooldown_flag		#VU addition
 		clr_country_flag = vu_request_administrative_bureaucrats_for_adm_flag
 		clr_country_flag = vu_request_military_attaches_for_mil_flag
 		FROM = {
@@ -539,7 +539,7 @@ vu_request_diplomatic_envoys_for_DIP = {
 		}
 	}
 	ai_will_do = {
-		#Ai stuff by DonBrom
+		#Ai stuff by VU
 	}
 }
 
@@ -572,11 +572,11 @@ vu_request_military_attaches_for_MIL = {
 			}
 		}
 		NOT = {
-			#Don addition
+			#VU addition
 			has_country_flag = vu_request_military_attaches_for_mil_flag
 		}
 		if = {
-			#Don addition
+			#VU addition
 			limit = {
 				has_country_flag = vu_request_military_attaches_for_mil_cooldown_flag
 			}
@@ -588,9 +588,9 @@ vu_request_military_attaches_for_MIL = {
 		}
 	}
 	on_accept = {
-		clr_country_flag = vu_request_military_attaches_for_mil_cooldown_flag		#Don addition
+		clr_country_flag = vu_request_military_attaches_for_mil_cooldown_flag		#VU addition
 		set_country_flag = vu_request_military_attaches_for_mil_flag
-		set_country_flag = vu_request_military_attaches_for_mil_cooldown_flag		#Don addition
+		set_country_flag = vu_request_military_attaches_for_mil_cooldown_flag		#VU addition
 		clr_country_flag = vu_request_administrative_bureaucrats_for_adm_flag
 		clr_country_flag = vu_request_diplomatic_envoys_for_dip_flag
 		FROM = {

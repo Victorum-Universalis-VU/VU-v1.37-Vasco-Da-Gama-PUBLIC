@@ -1506,9 +1506,16 @@
  construct_vu_sydney_harbour_title: "Establish Sydney Harbour."
  construct_vu_sydney_harbour_desc: "Sydney Harbour is an established, thriving and bustling Australian city; Costs 4000."
  #
- #lotf
+ #VU Americas
  west_point: "West Point"
  fort_sumter: "Fort Sumter"
  liberty_bell: "The Liberty Bell"
  calumet_and_hecla: "C&H Mining Company"
+ #
+ #VU England
+ great_project_vu_kenilworth_castle: "Kenilworth Castle"
+ vu_kenilworth_castle: "Kenilworth Castle"
+ vu_kenilworth_castle_title: "Expand and reinforce Kenilworth Castle."
+ construct_vu_kenilworth_castle_title: "Expand and reinforce Kenilworth Castle."
+ construct_vu_kenilworth_castle_desc: "Founded around 1120 by Geoffrey de Clinton, Kenilworth Castle grew into one of the mightiest fortresses in England. Rebuilt and expanded by generations of English kings and nobles, it withstood the longest siege in English history in 1266, holding out for nine months against the forces of Henry III. John of Gaunt transformed it into a palatial stronghold in the 14th century, and Robert Dudley later lavished further riches upon it to impress Queen Elizabeth I. The castle commands the heart of the English Midlands from its great artificial mere.; Costs 2000."
 

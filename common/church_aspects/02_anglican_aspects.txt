@@ -1,4 +1,4 @@
-#VU - All made by Don Brom for 1.36.2*
+#VU - All made Brom for 1.36.2*
 vu_divorce_consort_aspect = {
 	sprite = "GFX_divorce_consort_icon"
 	cost = 25

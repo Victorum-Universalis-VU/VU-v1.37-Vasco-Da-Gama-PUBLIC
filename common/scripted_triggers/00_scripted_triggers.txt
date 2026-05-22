@@ -641,7 +641,7 @@ can_have_center_of_reformation_trigger = { #Province Scope
         religion = catholic
         religion = reformed
         religion = lollardy #VU addition by Robertk
-        religion = hussite  #VU addition by DonBrom
+        religion = hussite  #VU addition by VU
     }
     NOT = { province_id = 118 }
     is_in_capital_area = yes
@@ -1153,27 +1153,27 @@ has_dharma_elephants_trigger = {
 has_completed_all_reforms_trigger = { #
     custom_trigger_tooltip = {
         tooltip = has_completed_all_reforms_trigger_tooltip
-        has_dlc = "Dharma" #VU changed from Emperor to Dharma - SF & Don
+        has_dlc = "Dharma" #VU changed from Emperor to Dharma - SF & VU
         OR = {
             AND = {
                 government = monarchy
-                reform_level = 12 #VU 1.37 change - SF & Don
+                reform_level = 12 #VU 1.37 change - SF & VU
             }
             AND = {
                 government = republic
-                reform_level = 14 #VU 1.37 change - SF & Don
+                reform_level = 14 #VU 1.37 change - SF & VU
             }
             AND = {
                 government = theocracy
-                reform_level = 17 #VU 1.37 change - SF & Don
+                reform_level = 17 #VU 1.37 change - SF & VU
             }
             AND = {
                 government = native
-                reform_level = 5 #VU 1.37 change - SF & Don
+                reform_level = 5 #VU 1.37 change - SF & VU
             }
             AND = {
                 government = tribal
-                reform_level = 7 #VU 1.37 change - SF & Don
+                reform_level = 7 #VU 1.37 change - SF & VU
             }
         }
     }
@@ -1186,23 +1186,23 @@ has_final_tier_reforms_trigger = {
         OR = {
             AND = {
                 government = monarchy
-                reform_level = 12 #VU 1.37 change - SF & Don
+                reform_level = 12 #VU 1.37 change - SF & VU
             }
             AND = {
                 government = republic
-                reform_level = 14 #VU 1.37 change - SF & Don
+                reform_level = 14 #VU 1.37 change - SF & VU
             }
             AND = {
                 government = theocracy
-                reform_level = 17 #VU 1.37 change - SF & Don
+                reform_level = 17 #VU 1.37 change - SF & VU
             }
             AND = {
                 government = native
-                reform_level = 5 #VU 1.37 change - SF & Don
+                reform_level = 5 #VU 1.37 change - SF & VU
             }
             AND = {
                 government = tribal
-                reform_level = 7 #VU 1.37 change - SF & Don
+                reform_level = 7 #VU 1.37 change - SF & VU
             }
         }
     }

@@ -971,10 +971,10 @@ vu_promote_vassal_to_imperial_colony = {
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
-			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now... -Don
+			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now...
 			OR = {
 				is_subject_of_type = vassal
-				is_subject_of_type = client_vassal				#Client vassal is not necessary as it's not used but it's all good -Don
+				is_subject_of_type = client_vassal				#Client vassal is not necessary as it's not used but it's all good
 			}
 			government = monarchy
 		}
@@ -1006,7 +1006,7 @@ vu_promote_vassal_to_imperial_colony = {
 		FROM = {
 			add_government_reform = vu_japanese_imperial_colony_reform
 		}
-		vu_colour_refresh = yes		#Thank god somebody uses this -Don
+		vu_colour_refresh = yes		#Thank god somebody uses this
 	}
 	ai_will_do = {
 		always = no		#Keeping the AI off this for now, can't be bothered teaching it what to do
@@ -1026,7 +1026,7 @@ vu_rein_in_imperial_colony = {
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
-			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now... -Don
+			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now...
 			is_subject_of_type = vu_japanese_imperial_colony
 			government = monarchy
 		}
@@ -1058,7 +1058,7 @@ vu_rein_in_imperial_colony = {
 		FROM = {
 			add_government_reform = vu_japanese_imperial_directorate_reform
 		}
-		vu_colour_refresh = yes		#Thank god somebody uses this -Don
+		vu_colour_refresh = yes		#Thank god somebody uses this
 	}
 	ai_will_do = {
 		always = no		#Keeping the AI off this for now, can't be bothered teaching it what to do
@@ -1078,7 +1078,7 @@ vu_rein_in_imperial_protectorate = {
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
-			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now... -Don
+			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now...
 			is_subject_of_type = vu_japanese_imperial_directorate
 			government = monarchy
 		}
@@ -1110,7 +1110,7 @@ vu_rein_in_imperial_protectorate = {
 		FROM = {
 			add_government_reform = vu_japanese_imperial_governate_reform
 		}
-		vu_colour_refresh = yes		#Thank god somebody uses this -Don
+		vu_colour_refresh = yes		#Thank god somebody uses this
 	}
 	ai_will_do = {
 		always = no		#Keeping the AI off this for now, can't be bothered teaching it what to do
@@ -1130,7 +1130,7 @@ vu_rein_in_imperial_governate = {
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
-			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now... -Don
+			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now...
 			is_subject_of_type = vu_japanese_imperial_governate
 			government = monarchy
 		}
@@ -1162,7 +1162,7 @@ vu_rein_in_imperial_governate = {
 		FROM = {
 			add_government_reform = vu_japanese_imperial_warlord_reform
 		}
-		vu_colour_refresh = yes		#Thank god somebody uses this -Don
+		vu_colour_refresh = yes		#Thank god somebody uses this
 	}
 	ai_will_do = {
 		always = no		#Keeping the AI off this for now, can't be bothered teaching it what to do

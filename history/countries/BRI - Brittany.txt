@@ -303,7 +303,7 @@ historical_rival = ANJ
 	clear_scripted_personalities = yes
 	add_ruler_personality = infertile_personality
 	add_queen_personality = kind_hearted_personality		#Nicknamed the good duchess
-	add_queen_personality = pious_personality				#Don't know if I can put two personalities, but well she has been beatified and was devoted to religious affairs.
+	add_queen_personality = pious_personality				#VU't know if I can put two personalities, but well she has been beatified and was devoted to religious affairs.
 }
 
 1450.7.20 = {

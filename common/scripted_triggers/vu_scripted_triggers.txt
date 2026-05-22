@@ -2,7 +2,6 @@
 #country_has_both_paradox_and_golden_bull_missions = {}
 #Contributors:
 #Altan
-#DonBrom
 #San Felipe
 #VU building triggers - Altan
 has_production_building_trigger = {
@@ -40,7 +39,7 @@ has_transportation_trigger = {
 	}
 }
 
-#VU subject triggers - Altan, appended by Don with some modifications + new ones
+#VU subject triggers - Altan, appended with some modifications + new ones
 is_daimyo_subject_type = {
 	OR = {
 		is_subject_of_type = daimyo_vassal
@@ -354,7 +353,7 @@ is_ToR_republican_subject_type = {
     }
 }
 
-has_ToR_republican_government_reform = { #By DM, Don, Lukas & Prussia
+has_ToR_republican_government_reform = { #By DM, VU, Lukas & Prussia
     OR = {
 		has_reform = vu_rep_outpost_reform                   #Commandant
 		has_reform = vu_unlocked_rep_outpost_reform
@@ -615,7 +614,7 @@ ToR_can_change_colour = {
 #		all_subject_country = {
 #			is_ToR_subject_type = yes
 #		}
-#		amount = 25		#Total limit for Subjects -Don, Prussia
+#		amount = 25		#Total limit for Subjects, Prussia
 #	}
 #}
 
@@ -624,7 +623,7 @@ ToR_can_change_colour = {
 #		all_subject_country = {
 #			is_subject_of_type = feudal_republic
 #		}
-#		amount = 10		#Total limit for Subjects -Don, Prussia
+#		amount = 10		#Total limit for Subjects, Prussia
 #	}
 #}
 
@@ -636,7 +635,7 @@ ToR_can_change_colour = {
 #				is_subject_of_type = christian_bishopric
 #			}
 #		}
-#		amount = 7		#Total limit for Subjects -Don, Prussia
+#		amount = 7		#Total limit for Subjects, Prussia
 #	}
 #}
 
@@ -645,7 +644,7 @@ ToR_can_change_colour = {
 #		all_subject_country = {
 #			is_subject_of_type = christian_archbishopric
 #		}
-#		amount = 3		#Total limit for Subjects -Don, Prussia
+#		amount = 3		#Total limit for Subjects, Prussia
 #	}
 #}
 
@@ -654,7 +653,7 @@ ToR_can_change_colour = {
 #		all_subject_country = {
 #			is_muslim_subject_type = yes
 #		}
-#		amount = 25		#Total limit for Subjects -Don, Prussia
+#		amount = 25		#Total limit for Subjects, Prussia
 #	}
 #}
 
@@ -851,16 +850,16 @@ vu_province_in_ost_afrika = {
 }
 
 ##################
-## Don's New AI ##
+## VU's New AI ##
 ##################
-vu_don_economy_ai_never_do_when = {
+vu_economy_ai_never_do_when = {
 	OR = {
 		num_of_loans = 5
 		governing_capacity_percentage = 0.8
 	}
 }
 
-vu_don_economy_ai_avoid_doing_when = {
+vu_economy_ai_avoid_doing_when = {
 	OR = {
 		is_in_deficit = yes
 		NOT = {
@@ -871,14 +870,14 @@ vu_don_economy_ai_avoid_doing_when = {
 	}
 }
 
-vu_don_economy_ai_never_build_in = {
+vu_economy_ai_never_build_in = {
 	OR = {
 		has_terrain = glacier
 		has_terrain = cold_mountains
 	}
 }
 
-vu_don_economy_ai_avoid_building_in = {
+vu_economy_ai_avoid_building_in = {
 	OR = {
 		has_climate = arctic
 		has_climate = arid
@@ -892,7 +891,7 @@ vu_don_economy_ai_avoid_building_in = {
 	}
 }
 
-vu_don_economy_ai_trade_in = {
+vu_economy_ai_trade_in = {
 	OR = {
 		has_river_estuary_trigger = yes
 		has_special_trade_modifier = yes
@@ -917,7 +916,7 @@ vu_don_economy_ai_trade_in = {
 	}
 }
 
-vu_don_economy_ai_manpower_in = {
+vu_economy_ai_manpower_in = {
 	OR = {
 		base_manpower = 10
 		trade_goods = fruit
@@ -930,16 +929,19 @@ vu_don_economy_ai_manpower_in = {
 	}
 }
 
-vu_don_economy_ai_manpower_when = {
+vu_economy_ai_manpower_when = {
+	# Fixed: the original NOT { manpower_percentage = 0.5 } fired when manpower was BELOW
+	# 50%, making AI rush to build barracks while depleted — exactly the wrong time.
+	# This fed the doom-stack loop: war -> low manpower -> build barracks -> more FL ->
+	# recruit empty regiments. Now fires when manpower is healthy (75%+), so AI builds
+	# manpower infrastructure as forward preparation, not as a panic response.
 	OR = {
 		max_manpower = 20
-		NOT = {
-			manpower_percentage = 0.5
-		}
+		manpower_percentage = 0.75
 	}
 }
 
-vu_don_economy_ai_forcelimit_in = {
+vu_economy_ai_forcelimit_in = {
 	OR = {
 		base_manpower = 10
 		trade_goods = grain
@@ -957,7 +959,7 @@ vu_don_economy_ai_forcelimit_in = {
 	}
 }
 
-vu_don_economy_ai_forcelimit_when = {
+vu_economy_ai_forcelimit_when = {
 	OR = {
 		army_size_percentage = 0.9
 		NOT = {
@@ -966,7 +968,7 @@ vu_don_economy_ai_forcelimit_when = {
 	}
 }
 
-vu_don_economy_ai_naval_forcelimit_in = {
+vu_economy_ai_naval_forcelimit_in = {
 	OR = {
 		vu_province_has_naval_base = yes
 		trade_goods = fish
@@ -976,7 +978,7 @@ vu_don_economy_ai_naval_forcelimit_in = {
 	}
 }
 
-vu_don_economy_ai_naval_forcelimit_when = {
+vu_economy_ai_naval_forcelimit_when = {
 	OR = {
 		navy_size_percentage = 0.9
 		NOT = {
@@ -987,7 +989,7 @@ vu_don_economy_ai_naval_forcelimit_when = {
 	}
 }
 
-vu_don_economy_ai_sailors_in = {
+vu_economy_ai_sailors_in = {
 	OR = {
 		vu_province_has_naval_base = yes
 		trade_goods = fish
@@ -995,7 +997,7 @@ vu_don_economy_ai_sailors_in = {
 	}
 }
 
-vu_don_economy_ai_sailors_when = {
+vu_economy_ai_sailors_when = {
 	OR = {
 		num_of_marines = 1
 		NOT = {
@@ -1004,26 +1006,32 @@ vu_don_economy_ai_sailors_when = {
 	}
 }
 
-vu_don_economy_ai_government_when = {
+vu_economy_ai_government_when = {
 	OR = {
 		governing_capacity_percentage = 0.75
 		average_autonomy_above_min = 25
 	}
 }
 
-vu_don_economy_ai_government_never_do_when = {
+vu_economy_ai_government_never_do_when = {
+	# Fixed logic: NOT { A B C } evaluates as NOT(A AND B AND C), meaning it fired
+	# whenever any single condition was false — i.e., almost always. The intent is
+	# "never build government buildings when none of the distress signals are present."
+	# Correct form is NOT { OR { A B C } }.
 	NOT = {
-		governing_capacity_percentage = 0.5
-		average_autonomy_above_min = 25
-		num_of_loans = 1
+		OR = {
+			governing_capacity_percentage = 0.5
+			average_autonomy_above_min = 25
+			num_of_loans = 1
+		}
 	}
 }
 
-vu_don_economy_ai_education_when = {
+vu_economy_ai_education_when = {
 	is_lacking_institutions = yes
 }
 
-vu_don_economy_ai_education_in = {
+vu_economy_ai_education_in = {
 	OR = {
 		NOT = {
 			current_institution = 100
@@ -1032,13 +1040,13 @@ vu_don_economy_ai_education_in = {
 	}
 }
 
-vu_don_economy_ai_church_when = {
+vu_economy_ai_church_when = {
 	NOT = {
 		religious_unity = 0.5
 	}
 }
 
-vu_don_economy_ai_church_in = {
+vu_economy_ai_church_in = {
 	OR = {
 		base_tax = 10
 		trade_goods = gems
@@ -1050,7 +1058,7 @@ vu_don_economy_ai_church_in = {
 	}
 }
 
-vu_don_economy_ai_fortress_never_in = {
+vu_economy_ai_fortress_never_in = {
 	OR = {
 		any_neighbor_province = {
 			OR = {
@@ -1064,7 +1072,7 @@ vu_don_economy_ai_fortress_never_in = {
 	}
 }
 
-vu_don_economy_ai_fortress_avoid_in = {
+vu_economy_ai_fortress_avoid_in = {
 	any_province_in_state = {
 		OR = {
 			has_building = fort_15th
@@ -1075,7 +1083,7 @@ vu_don_economy_ai_fortress_avoid_in = {
 	}
 }
 
-vu_don_economy_ai_infrastructure_in = {
+vu_economy_ai_infrastructure_in = {
 	OR = {
 		development = 10
 		is_capital = yes
@@ -1086,7 +1094,7 @@ vu_don_economy_ai_infrastructure_in = {
 }
 
 ##############################
-## Don's Performance Update ##
+## VU's Performance Update ##
 ##############################
 #
 #Older also working version, swapped it for the new one as it's slightly more optimised
@@ -1112,7 +1120,7 @@ vu_don_economy_ai_infrastructure_in = {
 #}
 #
 #############################################################################################
-# Don't touch this, if this breaks the whole system's fucked -Don
+# VU't touch this, if this breaks the whole system's fucked
 #############################################################################################
 vu_triggered_modifier_trigger = {
 	if = {
@@ -1924,6 +1932,29 @@ vu_triggered_modifier_event_176_trigger = {
 					region = italy_region
 				}
 			}
+		}
+	}
+}
+
+########################################
+# VU French Nation Scripted Trigger    #
+# True for all VU French progression   #
+# tags, plus any French culture nation #
+# when FRA does not exist.             #
+########################################
+is_french_nation = {
+	OR = {
+		tag = FRA
+		tag = BFR
+		tag = FSE
+		tag = FSR
+		tag = NPF
+		tag = OFR
+		tag = RVF
+		tag = TFR
+		AND = {
+			culture_group = french
+			NOT = { exists = FRA }
 		}
 	}
 }

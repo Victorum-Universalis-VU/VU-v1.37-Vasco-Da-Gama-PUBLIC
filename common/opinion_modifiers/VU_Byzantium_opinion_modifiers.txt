@@ -11,6 +11,6 @@ byz_denied_access_to_constantinople_modifier = {
 	yearly_decay = 2.5 
 }
 byz_refused_to_defend_the_empire_opinion = {
-	opinion = -50 
-	yearly_decay = 5 
+	opinion = -50
+	yearly_decay = 5
 }

@@ -151,7 +151,7 @@ country_event = {
 	}
 }
 
-#Independence War event by - Don Brom
+#Independence War event by - VU
 country_event = {
 	id = vu_debug.4
 	title = "vu_debug.4.t"
@@ -185,7 +185,7 @@ country_event = {
 				attacker_leader = ROOT
 			}
 			is_in_war = {
-				casus_belli = lotf_civil_war
+				casus_belli = vu_murica_civil_war
 				attacker_leader = ROOT
 			}
 		}

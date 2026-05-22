@@ -1979,6 +1979,7 @@ add_increase_opinion_of_fetishists = {
 			every_known_country = {
 				limit = {
 					religion = shamanism
+					NOT = { tag = ROOT }
 					NOT = {
 						has_opinion_modifier = {
 							who = ROOT
@@ -1999,7 +2000,7 @@ add_increase_opinion_of_fetishists = {
 	}
 }
 
-#Country effect - make sure to add an own custom tooltip in form of: "Every §Y$religion$§! country will have their opinion of [Root.GetName] increased by §G+50§!."
+#Country effect - make sure to add an own custom tooltip in form of: "Every ï¿½Y$religion$ï¿½! country will have their opinion of [Root.GetName] increased by ï¿½G+50ï¿½!."
 add_opinion_of_religion = {
 	hidden_effect = {
 		set_country_flag = has_improve_opinion_flag
@@ -2007,6 +2008,7 @@ add_opinion_of_religion = {
 		every_known_country = {
 			limit = {
 				religion = $religion$
+				NOT = { tag = ROOT }
 				NOT = {
 					has_opinion_modifier = {
 						who = ROOT
@@ -2026,7 +2028,7 @@ add_opinion_of_religion = {
 	}
 }
 
-#Country effect - make sure to add a custom localization like: "Remove the opinion bonus of $religion$ countries for §Y[Root.GetName]§!."
+#Country effect - make sure to add a custom localization like: "Remove the opinion bonus of $religion$ countries for ï¿½Y[Root.GetName]ï¿½!."
 remove_religious_opinion_for_scope = {
 	hidden_effect = {
 		clr_country_flag = has_improve_opinion_flag
@@ -2064,7 +2066,7 @@ add_temporary_colonist = {
 #Country effect
 #Make sure to make your own custom tooltip for it because parameters can't be given as input. Sadly.
 transfer_treasury = {
-	#custom_tooltip = transfer_treasury_tt	#Transfer §Y[$giver$.$variable$.GetValue]§! Ducats to $Y[$taker$.GetName]§!.
+	#custom_tooltip = transfer_treasury_tt	#Transfer ï¿½Y[$giver$.$variable$.GetValue]ï¿½! Ducats to $Y[$taker$.GetName]ï¿½!.
 	hidden_effect = {
 		$giver$ = {
 			while = {
@@ -2540,7 +2542,7 @@ upgrade_building = {
 	]
 }
 
-#Country effect - Make sure to make an own custom tooltip for it when using it "Gain §G$years$ years§! worth of Trade Income."
+#Country effect - Make sure to make an own custom tooltip for it when using it "Gain ï¿½G$years$ yearsï¿½! worth of Trade Income."
 add_years_of_trade_income = {
 	hidden_effect = {
 		set_variable = {
@@ -3260,7 +3262,7 @@ for_variable_amount = {
 # <unit name> 
 ##########################################################
 #Country effect
-# For tooltip use the following scheme: "§Y<amount>§! of §Y<unit_type>§! will be created in §Y[<province>.GetName]§! for §Y[This.GetName]§!."
+# For tooltip use the following scheme: "ï¿½Y<amount>ï¿½! of ï¿½Y<unit_type>ï¿½! will be created in ï¿½Y[<province>.GetName]ï¿½! for ï¿½Y[This.GetName]ï¿½!."
 create_units_of_type = {
 	[[custom_tooltip]
 		custom_tooltip = $custom_tooltip$
@@ -3276,7 +3278,7 @@ create_units_of_type = {
 }
 
 #Province effect
-# For tooltip use the following scheme: "§Y<amount>§! of §Y<unit_type>§! will be created in §Y[This.GetName]§! for §Y[<who>.GetName]§!."
+# For tooltip use the following scheme: "ï¿½Y<amount>ï¿½! of ï¿½Y<unit_type>ï¿½! will be created in ï¿½Y[This.GetName]ï¿½! for ï¿½Y[<who>.GetName]ï¿½!."
 create_units_of_type_in_province = {
 	[[custom_tooltip]
 		custom_tooltip = $custom_tooltip$
@@ -3725,7 +3727,7 @@ add_revolutionary_zeal_or_absolutism = {
 #		set_country_flag = grand_crusader_war_monger_flag
 #	}
 #}
-#enable_grand_crusade_tt: "Enables the §YGrand Crusade§! casus belli against all §YHeathen§! nations which have at least §Y300§! total development.\nThis casus belli enables a decision for every independent §YCatholic§! nation to join the Grand Crusade.\n\nTo join the Grand Crusade the Catholic nation must fulfil the following conditions:\nHas at least §Y100§! opinion of us or vice versa\nIs NOT allied with the §YGrand Crusade Target§! target\nHas NOT a truce with the §YGrand Crusade Target§!\nIs not at war\nDid NOT complete the §YHumanist§! idea group\n\n§RNations of the religion group of the §YGrand Crusade Target§! can join the defender's side.§!"
+#enable_grand_crusade_tt: "Enables the ï¿½YGrand Crusadeï¿½! casus belli against all ï¿½YHeathenï¿½! nations which have at least ï¿½Y300ï¿½! total development.\nThis casus belli enables a decision for every independent ï¿½YCatholicï¿½! nation to join the Grand Crusade.\n\nTo join the Grand Crusade the Catholic nation must fulfil the following conditions:\nHas at least ï¿½Y100ï¿½! opinion of us or vice versa\nIs NOT allied with the ï¿½YGrand Crusade Targetï¿½! target\nHas NOT a truce with the ï¿½YGrand Crusade Targetï¿½!\nIs not at war\nDid NOT complete the ï¿½YHumanistï¿½! idea group\n\nï¿½RNations of the religion group of the ï¿½YGrand Crusade Targetï¿½! can join the defender's side.ï¿½!"
 
 add_humiliation_reward = {
 	if = {

@@ -1,5 +1,20 @@
 spriteTypes = {
-	spriteType = { 
+	spriteType = {
+		name = "vu_tennis_court_oath_eventPicture"
+		texturefile = "gfx/event_pictures/vu_tennis_court_oath_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "vu_jiri_podebrad_eventPicture"
+		texturefile = "gfx/event_pictures/vu_jiri_podebrad_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "vu_napoleon_coup_eventPicture"
+		texturefile = "gfx/event_pictures/vu_napoleon_coup_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "vu_cereal_eventPicture" 
 		texturefile = "gfx/event_pictures/vu_cereal_eventPicture.dds"
 		allwaystransparent = yes

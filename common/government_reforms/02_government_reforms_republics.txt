@@ -9142,7 +9142,7 @@ supreme_admiral_reform = {
     }
 }
 
-#Generic Dominion reform by SF & Don
+#Generic Dominion reform by SF & VU
 vu_generic_dominion = {
     icon = "vu_generic_dominion"
     allow_normal_conversion = no
